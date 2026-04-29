@@ -1,4 +1,125 @@
 {
-  "updated": null,
-  "items": []
+  "updated": "2026-04-29T05:01:13.160811+00:00",
+  "items": [
+    {
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+      "source": "Google AI",
+      "published": "Tue, 28 Apr 2026 16:00:00 +0000"
+    },
+    {
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "source": "Hugging Face",
+      "published": "Tue, 28 Apr 2026 15:58:57 GMT"
+    },
+    {
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "source": "OpenAI",
+      "published": "Tue, 28 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "source": "OpenAI",
+      "published": "Tue, 28 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "source": "OpenAI",
+      "published": "Mon, 27 Apr 2026 14:00:00 GMT"
+    },
+    {
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "source": "Google AI",
+      "published": "Mon, 27 Apr 2026 13:00:00 +0000"
+    },
+    {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "source": "Google DeepMind",
+      "published": "Mon, 27 Apr 2026 07:00:06 +0000"
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "source": "OpenAI",
+      "published": "Mon, 27 Apr 2026 06:00:00 GMT"
+    },
+    {
+      "title": "An open-source spec for orchestration: Symphony",
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "source": "OpenAI",
+      "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "source": "Hugging Face",
+      "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "source": "Google AI",
+      "published": "Fri, 24 Apr 2026 19:00:00 +0000"
+    },
+    {
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "source": "Hugging Face",
+      "published": "Fri, 24 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Here\u2019s how our TPUs power increasingly demanding AI workloads.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "source": "Google AI",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000"
+    },
+    {
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "source": "Google AI",
+      "published": "Thu, 23 Apr 2026 09:00:00 +0000"
+    },
+    {
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "source": "Hugging Face",
+      "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "source": "Google DeepMind",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000"
+    },
+    {
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "source": "Google DeepMind",
+      "published": "Tue, 21 Apr 2026 14:54:15 +0000"
+    },
+    {
+      "title": "QIMMA \u0642\u0650\u0645\u0651\u0629 \u26f0: A Quality-First Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "source": "Hugging Face",
+      "published": "Tue, 21 Apr 2026 10:09:58 GMT"
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "source": "Google DeepMind",
+      "published": "Wed, 15 Apr 2026 16:03:19 +0000"
+    },
+    {
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "source": "Google DeepMind",
+      "published": "Mon, 13 Apr 2026 15:52:13 +0000"
+    }
+  ]
 }
