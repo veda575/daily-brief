@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Brief — Markets & LLMs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Daily Brief</h1>
+  <p id="updated">Loading…</p>
+</header>
+
+<main>
+  <section class="panel">
+    <h2>Top 5 Indian Stocks <span class="sub">(Daily Close · NSE)</span></h2>
+    <table id="stocks">
+      <thead>
+        <tr><th>Company</th><th>Ticker</th><th>Close (₹)</th><th>Change</th><th>%</th></tr>
+      </thead>
+      <tbody><tr><td colspan="5" class="muted">Loading…</td></tr></tbody>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h2>LLM &amp; AI News <span class="sub">(Last 24h)</span></h2>
+    <ul id="news"><li class="muted">Loading…</li></ul>
+  </section>
+</main>
+
+<footer>
+  <p class="muted">Sources: Yahoo Finance · Anthropic · OpenAI · Hugging Face · Hacker News · Google AI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
