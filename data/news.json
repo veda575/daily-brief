@@ -1,11 +1,41 @@
 {
-  "updated": "2026-04-29T14:37:08.535494+00:00",
+  "updated": "2026-04-30T14:32:43.929576+00:00",
   "items": [
+    {
+      "title": "Where the goblins came from",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "source": "OpenAI",
+      "published": "Wed, 29 Apr 2026 20:00:00 GMT"
+    },
+    {
+      "title": "AI evals are becoming the new compute bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "source": "Hugging Face",
+      "published": "Wed, 29 Apr 2026 16:45:09 GMT"
+    },
+    {
+      "title": "Granite 4.1 LLMs: How They\u2019re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "source": "Hugging Face",
+      "published": "Wed, 29 Apr 2026 15:01:48 GMT"
+    },
+    {
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "source": "OpenAI",
+      "published": "Wed, 29 Apr 2026 15:00:00 GMT"
+    },
     {
       "title": "Cybersecurity in the Intelligence Age",
       "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
       "source": "OpenAI",
       "published": "Wed, 29 Apr 2026 04:00:00 GMT"
+    },
+    {
+      "title": "DeepInfra on Hugging Face Inference Providers \ud83d\udd25",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "source": "Hugging Face",
+      "published": "Wed, 29 Apr 2026 00:00:00 GMT"
     },
     {
       "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
@@ -32,12 +62,6 @@
       "published": "Tue, 28 Apr 2026 00:00:00 GMT"
     },
     {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "source": "OpenAI",
-      "published": "Mon, 27 Apr 2026 14:00:00 GMT"
-    },
-    {
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
       "source": "Google AI",
@@ -48,12 +72,6 @@
       "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
       "source": "Google DeepMind",
       "published": "Mon, 27 Apr 2026 07:00:06 +0000"
-    },
-    {
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "source": "OpenAI",
-      "published": "Mon, 27 Apr 2026 06:00:00 GMT"
     },
     {
       "title": "How to build scalable web apps with OpenAI's Privacy Filter",
@@ -68,12 +86,6 @@
       "published": "Fri, 24 Apr 2026 19:00:00 +0000"
     },
     {
-      "title": "DeepSeek-V4: a million-token context that agents can actually use",
-      "url": "https://huggingface.co/blog/deepseekv4",
-      "source": "Hugging Face",
-      "published": "Fri, 24 Apr 2026 00:00:00 GMT"
-    },
-    {
       "title": "Here\u2019s how our TPUs power increasingly demanding AI workloads.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
       "source": "Google AI",
@@ -86,12 +98,6 @@
       "published": "Thu, 23 Apr 2026 09:00:00 +0000"
     },
     {
-      "title": "How to Use Transformers.js in a Chrome Extension",
-      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
-      "source": "Hugging Face",
-      "published": "Thu, 23 Apr 2026 00:00:00 GMT"
-    },
-    {
       "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
       "url": "https://deepmind.google/blog/decoupled-diloco/",
       "source": "Google DeepMind",
@@ -102,12 +108,6 @@
       "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
       "source": "Google DeepMind",
       "published": "Tue, 21 Apr 2026 14:54:15 +0000"
-    },
-    {
-      "title": "QIMMA \u0642\u0650\u0645\u0651\u0629 \u26f0: A Quality-First Arabic LLM Leaderboard",
-      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
-      "source": "Hugging Face",
-      "published": "Tue, 21 Apr 2026 10:09:58 GMT"
     },
     {
       "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
