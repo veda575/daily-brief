@@ -1,6 +1,18 @@
 {
-  "updated": "2026-04-30T14:32:43.929576+00:00",
+  "updated": "2026-05-01T13:58:48.244179+00:00",
   "items": [
+    {
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "source": "Google DeepMind",
+      "published": "Thu, 30 Apr 2026 12:14:15 +0000"
+    },
+    {
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "source": "OpenAI",
+      "published": "Thu, 30 Apr 2026 00:00:00 GMT"
+    },
     {
       "title": "Where the goblins came from",
       "url": "https://openai.com/index/where-the-goblins-came-from",
@@ -52,12 +64,6 @@
     {
       "title": "Our commitment to community safety",
       "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "source": "OpenAI",
-      "published": "Tue, 28 Apr 2026 00:00:00 GMT"
-    },
-    {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "url": "https://openai.com/index/openai-on-aws",
       "source": "OpenAI",
       "published": "Tue, 28 Apr 2026 00:00:00 GMT"
     },
@@ -114,12 +120,6 @@
       "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
       "source": "Google DeepMind",
       "published": "Wed, 15 Apr 2026 16:03:19 +0000"
-    },
-    {
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "source": "Google DeepMind",
-      "published": "Mon, 13 Apr 2026 15:52:13 +0000"
     }
   ]
 }
