@@ -1,6 +1,60 @@
 {
-  "updated": "2026-05-04T14:38:12.399328+00:00",
+  "updated": "2026-05-06T15:11:03.273384+00:00",
   "items": [
+    {
+      "title": "How frontier enterprises are building an AI advantage",
+      "url": "https://openai.com/index/introducing-b2b-signals",
+      "source": "OpenAI",
+      "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "source": "Hugging Face",
+      "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+      "source": "Google AI",
+      "published": "Tue, 05 May 2026 16:00:00 +0000"
+    },
+    {
+      "title": "GPT-5.5 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "source": "OpenAI",
+      "published": "Tue, 05 May 2026 10:00:00 GMT"
+    },
+    {
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "url": "https://openai.com/index/mrc-supercomputer-networking",
+      "source": "OpenAI",
+      "published": "Tue, 05 May 2026 10:00:00 GMT"
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "source": "OpenAI",
+      "published": "Tue, 05 May 2026 10:00:00 GMT"
+    },
+    {
+      "title": "New ways to buy ChatGPT ads",
+      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "source": "OpenAI",
+      "published": "Tue, 05 May 2026 00:00:00 GMT"
+    },
+    {
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "source": "Google AI",
+      "published": "Mon, 04 May 2026 17:00:00 +0000"
+    },
+    {
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "source": "Google AI",
+      "published": "Mon, 04 May 2026 15:30:00 +0000"
+    },
     {
       "title": "Enabling a new model for healthcare with AI co-clinician",
       "url": "https://deepmind.google/blog/ai-co-clinician/",
@@ -8,40 +62,10 @@
       "published": "Thu, 30 Apr 2026 12:14:15 +0000"
     },
     {
-      "title": "Introducing Advanced Account Security",
-      "url": "https://openai.com/index/advanced-account-security",
-      "source": "OpenAI",
-      "published": "Thu, 30 Apr 2026 00:00:00 GMT"
-    },
-    {
-      "title": "Where the goblins came from",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "source": "OpenAI",
-      "published": "Wed, 29 Apr 2026 20:00:00 GMT"
-    },
-    {
-      "title": "AI evals are becoming the new compute bottleneck",
-      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
-      "source": "Hugging Face",
-      "published": "Wed, 29 Apr 2026 16:45:09 GMT"
-    },
-    {
       "title": "Granite 4.1 LLMs: How They\u2019re Built",
       "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
       "source": "Hugging Face",
       "published": "Wed, 29 Apr 2026 15:01:48 GMT"
-    },
-    {
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "source": "OpenAI",
-      "published": "Wed, 29 Apr 2026 15:00:00 GMT"
-    },
-    {
-      "title": "Cybersecurity in the Intelligence Age",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "source": "OpenAI",
-      "published": "Wed, 29 Apr 2026 04:00:00 GMT"
     },
     {
       "title": "DeepInfra on Hugging Face Inference Providers \ud83d\udd25",
@@ -62,12 +86,6 @@
       "published": "Tue, 28 Apr 2026 15:58:57 GMT"
     },
     {
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "source": "OpenAI",
-      "published": "Tue, 28 Apr 2026 00:00:00 GMT"
-    },
-    {
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
       "source": "Google AI",
@@ -84,24 +102,6 @@
       "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
       "source": "Hugging Face",
       "published": "Mon, 27 Apr 2026 00:00:00 GMT"
-    },
-    {
-      "title": "8 Gemini tips for organizing your space (and life)",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "source": "Google AI",
-      "published": "Fri, 24 Apr 2026 19:00:00 +0000"
-    },
-    {
-      "title": "Here\u2019s how our TPUs power increasingly demanding AI workloads.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-      "source": "Google AI",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000"
-    },
-    {
-      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
-      "source": "Google AI",
-      "published": "Thu, 23 Apr 2026 09:00:00 +0000"
     },
     {
       "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
