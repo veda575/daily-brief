@@ -1,9 +1,51 @@
 {
-  "updated": "2026-05-06T15:11:03.273384+00:00",
+  "updated": "2026-05-07T15:12:06.585822+00:00",
   "items": [
+    {
+      "title": "Parloa builds service agents customers want to talk to",
+      "url": "https://openai.com/index/parloa",
+      "source": "OpenAI",
+      "published": "Thu, 07 May 2026 11:00:00 GMT"
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "source": "Hugging Face",
+      "published": "Wed, 06 May 2026 19:06:55 GMT"
+    },
+    {
+      "title": "5 gardening tips you can try right in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "source": "Google AI",
+      "published": "Wed, 06 May 2026 16:00:00 +0000"
+    },
+    {
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "source": "Google DeepMind",
+      "published": "Wed, 06 May 2026 10:43:49 +0000"
+    },
+    {
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "source": "OpenAI",
+      "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "url": "https://openai.com/index/uber",
+      "source": "OpenAI",
+      "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
     {
       "title": "How frontier enterprises are building an AI advantage",
       "url": "https://openai.com/index/introducing-b2b-signals",
+      "source": "OpenAI",
+      "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "url": "https://openai.com/index/singular-bank",
       "source": "OpenAI",
       "published": "Wed, 06 May 2026 00:00:00 GMT"
     },
@@ -18,30 +60,6 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
       "source": "Google AI",
       "published": "Tue, 05 May 2026 16:00:00 +0000"
-    },
-    {
-      "title": "GPT-5.5 Instant System Card",
-      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "source": "OpenAI",
-      "published": "Tue, 05 May 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "url": "https://openai.com/index/mrc-supercomputer-networking",
-      "source": "OpenAI",
-      "published": "Tue, 05 May 2026 10:00:00 GMT"
-    },
-    {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "url": "https://openai.com/index/gpt-5-5-instant",
-      "source": "OpenAI",
-      "published": "Tue, 05 May 2026 10:00:00 GMT"
-    },
-    {
-      "title": "New ways to buy ChatGPT ads",
-      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
-      "source": "OpenAI",
-      "published": "Tue, 05 May 2026 00:00:00 GMT"
     },
     {
       "title": "The latest AI news we announced in April 2026",
@@ -86,22 +104,10 @@
       "published": "Tue, 28 Apr 2026 15:58:57 GMT"
     },
     {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "source": "Google AI",
-      "published": "Mon, 27 Apr 2026 13:00:00 +0000"
-    },
-    {
       "title": "Announcing our partnership with the Republic of Korea",
       "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
       "source": "Google DeepMind",
       "published": "Mon, 27 Apr 2026 07:00:06 +0000"
-    },
-    {
-      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
-      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-      "source": "Hugging Face",
-      "published": "Mon, 27 Apr 2026 00:00:00 GMT"
     },
     {
       "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -114,12 +120,6 @@
       "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
       "source": "Google DeepMind",
       "published": "Tue, 21 Apr 2026 14:54:15 +0000"
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "source": "Google DeepMind",
-      "published": "Wed, 15 Apr 2026 16:03:19 +0000"
     }
   ]
 }
