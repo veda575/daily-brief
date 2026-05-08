@@ -1,40 +1,40 @@
 {
-  "updated": "2026-05-07T15:12:06.585822+00:00",
+  "updated": "2026-05-08T14:22:31.101742+00:00",
   "stocks": [
     {
       "ticker": "RELIANCE.NS",
       "name": "Reliance Industries",
-      "close": 1436.2,
-      "change": -1.7,
-      "changePercent": -0.12
+      "close": 1435.2,
+      "change": -1.0,
+      "changePercent": -0.07
     },
     {
       "ticker": "TCS.NS",
       "name": "Tata Consultancy Services",
-      "close": 2401.4,
-      "change": -34.0,
-      "changePercent": -1.4
+      "close": 2394.4,
+      "change": -7.0,
+      "changePercent": -0.29
     },
     {
       "ticker": "HDFCBANK.NS",
       "name": "HDFC Bank",
-      "close": 796.05,
-      "change": -0.5,
-      "changePercent": -0.06
+      "close": 780.85,
+      "change": -15.2,
+      "changePercent": -1.91
     },
     {
       "ticker": "ICICIBANK.NS",
       "name": "ICICI Bank",
-      "close": 1279.0,
-      "change": -0.5,
-      "changePercent": -0.04
+      "close": 1264.8,
+      "change": -14.2,
+      "changePercent": -1.11
     },
     {
       "ticker": "BHARTIARTL.NS",
       "name": "Bharti Airtel",
-      "close": 1826.6,
-      "change": -7.1,
-      "changePercent": -0.39
+      "close": 1834.5,
+      "change": 7.9,
+      "changePercent": 0.43
     }
   ]
 }

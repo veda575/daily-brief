@@ -1,11 +1,41 @@
 {
-  "updated": "2026-05-07T15:12:06.585822+00:00",
+  "updated": "2026-05-08T14:22:31.101742+00:00",
   "items": [
+    {
+      "title": "MedQA: Fine-Tuning a Clinical AI on AMD ROCm \u2014 No CUDA Required",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa",
+      "source": "Hugging Face",
+      "published": "Fri, 08 May 2026 07:54:18 GMT"
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "source": "OpenAI",
+      "published": "Thu, 07 May 2026 13:00:00 GMT"
+    },
     {
       "title": "Parloa builds service agents customers want to talk to",
       "url": "https://openai.com/index/parloa",
       "source": "OpenAI",
       "published": "Thu, 07 May 2026 11:00:00 GMT"
+    },
+    {
+      "title": "Advancing voice intelligence with new models in the API",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "source": "OpenAI",
+      "published": "Thu, 07 May 2026 10:00:00 GMT"
+    },
+    {
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "source": "OpenAI",
+      "published": "Thu, 07 May 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "OpenAI",
+      "published": "Thu, 07 May 2026 00:00:00 GMT"
     },
     {
       "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
@@ -24,30 +54,6 @@
       "url": "https://deepmind.google/blog/alphaevolve-impact/",
       "source": "Google DeepMind",
       "published": "Wed, 06 May 2026 10:43:49 +0000"
-    },
-    {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-      "source": "OpenAI",
-      "published": "Wed, 06 May 2026 00:00:00 GMT"
-    },
-    {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "url": "https://openai.com/index/uber",
-      "source": "OpenAI",
-      "published": "Wed, 06 May 2026 00:00:00 GMT"
-    },
-    {
-      "title": "How frontier enterprises are building an AI advantage",
-      "url": "https://openai.com/index/introducing-b2b-signals",
-      "source": "OpenAI",
-      "published": "Wed, 06 May 2026 00:00:00 GMT"
-    },
-    {
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "url": "https://openai.com/index/singular-bank",
-      "source": "OpenAI",
-      "published": "Wed, 06 May 2026 00:00:00 GMT"
     },
     {
       "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
@@ -96,12 +102,6 @@
       "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
       "source": "Google AI",
       "published": "Tue, 28 Apr 2026 16:00:00 +0000"
-    },
-    {
-      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-      "source": "Hugging Face",
-      "published": "Tue, 28 Apr 2026 15:58:57 GMT"
     },
     {
       "title": "Announcing our partnership with the Republic of Korea",
