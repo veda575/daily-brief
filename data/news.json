@@ -1,11 +1,29 @@
 {
-  "updated": "2026-05-08T14:22:31.101742+00:00",
+  "updated": "2026-05-09T13:57:55.128998+00:00",
   "items": [
     {
-      "title": "MedQA: Fine-Tuning a Clinical AI on AMD ROCm \u2014 No CUDA Required",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa",
+      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
       "source": "Hugging Face",
-      "published": "Fri, 08 May 2026 07:54:18 GMT"
+      "published": "Fri, 08 May 2026 17:41:05 GMT"
+    },
+    {
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "source": "Hugging Face",
+      "published": "Fri, 08 May 2026 16:03:50 GMT"
+    },
+    {
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "source": "Google AI",
+      "published": "Fri, 08 May 2026 15:00:00 +0000"
+    },
+    {
+      "title": "Running Codex safely at OpenAI",
+      "url": "https://openai.com/index/running-codex-safely",
+      "source": "OpenAI",
+      "published": "Fri, 08 May 2026 12:30:00 GMT"
     },
     {
       "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
@@ -24,12 +42,6 @@
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
       "source": "OpenAI",
       "published": "Thu, 07 May 2026 10:00:00 GMT"
-    },
-    {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "source": "OpenAI",
-      "published": "Thu, 07 May 2026 00:00:00 GMT"
     },
     {
       "title": "Testing ads in ChatGPT",
@@ -90,18 +102,6 @@
       "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
       "source": "Hugging Face",
       "published": "Wed, 29 Apr 2026 15:01:48 GMT"
-    },
-    {
-      "title": "DeepInfra on Hugging Face Inference Providers \ud83d\udd25",
-      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
-      "source": "Hugging Face",
-      "published": "Wed, 29 Apr 2026 00:00:00 GMT"
-    },
-    {
-      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
-      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
-      "source": "Google AI",
-      "published": "Tue, 28 Apr 2026 16:00:00 +0000"
     },
     {
       "title": "Announcing our partnership with the Republic of Korea",
