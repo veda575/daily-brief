@@ -64,25 +64,34 @@ PRIVATE_COMPANIES = [
 # ────────────────────────────────────────────────────────────────────
 
 TECH_AI_FEEDS = [
-    ("Anthropic",       "https://www.anthropic.com/news/rss.xml"),
-    ("OpenAI",          "https://openai.com/blog/rss.xml"),
-    ("Hugging Face",    "https://huggingface.co/blog/feed.xml"),
-    ("Google AI",       "https://blog.google/technology/ai/rss/"),
-    ("Google DeepMind", "https://deepmind.google/blog/rss.xml"),
-    ("MIT Tech Review", "https://www.technologyreview.com/feed/"),
-    ("The Verge",       "https://www.theverge.com/rss/index.xml"),
-    ("TechCrunch",      "https://techcrunch.com/feed/"),
-    ("Ars Technica",    "https://feeds.arstechnica.com/arstechnica/index"),
-    ("Wired",           "https://www.wired.com/feed/rss"),
+    # AI-native publishers (all items are on-topic)
+    ("Anthropic",         "https://www.anthropic.com/news/rss.xml"),
+    ("OpenAI",            "https://openai.com/blog/rss.xml"),
+    ("Hugging Face",      "https://huggingface.co/blog/feed.xml"),
+    ("Google AI",         "https://blog.google/technology/ai/rss/"),
+    ("Google DeepMind",   "https://deepmind.google/blog/rss.xml"),
+    # Category-specific feeds (AI section only, not main site)
+    ("TechCrunch AI",     "https://techcrunch.com/category/artificial-intelligence/feed/"),
+    ("The Verge AI",      "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+    ("VentureBeat AI",    "https://venturebeat.com/category/ai/feed/"),
+    ("Ars Technica AI",   "https://arstechnica.com/ai/feed/"),
+    ("MIT Tech Review",   "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
 ]
 
 INDIA_POLITICAL_FEEDS = [
-    ("Times of India",  "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms"),
-    ("The Hindu",       "https://www.thehindu.com/news/national/feeder/default.rss"),
-    ("Indian Express",  "https://indianexpress.com/section/india/feed/"),
-    ("Hindustan Times", "https://www.hindustantimes.com/feeds/rss/india-news/index.xml"),
-    ("NDTV",            "https://feeds.feedburner.com/ndtvnews-top-stories"),
-    ("Mint",            "https://www.livemint.com/rss/politics"),
+    # Politics-specific feeds (not general "national news")
+    ("Indian Express - Political Pulse",
+        "https://indianexpress.com/section/political-pulse/feed/"),
+    ("The Print - Politics",
+        "https://theprint.in/category/politics/feed/"),
+    ("Mint - Politics",
+        "https://www.livemint.com/rss/politics"),
+    ("Economic Times - Politics",
+        "https://economictimes.indiatimes.com/news/politics-and-nation/rssfeeds/1052734.cms"),
+    ("The Wire - Politics",
+        "https://thewire.in/politics/feed"),
+    ("Scroll.in",
+        "https://feeds.feedburner.com/ScrollinArticles.rss"),
 ]
 
 GEOPOLITICAL_FEEDS = [
@@ -93,7 +102,60 @@ GEOPOLITICAL_FEEDS = [
     ("AP World",        "https://feeds.apnews.com/rss/world"),
     ("DW",              "https://rss.dw.com/rdf/rss-en-world"),
     ("Reuters World",   "https://www.reutersagency.com/feed/?best-topics=world&post_type=best"),
+    ("War on the Rocks","https://warontherocks.com/feed/"),
 ]
+
+# ── Category filters (drop off-topic items even if they slip in via broad feeds) ──
+SPORTS_ENTERTAINMENT_RE = re.compile(
+    r"\b(cricket|football|soccer|tennis|kabaddi|hockey|olympic|world cup|la liga|el clasico|"
+    r"epl|premier league|ipl|test match|odi|t20|wicket|striker|midfielder|hamstring|"
+    r"movie|film|actor|actress|album|trailer|box office|netflix|web series|concert|song "
+    r"release|EP release|kalimba|synth|recipe|fashion|celebrity|wedding|honeymoon|"
+    r"mother's day gift|gift ideas|horoscope|zodiac)\b",
+    re.I,
+)
+
+TECH_AI_RE = re.compile(
+    r"\b(AI|A\.I\.|artificial intelligence|machine learning|deep learning|neural|"
+    r"LLM|GPT|Claude|Gemini|ChatGPT|Anthropic|OpenAI|Mistral|Llama|HuggingFace|"
+    r"DeepMind|Nvidia|GPU|TPU|inference|training|fine.?tun|transformer|diffusion|"
+    r"agent(?:ic)?|RAG|embedding|prompt|chatbot|copilot|data ?center|hyperscaler|"
+    r"semiconductor|chip|silicon|wafer|foundry|TSMC|robotic|automation|"
+    r"startup|cloud|SaaS|software|cybersecurity|tech compan)\b",
+    re.I,
+)
+
+INDIA_POLITICS_RE = re.compile(
+    r"\b(politic|elect|BJP|Congress(?!ional)|Modi|Rahul Gandhi|Sonia Gandhi|"
+    r"parliament|Lok Sabha|Rajya Sabha|minister|cabinet|policy|opposition|MLA|"
+    r"AAP|DMK|AIADMK|TMC|Trinamool|Shiv Sena|NCP|CPI|CPM|Samajwadi|"
+    r"party|vote|coalition|alliance|assembly|legislative|legislator|"
+    r"chief minister|prime minister|governor|president(?:ial)?|"
+    r"supreme court|high court|constitution|amendment|bill |ordinance|"
+    r"CBI|ED|enforcement directorate|election commission|EC )\b",
+    re.I,
+)
+
+GEOPOLITICS_RE = re.compile(
+    r"\b(war|conflict|sanctions|treaty|diplomat|NATO|UN |U\.N\.|Putin|Xi |Trump|"
+    r"Biden|Zelensk|election|foreign|embassy|geopolitic|invasion|missile|nuclear|"
+    r"Iran|Russia|China|Ukraine|Israel|Hamas|Gaza|Hezbollah|Lebanon|Syria|"
+    r"North Korea|Pyongyang|Taiwan|South China|Middle East|trade war|tariff|"
+    r"alliance|coup|protest|uprising|summit|peace talks|cease.?fire|airstrike|"
+    r"drone strike|refugee|asylum)\b",
+    re.I,
+)
+
+
+def keep_item(item: dict, must_match: re.Pattern | None,
+              must_not_match: re.Pattern | None = SPORTS_ENTERTAINMENT_RE) -> bool:
+    text = (item.get("title", "") + " " + item.get("summary", "")).lower()
+    if must_not_match and must_not_match.search(text):
+        return False
+    if must_match and not must_match.search(text):
+        return False
+    return True
+
 
 TOP_N = 20
 LOOKBACK_DAYS = 30   # widen to 30d so we always have items; UI labels as "recent"
@@ -217,16 +279,25 @@ def fetch_feed(source: str, url: str, limit: int = 10) -> list[dict]:
     return items
 
 
-def fetch_category(feeds: list[tuple[str, str]], top_n: int = TOP_N) -> list[dict]:
+def fetch_category(feeds: list[tuple[str, str]],
+                   topic_re: re.Pattern | None = None,
+                   top_n: int = TOP_N) -> list[dict]:
     all_items = []
     for src, url in feeds:
         all_items.extend(fetch_feed(src, url))
+
+    # 1. drop items that obviously don't match the category
+    relevant = [i for i in all_items if keep_item(i, topic_re)]
+
+    # 2. prefer recent items; fall back to all if too few survive the topic filter
     cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
-    fresh = [i for i in all_items if parse_date(i["published"]) >= cutoff]
-    pool = fresh if len(fresh) >= top_n else all_items
+    fresh = [i for i in relevant if parse_date(i["published"]) >= cutoff]
+    pool = fresh if len(fresh) >= top_n else (relevant if len(relevant) >= top_n else all_items)
+
     pool.sort(key=lambda x: parse_date(x["published"]), reverse=True)
-    seen = set()
-    deduped = []
+
+    # 3. dedupe by URL or title
+    seen, deduped = set(), []
     for it in pool:
         key = it["url"] or it["title"]
         if key in seen:
@@ -268,13 +339,13 @@ def main():
         {"updated": now, "companies": privates}, indent=2
     ))
 
-    for label, feeds, filename in [
-        ("tech / AI",     TECH_AI_FEEDS,        "news_tech.json"),
-        ("india political", INDIA_POLITICAL_FEEDS, "news_india.json"),
-        ("geopolitical",  GEOPOLITICAL_FEEDS,   "news_global.json"),
+    for label, feeds, filter_re, filename in [
+        ("tech / AI",       TECH_AI_FEEDS,         TECH_AI_RE,        "news_tech.json"),
+        ("india political", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json"),
+        ("geopolitical",    GEOPOLITICAL_FEEDS,    GEOPOLITICS_RE,    "news_global.json"),
     ]:
         print(f"Fetching {label} news…")
-        items = fetch_category(feeds)
+        items = fetch_category(feeds, filter_re)
         (DATA / filename).write_text(json.dumps(
             {"updated": now, "items": items}, indent=2
         ))
