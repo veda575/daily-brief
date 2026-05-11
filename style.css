@@ -143,8 +143,49 @@ body.menu-open main { margin-left: var(--sidebar-w); }
 .private-card a:hover { color: var(--accent); }
 .private-card .news-meta { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
 
+/* ── News time-window accordion (3 windows per section) ─ */
+.news-list { display: flex; flex-direction: column; gap: 12px; }
+.news-window {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.window-head {
+  padding: 14px 18px;
+  display: flex; align-items: center; gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.window-head:hover { background: var(--panel-2); }
+.window-title { font-size: 14px; font-weight: 600; }
+.window-count { color: var(--muted); font-size: 12px; margin-left: auto; }
+.window-head .chev { color: var(--muted); transition: transform .2s; }
+.news-window.expanded .chev { transform: rotate(180deg); }
+.window-body {
+  display: none;
+  padding: 0 14px 14px;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+.news-window.expanded .window-body { display: flex; }
+
+/* ── Tag pills (AI / Tech indicator on tech-news cards) ── */
+.tag-pill {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+.tag-pill.tag-ai   { background: rgba(110,168,254,0.15); color: var(--accent); }
+.tag-pill.tag-tech { background: rgba(138,147,163,0.18); color: var(--muted); }
+
 /* ── News cards (expandable) ──────────────────────────── */
-.news-list { display: flex; flex-direction: column; gap: 8px; }
 .news-card {
   background: var(--panel);
   border: 1px solid var(--border);

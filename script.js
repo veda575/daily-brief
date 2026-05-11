@@ -98,19 +98,38 @@ function renderPrivate(companies) {
   }).join('') + '</div>';
 }
 
-// ── News rendering ────────────────────────────────────
-function renderNews(targetId, items) {
-  const container = document.getElementById(targetId);
-  if (!items || !items.length) {
-    container.innerHTML = '<p class="muted">No recent items.</p>';
-    return;
-  }
-  container.innerHTML = items.map((n, i) => `
-    <article class="news-card" data-idx="${i}">
+// ── News rendering (3 time windows per section) ───────
+const WINDOWS = [
+  { key: '24h',   label: 'Last 24 hours', maxAgeDays: 1  },
+  { key: 'week',  label: 'Last week',     maxAgeDays: 7  },
+  { key: 'month', label: 'Last month',    maxAgeDays: 30 },
+];
+
+function ageDays(iso) {
+  const t = new Date(iso).getTime();
+  if (isNaN(t)) return Infinity;
+  return (Date.now() - t) / 86400000;
+}
+
+function sliceWindow(items, maxAgeDays, isTech) {
+  const eligible = items.filter(i => ageDays(i.published) <= maxAgeDays);
+  if (!isTech) return eligible.slice(0, 20);
+  const ai = eligible.filter(i => i.isAI).slice(0, 15);
+  const aiKeys = new Set(ai.map(i => i.url || i.title));
+  const other = eligible.filter(i => !i.isAI && !aiKeys.has(i.url || i.title)).slice(0, 5);
+  return [...ai, ...other].sort((a, b) => new Date(b.published) - new Date(a.published));
+}
+
+function newsCardHtml(n) {
+  const aiTag = n.isAI === false
+    ? ' · <span class="tag-pill tag-tech">Tech</span>'
+    : (n.isAI === true ? ' · <span class="tag-pill tag-ai">AI</span>' : '');
+  return `
+    <article class="news-card">
       <div class="news-head">
         <div>
           <div class="news-title">${escapeHtml(n.title)}</div>
-          <div class="news-meta-row">${escapeHtml(n.source)} · ${fmtRelative(n.published)}</div>
+          <div class="news-meta-row">${escapeHtml(n.source)} · ${fmtRelative(n.published)}${aiTag}</div>
         </div>
         <span class="chev">▼</span>
       </div>
@@ -118,10 +137,38 @@ function renderNews(targetId, items) {
         <div>${escapeHtml(n.summary || 'No summary available.')}</div>
         ${n.url ? `<a class="read-more" href="${n.url}" target="_blank" rel="noopener">Read full story →</a>` : ''}
       </div>
-    </article>
+    </article>`;
+}
+
+function renderNewsWindows(targetId, items, isTech = false) {
+  const container = document.getElementById(targetId);
+  items = items || [];
+
+  const slices = WINDOWS.map(w => ({ ...w, items: sliceWindow(items, w.maxAgeDays, isTech) }));
+  // Auto-expand the first non-empty window
+  const firstWithItems = slices.findIndex(s => s.items.length > 0);
+
+  container.innerHTML = slices.map((w, idx) => `
+    <div class="news-window ${idx === firstWithItems ? 'expanded' : ''}">
+      <div class="window-head">
+        <span class="window-title">${w.label}</span>
+        <span class="window-count">${w.items.length} ${w.items.length === 1 ? 'item' : 'items'}</span>
+        <span class="chev">▼</span>
+      </div>
+      <div class="window-body">
+        ${w.items.length === 0
+          ? '<p class="muted" style="padding:8px 4px;">No items in this window.</p>'
+          : w.items.map(newsCardHtml).join('')}
+      </div>
+    </div>
   `).join('');
+
+  container.querySelectorAll('.window-head').forEach(h => {
+    h.addEventListener('click', () => h.parentElement.classList.toggle('expanded'));
+  });
   container.querySelectorAll('.news-card').forEach(card => {
-    card.querySelector('.news-head').addEventListener('click', () => {
+    card.querySelector('.news-head').addEventListener('click', e => {
+      e.stopPropagation();
       card.classList.toggle('expanded');
     });
   });
@@ -183,9 +230,9 @@ function setUpdated(...sources) {
     stocksData = stocks;
     privateData = priv;
     showStockRegion('us');
-    renderNews('news-tech',   tech.items);
-    renderNews('news-india',  india.items);
-    renderNews('news-global', global.items);
+    renderNewsWindows('news-tech',   tech.items,   true);
+    renderNewsWindows('news-india',  india.items);
+    renderNewsWindows('news-global', global.items);
     setUpdated(stocks, priv, tech, india, global);
 
     if (window.innerWidth >= 820) body.classList.add('menu-open');

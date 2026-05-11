@@ -64,18 +64,27 @@ PRIVATE_COMPANIES = [
 # ────────────────────────────────────────────────────────────────────
 
 TECH_AI_FEEDS = [
-    # AI-native publishers (all items are on-topic)
+    # AI-native publishers (all items definitionally AI)
     ("Anthropic",         "https://www.anthropic.com/news/rss.xml"),
     ("OpenAI",            "https://openai.com/blog/rss.xml"),
     ("Hugging Face",      "https://huggingface.co/blog/feed.xml"),
     ("Google AI",         "https://blog.google/technology/ai/rss/"),
     ("Google DeepMind",   "https://deepmind.google/blog/rss.xml"),
-    # Category-specific feeds (AI section only, not main site)
+    # Category-specific feeds (AI section only)
     ("TechCrunch AI",     "https://techcrunch.com/category/artificial-intelligence/feed/"),
     ("The Verge AI",      "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("VentureBeat AI",    "https://venturebeat.com/category/ai/feed/"),
     ("Ars Technica AI",   "https://arstechnica.com/ai/feed/"),
     ("MIT Tech Review",   "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
+]
+
+# General tech feeds — used to surface the 5 non-AI tech items per window
+TECH_GENERAL_FEEDS = [
+    ("TechCrunch",   "https://techcrunch.com/feed/"),
+    ("The Verge",    "https://www.theverge.com/rss/index.xml"),
+    ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index"),
+    ("Hacker News",  "https://hnrss.org/frontpage?points=150"),
+    ("Wired",        "https://www.wired.com/feed/rss"),
 ]
 
 INDIA_POLITICAL_FEEDS = [
@@ -109,9 +118,11 @@ GEOPOLITICAL_FEEDS = [
 SPORTS_ENTERTAINMENT_RE = re.compile(
     r"\b(cricket|football|soccer|tennis|kabaddi|hockey|olympic|world cup|la liga|el clasico|"
     r"epl|premier league|ipl|test match|odi|t20|wicket|striker|midfielder|hamstring|"
-    r"movie|film|actor|actress|album|trailer|box office|netflix|web series|concert|song "
-    r"release|EP release|kalimba|synth|recipe|fashion|celebrity|wedding|honeymoon|"
-    r"mother's day gift|gift ideas|horoscope|zodiac)\b",
+    r"movie|film|actor|actress|album|trailer|box office|netflix|web series|concert|"
+    r"song release|EP release|kalimba|synth|recipe|fashion|celebrity|wedding|honeymoon|"
+    r"mother's day gift|gift ideas|horoscope|zodiac|"
+    r"promo code|coupon|discount|% off|limited time|deal of the|best deals|"
+    r"on sale|holiday sale|black friday|cyber monday)\b",
     re.I,
 )
 
@@ -157,8 +168,16 @@ def keep_item(item: dict, must_match: re.Pattern | None,
     return True
 
 
-TOP_N = 20
-LOOKBACK_DAYS = 30   # widen to 30d so we always have items; UI labels as "recent"
+TOP_N = 60           # backend returns up to 60 items; frontend slices per time window
+LOOKBACK_DAYS = 35   # items older than this get dropped at the backend
+
+TECH_BROAD_RE = re.compile(
+    r"\b(AI|tech|software|hardware|app|platform|cloud|startup|chip|silicon|"
+    r"semiconductor|robot|cyber|API|developer|coding|programming|encrypt|"
+    r"database|browser|mobile|laptop|smartphone|GPU|server|network|"
+    r"cryptocurrency|blockchain|quantum|battery|EV|autonomous)\b",
+    re.I,
+)
 
 # ────────────────────────────────────────────────────────────────────
 # HELPERS
@@ -284,19 +303,15 @@ def fetch_category(feeds: list[tuple[str, str]],
                    top_n: int = TOP_N) -> list[dict]:
     all_items = []
     for src, url in feeds:
-        all_items.extend(fetch_feed(src, url))
+        all_items.extend(fetch_feed(src, url, limit=20))
 
-    # 1. drop items that obviously don't match the category
     relevant = [i for i in all_items if keep_item(i, topic_re)]
-
-    # 2. prefer recent items; fall back to all if too few survive the topic filter
     cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
     fresh = [i for i in relevant if parse_date(i["published"]) >= cutoff]
-    pool = fresh if len(fresh) >= top_n else (relevant if len(relevant) >= top_n else all_items)
+    pool = fresh if len(fresh) >= top_n else (relevant if relevant else all_items)
 
     pool.sort(key=lambda x: parse_date(x["published"]), reverse=True)
 
-    # 3. dedupe by URL or title
     seen, deduped = set(), []
     for it in pool:
         key = it["url"] or it["title"]
@@ -305,6 +320,42 @@ def fetch_category(feeds: list[tuple[str, str]],
         seen.add(key)
         deduped.append(it)
     return deduped[:top_n]
+
+
+def fetch_tech_news() -> list[dict]:
+    """Combined tech feed. Each item tagged with isAI=True/False so the frontend
+    can present 15 AI + 5 other-tech per time window."""
+    items = []
+
+    # 1. AI-native publishers — always isAI=True
+    for src, url in TECH_AI_FEEDS:
+        for it in fetch_feed(src, url, limit=20):
+            if not keep_item(it, None):                  # only block sports/entertainment
+                continue
+            it["isAI"] = True
+            items.append(it)
+
+    # 2. General tech feeds — tag isAI based on whether the title/summary mentions AI
+    for src, url in TECH_GENERAL_FEEDS:
+        for it in fetch_feed(src, url, limit=15):
+            if not keep_item(it, TECH_BROAD_RE):         # must be tech-ish, not sports
+                continue
+            text = (it["title"] + " " + it.get("summary", "")).lower()
+            it["isAI"] = bool(TECH_AI_RE.search(text))
+            items.append(it)
+
+    # 3. dedupe by URL/title, drop very old, sort by date
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
+    items = [i for i in items if parse_date(i["published"]) >= cutoff]
+    seen, deduped = set(), []
+    for it in items:
+        key = it["url"] or it["title"]
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(it)
+    deduped.sort(key=lambda x: parse_date(x["published"]), reverse=True)
+    return deduped[:TOP_N]
 
 
 def fetch_private_company_news(name: str, limit: int = 5) -> list[dict]:
@@ -339,8 +390,15 @@ def main():
         {"updated": now, "companies": privates}, indent=2
     ))
 
+    print("Fetching tech / AI news…")
+    tech_items = fetch_tech_news()
+    (DATA / "news_tech.json").write_text(json.dumps(
+        {"updated": now, "items": tech_items}, indent=2
+    ))
+    ai_count = sum(1 for i in tech_items if i.get("isAI"))
+    print(f"  wrote {len(tech_items)} tech items ({ai_count} AI, {len(tech_items)-ai_count} other)")
+
     for label, feeds, filter_re, filename in [
-        ("tech / AI",       TECH_AI_FEEDS,         TECH_AI_RE,        "news_tech.json"),
         ("india political", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json"),
         ("geopolitical",    GEOPOLITICAL_FEEDS,    GEOPOLITICS_RE,    "news_global.json"),
     ]:
