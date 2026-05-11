@@ -3,35 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daily Brief — Markets & LLMs</title>
+<title>Daily Brief</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+
+<button id="menuBtn" aria-label="Toggle menu">
+  <span></span><span></span><span></span>
+</button>
+
+<aside id="sidebar">
   <h1>Daily Brief</h1>
-  <p id="updated">Loading…</p>
-</header>
+  <nav>
+    <a href="#stocks" class="nav-item active" data-section="stocks">
+      <span class="icon">📊</span><span class="label">Stock Market</span>
+    </a>
+    <a href="#tech" class="nav-item" data-section="tech">
+      <span class="icon">🤖</span><span class="label">Tech &amp; AI News</span>
+    </a>
+    <a href="#india" class="nav-item" data-section="india">
+      <span class="icon">🇮🇳</span><span class="label">India Political</span>
+    </a>
+    <a href="#global" class="nav-item" data-section="global">
+      <span class="icon">🌍</span><span class="label">Geopolitical</span>
+    </a>
+  </nav>
+  <p id="updated" class="muted">Loading…</p>
+</aside>
 
 <main>
-  <section class="panel">
-    <h2>Top 5 Indian Stocks <span class="sub">(Daily Close · NSE)</span></h2>
-    <table id="stocks">
-      <thead>
-        <tr><th>Company</th><th>Ticker</th><th>Close (₹)</th><th>Change</th><th>%</th></tr>
-      </thead>
-      <tbody><tr><td colspan="5" class="muted">Loading…</td></tr></tbody>
-    </table>
+
+  <section id="section-stocks" class="section active">
+    <h2>Stock Market Analysis</h2>
+    <div class="subtabs">
+      <button class="subtab active" data-region="us">🇺🇸 United States</button>
+      <button class="subtab" data-region="asia">🌏 Asia / Global Chips</button>
+      <button class="subtab" data-region="india">🇮🇳 India</button>
+      <button class="subtab" data-region="private">🛰️ Private Companies</button>
+    </div>
+    <div id="stocks-content" class="stocks-content">
+      <p class="muted">Loading stocks…</p>
+    </div>
   </section>
 
-  <section class="panel">
-    <h2>LLM &amp; AI News <span class="sub">(Last 24h)</span></h2>
-    <ul id="news"><li class="muted">Loading…</li></ul>
+  <section id="section-tech" class="section">
+    <h2>Tech &amp; AI News <span class="sub">Top 20 · refreshed daily</span></h2>
+    <div id="news-tech" class="news-list"><p class="muted">Loading…</p></div>
   </section>
+
+  <section id="section-india" class="section">
+    <h2>India — Political News <span class="sub">Top 20 · refreshed daily</span></h2>
+    <div id="news-india" class="news-list"><p class="muted">Loading…</p></div>
+  </section>
+
+  <section id="section-global" class="section">
+    <h2>Geopolitical News <span class="sub">Top 20 · refreshed daily</span></h2>
+    <div id="news-global" class="news-list"><p class="muted">Loading…</p></div>
+  </section>
+
 </main>
-
-<footer>
-  <p class="muted">Sources: Yahoo Finance · Anthropic · OpenAI · Hugging Face · Hacker News · Google AI</p>
-</footer>
 
 <script src="script.js"></script>
 </body>
