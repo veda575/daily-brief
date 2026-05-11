@@ -15,18 +15,45 @@
 <aside id="sidebar">
   <h1>Daily Brief</h1>
   <nav>
-    <a href="#stocks" class="nav-item active" data-section="stocks">
+    <a href="#" class="nav-item active" data-section="stocks">
       <span class="icon">📊</span><span class="label">Stock Market</span>
     </a>
-    <a href="#tech" class="nav-item" data-section="tech">
-      <span class="icon">🤖</span><span class="label">Tech &amp; AI News</span>
-    </a>
-    <a href="#india" class="nav-item" data-section="india">
-      <span class="icon">🇮🇳</span><span class="label">India Political</span>
-    </a>
-    <a href="#global" class="nav-item" data-section="global">
-      <span class="icon">🌍</span><span class="label">Geopolitical</span>
-    </a>
+
+    <div class="nav-group" data-section="tech">
+      <a href="#" class="nav-item nav-parent" data-section="tech" data-window="24h">
+        <span class="icon">🤖</span><span class="label">Tech &amp; AI News</span>
+        <span class="caret">▾</span>
+      </a>
+      <div class="nav-children">
+        <a href="#" class="nav-item nav-sub" data-section="tech" data-window="24h">Last 24 hours</a>
+        <a href="#" class="nav-item nav-sub" data-section="tech" data-window="week">Last week</a>
+        <a href="#" class="nav-item nav-sub" data-section="tech" data-window="month">Last month</a>
+      </div>
+    </div>
+
+    <div class="nav-group" data-section="india">
+      <a href="#" class="nav-item nav-parent" data-section="india" data-window="24h">
+        <span class="icon">🇮🇳</span><span class="label">India Political</span>
+        <span class="caret">▾</span>
+      </a>
+      <div class="nav-children">
+        <a href="#" class="nav-item nav-sub" data-section="india" data-window="24h">Last 24 hours</a>
+        <a href="#" class="nav-item nav-sub" data-section="india" data-window="week">Last week</a>
+        <a href="#" class="nav-item nav-sub" data-section="india" data-window="month">Last month</a>
+      </div>
+    </div>
+
+    <div class="nav-group" data-section="global">
+      <a href="#" class="nav-item nav-parent" data-section="global" data-window="24h">
+        <span class="icon">🌍</span><span class="label">Geopolitical</span>
+        <span class="caret">▾</span>
+      </a>
+      <div class="nav-children">
+        <a href="#" class="nav-item nav-sub" data-section="global" data-window="24h">Last 24 hours</a>
+        <a href="#" class="nav-item nav-sub" data-section="global" data-window="week">Last week</a>
+        <a href="#" class="nav-item nav-sub" data-section="global" data-window="month">Last month</a>
+      </div>
+    </div>
   </nav>
   <p id="updated" class="muted">Loading…</p>
 </aside>
@@ -47,17 +74,17 @@
   </section>
 
   <section id="section-tech" class="section">
-    <h2>Tech &amp; AI News <span class="sub">Top 20 · refreshed daily</span></h2>
+    <h2>Tech &amp; AI News <span class="sub" id="tech-window-label">Last 24 hours</span></h2>
     <div id="news-tech" class="news-list"><p class="muted">Loading…</p></div>
   </section>
 
   <section id="section-india" class="section">
-    <h2>India — Political News <span class="sub">Top 20 · refreshed daily</span></h2>
+    <h2>India — Political News <span class="sub" id="india-window-label">Last 24 hours</span></h2>
     <div id="news-india" class="news-list"><p class="muted">Loading…</p></div>
   </section>
 
   <section id="section-global" class="section">
-    <h2>Geopolitical News <span class="sub">Top 20 · refreshed daily</span></h2>
+    <h2>Geopolitical News <span class="sub" id="global-window-label">Last 24 hours</span></h2>
     <div id="news-global" class="news-list"><p class="muted">Loading…</p></div>
   </section>
 

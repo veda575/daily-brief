@@ -98,12 +98,12 @@ function renderPrivate(companies) {
   }).join('') + '</div>';
 }
 
-// ── News rendering (3 time windows per section) ───────
-const WINDOWS = [
-  { key: '24h',   label: 'Last 24 hours', maxAgeDays: 1  },
-  { key: 'week',  label: 'Last week',     maxAgeDays: 7  },
-  { key: 'month', label: 'Last month',    maxAgeDays: 30 },
-];
+// ── News rendering (one window at a time, chosen from sidebar) ──
+const WINDOWS = {
+  '24h':   { label: 'Last 24 hours', maxAgeDays: 1  },
+  'week':  { label: 'Last week',     maxAgeDays: 7  },
+  'month': { label: 'Last month',    maxAgeDays: 30 },
+};
 
 function ageDays(iso) {
   const t = new Date(iso).getTime();
@@ -111,8 +111,8 @@ function ageDays(iso) {
   return (Date.now() - t) / 86400000;
 }
 
-function sliceWindow(items, maxAgeDays, isTech) {
-  const eligible = items.filter(i => ageDays(i.published) <= maxAgeDays);
+function sliceForWindow(items, maxAgeDays, isTech) {
+  const eligible = (items || []).filter(i => ageDays(i.published) <= maxAgeDays);
   if (!isTech) return eligible.slice(0, 20);
   const ai = eligible.filter(i => i.isAI).slice(0, 15);
   const aiKeys = new Set(ai.map(i => i.url || i.title));
@@ -140,55 +140,94 @@ function newsCardHtml(n) {
     </article>`;
 }
 
-function renderNewsWindows(targetId, items, isTech = false) {
-  const container = document.getElementById(targetId);
-  items = items || [];
+// All news data, kept in memory so changing the time window doesn't refetch.
+const newsCache = { tech: [], india: [], global: [] };
 
-  const slices = WINDOWS.map(w => ({ ...w, items: sliceWindow(items, w.maxAgeDays, isTech) }));
-  // Auto-expand the first non-empty window
-  const firstWithItems = slices.findIndex(s => s.items.length > 0);
+function renderNewsForCurrentWindow(section) {
+  const containerId = 'news-' + section;
+  const container = document.getElementById(containerId);
+  const isTech = section === 'tech';
+  const win = WINDOWS[currentWindow];
+  const slice = sliceForWindow(newsCache[section], win.maxAgeDays, isTech);
 
-  container.innerHTML = slices.map((w, idx) => `
-    <div class="news-window ${idx === firstWithItems ? 'expanded' : ''}">
-      <div class="window-head">
-        <span class="window-title">${w.label}</span>
-        <span class="window-count">${w.items.length} ${w.items.length === 1 ? 'item' : 'items'}</span>
-        <span class="chev">▼</span>
-      </div>
-      <div class="window-body">
-        ${w.items.length === 0
-          ? '<p class="muted" style="padding:8px 4px;">No items in this window.</p>'
-          : w.items.map(newsCardHtml).join('')}
-      </div>
-    </div>
-  `).join('');
+  // Update the title-bar label so user sees which window is active
+  const label = document.getElementById(section + '-window-label');
+  if (label) label.textContent = win.label + ' · ' + slice.length + (slice.length === 1 ? ' item' : ' items');
 
-  container.querySelectorAll('.window-head').forEach(h => {
-    h.addEventListener('click', () => h.parentElement.classList.toggle('expanded'));
-  });
+  container.innerHTML = slice.length
+    ? slice.map(newsCardHtml).join('')
+    : '<p class="muted">No items in this window.</p>';
+
   container.querySelectorAll('.news-card').forEach(card => {
-    card.querySelector('.news-head').addEventListener('click', e => {
-      e.stopPropagation();
+    card.querySelector('.news-head').addEventListener('click', () => {
       card.classList.toggle('expanded');
     });
   });
 }
 
-// ── Sidebar / hamburger ───────────────────────────────
+// ── Sidebar / hamburger / routing ─────────────────────
 const body = document.body;
+let currentSection = 'stocks';
+let currentWindow  = '24h';
+
 document.getElementById('menuBtn').addEventListener('click', () => {
   body.classList.toggle('menu-open');
 });
 
-document.querySelectorAll('.nav-item').forEach(a => {
-  a.addEventListener('click', e => {
-    e.preventDefault();
-    const target = a.dataset.section;
-    document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n === a));
-    document.querySelectorAll('.section').forEach(s => {
-      s.classList.toggle('active', s.id === 'section-' + target);
+function setActive(section, win) {
+  currentSection = section;
+
+  // Show the right main section
+  document.querySelectorAll('.section').forEach(s => {
+    s.classList.toggle('active', s.id === 'section-' + section);
+  });
+
+  // Sidebar active state
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  if (section === 'stocks') {
+    document.querySelector('.nav-item[data-section="stocks"]').classList.add('active');
+  } else {
+    currentWindow = win || '24h';
+    // Mark the chosen sub-item active; ensure its parent group is expanded
+    const sub = document.querySelector(
+      `.nav-sub[data-section="${section}"][data-window="${currentWindow}"]`
+    );
+    if (sub) sub.classList.add('active');
+    document.querySelectorAll('.nav-group').forEach(g => {
+      g.classList.toggle('expanded', g.dataset.section === section);
     });
-    if (window.innerWidth < 820) body.classList.remove('menu-open');
+    renderNewsForCurrentWindow(section);
+  }
+
+  if (window.innerWidth < 820) body.classList.remove('menu-open');
+}
+
+// Top-level "Stock Market" link
+document.querySelector('.nav-item[data-section="stocks"]').addEventListener('click', e => {
+  e.preventDefault();
+  setActive('stocks');
+});
+
+// Parent items (Tech & AI / India / Geo): expand sub-menu + show 24h
+document.querySelectorAll('.nav-parent').forEach(p => {
+  p.addEventListener('click', e => {
+    e.preventDefault();
+    const section = p.dataset.section;
+    const group = p.closest('.nav-group');
+    const alreadyOpen = group.classList.contains('expanded') && currentSection === section;
+    if (alreadyOpen) {
+      group.classList.remove('expanded');     // toggle closed if already viewing it
+    } else {
+      setActive(section, '24h');
+    }
+  });
+});
+
+// Sub-items (Last 24h / week / month under each section)
+document.querySelectorAll('.nav-sub').forEach(s => {
+  s.addEventListener('click', e => {
+    e.preventDefault();
+    setActive(s.dataset.section, s.dataset.window);
   });
 });
 
@@ -229,10 +268,18 @@ function setUpdated(...sources) {
     ]);
     stocksData = stocks;
     privateData = priv;
+    newsCache.tech   = tech.items   || [];
+    newsCache.india  = india.items  || [];
+    newsCache.global = global.items || [];
+
     showStockRegion('us');
-    renderNewsWindows('news-tech',   tech.items,   true);
-    renderNewsWindows('news-india',  india.items);
-    renderNewsWindows('news-global', global.items);
+    // Pre-render each section's default (24h) so switching is instant
+    ['tech', 'india', 'global'].forEach(s => {
+      const prevSection = currentSection, prevWin = currentWindow;
+      currentWindow = '24h';
+      renderNewsForCurrentWindow(s);
+      currentSection = prevSection; currentWindow = prevWin;
+    });
     setUpdated(stocks, priv, tech, india, global);
 
     if (window.innerWidth >= 820) body.classList.add('menu-open');

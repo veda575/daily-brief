@@ -62,7 +62,7 @@ body.menu-open #sidebar { transform: translateX(0); }
 
 #sidebar h1 { margin: 0 0 24px; font-size: 18px; letter-spacing: -0.01em; }
 
-#sidebar nav { display: flex; flex-direction: column; gap: 4px; }
+#sidebar nav { display: flex; flex-direction: column; gap: 2px; }
 .nav-item {
   display: flex; align-items: center; gap: 12px;
   padding: 10px 12px;
@@ -71,10 +71,40 @@ body.menu-open #sidebar { transform: translateX(0); }
   border-radius: 8px;
   font-size: 14px;
   transition: background .15s;
+  cursor: pointer;
 }
 .nav-item:hover { background: var(--panel-2); }
 .nav-item.active { background: var(--panel-2); color: var(--accent); }
 .nav-item .icon { font-size: 16px; }
+
+/* Two-level sidebar groups (Tech & AI / India / Geopolitical) */
+.nav-group { display: flex; flex-direction: column; }
+.nav-parent .caret {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 12px;
+  transition: transform .2s;
+}
+.nav-group.expanded .nav-parent .caret { transform: rotate(180deg); }
+
+.nav-children {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.nav-group.expanded .nav-children { max-height: 200px; padding: 2px 0 4px; }
+
+.nav-sub {
+  padding: 7px 12px 7px 40px;     /* indented under the parent */
+  font-size: 13px;
+  color: var(--muted);
+  border-radius: 8px;
+}
+.nav-sub:hover { background: var(--panel-2); color: var(--text); }
+.nav-sub.active { background: rgba(110,168,254,0.10); color: var(--accent); }
 
 #updated { margin-top: 24px; font-size: 12px; }
 
@@ -143,34 +173,8 @@ body.menu-open main { margin-left: var(--sidebar-w); }
 .private-card a:hover { color: var(--accent); }
 .private-card .news-meta { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
 
-/* ── News time-window accordion (3 windows per section) ─ */
-.news-list { display: flex; flex-direction: column; gap: 12px; }
-.news-window {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  overflow: hidden;
-}
-.window-head {
-  padding: 14px 18px;
-  display: flex; align-items: center; gap: 12px;
-  cursor: pointer;
-  user-select: none;
-}
-.window-head:hover { background: var(--panel-2); }
-.window-title { font-size: 14px; font-weight: 600; }
-.window-count { color: var(--muted); font-size: 12px; margin-left: auto; }
-.window-head .chev { color: var(--muted); transition: transform .2s; }
-.news-window.expanded .chev { transform: rotate(180deg); }
-.window-body {
-  display: none;
-  padding: 0 14px 14px;
-  flex-direction: column;
-  gap: 8px;
-  border-top: 1px solid var(--border);
-  padding-top: 12px;
-}
-.news-window.expanded .window-body { display: flex; }
+/* ── News list (flat list inside main pane) ─────────── */
+.news-list { display: flex; flex-direction: column; gap: 8px; }
 
 /* ── Tag pills (AI / Tech indicator on tech-news cards) ── */
 .tag-pill {
