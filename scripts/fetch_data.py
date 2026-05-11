@@ -158,6 +158,42 @@ GEOPOLITICS_RE = re.compile(
 )
 
 
+def load_existing_items(path: Path) -> list[dict]:
+    """Read existing items from a data file so we can accumulate history."""
+    if not path.exists():
+        return []
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("items", []) or []
+    except Exception as e:
+        print(f"[merge] could not load {path}: {e}")
+        return []
+
+
+def merge_with_history(new_items: list[dict], existing: list[dict]) -> list[dict]:
+    """Merge new RSS items with what's already on disk. Dedupe by URL, drop old."""
+    by_key: dict[str, dict] = {}
+    for it in existing:
+        key = (it.get("url") or it.get("title") or "").strip()
+        if key:
+            by_key[key] = it
+    for it in new_items:                              # new items take priority for any conflict
+        key = (it.get("url") or it.get("title") or "").strip()
+        if not key:
+            continue
+        prev = by_key.get(key)
+        if prev and len(prev.get("summary") or "") > len(it.get("summary") or ""):
+            # keep the older record only if it has a longer / better summary
+            for k, v in it.items():
+                prev.setdefault(k, v)                 # but still pick up any new fields (e.g. isAI)
+        else:
+            by_key[key] = it
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
+    keep = [v for v in by_key.values() if parse_date(v.get("published", "")) >= cutoff]
+    keep.sort(key=lambda x: parse_date(x["published"]), reverse=True)
+    return keep[:MAX_STORED]
+
+
 def keep_item(item: dict, must_match: re.Pattern | None,
               must_not_match: re.Pattern | None = SPORTS_ENTERTAINMENT_RE) -> bool:
     text = (item.get("title", "") + " " + item.get("summary", "")).lower()
@@ -168,8 +204,9 @@ def keep_item(item: dict, must_match: re.Pattern | None,
     return True
 
 
-TOP_N = 60           # backend returns up to 60 items; frontend slices per time window
-LOOKBACK_DAYS = 35   # items older than this get dropped at the backend
+TOP_N = 100           # fetch up to this many per run; merged with existing on disk
+MAX_STORED = 250      # cap on total items kept per category after merge
+LOOKBACK_DAYS = 35    # items older than this get dropped when merging
 
 TECH_BROAD_RE = re.compile(
     r"\b(AI|tech|software|hardware|app|platform|cloud|startup|chip|silicon|"
@@ -391,23 +428,32 @@ def main():
     ))
 
     print("Fetching tech / AI news…")
-    tech_items = fetch_tech_news()
+    new_tech = fetch_tech_news()
+    existing_tech = load_existing_items(DATA / "news_tech.json")
+    # Retro-tag old items that pre-date the isAI field
+    for it in existing_tech:
+        if "isAI" not in it:
+            t = (it.get("title", "") + " " + it.get("summary", "")).lower()
+            it["isAI"] = bool(TECH_AI_RE.search(t))
+    tech_items = merge_with_history(new_tech, existing_tech)
     (DATA / "news_tech.json").write_text(json.dumps(
         {"updated": now, "items": tech_items}, indent=2
     ))
     ai_count = sum(1 for i in tech_items if i.get("isAI"))
-    print(f"  wrote {len(tech_items)} tech items ({ai_count} AI, {len(tech_items)-ai_count} other)")
+    print(f"  stored {len(tech_items)} tech items ({ai_count} AI, {len(tech_items)-ai_count} other) — was {len(existing_tech)} before merge")
 
     for label, feeds, filter_re, filename in [
         ("india political", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json"),
         ("geopolitical",    GEOPOLITICAL_FEEDS,    GEOPOLITICS_RE,    "news_global.json"),
     ]:
         print(f"Fetching {label} news…")
-        items = fetch_category(feeds, filter_re)
+        new_items = fetch_category(feeds, filter_re)
+        existing  = load_existing_items(DATA / filename)
+        merged    = merge_with_history(new_items, existing)
         (DATA / filename).write_text(json.dumps(
-            {"updated": now, "items": items}, indent=2
+            {"updated": now, "items": merged}, indent=2
         ))
-        print(f"  wrote {len(items)} items to {filename}")
+        print(f"  stored {len(merged)} items in {filename} — was {len(existing)} before merge")
 
 
 if __name__ == "__main__":
