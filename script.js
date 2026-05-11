@@ -99,10 +99,11 @@ function renderPrivate(companies) {
 }
 
 // ── News rendering (one window at a time, chosen from sidebar) ──
+// Non-overlapping bands so each window has distinct articles.
 const WINDOWS = {
-  '24h':   { label: 'Last 24 hours', maxAgeDays: 1  },
-  'week':  { label: 'Last week',     maxAgeDays: 7  },
-  'month': { label: 'Last month',    maxAgeDays: 30 },
+  '24h':   { label: 'Last 24 hours', minDays: 0, maxDays: 1  },
+  'week':  { label: 'Last week',     minDays: 1, maxDays: 7  },
+  'month': { label: 'Last month',    minDays: 7, maxDays: 30 },
 };
 
 function ageDays(iso) {
@@ -111,13 +112,46 @@ function ageDays(iso) {
   return (Date.now() - t) / 86400000;
 }
 
-function sliceForWindow(items, maxAgeDays, isTech) {
-  const eligible = (items || []).filter(i => ageDays(i.published) <= maxAgeDays);
-  if (!isTech) return eligible.slice(0, 20);
-  const ai = eligible.filter(i => i.isAI).slice(0, 15);
+// Heuristic importance score so "big" stories surface above filler within each band.
+const KW_MAJOR_EVENT = /\b(announce|launch|release|unveil|debut|breakthrough|deal|agreement|sign|partner|fund|raise|acqui|merger|ban|crackdown|ruling|verdict|indict|sanction|tariff|invasion|airstrike|attack|killed|crisis|summit|treaty|ceasefire|election|vote|impeach|resign)\b/i;
+const KW_AI_BIG     = /\b(gpt[- ]?\d|claude\s?\d|gemini\s?\d|llama|sora|grok|nvidia|openai|anthropic|deepmind|mistral|hugging\s?face)\b/i;
+const KW_INDIA_BIG  = /\b(modi|rahul gandhi|amit shah|supreme court|cabinet|parliament|bjp|congress\b|elect|verdict|policy|reform|bill\b)\b/i;
+const KW_WORLD_BIG  = /\b(trump|biden|putin|xi |zelens|netanyahu|iran|russia|china|ukraine|gaza|hamas|hezbollah|nato|un security|nuclear|sanctions)\b/i;
+
+function importanceScore(item, section) {
+  const text = (item.title + ' ' + (item.summary || '')).toLowerCase();
+  let s = 0;
+  if (KW_MAJOR_EVENT.test(text)) s += 3;
+  if (section === 'tech'   && KW_AI_BIG.test(text))    s += 2;
+  if (section === 'india'  && KW_INDIA_BIG.test(text)) s += 2;
+  if (section === 'global' && KW_WORLD_BIG.test(text)) s += 2;
+  // Slight bias toward longer summaries (proxy for substantial stories)
+  if ((item.summary || '').length > 200) s += 1;
+  return s;
+}
+
+function rankWithin(items, section) {
+  return items.slice().sort((a, b) => {
+    const di = importanceScore(b, section) - importanceScore(a, section);
+    if (di !== 0) return di;
+    return new Date(b.published) - new Date(a.published);
+  });
+}
+
+function sliceForWindow(items, win, isTech, section) {
+  const inBand = (items || []).filter(i => {
+    const age = ageDays(i.published);
+    return age > win.minDays && age <= win.maxDays;
+  });
+  const ranked = rankWithin(inBand, section);
+
+  if (!isTech) return ranked.slice(0, 20);
+
+  // tech section: 15 AI + 5 other-tech, both ranked by importance within band
+  const ai    = ranked.filter(i => i.isAI).slice(0, 15);
   const aiKeys = new Set(ai.map(i => i.url || i.title));
-  const other = eligible.filter(i => !i.isAI && !aiKeys.has(i.url || i.title)).slice(0, 5);
-  return [...ai, ...other].sort((a, b) => new Date(b.published) - new Date(a.published));
+  const other = ranked.filter(i => !i.isAI && !aiKeys.has(i.url || i.title)).slice(0, 5);
+  return rankWithin([...ai, ...other], section);
 }
 
 function newsCardHtml(n) {
@@ -148,7 +182,7 @@ function renderNewsForCurrentWindow(section) {
   const container = document.getElementById(containerId);
   const isTech = section === 'tech';
   const win = WINDOWS[currentWindow];
-  const slice = sliceForWindow(newsCache[section], win.maxAgeDays, isTech);
+  const slice = sliceForWindow(newsCache[section], win, isTech, section);
 
   // Update the title-bar label so user sees which window is active
   const label = document.getElementById(section + '-window-label');
