@@ -1,6 +1,150 @@
 {
-  "updated": "2026-05-12T03:44:32.513159+00:00",
+  "updated": "2026-05-12T15:20:55.430288+00:00",
   "items": [
+    {
+      "title": "Exaforce raises $125M Series B to build AI for catching and stopping cyberattacks as they happen",
+      "url": "https://techcrunch.com/2026/05/12/exaforce-raises-125m-series-b-to-build-ai-for-catching-and-stopping-cyberattacks-as-they-happen/",
+      "source": "TechCrunch",
+      "published": "Tue, 12 May 2026 15:07:37 +0000",
+      "summary": "The round valued the three-year-old startup at $725 million.",
+      "isAI": true
+    },
+    {
+      "title": "Waymo issues recall to deal with a flooding problem",
+      "url": "https://techcrunch.com/2026/05/12/waymo-issues-recall-to-deal-with-a-flooding-problem/",
+      "source": "TechCrunch",
+      "published": "Tue, 12 May 2026 14:47:17 +0000",
+      "summary": "Waymo has issued a software recall that makes its robotaxis more cautious around flooded areas. A \"final remedy\" is in the works.",
+      "isAI": true
+    },
+    {
+      "title": "Instructure strikes deal with hackers who breached it twice",
+      "url": "https://techcrunch.com/2026/05/12/instructure-strikes-deal-with-hackers-who-breached-it-twice/",
+      "source": "TechCrunch",
+      "published": "Tue, 12 May 2026 13:34:04 +0000",
+      "summary": "The maker of the Canvas school software said it \"reached an agreement\" with the hackers, but provided no guarantees that the hackers would not release the data or keep their word.",
+      "isAI": true
+    },
+    {
+      "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
+      "url": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 12 May 2026 13:33:05 +0000",
+      "summary": "Workers are using an internal AI tool to automate non-essential tasks.",
+      "isAI": true
+    },
+    {
+      "title": "Waymo recalls robotaxis for driving on flooded roads",
+      "url": "https://www.theverge.com/transportation/928480/waymo-recall-flooded-roads-robotaxi",
+      "source": "The Verge",
+      "published": "2026-05-12T09:32:39-04:00",
+      "summary": "Waymo is recalling its autonomous driving software that allowed its vehicles to drive on flooded roads. The recall affects 3,791 vehicles that operate using Waymo's fifth and sixth generation systems. In documents filed with the National Highway Traffic Safety Administration, the Alphabet-owned company said that an unoccupied Waymo robotaxi \"encountered an untraversable flooded section of [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Canvas owner reaches \u2018agreement\u2019 with hackers to secure stolen data",
+      "url": "https://www.theverge.com/tech/928470/instructure-canvas-hack-shinyhunters-ransom-agreement",
+      "source": "The Verge",
+      "published": "2026-05-12T09:23:10-04:00",
+      "summary": "Instructure, the company behind the Canvas learning management platform, says it has \"reached an agreement\" with hackers that breached its systems last week to prevent stolen data from being leaked online. The ShinyHunters hacking group claimed responsibility for the attack before Canvas was briefly taken offline. The group threatened to publish 3.5 terabytes of student [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Dessn raises $6M for its production focused design tool",
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 12 May 2026 13:00:00 +0000",
+      "summary": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
+      "isAI": true
+    },
+    {
+      "title": "AI is turning connected cars into pothole-finding machines",
+      "url": "https://techcrunch.com/2026/05/12/ai-is-turning-connected-cars-into-pothole-finding-machines/",
+      "source": "TechCrunch",
+      "published": "Tue, 12 May 2026 13:00:00 +0000",
+      "summary": "Fleet management company Samsara has developed an AI model to detect different kinds of potholes and gauge how fast they're deteriorating.",
+      "isAI": true
+    },
+    {
+      "title": "Spotify\u2019s latest \u2018Wrapped\u2019 covers your entire music history",
+      "url": "https://www.theverge.com/entertainment/928395/spotify-20th-anniversary-wrapped-recap",
+      "source": "The Verge",
+      "published": "2026-05-12T08:15:00-04:00",
+      "summary": "Spotify is celebrating its 20th anniversary by giving listeners a \"fully personalized look at their entire music history.\" Starting today, Spotify mobile app users can access a new Wrapped-like experience that features \"never-before-shared data\" going back to when they first joined the service. The \"Spotify 20: Your Party of the Year(s)\" experience will allow users [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 12 May 2026 11:30:00 +0000",
+      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "isAI": true
+    },
+    {
+      "title": "How to watch Google\u2019s Android Show: I/O Edition today",
+      "url": "https://www.theverge.com/tech/928276/google-android-show-io-edition-2026-how-to-watch",
+      "source": "The Verge",
+      "published": "2026-05-12T07:00:00-04:00",
+      "summary": "Google I/O is still a week away, but Google's big announcements kick off today with the \"Android Show: I/O Edition,\" where it's expected to announce the major Android ecosystem highlights coming to its annual developer conference. When the Android Show will happen and where you can watch it Android Show: I/O Edition will be streaming [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The Creators of \u2018Hacks\u2019 Really, Really, Really Hate AI",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-hacks-cocreators-paul-w-downs-lucia-aniello/",
+      "source": "Wired",
+      "published": "Tue, 12 May 2026 10:30:00 +0000",
+      "summary": "Ahead of the hit show\u2019s finale, cocreators Paul W. Downs and Lucia Aniello talk about media consolidation, the perils of censorship, and why they find AI \u201cdeeply disturbing.\u201d",
+      "isAI": true
+    },
+    {
+      "title": "Learning Software Architecture",
+      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "source": "Hacker News",
+      "published": "Tue, 12 May 2026 09:30:21 +0000",
+      "summary": "Article URL: https://matklad.github.io/2026/05/12/software-architecture.html Comments URL: https://news.ycombinator.com/item?id=48106024 Points: 342 # Comments: 64",
+      "isAI": true
+    },
+    {
+      "title": "These new Roombas are smaller and cheaper",
+      "url": "https://www.theverge.com/tech/928373/irobot-roomba-robot-vacuums-price-specs-release-date",
+      "source": "The Verge",
+      "published": "2026-05-12T05:02:25-04:00",
+      "summary": "iRobot has announced a new line of Roombas, a year after it debuted its first lidar-based robot vacuums. This week, it introduced eight robot vacuums that improve on its current lineup and feature lower prices, some up to \u00a3200 (about $270) cheaper. Key changes include higher suction power, a smaller overall size to better navigate [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Sony upgraded its wearable AC so it\u2019s cooler and better at hugging your neck",
+      "url": "https://www.theverge.com/tech/928220/sony-reon-pocket-pro-plus-personal-wearable-air-conditioner",
+      "source": "The Verge",
+      "published": "2026-05-12T02:00:00-04:00",
+      "summary": "Sony has announced a new version of the wearable personal air conditioner the company first revealed in 2019 ahead of the 2020 Tokyo Olympics. The latest version is an upgrade to last year's Pro model, and while the new Reon Pocket Pro Plus isn't a complete overhaul of the hardware, it comes with performance upgrades [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 12 May 2026 04:52:35 +0000",
+      "summary": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
+      "isAI": true
+    },
+    {
+      "title": "Software Internals Book Club",
+      "url": "https://eatonphil.com/bookclub.html",
+      "source": "Hacker News",
+      "published": "Tue, 12 May 2026 02:28:11 +0000",
+      "summary": "Article URL: https://eatonphil.com/bookclub.html Comments URL: https://news.ycombinator.com/item?id=48103511 Points: 151 # Comments: 26",
+      "isAI": true
+    },
+    {
+      "title": "Claude Platform on AWS",
+      "url": "https://claude.com/blog/claude-platform-on-aws",
+      "source": "Hacker News",
+      "published": "Tue, 12 May 2026 01:24:29 +0000",
+      "summary": "Article URL: https://claude.com/blog/claude-platform-on-aws Comments URL: https://news.ycombinator.com/item?id=48103042 Points: 192 # Comments: 84",
+      "isAI": true
+    },
     {
       "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
       "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
@@ -50,15 +194,31 @@
       "isAI": true
     },
     {
+      "title": "I let AI build a tool to help me figure out what was waking me up at night",
+      "url": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+      "source": "Hacker News",
+      "published": "Mon, 11 May 2026 21:04:10 +0000",
+      "summary": "Article URL: https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/ Comments URL: https://news.ycombinator.com/item?id=48100662 Points: 239 # Comments: 245",
+      "isAI": true
+    },
+    {
+      "title": "Interaction Models",
+      "url": "https://thinkingmachines.ai/blog/interaction-models/",
+      "source": "Hacker News",
+      "published": "Mon, 11 May 2026 20:53:37 +0000",
+      "summary": "Article URL: https://thinkingmachines.ai/blog/interaction-models/ Comments URL: https://news.ycombinator.com/item?id=48100524 Points: 282 # Comments: 39",
+      "isAI": true
+    },
+    {
       "title": "If AI writes your code, why use Python?",
       "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
       "source": "Hacker News",
       "published": "Mon, 11 May 2026 20:45:55 +0000",
-      "summary": "Article URL: https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055 Comments URL: https://news.ycombinator.com/item?id=48100433 Points: 228 # Comments: 246",
+      "summary": "Article URL: https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055 Comments URL: https://news.ycombinator.com/item?id=48100433 Points: 709 # Comments: 726",
       "isAI": true
     },
     {
-      "title": "Data center guzzled 30 million gallons of water and nobody noticed for months",
+      "title": "Data center guzzled 30 million gallons of water, and nobody noticed for months",
       "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/",
       "source": "Ars Technica AI",
       "published": "Mon, 11 May 2026 20:37:00 +0000",
@@ -191,6 +351,14 @@
       "source": "MIT Tech Review",
       "published": "Mon, 11 May 2026 13:33:06 +0000",
       "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That\u2019s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "source": "Hacker News",
+      "published": "Mon, 11 May 2026 13:20:14 +0000",
+      "summary": "Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker..., https://archive.ph/I4Ui5https://apnews.com/article/google-ai-cybersecurity-exploitat...https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker... Comments URL: https://news.ycombinator.com/item?id=48094641 Points: 216 # Comments: 160",
       "isAI": true
     },
     {
@@ -670,7 +838,7 @@
       "url": "https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html",
       "source": "Hacker News",
       "published": "Fri, 08 May 2026 08:00:44 +0000",
-      "summary": "Article URL: https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html Comments URL: https://news.ycombinator.com/item?id=48060077 Points: 240 # Comments: 73",
+      "summary": "Article URL: https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html Comments URL: https://news.ycombinator.com/item?id=48060077 Points: 307 # Comments: 86",
       "isAI": false
     },
     {
