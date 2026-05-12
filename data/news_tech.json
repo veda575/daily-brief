@@ -1,12 +1,164 @@
 {
-  "updated": "2026-05-11T15:44:00.571818+00:00",
+  "updated": "2026-05-12T03:44:32.513159+00:00",
   "items": [
+    {
+      "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
+      "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 12 May 2026 00:09:01 +0000",
+      "summary": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.",
+      "isAI": true
+    },
+    {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "source": "Hugging Face",
+      "published": "Mon, 11 May 2026 23:18:26 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI just released its answer to Claude Mythos",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+      "source": "The Verge AI",
+      "published": "2026-05-11T19:05:01-04:00",
+      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+      "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 11 May 2026 23:04:10 +0000",
+      "summary": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
+      "isAI": true
+    },
+    {
+      "title": "Yarbo says it will remove the intentional backdoor from its robot lawn mower",
+      "url": "https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor",
+      "source": "The Verge",
+      "published": "2026-05-11T18:40:20-04:00",
+      "summary": "The company behind the robot lawn mower that ran me over has changed its tune. Yarbo now plans to completely remove the remote backdoor access that could have let bad actors reprogram the robot over the internet. Yarbo customers will be able to decide whether that feature even gets installed in the first place, co-founder [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Here\u2019s what Mira Murati\u2019s AI company is up to",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+      "source": "The Verge AI",
+      "published": "2026-05-11T18:19:15-04:00",
+      "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally collaborate with each other - they continuously take in audio, video, [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "source": "Hacker News",
+      "published": "Mon, 11 May 2026 20:45:55 +0000",
+      "summary": "Article URL: https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055 Comments URL: https://news.ycombinator.com/item?id=48100433 Points: 228 # Comments: 246",
+      "isAI": true
+    },
+    {
+      "title": "Data center guzzled 30 million gallons of water and nobody noticed for months",
+      "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 11 May 2026 20:37:00 +0000",
+      "summary": "Can AI save us from the AI industry\u2019s endless thirst for water? Outlook not so good.",
+      "isAI": true
+    },
+    {
+      "title": "Palantir\u2019s true believers are wearing this jacket",
+      "url": "https://www.theverge.com/report/928026/palantir-chore-coat",
+      "source": "The Verge",
+      "published": "2026-05-11T14:26:04-04:00",
+      "summary": "In late April, Palantir - the software company that, in recent years, has perhaps become best known for its defense industry contracts and work with Immigration and Customs Enforcement - announced that it would be adding new products to its merch store. The latest offering was a cotton chore coat. At $239 and in bright [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple brings encrypted RCS chats to iPhone",
+      "url": "https://www.theverge.com/tech/928141/apple-ios-26-5-rcs-messages-iphone-google-android",
+      "source": "The Verge",
+      "published": "2026-05-11T13:57:56-04:00",
+      "summary": "Apple now lets you have encrypted RCS conversations with Android users through the Messages app on iOS. As part of iOS 26.5, which was released on Monday, Apple added support for end-to-end encrypted RCS messaging in beta, meaning that Apple and Google can't see your messages while they're sent. With iOS 26.5, you'll see a [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation",
+      "url": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 17:38:32 +0000",
+      "summary": "Five-year old European military drone startup Helsing is close to raising another monster round.",
+      "isAI": true
+    },
+    {
+      "title": "Three things in AI to watch, according to a Nobel-winning economist",
+      "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 11 May 2026 17:35:12 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned him few fans in Silicon Valley. Contrary to what Big Tech\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Bravo is creating unscripted microdramas for the Peacock app",
+      "url": "https://techcrunch.com/2026/05/11/bravo-is-creating-unscripted-microdramas-for-the-peacock-app/",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 17:14:01 +0000",
+      "summary": "As microdrama apps like ReelShort and DramaBox quietly rake in billions, Peacock announced on Monday that it is launching two unscripted Bravo microdramas, which will stream in the Peacock app.",
+      "isAI": false
+    },
+    {
+      "title": "Update Your iPhone Now for Better Encrypted Messaging With Android",
+      "url": "https://www.wired.com/story/update-your-iphone-now-for-better-encrypted-messaging-with-android/",
+      "source": "Wired",
+      "published": "Mon, 11 May 2026 17:06:53 +0000",
+      "summary": "As part of the iOS 26.5 update, Apple\u2019s Messages app can now encrypt texts between some iPhone and Android smartphones.",
+      "isAI": false
+    },
+    {
+      "title": "Digg tries again, this time as an AI news aggregator",
+      "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 11 May 2026 17:02:35 +0000",
+      "summary": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\"",
+      "isAI": true
+    },
+    {
+      "title": "Google stopped a zero-day hack that it says was developed with AI",
+      "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
+      "source": "The Verge AI",
+      "published": "2026-05-11T12:09:42-04:00",
+      "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed them to bypass two-factor authentication on an unnamed [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "\u2018Too early\u2019 to talk IPO, Redwood Materials\u2019 incoming CFO says",
+      "url": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 16:00:00 +0000",
+      "summary": "The battery-recycling and energy-storage company has hired former Tesla finance chief Deepak Ahuja, reuniting him with former Tesla CTO JB Straubel.",
+      "isAI": false
+    },
+    {
+      "title": "7 of our favorite deals from Amazon\u2019s Pet Days sale",
+      "url": "https://www.theverge.com/gadgets/927788/amazon-pet-days-tech-gadgets-cat-dog-deal-sale",
+      "source": "The Verge",
+      "published": "2026-05-11T11:45:32-04:00",
+      "summary": "A big part of my job here at The Verge is to find deals on tech that readers will like. But in my personal life, I\u2019m not spending anywhere near as much money on tech as I am on food, litter, and other supplies for our two cats. Sad, but true. If your life is [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Live updates from Elon Musk and Sam Altman\u2019s court battle over the future of OpenAI",
       "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
       "source": "The Verge AI",
       "published": "2026-05-11T11:27:12-04:00",
       "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "source": "OpenAI",
+      "published": "Mon, 11 May 2026 15:00:00 GMT",
+      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
       "isAI": true
     },
     {
@@ -50,11 +202,11 @@
       "isAI": false
     },
     {
-      "title": "There aren\u2019t enough rockets for space data centers. Cowboy Space raised $275 million to build them.",
+      "title": "There aren\u2019t enough rockets for space data centers \u2014 Cowboy Space raised $275M to build them",
       "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "source": "TechCrunch AI",
       "published": "Mon, 11 May 2026 13:00:00 +0000",
-      "summary": "Cowboy Space Corporation wants to put data centers in orbit. First, it has to build the rockets to get them there.",
+      "summary": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
       "isAI": true
     },
     {
@@ -94,7 +246,7 @@
       "url": "https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/",
       "source": "TechCrunch",
       "published": "Mon, 11 May 2026 10:58:00 +0000",
-      "summary": "Samsung, Hyundai and LG just bet on the startup that wants to be robotics' data backbone.",
+      "summary": "Instead of building robots themselves, the team is focused on a simpler goal \u2014 providing data that robots need to learn and operate. They believe that better data will be key to making robots more useful.",
       "isAI": true
     },
     {
@@ -206,7 +358,7 @@
       "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
       "source": "Hacker News",
       "published": "Sun, 10 May 2026 17:54:02 +0000",
-      "summary": "Article URL: https://grapheneos.social/@GrapheneOS/116550899908879585 Comments URL: https://news.ycombinator.com/item?id=48086190 Points: 1895 # Comments: 624",
+      "summary": "Article URL: https://grapheneos.social/@GrapheneOS/116550899908879585 Comments URL: https://news.ycombinator.com/item?id=48086190 Points: 2092 # Comments: 706",
       "isAI": false
     },
     {
@@ -314,7 +466,7 @@
       "isAI": false
     },
     {
-      "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+      "title": "Voice AI in India is hard \u2014 Wispr Flow is betting on it anyway",
       "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
       "source": "TechCrunch AI",
       "published": "Sun, 10 May 2026 02:00:00 +0000",
@@ -512,6 +664,14 @@
       "published": "2026-05-08T08:15:00-04:00",
       "summary": "Smart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been pumping out new products and innovative features at an impressive pace, Nanoleaf has launched just a handful of smart lighting products in the last two years. There's a reason for this lull - the company has [\u2026]",
       "isAI": true
+    },
+    {
+      "title": "Nullsoft, 1997-2004 (2004)",
+      "url": "https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html",
+      "source": "Hacker News",
+      "published": "Fri, 08 May 2026 08:00:44 +0000",
+      "summary": "Article URL: https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html Comments URL: https://news.ycombinator.com/item?id=48060077 Points: 240 # Comments: 73",
+      "isAI": false
     },
     {
       "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
@@ -895,6 +1055,22 @@
       "source": "Ars Technica AI",
       "published": "Mon, 04 May 2026 19:03:39 +0000",
       "summary": "The retracted study on ChatGPT in education was already cited hundreds of times.",
+      "isAI": true
+    },
+    {
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "source": "Google AI",
+      "published": "Mon, 04 May 2026 17:00:00 +0000",
+      "summary": "mp4 featuring an underwater video and a mobile AI video mockup.",
+      "isAI": true
+    },
+    {
+      "title": "Week one of the Musk v. Altman trial: What it was like in the room",
+      "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 04 May 2026 15:51:27 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Two of the most powerful people in AI\u2014Sam Altman and Elon Musk\u2014began their face-off in court in Oakland, California, last week. Musk is suing OpenAI, alleging that the millions he spent to\u2026",
       "isAI": true
     }
   ]
