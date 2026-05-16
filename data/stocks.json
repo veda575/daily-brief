@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T14:59:25.691620+00:00",
+  "updated": "2026-05-16T14:04:33.986574+00:00",
   "regions": {
     "us": [
       {
@@ -7,14 +7,14 @@
         "name": "Alphabet Inc.",
         "sector": "Earnings / AI growth",
         "currency": "USD",
-        "price": 398.5,
-        "change": -2.57,
-        "changePercent": -0.64,
-        "marketCap": 4827519647744,
-        "peRatio": 30.39,
+        "price": 396.78,
+        "change": -4.29,
+        "changePercent": -1.07,
+        "marketCap": 4807165739008,
+        "peRatio": 30.31,
         "high52w": 403.7,
         "low52w": 162.0,
-        "ytdPercent": 26.45,
+        "ytdPercent": 25.9,
         "dividendYield": 22.0
       },
       {
@@ -22,29 +22,29 @@
         "name": "Microsoft",
         "sector": "Cloud / AI",
         "currency": "USD",
-        "price": 424.5,
-        "change": 15.07,
-        "changePercent": 3.68,
-        "marketCap": 3153370546176,
-        "peRatio": 25.28,
+        "price": 421.92,
+        "change": 12.49,
+        "changePercent": 3.05,
+        "marketCap": 3134205460480,
+        "peRatio": 25.13,
         "high52w": 555.45,
         "low52w": 356.28,
-        "ytdPercent": -10.24,
-        "dividendYield": 89.0
+        "ytdPercent": -10.79,
+        "dividendYield": 86.0
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "EV demand",
         "currency": "USD",
-        "price": 425.72,
-        "change": -17.58,
-        "changePercent": -3.97,
-        "marketCap": 1599224414208,
-        "peRatio": 383.61,
+        "price": 422.24,
+        "change": -21.06,
+        "changePercent": -4.75,
+        "marketCap": 1585816797184,
+        "peRatio": 383.85,
         "high52w": 498.83,
         "low52w": 273.21,
-        "ytdPercent": -2.82,
+        "ytdPercent": -3.61,
         "dividendYield": null
       },
       {
@@ -52,14 +52,14 @@
         "name": "Amazon",
         "sector": "AWS / Retail",
         "currency": "USD",
-        "price": 262.93,
-        "change": -4.29,
-        "changePercent": -1.6,
-        "marketCap": 2828366774272,
-        "peRatio": 31.45,
+        "price": 264.14,
+        "change": -3.08,
+        "changePercent": -1.15,
+        "marketCap": 2841383010304,
+        "peRatio": 31.63,
         "high52w": 278.56,
         "low52w": 196.0,
-        "ytdPercent": 16.09,
+        "ytdPercent": 16.62,
         "dividendYield": null
       },
       {
@@ -67,14 +67,14 @@
         "name": "Meta Platforms",
         "sector": "Ads / AI",
         "currency": "USD",
-        "price": 614.67,
-        "change": -3.76,
-        "changePercent": -0.61,
-        "marketCap": 1560292622336,
-        "peRatio": 22.34,
+        "price": 614.23,
+        "change": -4.2,
+        "changePercent": -0.68,
+        "marketCap": 1559175626752,
+        "peRatio": 22.32,
         "high52w": 796.25,
         "low52w": 520.26,
-        "ytdPercent": -5.49,
+        "ytdPercent": -5.56,
         "dividendYield": 34.0
       },
       {
@@ -82,14 +82,14 @@
         "name": "Intel",
         "sector": "Chips",
         "currency": "USD",
-        "price": 107.65,
-        "change": -8.28,
-        "changePercent": -7.14,
-        "marketCap": 541048897536,
+        "price": 108.77,
+        "change": -7.16,
+        "changePercent": -6.18,
+        "marketCap": 546677981184,
         "peRatio": null,
         "high52w": 132.75,
         "low52w": 18.97,
-        "ytdPercent": 173.36,
+        "ytdPercent": 176.21,
         "dividendYield": null
       },
       {
@@ -97,45 +97,45 @@
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "price": 193.76,
-        "change": -1.85,
-        "changePercent": -0.95,
-        "marketCap": 557090144256,
-        "peRatio": 34.78,
+        "price": 192.95,
+        "change": -2.66,
+        "changePercent": -1.36,
+        "marketCap": 554933092352,
+        "peRatio": 34.58,
         "high52w": 345.72,
         "low52w": 134.57,
-        "ytdPercent": -1.0,
-        "dividendYield": 102.0
+        "ytdPercent": -1.41,
+        "dividendYield": 104.0
       },
       {
         "ticker": "SAP",
         "name": "SAP",
         "sector": "Enterprise AI",
         "currency": "USD",
-        "price": 167.92,
-        "change": 3.74,
-        "changePercent": 2.28,
-        "marketCap": 197966315520,
-        "peRatio": 22.94,
+        "price": 169.48,
+        "change": 5.3,
+        "changePercent": 3.23,
+        "marketCap": 199805452288,
+        "peRatio": 23.22,
         "high52w": 313.28,
         "low52w": 158.58,
-        "ytdPercent": -29.12,
-        "dividendYield": 178.0
+        "ytdPercent": -28.47,
+        "dividendYield": 173.0
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "price": 173.6,
-        "change": 6.02,
-        "changePercent": 3.59,
-        "marketCap": 142014136320,
-        "peRatio": 22.28,
-        "high52w": 292.17,
+        "price": 173.51,
+        "change": 5.93,
+        "changePercent": 3.54,
+        "marketCap": 141940506624,
+        "peRatio": 22.22,
+        "high52w": 289.9,
         "low52w": 163.52,
-        "ytdPercent": -31.55,
-        "dividendYield": 105.0
+        "ytdPercent": -31.59,
+        "dividendYield": 101.0
       }
     ],
     "asia": [
@@ -144,15 +144,15 @@
         "name": "Alibaba Group",
         "sector": "E-commerce",
         "currency": "USD",
-        "price": 133.19,
-        "change": -7.93,
-        "changePercent": -5.62,
-        "marketCap": 319529549824,
-        "peRatio": 20.55,
+        "price": 132.59,
+        "change": -8.53,
+        "changePercent": -6.04,
+        "marketCap": 318090084352,
+        "peRatio": 20.46,
         "high52w": 192.67,
         "low52w": 103.71,
-        "ytdPercent": -14.48,
-        "dividendYield": 74.0
+        "ytdPercent": -14.86,
+        "dividendYield": 79.0
       },
       {
         "ticker": "0700.HK",
@@ -167,22 +167,22 @@
         "high52w": 683.0,
         "low52w": 454.0,
         "ytdPercent": -26.74,
-        "dividendYield": 115.0
+        "dividendYield": 116.0
       },
       {
         "ticker": "TSM",
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "price": 404.95,
-        "change": -12.77,
-        "changePercent": -3.06,
-        "marketCap": 2100232847360,
-        "peRatio": 34.76,
+        "price": 404.35,
+        "change": -13.37,
+        "changePercent": -3.2,
+        "marketCap": 2097120935936,
+        "peRatio": 34.71,
         "high52w": 421.97,
         "low52w": 188.81,
-        "ytdPercent": 26.7,
-        "dividendYield": 91.0
+        "ytdPercent": 26.51,
+        "dividendYield": 94.0
       },
       {
         "ticker": "005930.KS",
@@ -197,21 +197,21 @@
         "high52w": 299500.0,
         "low52w": 53700.0,
         "ytdPercent": 110.51,
-        "dividendYield": 50.0
+        "dividendYield": 55.0
       },
       {
         "ticker": "AMD",
         "name": "AMD",
         "sector": "AI chips",
         "currency": "USD",
-        "price": 431.0,
-        "change": -18.7,
-        "changePercent": -4.16,
-        "marketCap": 702821433344,
-        "peRatio": 143.2,
+        "price": 424.1,
+        "change": -25.6,
+        "changePercent": -5.69,
+        "marketCap": 691537707008,
+        "peRatio": 140.9,
         "high52w": 469.22,
         "low52w": 107.67,
-        "ytdPercent": 92.87,
+        "ytdPercent": 89.78,
         "dividendYield": null
       }
     ],
@@ -225,11 +225,11 @@
         "change": -25.4,
         "changePercent": -1.87,
         "marketCap": 18084796563456,
-        "peRatio": 22.4,
+        "peRatio": 22.37,
         "high52w": 1611.8,
         "low52w": 1290.0,
         "ytdPercent": -15.18,
-        "dividendYield": 40.0
+        "dividendYield": 41.0
       },
       {
         "ticker": "TCS.NS",
@@ -240,11 +240,11 @@
         "change": 18.0,
         "changePercent": 0.8,
         "marketCap": 8191349882880,
-        "peRatio": 16.63,
-        "high52w": 3593.9,
+        "peRatio": 16.64,
+        "high52w": 3558.0,
         "low52w": 2206.4,
         "ytdPercent": -29.85,
-        "dividendYield": 552.0
+        "dividendYield": 548.0
       },
       {
         "ticker": "INFY.NS",
@@ -259,7 +259,7 @@
         "high52w": 1728.0,
         "low52w": 1089.0,
         "ytdPercent": -31.34,
-        "dividendYield": 457.0
+        "dividendYield": 447.0
       },
       {
         "ticker": "WIPRO.NS",
@@ -274,7 +274,7 @@
         "high52w": 273.1,
         "low52w": 186.5,
         "ytdPercent": -28.93,
-        "dividendYield": 903.0
+        "dividendYield": 895.0
       },
       {
         "ticker": "TECHM.NS",
@@ -285,11 +285,11 @@
         "change": 27.1,
         "changePercent": 2.02,
         "marketCap": 1213877190656,
-        "peRatio": 25.31,
+        "peRatio": 25.32,
         "high52w": 1854.0,
         "low52w": 1304.1,
         "ytdPercent": -14.75,
-        "dividendYield": 380.0
+        "dividendYield": 372.0
       },
       {
         "ticker": "SBIN.NS",
@@ -304,7 +304,7 @@
         "high52w": 1234.7,
         "low52w": 779.1,
         "ytdPercent": -2.19,
-        "dividendYield": 177.0
+        "dividendYield": 180.0
       },
       {
         "ticker": "HDFCBANK.NS",
@@ -315,7 +315,7 @@
         "change": -2.05,
         "changePercent": -0.27,
         "marketCap": 11815990853632,
-        "peRatio": 17.14,
+        "peRatio": 17.12,
         "high52w": 1020.5,
         "low52w": 726.65,
         "ytdPercent": -22.56,
@@ -330,11 +330,11 @@
         "change": -12.5,
         "changePercent": -0.25,
         "marketCap": 1013370716160,
-        "peRatio": 17.66,
+        "peRatio": 17.67,
         "high52w": 6388.5,
         "low52w": 4158.1,
         "ytdPercent": -13.3,
-        "dividendYield": 364.0
+        "dividendYield": 365.0
       },
       {
         "ticker": "MARUTI.NS",
@@ -345,11 +345,11 @@
         "change": 146.0,
         "changePercent": 1.12,
         "marketCap": 4156716220416,
-        "peRatio": 28.32,
+        "peRatio": 28.33,
         "high52w": 17370.0,
         "low52w": 12016.0,
         "ytdPercent": -20.87,
-        "dividendYield": 107.0
+        "dividendYield": 106.0
       },
       {
         "ticker": "DRREDDY.NS",
@@ -360,11 +360,11 @@
         "change": 33.1,
         "changePercent": 2.54,
         "marketCap": 1112929468416,
-        "peRatio": 26.56,
+        "peRatio": 26.53,
         "high52w": 1379.7,
         "low52w": 1148.4,
         "ytdPercent": 6.65,
-        "dividendYield": 61.0
+        "dividendYield": 60.0
       },
       {
         "ticker": "DIVISLAB.NS",
@@ -375,11 +375,11 @@
         "change": -161.0,
         "changePercent": -2.33,
         "marketCap": 1794700345344,
-        "peRatio": 72.35,
+        "peRatio": 72.47,
         "high52w": 7071.5,
         "low52w": 5636.5,
         "ytdPercent": 6.57,
-        "dividendYield": 43.0
+        "dividendYield": 44.0
       },
       {
         "ticker": "AUROPHARMA.NS",
@@ -390,7 +390,7 @@
         "change": 0.9,
         "changePercent": 0.06,
         "marketCap": 878055915520,
-        "peRatio": 25.21,
+        "peRatio": 25.19,
         "high52w": 1528.0,
         "low52w": 1016.1,
         "ytdPercent": 26.72,
@@ -405,7 +405,7 @@
         "change": -36.5,
         "changePercent": -0.45,
         "marketCap": 1162139533312,
-        "peRatio": 64.64,
+        "peRatio": 64.52,
         "high52w": 8180.0,
         "low52w": 6696.5,
         "ytdPercent": 13.65,
