@@ -1,6 +1,86 @@
 {
-  "updated": "2026-05-16T14:04:33.986574+00:00",
+  "updated": "2026-05-17T14:03:20.699374+00:00",
   "items": [
+    {
+      "title": "ElliQ is a surprisingly helpful companion robot for older adults",
+      "url": "https://www.theverge.com/gadgets/928806/elliq-intuition-robotics-hands-on",
+      "source": "The Verge",
+      "published": "2026-05-17T09:00:00-04:00",
+      "summary": "A week before the ElliQ robot arrived, a neurologist told me we need to rebalance my mom's life. Her Parkinson's disease medication had steadily become less effective over the previous month, and with it, she had slowly stopped doing many of the things crucial to managing the disease - exercising, socializing, and engaging in hobbies. [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Chatbots at the drive-thru are just the beginning",
+      "url": "https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys",
+      "source": "The Verge AI",
+      "published": "2026-05-17T08:00:00-04:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is seeping into our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started In 2021, McDonald's became one [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Zerostack \u2013 A Unix-inspired coding agent written in pure Rust",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "source": "Hacker News",
+      "published": "Sat, 16 May 2026 22:23:50 +0000",
+      "summary": "Article URL: https://crates.io/crates/zerostack/1.0.0 Comments URL: https://news.ycombinator.com/item?id=48164287 Points: 467 # Comments: 243",
+      "isAI": true
+    },
+    {
+      "title": "The haves and have nots of the AI gold rush",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 16 May 2026 20:17:16 +0000",
+      "summary": "The vibes around the current AI boom aren't great, even in the tech industry.",
+      "isAI": true
+    },
+    {
+      "title": "Marketing operating system Nectar Social raises $30M Series A led by Menlo",
+      "url": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/",
+      "source": "TechCrunch",
+      "published": "Sat, 16 May 2026 19:26:14 +0000",
+      "summary": "AI-powered marketing platform Nectar Social announced Thursday that it raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which was created alongside Anthropic.",
+      "isAI": true
+    },
+    {
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 16 May 2026 18:54:28 +0000",
+      "summary": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+      "isAI": true
+    },
+    {
+      "title": "Sony tries to explain that its AI Camera Assistant doesn\u2019t suck",
+      "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+      "source": "The Verge AI",
+      "published": "2026-05-16T11:37:05-04:00",
+      "summary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it will give you four options [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 16 May 2026 15:33:33 +0000",
+      "summary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
+      "isAI": true
+    },
+    {
+      "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
+      "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
+      "source": "TechCrunch",
+      "published": "Sat, 16 May 2026 15:00:00 +0000",
+      "summary": "Cerebras Systems was 2026's biggest tech IPO so far. But years ago, it burned through hundreds of millions working on a chip many believed impossible.",
+      "isAI": true
+    },
+    {
+      "title": "NPR\u2019s Manoush Zomorodi talks about living with too much tech",
+      "url": "https://www.theverge.com/report/930171/manoush-zomorodi-body-electric-npr-questionnaire",
+      "source": "The Verge",
+      "published": "2026-05-16T11:00:00-04:00",
+      "summary": "Manoush Zamorodi is an accomplished reporter, podcast host, and author. Her new book, Body Electric, takes a comprehensive look at how technology is impacting our physical health. It's a collaboration between NPR and Columbia University Medical Center that picks up where her first title, Bored and Brilliant, left off. That book looked at how technology [\u2026]",
+      "isAI": false
+    },
     {
       "title": "The app you need to clean up your computer",
       "url": "https://www.theverge.com/tech/931586/mole-bartender-mac-utilities-installer",
@@ -54,7 +134,7 @@
       "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
       "source": "Hacker News",
       "published": "Sat, 16 May 2026 07:01:55 +0000",
-      "summary": "Article URL: https://kabir.au/blog/the-ctf-scene-is-dead Comments URL: https://news.ycombinator.com/item?id=48157559 Points: 216 # Comments: 178",
+      "summary": "Article URL: https://kabir.au/blog/the-ctf-scene-is-dead Comments URL: https://news.ycombinator.com/item?id=48157559 Points: 397 # Comments: 418",
       "isAI": true
     },
     {
@@ -74,7 +154,7 @@
       "isAI": true
     },
     {
-      "title": "Musk v. Altman week 3: Musk and Altman traded blows over each other\u2019s credibility. Now the jury will pick a side.",
+      "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other\u2019s credibility. Now the jury will pick a side.",
       "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
       "source": "MIT Tech Review",
       "published": "Fri, 15 May 2026 23:39:35 +0000",
@@ -1920,86 +2000,6 @@
       "published": "Sat, 09 May 2026 21:45:00 +0000",
       "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
       "isAI": true
-    },
-    {
-      "title": "Fintech startup Parker files for bankruptcy",
-      "url": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/",
-      "source": "TechCrunch",
-      "published": "Sat, 09 May 2026 20:32:17 +0000",
-      "summary": "Parker, a well-funded startup offering corporate credit cards and banking services, has filed for bankruptcy and is widely reported to have shut down.",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia has already committed $40B to equity AI deals this year",
-      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 09 May 2026 14:43:30 +0000",
-      "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
-      "isAI": true
-    },
-    {
-      "title": "The new Wild West of AI kids\u2019 toys",
-      "url": "https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/",
-      "source": "Ars Technica AI",
-      "published": "Sat, 09 May 2026 11:00:51 +0000",
-      "summary": "These connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
-      "isAI": true
-    },
-    {
-      "title": "Hackable Robot Lawn Mower Unlocks a New Nightmare",
-      "url": "https://www.wired.com/story/security-news-this-week-hackable-robot-lawnmower-unlocks-a-new-nightmare/",
-      "source": "Wired",
-      "published": "Sat, 09 May 2026 10:30:00 +0000",
-      "summary": "Plus: Meta officially kills encrypted Instagram DMs, the Trump administration targets \u201cviolent left wing extremists,\u201d leaked documents reveal Russia's school for elite hackers, and more.",
-      "isAI": false
-    },
-    {
-      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-      "source": "MIT Tech Review",
-      "published": "Fri, 08 May 2026 23:59:19 +0000",
-      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk\u2019s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they\u2019d promised to maintain\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 08 May 2026 22:59:05 +0000",
-      "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "isAI": true
-    },
-    {
-      "title": "Sony says \"efficient\" AI tools will lead to even more games flooding the market",
-      "url": "https://arstechnica.com/gaming/2026/05/sony-says-efficient-ai-tools-will-lead-to-even-more-games-flooding-the-market/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 08 May 2026 20:51:17 +0000",
-      "summary": "But human artists still \"must remain at the center,\" PlayStation maker says.",
-      "isAI": true
-    },
-    {
-      "title": "Intel\u2019s comeback story is even wilder than it seems",
-      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 08 May 2026 20:02:52 +0000",
-      "summary": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
-      "isAI": true
-    },
-    {
-      "title": "Course correction: Google to link more sources in AI Overviews",
-      "url": "https://arstechnica.com/google/2026/05/google-will-put-more-links-to-websites-in-ai-overviews/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 08 May 2026 19:43:47 +0000",
-      "summary": "Google's AI search will start citing its sources in several new ways.",
-      "isAI": true
-    },
-    {
-      "title": "Court rules Trump's 10% tariff is just as illegal as the tariff it replaced",
-      "url": "https://arstechnica.com/tech-policy/2026/05/trumps-10-global-tariff-is-illegal-court-rules/",
-      "source": "Ars Technica",
-      "published": "Fri, 08 May 2026 19:25:30 +0000",
-      "summary": "Trump's vow to impose tariffs a \"different way\" already has the tech industry on edge.",
-      "isAI": false
     }
   ]
 }
