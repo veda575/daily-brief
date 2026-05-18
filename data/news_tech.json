@@ -1,6 +1,158 @@
 {
-  "updated": "2026-05-17T14:03:20.699374+00:00",
+  "updated": "2026-05-18T16:01:34.769005+00:00",
   "items": [
+    {
+      "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+      "source": "Hugging Face",
+      "published": "Mon, 18 May 2026 16:00:21 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Amazon Alexa Plus can now create AI-generated podcasts",
+      "url": "https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
+      "source": "The Verge AI",
+      "published": "2026-05-18T11:55:25-04:00",
+      "summary": "Alexa Plus, Amazon's upgraded AI assistant, can now generate podcasts on \"virtually any topic,\" according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to steer the conversation [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Kin Health raises $9M to build an AI notetaker for patients",
+      "url": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients/",
+      "source": "TechCrunch",
+      "published": "Mon, 18 May 2026 15:26:00 +0000",
+      "summary": "The app is similar to a meeting notetaker: you can record doctor visits, and it will return an AI summary of the meeting, with the next steps, all of which you share with family and friends if you want to.",
+      "isAI": true
+    },
+    {
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "source": "Hugging Face",
+      "published": "Mon, 18 May 2026 15:12:46 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Philips Hue smart lights and a whole lot more are over 20 percent off",
+      "url": "https://www.theverge.com/gadgets/932276/philips-hue-amazon-scribe-super-mario-rpg-deal-sale",
+      "source": "The Verge",
+      "published": "2026-05-18T11:03:03-04:00",
+      "summary": "Woot is having a day-long sale on a range of tech, including a mix of new and open-box Philips Hue smart lighting. The retailer\u2019s already-discounted prices are even cheaper today when you enter the code SAVETWENTY at checkout through midnight Central Time. The products included in the sale serve as a great introduction to setting [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Amazon\u2019s new Alexa+ powered feature can generate podcast episodes",
+      "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 18 May 2026 14:56:47 +0000",
+      "summary": "Amazon\u2019s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
+      "isAI": true
+    },
+    {
+      "title": "Linus Torvalds says Linux security list is becoming \u2018unmanageable\u2019 due to AI bug reports",
+      "url": "https://www.theverge.com/tech/932312/linus-torvalds-linux-ai-security-bugs",
+      "source": "The Verge",
+      "published": "2026-05-18T10:21:10-04:00",
+      "summary": "Linux founder Linus Torvalds said in his most recent state of the kernel post that \"the continued flood of AI reports has basically made the security list almost entirely unmanageable, with enormous duplication due to different people finding the same things with the same tools,\" as The Register reports. That probably doesn't apply to stuff [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The Open Agent Leaderboard",
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "source": "Hugging Face",
+      "published": "Mon, 18 May 2026 14:12:58 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Bug bounty businesses bombarded with AI slop",
+      "url": "https://arstechnica.com/ai/2026/05/bug-bounty-businesses-bombarded-with-ai-slop/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 18 May 2026 13:23:34 +0000",
+      "summary": "\"Never-ending\" AI slop strains corporate hacking reward schemes.",
+      "isAI": true
+    },
+    {
+      "title": "South Korea\u2019s LetinAR is building optics behind AI glasses",
+      "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 18 May 2026 11:00:00 +0000",
+      "summary": "A lens the size of a thumbnail \u2014 and the South Korean startup that makes it could become the optical backbone of the AI glasses era.",
+      "isAI": true
+    },
+    {
+      "title": "I\u2019m a Normie. Can Normies Really Vibe Code?",
+      "url": "https://www.wired.com/story/normie-vibe-code/",
+      "source": "Wired",
+      "published": "Mon, 18 May 2026 10:00:00 +0000",
+      "summary": "Apparently anyone can vibe code anything these days. So Claude and I tried to make a database for tracking the petty grievances of the masses.",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft is retiring Teams\u2019 Together Mode",
+      "url": "https://www.theverge.com/tech/932215/microsoft-teams-together-mode",
+      "source": "The Verge",
+      "published": "2026-05-17T17:15:28-04:00",
+      "summary": "Microsoft launched Teams' Together Mode during the pandemic to give the illusion of a bunch of people sitting in a conference room together, even if they were really sitting at home without pants on. But times have changed, and it's now being retired in favor of a more simplified Teams experience. The feature used AI [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s Siri revamp could include auto-deleting chats",
+      "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 17 May 2026 20:15:00 +0000",
+      "summary": "Privacy will be a major theme when Apple unveils a new version of Siri.",
+      "isAI": true
+    },
+    {
+      "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
+      "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 17 May 2026 19:46:34 +0000",
+      "summary": "A big theme in the trial\u2019s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+      "isAI": true
+    },
+    {
+      "title": "Revamped Siri will reportedly offer autodeleting chats",
+      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "source": "The Verge AI",
+      "published": "2026-05-17T14:40:28-04:00",
+      "summary": "Apple is hoping that its record on privacy can be the differentiator on the AI front and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat histories. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "University of Arizona students boo Eric Schmidt\u2019s AI cheerleading during commencement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "source": "The Verge AI",
+      "published": "2026-05-17T13:22:23-04:00",
+      "summary": "Former Google CEO Eric Schmidt delivered the commencement address at the University of Arizona on Friday. And, as his speech veered into talk of AI, he was repeatedly drowned out by boos. AI is already a contentious topic, and it's not surprising that those about to enter a ravaged job market feel particularly negative about [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "If you\u2019re giving a commencement speech in 2026, maybe don\u2019t mention AI",
+      "url": "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 17 May 2026 16:32:04 +0000",
+      "summary": "It's tough to get graduating students excited about a future shaped by artificial intelligence.",
+      "isAI": true
+    },
+    {
+      "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
+      "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 17 May 2026 16:05:00 +0000",
+      "summary": "Welcome back to TechCrunch Mobility \u2014 your central hub for news and insights on the future of transportation.",
+      "isAI": true
+    },
+    {
+      "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its physical-world thesis",
+      "url": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
+      "source": "TechCrunch",
+      "published": "Sun, 17 May 2026 15:00:00 +0000",
+      "summary": "Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action.",
+      "isAI": false
+    },
     {
       "title": "ElliQ is a surprisingly helpful companion robot for older adults",
       "url": "https://www.theverge.com/gadgets/928806/elliq-intuition-robotics-hands-on",
@@ -554,7 +706,7 @@
       "isAI": true
     },
     {
-      "title": "Energy supplier abandons Lake Tahoe residents to serve data centers",
+      "title": "Lake Tahoe residents lose energy supplier to data center boom",
       "url": "https://arstechnica.com/ai/2026/05/energy-supplier-abandons-lake-tahoe-residents-to-serve-data-centers/",
       "source": "Ars Technica AI",
       "published": "Thu, 14 May 2026 19:17:28 +0000",
@@ -1848,158 +2000,6 @@
       "published": "2026-05-10T16:42:08-04:00",
       "summary": "Make no mistake, the Bastl Kalimba is a synthesizer, you just play it like a kalimba. Its tines don't really make much sound. There is an internal mic that you can blend in for a little acoustic spice, but it's mostly driven by the synth engine that combines physical modeling and FM. The tines are [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "Anthropic says \u2018evil\u2019 portrayals of AI were responsible for Claude\u2019s blackmail attempts",
-      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 10 May 2026 20:40:41 +0000",
-      "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "isAI": true
-    },
-    {
-      "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
-      "source": "Hugging Face",
-      "published": "Sun, 10 May 2026 18:44:11 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Uber has always wanted to be more than a ride; now it has reason to hurry",
-      "url": "https://techcrunch.com/2026/05/10/uber-has-always-wanted-to-be-more-than-a-ride-now-it-has-reason-to-hurry/",
-      "source": "TechCrunch",
-      "published": "Sun, 10 May 2026 18:08:54 +0000",
-      "summary": "The company has been trying to embed itself inside the AV industry \u2014 as a data provider, an investor, and a distribution platform \u2014 but the consumer-facing bet may be just as important.",
-      "isAI": false
-    },
-    {
-      "title": "Hardware Attestation as Monopoly Enabler",
-      "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
-      "source": "Hacker News",
-      "published": "Sun, 10 May 2026 17:54:02 +0000",
-      "summary": "Article URL: https://grapheneos.social/@GrapheneOS/116550899908879585 Comments URL: https://news.ycombinator.com/item?id=48086190 Points: 2092 # Comments: 706",
-      "isAI": false
-    },
-    {
-      "title": "Local AI needs to be the norm",
-      "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
-      "source": "Hacker News",
-      "published": "Sun, 10 May 2026 17:19:28 +0000",
-      "summary": "Article URL: https://unix.foo/posts/local-ai-needs-to-be-norm/ Comments URL: https://news.ycombinator.com/item?id=48085821 Points: 1523 # Comments: 587",
-      "isAI": true
-    },
-    {
-      "title": "Ashnymph\u2019s Childhood EP is exhilarating dance goth rock",
-      "url": "https://www.theverge.com/entertainment/927620/ashnymph-childhood-ep-music-review",
-      "source": "The Verge",
-      "published": "2026-05-10T12:52:41-04:00",
-      "summary": "I've got to thank my oldest friend and concert buddy, Tim, for turning me on to this one. Ashnymph is a London band that blends post-punk melodies with Krautrock rhythms and industrial grime. Their debut EP, Childhood, drifts between dreamy vocals buried in layers of reverb and four-on-the-floor dancefloor pounding. It's a thrilling opening salvo [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "TechCrunch Mobility: Lime\u2019s IPO gamble",
-      "url": "https://techcrunch.com/2026/05/10/techcrunch-mobility-limes-ipo-gamble/",
-      "source": "TechCrunch",
-      "published": "Sun, 10 May 2026 16:05:00 +0000",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
-      "isAI": true
-    },
-    {
-      "title": "We\u2019re feeling cynical about xAI\u2019s big deal with Anthropic",
-      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 10 May 2026 15:34:25 +0000",
-      "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-      "isAI": true
-    },
-    {
-      "title": "The hottest place for startups to strike a deal? The F1 paddock",
-      "url": "https://techcrunch.com/2026/05/10/the-hottest-place-for-startups-to-strike-a-deal-the-f1-paddock/",
-      "source": "TechCrunch",
-      "published": "Sun, 10 May 2026 15:13:07 +0000",
-      "summary": "F1 Grands Prix have emerged as a new place to see and be seen if you are a founder or investor.",
-      "isAI": false
-    },
-    {
-      "title": "Cricut\u2019s $99 craft cutting machine helped me feel creative again",
-      "url": "https://www.theverge.com/gadgets/924281/cricut-joy-2-smart-cutting-machine-printer-hands-on",
-      "source": "The Verge",
-      "published": "2026-05-10T10:00:00-04:00",
-      "summary": "I've always been skeptical of products that claim to help you lead a more creative life. But one recently won me over. I've spent three weeks with the Cricut Joy 2, a smart cutting and drawing machine that made it easy for me to get back into making stickers, cards, bookmarks, and more. The small [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Writers are fleeing the Substack Tax",
-      "url": "https://www.theverge.com/tech/927294/substack-tax-ghost-beehiiv",
-      "source": "The Verge",
-      "published": "2026-05-10T10:00:00-04:00",
-      "summary": "Substack, the once buzzy newsletter platform, is losing a new swath of writers to rival platforms most people haven't heard of. Just last month, The Ankler, one of Substack's most popular publications, left for a platform that gives it more control over its site. Others who have departed Substack within the past year voiced similar [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Netflix may have finally figured out games",
-      "url": "https://www.theverge.com/column/926250/netflix-tv-games-strategy",
-      "source": "The Verge",
-      "published": "2026-05-10T08:00:00-04:00",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Netflix, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Boggle has become a spectator sport in my household. Everyone crowds around the [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Do you take after your dad\u2019s RNA?",
-      "url": "https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/",
-      "source": "Ars Technica",
-      "published": "Sun, 10 May 2026 11:15:44 +0000",
-      "summary": "Evidence is growing that sperm carries marks of a father\u2019s life experiences, influencing traits in offspring.",
-      "isAI": false
-    },
-    {
-      "title": "Huge landslide created a 500-meter-high tsunami in a major tourist area",
-      "url": "https://arstechnica.com/science/2026/05/how-a-melting-glacier-led-to-a-500-meter-high-tsunami/",
-      "source": "Ars Technica",
-      "published": "Sun, 10 May 2026 11:00:53 +0000",
-      "summary": "Fortunately, it happened early in the morning, so nobody was around.",
-      "isAI": false
-    },
-    {
-      "title": "Vivo\u2019s X300 Ultra has the best cameras in any phone",
-      "url": "https://www.theverge.com/tech/926067/vivos-x300-ultra-has-the-best-cameras-in-any-phone",
-      "source": "The Verge",
-      "published": "2026-05-10T07:00:00-04:00",
-      "summary": "A few months ago, I wrote that the telephoto camera is the only lens that matters any more, at least when it comes to Ultra-class flagships. As phones got better, cameras became where manufacturers tried to stand out. As cameras got better, telephoto lenses became the next point of focus. The most recent Ultra phones [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Could Contact-Tracing Apps Help With the Hantavirus? Not Really",
-      "url": "https://www.wired.com/story/could-contact-tracing-apps-help-with-the-hantavirus-not-really/",
-      "source": "Wired",
-      "published": "Sun, 10 May 2026 11:00:00 +0000",
-      "summary": "Contact-tracing apps were widely deployed during the Covid pandemic. They aren\u2019t as helpful during smaller outbreaks.",
-      "isAI": false
-    },
-    {
-      "title": "Do City Delivery Drones Make Sense? No One Knows, but They're Flying Over NYC",
-      "url": "https://www.wired.com/story/do-city-delivery-drones-make-sense-no-one-knows-but-theyre-flying-over-nyc/",
-      "source": "Wired",
-      "published": "Sun, 10 May 2026 10:30:00 +0000",
-      "summary": "One of the country\u2019s busiest airspaces has a new kind of flying machine\u2014maybe temporarily.",
-      "isAI": false
-    },
-    {
-      "title": "Voice AI in India is hard \u2014 Wispr Flow is betting on it anyway",
-      "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 10 May 2026 02:00:00 +0000",
-      "summary": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
-      "isAI": true
-    },
-    {
-      "title": "So you\u2019ve heard these AI terms and nodded along; let\u2019s fix that",
-      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 09 May 2026 21:45:00 +0000",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "isAI": true
     }
   ]
 }
