@@ -162,16 +162,6 @@ body.menu-open main { margin-left: var(--sidebar-w); }
 
 .stocks-content { overflow-x: auto; }
 
-/* ── Private companies (cards with news) ──────────────── */
-.private-grid { display: grid; gap: 14px; }
-.private-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
-.private-card h3 { margin: 0 0 4px; font-size: 16px; }
-.private-card .tag { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
-.private-card ul { list-style: none; padding: 0; margin: 8px 0 0; }
-.private-card li { padding: 8px 0; border-top: 1px solid var(--border); font-size: 13px; }
-.private-card a { color: var(--text); text-decoration: none; }
-.private-card a:hover { color: var(--accent); }
-.private-card .news-meta { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
 
 /* ── News list (flat list inside main pane) ─────────── */
 .news-list { display: flex; flex-direction: column; gap: 8px; }

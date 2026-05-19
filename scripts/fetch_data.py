@@ -1,6 +1,7 @@
-"""Daily fetcher: stocks (US / Asia / India) + private-company news + 3 news categories."""
+"""Daily fetcher: stocks (US / Asia / India) + 3 news categories."""
 import html
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -51,12 +52,6 @@ INDIA_STOCKS = [
     ("DIVISLAB.NS",   "Divi's Labs",         "API"),
     ("AUROPHARMA.NS", "Aurobindo Pharma",    "Pharma Exports"),
     ("APOLLOHOSP.NS", "Apollo Hospitals",    "Healthcare"),
-]
-
-PRIVATE_COMPANIES = [
-    ("SpaceX",    "Aerospace / Satellites"),
-    ("OpenAI",    "AI / Foundation Models"),
-    ("Anthropic", "AI / Foundation Models"),
 ]
 
 # ────────────────────────────────────────────────────────────────────
@@ -113,6 +108,41 @@ GEOPOLITICAL_FEEDS = [
     ("Reuters World",   "https://www.reutersagency.com/feed/?best-topics=world&post_type=best"),
     ("War on the Rocks","https://warontherocks.com/feed/"),
 ]
+
+# X signals are optional. Add X_BEARER_TOKEN as a GitHub secret to enable them.
+X_API_URL = "https://api.twitter.com/2/tweets/search/recent"
+X_BEARER_TOKEN = os.getenv("X_BEARER_TOKEN", "").strip()
+
+X_TECH_QUERIES = [
+    '(OpenAI OR "Google AI" OR "Microsoft AI" OR "Meta AI" OR Anthropic OR NVIDIA) '
+    '(AI OR LLM OR agents OR model OR regulation OR startup OR breakthrough)',
+    '("AI regulation" OR "AI startup" OR "LLM agents" OR "AI breakthrough" OR "technology trends")',
+]
+
+X_GEO_QUERIES = [
+    '(US OR China OR India OR Europe OR "Russia Ukraine" OR "Middle East") '
+    '(defense OR policy OR strategic OR economy OR summit OR sanctions OR conflict)',
+    '("global economy" OR "international development" OR "defense policy" OR "strategic development")',
+]
+
+TRUSTED_X_HANDLES = {
+    "tech": {
+        "openai", "anthropicai", "googledeepmind", "googleai", "microsoftai",
+        "nvidia", "ylecun", "sama", "karpathy", "demishassabis",
+        "techcrunch", "verge", "wired", "mittr", "venturebeat",
+    },
+    "global": {
+        "ap", "reuters", "bbcworld", "bbcbreaking", "aljazeera", "dwnews",
+        "foreignpolicy", "thediplomat", "csis", "iiss_org", "ianbremmer",
+        "euronews", "ft", "economist",
+    },
+}
+
+LOW_QUALITY_X_RE = re.compile(
+    r"\b(giveaway|airdrop|promo|discount|subscribe|follow me|dm me|whatsapp|telegram|"
+    r"crypto pump|100x|betting|casino|onlyfans|thread below|like and retweet)\b",
+    re.I,
+)
 
 # ── Category filters (drop off-topic items even if they slip in via broad feeds) ──
 SPORTS_ENTERTAINMENT_RE = re.compile(
@@ -190,7 +220,7 @@ def merge_with_history(new_items: list[dict], existing: list[dict]) -> list[dict
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
     keep = [v for v in by_key.values() if parse_date(v.get("published", "")) >= cutoff]
-    keep.sort(key=lambda x: parse_date(x["published"]), reverse=True)
+    keep.sort(key=lambda x: (news_quality_score(x), parse_date(x["published"])), reverse=True)
     return keep[:MAX_STORED]
 
 
@@ -202,6 +232,18 @@ def keep_item(item: dict, must_match: re.Pattern | None,
     if must_match and not must_match.search(text):
         return False
     return True
+
+
+def news_quality_score(item: dict) -> float:
+    """Boost items supported by X engagement and trusted/verified sources."""
+    score = float(item.get("xScore") or 0)
+    if item.get("xSignal"):
+        score += 2
+    if item.get("verifiedSource"):
+        score += 2
+    if item.get("source", "").lower() in {"reuters world", "ap world", "bbc world"}:
+        score += 2
+    return score
 
 
 TOP_N = 100           # fetch up to this many per run; merged with existing on disk
@@ -257,6 +299,102 @@ def parse_date(s: str) -> datetime:
     return datetime.min.replace(tzinfo=timezone.utc)
 
 
+def x_engagement_score(metrics: dict, verified: bool, trusted: bool) -> float:
+    likes = metrics.get("like_count") or 0
+    reposts = metrics.get("retweet_count") or 0
+    replies = metrics.get("reply_count") or 0
+    quotes = metrics.get("quote_count") or 0
+    raw = likes + (2 * reposts) + replies + (2 * quotes)
+    score = min(8, raw / 150)
+    if verified:
+        score += 2
+    if trusted:
+        score += 3
+    return round(score, 2)
+
+
+def credible_x_post(text: str, metrics: dict, verified: bool, trusted: bool) -> bool:
+    if LOW_QUALITY_X_RE.search(text):
+        return False
+    engagement = (
+        (metrics.get("like_count") or 0)
+        + (2 * (metrics.get("retweet_count") or 0))
+        + (2 * (metrics.get("quote_count") or 0))
+        + (metrics.get("reply_count") or 0)
+    )
+    return trusted or verified or engagement >= 75
+
+
+def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
+                  limit_per_query: int = 20) -> list[dict]:
+    """Use X recent search as a primary signal when X_BEARER_TOKEN is configured."""
+    if not X_BEARER_TOKEN:
+        print(f"[x] no X_BEARER_TOKEN configured; skipping {section} X signals")
+        return []
+
+    headers = {"Authorization": f"Bearer {X_BEARER_TOKEN}"}
+    items: list[dict] = []
+    trusted_handles = TRUSTED_X_HANDLES.get(section, set())
+
+    for query in queries:
+        params = {
+            "query": f"({query}) lang:en -is:retweet -is:reply",
+            "max_results": max(10, min(100, limit_per_query)),
+            "tweet.fields": "created_at,public_metrics,author_id,possibly_sensitive,lang",
+            "expansions": "author_id",
+            "user.fields": "username,name,verified,public_metrics",
+        }
+        try:
+            res = requests.get(X_API_URL, headers=headers, params=params, timeout=20)
+            if res.status_code == 429:
+                print(f"[x] rate limited while fetching {section}")
+                break
+            res.raise_for_status()
+            payload = res.json()
+        except Exception as e:
+            print(f"[x] {section} query failed: {e}")
+            continue
+
+        users = {
+            u["id"]: u for u in payload.get("includes", {}).get("users", [])
+            if u.get("id")
+        }
+        for tweet in payload.get("data", []):
+            text = strip_html(tweet.get("text", ""))
+            if tweet.get("possibly_sensitive") or not topic_re.search(text):
+                continue
+
+            user = users.get(tweet.get("author_id"), {})
+            username = (user.get("username") or "x").lower()
+            verified = bool(user.get("verified"))
+            trusted = username in trusted_handles
+            metrics = tweet.get("public_metrics") or {}
+            if not credible_x_post(text, metrics, verified, trusted):
+                continue
+
+            display_name = user.get("name") or username
+            items.append({
+                "title": truncate(text, 140),
+                "url": f"https://x.com/{username}/status/{tweet['id']}",
+                "source": f"X · @{username}",
+                "published": tweet.get("created_at", ""),
+                "summary": truncate(f"{display_name}: {text}", 400),
+                "xSignal": True,
+                "verifiedSource": verified or trusted,
+                "xScore": x_engagement_score(metrics, verified, trusted),
+            })
+
+    seen, deduped = set(), []
+    for item in items:
+        key = item["url"]
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    deduped.sort(key=lambda x: (news_quality_score(x), parse_date(x["published"])), reverse=True)
+    return deduped[:TOP_N]
+
+
 # ────────────────────────────────────────────────────────────────────
 # STOCKS
 # ────────────────────────────────────────────────────────────────────
@@ -270,34 +408,12 @@ def fetch_stock(ticker: str, name: str, sector: str) -> dict | None:
         except Exception:
             pass
 
-        hist = t.history(period="ytd", auto_adjust=False)
-        if hist.empty:
-            hist = t.history(period="5d", auto_adjust=False)
-        if hist.empty:
-            print(f"[stocks] {ticker} no history")
-            return None
-
-        price = float(hist["Close"].iloc[-1])
-        prev = float(hist["Close"].iloc[-2]) if len(hist) >= 2 else price
-        change = price - prev
-        pct = (change / prev * 100) if prev else 0.0
-        ytd_first = float(hist["Close"].iloc[0])
-        ytd_pct = ((price - ytd_first) / ytd_first * 100) if ytd_first else 0.0
-
         return {
             "ticker": ticker,
             "name": name,
             "sector": sector,
             "currency": info.get("currency") or info.get("financialCurrency") or "",
-            "price": round(price, 2),
-            "change": round(change, 2),
-            "changePercent": round(pct, 2),
             "marketCap": info.get("marketCap"),
-            "peRatio": round(info["trailingPE"], 2) if info.get("trailingPE") else None,
-            "high52w": round(info["fiftyTwoWeekHigh"], 2) if info.get("fiftyTwoWeekHigh") else None,
-            "low52w": round(info["fiftyTwoWeekLow"], 2) if info.get("fiftyTwoWeekLow") else None,
-            "ytdPercent": round(ytd_pct, 2),
-            "dividendYield": round(info["dividendYield"] * 100, 2) if info.get("dividendYield") else None,
         }
     except Exception as e:
         print(f"[stocks] {ticker} failed: {e}")
@@ -305,10 +421,13 @@ def fetch_stock(ticker: str, name: str, sector: str) -> dict | None:
 
 
 def fetch_all_stocks() -> dict:
+    def sorted_region(stocks: list[dict]) -> list[dict]:
+        return sorted(stocks, key=lambda s: (s.get("name") or "").casefold())
+
     return {
-        "us":    [s for s in (fetch_stock(*x) for x in US_STOCKS)    if s],
-        "asia":  [s for s in (fetch_stock(*x) for x in ASIA_STOCKS)  if s],
-        "india": [s for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s],
+        "us":    sorted_region([s for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
+        "asia":  sorted_region([s for s in (fetch_stock(*x) for x in ASIA_STOCKS)  if s]),
+        "india": sorted_region([s for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
     }
 
 
@@ -337,8 +456,9 @@ def fetch_feed(source: str, url: str, limit: int = 10) -> list[dict]:
 
 def fetch_category(feeds: list[tuple[str, str]],
                    topic_re: re.Pattern | None = None,
-                   top_n: int = TOP_N) -> list[dict]:
-    all_items = []
+                   top_n: int = TOP_N,
+                   x_items: list[dict] | None = None) -> list[dict]:
+    all_items = list(x_items or [])
     for src, url in feeds:
         all_items.extend(fetch_feed(src, url, limit=20))
 
@@ -347,7 +467,7 @@ def fetch_category(feeds: list[tuple[str, str]],
     fresh = [i for i in relevant if parse_date(i["published"]) >= cutoff]
     pool = fresh if len(fresh) >= top_n else (relevant if relevant else all_items)
 
-    pool.sort(key=lambda x: parse_date(x["published"]), reverse=True)
+    pool.sort(key=lambda x: (news_quality_score(x), parse_date(x["published"])), reverse=True)
 
     seen, deduped = set(), []
     for it in pool:
@@ -362,7 +482,9 @@ def fetch_category(feeds: list[tuple[str, str]],
 def fetch_tech_news() -> list[dict]:
     """Combined tech feed. Each item tagged with isAI=True/False so the frontend
     can present 15 AI + 5 other-tech per time window."""
-    items = []
+    items = fetch_x_posts(X_TECH_QUERIES, "tech", TECH_AI_RE)
+    for it in items:
+        it["isAI"] = True
 
     # 1. AI-native publishers — always isAI=True
     for src, url in TECH_AI_FEEDS:
@@ -391,15 +513,8 @@ def fetch_tech_news() -> list[dict]:
             continue
         seen.add(key)
         deduped.append(it)
-    deduped.sort(key=lambda x: parse_date(x["published"]), reverse=True)
+    deduped.sort(key=lambda x: (news_quality_score(x), parse_date(x["published"])), reverse=True)
     return deduped[:TOP_N]
-
-
-def fetch_private_company_news(name: str, limit: int = 5) -> list[dict]:
-    """Pull recent news for a private company via Google News RSS (no API key needed)."""
-    url = f"https://news.google.com/rss/search?q={requests.utils.quote(name)}&hl=en-US&gl=US&ceid=US:en"
-    items = fetch_feed(f"Google News · {name}", url, limit=limit)
-    return items
 
 
 # ────────────────────────────────────────────────────────────────────
@@ -417,16 +532,6 @@ def main():
     counts = {k: len(v) for k, v in regions.items()}
     print(f"  stocks per region: {counts}")
 
-    print("Fetching private-company news…")
-    privates = []
-    for name, tag in PRIVATE_COMPANIES:
-        news = fetch_private_company_news(name)
-        privates.append({"name": name, "tag": tag, "news": news})
-        print(f"  {name}: {len(news)} items")
-    (DATA / "private.json").write_text(json.dumps(
-        {"updated": now, "companies": privates}, indent=2
-    ))
-
     print("Fetching tech / AI news…")
     new_tech = fetch_tech_news()
     existing_tech = load_existing_items(DATA / "news_tech.json")
@@ -442,12 +547,13 @@ def main():
     ai_count = sum(1 for i in tech_items if i.get("isAI"))
     print(f"  stored {len(tech_items)} tech items ({ai_count} AI, {len(tech_items)-ai_count} other) — was {len(existing_tech)} before merge")
 
-    for label, feeds, filter_re, filename in [
-        ("india political", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json"),
-        ("geopolitical",    GEOPOLITICAL_FEEDS,    GEOPOLITICS_RE,    "news_global.json"),
+    global_x_items = fetch_x_posts(X_GEO_QUERIES, "global", GEOPOLITICS_RE)
+    for label, feeds, filter_re, filename, x_items in [
+        ("india political", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json", []),
+        ("geopolitical",    GEOPOLITICAL_FEEDS,    GEOPOLITICS_RE,    "news_global.json", global_x_items),
     ]:
         print(f"Fetching {label} news…")
-        new_items = fetch_category(feeds, filter_re)
+        new_items = fetch_category(feeds, filter_re, x_items=x_items)
         existing  = load_existing_items(DATA / filename)
         merged    = merge_with_history(new_items, existing)
         (DATA / filename).write_text(json.dumps(
