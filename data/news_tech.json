@@ -1,6 +1,502 @@
 {
-  "updated": "2026-05-19T15:56:55.041477+00:00",
+  "updated": "2026-05-20T16:05:20.331588+00:00",
   "items": [
+    {
+      "title": "Google Search\u2019s AI evolution includes more ads",
+      "url": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
+      "source": "The Verge AI",
+      "published": "2026-05-20T12:00:00-04:00",
+      "summary": "Google's AI-powered Search era apparently also extends to its ads. Now, when you search for a product, Google's Gemini AI chatbot will surface relevant items and generate a \"custom explainer\" about why you should purchase a specific one. The update comes just one day after Google revealed a new Search box for larger, more conversational [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Customers say Trump Mobile is leaking their personal information",
+      "url": "https://techcrunch.com/2026/05/20/customers-say-trump-mobile-is-leaking-their-personal-information/",
+      "source": "TechCrunch",
+      "published": "Wed, 20 May 2026 15:28:55 +0000",
+      "summary": "Trump Mobile is leaking customers\u2019 email and home addresses, but has not responded to people alerting the company of the data exposure, according to two YouTubers who said they verified that their leaked data is authentic.",
+      "isAI": false
+    },
+    {
+      "title": "Intuit to lay off over 3,000 employees to refocus on AI",
+      "url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+      "source": "TechCrunch",
+      "published": "Wed, 20 May 2026 15:14:31 +0000",
+      "summary": "In a memo to employees, CEO Sasan Goodarzi said the layoffs are meant to reduce complexity, simplify the company's corporate structure, and deliver better AI products.",
+      "isAI": true
+    },
+    {
+      "title": "AI search startups are blowing up",
+      "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 15:04:45 +0000",
+      "summary": "AI search has quietly become one of the most attractive targets in consumer AI.",
+      "isAI": true
+    },
+    {
+      "title": "Stability AI releases a new audio model that can create six-minute songs",
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 15:00:00 +0000",
+      "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks",
+      "isAI": true
+    },
+    {
+      "title": "It\u2019s make or break time for AI labeling systems",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts",
+      "source": "The Verge AI",
+      "published": "2026-05-20T10:12:54-04:00",
+      "summary": "We're about to find out if the systems designed to make deepfakes and AI-generated content easy to spot are actually up to snuff. SynthID and C2PA Content Credentials, two distinct technologies for invisibly tagging image, video, and audio files with information about their origins, are getting their biggest expansion to date, and with it, the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Trump Mobile may be leaking customer addresses",
+      "url": "https://www.theverge.com/gadgets/934522/trump-mobile-may-be-leaking-customer-addresses",
+      "source": "The Verge",
+      "published": "2026-05-20T10:06:19-04:00",
+      "summary": "Just as the T1 Phone is seemingly on the verge of release, Trump Mobile has been accused of insecurely storing customer data, leaving addresses and phone numbers vulnerable. The alleged leak has also revealed how many T1 Phone orders were apparently placed, and it's far fewer than viral figures have claimed. YouTuber Coffeezilla was the [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
+      "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 14:00:00 +0000",
+      "summary": "NanoCo, the company behind OpenClaw alternative NanoClaw, has raised a $12 million seed after a viral launch, the founders tell TechCrunch.",
+      "isAI": true
+    },
+    {
+      "title": "Startup Battlefield 200 applications close in one week: Window to nominate and apply for the most promising startups ends May 27",
+      "url": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-one-week-window-to-nominate-and-apply-for-the-most-promising-startups-ends-may-27/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 14:00:00 +0000",
+      "summary": "Startup Battlefield 200 applications close May 27. Pitch at TechCrunch Disrupt, get investor access, win $100K, plus more scaling perks. Nominate an early-stage founder or submit your startup here.",
+      "isAI": true
+    },
+    {
+      "title": "Yearslong fight over users' right to tweak smart TV software heads to trial",
+      "url": "https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/",
+      "source": "Ars Technica",
+      "published": "Wed, 20 May 2026 13:32:49 +0000",
+      "summary": "Access to TV OS's source code could allow users to limit ads, tracking.",
+      "isAI": true
+    },
+    {
+      "title": "If Google can\u2019t make AI agents useful, maybe no one can",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can",
+      "source": "The Verge AI",
+      "published": "2026-05-20T09:24:22-04:00",
+      "summary": "For years, tech companies have promised AI will give everyone a capable personal assistant but delivered something more like a clueless intern. Over the past six months, that has started to change, thanks largely to the viral open-source AI agent platform OpenClaw. And among the top AI labs now chasing similar success, one seems particularly [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "China banned RTX 5090D V2 while Nvidia CEO Jensen Huang was visiting",
+      "url": "https://arstechnica.com/tech-policy/2026/05/china-banned-rtx-5090d-v2-while-nvidia-ceo-jensen-huang-was-visiting/",
+      "source": "Ars Technica",
+      "published": "Wed, 20 May 2026 13:10:15 +0000",
+      "summary": "The chip was added to a list of banned goods at China\u2019s customs checkpoints last Friday.",
+      "isAI": true
+    },
+    {
+      "title": "Figma adds an AI assistant to its collaborative canvas",
+      "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 13:00:00 +0000",
+      "summary": "Figma's new AI assistant will be first available on Figma Design",
+      "isAI": true
+    },
+    {
+      "title": "The biggest data center ever is becoming a huge problem in Utah",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/933687/utah-stratos-project-data-center-kevin-oleary",
+      "source": "The Verge AI",
+      "published": "2026-05-20T09:00:00-04:00",
+      "summary": "Utah may host one of the world's most colossal data centers, despite stark warnings from experts and fierce public backlash. Earlier this month, commissioners in Box Elder County signed off on the Stratos Project: a 40,000-acre data center stretching across the county's Hansel Valley. It's supposed to establish American AI dominance, but potentially at the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Quartermaster is building a maritime hive mind",
+      "url": "https://techcrunch.com/2026/05/20/quartermaster-is-building-a-maritime-hive-mind/",
+      "source": "TechCrunch",
+      "published": "Wed, 20 May 2026 13:00:00 +0000",
+      "summary": "The Arlington, Virginia-based startup has raised $42 million to equip ships with sensors that blow the current AIS tech out of the water.",
+      "isAI": true
+    },
+    {
+      "title": "College students drown out AI-praising commencement speeches with boos",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
+      "source": "Hacker News",
+      "published": "Wed, 20 May 2026 11:51:32 +0000",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role Comments URL: https://news.ycombinator.com/item?id=48206241 Points: 261 # Comments: 241",
+      "isAI": true
+    },
+    {
+      "title": "Everything to Look for When Buying a New Laptop in 2026",
+      "url": "https://www.wired.com/story/how-to-buy-the-right-laptop-for-you/",
+      "source": "Wired",
+      "published": "Wed, 20 May 2026 11:01:00 +0000",
+      "summary": "Shopping for a laptop can be infuriating. Here\u2019s how to sift through the acronyms, storage options, and extra features to find the best one for you.",
+      "isAI": false
+    },
+    {
+      "title": "The Internet can't stop watching Figure AI's humanoid robots handling packages",
+      "url": "https://arstechnica.com/ai/2026/05/the-internet-cant-stop-watching-figure-ais-humanoid-robots-handling-packages/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 20 May 2026 11:00:34 +0000",
+      "summary": "Figure AI's 24/7 livestream showcases human soft spot for humanoid robots.",
+      "isAI": true
+    },
+    {
+      "title": "Qwen3.7-Max: The Agent Frontier",
+      "url": "https://qwen.ai/blog?id=qwen3.7",
+      "source": "Hacker News",
+      "published": "Wed, 20 May 2026 10:35:02 +0000",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.7 Comments URL: https://news.ycombinator.com/item?id=48205626 Points: 305 # Comments: 112",
+      "isAI": true
+    },
+    {
+      "title": "Data Brokers\u2019 and AI Firms\u2019 Opt-Out Forms Are Built to Fail, Report Finds",
+      "url": "https://www.wired.com/story/data-brokers-and-ai-firms-opt-out-forms-are-built-to-fail-report-finds/",
+      "source": "Wired",
+      "published": "Wed, 20 May 2026 09:00:00 +0000",
+      "summary": "A new study finds AI companies, defense firms, and dating apps are among 38 data collectors allegedly using manipulative design to confuse users while collecting their data.",
+      "isAI": true
+    },
+    {
+      "title": "Moose-proof and megacasting: Ars drives the new Volvo EX60",
+      "url": "https://arstechnica.com/cars/2026/05/moose-proof-and-megacasting-ars-drives-the-new-volvo-ex60/",
+      "source": "Ars Technica",
+      "published": "Wed, 20 May 2026 07:00:57 +0000",
+      "summary": "Volvo is coming for its competitors with more efficient production and newer tech.",
+      "isAI": false
+    },
+    {
+      "title": "\u2018Ask YouTube\u2019 brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
+      "url": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
+      "source": "TechCrunch",
+      "published": "Wed, 20 May 2026 05:45:00 +0000",
+      "summary": "Google is completely revamping its search experience, and that doesn't stop at YouTube.",
+      "isAI": true
+    },
+    {
+      "title": "The next phase of OpenAI\u2019s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "source": "OpenAI",
+      "published": "Wed, 20 May 2026 00:00:00 GMT",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "isAI": true
+    },
+    {
+      "title": "Remove-AI-Watermarks \u2013 CLI and library for removing AI watermarks from images",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "source": "Hacker News",
+      "published": "Tue, 19 May 2026 22:30:31 +0000",
+      "summary": "Article URL: https://github.com/wiltodelta/remove-ai-watermarks Comments URL: https://news.ycombinator.com/item?id=48200569 Points: 347 # Comments: 216",
+      "isAI": true
+    },
+    {
+      "title": "Demis Hassabis said this might be the \u2018foothills of the singularity.\u2019 What?",
+      "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
+      "source": "The Verge AI",
+      "published": "2026-05-19T18:16:02-04:00",
+      "summary": "Welcome to a \"profound moment for humanity,\" according to Google DeepMind CEO Demis Hassabis, who closed out Google I/O's keynote presentation on Tuesday, saying: Google's cutting-edge research and products will help unlock AGI's incredible potential for the benefit of the entire world. When we look back at this time, I think we will realize that [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google just declared itself a contender in AI design at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 21:33:30 +0000",
+      "summary": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
+      "isAI": true
+    },
+    {
+      "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 21:25:31 +0000",
+      "summary": "Google expands Gmail\u2019s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
+      "isAI": true
+    },
+    {
+      "title": "The future of Google is a search box that does everything",
+      "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
+      "source": "The Verge AI",
+      "published": "2026-05-19T17:24:14-04:00",
+      "summary": "Last year, after watching Google's I/O keynote, I wrote that it felt like Google's future was Google googling. After watching this year's I/O keynote on Tuesday, I don't think Google just wants to google for you - I think it wants to do everything for you, all from a search box. Take the trusty Google [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "How to use Google\u2019s new AI agents to go beyond your standard searches",
+      "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 21:16:25 +0000",
+      "summary": "Google is launching AI-powered \u201cinformation agents\u201d that can monitor topics in the background and proactively alert users to updates and changes.",
+      "isAI": true
+    },
+    {
+      "title": "Mach Industries just spent $50M to solve a major defense tech problem",
+      "url": "https://techcrunch.com/2026/05/19/mach-industries-just-spent-50m-to-solve-a-major-defense-tech-problem/",
+      "source": "TechCrunch",
+      "published": "Tue, 19 May 2026 21:09:56 +0000",
+      "summary": "Mach says the acquisition meaningfully improves unit economics across its five vehicle programs at exactly the moment the company is starting to scale.",
+      "isAI": false
+    },
+    {
+      "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+      "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 21:08:51 +0000",
+      "summary": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation attempts.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s AI future demands trust \u2014 and your personal data",
+      "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
+      "source": "The Verge AI",
+      "published": "2026-05-19T17:00:00-04:00",
+      "summary": "Google has big promises for its AI-powered future - and a lot of it depends on your trust. At I/O 2026, Google described a bunch of new tools that it claims will make your life easier. Gemini Spark, Google's always-on AI agent, can help organize an upcoming event, while Daily Brief can offer a rundown [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Introducing OpenAI for Singapore",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "source": "OpenAI",
+      "published": "Tue, 19 May 2026 20:30:00 GMT",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "isAI": true
+    },
+    {
+      "title": "Roundtables: Inside the Musk v. Altman Trial",
+      "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 19 May 2026 20:15:18 +0000",
+      "summary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company\u2019s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in conversation with editor in\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Elon Musk said Sam Altman \u2018stole\u2019 a non-profit \u2014 but the trial showed he had similar aims",
+      "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 20:11:00 +0000",
+      "summary": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one, in part because he waited so long to file it.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "source": "Hacker News",
+      "published": "Tue, 19 May 2026 19:34:30 +0000",
+      "summary": "Article URL: https://openai.com/index/advancing-content-provenance/ Comments URL: https://news.ycombinator.com/item?id=48198291 Points: 316 # Comments: 171",
+      "isAI": true
+    },
+    {
+      "title": "Google takes a page out of Meta\u2019s book, announces new audio-powered smart glasses at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 19:15:31 +0000",
+      "summary": "Google is calling the new devices \"audio glasses,\" in that users will be able to issue verbal commands to them and get things done via its ecosystem of apps and services, including Gemini.",
+      "isAI": true
+    },
+    {
+      "title": "Mistral AI acquires Emmi AI",
+      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "source": "Hacker News",
+      "published": "Tue, 19 May 2026 19:14:12 +0000",
+      "summary": "Article URL: https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai Comments URL: https://news.ycombinator.com/item?id=48197995 Points: 308 # Comments: 91",
+      "isAI": true
+    },
+    {
+      "title": "Two AI-based science assistants succeed with drug-retargeting tasks",
+      "url": "https://arstechnica.com/science/2026/05/two-ai-based-science-assistants-succeed-with-drug-retargeting-tasks/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 19 May 2026 18:55:56 +0000",
+      "summary": "Both tools generate hypotheses; one goes on to analyze some of the data.",
+      "isAI": true
+    },
+    {
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "source": "Hugging Face",
+      "published": "Tue, 19 May 2026 18:38:09 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Google's SynthID AI watermarking tech is being adopted by OpenAI, Nvidia, and more",
+      "url": "https://arstechnica.com/google/2026/05/googles-synthid-ai-watermarking-tech-is-being-adopted-by-openai-nvidia-and-more/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 19 May 2026 18:37:02 +0000",
+      "summary": "AI content is getting good, but SynthID might be able to help tell truth from fiction.",
+      "isAI": true
+    },
+    {
+      "title": "Gemini 3.5 Flash might be fast enough for gen AI to make sense",
+      "url": "https://arstechnica.com/google/2026/05/google-announces-agent-optimized-gemini-3-5-flash-and-a-do-anything-model-called-omni/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 19 May 2026 18:11:50 +0000",
+      "summary": "Google says its more efficient Gemini 3.5 Flash is the key to your agentic AI future.",
+      "isAI": true
+    },
+    {
+      "title": "Gemini will use Volvo\u2019s external cameras to interpret parking signs",
+      "url": "https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking",
+      "source": "The Verge AI",
+      "published": "2026-05-19T14:00:00-04:00",
+      "summary": "Gemini is gaining the power of sight and mobility. Today at the I/O conference, Google and Volvo announced that the AI-powered assistant will be able to access external cameras in the upcoming EX60 SUV to help explain and interpret its surroundings to vehicle owners. The upgrade is possible thanks to Volvo's use of Google's embedded [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The 13 biggest announcements at Google I/O 2026",
+      "url": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini",
+      "source": "The Verge AI",
+      "published": "2026-05-19T13:54:33-04:00",
+      "summary": "Google's I/O 2026 keynote today was once again full of AI-related announcements including a new family of Gemini 3.5 AI models, new features for Search and Gmail, and updates about its Project Aura smart glasses. If you weren't able to tune into the event's livestream today or follow along with our live blog, you can [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s Genie world model can now simulate real streets with Street View",
+      "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:51:39 +0000",
+      "summary": "Google DeepMind is integrating Street View with Project Genie to create immersive, interactive world simulations for robotics, gaming, and travel, allowing users to explore environments, weather changes, and rare scenarios.",
+      "isAI": true
+    },
+    {
+      "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
+      "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:51:30 +0000",
+      "summary": "Google launched Gemini 3.5 Flash, its most powerful coding and agentic AI model yet, at the company's annual developer conference. It is capable of autonomously executing complex tasks and building software from scratch.",
+      "isAI": true
+    },
+    {
+      "title": "Google wants to compete with Anthropic\u2019s Mythos",
+      "url": "https://www.theverge.com/tech/933921/google-wants-to-compete-with-anthropics-mythos",
+      "source": "The Verge AI",
+      "published": "2026-05-19T13:48:22-04:00",
+      "summary": "Google is making a big push into cybersecurity. At I/O, the company announced that it was inviting select groups of experts to test the API for CodeMender, an \"AI agent for code security\" it debuted last October. The difference is that Google is now making the tool more widely available externally - and marketing it [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google Search as you know it is over",
+      "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:46:00 +0000",
+      "summary": "Google is transforming Search from a list of links into an AI-powered experience filled with conversational answers, autonomous agents, and interactive interfaces \u2014 a shift that could further reduce traffic to publishers across the web.",
+      "isAI": true
+    },
+    {
+      "title": "I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "At Google I/O 2026, we shared how we\u2019re making AI more helpful for everyone. See everything we announced.",
+      "isAI": true
+    },
+    {
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "A graphic features the text \"How people are using AI Mode in the U.S.\" surrounded by colorful, stylized illustrations of a pencil, planet, banana, gift box, cursor, gamepad, and lipstick on a light blue background.",
+      "isAI": true
+    },
+    {
+      "title": "New ways to create and get things done in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Google Workspace",
+      "isAI": true
+    },
+    {
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "a series of colorful icons representing Google I/O against a black background",
+      "isAI": true
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Gemini 3.5 text and multi-colored star icon on an abstract blue background.",
+      "isAI": true
+    },
+    {
+      "title": "A new era for AI Search",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Text that reads \"The best of a search engine with the best of AI\"",
+      "isAI": true
+    },
+    {
+      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
+      "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "source": "Google AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "The image shows colorful icons. The copy reads: More magic in one plan. More power, more perks, same price.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI is making it easier to check if an image was made by their models",
+      "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "OpenAI announced two new measures to help detect AI generated imagery: joining the open C2PA standard and adding Google's SynthID to its products.",
+      "isAI": true
+    },
+    {
+      "title": "Agentic app coding gets an upgrade with Google\u2019s release of Android CLI",
+      "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms like Claude Code and OpenAI\u2019s Codex, allowing developers \u2014 or their AI assistants \u2014 to build Android apps faster from the command line.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s AI Studio now lets anyone build Android apps in minutes",
+      "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Google unveiled new web-based AI tools that can generate native Android apps in minutes, as the company expands its push into AI-powered software development.",
+      "isAI": true
+    },
+    {
+      "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "The updates signal Google\u2019s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone chatbot.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s new Universal Cart wants to follow your entire shopping journey across the internet",
+      "url": "https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-your-entire-shopping-journey-across-the-internet/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Most people shop across multiple devices, many retailers, and over the course of many days, which is why Google is launching Universal Cart.",
+      "isAI": true
+    },
+    {
+      "title": "Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 19 May 2026 17:45:00 +0000",
+      "summary": "Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.0 launch.",
+      "isAI": true
+    },
+    {
+      "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
+      "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+      "source": "VentureBeat AI",
+      "published": "Tue, 19 May 2026 17:45:00 GMT",
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.At its annual I/O developer conference, Google announced a sweeping redesign of the search box itself \u2014 the literal text field where billions of\u2026",
+      "isAI": true
+    },
     {
       "title": "An AI announcer mispronounced and skipped names during a graduation",
       "url": "https://www.theverge.com/tech/933653/ai-graduation-commencement-glendale-community-college",
@@ -114,6 +610,14 @@
       "isAI": false
     },
     {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "source": "OpenAI",
+      "published": "Tue, 19 May 2026 10:45:00 GMT",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+      "isAI": true
+    },
+    {
       "title": "Gemini is in danger of going full Copilot",
       "url": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
       "source": "The Verge AI",
@@ -223,6 +727,14 @@
       "source": "The Verge AI",
       "published": "2026-05-18T15:00:00-04:00",
       "summary": "The tech trial of the year, Musk v. Altman, was ultimately a fight for control. Elon Musk argued that Sam Altman, with whom he helped found the now-massive company OpenAI, shouldn't direct the future of AI. Altman's lawyers, in turn, poked at Musk's own credibility. A jury came to a verdict on Monday after just [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "source": "Google DeepMind",
+      "published": "Mon, 18 May 2026 18:21:39 +0000",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
       "isAI": true
     },
     {
@@ -410,11 +922,35 @@
       "isAI": true
     },
     {
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "source": "Google DeepMind",
+      "published": "Sun, 17 May 2026 19:53:18 +0000",
+      "summary": "We\u2019re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "isAI": true
+    },
+    {
+      "title": "Introducing Gemini Omni",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "source": "Google DeepMind",
+      "published": "Sun, 17 May 2026 19:50:57 +0000",
+      "summary": "",
+      "isAI": true
+    },
+    {
       "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
       "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
       "source": "TechCrunch AI",
       "published": "Sun, 17 May 2026 19:46:34 +0000",
       "summary": "A big theme in the trial\u2019s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+      "isAI": true
+    },
+    {
+      "title": "Introducing Google Antigravity 2.0",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "source": "Google DeepMind",
+      "published": "Sun, 17 May 2026 19:43:45 +0000",
+      "summary": "",
       "isAI": true
     },
     {
@@ -456,6 +992,22 @@
       "published": "Sun, 17 May 2026 15:00:00 +0000",
       "summary": "Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action.",
       "isAI": false
+    },
+    {
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "source": "Google DeepMind",
+      "published": "Sun, 17 May 2026 13:50:34 +0000",
+      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "isAI": true
+    },
+    {
+      "title": "Making it easier to understand how content was created and edited",
+      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+      "source": "Google DeepMind",
+      "published": "Sun, 17 May 2026 13:43:50 +0000",
+      "summary": "We're expanding our tools to help you understand how content was created and edited across the web.",
+      "isAI": true
     },
     {
       "title": "ElliQ is a surprisingly helpful companion robot for older adults",
@@ -578,11 +1130,59 @@
       "isAI": true
     },
     {
+      "title": "Strengthening Singapore\u2019s AI Future: A New National Partnership",
+      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 09:13:34 +0000",
+      "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+      "isAI": true
+    },
+    {
       "title": "Asteroid 2026 JH2 Is About to Fly Right Past Earth\u2014Relatively Speaking",
       "url": "https://www.wired.com/story/asteroid-2026-jh2-is-about-to-fly-right-past-the-earth-relatively-speaking/",
       "source": "Wired",
       "published": "Sat, 16 May 2026 09:00:00 +0000",
       "summary": "On May 18, an asteroid about the size of Chicago\u2019s Cloud Gate will fly four times closer to Earth than the moon.",
+      "isAI": true
+    },
+    {
+      "title": "Finding the molecular switches behind new infectious diseases",
+      "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 08:16:06 +0000",
+      "summary": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
+      "isAI": true
+    },
+    {
+      "title": "Opening new paths in aging research",
+      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 08:08:44 +0000",
+      "summary": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
+      "isAI": true
+    },
+    {
+      "title": "Accelerating discovery of liver disease mechanisms",
+      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 08:00:15 +0000",
+      "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
+      "isAI": true
+    },
+    {
+      "title": "Uniting biological toolkits for a new approach to ALS",
+      "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 07:53:11 +0000",
+      "summary": "Co-Scientist unites Boston Children\u2019s Hospital and MIT\u2019s labs to explore new RNA-based treatments for ALS.",
+      "isAI": true
+    },
+    {
+      "title": "Uncovering repurposed medicines to fight liver fibrosis",
+      "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 07:40:27 +0000",
+      "summary": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
       "isAI": true
     },
     {
@@ -602,6 +1202,14 @@
       "isAI": false
     },
     {
+      "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa\u2019s historic landfall in Jamaica",
+      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+      "source": "Google DeepMind",
+      "published": "Sat, 16 May 2026 03:14:17 +0000",
+      "summary": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
+      "isAI": true
+    },
+    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
       "source": "OpenAI",
@@ -615,6 +1223,14 @@
       "source": "MIT Tech Review",
       "published": "Fri, 15 May 2026 23:39:35 +0000",
       "summary": "In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk\u2019s and OpenAI CEO Sam Altman\u2019s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who wanted to control the development\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+      "source": "Google DeepMind",
+      "published": "Fri, 15 May 2026 22:50:12 +0000",
+      "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
       "isAI": true
     },
     {
@@ -1384,622 +2000,6 @@
       "published": "Wed, 13 May 2026 16:31:04 +0000",
       "summary": "\"I believe I am an honest and trustworthy businessperson,\" Altman testified in federal court.",
       "isAI": true
-    },
-    {
-      "title": "Origin Lab raises $8M to help video game companies sell data to world-model builders",
-      "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 16:22:01 +0000",
-      "summary": "Origin Lab will serve as a marketplace where AI labs can buy high-quality licensed data, and video-game companies can sell it.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic courts a new kind of customer: small business owners",
-      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 16:00:00 +0000",
-      "summary": "For founders and investors, Anthropic's new offering signals that the AI platform wars are expanding downmarket and that the next major battleground for user acquisition isn't the Fortune 500; it's the 36 million small businesses that make up the backbone of the U.S. economy.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft doesn\u2019t want any of this",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-      "source": "The Verge AI",
-      "published": "2026-05-13T11:30:37-04:00",
-      "summary": "Maybe I'm just punch-drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than anything [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+",
-      "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 14:59:32 +0000",
-      "summary": "Alexa for Shopping offers a voice- and touch-enabled shopping experience across mobile, desktop, and Echo Show smart displays. Alexa for Shopping provides more personalized recommendations and automates the shopping experience across Amazon and other online retailers.",
-      "isAI": true
-    },
-    {
-      "title": "Anduril raises $5B, doubles valuation to $61B",
-      "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
-      "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 14:44:25 +0000",
-      "summary": "After achieving $2.2 billion in revenue in 2025, the defense tech startup has raised another massive round, led by Thrive and a16z, it says.",
-      "isAI": true
-    },
-    {
-      "title": "US lawmakers demand answers from Instructure after Canvas data breaches",
-      "url": "https://techcrunch.com/2026/05/13/us-lawmakers-demand-answers-from-instructure-after-canvas-data-breaches/",
-      "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 14:32:45 +0000",
-      "summary": "U.S. House lawmakers want to know how hackers broke into education tech giant Instructure twice, and stole reams of data from students who use the company's flagship student data software Canvas.",
-      "isAI": true
-    },
-    {
-      "title": "WhatsApp adds an incognito mode in Meta AI chats",
-      "url": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 14:00:00 +0000",
-      "summary": "Meta said these incognito conversations are not saved, and messages will disappear by default once you close the chat.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
-      "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 14:00:00 +0000",
-      "summary": "A survey compiled from fintech firm Ramp\u2019s clients\u2019 expense data shows 34.4% of participating businesses are paying for Anthropic services, more than any other AI lab, while only 32.3% pay for OpenAI.",
-      "isAI": true
-    },
-    {
-      "title": "Why does the Googlebook exist?",
-      "url": "https://www.theverge.com/report/929374/google-googlebook-laptops-aluminium-os-questions-concerns-ai-gemini",
-      "source": "The Verge",
-      "published": "2026-05-13T10:00:00-04:00",
-      "summary": "Google announced its new Googlebook laptop platform yesterday, and so far I've been left asking, \"Why?\" Why is Google blowing up its Chromebook and ChromeOS platform for this? I've been excited by the prospect of Android and ChromeOS unifying under the long-rumored Aluminium OS. The theory was that Aluminium might unite Android and ChromeOS under [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "WhatsApp Adds Meta AI Chats That Are Built to Be Fully Private",
-      "url": "https://www.wired.com/story/whatsapp-incognito-chat-meta-ai/",
-      "source": "Wired",
-      "published": "Wed, 13 May 2026 14:00:00 +0000",
-      "summary": "The company says its new Incognito Chat allows you to use its AI chatbot without anyone else\u2014including Meta\u2014being able to access your conversations.",
-      "isAI": true
-    },
-    {
-      "title": "Poppy debuts a proactive AI assistant to help organize your digital life",
-      "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 13:27:09 +0000",
-      "summary": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what\u2019s happening in your life.",
-      "isAI": true
-    },
-    {
-      "title": "Alexa is moving into Amazon\u2024com",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-      "source": "The Verge AI",
-      "published": "2026-05-13T09:00:00-04:00",
-      "summary": "Amazon is bringing Alexa Plus to Amazon.com, integrating its LLM-powered AI assistant directly into the company's shopping experience. Beginning today, when you type a query into Amazon, you'll be talking to Alexa for Shopping, the company's new shopping assistant, powered by Alexa Plus. So, while a search for \"toilet paper\" will still return the expected [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Dutch suicide prevention website shares data with tech companies without consent",
-      "url": "https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies",
-      "source": "Hacker News",
-      "published": "Wed, 13 May 2026 12:57:42 +0000",
-      "summary": "Article URL: https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies Comments URL: https://news.ycombinator.com/item?id=48121299 Points: 151 # Comments: 89",
-      "isAI": false
-    },
-    {
-      "title": "Rivian adds a new onboard AI assistant to its latest software update",
-      "url": "https://arstechnica.com/cars/2026/05/rivian-adds-a-new-onboard-ai-assistant-to-its-latest-software-update/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 13 May 2026 12:45:30 +0000",
-      "summary": "The Rivian Assistant is available for both Gen1 and Gen2 hardware.",
-      "isAI": true
-    },
-    {
-      "title": "Adaption aims big with AutoScientist, an AI tool that helps models train themselves",
-      "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 12:11:33 +0000",
-      "summary": "Adaption's new AutoScientist tool is designed to let models adapt to specific capabilities quickly through an automated approach to conventional fine-tuning.",
-      "isAI": true
-    },
-    {
-      "title": "Unitree will sell you a massive \u2018transformable mecha\u2019 for $650,000",
-      "url": "https://www.theverge.com/tech/929487/unitree-gd01-giant-mech-suit-robot",
-      "source": "The Verge",
-      "published": "2026-05-13T08:11:02-04:00",
-      "summary": "Unitree is already one of the most recognizable names in the humanoid robot industry, but now it's pursuing even nicher sci-fi tech: giant mech suits. The Chinese robotics company has debuted the GD01, which it describes as \"the world's first production-ready manned mecha,\" and it can be yours for a paltry $650,000. What is it [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Microsoft\u2019s Xbox PC app hints at China expansion for Game Pass",
-      "url": "https://www.theverge.com/news/929454/microsoft-xbox-game-pass-china-expansion-rumors",
-      "source": "The Verge",
-      "published": "2026-05-13T07:53:48-04:00",
-      "summary": "Microsoft appears to be working on expanding its Xbox Game Pass subscription to China. References to \"Project Saluki\" have been discovered in a recent update to the Xbox PC app this week, with Microsoft describing the codename as \"China market expansion for Game Pass, Rewards, and subscription tiers.\" While Microsoft offers a variety of games [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The Trump phone starts shipping this week, CEO claims",
-      "url": "https://www.theverge.com/gadgets/929471/trump-mobile-t1-phone-shipping-this-week",
-      "source": "The Verge",
-      "published": "2026-05-13T07:52:35-04:00",
-      "summary": "The Trump phone may finally be here: Trump Mobile's CEO told USA Today that the phone will begin shipping to buyers this week. The announcement comes as reports have gone viral this week alleging that preorders for the phone have been canceled. Trump Mobile CEO Pat O'Brien confirmed the release plans to USA Today over [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Submit Your Questions: AI Is Changing Your Job\u2014Now What?",
-      "url": "https://www.wired.com/story/livestream-ai-is-changing-your-job-now-what/",
-      "source": "Wired",
-      "published": "Wed, 13 May 2026 11:00:00 +0000",
-      "summary": "Pose your questions ahead of our May 27 livestream AMA, where a panel of WIRED experts will discuss how AI is transforming work.",
-      "isAI": true
-    },
-    {
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "source": "OpenAI",
-      "published": "Wed, 13 May 2026 11:00:00 GMT",
-      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
-      "isAI": true
-    },
-    {
-      "title": "Meet the Sad Wives of AI",
-      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
-      "source": "Wired",
-      "published": "Wed, 13 May 2026 10:00:00 +0000",
-      "summary": "Are you married to a man who\u2019s obsessed with AI? I\u2019m so, so sorry.",
-      "isAI": true
-    },
-    {
-      "title": "Data centers are coming for rural America",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
-      "source": "The Verge AI",
-      "published": "2026-05-13T05:00:00-04:00",
-      "summary": "At its peak, the Androscoggin paper mill in Jay, Maine, a rural town about 67 miles northwest of Portland, employed about 1,500 people - until a pulp digester exploded in 2020, forcing the mill to close permanently. In 2023, the 1.4 million-square-foot facility was purchased through a joint venture by JGT2 Redevelopment and a number [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The Emacsification of Software",
-      "url": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
-      "source": "Hacker News",
-      "published": "Wed, 13 May 2026 07:06:14 +0000",
-      "summary": "Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/ Comments URL: https://news.ycombinator.com/item?id=48118727 Points: 357 # Comments: 222",
-      "isAI": true
-    },
-    {
-      "title": "Medicare\u2019s new payment model is built for AI, and most of the tech world has no idea",
-      "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 00:26:48 +0000",
-      "summary": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
-      "isAI": true
-    },
-    {
-      "title": "Our response to the TanStack npm supply chain attack",
-      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "source": "OpenAI",
-      "published": "Wed, 13 May 2026 00:00:00 GMT",
-      "summary": "OpenAI details its response to the TanStack \u201cMini Shai-Hulud\u201d supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
-      "isAI": true
-    },
-    {
-      "title": "Sam Altman was winning on the stand, but it might not be enough",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929129/sam-altman-testimony-elon-musk-openai-trial",
-      "source": "The Verge AI",
-      "published": "2026-05-12T19:23:14-04:00",
-      "summary": "After two weeks of hearing from assorted witnesses that he was a lying snake, the jury finally heard from the lying snake himself: Sam Altman. At the end of the testimony, his lawyer William Savitt asked him how it felt to be accused of stealing a charity. \"We created, through a ton of hard work, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The newest AI boom pitch: Host a mini data center at your home",
-      "url": "https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 12 May 2026 21:59:03 +0000",
-      "summary": "The plan aims to speed up AI compute deployment while compensating residents.",
-      "isAI": true
-    },
-    {
-      "title": "Meta won\u2019t let you block its AI account on Threads",
-      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "source": "The Verge AI",
-      "published": "2026-05-12T16:35:23-04:00",
-      "summary": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "\u201cWill I be OK?\u201d Teen died after ChatGPT pushed deadly mix of drugs, lawsuit says",
-      "url": "https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 12 May 2026 19:00:25 +0000",
-      "summary": "Teen trusted ChatGPT to help him \u201csafely\u201d experiment with drugs, logs show.",
-      "isAI": true
-    },
-    {
-      "title": "Kevin Hartz\u2019s A* just closed its third fund with $450M",
-      "url": "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 18:45:05 +0000",
-      "summary": "The firm takes a generalist approach, backing companies across categories such as AI applications, fintech, healthcare, and security. The average check size for this fund will be between $3 million and $5 million, with the aim to back at least 30 startups.",
-      "isAI": true
-    },
-    {
-      "title": "Former Tesla exec and Heron Power CEO Drew Baglino has founded a heat pump startup",
-      "url": "https://techcrunch.com/2026/05/12/former-tesla-exec-and-heron-power-ceo-drew-baglino-has-founded-a-heat-pump-startup/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 18:14:58 +0000",
-      "summary": "Sadi Thermal Machines is Drew Baglino's second startup since leaving Tesla in 2024.",
-      "isAI": true
-    },
-    {
-      "title": "Musk mulled handing OpenAI to his children, Altman testifies",
-      "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 18:05:15 +0000",
-      "summary": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accelerator Y Combinator, knew \"founders who had control usually did not give it up.\"",
-      "isAI": true
-    },
-    {
-      "title": "Quack: The DuckDB Client-Server Protocol",
-      "url": "https://duckdb.org/2026/05/12/quack-remote-protocol",
-      "source": "Hacker News",
-      "published": "Tue, 12 May 2026 17:54:12 +0000",
-      "summary": "Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol Comments URL: https://news.ycombinator.com/item?id=48111765 Points: 343 # Comments: 74",
-      "isAI": false
-    },
-    {
-      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
-      "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:36:34 +0000",
-      "summary": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
-      "isAI": true
-    },
-    {
-      "title": "Sam Altman says Elon Musk\u2019s mind games were damaging OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
-      "source": "The Verge AI",
-      "published": "2026-05-12T13:34:09-04:00",
-      "summary": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"take a chainsaw through a bunch.\" Altman conceded [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Potholes cost cities millions: This company is using AI and trucks to fix them",
-      "url": "https://techcrunch.com/2026/05/12/potholes-cost-cities-millions-samsara-using-ai-trucks-fix/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 17:33:29 +0000",
-      "summary": "Fleet management company Samsara has developed an AI model to detect different kinds of potholes and gauge how fast they're deteriorating.",
-      "isAI": true
-    },
-    {
-      "title": "Report: Google and SpaceX in talks to put data centers into orbit",
-      "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:30:57 +0000",
-      "summary": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
-      "isAI": true
-    },
-    {
-      "title": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets",
-      "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:01:00 +0000",
-      "summary": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
-      "isAI": true
-    },
-    {
-      "title": "Google's Android-powered laptops are called Googlebooks, and they're coming this year",
-      "url": "https://arstechnica.com/gadgets/2026/05/googles-android-powered-laptops-are-called-googlebooks-and-theyre-coming-this-year/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 12 May 2026 17:00:49 +0000",
-      "summary": "Google has revealed its vision for the AI laptop of tomorrow.",
-      "isAI": true
-    },
-    {
-      "title": "Android is getting a big AI overhaul in 2026",
-      "url": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 12 May 2026 17:00:41 +0000",
-      "summary": "Google has big plans for Android in 2026, and most of it is AI.",
-      "isAI": true
-    },
-    {
-      "title": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
-      "url": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:00:00 +0000",
-      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
-      "isAI": true
-    },
-    {
-      "title": "The AI legal services industry is heating up \u2014 Anthropic is getting in on the action",
-      "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:00:00 +0000",
-      "summary": "Anthropic's new tools are designed to help law firms automate specific clerical functions \u2014 things like document search and review, case law resources, deposition prep, document drafting, and other related areas.",
-      "isAI": true
-    },
-    {
-      "title": "Google brings agentic AI and vibe-coded widgets to Android",
-      "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:00:00 +0000",
-      "summary": "Gemini Intelligence will also include Gboard-based dictation and form-filling capabilities.",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s \u2018Create My Widget\u2019 feature will let you vibe-code your own widgets",
-      "url": "https://techcrunch.com/2026/05/12/googles-create-my-widget-feature-will-let-you-vibe-code-your-own-widgets/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 17:00:00 +0000",
-      "summary": "To create a widget, users will be able to describe what they want using natural language. For example, you could ask the feature to \"suggest three high-protein meal prep recipes every week\" in order to get a custom dashboard that you can add and resize on your home screen.",
-      "isAI": true
-    },
-    {
-      "title": "The 9 biggest new features in Android 17",
-      "url": "https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
-      "source": "The Verge AI",
-      "published": "2026-05-12T13:00:00-04:00",
-      "summary": "Would it shock you to hear that Android 17 is filled with new AI-enabled features, like improved dictation and vibe-coded widgets? Fortunately, that's not all. The platform is getting non-AI updates too, from an emoji overhaul to a new screentime tool that helps you avoid distracting apps. Google has just revealed the biggest changes coming [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Gemini\u2019s latest updates are all about controlling your phone",
-      "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "source": "The Verge AI",
-      "published": "2026-05-12T13:00:00-04:00",
-      "summary": "It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Threads tests a Meta AI integration that works similarly to Grok",
-      "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 16:34:36 +0000",
-      "summary": "The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.",
-      "isAI": true
-    },
-    {
-      "title": "Parents say ChatGPT got their son killed with bad advice on party drugs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
-      "source": "The Verge AI",
-      "published": "2026-05-12T12:30:33-04:00",
-      "summary": "The family of a 19-year-old college student is suing OpenAI over claims that his conversations with ChatGPT led to an accidental overdose. In the lawsuit filed on Tuesday, Sam Nelson's parents allege ChatGPT \"encouraged\" the teen to \"consume a combination of substances that any licensed medical professional would have recognized as deadly,\" resulting in his [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Sam Altman takes the stand in trial against Elon Musk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/916975/altman-takes-stand-elon-musk-openai-trial",
-      "source": "The Verge AI",
-      "published": "2026-05-12T12:05:20-04:00",
-      "summary": "OpenAI CEO Sam Altman has begun his testimony against Elon Musk in a high-profile jury trial in a California federal courtroom. Altman, alongside OpenAI president Greg Brockman, is a primary defendant in the trial brought by Musk. Altman, Brockman, and Musk were all part of the initial founding team at OpenAI, with Musk investing up [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "George Clooney, Tom Hanks, and Meryl Streep back new \u2018Human Consent Standard\u2019 for AI licensing",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928534/rsl-media-human-consent-standard",
-      "source": "The Verge AI",
-      "published": "2026-05-12T12:00:00-04:00",
-      "summary": "Hollywood actors and producers are standing behind a new AI licensing standard that will tell AI systems whether they'll need to pay to use a person's likeness, creative work, characters, and designs. With the Human Consent Standard, people can set terms for the use of their work or likeness, including giving AI systems full permission [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Exaforce raises $125M Series B to build AI for catching and stopping cyberattacks as they happen",
-      "url": "https://techcrunch.com/2026/05/12/exaforce-raises-125m-series-b-to-build-ai-for-catching-and-stopping-cyberattacks-as-they-happen/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 15:07:37 +0000",
-      "summary": "The round valued the three-year-old startup at $725 million.",
-      "isAI": true
-    },
-    {
-      "title": "How finance teams use Codex",
-      "url": "https://openai.com/academy/how-finance-teams-use-codex",
-      "source": "OpenAI",
-      "published": "Tue, 12 May 2026 15:00:00 GMT",
-      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "isAI": true
-    },
-    {
-      "title": "Waymo issues recall to deal with a flooding problem",
-      "url": "https://techcrunch.com/2026/05/12/waymo-issues-recall-to-deal-with-a-flooding-problem/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 14:47:17 +0000",
-      "summary": "Waymo has issued a software recall that makes its robotaxis more cautious around flooded areas. A \"final remedy\" is in the works.",
-      "isAI": true
-    },
-    {
-      "title": "Instructure strikes deal with hackers who breached it twice",
-      "url": "https://techcrunch.com/2026/05/12/instructure-strikes-deal-with-hackers-who-breached-it-twice/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 13:34:04 +0000",
-      "summary": "The maker of the Canvas school software said it \"reached an agreement\" with the hackers, but provided no guarantees that the hackers would not release the data or keep their word.",
-      "isAI": true
-    },
-    {
-      "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
-      "url": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 12 May 2026 13:33:05 +0000",
-      "summary": "Workers are using an internal AI tool to automate non-essential tasks.",
-      "isAI": true
-    },
-    {
-      "title": "Waymo recalls robotaxis for driving on flooded roads",
-      "url": "https://www.theverge.com/transportation/928480/waymo-recall-flooded-roads-robotaxi",
-      "source": "The Verge",
-      "published": "2026-05-12T09:32:39-04:00",
-      "summary": "Waymo is recalling its autonomous driving software that allowed its vehicles to drive on flooded roads. The recall affects 3,791 vehicles that operate using Waymo's fifth and sixth generation systems. In documents filed with the National Highway Traffic Safety Administration, the Alphabet-owned company said that an unoccupied Waymo robotaxi \"encountered an untraversable flooded section of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Canvas owner reaches \u2018agreement\u2019 with hackers to secure stolen data",
-      "url": "https://www.theverge.com/tech/928470/instructure-canvas-hack-shinyhunters-ransom-agreement",
-      "source": "The Verge",
-      "published": "2026-05-12T09:23:10-04:00",
-      "summary": "Instructure, the company behind the Canvas learning management platform, says it has \"reached an agreement\" with hackers that breached its systems last week to prevent stolen data from being leaked online. The ShinyHunters hacking group claimed responsibility for the attack before Canvas was briefly taken offline. The group threatened to publish 3.5 terabytes of student [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Dessn raises $6M for its production-focused design tool",
-      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 13:00:00 +0000",
-      "summary": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
-      "isAI": true
-    },
-    {
-      "title": "AI is turning connected cars into pothole-finding machines",
-      "url": "https://techcrunch.com/2026/05/12/ai-is-turning-connected-cars-into-pothole-finding-machines/",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 13:00:00 +0000",
-      "summary": "Fleet management company Samsara has developed an AI model to detect different kinds of potholes and gauge how fast they're deteriorating.",
-      "isAI": true
-    },
-    {
-      "title": "Spotify\u2019s latest \u2018Wrapped\u2019 covers your entire music history",
-      "url": "https://www.theverge.com/entertainment/928395/spotify-20th-anniversary-wrapped-recap",
-      "source": "The Verge",
-      "published": "2026-05-12T08:15:00-04:00",
-      "summary": "Spotify is celebrating its 20th anniversary by giving listeners a \"fully personalized look at their entire music history.\" Starting today, Spotify mobile app users can access a new Wrapped-like experience that features \"never-before-shared data\" going back to when they first joined the service. The \"Spotify 20: Your Party of the Year(s)\" experience will allow users [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
-      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 11:30:00 +0000",
-      "summary": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
-      "isAI": true
-    },
-    {
-      "title": "How to watch Google\u2019s Android Show: I/O Edition today",
-      "url": "https://www.theverge.com/tech/928276/google-android-show-io-edition-2026-how-to-watch",
-      "source": "The Verge",
-      "published": "2026-05-12T07:00:00-04:00",
-      "summary": "Google I/O is still a week away, but Google's big announcements kick off today with the \"Android Show: I/O Edition,\" where it's expected to announce the major Android ecosystem highlights coming to its annual developer conference. When the Android Show will happen and where you can watch it Android Show: I/O Edition will be streaming [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The Creators of \u2018Hacks\u2019 Really, Really, Really Hate AI",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-hacks-cocreators-paul-w-downs-lucia-aniello/",
-      "source": "Wired",
-      "published": "Tue, 12 May 2026 10:30:00 +0000",
-      "summary": "Ahead of the hit show\u2019s finale, cocreators Paul W. Downs and Lucia Aniello talk about media consolidation, the perils of censorship, and why they find AI \u201cdeeply disturbing.\u201d",
-      "isAI": true
-    },
-    {
-      "title": "Learning Software Architecture",
-      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
-      "source": "Hacker News",
-      "published": "Tue, 12 May 2026 09:30:21 +0000",
-      "summary": "Article URL: https://matklad.github.io/2026/05/12/software-architecture.html Comments URL: https://news.ycombinator.com/item?id=48106024 Points: 342 # Comments: 64",
-      "isAI": true
-    },
-    {
-      "title": "These new Roombas are smaller and cheaper",
-      "url": "https://www.theverge.com/tech/928373/irobot-roomba-robot-vacuums-price-specs-release-date",
-      "source": "The Verge",
-      "published": "2026-05-12T05:02:25-04:00",
-      "summary": "iRobot has announced a new line of Roombas, a year after it debuted its first lidar-based robot vacuums. This week, it introduced eight robot vacuums that improve on its current lineup and feature lower prices, some up to \u00a3200 (about $270) cheaper. Key changes include higher suction power, a smaller overall size to better navigate [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Sony upgraded its wearable AC so it\u2019s cooler and better at hugging your neck",
-      "url": "https://www.theverge.com/tech/928220/sony-reon-pocket-pro-plus-personal-wearable-air-conditioner",
-      "source": "The Verge",
-      "published": "2026-05-12T02:00:00-04:00",
-      "summary": "Sony has announced a new version of the wearable personal air conditioner the company first revealed in 2019 ahead of the 2020 Tokyo Olympics. The latest version is an upgrade to last year's Pro model, and while the new Reon Pocket Pro Plus isn't a complete overhaul of the hardware, it comes with performance upgrades [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Thinking Machines wants to build an AI that actually listens while it talks",
-      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 04:52:35 +0000",
-      "summary": "Right now, every AI model you've ever used works the same way. You talk, it listens. It responds, you listen. Thinking Machines is trying to change that by building a model that processes your input and generates a response at the same time, so it's more like a phone call than a text chain.",
-      "isAI": true
-    },
-    {
-      "title": "Software Internals Book Club",
-      "url": "https://eatonphil.com/bookclub.html",
-      "source": "Hacker News",
-      "published": "Tue, 12 May 2026 02:28:11 +0000",
-      "summary": "Article URL: https://eatonphil.com/bookclub.html Comments URL: https://news.ycombinator.com/item?id=48103511 Points: 151 # Comments: 26",
-      "isAI": true
-    },
-    {
-      "title": "Claude Platform on AWS",
-      "url": "https://claude.com/blog/claude-platform-on-aws",
-      "source": "Hacker News",
-      "published": "Tue, 12 May 2026 01:24:29 +0000",
-      "summary": "Article URL: https://claude.com/blog/claude-platform-on-aws Comments URL: https://news.ycombinator.com/item?id=48103042 Points: 192 # Comments: 84",
-      "isAI": true
-    },
-    {
-      "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
-      "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 12 May 2026 00:09:01 +0000",
-      "summary": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.",
-      "isAI": true
-    },
-    {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
-      "source": "OpenAI",
-      "published": "Tue, 12 May 2026 00:00:00 GMT",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "isAI": true
-    },
-    {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "source": "OpenAI",
-      "published": "Tue, 12 May 2026 00:00:00 GMT",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "isAI": true
-    },
-    {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "url": "https://openai.com/index/autoscout24",
-      "source": "OpenAI",
-      "published": "Tue, 12 May 2026 00:00:00 GMT",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "isAI": true
-    },
-    {
-      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "source": "Hugging Face",
-      "published": "Mon, 11 May 2026 23:18:26 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI just released its answer to Claude Mythos",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
-      "source": "The Verge AI",
-      "published": "2026-05-11T19:05:01-04:00",
-      "summary": "OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
-      "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 11 May 2026 23:04:10 +0000",
-      "summary": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
-      "isAI": true
-    },
-    {
-      "title": "Yarbo says it will remove the intentional backdoor from its robot lawn mower",
-      "url": "https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor",
-      "source": "The Verge",
-      "published": "2026-05-11T18:40:20-04:00",
-      "summary": "The company behind the robot lawn mower that ran me over has changed its tune. Yarbo now plans to completely remove the remote backdoor access that could have let bad actors reprogram the robot over the internet. Yarbo customers will be able to decide whether that feature even gets installed in the first place, co-founder [\u2026]",
-      "isAI": false
     }
   ]
 }
