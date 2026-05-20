@@ -7,10 +7,7 @@ function sym(c) { return CURRENCY_SYM[c] || (c ? c + ' ' : ''); }
 function fmtMarketCap(n, currency) {
   if (!n) return '—';
   const s = sym(currency);
-  if (n >= 1e12) return s + (n / 1e12).toFixed(2) + 'T';
-  if (n >= 1e9)  return s + (n / 1e9).toFixed(2)  + 'B';
-  if (n >= 1e6)  return s + (n / 1e6).toFixed(2)  + 'M';
-  return s + fmtInt.format(n);
+  return s + (n / 1e12).toFixed(2) + 'T';
 }
 
 function fmtRelative(iso) {
@@ -32,6 +29,29 @@ function fmtCurrentDate() {
   }).format(new Date()).replace(/^0/, '');
 }
 
+function fmtCurrentDateTime() {
+  const parts = new Intl.DateTimeFormat('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+    timeZoneName: 'short',
+  }).formatToParts(new Date()).reduce((acc, part) => {
+    acc[part.type] = part.value;
+    return acc;
+  }, {});
+  return `${parts.day} ${parts.month} ${parts.year}, ${parts.hour}:${parts.minute} ${parts.dayPeriod.toUpperCase()} ${parts.timeZoneName}`;
+}
+
+function fmtGainLossPercent(n) {
+  const value = Number(n);
+  if (!Number.isFinite(value)) return '—';
+  return (value > 0 ? '+' : '') + value.toFixed(2) + '%';
+}
+
 function escapeHtml(s) {
   return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
@@ -49,7 +69,7 @@ function renderStocksTable(stocks) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
   }
   const sorted = stocks.slice().sort((a, b) =>
-    (a.name || '').localeCompare(b.name || '', undefined, { sensitivity: 'base' })
+    (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
   const rows = sorted.map(s => {
     return `<tr>
@@ -57,11 +77,12 @@ function renderStocksTable(stocks) {
       <td class="muted">${escapeHtml(s.ticker)}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       <td class="num">${fmtMarketCap(s.marketCap, s.currency)}</td>
+      <td class="num">${fmtGainLossPercent(s.changePercent)}</td>
     </tr>`;
   }).join('');
   return `<table>
     <thead><tr>
-      <th>Company</th><th>Ticker</th><th>Sector</th><th>Mkt Cap</th>
+      <th>Company</th><th>Ticker</th><th>Sector</th><th>Mkt Cap</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
@@ -251,6 +272,11 @@ document.querySelectorAll('.subtab').forEach(b => {
 });
 
 // ── Init ──────────────────────────────────────────────
+function updateDateTime() {
+  const el = document.getElementById('live-datetime');
+  if (el) el.textContent = fmtCurrentDateTime();
+}
+
 function setUpdated(...sources) {
   const ts = sources.map(s => s?.updated).filter(Boolean).sort().pop();
   const relative = ts ? ' · Updated ' + fmtRelative(ts) : '';
@@ -259,6 +285,9 @@ function setUpdated(...sources) {
 
 (async () => {
   try {
+    updateDateTime();
+    setInterval(updateDateTime, 30000);
+
     const [stocks, tech, india, global] = await Promise.all([
       loadJSON('data/stocks.json').catch(() => ({ regions: {} })),
       loadJSON('data/news_tech.json').catch(() => ({ items: [] })),

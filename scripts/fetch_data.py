@@ -19,6 +19,7 @@ DATA.mkdir(exist_ok=True)
 # ────────────────────────────────────────────────────────────────────
 
 US_STOCKS = [
+    ("AMD",     "AMD (Advanced Micro Devices)", "Semiconductors / AI Chips", None, "Advanced Micro Devices"),
     ("GOOGL",   "Alphabet Inc.",       "Earnings / AI growth"),
     ("MSFT",    "Microsoft",           "Cloud / AI"),
     ("TSLA",    "Tesla",               "EV demand"),
@@ -35,7 +36,6 @@ ASIA_STOCKS = [
     ("0700.HK",   "Tencent",             "Gaming / AI"),
     ("TSM",       "TSMC",                "Chips demand"),
     ("005930.KS", "Samsung Electronics", "Memory chips"),
-    ("AMD",       "AMD",                 "AI chips"),
 ]
 
 INDIA_STOCKS = [
@@ -400,7 +400,9 @@ def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
 # STOCKS
 # ────────────────────────────────────────────────────────────────────
 
-def fetch_stock(ticker: str, name: str, sector: str, display_ticker: str | None = None) -> dict | None:
+def fetch_stock(ticker: str, name: str, sector: str,
+                display_ticker: str | None = None,
+                sort_name: str | None = None) -> dict | None:
     try:
         t = yf.Ticker(ticker)
         info = {}
@@ -408,26 +410,63 @@ def fetch_stock(ticker: str, name: str, sector: str, display_ticker: str | None 
             info = t.info or {}
         except Exception:
             pass
+        change_percent = info.get("regularMarketChangePercent")
+        if change_percent is None:
+            price = info.get("regularMarketPrice") or info.get("currentPrice")
+            previous_close = info.get("regularMarketPreviousClose") or info.get("previousClose")
+            if price and previous_close:
+                change_percent = ((price - previous_close) / previous_close) * 100
 
-        return {
+        stock = {
             "ticker": display_ticker or ticker,
             "name": name,
             "sector": sector,
             "currency": info.get("currency") or info.get("financialCurrency") or "",
             "marketCap": info.get("marketCap"),
+            "changePercent": change_percent,
         }
+        if sort_name:
+            stock["sortName"] = sort_name
+        return stock
     except Exception as e:
         print(f"[stocks] {ticker} failed: {e}")
         return None
 
 
+def convert_market_cap_to_usd(stock: dict) -> dict:
+    currency = stock.get("currency")
+    market_cap = stock.get("marketCap")
+    if not market_cap or currency in ("", "USD"):
+        stock["currency"] = "USD"
+        return stock
+
+    try:
+        fx = yf.Ticker(f"{currency}=X")
+        rate = None
+        try:
+            rate = (fx.fast_info or {}).get("last_price")
+        except Exception:
+            pass
+        if not rate:
+            info = fx.info or {}
+            rate = info.get("regularMarketPrice") or info.get("currentPrice")
+        if rate:
+            stock["marketCap"] = market_cap / rate
+            stock["currency"] = "USD"
+    except Exception as e:
+        print(f"[stocks] {stock.get('ticker')} USD conversion failed: {e}")
+    return stock
+
+
 def fetch_all_stocks() -> dict:
     def sorted_region(stocks: list[dict]) -> list[dict]:
-        return sorted(stocks, key=lambda s: (s.get("name") or "").casefold())
+        return sorted(stocks, key=lambda s: (s.get("sortName") or s.get("name") or "").casefold())
+
+    asia = [convert_market_cap_to_usd(s) for s in (fetch_stock(*x) for x in ASIA_STOCKS) if s]
 
     return {
         "us":    sorted_region([s for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
-        "asia":  sorted_region([s for s in (fetch_stock(*x) for x in ASIA_STOCKS)  if s]),
+        "asia":  sorted_region(asia),
         "india": sorted_region([s for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
     }
 
