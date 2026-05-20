@@ -24,6 +24,14 @@ function fmtRelative(iso) {
   return d.toLocaleDateString();
 }
 
+function fmtCurrentDate() {
+  return new Intl.DateTimeFormat('en-GB', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+  }).format(new Date()).replace(/^0/, '');
+}
+
 function escapeHtml(s) {
   return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
@@ -245,8 +253,8 @@ document.querySelectorAll('.subtab').forEach(b => {
 // ── Init ──────────────────────────────────────────────
 function setUpdated(...sources) {
   const ts = sources.map(s => s?.updated).filter(Boolean).sort().pop();
-  if (!ts) return;
-  document.getElementById('updated').textContent = 'Updated ' + fmtRelative(ts);
+  const relative = ts ? ' · Updated ' + fmtRelative(ts) : '';
+  document.getElementById('updated').textContent = fmtCurrentDate() + relative;
 }
 
 (async () => {

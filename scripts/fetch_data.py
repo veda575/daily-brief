@@ -40,6 +40,7 @@ ASIA_STOCKS = [
 
 INDIA_STOCKS = [
     ("RELIANCE.NS",   "Reliance Industries", "Energy / Telecom"),
+    ("BHARTIARTL.NS", "Bharti Airtel",       "Telecom / Digital Infrastructure", "BHARTIARTL"),
     ("TCS.NS",        "TCS",                 "IT demand"),
     ("INFY.NS",       "Infosys",             "Growth outlook"),
     ("WIPRO.NS",      "Wipro",               "IT"),
@@ -399,7 +400,7 @@ def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
 # STOCKS
 # ────────────────────────────────────────────────────────────────────
 
-def fetch_stock(ticker: str, name: str, sector: str) -> dict | None:
+def fetch_stock(ticker: str, name: str, sector: str, display_ticker: str | None = None) -> dict | None:
     try:
         t = yf.Ticker(ticker)
         info = {}
@@ -409,7 +410,7 @@ def fetch_stock(ticker: str, name: str, sector: str) -> dict | None:
             pass
 
         return {
-            "ticker": ticker,
+            "ticker": display_ticker or ticker,
             "name": name,
             "sector": sector,
             "currency": info.get("currency") or info.get("financialCurrency") or "",
