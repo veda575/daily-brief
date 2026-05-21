@@ -1,6 +1,366 @@
 {
-  "updated": "2026-05-20T16:05:20.331588+00:00",
+  "updated": "2026-05-21T15:55:39.991723+00:00",
   "items": [
+    {
+      "title": "Spotify is launching AI-generated remixes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/935379/spotify-umg-ai-covers-remix",
+      "source": "The Verge AI",
+      "published": "2026-05-21T11:54:03-04:00",
+      "summary": "Spotify and Universal Music Group (UMG) announced a licensing deal that will allow users to prompt the creation of AI-generated remixes and covers for streaming songs. The tool will be a paid add-on for Premium subscribers. Artists will be able to opt out of the program, but those who do participate will collect royalties on [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "I Cloned Myself With Gemini\u2019s AI Avatar Tool. The Result Was Unnervingly Me",
+      "url": "https://www.wired.com/story/i-cloned-myself-with-geminis-ai-avatar-tool-the-result-was-unnervingly-me/",
+      "source": "Wired",
+      "published": "Thu, 21 May 2026 15:48:24 +0000",
+      "summary": "I used the Gemini app to generate lifelike videos featuring a digital clone of myself. Google sees this as the future of creation. I\u2019m still creeped out.",
+      "isAI": true
+    },
+    {
+      "title": "Spotify Studio\u2019s AI agent creates a daily podcast just for you",
+      "url": "https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts",
+      "source": "The Verge AI",
+      "published": "2026-05-21T11:47:29-04:00",
+      "summary": "Studio by Spotify Labs is a new standalone AI app that generates a daily briefing, podcasts, and playlists on your PC using chatbot prompts. The AI-generated content draws from your Spotify listening history, as well as info from apps you connect to it, like your email inbox, calendar, and notes. Spotify says its AI can [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "AI video is moving beyond clip slop",
+      "url": "https://www.theverge.com/column/935310/ai-video-luma-hollywood",
+      "source": "The Verge AI",
+      "published": "2026-05-21T11:30:00-04:00",
+      "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Hollywood is cooked - or so a growing number of people on social media would like you to believe. Their purported proof: AI-generated clips of Daniel Craig riding a Vespa [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Spotify launches an ElevenLabs-powered audiobook creation tool",
+      "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 15:27:00 +0000",
+      "summary": "Spotify is releasing new audiobook plans later this year",
+      "isAI": true
+    },
+    {
+      "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
+      "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 15:27:00 +0000",
+      "summary": "Spotify will let you generate daily or weekly briefs based on your prompts",
+      "isAI": true
+    },
+    {
+      "title": "Spotify takes on Google\u2019s NotebookLM with its new app",
+      "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 15:27:00 +0000",
+      "summary": "Spotify is releasing the new desktop app as a research preview in more than 20 markets",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic\u2019s Code with Claude showed off coding\u2019s future\u2014whether you like it or not",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 21 May 2026 14:30:45 +0000",
+      "summary": "The vibes were strong at Code with Claude, Anthropic\u2019s two-day event for software developers in London that kicked off on May 19, the same day as Google\u2019s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) \u201cWho here has shipped a pull request in the last week that was completely written\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Hark raises $700M Series A for its secretive \u201cuniversal\u201d AI interface",
+      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 14:00:00 +0000",
+      "summary": "Brett Adcock's new AI startup is now valued at $6 billion by its investors.",
+      "isAI": true
+    },
+    {
+      "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
+      "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 14:00:00 +0000",
+      "summary": "The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.",
+      "isAI": true
+    },
+    {
+      "title": "Musk v. Altman: Much ado about nothing",
+      "url": "https://www.theverge.com/podcast/934869/elon-musk-sam-altman-openai-suit-loss-pointless",
+      "source": "The Verge AI",
+      "published": "2026-05-21T10:00:00-04:00",
+      "summary": "Today I\u2019m talking with Liz Lopatto, who spent the last month covering the Musk v. Altman trial in all its chaos. You\u2019ll hear her describe the courthouse as a \u201czoo\u201d and explain that there were protests of one kind or another happening outside every day. Both Elon Musk and Sam Altman are big personalities, and [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Maka Kids is redefining kids\u2019 screen time with a streaming app optimized for well-being, not engagement",
+      "url": "https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement/",
+      "source": "TechCrunch",
+      "published": "Thu, 21 May 2026 14:00:00 +0000",
+      "summary": "Maka Kids is building a streaming app for children ages zero to six featuring content designed for healthy development. The startup has now raised $3 million in seed funding to scale its platform.",
+      "isAI": true
+    },
+    {
+      "title": "Google is pitching an AI agent ecosystem to consumers who may not buy it",
+      "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 13:52:23 +0000",
+      "summary": "The AI agents are coming. A lot of them.",
+      "isAI": true
+    },
+    {
+      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
+      "url": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/",
+      "source": "Ars Technica",
+      "published": "Thu, 21 May 2026 13:48:38 +0000",
+      "summary": "Beneficiaries include startup backed by firm with links to the Trump family.",
+      "isAI": true
+    },
+    {
+      "title": "Wayve\u2019s self-driving tech is headed to US cars made by Stellantis",
+      "url": "https://techcrunch.com/2026/05/21/wayves-self-driving-tech-is-headed-to-us-cars-made-by-stellantis/",
+      "source": "TechCrunch",
+      "published": "Thu, 21 May 2026 13:46:07 +0000",
+      "summary": "Wayve's self-driving tech will show up in Stellantis vehicles in 2028.",
+      "isAI": false
+    },
+    {
+      "title": "With aluminum prices up 20%, recycling startups bet on AI to cash in",
+      "url": "https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 13:38:42 +0000",
+      "summary": "Recycling startups are using AI to improve the recovery of critical minerals like aluminum, aiming to build a massive source of the metal.",
+      "isAI": true
+    },
+    {
+      "title": "AI is just unauthorised plagiarism at a bigger scale",
+      "url": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
+      "source": "Hacker News",
+      "published": "Thu, 21 May 2026 13:38:12 +0000",
+      "summary": "Article URL: https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/ Comments URL: https://news.ycombinator.com/item?id=48222383 Points: 462 # Comments: 331",
+      "isAI": true
+    },
+    {
+      "title": "Shunning AI is the human choice",
+      "url": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
+      "source": "Hacker News",
+      "published": "Thu, 21 May 2026 13:36:06 +0000",
+      "summary": "Article URL: https://www.thehandbasket.co/p/hating-ai-is-good-actually Comments URL: https://news.ycombinator.com/item?id=48222366 Points: 284 # Comments: 339",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic is paying $15 billion a year for access to Elon Musk\u2019s data centers",
+      "url": "https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus",
+      "source": "The Verge AI",
+      "published": "2026-05-21T09:35:52-04:00",
+      "summary": "Earlier this month, SpaceX and Anthropic announced a new compute partnership that provides access to the rocket company's Colossus data centers in Memphis, TN. Now, with the release of SpaceX's IPO filing, we have more details about that deal, including how much Anthropic is paying to Elon Musk's company. In its S-1 filing, SpaceX said [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "I can\u2019t believe how fast Google vibe coded my first Android app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/935056/google-vibe-coding-first-android-app-gemini-ai-studio",
+      "source": "The Verge AI",
+      "published": "2026-05-21T09:00:00-04:00",
+      "summary": "Yesterday, I built my first Android app. Then, I made two more - three in one afternoon. For one, I literally typed 148 words into my web browser and walked away. Ten minutes later, I had an entire new app on my actual Android phone. I did have to prep that phone by enabling a [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "5 Best Android Tablets in 2026: OnePlus, Lenovo, and Pixel Compared",
+      "url": "https://www.wired.com/story/the-best-android-tablets/",
+      "source": "Wired",
+      "published": "Thu, 21 May 2026 11:33:00 +0000",
+      "summary": "Whether you need a portable, around-the-house entertainment center or a full-on laptop replacement, these are the best Android tablets.",
+      "isAI": false
+    },
+    {
+      "title": "Beauty booking startup Fresha hits $1 billion valuation with KKR backing",
+      "url": "https://techcrunch.com/2026/05/21/booking-platform-fresha-announces-80m-investment-unicorn-valuation/",
+      "source": "TechCrunch",
+      "published": "Thu, 21 May 2026 11:00:00 +0000",
+      "summary": "Beauty and wellness booking marketplace Fresha says it has raised $80 million investment from KKR\u2019s Next Generation Technology Growth fund, KKR's growth equity arm.",
+      "isAI": true
+    },
+    {
+      "title": "Meta lays off thousands of employees to offset AI investments",
+      "url": "https://www.theverge.com/tech/935163/meta-layoffs-ai-investment-offset-memo",
+      "source": "The Verge AI",
+      "published": "2026-05-21T05:20:46-04:00",
+      "summary": "Meta has reportedly notified thousands of employees that they've been laid off as the company attempts to compensate for its hefty AI investments. In an email from Meta management shared by Business Insider, impacted staffers were told that the planned headcount reduction was part of the company's \"continued effort to run the company more efficiently [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "A Hacker Group Is Poisoning Open Source Code at an Unprecedented Scale",
+      "url": "https://www.wired.com/story/teampcp-software-supply-chain-attack-spree-github/",
+      "source": "Wired",
+      "published": "Thu, 21 May 2026 09:00:00 +0000",
+      "summary": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks that has impacted hundreds of organizations.",
+      "isAI": true
+    },
+    {
+      "title": "The EU Is Going Through a Trump-Fueled Breakup With Big Tech",
+      "url": "https://www.wired.com/story/the-eu-is-going-through-a-trump-fueled-breakup-with-big-tech/",
+      "source": "Wired",
+      "published": "Thu, 21 May 2026 06:00:00 +0000",
+      "summary": "France is already moving on from Zoom and Microsoft Teams in favor of homegrown alternatives. Other countries are quickly following suit.",
+      "isAI": false
+    },
+    {
+      "title": "In SpaceX\u2019s IPO, Elon Musk is the risk factor",
+      "url": "https://www.theverge.com/science/935102/spacex-ipo-elon-musk-tesla-cybertruck-xai-risk-factor",
+      "source": "The Verge AI",
+      "published": "2026-05-20T23:42:45-04:00",
+      "summary": "The SpaceX IPO is here, and it's more than just an historic public offering that could make Elon Musk the world's first trillionaire. It also reveals more ways in which Elon Musk's companies interact and overlap with each other, shuffling money around in ways that are often difficult to keep track of. This is evident [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Jensen Huang says he\u2019s found a \u2018brand new\u2019 $200B market for Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 00:28:31 +0000",
+      "summary": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic says it\u2019s about to have its first profitable quarter",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 21 May 2026 00:21:21 +0000",
+      "summary": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+      "isAI": true
+    },
+    {
+      "title": "Clouted wants to take the guesswork out of making short videos go viral",
+      "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 22:30:45 +0000",
+      "summary": "The video clipping startup raised a $7 million seed round led by Slow Ventures.",
+      "isAI": true
+    },
+    {
+      "title": "xAI burned $6.4B last year \u2014 SpaceX\u2019s IPO filing shows why the spending is far from over",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 22:26:08 +0000",
+      "summary": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion \u2014 offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+      "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 22:03:51 +0000",
+      "summary": "Nvidia announced another record revenue figure after market close on Wednesday, but forecasted that revenue growth would slow in the following quarter.",
+      "isAI": true
+    },
+    {
+      "title": "Musk\u2019s xAI is being sued over its data center generators \u2014 now it\u2019s buying $2.8B more",
+      "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 21:55:49 +0000",
+      "summary": "Elon Musk's xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX's IPO filing.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic will pay xAI $1.25B per month for compute",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 21:29:22 +0000",
+      "summary": "Elon Musk's xAI surprised the AI world when it made a deal to sell compute to Anthropic. Now we know how much it's worth.",
+      "isAI": true
+    },
+    {
+      "title": "\u2018Solve all diseases,\u2019 you say?",
+      "url": "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
+      "source": "The Verge AI",
+      "published": "2026-05-20T17:06:35-04:00",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. This week's issue is a special early edition tied to The Verge's Google I/O coverage. You can expect our next issue at its usual time [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "We\u2019re announcing new community investments in Missouri.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "source": "Google AI",
+      "published": "Wed, 20 May 2026 20:40:00 +0000",
+      "summary": "We\u2019re helping build the state\u2019s next-generation workforce and investing in energy programs.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI claims it solved an 80-year-old math problem \u2014 for real this time",
+      "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 20:28:27 +0000",
+      "summary": "OpenAI claims its reasoning model disproved a geometry conjecture unsolved since 1946 \u2014 and this time, the mathematicians who exposed its last embarrassing claim are backing it up.",
+      "isAI": true
+    },
+    {
+      "title": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed",
+      "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 19:47:20 +0000",
+      "summary": "Initially billed as an \"AI butler,\" Iris watches what happens on a user's desktop and automatically learns how to do tasks for them, its co-founder says.",
+      "isAI": true
+    },
+    {
+      "title": "100 things we announced at I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "source": "Google AI",
+      "published": "Wed, 20 May 2026 19:30:00 +0000",
+      "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
+      "isAI": true
+    },
+    {
+      "title": "\"Ryzen 5800X3D 10th Anniversary Edition\" may help you avoid paying for a new PC",
+      "url": "https://arstechnica.com/gadgets/2026/05/amd-reportedly-plans-ryzen-5800x3d-re-release-for-upgraders-on-a-budget/",
+      "source": "Ars Technica",
+      "published": "Wed, 20 May 2026 19:19:44 +0000",
+      "summary": "It could be one way to make your old PC play nicely with a high-end GPU.",
+      "isAI": true
+    },
+    {
+      "title": "Hulu set to keep existing as standalone streaming service and app (for now)",
+      "url": "https://arstechnica.com/gadgets/2026/05/hulu-set-to-keep-existing-as-standalone-streaming-service-and-app-for-now/",
+      "source": "Ars Technica",
+      "published": "Wed, 20 May 2026 18:48:41 +0000",
+      "summary": "Disney still has a lot of tech to unite and bundles to push.",
+      "isAI": false
+    },
+    {
+      "title": "Flipper One Tech Specs",
+      "url": "https://docs.flipper.net/one/general/tech-specs",
+      "source": "Hacker News",
+      "published": "Wed, 20 May 2026 18:33:56 +0000",
+      "summary": "Article URL: https://docs.flipper.net/one/general/tech-specs Comments URL: https://news.ycombinator.com/item?id=48212046 Points: 478 # Comments: 158",
+      "isAI": false
+    },
+    {
+      "title": "Vibe coding is coming to your phone",
+      "url": "https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts",
+      "source": "The Verge AI",
+      "published": "2026-05-20T13:40:00-04:00",
+      "summary": "\"There's an app for that\" was the promise of the App Store from the very beginning. The app that will get your phone to do the thing you want it to? It's just a few taps away. The tagline wasn't strictly true - I'm still waiting for that one perfect grocery list app. Still, apps [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Buckle up: Google is set to remake search with agentic AI in 2026",
+      "url": "https://arstechnica.com/google/2026/05/buckle-up-google-is-set-to-remake-search-with-agentic-ai-in-2026/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 20 May 2026 17:31:04 +0000",
+      "summary": "Google's AI search evolution is accelerating at I/O 2026.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI barrels toward IPO that may happen in September",
+      "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 17:24:24 +0000",
+      "summary": "A day after Elon Musk lost his lawsuit that threatened OpenAI's structure, leadership, and finances, OpenAI is reportedly back to prepping for its IPO.",
+      "isAI": true
+    },
+    {
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+      "source": "Google AI",
+      "published": "Wed, 20 May 2026 16:45:00 +0000",
+      "summary": "A small group meeting featuring two in-room participants and three participants on-screen.",
+      "isAI": true
+    },
     {
       "title": "Google Search\u2019s AI evolution includes more ads",
       "url": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
@@ -34,11 +394,11 @@
       "isAI": true
     },
     {
-      "title": "Stability AI releases a new audio model that can create six-minute songs",
+      "title": "Stability AI releases a new audio model that can create 6-minute songs",
       "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
       "source": "TechCrunch AI",
       "published": "Wed, 20 May 2026 15:00:00 +0000",
-      "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks",
+      "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
       "isAI": true
     },
     {
@@ -71,6 +431,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 20 May 2026 14:00:00 +0000",
       "summary": "Startup Battlefield 200 applications close May 27. Pitch at TechCrunch Disrupt, get investor access, win $100K, plus more scaling perks. Nominate an early-stage founder or submit your startup here.",
+      "isAI": true
+    },
+    {
+      "title": "Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27",
+      "url": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 20 May 2026 14:00:00 +0000",
+      "summary": "Startup Battlefield 200 applications close May 27. Pitch at TechCrunch Disrupt, get investor access, win $100K, plus more scaling perks. Nominate an early-stage founder or submit your startup today.",
       "isAI": true
     },
     {
@@ -183,6 +551,22 @@
       "source": "OpenAI",
       "published": "Wed, 20 May 2026 00:00:00 GMT",
       "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "isAI": true
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "source": "OpenAI",
+      "published": "Wed, 20 May 2026 00:00:00 GMT",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "isAI": true
+    },
+    {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "source": "OpenAI",
+      "published": "Wed, 20 May 2026 00:00:00 GMT",
+      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "isAI": true
     },
     {
@@ -1615,390 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-05-14T16:00:00-04:00",
       "summary": "OpenAI is going to let users access Codex, its desktop AI tool that can write code and use apps on your computer, from the ChatGPT app on your phone. Following the surge in popularity for Anthropic's Claude Code, OpenAI has been working quickly to try and catch up, including by cutting back on \"side quests,\" [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "What happens when AI starts building itself?",
-      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 19:57:20 +0000",
-      "summary": "Richard Socher's new $650 million startup wants to build an AI that can research and improve itself indefinitely \u2014 and he insists it will actually ship products.",
-      "isAI": true
-    },
-    {
-      "title": "Lake Tahoe residents lose energy supplier to data center boom",
-      "url": "https://arstechnica.com/ai/2026/05/energy-supplier-abandons-lake-tahoe-residents-to-serve-data-centers/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 14 May 2026 19:17:28 +0000",
-      "summary": "Town\u2019s 49,000 California residents compete with Nevada data centers for energy.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn\u2019t be the first partner to feel burned",
-      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 19:12:03 +0000",
-      "summary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
-      "isAI": true
-    },
-    {
-      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
-      "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 19:05:01 +0000",
-      "summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "source": "The Verge AI",
-      "published": "2026-05-14T15:00:00-04:00",
-      "summary": "Microsoft first started opening up access to Claude Code in December, inviting thousands of its own developers to use Anthropic's AI coding tool daily. It was part of an effort to get project managers, designers, and other employees to experiment with coding for the first time, and sources tell me that Claude Code has proved [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "YouTube viewers watch 2 billion hours of Shorts on TVs each month",
-      "url": "https://techcrunch.com/2026/05/14/youtube-viewers-watch-2-billion-hours-of-shorts-on-tvs-each-month/",
-      "source": "TechCrunch",
-      "published": "Thu, 14 May 2026 18:56:43 +0000",
-      "summary": "Short-form video is built for mobile, so it may seem counterintuitive, but it's true: YouTube Shorts are becoming quite popular on the big screen.",
-      "isAI": false
-    },
-    {
-      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context \u2014 Best Sub-100M Retrieval Quality",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "source": "Hugging Face",
-      "published": "Thu, 14 May 2026 18:55:01 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Use this map to find the data centers in your backyard",
-      "url": "https://www.theverge.com/policy/930629/data-center-policy-map-interactive",
-      "source": "The Verge AI",
-      "published": "2026-05-14T13:40:00-04:00",
-      "summary": "When Oregon resident Isabelle Reksopuro heard Google was gobbling up public land to fuel its data centers in her home state, she didn't initially know what to believe. \"There's a lot of misinformation about data centers,\" she said. \"Google has denied taking that land.\" Technically, she explains, The Dalles, a city near the Washington state [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Your doctor\u2019s AI notetaker may be making things up, Ontario audit finds",
-      "url": "https://arstechnica.com/health/2026/05/your-doctors-ai-notetaker-may-be-making-things-up-ontario-audit-finds/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 14 May 2026 17:28:43 +0000",
-      "summary": "Made-up therapy referrals, incorrect prescriptions among the common mistakes.",
-      "isAI": true
-    },
-    {
-      "title": "Vaporware or not? Aptera assembles its first five validation models.",
-      "url": "https://arstechnica.com/cars/2026/05/vaporware-or-not-aptera-assembles-its-first-five-validation-models/",
-      "source": "Ars Technica",
-      "published": "Thu, 14 May 2026 17:06:23 +0000",
-      "summary": "The three-wheel, two-seat EV has been in development since 2006.",
-      "isAI": false
-    },
-    {
-      "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
-      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 16:30:02 +0000",
-      "summary": "A year ago, it looked like this day would never happen for Cerebras.",
-      "isAI": true
-    },
-    {
-      "title": "Live updates from Elon Musk and Sam Altman\u2019s court battle over the future of OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "source": "The Verge AI",
-      "published": "2026-05-14T11:46:04-04:00",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Americans do not want AI data centers in their backyards",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/930477/ai-data-centers-gallup-survey-70-percent-opposition",
-      "source": "The Verge AI",
-      "published": "2026-05-14T11:24:53-04:00",
-      "summary": "Over 70 percent of Americans oppose AI data center construction in their area, according to a new Gallup survey. Just 7 percent said they were \"strongly\" in favor of new data centers. According to Gallup, data centers are so strongly disliked that Americans would prefer to live near a nuclear power plant than a data [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Khosla Ventures is betting $10M on Ian Crosby, whose first startup, Bench, imploded",
-      "url": "https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 15:20:18 +0000",
-      "summary": "Crosby is building Synthetic, a fully autonomous AI bookkeeping service for other startups.",
-      "isAI": true
-    },
-    {
-      "title": "Razer\u2019s Blade 18 is getting a $500 price hike and a new Intel chip",
-      "url": "https://www.theverge.com/gadgets/930343/razers-blade-18-is-getting-a-500-price-hike-and-a-new-intel-chip",
-      "source": "The Verge",
-      "published": "2026-05-14T11:00:00-04:00",
-      "summary": "Razer just announced a new Blade 18 gaming laptop with an Intel Core Ultra 9 290HX Plus chip. The flagship laptop is available now on Razer's site, starting at $3,999.99 with an Nvidia RTX 5070 Ti and configurable with up to an RTX 5090. That starting config is $500 more than the 2025 model with [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AMD\u2019s FSR 4.1 upscaling tech is coming to older graphics cards",
-      "url": "https://www.theverge.com/tech/930376/amd-fsr-4-expansion",
-      "source": "The Verge",
-      "published": "2026-05-14T10:06:48-04:00",
-      "summary": "AMD is bringing its FSR 4.1 upscaling tech to older graphics cards. In an announcement on X, Jack Huynh, AMD's head of computing and graphics, says FSR 4.1 will roll out to RDNA 3 GPUs in July, followed by a launch on RDNA 2 chips in early 2027. This summer's update will allow Radeon RX [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports \u2018record quarterly revenue\u2019",
-      "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 14:01:14 +0000",
-      "summary": "This is Cisco's latest layoff in recent years, while the company's chief executive touts record revenue and growth.",
-      "isAI": true
-    },
-    {
-      "title": "Two weeks left: Startup Battlefield 200 applications close May 27",
-      "url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 14:00:00 +0000",
-      "summary": "Your shot at VC access, global visibility, TechCrunch coverage, and $100K equity-free funding is running out. Deadline to apply is May 27. Apply now.",
-      "isAI": true
-    },
-    {
-      "title": "Wirestock raises $23M to supply creative multimodal data to AI labs",
-      "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 14:00:00 +0000",
-      "summary": "The company pivoted to being a data provider in 2023 and now supplies datasets of images, videos, design assets, and gaming and 3D content to AI labs.",
-      "isAI": true
-    },
-    {
-      "title": "Dyson put a camera on its purifier so fresh air can follow you around the room",
-      "url": "https://www.theverge.com/tech/930348/dyson-find-follow-air-purifier-cool-ai-tracking-camera-privacy",
-      "source": "The Verge",
-      "published": "2026-05-14T09:35:41-04:00",
-      "summary": "Dyson has announced a new air purifying bladeless fan that's its first to incorporate an AI-powered camera for tracking the location of people in a room. Dyson already uses a mix of cameras and AI in its robovacs, but since the new Find+Follow Purifier Cool is stationary and not at risk of running into abandoned [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Data readiness for agentic AI in financial services",
-      "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "summary": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
-      "url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: \u201cCapability now, control later.\u201d Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Dell and RAMageddon are watering down the Alienware brand",
-      "url": "https://www.theverge.com/tech/929160/dell-alienware-15-laptop-price-release-date-branding",
-      "source": "The Verge",
-      "published": "2026-05-14T09:00:00-04:00",
-      "summary": "I remember a time when Alienware refused to make a thinner laptop - the company didn't want to compromise on its builds. But today, Dell is slapping the Alienware name on a piece of hardware that sounds utterly watered down. It's partly RAMageddon's fault. The new five-pound Alienware 15 is supposedly an entry-level gaming laptop, [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The Razr Fold is stuck in the middle",
-      "url": "https://www.theverge.com/tech/930246/motorola-razr-fold-review-battery",
-      "source": "The Verge",
-      "published": "2026-05-14T09:00:00-04:00",
-      "summary": "For a phone that gets a lot right, the Motorola Razr Fold is frustratingly hard to recommend. The Razr Fold is the company's first book-style foldable, and it enters the US market with something not currently available on the competition: truly excellent battery life that rivals the best slab-style phones. No need to worry if [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Work with Codex from anywhere",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "source": "OpenAI",
-      "published": "Thu, 14 May 2026 13:00:00 GMT",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "isAI": true
-    },
-    {
-      "title": "AI Promised the Audemars Piguet x Swatch Wristwatch. China Will Deliver It",
-      "url": "https://www.wired.com/story/ai-ruined-the-audemars-piguet-x-swatch-collaboration-china-could-save-it/",
-      "source": "Wired",
-      "published": "Thu, 14 May 2026 12:52:28 +0000",
-      "summary": "Watch fans spent a week falling in love with colorful Royal Oak wristwatches that didn\u2019t exist\u2014then the real thing arrived. Now, fantasy is becoming a manufacturing opportunity.",
-      "isAI": true
-    },
-    {
-      "title": "AT&T, T-Mobile, and Verizon team up to eliminate coverage dead zones",
-      "url": "https://www.theverge.com/tech/930336/att-tmobile-verizon-joint-venture-agreement-satellite-coverage",
-      "source": "The Verge",
-      "published": "2026-05-14T08:48:49-04:00",
-      "summary": "AT&T, T-Mobile, and Verizon have agreed to work together under a new joint venture that aims to end wireless dead zones in the US. The partnership was announced today as an \"agreement in principle,\" but if finalized would see the three carrier companies pooling their ground-based spectrum resources together to increase coverage in rural areas. [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Desperate Trump taps \"Tim Apple,\" Jensen Huang, Elon Musk to attend Xi summit",
-      "url": "https://arstechnica.com/tech-policy/2026/05/desperate-trump-taps-tim-apple-jensen-huang-elon-musk-to-attend-xi-summit/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 14 May 2026 11:00:58 +0000",
-      "summary": "Xi meeting may force Trump to pivot on chip restrictions and Taiwan.",
-      "isAI": true
-    },
-    {
-      "title": "You can make an app for that",
-      "url": "https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution",
-      "source": "The Verge AI",
-      "published": "2026-05-14T07:00:00-04:00",
-      "summary": "The tyranny of software is almost over. Since the first computer programmers wrote the first computer programs, we, the users of that software, have been forced to live in the worlds those programs create. The features are the features. The design is the design. Want something else, something better? Learn to code, I guess. Until [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "These Instagram Ads Sure Seem to Be Selling Cocaine Accessories",
-      "url": "https://www.wired.com/story/it-sure-seems-like-these-instagram-ads-think-youre-doing-cocaine-all-wrong/",
-      "source": "Wired",
-      "published": "Thu, 14 May 2026 09:30:00 +0000",
-      "summary": "From designer straws to magnet-sealed leather pouches, the platform is awash in products seemingly built for coke\u2014despite Meta\u2019s policies on drug paraphernalia.",
-      "isAI": false
-    },
-    {
-      "title": "The shock of seeing your body used in deepfake porn",
-      "url": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 14 May 2026 09:00:00 +0000",
-      "summary": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she\u2019d made more than 10 years before, when she was in her early 20s. It did in fact return\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Who decides what AI tells you? Campbell Brown, once Meta\u2019s news chief, has thoughts",
-      "url": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 06:05:31 +0000",
-      "summary": "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers,\" Campbell Brown said at StrictlyVC.",
-      "isAI": true
-    },
-    {
-      "title": "Clio\u2019s $500M milestone arrives just as Anthropic ups the ante",
-      "url": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 14 May 2026 05:24:39 +0000",
-      "summary": "Legal tech startups, including Clio, which just hit $500 million in ARR, are seeing massive customer adoption.",
-      "isAI": true
-    },
-    {
-      "title": "Unlocking asynchronicity in continuous batching",
-      "url": "https://huggingface.co/blog/continuous_async",
-      "source": "Hugging Face",
-      "published": "Thu, 14 May 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "source": "OpenAI",
-      "published": "Thu, 14 May 2026 00:00:00 GMT",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft\u2019s Edge Copilot update uses AI to pull information from across your tabs",
-      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
-      "source": "The Verge AI",
-      "published": "2026-05-13T18:04:28-04:00",
-      "summary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Notion just turned its workspace into a hub for AI agents",
-      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 21:45:09 +0000",
-      "summary": "Notion\u2019s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.",
-      "isAI": true
-    },
-    {
-      "title": "Musk\u2019s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
-      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 19:49:42 +0000",
-      "summary": "Gas turbines at xAI's Colossus 2 data center have drawn a lawsuit over the company's use of \"mobile\" gas turbines as power plants.",
-      "isAI": true
-    },
-    {
-      "title": "AI invades Princeton, where 30% of students cheat\u2014but peers won't snitch",
-      "url": "https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 13 May 2026 19:47:24 +0000",
-      "summary": "Old \"honor code\" systems are under strain.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic\u2019s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
-      "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 19:28:06 +0000",
-      "summary": "The head of product for Claude Code and Cowork says that the next big step for AI is proactivity.",
-      "isAI": true
-    },
-    {
-      "title": "AI chatbots are giving out people\u2019s real phone numbers",
-      "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
-      "source": "MIT Tech Review",
-      "published": "Wed, 13 May 2026 18:09:03 +0000",
-      "summary": "A Redditor recently wrote that he was \u201cdesperate for help\u201d: for about a month, he said, his phone had been inundated by calls from \u201cstrangers\u201d who were \u201clooking for a lawyer, a product designer, a locksmith.\u201d Callers were apparently misdirected by Google\u2019s generative AI. In March, a software developer in Israel was contacted on WhatsApp\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Altman forced to confront claims at OpenAI trial that he's a prolific liar",
-      "url": "https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 13 May 2026 17:48:05 +0000",
-      "summary": "\"Very painful\": Altman relives his Muskian reaction to losing control over OpenAI.",
-      "isAI": true
-    },
-    {
-      "title": "Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand",
-      "url": "https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/",
-      "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 17:42:20 +0000",
-      "summary": "Fervo Energy's IPO was upsized several times after potential investors asked why the enhanced geothermal startup wasn't raising more money.",
-      "isAI": true
-    },
-    {
-      "title": "X launches a History tab for bookmarks, likes, videos, and articles",
-      "url": "https://techcrunch.com/2026/05/13/x-launches-a-history-tab-for-bookmarks-likes-videos-and-articles/",
-      "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 17:16:32 +0000",
-      "summary": "X\u2019s new History tab combines bookmarks, likes, watched videos, and read articles into a single place, expanding the app\u2019s role as a save-it-for-later tool.",
-      "isAI": false
-    },
-    {
-      "title": "Amazon devices chief says a new smartphone is \u201cjust not the goal\u201d",
-      "url": "https://arstechnica.com/gadgets/2026/05/amazon-exec-downplays-new-fire-phone-rumors-no-clear-path-that-makes-sense/",
-      "source": "Ars Technica",
-      "published": "Wed, 13 May 2026 17:06:57 +0000",
-      "summary": "\"We know what customers need right now.\u201d",
-      "isAI": false
-    },
-    {
-      "title": "Mark Zuckerberg announces \u2018completely private\u2019 encrypted Meta AI chat",
-      "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-      "source": "The Verge AI",
-      "published": "2026-05-13T12:45:43-04:00",
-      "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic blames dystopian sci-fi for training AI models to act \u201cevil\u201d",
-      "url": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 13 May 2026 16:31:18 +0000",
-      "summary": "But training on \"synthetic stories\" that model good AI behavior can help.",
-      "isAI": true
-    },
-    {
-      "title": "Who trusts Sam Altman?",
-      "url": "https://techcrunch.com/2026/05/13/who-trusts-sam-altman/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 13 May 2026 16:31:04 +0000",
-      "summary": "\"I believe I am an honest and trustworthy businessperson,\" Altman testified in federal court.",
       "isAI": true
     }
   ]
