@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:29:44.726159+00:00",
+  "updated": "2026-05-23T14:08:09.204354+00:00",
   "regions": {
     "us": [
       {
@@ -7,8 +7,8 @@
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": 767026331648,
-        "changePercent": 4.6275477,
+        "marketCap": 762322092032,
+        "changePercent": 3.98586,
         "sortName": "Advanced Micro Devices"
       },
       {
@@ -16,72 +16,72 @@
         "name": "Alphabet Inc.",
         "sector": "Earnings / AI growth",
         "currency": "USD",
-        "marketCap": 4687586131968,
-        "changePercent": -0.19345354
+        "marketCap": 4639851282432,
+        "changePercent": -1.20982
       },
       {
         "ticker": "AMZN",
         "name": "Amazon",
         "sector": "AWS / Retail",
         "currency": "USD",
-        "marketCap": 2893340737536,
-        "changePercent": 0.19001018
+        "marketCap": 2864833626112,
+        "changePercent": -0.797133
       },
       {
         "ticker": "INTC",
         "name": "Intel",
         "sector": "Chips",
         "currency": "USD",
-        "marketCap": 609477853184,
-        "changePercent": 2.3333328
+        "marketCap": 602315816960,
+        "changePercent": 1.1308
       },
       {
         "ticker": "META",
         "name": "Meta Platforms",
         "sector": "Ads / AI",
         "currency": "USD",
-        "marketCap": 1549022003200,
-        "changePercent": 0.46922445
+        "marketCap": 1549098287104,
+        "changePercent": 0.474169
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "Cloud / AI",
         "currency": "USD",
-        "marketCap": 3114446356480,
-        "changePercent": 0.04058671
+        "marketCap": 3109320130560,
+        "changePercent": -0.124076
       },
       {
         "ticker": "ORCL",
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "marketCap": 554868408320,
-        "changePercent": 1.6638569
+        "marketCap": 552430927872,
+        "changePercent": 1.21726
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 146407489536,
-        "changePercent": 1.508994
+        "marketCap": 147306938368,
+        "changePercent": 2.13261
       },
       {
         "ticker": "SAP",
         "name": "SAP",
         "sector": "Enterprise AI",
         "currency": "USD",
-        "marketCap": 207727869952,
-        "changePercent": -0.045383386
+        "marketCap": 207433138176,
+        "changePercent": -0.187203
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "EV demand",
         "currency": "USD",
-        "marketCap": 1609515401216,
-        "changePercent": 2.560723
+        "marketCap": 1599975981056,
+        "changePercent": 1.95285
       }
     ],
     "asia": [
@@ -90,15 +90,15 @@
         "name": "Alibaba Group",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 311857446912,
-        "changePercent": -1.1276323
+        "marketCap": 311887429632,
+        "changePercent": -1.11813
       },
       {
         "ticker": "005930.KS",
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1266982222414.7126,
+        "marketCap": 1263190933119.5413,
         "changePercent": -2.3372288
       },
       {
@@ -106,7 +106,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 508882644403.3503,
+        "marketCap": 508909663860.7151,
         "changePercent": 0.54669565
       },
       {
@@ -114,8 +114,8 @@
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "marketCap": 2109932830720,
-        "changePercent": -0.08239709
+        "marketCap": 2098032410624,
+        "changePercent": -0.645955
       }
     ],
     "india": [
