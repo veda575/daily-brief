@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T16:23:20.531076+00:00",
+  "updated": "2026-05-27T16:23:03.803061+00:00",
   "regions": {
     "us": [
       {
@@ -7,8 +7,8 @@
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": 806674366464,
-        "changePercent": 5.8180532,
+        "marketCap": 809748070400,
+        "changePercent": -1.4477392,
         "sortName": "Advanced Micro Devices"
       },
       {
@@ -16,72 +16,72 @@
         "name": "Alphabet Inc.",
         "sector": "Earnings / AI growth",
         "currency": "USD",
-        "marketCap": 4681650143232,
-        "changePercent": 0.90085703
+        "marketCap": 4738592538624,
+        "changePercent": 0.57601064
       },
       {
         "ticker": "AMZN",
         "name": "Amazon",
         "sector": "AWS / Retail",
         "currency": "USD",
-        "marketCap": 2836004601856,
-        "changePercent": -1.0063055
+        "marketCap": 2901730394112,
+        "changePercent": 1.6811758
       },
       {
         "ticker": "INTC",
         "name": "Intel",
         "sector": "Chips",
         "currency": "USD",
-        "marketCap": 612769398784,
-        "changePercent": 1.7355664
+        "marketCap": 599501242368,
+        "changePercent": -3.4326408
       },
       {
         "ticker": "META",
         "name": "Meta Platforms",
         "sector": "Ads / AI",
         "currency": "USD",
-        "marketCap": 1547524374528,
-        "changePercent": -0.10159524
+        "marketCap": 1552677339136,
+        "changePercent": -0.10942351
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "Cloud / AI",
         "currency": "USD",
-        "marketCap": 3088148856832,
-        "changePercent": -0.68089116
+        "marketCap": 3067572387840,
+        "changePercent": -0.740328
       },
       {
         "ticker": "ORCL",
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "marketCap": 553121218560,
-        "changePercent": 0.1249508
+        "marketCap": 544981975040,
+        "changePercent": -1.849162
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 148669005824,
-        "changePercent": 0.92463666
+        "marketCap": 147241500672,
+        "changePercent": 0.5080408
       },
       {
         "ticker": "SAP",
         "name": "SAP",
         "sector": "Enterprise AI",
         "currency": "USD",
-        "marketCap": 207539240960,
-        "changePercent": 0.051148813
+        "marketCap": 205193183232,
+        "changePercent": -0.6280279
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "EV demand",
         "currency": "USD",
-        "marketCap": 1609196109824,
-        "changePercent": 0.5762744
+        "marketCap": 1659015921664,
+        "changePercent": 1.877353
       }
     ],
     "asia": [
@@ -90,32 +90,32 @@
         "name": "Alibaba Group",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 311155687424,
-        "changePercent": -0.23460975
+        "marketCap": 306477367296,
+        "changePercent": -1.3323538
       },
       {
         "ticker": "005930.KS",
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1303157616855.4502,
-        "changePercent": 2.2222223
+        "marketCap": 1345257064321.516,
+        "changePercent": 2.6755853
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 505969400028.586,
-        "changePercent": -0.5437231
+        "marketCap": 500782709102.1419,
+        "changePercent": -1.0478374
       },
       {
         "ticker": "TSM",
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "marketCap": 2133663023104,
-        "changePercent": 1.6982853
+        "marketCap": 2179874947072,
+        "changePercent": 1.9353852
       }
     ],
     "india": [
@@ -124,112 +124,112 @@
         "name": "Apollo Hospitals",
         "sector": "Healthcare",
         "currency": "INR",
-        "marketCap": 1187445604352,
-        "changePercent": -1.7313185
+        "marketCap": 1189458608128,
+        "changePercent": 0.16952232
       },
       {
         "ticker": "AUROPHARMA.NS",
         "name": "Aurobindo Pharma",
         "sector": "Pharma Exports",
         "currency": "INR",
-        "marketCap": 840742207488,
-        "changePercent": 0.45373133
+        "marketCap": 826185154560,
+        "changePercent": -1.7314487
       },
       {
         "ticker": "BHARTIARTL",
         "name": "Bharti Airtel",
         "sector": "Telecom / Digital Infrastructure",
         "currency": "INR",
-        "marketCap": 11250339676160,
-        "changePercent": -1.48816
+        "marketCap": 11282624282624,
+        "changePercent": 0.28696337
       },
       {
         "ticker": "DIVISLAB.NS",
         "name": "Divi's Labs",
         "sector": "API",
         "currency": "INR",
-        "marketCap": 1792709230592,
-        "changePercent": -0.051801965
+        "marketCap": 1804522618880,
+        "changePercent": 0.65896636
       },
       {
         "ticker": "DRREDDY.NS",
         "name": "Dr. Reddy's",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 1105602674688,
-        "changePercent": -0.26288116
+        "marketCap": 1098192584704,
+        "changePercent": -0.670233
       },
       {
         "ticker": "HDFCBANK.NS",
         "name": "HDFC Bank",
         "sector": "Lending",
         "currency": "INR",
-        "marketCap": 11992120164352,
-        "changePercent": -1.0103515
+        "marketCap": 11680346013696,
+        "changePercent": -2.5998201
       },
       {
         "ticker": "HEROMOTOCO.NS",
         "name": "Hero MotoCorp",
         "sector": "Auto",
         "currency": "INR",
-        "marketCap": 997063131136,
-        "changePercent": 0.08033741
+        "marketCap": 1015471669248,
+        "changePercent": 1.8462774
       },
       {
         "ticker": "INFY.NS",
         "name": "Infosys",
         "sector": "Growth outlook",
         "currency": "INR",
-        "marketCap": 4726509797376,
-        "changePercent": -0.06846802
+        "marketCap": 4694938222592,
+        "changePercent": -0.6679736
       },
       {
         "ticker": "MARUTI.NS",
         "name": "Maruti Suzuki",
         "sector": "Auto",
         "currency": "INR",
-        "marketCap": 4152629133312,
-        "changePercent": 0.28853452
+        "marketCap": 4201675751424,
+        "changePercent": 1.1811024
       },
       {
         "ticker": "RELIANCE.NS",
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 18354091851776,
-        "changePercent": -0.78273237
+        "marketCap": 18275603841024,
+        "changePercent": -0.42763758
       },
       {
         "ticker": "SBIN.NS",
         "name": "State Bank of India",
         "sector": "Banking",
         "currency": "INR",
-        "marketCap": 8939852791808,
-        "changePercent": -0.11344633
+        "marketCap": 8933391466496,
+        "changePercent": -0.07227798
       },
       {
         "ticker": "TCS.NS",
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8235490213888,
-        "changePercent": -1.3863617
+        "marketCap": 8264435105792,
+        "changePercent": 0.351463
       },
       {
         "ticker": "TECHM.NS",
         "name": "Tech Mahindra",
         "sector": "Telecom IT",
         "currency": "INR",
-        "marketCap": 1291997544448,
-        "changePercent": 1.6161581
+        "marketCap": 1289251848192,
+        "changePercent": -0.21251634
       },
       {
         "ticker": "WIPRO.NS",
         "name": "Wipro",
         "sector": "IT",
         "currency": "INR",
-        "marketCap": 2136650678272,
-        "changePercent": -1.503578
+        "marketCap": 2114647752704,
+        "changePercent": -1.0553154
       }
     ]
   }
