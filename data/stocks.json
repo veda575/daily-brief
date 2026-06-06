@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T15:33:44.390499+00:00",
+  "updated": "2026-06-06T14:16:11.375979+00:00",
   "regions": {
     "us": [
       {
@@ -7,8 +7,8 @@
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": 791509860352,
-        "changePercent": -7.222861,
+        "marketCap": 760479481856,
+        "changePercent": -10.8601,
         "sortName": "Advanced Micro Devices"
       },
       {
@@ -16,72 +16,72 @@
         "name": "Alphabet Inc.",
         "sector": "Earnings / AI growth",
         "currency": "USD",
-        "marketCap": 4494498201600,
-        "changePercent": -0.7442406
+        "marketCap": 4494199357440,
+        "changePercent": -0.98337
       },
       {
         "ticker": "AMZN",
         "name": "Amazon",
         "sector": "AWS / Retail",
         "currency": "USD",
-        "marketCap": 2725905432576,
-        "changePercent": -0.15169807
+        "marketCap": 2646571745280,
+        "changePercent": -3.05764
       },
       {
         "ticker": "INTC",
         "name": "Intel",
         "sector": "Chips",
         "currency": "USD",
-        "marketCap": 521598271488,
-        "changePercent": -7.1569157
+        "marketCap": 498428411904,
+        "changePercent": -11.2811
       },
       {
         "ticker": "META",
         "name": "Meta Platforms",
         "sector": "Ads / AI",
         "currency": "USD",
-        "marketCap": 1557081620480,
-        "changePercent": -2.2571151
+        "marketCap": 1505284980736,
+        "changePercent": -5.50855
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "Cloud / AI",
         "currency": "USD",
-        "marketCap": 3133536731136,
-        "changePercent": -1.4531016
+        "marketCap": 3095206035456,
+        "changePercent": -2.65856
       },
       {
         "ticker": "ORCL",
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "marketCap": 629566472192,
-        "changePercent": -7.3792005
+        "marketCap": 614553485312,
+        "changePercent": -9.58788
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 152424087552,
-        "changePercent": -1.3981197
+        "marketCap": 152055545856,
+        "changePercent": -1.63708
       },
       {
         "ticker": "SAP",
         "name": "SAP",
         "sector": "Enterprise AI",
         "currency": "USD",
-        "marketCap": 219752988672,
-        "changePercent": -0.3954288
+        "marketCap": 217831342080,
+        "changePercent": -1.26643
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "EV demand",
         "currency": "USD",
-        "marketCap": 1510251560960,
-        "changePercent": -3.9025013
+        "marketCap": 1468487958528,
+        "changePercent": -6.55993
       }
     ],
     "asia": [
@@ -90,15 +90,15 @@
         "name": "Alibaba Group",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 294337740800,
-        "changePercent": -2.5925965
+        "marketCap": 290439135232,
+        "changePercent": -3.88249
       },
       {
         "ticker": "005930.KS",
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1389074176834.8542,
+        "marketCap": 1385901879440.9382,
         "changePercent": -6.401138
       },
       {
@@ -106,7 +106,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 522051958621.07697,
+        "marketCap": 522198585580.30865,
         "changePercent": -1.2636139
       },
       {
@@ -114,8 +114,8 @@
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "marketCap": 2202694844416,
-        "changePercent": -4.544665
+        "marketCap": 2153268510720,
+        "changePercent": -6.68659
       }
     ],
     "india": [
@@ -164,7 +164,7 @@
         "name": "HDFC Bank",
         "sector": "Lending",
         "currency": "INR",
-        "marketCap": 11502732967936,
+        "marketCap": 11501749403648,
         "changePercent": -0.9480276
       },
       {
