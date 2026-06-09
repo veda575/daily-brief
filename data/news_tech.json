@@ -1,6 +1,422 @@
 {
-  "updated": "2026-06-08T16:34:51.523923+00:00",
+  "updated": "2026-06-09T15:37:51.466774+00:00",
   "items": [
+    {
+      "title": "Apple says it may remove some apps from the App Store if they don\u2019t attract users",
+      "url": "https://techcrunch.com/2026/06/09/apple-says-it-may-remove-apps-from-the-app-store-if-they-dont-attract-users/",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 15:23:40 +0000",
+      "summary": "Apple may begin removing existing apps that it considers stale, low-value, or unable to attract users.",
+      "isAI": false
+    },
+    {
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "source": "Google DeepMind",
+      "published": "Tue, 09 Jun 2026 15:16:25 +0000",
+      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "isAI": true
+    },
+    {
+      "title": "Meta will use your activity on other websites to personalize your feeds",
+      "url": "https://www.theverge.com/tech/946744/meta-website-activity-personalize-feeds",
+      "source": "The Verge",
+      "published": "2026-06-09T11:00:00-04:00",
+      "summary": "Meta is planning to use the data shared by other businesses to personalize your feed and its AI responses. In a blog post on Tuesday, Meta explains that it already uses your off-platform activity, like the games you play or your purchases on other websites, to serve you ads. But now it's expanding the scope [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple brings streaming-style subscription bundles to the App Store",
+      "url": "https://techcrunch.com/2026/06/09/apple-brings-streaming-style-subscription-bundles-to-the-app-store/",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 14:55:36 +0000",
+      "summary": "Apple is expanding its App Bundles feature to allow developers to partner with one another on discounted subscription packages.",
+      "isAI": false
+    },
+    {
+      "title": "Microsoft AI chief walks back comments about AI taking over white-collar work",
+      "url": "https://www.theverge.com/tech/946879/microsoft-mustafa-suleyman-ai-white-collar-jobs",
+      "source": "The Verge AI",
+      "published": "2026-06-09T10:54:51-04:00",
+      "summary": "Microsoft AI head Mustafa Suleyman is walking back his statement about AI automating jobs done by white-collar workers, including lawyers, accountants, and project managers. During an episode of Decoder on Monday, Suleyman says he meant AI will help these workers complete tasks, rather than do their jobs: Sending an email, having a conversation with a [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s App Store rolls out personalized recommendations",
+      "url": "https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations/",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 14:30:17 +0000",
+      "summary": "Apple will now recommend apps based on your downloads and behavior.",
+      "isAI": false
+    },
+    {
+      "title": "Apple\u2019s AI promises are finally, almost, sort of here",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946780/apples-ai-promises-are-finally-almost-sort-of-here",
+      "source": "The Verge AI",
+      "published": "2026-06-09T10:18:18-04:00",
+      "summary": "Apple kicked off its annual developer conference with bold promises about AI. The company, CEO Tim Cook said, would be \"introducing new technologies and innovations that push the limits on what's possible.\" But its slew of announcements - centered on a brand-new \"Siri AI\" - had more to do with catching up. After almost entirely [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "source": "Google DeepMind",
+      "published": "Tue, 09 Jun 2026 14:10:19 +0000",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "source": "Google DeepMind",
+      "published": "Tue, 09 Jun 2026 14:02:33 +0000",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
+      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 13:47:25 +0000",
+      "summary": "Sandstone's Series A was led by Lightspeed Partners, with participation from Sequoia.",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s best AI idea looks a lot like vibe coding",
+      "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
+      "source": "The Verge AI",
+      "published": "2026-06-09T09:34:48-04:00",
+      "summary": "Most of Apple's current AI ideas are roughly the same as everyone else's AI ideas. A chatbot you can ask questions; quick ways to create or summarize text; bizarre, borderline creepy image-generation tools. The company spent most of its WWDC keynote playing catch-up with the state of the AI art, announcing Siri features you can [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Longevity Startup Doses First Human in Bid to Reverse Age-Related Sight Loss",
+      "url": "https://www.wired.com/story/longevity-startup-doses-first-human-in-bid-to-reverse-age-related-sight-loss/",
+      "source": "Wired",
+      "published": "Tue, 09 Jun 2026 13:23:53 +0000",
+      "summary": "The FDA recently approved the cellular rejuvenation therapy ER-100 for human clinical trials. While vision is the first target, it could have applications for a variety of age-related disease.",
+      "isAI": true
+    },
+    {
+      "title": "Apple says its AI is still private, even when it's running on Google's servers",
+      "url": "https://arstechnica.com/apple/2026/06/apple-says-its-ai-is-still-private-even-when-its-running-on-googles-servers/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 09 Jun 2026 13:05:49 +0000",
+      "summary": "Some models run in Google's cloud, but without giving Google any kind of access.",
+      "isAI": true
+    },
+    {
+      "title": "Apple dials down Liquid Glass, and the Mac looks way better for it",
+      "url": "https://www.theverge.com/tech/946567/apple-macos-27-golden-gate-dev-beta-hands-on",
+      "source": "The Verge",
+      "published": "2026-06-09T09:04:39-04:00",
+      "summary": "MacOS 27 Golden Gate will usher in a bunch of changes to the Mac when it's released later this year, with its biggest new features revolving around Siri AI. But for now, using the first developer beta, Siri AI is only offered through a waitlist. So what's available to try is mostly about how the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "First Drive: The 2027 Rivian R2 entirely changes the EV game",
+      "url": "https://arstechnica.com/cars/2026/06/first-drive-the-2027-rivian-r2-entirely-changes-the-ev-game/",
+      "source": "Ars Technica",
+      "published": "Tue, 09 Jun 2026 13:00:46 +0000",
+      "summary": "Rivian's second EV is the sub-$60,000 R2, and it was worth the wait.",
+      "isAI": false
+    },
+    {
+      "title": "Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week",
+      "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 13:00:00 +0000",
+      "summary": "Lovable says it has now surpassed $500 million in annualized run-rate revenue and its users are building businesses and replacing internal software.",
+      "isAI": true
+    },
+    {
+      "title": "The Rivian R2 is too much fun to let drive itself",
+      "url": "https://www.theverge.com/transportation/946398/rivian-r2-review-price-specs-ai-ev",
+      "source": "The Verge",
+      "published": "2026-06-09T09:00:00-04:00",
+      "summary": "Rivian may be all in on robotaxis and autonomy, but it's still got human drivers - and EV buyers - to win over. The pricey R1S SUV and R1T pickup brought Rivian A-list media attention and cult-hit status, but the company faces a critical next step. The 2027 R2 is Rivian's bid for mainstream success, [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Rivian R2 2026: Specs, Price, Availability",
+      "url": "https://www.wired.com/story/rivian-r2-first-drive/",
+      "source": "Wired",
+      "published": "Tue, 09 Jun 2026 13:00:00 +0000",
+      "summary": "With a competitive price, winning design, and better performance than the R1, Rivian could be set to break into the big leagues. Just make sure you get the right model with the right tech.",
+      "isAI": false
+    },
+    {
+      "title": "Apple\u2019s AI pitch will live or die by its privacy promise",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946705/apple-private-cloud-compute-ai-siri-intelligence-wwdc",
+      "source": "The Verge AI",
+      "published": "2026-06-09T08:55:33-04:00",
+      "summary": "As expected, yesterday's WWDC keynote was mostly about AI. And also as expected, Apple tried to turn its late arrival into its sales pitch: It didn't rush into AI because it was taking its time to do things right. In this case, \"right\" means \"with more privacy than anyone else.\" It's a good pitch - [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "How an e-scooter founder raised $5 million to build space data centers",
+      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 12:00:00 +0000",
+      "summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers.",
+      "isAI": true
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 10:46:19 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 09 Jun 2026 10:20:06 +0000",
+      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinating complex tasks, interacting with multiple tools and environments across\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Amazon employees ask Seattle to put the brakes on new data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/945809/amazon-employees-seattle-data-center-moratorium",
+      "source": "The Verge AI",
+      "published": "2026-06-09T06:00:00-04:00",
+      "summary": "On Tuesday, the Seattle City Council will vote on whether to enact a one-year moratorium on new data centers - just two months after several companies proposed building five large-scale centers in the city. Among the moratorium's fiercest supporters are current employees from the city's biggest tech giant, Amazon, who joined others to testify in [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Five things you need to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 09 Jun 2026 09:16:45 +0000",
+      "summary": "At SXSW London last week I gave a talk called \u201cFive things you need to know about AI,\u201d in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Cleaning up after AI rockstar developers",
+      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "source": "Hacker News",
+      "published": "Tue, 09 Jun 2026 09:10:10 +0000",
+      "summary": "Article URL: https://www.codingwithjesse.com/blog/rockstar-developers/ Comments URL: https://news.ycombinator.com/item?id=48458586 Points: 230 # Comments: 141",
+      "isAI": true
+    },
+    {
+      "title": "Evotrex raises $30M to build the RV that doesn\u2019t need a charging station",
+      "url": "https://techcrunch.com/2026/06/09/anker-backed-evotrex-raises-30m-to-build-its-off-grid-rv/",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 09:00:00 +0000",
+      "summary": "The startup is one of many entering the RV space, but it's banking on a hybrid power system that can go far beyond campsites.",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "source": "Hacker News",
+      "published": "Tue, 09 Jun 2026 07:33:16 +0000",
+      "summary": "Article URL: https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/ Comments URL: https://news.ycombinator.com/item?id=48457830 Points: 360 # Comments: 147",
+      "isAI": true
+    },
+    {
+      "title": "Why Apple\u2019s slow-and-steady AI bet is starting to look pretty smart",
+      "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 01:56:48 +0000",
+      "summary": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
+      "isAI": true
+    },
+    {
+      "title": "Mercor\u2019s Brendan Foody calls out Sequoia, accusing it of \u2018dual-pricing\u2019 valuation tricks",
+      "url": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 00:45:56 +0000",
+      "summary": "Sequoia is just one of the top firms that sells same equity at two different prices.",
+      "isAI": true
+    },
+    {
+      "title": "As OpenAI files for IPO, Sam Altman\u2019s eye-scanning company is doing layoffs, report says",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 22:41:45 +0000",
+      "summary": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s WWDC AI demos looked more real after $250M false ad settlement",
+      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 22:39:57 +0000",
+      "summary": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+      "isAI": true
+    },
+    {
+      "title": "Apple is using AI to fix Safari\u2019s extension problem",
+      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+      "source": "The Verge AI",
+      "published": "2026-06-08T18:14:17-04:00",
+      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a demo shared by Apple, the company showed [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI files for IPO, following Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "source": "The Verge AI",
+      "published": "2026-06-08T17:38:29-04:00",
+      "summary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 21:29:57 +0000",
+      "summary": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "isAI": true
+    },
+    {
+      "title": "Apple plays catch-up at WWDC",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 21:15:42 +0000",
+      "summary": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+      "isAI": true
+    },
+    {
+      "title": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
+      "url": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era/",
+      "source": "Ars Technica",
+      "published": "Mon, 08 Jun 2026 21:03:56 +0000",
+      "summary": "You'll need an M1 or better to run the next release of macOS.",
+      "isAI": true
+    },
+    {
+      "title": "Apple bets cheaper AI will woo small developers",
+      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 20:53:55 +0000",
+      "summary": "As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads.",
+      "isAI": true
+    },
+    {
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 19:41:32 +0000",
+      "summary": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+      "isAI": true
+    },
+    {
+      "title": "Say hi to \"Siri AI\"\u2014Apple announces new, more \"conversational\" voice assistant",
+      "url": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 08 Jun 2026 19:30:05 +0000",
+      "summary": "New features coming this fall alongside two-tiered, Google-powered AI model overhaul.",
+      "isAI": true
+    },
+    {
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "source": "Hacker News",
+      "published": "Mon, 08 Jun 2026 19:14:47 +0000",
+      "summary": "Article URL: https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/ Comments URL: https://news.ycombinator.com/item?id=48450142 Points: 673 # Comments: 524",
+      "isAI": true
+    },
+    {
+      "title": "Gemini 3.5 and Antigravity come to Google NotebookLM",
+      "url": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 08 Jun 2026 19:00:30 +0000",
+      "summary": "NotebookLM is getting a big upgrade, but it's only for AI Ultra and enterprise accounts right now.",
+      "isAI": true
+    },
+    {
+      "title": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+      "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 18:48:45 +0000",
+      "summary": "Apple is adding new AI-powered features to Safari, Shortcuts, and Password apps.",
+      "isAI": true
+    },
+    {
+      "title": "Apple will let you build workflows using AI in its new Shortcuts app",
+      "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 18:45:12 +0000",
+      "summary": "Shortcuts gets an AI upgrade, letting you describe the workflow you want in a prompt.",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s Image Playground doesn\u2019t suck anymore",
+      "url": "https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 18:38:07 +0000",
+      "summary": "Apple's AI image generator is getting a makeover that could make it more competitive.",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s Photos app is getting new AI editing features",
+      "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 18:36:04 +0000",
+      "summary": "A new spatial \"Reframe\" feature will let users use AI to adjust perspectives.",
+      "isAI": true
+    },
+    {
+      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
+      "url": "https://arstechnica.com/security/2026/06/for-the-2nd-time-in-weeks-microsoft-packages-laced-with-credential-stealer/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 08 Jun 2026 18:34:23 +0000",
+      "summary": "73 packages run self-replicating stealer as soon as they're opened by an AI agent.",
+      "isAI": true
+    },
+    {
+      "title": "Apple gives Siri its own dedicated app",
+      "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 18:33:42 +0000",
+      "summary": "Siri is finally getting its own app.",
+      "isAI": true
+    },
+    {
+      "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+      "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 18:23:04 +0000",
+      "summary": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
+      "isAI": true
+    },
+    {
+      "title": "Siri AI",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "source": "Hacker News",
+      "published": "Mon, 08 Jun 2026 18:17:53 +0000",
+      "summary": "Article URL: https://www.apple.com/apple-intelligence/ Comments URL: https://news.ycombinator.com/item?id=48449084 Points: 632 # Comments: 636",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s long-awaited AI Siri overhaul is finally here",
+      "url": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 08 Jun 2026 17:56:21 +0000",
+      "summary": "The idea behind the new \"Siri AI\" is to turn the assistant from a voice controlled assistant into an AI companion that can do a lot more.",
+      "isAI": true
+    },
+    {
+      "title": "Amazon is launching AI-generated custom merch",
+      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+      "source": "The Verge AI",
+      "published": "2026-06-08T13:52:51-04:00",
+      "summary": "Amazon is expanding its print-on-demand features to AI-generated designs created using Alexa for Shopping for products like T-shirts, water bottles, and hoodies. Shoppers can use text prompts to generate images that are then printed onto blanks for sale on Amazon. They can then share the link to the design so other people can buy the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+      "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "source": "The Verge AI",
+      "published": "2026-06-08T13:34:24-04:00",
+      "summary": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri. Apple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversational and more capable than [\u2026]",
+      "isAI": true
+    },
     {
       "title": "WWDC 2026 live blog: On the ground at Apple\u2019s keynote",
       "url": "https://www.theverge.com/tech/942572/wwdc-2026-live-blog-ios27-macos27-watchos27-ipados27-visionos27-siri-apple-intelligence",
@@ -66,6 +482,14 @@
       "isAI": true
     },
     {
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "source": "OpenAI",
+      "published": "Mon, 08 Jun 2026 14:00:00 GMT",
+      "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "isAI": true
+    },
+    {
       "title": "Eventbrite and Vimeo owner Bending Spoons files to go public",
       "url": "https://techcrunch.com/2026/06/08/eventbrite-and-vimeo-owner-bending-spoons-files-to-go-public/",
       "source": "TechCrunch",
@@ -87,6 +511,14 @@
       "source": "Hugging Face",
       "published": "Mon, 08 Jun 2026 13:10:48 GMT",
       "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "source": "Google DeepMind",
+      "published": "Mon, 08 Jun 2026 13:04:59 +0000",
+      "summary": "Results from a randomized controlled trial show the potential of Gemini\u2019s Guided Learning feature to boost engagement and accelerate learning.",
       "isAI": true
     },
     {
@@ -138,11 +570,27 @@
       "isAI": false
     },
     {
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "source": "OpenAI",
+      "published": "Mon, 08 Jun 2026 01:30:00 GMT",
+      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "isAI": true
+    },
+    {
       "title": "The Open Source Community is backing OpenEnv for Agentic RL",
       "url": "https://huggingface.co/blog/openenv-agentic-rl",
       "source": "Hugging Face",
       "published": "Mon, 08 Jun 2026 00:00:00 GMT",
       "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "source": "OpenAI",
+      "published": "Mon, 08 Jun 2026 00:00:00 GMT",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI\u2019s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
       "isAI": true
     },
     {
@@ -1551,454 +1999,6 @@
       "source": "TechCrunch",
       "published": "Tue, 02 Jun 2026 15:05:00 +0000",
       "summary": "The global AI race is often framed as a battle between the United States and China. But at VivaTech, Europe is expected to make the case for an entirely different model.",
-      "isAI": true
-    },
-    {
-      "title": "Slate Auto gets serious about privacy for its bare-bones EV pickup",
-      "url": "https://arstechnica.com/cars/2026/06/slate-says-its-electric-pickup-will-never-track-you/",
-      "source": "Ars Technica",
-      "published": "Tue, 02 Jun 2026 14:49:05 +0000",
-      "summary": "With no embedded modem, the Slate Truck is the antithesis of today's connected cars.",
-      "isAI": false
-    },
-    {
-      "title": "Anthropic scales Claude Mythos to critical infrastructure in 15+ countries",
-      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 14:44:21 +0000",
-      "summary": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries \u2014 targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
-      "isAI": true
-    },
-    {
-      "title": "Holo3.1: Fast & Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "source": "Hugging Face",
-      "published": "Tue, 02 Jun 2026 14:13:23 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Lego\u2019s Smart Play Pok\u00e9mon can train and battle, but don\u2019t do the one thing I wish they could",
-      "url": "https://www.theverge.com/gadgets/941484/lego-pokemon-smart-play-brick-sets",
-      "source": "The Verge",
-      "published": "2026-06-02T09:28:27-04:00",
-      "summary": "When Lego announced its tech-packed Smart Bricks at CES, we were impressed by the potential - enough to give it our Best in Show award. But when the first Star Wars sets actually launched in March, we were less enamored. All that promise of clever interaction and creative play ultimately boiled down to a few [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Thermacell\u2019s latest smart mosquito system is bigger and more expensive",
-      "url": "https://www.theverge.com/tech/941146/liv-2-dot-0-smart-mosquito-repellent-system-thermacell",
-      "source": "The Verge",
-      "published": "2026-06-02T09:00:00-04:00",
-      "summary": "Thermacell has launched Liv 2.0, the next generation of its Wi-Fi-connected smart mosquito protection system. It features new hardware and can cover a larger area, and Thermacell says its formula can now deter no-see-ums. But it's also more expensive and requires professional installation. Liv 2.0 uses the same setup as the original Liv - a [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Gemini Spark is the most impressive and terrifying AI experience I\u2019ve had yet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
-      "source": "The Verge AI",
-      "published": "2026-06-02T08:38:08-04:00",
-      "summary": "According to every product demo from the last four years, planning a trip is a killer use case for AI. Just tell it where you're going, they all promise, and your chatbot / agent / other buzzword will exhaustively search travel options, read up on all the fun things to do, check all the local [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "ZeroDrift raises $10M to protect AI models from themselves",
-      "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 12:32:59 +0000",
-      "summary": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
-      "isAI": true
-    },
-    {
-      "title": "Apple rejected my dictation app for using the accessibility API",
-      "url": "https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/",
-      "source": "Hacker News",
-      "published": "Tue, 02 Jun 2026 12:00:03 +0000",
-      "summary": "Article URL: https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/ Comments URL: https://news.ycombinator.com/item?id=48369088 Points: 224 # Comments: 132",
-      "isAI": false
-    },
-    {
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "url": "https://openai.com/index/travelers",
-      "source": "OpenAI",
-      "published": "Tue, 02 Jun 2026 12:00:00 GMT",
-      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "isAI": true
-    },
-    {
-      "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
-      "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 12:00:00 +0000",
-      "summary": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
-      "isAI": true
-    },
-    {
-      "title": "Rehumanizing global health care with agentic AI",
-      "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 02 Jun 2026 11:23:34 +0000",
-      "summary": "The global health care sector is under increasing strain. Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it\u2019s getting worse.\u2026",
-      "isAI": true
-    },
-    {
-      "title": "A Viral YouTube Show About an Unhinged AI Is Hitting Theaters. It\u2019s a Big Test for Hollywood",
-      "url": "https://www.wired.com/story/amazing-digital-circus-shake-up-the-box-office/",
-      "source": "Wired",
-      "published": "Tue, 02 Jun 2026 11:00:00 +0000",
-      "summary": "The Amazing Digital Circus finale will hit more than 4,000 theaters around the world Thursday. Two weeks later it\u2019ll be on YouTube, bucking Hollywood trends and testing the power of online fandom.",
-      "isAI": true
-    },
-    {
-      "title": "Coway Airmega Pedestal Fan P50 Review: Anti-App",
-      "url": "https://www.wired.com/review/coway-airmega-pedestal-fan-p50/",
-      "source": "Wired",
-      "published": "Tue, 02 Jun 2026 10:31:00 +0000",
-      "summary": "The air purifier giant\u2019s P50 pedestal fan is whisper-quiet and surprisingly versatile, even if its built-in voice assistant feels stuck in beta.",
-      "isAI": false
-    },
-    {
-      "title": "Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai",
-      "url": "https://blog.adafruit.com/",
-      "source": "Hacker News",
-      "published": "Tue, 02 Jun 2026 10:00:56 +0000",
-      "summary": "Article URL: https://blog.adafruit.com/ Comments URL: https://news.ycombinator.com/item?id=48368121 Points: 430 # Comments: 169",
-      "isAI": true
-    },
-    {
-      "title": "The Trump Administration Is at War With Itself Over AI Regulation",
-      "url": "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation/",
-      "source": "Wired",
-      "published": "Tue, 02 Jun 2026 09:30:00 +0000",
-      "summary": "Donald Trump killed an executive order to regulate AI. Now, administration officials and AI executives are trying to figure out if there\u2019s anything left to piece back together.",
-      "isAI": true
-    },
-    {
-      "title": "How to Edit, Merge, and Split PDFs With Free Online Tools",
-      "url": "https://www.wired.com/story/how-to-edit-merge-and-split-pdfs-with-free-online-tools/",
-      "source": "Wired",
-      "published": "Tue, 02 Jun 2026 09:30:00 +0000",
-      "summary": "You don\u2019t need expensive software for basic PDF tasks. In fact, all you need is a handful of free web-based apps.",
-      "isAI": true
-    },
-    {
-      "title": "Codex for every role, tool, and workflow",
-      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "source": "OpenAI",
-      "published": "Tue, 02 Jun 2026 09:00:00 GMT",
-      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "isAI": true
-    },
-    {
-      "title": "How small businesses can leverage AI",
-      "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 02 Jun 2026 09:00:00 +0000",
-      "summary": "This article is from Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there\u2019s a staggering breadth of skills needed to run a business. A large company can hire experts to\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "source": "OpenAI",
-      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "isAI": true
-    },
-    {
-      "title": "Codex is becoming a productivity tool for everyone",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "source": "OpenAI",
-      "published": "Tue, 02 Jun 2026 02:00:00 GMT",
-      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "isAI": true
-    },
-    {
-      "title": "Alphabet plans to raise $80B to pay for AI buildout",
-      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 22:55:09 +0000",
-      "summary": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company\u2019s available supply,\" Alphabet said in its statement.",
-      "isAI": true
-    },
-    {
-      "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
-      "url": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 01 Jun 2026 22:18:09 +0000",
-      "summary": "Some report burning through their whole monthly \"AI credit\" allotment in a single day.",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
-      "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 21:35:00 +0000",
-      "summary": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could \u2014 and should \u2014 be big.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft's Surface Laptop Ultra looks like its first true MacBook Pro competitor",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsoft-surface-laptop-ultra-will-be-among-the-first-nvidia-rtx-spark-arm-pcs/",
-      "source": "Ars Technica",
-      "published": "Mon, 01 Jun 2026 20:13:09 +0000",
-      "summary": "It's Microsoft's least-weird attempt at a high-end mobile workstation.",
-      "isAI": false
-    },
-    {
-      "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
-      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 20:03:40 +0000",
-      "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
-      "isAI": true
-    },
-    {
-      "title": "This could be Windows\u2019 M1 moment \u2014 but expect it to cost a ton",
-      "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
-      "source": "The Verge AI",
-      "published": "2026-06-01T16:02:31-04:00",
-      "summary": "Nvidia's announcement that it's getting into the consumer laptop chip space with RTX Spark is huge. Apple has proved for years that Arm-based chips can perform incredibly well while also delivering great battery life - at least on the Mac. In the Windows world, performance hasn't fully matched up under Qualcomm chips, mostly in the [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Gemini\u2019s new AI agent is about as good as Google\u2019s demo",
-      "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
-      "source": "The Verge AI",
-      "published": "2026-06-01T16:00:00-04:00",
-      "summary": "Google's new \"24/7\" AI agent, Gemini Spark, can be shockingly good at doing things on your behalf. But I'm not sure it's worth the financial cost and potential privacy tradeoffs. The company gave me access to Spark last week. Google advertises Spark as an AI agent that can take on tasks and work on them [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Meta\u2019s own AI was exploited to hijack Instagram accounts",
-      "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
-      "source": "The Verge AI",
-      "published": "2026-06-01T15:20:47-04:00",
-      "summary": "Meta's AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking Meta's chatbot to switch the email associated with someone else's profile and then reset the password. The issue, which Meta says has [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Florida sues OpenAI, Sam Altman after multiple ChatGPT-linked murders",
-      "url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 01 Jun 2026 18:52:19 +0000",
-      "summary": "Altman has an \"utter disregard\" for human lives, Florida AG says.",
-      "isAI": true
-    },
-    {
-      "title": "Water access is now a risk factor in SpaceX\u2019s IPO",
-      "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 18:19:53 +0000",
-      "summary": "The company says it needs \"significant\" water resources to cool its data centers, and that access to abundant, affordable water is a challenge.",
-      "isAI": true
-    },
-    {
-      "title": "A new app, The Mall, is building a universal feed for online shopping",
-      "url": "https://techcrunch.com/2026/06/01/a-new-app-the-mall-is-building-a-universal-feed-for-online-shopping/",
-      "source": "TechCrunch",
-      "published": "Mon, 01 Jun 2026 17:50:18 +0000",
-      "summary": "The Mall lets shoppers build a personalized feed of brands, track sales and drops, and discover products across thousands of retailers.",
-      "isAI": false
-    },
-    {
-      "title": "From 15 hours to one minute: How AI/ML is speeding up GM's development",
-      "url": "https://arstechnica.com/cars/2026/06/from-15-hours-to-one-minute-how-ai-ml-is-speeding-up-gms-development/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 01 Jun 2026 17:41:47 +0000",
-      "summary": "From CFD and FEA to digital twins, carmaking now involves a lot of virtualization.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic Confidentially Files for What Could Be the Largest IPO Ever",
-      "url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
-      "source": "Wired",
-      "published": "Mon, 01 Jun 2026 17:17:58 +0000",
-      "summary": "The AI giant behind Claude submitted paperwork on Monday that would take it public, just a couple of weeks after SpaceX\u2019s splashy IPO announcement.",
-      "isAI": true
-    },
-    {
-      "title": "Allegedly trashing Airbnbs to test robots puts startup in legal trouble",
-      "url": "https://arstechnica.com/ai/2026/06/allegedly-trashing-airbnbs-to-test-robots-puts-startup-in-legal-trouble/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 01 Jun 2026 17:17:55 +0000",
-      "summary": "Lawsuit seeks $12,000 from startup that allegedly damaged home in robot tests.",
-      "isAI": true
-    },
-    {
-      "title": "Our views on AI policy and political advocacy",
-      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "source": "OpenAI",
-      "published": "Mon, 01 Jun 2026 17:00:00 GMT",
-      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company\u2019s behalf.",
-      "isAI": true
-    },
-    {
-      "title": "AI Agent Guidelines for CS336 at Stanford",
-      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
-      "source": "Hacker News",
-      "published": "Mon, 01 Jun 2026 16:41:49 +0000",
-      "summary": "Article URL: https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md Comments URL: https://news.ycombinator.com/item?id=48359232 Points: 480 # Comments: 148",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic has officially filed to go public",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
-      "source": "The Verge AI",
-      "published": "2026-06-01T12:40:38-04:00",
-      "summary": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fundraise last [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic files to go public",
-      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 16:36:55 +0000",
-      "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.",
-      "isAI": true
-    },
-    {
-      "title": "Sony\u2019s new fight stick and gaming monitor launch in August",
-      "url": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
-      "source": "The Verge",
-      "published": "2026-06-01T12:36:18-04:00",
-      "summary": "Sony is sharing new details about some of its upcoming gaming-focused hardware, including pricing and August launch dates for its FlexStrike fight stick and its 27-inch monitor. The FlexStrike fight stick will be available starting August 6th - the same day as the new PlayStation-published fighting game Marvel T\u014dkon: Fighting Souls - and will cost [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The newest Instagram \u201cexploit\u201d is the goofiest I've seen",
-      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
-      "source": "Hacker News",
-      "published": "Mon, 01 Jun 2026 16:31:42 +0000",
-      "summary": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-su... Comments URL: https://news.ycombinator.com/item?id=48359102 Points: 2066 # Comments: 460",
-      "isAI": true
-    },
-    {
-      "title": "ROG Xbox Ally X20 adds OLED screen, control upgrades",
-      "url": "https://arstechnica.com/gaming/2026/06/asus-gives-the-rox-xbox-ally-the-oled-screen-it-deserves/",
-      "source": "Ars Technica",
-      "published": "Mon, 01 Jun 2026 16:04:45 +0000",
-      "summary": "But the hardware refresh is tethered to a bundle with pricey AR glasses.",
-      "isAI": false
-    },
-    {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "source": "Google AI",
-      "published": "Mon, 01 Jun 2026 16:00:00 +0000",
-      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
-      "isAI": true
-    },
-    {
-      "title": "This AI weather startup is out-forecasting government agencies",
-      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 16:00:00 +0000",
-      "summary": "WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 sites around the globe. The advances in its current model come from improvements in how the data collected by the balloons is fed into the models.",
-      "isAI": true
-    },
-    {
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "source": "Hugging Face",
-      "published": "Mon, 01 Jun 2026 15:45:17 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "DuckDuckGo makes its \u2018no-AI\u2019 search engine easier to access as its traffic booms",
-      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 01 Jun 2026 14:49:10 +0000",
-      "summary": "Alternative search engine DuckDuckGo launches 'no AI' web extensions for Chrome and Firefox users.",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia RTX Spark comes to Windows PCs with Arm CPU, RTX GPU, and unified memory",
-      "url": "https://arstechnica.com/gadgets/2026/06/nvidia-gets-into-the-arm-pc-business-with-new-high-end-rtx-spark-processor/",
-      "source": "Ars Technica",
-      "published": "Mon, 01 Jun 2026 14:47:22 +0000",
-      "summary": "Nvidia's new chips will power laptop workstations and mini desktop PCs at first.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft to unveil new AI models and Windows improvements at Build",
-      "url": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect",
-      "source": "The Verge AI",
-      "published": "2026-06-01T10:39:03-04:00",
-      "summary": "Microsoft is heading to San Francisco this week in a bid to win back developers at its Build conference. I've been attending Build since the days when Microsoft called it the Professional Developers Conference, and I can't remember a more pivotal moment. As Microsoft continues to reshuffle its entire business around AI, it's moving Build [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Computex 2026: All the news and announcements",
-      "url": "https://www.theverge.com/tech/940844/computex-2026",
-      "source": "The Verge",
-      "published": "2026-06-01T10:33:02-04:00",
-      "summary": "Computex 2026 is kicking off in Taipei, Taiwan this week, where Nvidia, AMD, Qualcomm, Intel, and other tech brands are announcing new laptops, handhelds, chips, and more. Nvidia unveiled RTX Spark, its first family of consumer PC chips, arriving in laptops and mini PCs starting this fall. Intel is launching two new custom chips made [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AI is blowing up music. How should the Grammys handle it?",
-      "url": "https://www.theverge.com/podcast/940831/ai-grammys-music-recording-harvey-mason",
-      "source": "The Verge AI",
-      "published": "2026-06-01T10:30:00-04:00",
-      "summary": "Today I\u2019m talking with Harvey Mason Jr., who is CEO of the Recording Academy \u2014 that\u2019s the outfit that puts on the Grammy Awards. I last talked to Harvey in 2024, when it was obvious that generative AI would upend the music industry, but still not exactly clear how that would happen. Well, it\u2019s been [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Strava blames zero-code AI apps and scrapers as it tightens API access",
-      "url": "https://www.theverge.com/gadgets/940854/strava-restricts-api-access-ai-apps",
-      "source": "The Verge AI",
-      "published": "2026-06-01T10:06:44-04:00",
-      "summary": "The popular fitness-tracking platform, Strava, is restricting access to its API as part of efforts to clamp down on AI scraping, as reported earlier by TechCrunch. Developers who want to build an app using Strava's data now need to pay for a flat $11.99 / month subscription. In an update on its developer hub, Strava [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "source": "Hugging Face",
-      "published": "Mon, 01 Jun 2026 13:51:18 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Intel: Our upcoming AI chip will be cheaper, run cooler than Nvidia, AMD options",
-      "url": "https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 01 Jun 2026 13:32:16 +0000",
-      "summary": "Crescent Island is an air-cooled chip that uses LPDDR5 memory.",
-      "isAI": true
-    },
-    {
-      "title": "Malicious npm packages detected across Red Hat Cloud Services",
-      "url": "https://github.com/RedHatInsights/javascript-clients/issues/492",
-      "source": "Hacker News",
-      "published": "Mon, 01 Jun 2026 13:30:21 +0000",
-      "summary": "Article URL: https://github.com/RedHatInsights/javascript-clients/issues/492 Comments URL: https://news.ycombinator.com/item?id=48356625 Points: 639 # Comments: 341",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
-      "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
-      "source": "Hacker News",
-      "published": "Mon, 01 Jun 2026 12:04:29 +0000",
-      "summary": "https://www.microsoft.com/en-us/surface/devices/surface-lapt...https://blogs.windows.com/devices/2026/05/31/introducing-sur... Comments URL: https://news.ycombinator.com/item?id=48355720 Points: 269 # Comments: 565",
-      "isAI": true
-    },
-    {
-      "title": "Strava declares war on scrapers ahead of IPO",
-      "url": "https://techcrunch.com/2026/06/01/strava-declares-war-on-scrapers-ahead-of-ipo/",
-      "source": "TechCrunch",
-      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
-      "summary": "Strava will charge a flat monthly fee from developers to access its API.",
-      "isAI": false
-    },
-    {
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "source": "OpenAI",
-      "published": "Mon, 01 Jun 2026 12:00:00 GMT",
-      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
       "isAI": true
     }
   ]
