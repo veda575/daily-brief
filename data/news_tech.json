@@ -1,6 +1,310 @@
 {
-  "updated": "2026-06-09T15:37:51.466774+00:00",
+  "updated": "2026-06-10T16:13:14.490929+00:00",
   "items": [
+    {
+      "title": "How memory tools can make AI models worse",
+      "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 16:11:08 +0000",
+      "summary": "New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies.",
+      "isAI": true
+    },
+    {
+      "title": "Zest launches a restaurant discovery app powered by where people actually eat",
+      "url": "https://techcrunch.com/2026/06/10/zest-launches-a-restaurant-discovery-app-powered-by-where-people-actually-eat/",
+      "source": "TechCrunch",
+      "published": "Wed, 10 Jun 2026 15:53:07 +0000",
+      "summary": "Backed by Alexis Ohanian\u2019s 776 and Kindred Ventures, Zest uses transaction data and AI to generate restaurant recommendations based on users\u2019 real dining habits and the places they frequent.",
+      "isAI": true
+    },
+    {
+      "title": "Cybersecurity researchers aren\u2019t happy about the guardrails on Anthropic\u2019s Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 15:41:22 +0000",
+      "summary": "Cybersecurity researchers are complaining that Anthropic's new model Fable has guardrails that are too strict for any cybersecurity work.",
+      "isAI": true
+    },
+    {
+      "title": "Why enterprise AI will be a major focus at VivaTech 2026",
+      "url": "https://techcrunch.com/2026/06/10/why-enterprise-ai-will-be-a-major-focus-at-vivatech-2026/",
+      "source": "TechCrunch",
+      "published": "Wed, 10 Jun 2026 15:16:00 +0000",
+      "summary": "While Silicon Valley continues pushing aggressively into large language models and consumer-facing AI products, many European companies are focused on applying AI to complex systems already embedded into everyday life.",
+      "isAI": true
+    },
+    {
+      "title": "Datadog veterans launch AI coding startup Niteshift on a bet against Big AI lock-in",
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 15:00:00 +0000",
+      "summary": "AI coding agent startup Niteshift has raised a $7 million seed round from a who's who of angels. It's betting companies will want power over, not lock-in with model makers.",
+      "isAI": true
+    },
+    {
+      "title": "The three hard-tech moonshots fueling SpaceX\u2019s unbelievable IPO",
+      "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 14:48:01 +0000",
+      "summary": "Most of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans.",
+      "isAI": true
+    },
+    {
+      "title": "Warner Music acquires AI attribution startup Sureel AI",
+      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 14:31:30 +0000",
+      "summary": "Through the acquisition, WMG aims to better track when its artists' work is used in AI-generated content or for training AI models.",
+      "isAI": true
+    },
+    {
+      "title": "I\u2019m relieved Siri AI isn\u2019t trying to be a health coach",
+      "url": "https://www.theverge.com/column/947005/optimizer-siri-ai-wwdc-2026-health-coaches",
+      "source": "The Verge",
+      "published": "2026-06-10T10:00:00-04:00",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. This week's issue is a special early edition tied to The Verge's WWDC coverage. You can expect our next issue at its usual time next [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Jedify raises $24M to help companies arm AI agents with context on their business",
+      "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 13:33:09 +0000",
+      "summary": "The funding round was led by Norwest, with participation S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.",
+      "isAI": true
+    },
+    {
+      "title": "GM Energy introduces V2G support and new energy storage battery chemistry",
+      "url": "https://arstechnica.com/cars/2026/06/gm-energy-introduces-v2g-support-and-new-energy-storage-battery-chemistry/",
+      "source": "Ars Technica",
+      "published": "Wed, 10 Jun 2026 13:13:33 +0000",
+      "summary": "There are more than a quarter of a million V2G-capable GM EVs on the roads already.",
+      "isAI": false
+    },
+    {
+      "title": "Decart\u2019s new world model can simulate hours of photorealistic driving \u2014 with some caveats",
+      "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 13:07:56 +0000",
+      "summary": "Decart is launching Oasis 3, a real-time world model that generates photorealistic driving environments for autonomous vehicle testing, now available via API for developers to build on.",
+      "isAI": true
+    },
+    {
+      "title": "Why everyone\u2019s an energy company now",
+      "url": "https://techcrunch.com/2026/06/10/why-everyones-an-energy-company-now/",
+      "source": "TechCrunch",
+      "published": "Wed, 10 Jun 2026 12:45:00 +0000",
+      "summary": "Electricity demand from AI data centers is pushing everyone \u2014 including automakers like GM and Ford \u2014 into the energy storage business.",
+      "isAI": true
+    },
+    {
+      "title": "Avalanche\u2019s desktop fusion reactor delivers blistering-hot plasma",
+      "url": "https://techcrunch.com/2026/06/10/avalanches-desktop-fusion-reactor-delivers-blistering-hot-plasma/",
+      "source": "TechCrunch",
+      "published": "Wed, 10 Jun 2026 12:15:00 +0000",
+      "summary": "Fusion power startup Avalanche Energy said its reactor prototype heated a plasma to over 10 million degrees C.",
+      "isAI": true
+    },
+    {
+      "title": "Why two SpaceX alumni are betting on solar and batteries to power the AI craze",
+      "url": "https://techcrunch.com/2026/06/10/why-two-spacex-alumni-are-betting-on-solar-and-batteries-to-power-the-ai-craze/",
+      "source": "TechCrunch",
+      "published": "Wed, 10 Jun 2026 12:00:00 +0000",
+      "summary": "Ambrosia Energy wants to build power plants in less than 12 months while undercutting natural gas. It hopes to build gigawatts worth by 2030.",
+      "isAI": true
+    },
+    {
+      "title": "Best Laptops For College Students (2026): MacBooks and Beyond",
+      "url": "https://www.wired.com/story/best-college-laptops/",
+      "source": "Wired",
+      "published": "Wed, 10 Jun 2026 11:00:00 +0000",
+      "summary": "Laptops for college should be portable, offer long battery life, and remain reasonably affordable. Based on testing hundreds of laptops, these are my top picks.",
+      "isAI": false
+    },
+    {
+      "title": "Meta signs first AI data center deal in India with Reliance",
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 07:05:26 +0000",
+      "summary": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+      "isAI": true
+    },
+    {
+      "title": "Rich Sutton on AI creativity and discovery",
+      "url": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+      "source": "Hacker News",
+      "published": "Wed, 10 Jun 2026 02:25:24 +0000",
+      "summary": "https://www.youtube.com/watch?v=K5LAFEjTlBA Comments URL: https://news.ycombinator.com/item?id=48470581 Points: 186 # Comments: 98",
+      "isAI": true
+    },
+    {
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "source": "Hacker News",
+      "published": "Wed, 10 Jun 2026 01:44:13 +0000",
+      "summary": "Article URL: https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/ Comments URL: https://news.ycombinator.com/item?id=48470248 Points: 842 # Comments: 467",
+      "isAI": true
+    },
+    {
+      "title": "Google just fired a warning shot in the AI subscription price wars",
+      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 10 Jun 2026 00:26:10 +0000",
+      "summary": "Google just made it significantly cheaper to enjoy its budget AI subscription tier.",
+      "isAI": true
+    },
+    {
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "url": "https://openai.com/index/lseg",
+      "source": "OpenAI",
+      "published": "Wed, 10 Jun 2026 00:00:00 GMT",
+      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "isAI": true
+    },
+    {
+      "title": "How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund",
+      "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 23:17:51 +0000",
+      "summary": "Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest in startups like Anthropic, Anduril, and SpaceX.",
+      "isAI": true
+    },
+    {
+      "title": "RIP software hackathons. Long live the hardware hackathon",
+      "url": "https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/",
+      "source": "Hacker News",
+      "published": "Tue, 09 Jun 2026 22:35:57 +0000",
+      "summary": "Article URL: https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/ Comments URL: https://news.ycombinator.com/item?id=48468766 Points: 244 # Comments: 121",
+      "isAI": true
+    },
+    {
+      "title": "Surprise, pay $1000",
+      "url": "https://forestwalk.ai/blog/surprise-blacksmith-costs/",
+      "source": "Hacker News",
+      "published": "Tue, 09 Jun 2026 22:01:15 +0000",
+      "summary": "Article URL: https://forestwalk.ai/blog/surprise-blacksmith-costs/ Comments URL: https://news.ycombinator.com/item?id=48468370 Points: 305 # Comments: 147",
+      "isAI": true
+    },
+    {
+      "title": "Starlink charges $10 monthly hardware fee in move away from one-time purchases",
+      "url": "https://arstechnica.com/tech-policy/2026/06/starlink-takes-page-from-cable-firms-with-10-monthly-rental-fee-for-hardware/",
+      "source": "Ars Technica",
+      "published": "Tue, 09 Jun 2026 21:05:39 +0000",
+      "summary": "Starlink, SpaceX's top moneymaker, also raised service prices by $5 to $10.",
+      "isAI": false
+    },
+    {
+      "title": "GM thinks EVs can help offset AI\u2019s energy suck with vehicle-to-grid tech",
+      "url": "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion",
+      "source": "The Verge AI",
+      "published": "2026-06-09T17:00:00-04:00",
+      "summary": "At an event in San Francisco today, General Motors made a series of announcements around EV batteries, energy storage, and grid resiliency in the face of growing electricity demand from AI data centers. The automaker announced that it would be activating new vehicle-to-grid capabilities for its current EV and home energy customers. It's releasing a [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Hey, Siri, here\u2019s what I actually want from AI",
+      "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 20:50:17 +0000",
+      "summary": "I'm desperate for a personal AI assistant, but do I really want to become the kind of person who can't function without the friendly robot voice in my phone?",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic\u2019s Fable 5 can make weirdly fun video games with the click of a button",
+      "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 20:37:49 +0000",
+      "summary": "Anthropic's Claude Fable 5 is going to be a big hit with the web's vibe coders.",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
+      "url": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
+      "source": "The Verge AI",
+      "published": "2026-06-09T16:24:25-04:00",
+      "summary": "Microsoft AI CEO Mustafa Suleyman says it's \"really, really dangerous\" for Anthropic to speculate about Claude's consciousness inside its \"constitution,\" or the instructions that tell the model how to behave. During an episode of Decoder, Suleyman argues that this kind of speculation may have set up the chatbot to act as though it's conscious: I [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 19:38:28 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic says these topics are too dangerous to let its Fable 5 model talk about",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 09 Jun 2026 19:20:25 +0000",
+      "summary": "New frontier model refuses cybersecurity, biology, and chemistry queries.",
+      "isAI": true
+    },
+    {
+      "title": "Google announces Gemini 3.5 Live Translate for instant voice-to-voice translation",
+      "url": "https://arstechnica.com/ai/2026/06/google-announces-gemini-3-5-live-translate-for-instant-voice-to-voice-translation/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 09 Jun 2026 18:57:25 +0000",
+      "summary": "Voice translations preserve speaker's tone, pacing, pitch\u2014with SynthID watermarks for security.",
+      "isAI": true
+    },
+    {
+      "title": "Can tech companies learn to love cheaper AI models?",
+      "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 18:56:09 +0000",
+      "summary": "If those same AI workloads can be handled by cheaper models without affecting quality, it would mean a massive shift in the economics of AI.",
+      "isAI": true
+    },
+    {
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 18:04:24 +0000",
+      "summary": "Apple primarily made the case for an improved experience with its long-standing Siri assistant, which like most other announcements had a hefty helping of AI.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic\u2019s Claude Fable 5 is a version of Mythos the public can access today",
+      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 17:00:00 +0000",
+      "summary": "Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic releases its first Mythos-class model Claude Fable",
+      "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "source": "The Verge AI",
+      "published": "2026-06-09T13:00:00-04:00",
+      "summary": "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely available. According to the company, Fable 5 \"shows exceptional performance in software engineering, knowledge work, and vision,\" with its lead over other models growing as tasks become longer and more complex. Fable 5 [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple is embracing the fantasy of AI photo editing",
+      "url": "https://www.theverge.com/tech/946850/apple-ai-photo-editing-tools-ios27-wwdc-2026-deepfakes",
+      "source": "The Verge AI",
+      "published": "2026-06-09T12:13:14-04:00",
+      "summary": "Apple used to question whether generative AI-powered editing features were worth the risk of distorting our perceptions of the world. Now it seems Apple no longer believes that photos should accurately capture reality. At WWDC 2026, the company announced a host of new AI-powered photo editing tools. They give users effortless powers of manipulating images [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "It\u2019s not FAANG anymore. It\u2019s MANGOS.",
+      "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 09 Jun 2026 16:09:14 +0000",
+      "summary": "With SpaceX, Anthropic, and OpenAI all eyeing massive public debuts, the tech industry may soon have a new class of corporate overlords \u2014 and a new acronym to match. Say goodbye to FAANG and hello to MANGOS.",
+      "isAI": true
+    },
+    {
+      "title": "Introducing North Mini Code: Cohere\u2019s First Model For Developers",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 15:56:23 GMT",
+      "summary": "",
+      "isAI": true
+    },
     {
       "title": "Apple says it may remove some apps from the App Store if they don\u2019t attract users",
       "url": "https://techcrunch.com/2026/06/09/apple-says-it-may-remove-apps-from-the-app-store-if-they-dont-attract-users/",
@@ -162,6 +466,14 @@
       "isAI": true
     },
     {
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "source": "OpenAI",
+      "published": "Tue, 09 Jun 2026 12:00:00 GMT",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "isAI": true
+    },
+    {
       "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
       "source": "Hugging Face",
@@ -183,6 +495,14 @@
       "source": "The Verge AI",
       "published": "2026-06-09T06:00:00-04:00",
       "summary": "On Tuesday, the Seattle City Council will vote on whether to enact a one-year moratorium on new data centers - just two months after several companies proposed building five large-scale centers in the city. Among the moratorium's fiercest supporters are current employees from the city's biggest tech giant, Amazon, who joined others to testify in [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "What Codex unlocks for Notion",
+      "url": "https://openai.com/index/notion",
+      "source": "OpenAI",
+      "published": "Tue, 09 Jun 2026 10:00:00 GMT",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
       "isAI": true
     },
     {
@@ -222,7 +542,7 @@
       "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
       "source": "TechCrunch AI",
       "published": "Tue, 09 Jun 2026 01:56:48 +0000",
-      "summary": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
+      "summary": "Can Apple's new AI glow-up put to bed accusations that it's losing an all-important industry race?",
       "isAI": true
     },
     {
@@ -231,6 +551,22 @@
       "source": "TechCrunch AI",
       "published": "Tue, 09 Jun 2026 00:45:56 +0000",
       "summary": "Sequoia is just one of the top firms that sells same equity at two different prices.",
+      "isAI": true
+    },
+    {
+      "title": "Industrial policy for the Intelligence Age",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "source": "OpenAI",
+      "published": "Tue, 09 Jun 2026 00:00:00 GMT",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era\u2014focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "isAI": true
+    },
+    {
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 00:00:00 GMT",
+      "summary": "",
       "isAI": true
     },
     {
@@ -1663,342 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 03 Jun 2026 11:00:00 +0000",
       "summary": "The company\u2019s RTX Spark chips might finally turn the \u201cAI PC\u201d into reality.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "source": "OpenAI",
-      "published": "Wed, 03 Jun 2026 10:00:00 GMT",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "isAI": true
-    },
-    {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "source": "OpenAI",
-      "published": "Wed, 03 Jun 2026 10:00:00 GMT",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "isAI": true
-    },
-    {
-      "title": "The world\u2019s largest privately owned laser just turned on",
-      "url": "https://techcrunch.com/2026/06/03/the-worlds-largest-privately-owned-laser-just-turned-on/",
-      "source": "TechCrunch",
-      "published": "Wed, 03 Jun 2026 10:00:00 +0000",
-      "summary": "Fusion startup Xcimer fired up the world's largest privately owned laser.",
-      "isAI": true
-    },
-    {
-      "title": "What\u2019s Worth More Than Cash in San Francisco Real Estate? Anthropic Stock",
-      "url": "https://www.wired.com/story/whats-worth-more-than-san-francisco-real-estate-anthropic-stock/",
-      "source": "Wired",
-      "published": "Wed, 03 Jun 2026 10:00:00 +0000",
-      "summary": "Several real estate listings in the San Francisco Bay Area are offering to exchange a home for a piece of the AI startup.",
-      "isAI": true
-    },
-    {
-      "title": "Enclayve Is a Drab Black Box for Your Private Group Chats",
-      "url": "https://www.wired.com/story/enclayve-is-a-drab-black-box-for-your-private-group-chats/",
-      "source": "Wired",
-      "published": "Wed, 03 Jun 2026 09:30:00 +0000",
-      "summary": "I put my family on a private social network, and all I got was this lousy group chat. At least it\u2019s secure.",
-      "isAI": false
-    },
-    {
-      "title": "AI has a water problem \u2014 Google thinks it has a fix",
-      "url": "https://www.theverge.com/policy/942296/google-water-commitments-data-centers",
-      "source": "The Verge AI",
-      "published": "2026-06-03T05:00:00-04:00",
-      "summary": "In the face of widespread backlash to the AI data center buildout throughout the US, Google is touting its efforts to minimize the environmental impact by actually increasing water for local communities. The company laid out five commitments around water use in a new blog post published Wednesday, including a goal to replenish more water [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google must let publishers opt out of AI Search features, rules UK",
-      "url": "https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out",
-      "source": "The Verge AI",
-      "published": "2026-06-03T04:45:48-04:00",
-      "summary": "Online publishers are getting more control over whether their websites appear in Google's AI Search features, thanks to a UK regulatory ruling. The new conduct rule imposed by the Competition and Markets Authority (CMA) requires Google to let website owners keep their content out of features like AI Overviews and prevent it from being used [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Adding MCP Tools to Reachy Mini",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "source": "Hugging Face",
-      "published": "Wed, 03 Jun 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "AI outperforms law professors in Stanford Law study",
-      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
-      "source": "Hacker News",
-      "published": "Tue, 02 Jun 2026 23:43:12 +0000",
-      "summary": "https://law.stanford.edu/wp-content/uploads/2026/06/salinas_... Comments URL: https://news.ycombinator.com/item?id=48377761 Points: 376 # Comments: 326",
-      "isAI": true
-    },
-    {
-      "title": "Squishmallows, dentures, and an \u2018I Heart Hot Dads\u2019 bag: Uber has found thousands of items left in robotaxis",
-      "url": "https://techcrunch.com/2026/06/02/squishmallows-dentures-and-an-i-heart-hot-dads-bag-uber-has-found-thousands-of-items-left-in-robotaxis/",
-      "source": "TechCrunch",
-      "published": "Tue, 02 Jun 2026 23:25:20 +0000",
-      "summary": "Even in a future of robot taxis, someone still has to return the things passengers leave behind.",
-      "isAI": false
-    },
-    {
-      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "url": "https://github.com/c0dejedi/nbd-vram",
-      "source": "Hacker News",
-      "published": "Tue, 02 Jun 2026 22:55:33 +0000",
-      "summary": "Article URL: https://github.com/c0dejedi/nbd-vram Comments URL: https://news.ycombinator.com/item?id=48377404 Points: 418 # Comments: 107",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft plans Linux tools and an RTX Spark desktop for Windows developers",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsoft-plans-linux-tools-and-an-rtx-spark-desktop-for-windows-developers/",
-      "source": "Ars Technica",
-      "published": "Tue, 02 Jun 2026 22:51:10 +0000",
-      "summary": "One hardware announcement and several software highlights from Microsoft Build.",
-      "isAI": true
-    },
-    {
-      "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
-      "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 22:50:56 +0000",
-      "summary": "The cybersecurity company is nearing a $300 million round led by Evolution Equity Partners.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft's Project Solara is an Android OS designed for agents instead of apps",
-      "url": "https://arstechnica.com/gadgets/2026/06/microsofts-project-solara-is-an-android-os-designed-for-agents-instead-of-apps/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 02 Jun 2026 20:47:54 +0000",
-      "summary": "Microsoft missed the boat on apps, so get ready for agents.",
-      "isAI": true
-    },
-    {
-      "title": "Amazon-owned Ring should pay Americans for scanning their faces, lawsuit says",
-      "url": "https://arstechnica.com/tech-policy/2026/06/amazon-owned-ring-should-pay-americans-for-scanning-their-faces-lawsuit-says/",
-      "source": "Ars Technica",
-      "published": "Tue, 02 Jun 2026 20:17:41 +0000",
-      "summary": "Lawsuit: Ring cameras scan guests and passersby and use AI to identify faces.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft Build 2026: The 7 biggest announcements",
-      "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
-      "source": "The Verge AI",
-      "published": "2026-06-02T15:23:52-04:00",
-      "summary": "Microsoft just kicked off Build 2026 with a keynote from CEO Satya Nadella and other company leaders. As expected, it was filled with announcements, ranging from new Surface hardware to an always-on personal assistant and updates across Microsoft's in-house AI models. If you didn't watch the event live, you can catch up on all the [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Uber caps employee AI spending after blowing through budget in 4 months",
-      "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 19:11:48 +0000",
-      "summary": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
-      "isAI": true
-    },
-    {
-      "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
-      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 19:02:21 +0000",
-      "summary": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
-      "isAI": true
-    },
-    {
-      "title": "MAI-Code-1-Flash",
-      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
-      "source": "Hacker News",
-      "published": "Tue, 02 Jun 2026 18:47:07 +0000",
-      "summary": "https://microsoft.ai/models/mai-code-1-flash/https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDFLaunching seven new MAI models: https://microsoft.ai/news/building-a-hillclimbing-machine-la... Comments URL: https://news.ycombinator.com/item?id=48374466 Points: 517 # Comments: 243",
-      "isAI": true
-    },
-    {
-      "title": "Trump signs executive order to review AI models before they\u2019re released",
-      "url": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
-      "source": "The Verge AI",
-      "published": "2026-06-02T14:33:42-04:00",
-      "summary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Mathematicians warn of AI threats to profession as industry encroaches",
-      "url": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 02 Jun 2026 18:19:06 +0000",
-      "summary": "International Mathematical Union endorses warning about tech industry influence.",
-      "isAI": true
-    },
-    {
-      "title": "Martin Scorsese becomes the latest \u2014 and most unlikely \u2014 Hollywood voice for AI",
-      "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 18:16:53 +0000",
-      "summary": "The caveat is that one of the world's most famous living directors is using the tech solely for storyboarding.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft\u2019s first advanced reasoning AI is here",
-      "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "source": "The Verge AI",
-      "published": "2026-06-02T14:12:44-04:00",
-      "summary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
-      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 18:02:44 +0000",
-      "summary": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
-      "isAI": true
-    },
-    {
-      "title": "Android phones will soon be able to detect spoofed calls and impersonation scams",
-      "url": "https://arstechnica.com/gadgets/2026/06/google-announces-deepfake-call-detection-for-android-new-airdrop-device-support/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 02 Jun 2026 18:00:46 +0000",
-      "summary": "Google's June Android feature drop includes more scam detection, more AirDrop, and yes, more AI.",
-      "isAI": true
-    },
-    {
-      "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
-      "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 18:00:00 +0000",
-      "summary": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figures, family members, or employers.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft offers devs a better way to control AI agent behavior",
-      "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 18:00:00 +0000",
-      "summary": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft Scout is a new AI personal assistant built on OpenClaw",
-      "url": "https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw",
-      "source": "The Verge AI",
-      "published": "2026-06-02T14:00:00-04:00",
-      "summary": "Much like Google, Microsoft is launching its own version of OpenClaw. Microsoft Scout is an always-on assistant that integrates into Microsoft 365 apps like Outlook, OneDrive, and Microsoft Teams, allowing businesses to assign a virtual assistant to employees to help with organizing calendars, expense reporting, email drafts, and much more. Unlike Copilot that lives inside [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s Phone app will tell you if a scammer is impersonating one of your contacts",
-      "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
-      "source": "The Verge AI",
-      "published": "2026-06-02T14:00:00-04:00",
-      "summary": "Google is launching a new feature for its Phone app that aims to protect you from AI impersonation scams. Now, when you receive a call from a scammer that appears to be coming from the same number as one of your contacts, Phone by Google will flag the call as suspicious so you can hang [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
-      "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 17:47:28 +0000",
-      "summary": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft\u2019s Project Solara is an OS for AI agent gadgets",
-      "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
-      "source": "The Verge AI",
-      "published": "2026-06-02T13:31:02-04:00",
-      "summary": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft created the mini Surface dev box that Qualcomm couldn\u2019t",
-      "url": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
-      "source": "The Verge AI",
-      "published": "2026-06-02T12:30:00-04:00",
-      "summary": "Microsoft only just announced a new Surface Laptop Ultra at the weekend, and it's now revealing a miniature Surface PC aimed at developers. The new Surface RTX Spark Dev Box is powered by Nvidia's new Arm-based RTX Spark chips, just like the Surface Laptop Ultra, and is optimized for sustained workloads and local AI tasks. [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft\u2019s new developer-optimized Windows embraces Linux even more",
-      "url": "https://www.theverge.com/news/941314/microsoft-windows-11-developer-optimized-experience-linux",
-      "source": "The Verge",
-      "published": "2026-06-02T12:30:00-04:00",
-      "summary": "Microsoft is kicking off its Build developer conference today with a promise of making Windows a trusted platform for development. As the company continues to focus on performance and reliability fixes for Windows 11, it's also creating a developer-optimized experience that bundles a lot of useful tools and apps and embraces Linux even further. \"We [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Trump signs narrower executive order on AI oversight after industry objections",
-      "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 16:23:08 +0000",
-      "summary": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI launches new Codex tools for white-collar work",
-      "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
-      "summary": "OpenAI is getting serious about courting enterprise users. On Tuesday, the AI lab released a new set of capabilities for Codex, meant to expand the agentic tool\u2019s uses in the workplace. Together with the new tools, the company released an internal report on how Codex is being used for knowledge work, finding its uses go [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Partiful Is Putting Ticket Payments on Its Platform",
-      "url": "https://www.wired.com/story/partiful-is-putting-ticket-payments-on-its-platform/",
-      "source": "Wired",
-      "published": "Tue, 02 Jun 2026 16:00:00 +0000",
-      "summary": "In the social event planner\u2019s first major move toward monetization, Partiful is getting ticketing directly in the app.",
-      "isAI": false
-    },
-    {
-      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
-      "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-      "source": "The Verge AI",
-      "published": "2026-06-02T11:59:58-04:00",
-      "summary": "Microsoft\u2019s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it\u2019s announced. The Verge\u2019s Tom Warren reports that we can expect to hear about new AI models and agentic OpenClaw-like [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Board, the new game startup from Mirror founder Brynn Putnam, raises $20M, has already sold thousands",
-      "url": "https://techcrunch.com/2026/06/02/board-the-new-game-startup-from-mirror-founder-brynn-putnam-raises-20m-has-already-sold-thousands/",
-      "source": "TechCrunch",
-      "published": "Tue, 02 Jun 2026 15:56:08 +0000",
-      "summary": "Board, the startup building what it calls \"together tech\" designed to bring people into the same room, has closed a Series A led by Union Square Ventures.",
-      "isAI": true
-    },
-    {
-      "title": "Ableton is letting musicians build browser-style extensions for Live",
-      "url": "https://www.theverge.com/tech/941674/ableton-live-extensions-sdk-music-daw",
-      "source": "The Verge",
-      "published": "2026-06-02T11:48:20-04:00",
-      "summary": "Ableton already has Max for Live, which allows users to build MIDI effects, synths, and samplers for its digital audio workstation (DAW). But now with its Extensions SDK, features can be added to Ableton Live with common JavaScript. Where Max is largely limited to MIDI and audio processing, Extensions can touch almost any part of [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Flush With Cash From OpenAI, Opal Is Making an AI-Powered Audio Gadget",
-      "url": "https://www.wired.com/story/opal-electronics-openai-investment-ai-powered-audio-gadget/",
-      "source": "Wired",
-      "published": "Tue, 02 Jun 2026 15:30:00 +0000",
-      "summary": "Opal, the company famous for making a fancy webcam, has pivoted to making other consumer electronics. Fueled by big investments from OpenAI and Samsung, it\u2019s working on an audio gadget first.",
-      "isAI": true
-    },
-    {
-      "title": "Turning your purse into a cyberdeck is the most fun way to resist big tech",
-      "url": "https://techcrunch.com/2026/06/02/turning-your-purse-into-a-cyberdeck-is-the-most-fun-way-to-resist-big-tech/",
-      "source": "TechCrunch",
-      "published": "Tue, 02 Jun 2026 15:24:40 +0000",
-      "summary": "The women building these over-the-top, bedazzled cyberdecks aren\u2019t in it for the glitter alone. This trend is reaching its peak at a time when people feel powerless against big tech.",
-      "isAI": false
-    },
-    {
-      "title": "Why VivaTech 2026 is the place to see Europe\u2019s AI strategy take shape",
-      "url": "https://techcrunch.com/2026/06/02/why-vivatech-2026-is-the-place-to-see-europes-ai-strategy-take-shape/",
-      "source": "TechCrunch",
-      "published": "Tue, 02 Jun 2026 15:05:00 +0000",
-      "summary": "The global AI race is often framed as a battle between the United States and China. But at VivaTech, Europe is expected to make the case for an entirely different model.",
       "isAI": true
     }
   ]
