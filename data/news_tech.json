@@ -1,6 +1,134 @@
 {
-  "updated": "2026-06-21T14:40:02.193048+00:00",
+  "updated": "2026-06-22T17:15:26.827943+00:00",
   "items": [
+    {
+      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos",
+      "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+      "source": "Wired",
+      "published": "Mon, 22 Jun 2026 17:00:00 +0000",
+      "summary": "Amid concerns about AI models\u2019 cybersecurity capabilities, OpenAI revealed an improved version of GPT-5.5-Cyber and its \u201cPatch the Plant\u201d initiative to fix open-source software bugs.",
+      "isAI": true
+    },
+    {
+      "title": "SpaceX inks compute deal with Reflection AI, an open-source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 22 Jun 2026 16:51:29 +0000",
+      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+      "isAI": true
+    },
+    {
+      "title": "WhatsApp gets new chief as Meta taps India\u2019s CRED founder Kunal Shah, and invests $900M in startup",
+      "url": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
+      "source": "TechCrunch",
+      "published": "Mon, 22 Jun 2026 15:21:42 +0000",
+      "summary": "WhatsApp gets a new boss, as Will Cathcart moves to a new role at Meta, while Shah steps down as CEO of Indian fintech giant CRED to replace Cathcart.",
+      "isAI": true
+    },
+    {
+      "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
+      "url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 22 Jun 2026 14:00:00 +0000",
+      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
+      "isAI": true
+    },
+    {
+      "title": "How Anthropic may have talked itself into an AI export ban",
+      "url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 22 Jun 2026 13:45:24 +0000",
+      "summary": "The company warned about dangers of advanced AI far more than rival OpenAI.",
+      "isAI": true
+    },
+    {
+      "title": "Pledging Another $400k to the Zig Software Foundation",
+      "url": "https://mitchellh.com/writing/zig-donation-2026",
+      "source": "Hacker News",
+      "published": "Mon, 22 Jun 2026 13:43:01 +0000",
+      "summary": "Article URL: https://mitchellh.com/writing/zig-donation-2026 Comments URL: https://news.ycombinator.com/item?id=48630020 Points: 490 # Comments: 150",
+      "isAI": true
+    },
+    {
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "source": "Hugging Face",
+      "published": "Mon, 22 Jun 2026 13:18:56 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Read this before you vibe-code another app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+      "source": "The Verge AI",
+      "published": "2026-06-22T07:00:00-04:00",
+      "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL injection risk. It could've left the site [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "OpenAI",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "isAI": true
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "isAI": true
+    },
+    {
+      "title": "Some Electricians Think Building Data Centers Is for Sellouts",
+      "url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out/",
+      "source": "Wired",
+      "published": "Mon, 22 Jun 2026 09:30:00 +0000",
+      "summary": "Big Tech is throwing big money into data center buildouts. As national opposition to the facilities grows, some workers are beginning to question whether it\u2019s worth it.",
+      "isAI": true
+    },
+    {
+      "title": "Sakana Fugu",
+      "url": "https://sakana.ai/fugu/",
+      "source": "Hacker News",
+      "published": "Mon, 22 Jun 2026 02:08:18 +0000",
+      "summary": "Article URL: https://sakana.ai/fugu/ Comments URL: https://news.ycombinator.com/item?id=48624782 Points: 192 # Comments: 106",
+      "isAI": true
+    },
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI\u2019s largest enterprise AI rollouts.",
+      "isAI": true
+    },
+    {
+      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/",
+      "source": "Hacker News",
+      "published": "Sun, 21 Jun 2026 21:29:43 +0000",
+      "summary": "Article URL: https://apertvs.ai/ Comments URL: https://news.ycombinator.com/item?id=48622778 Points: 497 # Comments: 167",
+      "isAI": true
+    },
+    {
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 21 Jun 2026 15:28:17 +0000",
+      "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+      "isAI": true
+    },
+    {
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 21 Jun 2026 14:40:28 +0000",
+      "summary": "Siri\u2019s AI overhaul may have grabbed the headlines at WWDC, but some of Apple\u2019s most useful AI features are arriving elsewhere in iOS 27.",
+      "isAI": true
+    },
     {
       "title": "How Roomba started a robot revolution",
       "url": "https://www.theverge.com/podcast/953275/roomba-robot-vacuum-version-history",
@@ -178,6 +306,14 @@
       "isAI": true
     },
     {
+      "title": "Munich 1991: The Roots of the Current AI Boom",
+      "url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+      "source": "Hacker News",
+      "published": "Fri, 19 Jun 2026 15:54:23 +0000",
+      "summary": "Article URL: https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html Comments URL: https://news.ycombinator.com/item?id=48599998 Points: 177 # Comments: 77",
+      "isAI": true
+    },
+    {
       "title": "Billionaire Ambani wants AI in every call, app, and home",
       "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
       "source": "TechCrunch AI",
@@ -202,7 +338,7 @@
       "isAI": true
     },
     {
-      "title": "The CEO of Allbirds\u2019 new AI biz has a plan, but no team",
+      "title": "The CEO of Allbirds\u2019 new AI biz has a plan. Now she needs a \u201cbrand-new team\u201d",
       "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
       "source": "TechCrunch AI",
       "published": "Fri, 19 Jun 2026 13:00:00 +0000",
@@ -222,7 +358,7 @@
       "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
       "source": "MIT Tech Review",
       "published": "Fri, 19 Jun 2026 10:40:24 +0000",
-      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the\u2026",
+      "summary": "The Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing\u2026",
       "isAI": true
     },
     {
@@ -1863,142 +1999,6 @@
       "source": "Hacker News",
       "published": "Fri, 12 Jun 2026 17:34:55 +0000",
       "summary": "Article URL: https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos Comments URL: https://news.ycombinator.com/item?id=48507020 Points: 420 # Comments: 105",
-      "isAI": true
-    },
-    {
-      "title": "$130 billion in data center projects blocked by protests so far this year",
-      "url": "https://arstechnica.com/tech-policy/2026/06/130-billion-in-data-center-projects-blocked-by-protests-so-far-this-year/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 12 Jun 2026 17:18:49 +0000",
-      "summary": "Winning fight against AI data centers gives people a \"taste of political power.\"",
-      "isAI": true
-    },
-    {
-      "title": "China Didn\u2019t Make Americans Hate Data Centers",
-      "url": "https://www.wired.com/story/china-us-data-center-opposition/",
-      "source": "Wired",
-      "published": "Fri, 12 Jun 2026 17:17:10 +0000",
-      "summary": "GOP lawmakers, tech investors, and even OpenAI have tied the anti-data-center movement in the US to Chinese interference. Experts say it\u2019s much more complicated than that.",
-      "isAI": true
-    },
-    {
-      "title": "Siri is good now??",
-      "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
-      "source": "The Verge AI",
-      "published": "2026-06-12T13:17:04-04:00",
-      "summary": "You'd be forgiven for thinking this day would never come. Siri has spent a decade and half somewhere between \"sort of useful at a few things\" and \"utterly disastrous, why did I even try, can it honestly not even set a timer.\" But the wildest thing just happened: Apple put out a new version of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Robinhood sees \u2018record-breaking\u2019 traffic after SpaceX stock debuts",
-      "url": "https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts/",
-      "source": "TechCrunch",
-      "published": "Fri, 12 Jun 2026 17:05:06 +0000",
-      "summary": "The trading platform says some customers experienced intermittent disruptions, but those issues have resolved.",
-      "isAI": false
-    },
-    {
-      "title": "When it comes to total water use, AI data centers are a drop in the bucket",
-      "url": "https://arstechnica.com/ai/2026/06/when-it-comes-to-total-water-use-ai-data-centers-are-a-drop-in-the-bucket/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 12 Jun 2026 16:51:38 +0000",
-      "summary": "Even moderately sized data centers can have an outsized local impact.",
-      "isAI": true
-    },
-    {
-      "title": "Google sues Chinese cybercrime network that used Gemini to automate scams",
-      "url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 12 Jun 2026 16:34:36 +0000",
-      "summary": "The fraudsters allegedly targeted hundreds of thousands of people with Gemini-coded scams sites.",
-      "isAI": true
-    },
-    {
-      "title": "Elon Musk is the world\u2019s first trillionaire",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
-      "source": "The Verge AI",
-      "published": "2026-06-12T12:24:39-04:00",
-      "summary": "Elon Musk's net worth has passed the trillion-dollar mark after SpaceX's IPO. His net worth, which was hovering around $800 billion before the IPO, includes the value of his 4.8 billion shares in SpaceX, along with his wealth from his other companies, like Tesla. Shares of SPCX opened at $150 and have remained well above [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer",
-      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 12 Jun 2026 16:23:25 +0000",
-      "summary": "The IPO market is back, and it\u2019s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS \u2014 Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it\u2019s a stress test for investors, for valuations, and for [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "source": "Hugging Face",
-      "published": "Fri, 12 Jun 2026 15:56:10 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "It\u2019s hot IPO summer, and the MANGOS are ripe",
-      "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 12 Jun 2026 15:50:52 +0000",
-      "summary": "The IPO market is back, and it\u2019s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS \u2014 Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it\u2019s a stress test for investors, for valuations, and for [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
-      "url": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/",
-      "source": "Hacker News",
-      "published": "Fri, 12 Jun 2026 15:15:24 +0000",
-      "summary": "Article URL: https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/ Comments URL: https://news.ycombinator.com/item?id=48505231 Points: 888 # Comments: 200",
-      "isAI": false
-    },
-    {
-      "title": "Slightly reducing the sloppiness of AI generated front end",
-      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "source": "Hacker News",
-      "published": "Fri, 12 Jun 2026 14:48:38 +0000",
-      "summary": "Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html Comments URL: https://news.ycombinator.com/item?id=48504912 Points: 211 # Comments: 125",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX\u2019s massive IPO: all the latest news",
-      "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
-      "source": "The Verge AI",
-      "published": "2026-06-12T10:35:48-04:00",
-      "summary": "SpaceX\u2019s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and is raising enough money to likely make Elon Musk the first trillionaire. He\u2019ll have more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his home [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX IPO: Everything you need to know",
-      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 12 Jun 2026 14:08:54 +0000",
-      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
-      "isAI": true
-    },
-    {
-      "title": "Jeff Bezos\u2019 AI startup aims to build an \u2018artificial general engineer\u2019",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
-      "source": "The Verge AI",
-      "published": "2026-06-12T10:03:39-04:00",
-      "summary": "Amazon founder Jeff Bezos says his new AI startup will work toward developing an \"artificial general engineer,\" according to reports from The New York Times and CNBC. The startup, called Prometheus, aims to develop AI-powered engineering tools to aid in the design of physical products. The NYT first reported on Prometheus last November, but now [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "BMW\u2019s Neue Klasse M concept brings next-gen EV tech to motorsports",
-      "url": "https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev",
-      "source": "The Verge",
-      "published": "2026-06-12T09:00:00-04:00",
-      "summary": "Just in time for Le Mans, BMW is pulling the cover off its new M performance concept built on the Bavarian automaker's Neue Klasse next-generation architecture. The concept is the debut of a new design language for BMW's M division, signaling a shift toward a more electrified future. The company says it is built on [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Pok\u00e9mon Go players unwittingly contributed to tech with military drone uses",
-      "url": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 12 Jun 2026 11:15:41 +0000",
-      "summary": "The repurposing of Pok\u00e9mon Go data for AI training continues to draw scrutiny.",
       "isAI": true
     }
   ]
