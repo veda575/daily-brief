@@ -1,10 +1,66 @@
 {
-  "updated": "2026-06-27T14:12:30.117304+00:00",
+  "updated": "2026-06-28T14:21:31.093542+00:00",
   "items": [
+    {
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "source": "The Verge AI",
+      "published": "2026-06-28T10:12:06-04:00",
+      "summary": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history. To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witness testimony. But they also turned to his ChatGPT logs. Prosecutors said that [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Nest\u2019s quest to fix your thermostat",
+      "url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
+      "source": "The Verge",
+      "published": "2026-06-28T08:02:44-04:00",
+      "summary": "The founding story of Nest is pretty much a perfect tech myth. A legendary product maker (in this case, Tony Fadell) helps create one of the most successful products ever (the iPhone) and then rides off into the sunset to enjoy the rest of his life, only to have an experience that drags him back [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Ad-free streaming is a luxury now",
+      "url": "https://www.theverge.com/column/958379/streaming-industry-ads",
+      "source": "The Verge",
+      "published": "2026-06-28T08:00:00-04:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about the streaming industry, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Streaming was once a reprieve from cable. Not only could [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
+      "url": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+      "source": "TechCrunch",
+      "published": "Sun, 28 Jun 2026 05:00:00 +0000",
+      "summary": "Dilip Asbe said that newer UPI apps could be more competitive with a viable commercial model",
+      "isAI": true
+    },
+    {
+      "title": "SoftBank\u2019s CEO isn\u2019t the only one with questions about Elon Musk\u2019s orbital data center hype",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 27 Jun 2026 20:42:36 +0000",
+      "summary": "Not everyone is buying Elon Musk\u2019s vision for orbital data centers.",
+      "isAI": true
+    },
+    {
+      "title": "Margaret Atwood says the problem with AI is \u2018garbage in, garbage out\u2019",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "source": "The Verge AI",
+      "published": "2026-06-27T14:39:32-04:00",
+      "summary": "Maraget Atwood, the storied author of The Handmaid's Tale and The Blind Assassin, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words. According to Deadline's recap, Atwood said she'd used an AI [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 27 Jun 2026 16:45:09 +0000",
+      "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI\u2019s hardware team.",
+      "isAI": true
+    },
     {
       "title": "The fittest founder in the room got cancer. Here\u2019s how he used AI to fight back.",
       "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
       "published": "Sat, 27 Jun 2026 14:00:00 +0000",
       "summary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime \u2014 blood results, scan data, wearable output, journal entries \u2014 into Claude.",
       "isAI": true
@@ -12,7 +68,7 @@
     {
       "title": "Why is Apple asking me to pay more for Big Tech\u2019s AI obsession?",
       "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
-      "source": "The Verge",
+      "source": "The Verge AI",
       "published": "2026-06-27T09:30:00-04:00",
       "summary": "Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable.\" The 16-inch MacBook Pro saw its price go up by $300. The 11-inch iPad Air went from $599 to $749. Even the HomePod Mini got a $30 bump to $129. Cook squarely placed the blame at the feet of the [\u2026]",
       "isAI": true
@@ -735,6 +791,14 @@
       "source": "Hacker News",
       "published": "Wed, 24 Jun 2026 14:10:11 +0000",
       "summary": "Article URL: https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/ Comments URL: https://news.ycombinator.com/item?id=48660178 Points: 417 # Comments: 339",
+      "isAI": true
+    },
+    {
+      "title": "AI learns the \u201cdark art\u201d of RFIC design",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "source": "Hacker News",
+      "published": "Wed, 24 Jun 2026 14:02:16 +0000",
+      "summary": "Article URL: https://spectrum.ieee.org/ai-radio-chip-design Comments URL: https://news.ycombinator.com/item?id=48660021 Points: 250 # Comments: 162",
       "isAI": true
     },
     {
@@ -1936,70 +2000,6 @@
       "published": "Thu, 18 Jun 2026 00:00:00 GMT",
       "summary": "",
       "isAI": true
-    },
-    {
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "source": "Hugging Face",
-      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "AI is hurting Apple in more ways than one: it may force iPhone price increases",
-      "url": "https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/",
-      "source": "TechCrunch",
-      "published": "Wed, 17 Jun 2026 23:28:21 +0000",
-      "summary": "CEO Tim Cook said in a recent interview that the situation is \"unsustainable.\"",
-      "isAI": true
-    },
-    {
-      "title": "Chi-Hua Chien saw Facebook coming \u2014 now he says the real AI winners won\u2019t be selling AI",
-      "url": "https://techcrunch.com/2026/06/17/chi-hua-chien-saw-facebook-coming-now-he-says-the-real-ai-winners-wont-be-selling-ai/",
-      "source": "TechCrunch",
-      "published": "Wed, 17 Jun 2026 21:30:50 +0000",
-      "summary": "Chi-Hua Chien has spent more than two decades as a venture capitalist, but he thinks like a cultural anthropologist.",
-      "isAI": true
-    },
-    {
-      "title": "Sooner than expected? Useful quantum error correction promised for 2028.",
-      "url": "https://arstechnica.com/science/2026/06/amazon-quera-promise-useful-quantum-error-correction-by-2028/",
-      "source": "Ars Technica",
-      "published": "Wed, 17 Jun 2026 20:44:32 +0000",
-      "summary": "Elsewhere, beyond-classical quantum hardware, plus classical computing fires back.",
-      "isAI": false
-    },
-    {
-      "title": "Roelof Botha joins SpaceX\u2019s board of directors",
-      "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 17 Jun 2026 20:32:52 +0000",
-      "summary": "The former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever.",
-      "isAI": true
-    },
-    {
-      "title": "After unveiling ridiculously expensive AR glasses, Snap\u2019s stock takes a dive",
-      "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 17 Jun 2026 20:24:28 +0000",
-      "summary": "Snap's long-awaited smart glasses debut hasn't exactly done wonders for the company's stock.",
-      "isAI": true
-    },
-    {
-      "title": "NEA\u2019s Tiffany Luck says enterprises are still figuring out their AI ROI",
-      "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 17 Jun 2026 20:17:38 +0000",
-      "summary": "Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Meta killed its internal leaderboard. This tension between [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "California says AT&T lied to FCC in attempt to shut off old phone network",
-      "url": "https://arstechnica.com/tech-policy/2026/06/california-says-att-lied-to-fcc-in-attempt-to-shut-off-old-phone-network/",
-      "source": "Ars Technica",
-      "published": "Wed, 17 Jun 2026 20:07:40 +0000",
-      "summary": "FCC considers AT&T petitions to preempt state rules and discontinue phone service.",
-      "isAI": false
     }
   ]
 }
