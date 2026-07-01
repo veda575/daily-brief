@@ -1,6 +1,294 @@
 {
-  "updated": "2026-06-30T15:08:42.108605+00:00",
+  "updated": "2026-07-01T15:18:12.119420+00:00",
   "items": [
+    {
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "source": "MIT Tech Review",
+      "published": "Wed, 01 Jul 2026 14:35:16 +0000",
+      "summary": "Let\u2019s start with a game. Open up your chatbot of choice\u2014Claude, ChatGPT, Gemini\u2014and type \u201cGive me a random number between 1 and 10.\u201d You\u2019re going to get 7. Almost always. Now type \u201cAnother\u201d and you\u2019ll get 3 or 4. Type \u201cAnother\u201d again and you\u2019ll get 8 or 9. That won\u2019t work every time\u2014but if it\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 14:25:23 +0000",
+      "summary": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
+      "isAI": true
+    },
+    {
+      "title": "Gemini Spark, Google\u2019s agentic assistant, is now available on Mac",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 14:20:19 +0000",
+      "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+      "isAI": true
+    },
+    {
+      "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 14:00:00 +0000",
+      "summary": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&A on what it takes to build and scale successful companies. Register now to save up to $330.",
+      "isAI": true
+    },
+    {
+      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 13:43:07 +0000",
+      "summary": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+      "isAI": true
+    },
+    {
+      "title": "Motorola Phones Now Have a Built-In Travel eSIM for Mobile Data Outside the US",
+      "url": "https://www.wired.com/story/exclusive-motorola-phones-now-get-a-built-in-travel-esim/",
+      "source": "Wired",
+      "published": "Wed, 01 Jul 2026 13:00:00 +0000",
+      "summary": "Available in select markets thanks to a partnership with Gigs, Motorola phone owners have one less hurdle to clear when signing up for a data-only eSIM before traveling abroad.",
+      "isAI": false
+    },
+    {
+      "title": "Google built a great smart speaker, but Gemini isn\u2019t ready for it",
+      "url": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
+      "source": "The Verge AI",
+      "published": "2026-07-01T08:00:00-04:00",
+      "summary": "Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that. Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's finally Google's turn. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
+      "url": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
+      "source": "Wired",
+      "published": "Wed, 01 Jul 2026 11:38:00 +0000",
+      "summary": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.",
+      "isAI": false
+    },
+    {
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "source": "Hacker News",
+      "published": "Wed, 01 Jul 2026 07:43:22 +0000",
+      "summary": "Article URL: https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/ Comments URL: https://news.ycombinator.com/item?id=48743472 Points: 451 # Comments: 288",
+      "isAI": true
+    },
+    {
+      "title": "The \u2018Father of the Internet\u2019 is finally retiring",
+      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 03:15:37 +0000",
+      "summary": "Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google's chief internet evangelist next week.",
+      "isAI": true
+    },
+    {
+      "title": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 02:16:06 +0000",
+      "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "isAI": true
+    },
+    {
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 01 Jul 2026 02:04:40 +0000",
+      "summary": "Wayve\u2019s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic\u2019s long-sidelined Fable 5 is greenlit to return",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "source": "The Verge AI",
+      "published": "2026-06-30T20:03:55-04:00",
+      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face",
+      "published": "Wed, 01 Jul 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Startup Battlefield Australia application closes in days: Apply before July 6",
+      "url": "https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/",
+      "source": "TechCrunch",
+      "published": "Tue, 30 Jun 2026 23:00:00 +0000",
+      "summary": "What if one pitch changed everything? The next company nobody has heard of yet is building something that will matter. It could be yours.",
+      "isAI": true
+    },
+    {
+      "title": "OpenClaw is finally available on Android and iOS",
+      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 21:53:28 +0000",
+      "summary": "The free open source agentic program is finally invading your phone.",
+      "isAI": true
+    },
+    {
+      "title": "Claude Science is Anthropic\u2019s newest flagship product",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 30 Jun 2026 21:50:04 +0000",
+      "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously carry out meaningful work when given concise, high-level instructions, and it has access\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Leanstral 1.5",
+      "url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+      "source": "Hacker News",
+      "published": "Tue, 30 Jun 2026 20:44:56 +0000",
+      "summary": "Article URL: https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06 Comments URL: https://news.ycombinator.com/item?id=48738938 Points: 282 # Comments: 121",
+      "isAI": true
+    },
+    {
+      "title": "Google kills Tenor GIF API, forcing changes at X, Discord, and more",
+      "url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
+      "source": "Ars Technica",
+      "published": "Tue, 30 Jun 2026 20:38:51 +0000",
+      "summary": "Tenor still connects to Google apps, but other platforms must look elsewhere for GIFs.",
+      "isAI": false
+    },
+    {
+      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 20:33:48 +0000",
+      "summary": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.",
+      "isAI": true
+    },
+    {
+      "title": "Apple takes Epic fight over app store fees to the Supreme Court",
+      "url": "https://arstechnica.com/tech-policy/2026/06/apple-takes-epic-fight-over-app-store-fees-to-the-supreme-court/",
+      "source": "Ars Technica",
+      "published": "Tue, 30 Jun 2026 20:20:29 +0000",
+      "summary": "Supreme Court will weigh if Apple contempt finding in Epic case is \u201cerroneous.\u201d",
+      "isAI": false
+    },
+    {
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 30 Jun 2026 20:03:14 +0000",
+      "summary": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s NotebookLM can sum up your research in a TikTok-style clip",
+      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "source": "The Verge AI",
+      "published": "2026-06-30T15:24:51-04:00",
+      "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google details Australia's unsuccessful war [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 19:02:38 +0000",
+      "summary": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+      "isAI": true
+    },
+    {
+      "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet",
+      "url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 30 Jun 2026 18:36:10 +0000",
+      "summary": "They may not look as good, but Nano Banana 2 Lite images only take a few seconds to create.",
+      "isAI": true
+    },
+    {
+      "title": "Clicks shows off its BlackBerry-inspired phone in a new hands-on video",
+      "url": "https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/",
+      "source": "TechCrunch",
+      "published": "Tue, 30 Jun 2026 18:34:22 +0000",
+      "summary": "A new video shows the final production version of the upcoming Clicks Communicator, a BlackBerry-like smartphone that runs modern apps.",
+      "isAI": false
+    },
+    {
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "source": "Hugging Face",
+      "published": "Tue, 30 Jun 2026 18:32:50 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 18:13:02 +0000",
+      "summary": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 18:00:00 +0000",
+      "summary": "Anthropic\u2019s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+      "isAI": true
+    },
+    {
+      "title": "Acti puts AI agents directly into your smartphone keyboard",
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 17:52:46 +0000",
+      "summary": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic\u2019s Claude Science bets on workflow, not a new model, to win over scientists",
+      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 30 Jun 2026 17:00:00 +0000",
+      "summary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
+      "isAI": true
+    },
+    {
+      "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors",
+      "url": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 30 Jun 2026 16:59:02 +0000",
+      "summary": "A year in, National Design Studio delays plan to update government web standards.",
+      "isAI": true
+    },
+    {
+      "title": "The US going 100% EV by 2040 would save more than 100k lives, study says",
+      "url": "https://arstechnica.com/cars/2026/06/the-us-going-100-ev-by-2040-would-save-more-than-100k-lives-study-says/",
+      "source": "Ars Technica",
+      "published": "Tue, 30 Jun 2026 16:03:44 +0000",
+      "summary": "Much of it comes from heavy-duty trucks and buses that burn diesel.",
+      "isAI": false
+    },
+    {
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "source": "Google DeepMind",
+      "published": "Tue, 30 Jun 2026 16:02:40 +0000",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Trump asked Musk for SpaceX stock to seed US kids\u2019 savings accounts, report says",
+      "url": "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 30 Jun 2026 15:38:08 +0000",
+      "summary": "Sources suggest Musk may be mulling big donation to Trump Accounts.",
+      "isAI": true
+    },
+    {
+      "title": "Libby will filter out AI content, kind of",
+      "url": "https://www.theverge.com/column/959433/libby-ai-filter",
+      "source": "The Verge AI",
+      "published": "2026-06-30T11:30:00-04:00",
+      "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the new CEO of OverDrive last week. OverDrive is best known for the ebook lending app [\u2026]",
+      "isAI": true
+    },
     {
       "title": "X now offers an MCP server to make its platform easier for AI tools to use",
       "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
@@ -28,7 +316,7 @@
     {
       "title": "Podcasting platform Riverside enters the newsletter publishing game",
       "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
       "published": "Tue, 30 Jun 2026 15:00:00 +0000",
       "summary": "Users will be able use AI to create newsletters based on their recordings.",
       "isAI": true
@@ -90,6 +378,14 @@
       "isAI": true
     },
     {
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI",
+      "published": "Tue, 30 Jun 2026 09:00:00 GMT",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "isAI": true
+    },
+    {
       "title": "Unlocking Britain\u2019s next era of productivity: Building a nation of AI trailblazers",
       "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
       "source": "Google AI",
@@ -117,6 +413,30 @@
       "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
       "url": "https://huggingface.co/blog/eee-community-evals",
       "source": "Hugging Face",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "source": "OpenAI",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "isAI": true
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "source": "OpenAI",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "isAI": true
+    },
+    {
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "source": "OpenAI",
       "published": "Tue, 30 Jun 2026 00:00:00 GMT",
       "summary": "",
       "isAI": true
@@ -1680,326 +2000,6 @@
       "published": "Mon, 22 Jun 2026 19:25:00 +0000",
       "summary": "The incident comes as Tata Electronics expands its role in global technology supply chains.",
       "isAI": false
-    },
-    {
-      "title": "Google DeepMind bets $75M on AI\u2019s future in Hollywood with A24 deal",
-      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 22 Jun 2026 18:49:44 +0000",
-      "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
-      "isAI": true
-    },
-    {
-      "title": "Three things to watch amid Anthropic\u2019s latest feud with the government",
-      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 22 Jun 2026 18:00:00 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic\u2019s latest feud with the US government, here\u2019s a recap: In April the company said it had built an AI model called Mythos\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Amazon is testing Alexa+ in India with Hindi support",
-      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 22 Jun 2026 17:31:29 +0000",
-      "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic\u2019s Mythos",
-      "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-      "source": "Wired",
-      "published": "Mon, 22 Jun 2026 17:00:00 +0000",
-      "summary": "Amid concerns about AI models\u2019 cybersecurity capabilities, OpenAI revealed an improved version of GPT-5.5-Cyber and its \u201cPatch the Plant\u201d initiative to fix open-source software bugs.",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
-      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 22 Jun 2026 16:51:29 +0000",
-      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
-      "isAI": true
-    },
-    {
-      "title": "WhatsApp gets new chief as Meta taps India\u2019s CRED founder Kunal Shah, and invests $900M in startup",
-      "url": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
-      "source": "TechCrunch",
-      "published": "Mon, 22 Jun 2026 15:21:42 +0000",
-      "summary": "WhatsApp gets a new boss, as Will Cathcart moves to a new role at Meta, while Shah steps down as CEO of Indian fintech giant CRED to replace Cathcart.",
-      "isAI": true
-    },
-    {
-      "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
-      "url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 22 Jun 2026 14:00:00 +0000",
-      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
-      "isAI": true
-    },
-    {
-      "title": "How Anthropic may have talked itself into an AI export ban",
-      "url": "https://arstechnica.com/ai/2026/06/how-anthropic-may-have-talked-itself-into-an-ai-export-ban/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 22 Jun 2026 13:45:24 +0000",
-      "summary": "The company warned about dangers of advanced AI far more than rival OpenAI.",
-      "isAI": true
-    },
-    {
-      "title": "Pledging Another $400k to the Zig Software Foundation",
-      "url": "https://mitchellh.com/writing/zig-donation-2026",
-      "source": "Hacker News",
-      "published": "Mon, 22 Jun 2026 13:43:01 +0000",
-      "summary": "Article URL: https://mitchellh.com/writing/zig-donation-2026 Comments URL: https://news.ycombinator.com/item?id=48630020 Points: 490 # Comments: 150",
-      "isAI": true
-    },
-    {
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "source": "Hugging Face",
-      "published": "Mon, 22 Jun 2026 13:18:56 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Read this before you vibe-code another app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
-      "source": "The Verge AI",
-      "published": "2026-06-22T07:00:00-04:00",
-      "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL injection risk. It could've left the site [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "source": "OpenAI",
-      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "isAI": true
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI",
-      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "isAI": true
-    },
-    {
-      "title": "Some Electricians Think Building Data Centers Is for Sellouts",
-      "url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out/",
-      "source": "Wired",
-      "published": "Mon, 22 Jun 2026 09:30:00 +0000",
-      "summary": "Big Tech is throwing big money into data center buildouts. As national opposition to the facilities grows, some workers are beginning to question whether it\u2019s worth it.",
-      "isAI": true
-    },
-    {
-      "title": "Sakana Fugu",
-      "url": "https://sakana.ai/fugu/",
-      "source": "Hacker News",
-      "published": "Mon, 22 Jun 2026 02:08:18 +0000",
-      "summary": "Article URL: https://sakana.ai/fugu/ Comments URL: https://news.ycombinator.com/item?id=48624782 Points: 192 # Comments: 106",
-      "isAI": true
-    },
-    {
-      "title": "Codex-maxxing for long-running work",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "OpenAI",
-      "published": "Mon, 22 Jun 2026 00:00:00 GMT",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "isAI": true
-    },
-    {
-      "title": "We got local models to triage the OpenClaw repo for FREE!*",
-      "url": "https://huggingface.co/blog/local-models-pr-triage",
-      "source": "Hugging Face",
-      "published": "Mon, 22 Jun 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "OpenAI",
-      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI\u2019s largest enterprise AI rollouts.",
-      "isAI": true
-    },
-    {
-      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
-      "url": "https://apertvs.ai/",
-      "source": "Hacker News",
-      "published": "Sun, 21 Jun 2026 21:29:43 +0000",
-      "summary": "Article URL: https://apertvs.ai/ Comments URL: https://news.ycombinator.com/item?id=48622778 Points: 497 # Comments: 167",
-      "isAI": true
-    },
-    {
-      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
-      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 21 Jun 2026 15:28:17 +0000",
-      "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
-      "isAI": true
-    },
-    {
-      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 21 Jun 2026 14:40:28 +0000",
-      "summary": "Siri\u2019s AI overhaul may have grabbed the headlines at WWDC, but some of Apple\u2019s most useful AI features are arriving elsewhere in iOS 27.",
-      "isAI": true
-    },
-    {
-      "title": "How Roomba started a robot revolution",
-      "url": "https://www.theverge.com/podcast/953275/roomba-robot-vacuum-version-history",
-      "source": "The Verge",
-      "published": "2026-06-21T08:29:01-04:00",
-      "summary": "If you had a Roomba, especially in the early days of the robot vacuum, it was in many ways a fairly unsophisticated machine. It would just bump around your house, looking for something to suck up, until its battery died or its (way too small) tank filled up. Not that it mattered, though. You probably [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Electric air taxis are stuck in the courtroom",
-      "url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
-      "source": "The Verge",
-      "published": "2026-06-21T08:00:00-04:00",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on aviation, air taxis, and Wi-Fi speeds at 30,000 feet, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Last year, [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The Best NAS Devices for Your Home After Months of Testing",
-      "url": "https://www.wired.com/story/best-nas-devices/",
-      "source": "Wired",
-      "published": "Sun, 21 Jun 2026 10:30:00 +0000",
-      "summary": "Network-attached storage (NAS) provides accessible shared space on your home network. After testing, these are my favorite NAS devices.",
-      "isAI": false
-    },
-    {
-      "title": "Signal\u2019s Meredith Whittaker wants you to remember that AI chatbots \u2018are not your friends\u2019",
-      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 20 Jun 2026 20:32:29 +0000",
-      "summary": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.\u201d",
-      "isAI": true
-    },
-    {
-      "title": "In the Weights is your new AI-centric vanity search",
-      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 20 Jun 2026 19:41:11 +0000",
-      "summary": "So ... what's your In the Weights score?",
-      "isAI": true
-    },
-    {
-      "title": "The Atlantic created a searchable database of the music used to train AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
-      "source": "The Verge AI",
-      "published": "2026-06-20T14:46:48-04:00",
-      "summary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Founders Fund\u2019s outlier bet on humanely killed fish",
-      "url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
-      "source": "TechCrunch",
-      "published": "Sat, 20 Jun 2026 18:26:02 +0000",
-      "summary": "Shinkei makes a refrigerator-sized robot called Poseidon to kill fish quickly and humanely.",
-      "isAI": false
-    },
-    {
-      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
-      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 20 Jun 2026 16:39:57 +0000",
-      "summary": "Jumper isn't the only big name leaving Google DeepMind.",
-      "isAI": true
-    },
-    {
-      "title": "Every new iOS 27 feature that\u2019s worth knowing about",
-      "url": "https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/",
-      "source": "TechCrunch",
-      "published": "Sat, 20 Jun 2026 15:00:00 +0000",
-      "summary": "While it's not flashy like Apple\u2019s new Siri AI and Apple Intelligence upgrades, there are still a number of additions to iOS 27 worth looking at.",
-      "isAI": true
-    },
-    {
-      "title": "Loupe \u2013 A iOS app that raises awareness about what native apps can see",
-      "url": "https://github.com/mysk-research/loupe",
-      "source": "Hacker News",
-      "published": "Sat, 20 Jun 2026 12:08:23 +0000",
-      "summary": "Article URL: https://github.com/mysk-research/loupe Comments URL: https://news.ycombinator.com/item?id=48608645 Points: 393 # Comments: 157",
-      "isAI": false
-    },
-    {
-      "title": "Toy Story has the right take on tech",
-      "url": "https://www.theverge.com/tech/952547/toy-story-5-tech-android-17-snap-specs-installer",
-      "source": "The Verge",
-      "published": "2026-06-20T08:00:00-04:00",
-      "summary": "Hi, friends! Welcome to Installer No. 133, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy belated Juneteenth, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Sam Bankman-Fried and PE Guy and admin nights (which we [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The UK will scan asylum-seekers\u2019 faces for age checks\u2014despite knowing the tech is flawed",
-      "url": "https://arstechnica.com/tech-policy/2026/06/the-uk-will-scan-asylum-seekers-faces-for-age-checks-despite-knowing-the-tech-is-flawed/",
-      "source": "Ars Technica",
-      "published": "Sat, 20 Jun 2026 11:15:09 +0000",
-      "summary": "Tests of age-verification technology show the risks of life-altering errors.",
-      "isAI": false
-    },
-    {
-      "title": "Home Batteries: How They're Installed and How Much They Cost",
-      "url": "https://www.wired.com/story/how-to-buy-a-home-battery/",
-      "source": "Wired",
-      "published": "Sat, 20 Jun 2026 11:00:00 +0000",
-      "summary": "After adding one to my home, here's why you might want a home battery, how they work, and what to look for, plus some installation tips.",
-      "isAI": false
-    },
-    {
-      "title": "Siri AI Hands On: A Smart, Helpful Assistant",
-      "url": "https://www.wired.com/story/siri-ai-hands-on-iphone/",
-      "source": "Wired",
-      "published": "Sat, 20 Jun 2026 10:00:00 +0000",
-      "summary": "The new Siri AI is conversational, omnipresent, and actually helpful.",
-      "isAI": true
-    },
-    {
-      "title": "SwitchBot\u2019s Standing Circulator Fan is worth fighting for",
-      "url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review",
-      "source": "The Verge",
-      "published": "2026-06-20T03:00:00-04:00",
-      "summary": "I can't remember the last time I got excited about a fan. Normally, I just buy whatever Vornado or Dreo model fits my budget, but that was before I started testing the battery-powered Standing Circulator Fan from SwitchBot. As the name indicates, the SwitchBot fan is a 3D circulator - a fancy way of saying [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "From PGP to Mythos: a brief history of export controls that didn\u2019t stop anyone",
-      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 19 Jun 2026 22:40:14 +0000",
-      "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic\u2019s cybersecurity model Mythos.",
-      "isAI": true
-    },
-    {
-      "title": "Go eyes robotaxis and acquisitions after Japan\u2019s biggest IPO of 2026. Here\u2019s why it matters",
-      "url": "https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/",
-      "source": "TechCrunch",
-      "published": "Fri, 19 Jun 2026 21:45:00 +0000",
-      "summary": "Go\u2019s IPO \u2014 Japan\u2019s biggest so far this year \u2014 has done more than provide a much-needed boost to the country\u2019s languishing listing season. It has also supplied the taxi-hailing app with the capital required to address an existential issue: Japan\u2019s shortage of drivers. Go, which went public Tuesday, plans to use the \u00a588.6 billion [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Aura\u2019s impressive e-ink photo frame doesn\u2019t even look digital",
-      "url": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
-      "source": "TechCrunch",
-      "published": "Fri, 19 Jun 2026 21:00:34 +0000",
-      "summary": "All of Aura's frames connect to the Aura app, which is where you can upload photos from your phone, web, email, iCloud, or Google Photos.",
-      "isAI": false
-    },
-    {
-      "title": "Every fusion startup that has raised over $100M",
-      "url": "https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/",
-      "source": "TechCrunch",
-      "published": "Fri, 19 Jun 2026 16:50:58 +0000",
-      "summary": "Fusion startups have raised $7.1 billion to date, with the majority of it going to a handful of companies.",
-      "isAI": true
     }
   ]
 }
