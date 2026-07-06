@@ -1,6 +1,142 @@
 {
-  "updated": "2026-07-05T14:15:52.962593+00:00",
+  "updated": "2026-07-06T15:58:57.236777+00:00",
   "items": [
+    {
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "source": "Hugging Face",
+      "published": "Tue, 07 Jul 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 06 Jul 2026 15:32:43 +0000",
+      "summary": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday \u2014 the latest in a series of layoffs that\u2019s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+      "isAI": true
+    },
+    {
+      "title": "PRX Part 4: Our Data Strategy",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "source": "Hugging Face",
+      "published": "Mon, 06 Jul 2026 15:30:55 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "source": "TechCrunch",
+      "published": "Mon, 06 Jul 2026 15:22:08 +0000",
+      "summary": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+      "isAI": true
+    },
+    {
+      "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
+      "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 06 Jul 2026 14:17:42 +0000",
+      "summary": "FCA official makes case for greater powers for watchdog as millions use technology for personal finance decisions.",
+      "isAI": true
+    },
+    {
+      "title": "Nintendo will stop selling the original Switch in Europe next year",
+      "url": "https://www.theverge.com/games/961632/nintendo-switch-europe-discontinued",
+      "source": "The Verge",
+      "published": "2026-07-06T10:15:48-04:00",
+      "summary": "Nintendo is making a new version of the Switch 2 with a replaceable battery in Europe - but its predecessor has a very different future. As part of an updated FAQ about revisions to Nintendo hardware in Europe, the company confirmed that it will stop selling all iterations of the original Switch on the continent [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Microsoft is laying off 4,800 employees",
+      "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+      "source": "The Verge AI",
+      "published": "2026-07-06T09:30:00-04:00",
+      "summary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's commercial sales business or the company's Xbox division. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Station F ramps up as a launchpad for Europe\u2019s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 06 Jul 2026 13:00:00 +0000",
+      "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "isAI": true
+    },
+    {
+      "title": "Bentley teases its first EV, the Torcal",
+      "url": "https://arstechnica.com/cars/2026/07/bentley-teases-its-first-ev-the-torcal/",
+      "source": "Ars Technica",
+      "published": "Mon, 06 Jul 2026 11:30:38 +0000",
+      "summary": "The new model will be officially unveiled in late September.",
+      "isAI": false
+    },
+    {
+      "title": "Bentley Torcal EV: Price, Specs, Availability",
+      "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/",
+      "source": "Wired",
+      "published": "Mon, 06 Jul 2026 11:30:00 +0000",
+      "summary": "The 300-mile Torcal arrives in September, but considering what\u2019s come before with Ferrari, Porsche, and Mercedes, has the company timed its EV entry right?",
+      "isAI": false
+    },
+    {
+      "title": "Real-time map of Great Britain's rail network",
+      "url": "https://www.map.signalbox.io",
+      "source": "Hacker News",
+      "published": "Mon, 06 Jul 2026 09:38:36 +0000",
+      "summary": "Article URL: https://www.map.signalbox.io Comments URL: https://news.ycombinator.com/item?id=48802535 Points: 293 # Comments: 111",
+      "isAI": false
+    },
+    {
+      "title": "How Palestinians Are Building a Digital Archive That Can\u2019t Be Erased",
+      "url": "https://www.wired.com/story/how-palestinians-are-building-a-digital-archive-that-cant-be-erased/",
+      "source": "Wired",
+      "published": "Mon, 06 Jul 2026 09:00:00 +0000",
+      "summary": "Distributed backups, cyber resilience, and a half-million records are preserving Palestinian history beyond any single building or border.",
+      "isAI": false
+    },
+    {
+      "title": "This humanoid robotics company is going public, but its CEO isn\u2019t promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "source": "TechCrunch",
+      "published": "Mon, 06 Jul 2026 06:05:29 +0000",
+      "summary": "While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution \u2014 and a SPAC.",
+      "isAI": false
+    },
+    {
+      "title": "\ud83e\udd17 Kernels: Major Updates",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "source": "Hugging Face",
+      "published": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Some of the nation\u2019s rich are letting AI teach their kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "source": "The Verge AI",
+      "published": "2026-07-05T18:30:54-04:00",
+      "summary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 05 Jul 2026 17:43:36 +0000",
+      "summary": "These may be the last days of Amazon\u2019s Mechanical Turk.",
+      "isAI": true
+    },
+    {
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "source": "The Verge AI",
+      "published": "2026-07-05T10:23:11-04:00",
+      "summary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Vizio accidentally made the best dumb TV on the market",
       "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
@@ -1863,142 +1999,6 @@
       "source": "Hacker News",
       "published": "Thu, 25 Jun 2026 16:04:46 +0000",
       "summary": "Hi HN, Nick here. We\u2019re launching OpenKnowledge (https://openknowledge.ai/), a \u201cwhat you see is what you get\u201d markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.We built this because we wanted a Notion-like experience for writing and sharing markdown files across our team. Obsidian is the best\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Our latest Google Finance upgrades, including a new app",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "source": "Google AI",
-      "published": "Thu, 25 Jun 2026 16:00:00 +0000",
-      "summary": "The Google Finance logo, surrounded by elements of the user interface",
-      "isAI": true
-    },
-    {
-      "title": "Google Finance gets a dedicated app for Android",
-      "url": "https://techcrunch.com/2026/06/25/google-finance-gets-a-dedicated-app-for-android/",
-      "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 16:00:00 +0000",
-      "summary": "Users will be able to access their watchlists, real-time market data, live financial news, and Google's AI-powered \"Key Moments\" feature, which explains why stocks moved.",
-      "isAI": true
-    },
-    {
-      "title": "IBM debuts sub-1 nanometer chip technology",
-      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "source": "Hacker News",
-      "published": "Thu, 25 Jun 2026 15:33:37 +0000",
-      "summary": "Article URL: https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology Comments URL: https://news.ycombinator.com/item?id=48674967 Points: 355 # Comments: 191",
-      "isAI": true
-    },
-    {
-      "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
-      "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 25 Jun 2026 14:55:38 +0000",
-      "summary": "Netris provides software that runs on network switches, and offers a platform that helps neocloud operators reduce the time it takes to go live.",
-      "isAI": true
-    },
-    {
-      "title": "Repositioning retail for the AI era",
-      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 25 Jun 2026 14:22:59 +0000",
-      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and\u2026",
-      "isAI": true
-    },
-    {
-      "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
-      "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 25 Jun 2026 14:00:00 +0000",
-      "summary": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
-      "isAI": true
-    },
-    {
-      "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
-      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 25 Jun 2026 13:30:00 +0000",
-      "summary": "Adobe said that it will integrate Topaz Labs' tools across its apps.",
-      "isAI": true
-    },
-    {
-      "title": "Apple and Audi Alumni Have Made a Luxe EV Based on the Moon Buggy",
-      "url": "https://www.wired.com/story/amble-one-luxe-ev-buggy/",
-      "source": "Wired",
-      "published": "Thu, 25 Jun 2026 13:00:00 +0000",
-      "summary": "The Amble One is a street-legal $25,000 electric buggy designed for luxury resorts\u2014but a car is also coming.",
-      "isAI": false
-    },
-    {
-      "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 25 Jun 2026 12:00:38 +0000",
-      "summary": "Amazon\u2019s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
-      "isAI": true
-    },
-    {
-      "title": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
-      "url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
-      "source": "The Verge AI",
-      "published": "2026-06-25T08:00:00-04:00",
-      "summary": "To celebrate its new status as No. 1 in JD Power's initial quality ranking among mainstream automakers, Ford is opening up about the challenges it has faced in recent years, especially around its reliance on automated systems in production and design. It turns out that those automated systems were not as robust as previously assumed, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The 124 best tech deals for day three of Prime Day",
-      "url": "https://www.theverge.com/gadgets/956199/best-prime-day-2026-deals-tech-electronics-sale-day-three",
-      "source": "The Verge",
-      "published": "2026-06-25T06:40:00-04:00",
-      "summary": "It\u2019s day three of Prime Day, folks. We\u2019re nearly 75 percent of the way through Amazon\u2019s four-day sales event, and unsurprisingly, many deals are still sticking around. There have been all kinds of discounts on things like TVs, smart home gadgets, chargers, headphones, and more. Prime Day typically isn\u2019t as big of a deal as [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "IBM claims world\u2019s first sub-1 nanometer chip technology",
-      "url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 25 Jun 2026 10:00:55 +0000",
-      "summary": "IBM\u2019s nanostack transistors could boost chip performance or energy efficiency.",
-      "isAI": true
-    },
-    {
-      "title": "Facebook\u2019s Creator Studio has been revived as an AI companion app",
-      "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
-      "source": "The Verge AI",
-      "published": "2026-06-25T05:06:19-04:00",
-      "summary": "Meta is bringing back the Facebook Creator Studio page manager, now \"reimagined\" as a standalone AI companion app. The new app aims to make it easier for creators to connect with their audiences and show them \"exactly how to grow on Facebook,\" according to Meta's announcement. Meta's AI Creator Assistant is a central focus of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Wikipedia Workers in Britain set global first by seeking union recognition",
-      "url": "https://utaw.tech/news/wikipedia-recognition",
-      "source": "Hacker News",
-      "published": "Thu, 25 Jun 2026 07:02:37 +0000",
-      "summary": "Article URL: https://utaw.tech/news/wikipedia-recognition Comments URL: https://news.ycombinator.com/item?id=48669932 Points: 168 # Comments: 159",
-      "isAI": false
-    },
-    {
-      "title": "Half-Life 2 in a Browser",
-      "url": "https://hl2.slqnt.dev/",
-      "source": "Hacker News",
-      "published": "Thu, 25 Jun 2026 06:00:04 +0000",
-      "summary": "Article URL: https://hl2.slqnt.dev/ Comments URL: https://news.ycombinator.com/item?id=48669534 Points: 477 # Comments: 196",
-      "isAI": false
-    },
-    {
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "OpenAI",
-      "published": "Thu, 25 Jun 2026 02:00:00 GMT",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "isAI": true
-    },
-    {
-      "title": "Europe is pushing back on Washington\u2019s chip war",
-      "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 25 Jun 2026 00:08:36 +0000",
-      "summary": "As ASML CEO Christophe Fouquet told TechCrunch in May, what China can currently buy are older-generation deep ultraviolet tools \u2014 gear first shipped about a decade ago \u2014 the same machines the MATCH Act would now put off-limits.",
       "isAI": true
     }
   ]
