@@ -1,6 +1,326 @@
 {
-  "updated": "2026-07-09T15:40:17.857837+00:00",
+  "updated": "2026-07-10T15:10:20.495083+00:00",
   "items": [
+    {
+      "title": "Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits",
+      "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 15:00:09 +0000",
+      "summary": "The new startup raised $300 million co-led by ARCH Venture Partners, Spark Capital, and Khosla Ventures.",
+      "isAI": true
+    },
+    {
+      "title": "I spent a week using the Trump phone \u2014 it sucks",
+      "url": "https://www.theverge.com/tech/963382/trump-mobile-t1-phone-review",
+      "source": "The Verge",
+      "published": "2026-07-10T10:19:59-04:00",
+      "summary": "The Trump phone was never a serious phone. Not when it was announced last June, in dodgy renders and with an incoherent spec sheet. Nor when Trump Mobile admitted - just two weeks later - that it wouldn't be made in the US. Not even when the company revealed the final phone, first to me [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "EU threatens Meta with fines over addictive features on Facebook and Instagram",
+      "url": "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 14:19:40 +0000",
+      "summary": "The tech giant is in breach of the Digital Services Act by focusing on features like infinite scroll, autoplay, push notifications, and the highly personalized recommendation algorithms, the European Commission said.",
+      "isAI": false
+    },
+    {
+      "title": "Instagram\u2019s Adam Mosseri: If you don\u2019t like AI, \u2018then you shouldn\u2019t have it in your feed\u2019",
+      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+      "source": "The Verge AI",
+      "published": "2026-07-10T09:45:02-04:00",
+      "summary": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out AI content,\" Mosseri said during an interview on Lenny Rachitsky's podcast. \"I think we should let you know [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Would you host part of an AI data center in your home?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
+      "source": "The Verge AI",
+      "published": "2026-07-10T09:20:25-04:00",
+      "summary": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is launching a pilot program for a new \"distributed AI compute\" program that will \"place numerous compute nodes in homes [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Doom\u2019s new expansion shows just what makes id Software special",
+      "url": "https://www.theverge.com/games/963515/doom-the-dark-ages-revelations-review",
+      "source": "The Verge",
+      "published": "2026-07-10T08:00:00-04:00",
+      "summary": "This week should have been a celebration for Doom developer id Software. The studio just launched Revelations, a meaty expansion for Doom: The Dark Ages that adds a powerful new weapon and more demonic levels to blast through. Even though I hadn't picked up The Dark Ages for more than a year, it only took [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Polestar owners left \u2018holding the bag\u2019 after EV brand pulls out of the US",
+      "url": "https://www.theverge.com/transportation/963399/polestar-owners-ban-dealers-service-warranty-lease",
+      "source": "The Verge",
+      "published": "2026-07-10T07:00:00-04:00",
+      "summary": "Last month, Polestar shocked the auto industry when it announced that it was pulling out of the US. The EV company's decision came after the federal government denied its authorization to continue selling its cars despite a rule banning vehicles with Chinese-made connected vehicle software. Polestar, which is headquartered in Sweden but majority owned by [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
+      "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
+      "source": "Wired",
+      "published": "Fri, 10 Jul 2026 10:30:00 +0000",
+      "summary": "Billed as the \u201cworld\u2019s first museum of AI arts,\u201d Dataland uses wearables and troves of material from the Amazon to merge nature, biometrics, and art.",
+      "isAI": true
+    },
+    {
+      "title": "AI-generated videos to maximally drive a target brain region",
+      "url": "https://nevo-project.epfl.ch/",
+      "source": "Hacker News",
+      "published": "Fri, 10 Jul 2026 07:39:11 +0000",
+      "summary": "Article URL: https://nevo-project.epfl.ch/ Comments URL: https://news.ycombinator.com/item?id=48856904 Points: 157 # Comments: 167",
+      "isAI": true
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "source": "OpenAI",
+      "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "isAI": true
+    },
+    {
+      "title": "Robot Dogs, Teslas, and Rescue Helicopters: The UN AI Summit Was a Lot",
+      "url": "https://www.wired.com/story/robot-dogs-teslas-and-rescue-helicopters-the-un-ai-summit-was-alot/",
+      "source": "Wired",
+      "published": "Fri, 10 Jul 2026 06:00:00 +0000",
+      "summary": "Amid live coding sessions and Silicon Valley optimism, the UN\u2019s AI for Good summit wrestled with an urgent question: Can global governance catch up before the technology races beyond its control?",
+      "isAI": true
+    },
+    {
+      "title": "After Apple, India\u2019s smartphone manufacturing boom enters new phase with Vivo JV",
+      "url": "https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 04:36:20 +0000",
+      "summary": "Vivo's joint venture could become a template for Chinese smartphone makers in India.",
+      "isAI": false
+    },
+    {
+      "title": "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 10 Jul 2026 00:16:54 +0000",
+      "summary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft\u2019s carbon emissions went up 25 percent last year",
+      "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+      "source": "The Verge AI",
+      "published": "2026-07-09T20:04:13-04:00",
+      "summary": "Microsoft may once again be struggling to keep up with its own climate goals, according to its 2026 sustainability report. As reported by GeekWire, the report states that Microsoft's carbon emissions increased 25 percent in 2025, totalling 34 million metric tons \"without select interventions.\" Microsoft says this was \"driven primarily by the expansion of our [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "source": "Hugging Face",
+      "published": "Fri, 10 Jul 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Fidji Simo steps down from OpenAI\u2019s No. 2 role",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 23:38:00 +0000",
+      "summary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected \u2014 a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
+      "isAI": true
+    },
+    {
+      "title": "Fidji Simo steps down from leading OpenAI\u2019s AGI work due to illness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+      "source": "The Verge AI",
+      "published": "2026-07-09T19:24:04-04:00",
+      "summary": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune condition, shortly after she had taken on the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 22:24:24 +0000",
+      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "isAI": true
+    },
+    {
+      "title": "An AI agent startup just let its agent run its $100M fundraise",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 22:08:58 +0000",
+      "summary": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round \u2014 proof, evidently, that the product actually works.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 22:03:54 +0000",
+      "summary": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
+      "isAI": true
+    },
+    {
+      "title": "Elon Musk praises Mythos/Fable, promises not to \u2018cut off\u2019 Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 21:57:42 +0000",
+      "summary": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+      "isAI": true
+    },
+    {
+      "title": "Can AI answer the $3 trillion question?",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 21:47:50 +0000",
+      "summary": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI wants its new tool to do your work for you and with you",
+      "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 09 Jul 2026 21:25:55 +0000",
+      "summary": "Rebranded Codex promises independent workflows that can run \"for hours if needed.\"",
+      "isAI": true
+    },
+    {
+      "title": "The ChatGPT browser is already dead",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "source": "The Verge AI",
+      "published": "2026-07-09T16:34:05-04:00",
+      "summary": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is targeting an [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 09 Jul 2026 20:22:28 +0000",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what\u2019s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
+      "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 09 Jul 2026 20:12:03 +0000",
+      "summary": "Preclinical trial is testing the feasibility of humanoid robots in surgery.",
+      "isAI": true
+    },
+    {
+      "title": "Google will now tell you if an ad was made with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+      "source": "The Verge AI",
+      "published": "2026-07-09T16:11:38-04:00",
+      "summary": "You can see if ads on Google Search, Google Discover, and YouTube were made or edited using AI from a new section in Google's \"My Ad Center,\" as reported earlier by TechCrunch. The update, announced on Thursday, adds a \"created or edited with AI\" label under the \"how this ad was made\" tab. Users can [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 19:40:45 +0000",
+      "summary": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations \u2014 the kind of automation that enterprises are increasingly turning to AI companies to provide.",
+      "isAI": true
+    },
+    {
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 19:05:58 +0000",
+      "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 09 Jul 2026 18:57:53 +0000",
+      "summary": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.",
+      "isAI": true
+    },
+    {
+      "title": "Google will now disclose which ads are made with AI",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 18:40:51 +0000",
+      "summary": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
+      "isAI": true
+    },
+    {
+      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 18:34:35 +0000",
+      "summary": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
+      "isAI": true
+    },
+    {
+      "title": "How did the government decide OpenAI\u2019s frontier model was safe to release?",
+      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 18:22:39 +0000",
+      "summary": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+      "isAI": true
+    },
+    {
+      "title": "Instagram users: Here\u2019s how to stop Meta\u2019s AI from using your photos",
+      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 17:56:47 +0000",
+      "summary": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation.",
+      "isAI": true
+    },
+    {
+      "title": "Meta\u2019s new AI chips will begin production in September",
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 17:17:37 +0000",
+      "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
+      "isAI": true
+    },
+    {
+      "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "source": "Hacker News",
+      "published": "Thu, 09 Jul 2026 17:17:16 +0000",
+      "summary": "Article URL: https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/ Comments URL: https://news.ycombinator.com/item?id=48849292 Points: 310 # Comments: 161",
+      "isAI": false
+    },
+    {
+      "title": "Nvidia is a victim of the compute marketplace it created",
+      "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 09 Jul 2026 17:06:11 +0000",
+      "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in \u2014 while simpler technologies and less interesting companies get rich on the sidelines.",
+      "isAI": true
+    },
+    {
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "source": "Hacker News",
+      "published": "Thu, 09 Jul 2026 17:04:14 +0000",
+      "summary": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdfhttps://developers.openai.com/api/docs/guides/latest-modelhttps://x.com/levie/status/2075287443411222628, https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 1435 # Comments: 1009",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft\u2019s patch Tuesdays are about to get bigger",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "source": "The Verge AI",
+      "published": "2026-07-09T13:00:00-04:00",
+      "summary": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security release.\" Hackers, even amateurs, have increasingly been using AI [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight \u2014 and announces \u2018ChatGPT Work\u2019",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "source": "The Verge AI",
+      "published": "2026-07-09T13:00:00-04:00",
+      "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Block reaches $45M settlement with 46 states over Cash App fraud probe",
       "url": "https://techcrunch.com/2026/07/09/block-reaches-45m-settlement-with-46-states-over-cash-app-fraud-probe/",
@@ -90,6 +410,14 @@
       "isAI": true
     },
     {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "OpenAI",
+      "published": "Thu, 09 Jul 2026 13:00:00 GMT",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "isAI": true
+    },
+    {
       "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
       "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
       "source": "TechCrunch AI",
@@ -127,6 +455,30 @@
       "source": "Wired",
       "published": "Thu, 09 Jul 2026 10:01:30 +0000",
       "summary": "A single wording mistake cost the government millions. Now Estonia is using AI to spot legal errors before they become law\u2014and to automate more of the state.",
+      "isAI": true
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "OpenAI",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "isAI": true
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "OpenAI",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "isAI": true
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "source": "OpenAI",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT",
+      "summary": "Details about the OpenAI Bio Bounty program",
       "isAI": true
     },
     {
@@ -962,6 +1314,14 @@
       "isAI": false
     },
     {
+      "title": "Train sim created by just one person is being called the best ever made",
+      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+      "source": "Hacker News",
+      "published": "Sun, 05 Jul 2026 08:40:27 +0000",
+      "summary": "https://store.steampowered.com/app/4630570/RUNNING_TRAIN/ Comments URL: https://news.ycombinator.com/item?id=48792383 Points: 743 # Comments: 300",
+      "isAI": false
+    },
+    {
       "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
       "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
       "source": "TechCrunch AI",
@@ -1639,366 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Wed, 01 Jul 2026 03:15:37 +0000",
       "summary": "Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google's chief internet evangelist next week.",
-      "isAI": true
-    },
-    {
-      "title": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
-      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 02:16:06 +0000",
-      "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
-      "isAI": true
-    },
-    {
-      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
-      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 02:04:40 +0000",
-      "summary": "Wayve\u2019s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic\u2019s long-sidelined Fable 5 is greenlit to return",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "source": "The Verge AI",
-      "published": "2026-06-30T20:03:55-04:00",
-      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "source": "Hugging Face",
-      "published": "Wed, 01 Jul 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Startup Battlefield Australia application closes in days: Apply before July 6",
-      "url": "https://techcrunch.com/2026/06/30/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6/",
-      "source": "TechCrunch",
-      "published": "Tue, 30 Jun 2026 23:00:00 +0000",
-      "summary": "What if one pitch changed everything? The next company nobody has heard of yet is building something that will matter. It could be yours.",
-      "isAI": true
-    },
-    {
-      "title": "OpenClaw is finally available on Android and iOS",
-      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 21:53:28 +0000",
-      "summary": "The free open source agentic program is finally invading your phone.",
-      "isAI": true
-    },
-    {
-      "title": "Claude Science is Anthropic\u2019s newest flagship product",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 30 Jun 2026 21:50:04 +0000",
-      "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously carry out meaningful work when given concise, high-level instructions, and it has access\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Leanstral 1.5",
-      "url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
-      "source": "Hacker News",
-      "published": "Tue, 30 Jun 2026 20:44:56 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06 Comments URL: https://news.ycombinator.com/item?id=48738938 Points: 282 # Comments: 121",
-      "isAI": true
-    },
-    {
-      "title": "Google kills Tenor GIF API, forcing changes at X, Discord, and more",
-      "url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
-      "source": "Ars Technica",
-      "published": "Tue, 30 Jun 2026 20:38:51 +0000",
-      "summary": "Tenor still connects to Google apps, but other platforms must look elsewhere for GIFs.",
-      "isAI": false
-    },
-    {
-      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
-      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 20:33:48 +0000",
-      "summary": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.",
-      "isAI": true
-    },
-    {
-      "title": "Apple takes Epic fight over app store fees to the Supreme Court",
-      "url": "https://arstechnica.com/tech-policy/2026/06/apple-takes-epic-fight-over-app-store-fees-to-the-supreme-court/",
-      "source": "Ars Technica",
-      "published": "Tue, 30 Jun 2026 20:20:29 +0000",
-      "summary": "Supreme Court will weigh if Apple contempt finding in Epic case is \u201cerroneous.\u201d",
-      "isAI": false
-    },
-    {
-      "title": "New attack provides one more reason why AI browsers are a bad idea",
-      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 30 Jun 2026 20:03:14 +0000",
-      "summary": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s NotebookLM can sum up your research in a TikTok-style clip",
-      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
-      "source": "The Verge AI",
-      "published": "2026-06-30T15:24:51-04:00",
-      "summary": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sources you upload to the app. The example shared by Google details Australia's unsuccessful war [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
-      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 19:02:38 +0000",
-      "summary": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
-      "isAI": true
-    },
-    {
-      "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet",
-      "url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 30 Jun 2026 18:36:10 +0000",
-      "summary": "They may not look as good, but Nano Banana 2 Lite images only take a few seconds to create.",
-      "isAI": true
-    },
-    {
-      "title": "Clicks shows off its BlackBerry-inspired phone in a new hands-on video",
-      "url": "https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/",
-      "source": "TechCrunch",
-      "published": "Tue, 30 Jun 2026 18:34:22 +0000",
-      "summary": "A new video shows the final production version of the upcoming Clicks Communicator, a BlackBerry-like smartphone that runs modern apps.",
-      "isAI": false
-    },
-    {
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "Hugging Face",
-      "published": "Tue, 30 Jun 2026 18:32:50 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
-      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 18:13:02 +0000",
-      "summary": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 18:00:00 +0000",
-      "summary": "Anthropic\u2019s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
-      "isAI": true
-    },
-    {
-      "title": "Acti puts AI agents directly into your smartphone keyboard",
-      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 17:52:46 +0000",
-      "summary": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic\u2019s Claude Science bets on workflow, not a new model, to win over scientists",
-      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 17:00:00 +0000",
-      "summary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "isAI": true
-    },
-    {
-      "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors",
-      "url": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 30 Jun 2026 16:59:02 +0000",
-      "summary": "A year in, National Design Studio delays plan to update government web standards.",
-      "isAI": true
-    },
-    {
-      "title": "The US going 100% EV by 2040 would save more than 100k lives, study says",
-      "url": "https://arstechnica.com/cars/2026/06/the-us-going-100-ev-by-2040-would-save-more-than-100k-lives-study-says/",
-      "source": "Ars Technica",
-      "published": "Tue, 30 Jun 2026 16:03:44 +0000",
-      "summary": "Much of it comes from heavy-duty trucks and buses that burn diesel.",
-      "isAI": false
-    },
-    {
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "source": "Google DeepMind",
-      "published": "Tue, 30 Jun 2026 16:02:40 +0000",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Trump asked Musk for SpaceX stock to seed US kids\u2019 savings accounts, report says",
-      "url": "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 30 Jun 2026 15:38:08 +0000",
-      "summary": "Sources suggest Musk may be mulling big donation to Trump Accounts.",
-      "isAI": true
-    },
-    {
-      "title": "Libby will filter out AI content, kind of",
-      "url": "https://www.theverge.com/column/959433/libby-ai-filter",
-      "source": "The Verge AI",
-      "published": "2026-06-30T11:30:00-04:00",
-      "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the new CEO of OverDrive last week. OverDrive is best known for the ebook lending app [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "X now offers an MCP server to make its platform easier for AI tools to use",
-      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 15:08:42 +0000",
-      "summary": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company\u2019s API.",
-      "isAI": true
-    },
-    {
-      "title": "Arcturus could halve the grid\u2019s electrical losses using its nano-infused copper",
-      "url": "https://techcrunch.com/2026/06/30/arcturus-could-halve-the-grids-electrical-losses-using-its-nano-infused-copper/",
-      "source": "TechCrunch",
-      "published": "Tue, 30 Jun 2026 15:01:42 +0000",
-      "summary": "Stealthy startup Arcturus uses lasers to infuse carbon nanomaterials into copper, dramatically improving its ability to conduct electricity.",
-      "isAI": true
-    },
-    {
-      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
-      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 15:00:00 +0000",
-      "summary": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
-      "isAI": true
-    },
-    {
-      "title": "Podcasting platform Riverside enters the newsletter publishing game",
-      "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 15:00:00 +0000",
-      "summary": "Users will be able use AI to create newsletters based on their recordings.",
-      "isAI": true
-    },
-    {
-      "title": "Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "source": "Hugging Face",
-      "published": "Tue, 30 Jun 2026 14:39:11 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Lumo, Proton\u2019s privacy-focused AI chatbot, gets an upgrade",
-      "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 14:00:00 +0000",
-      "summary": "Proton's Lumo 2.0 is dropping this week, giving users a broader variety of capabilities.",
-      "isAI": true
-    },
-    {
-      "title": "iPhone 18 Pro \u2018drop test\u2019 leaks get yanked from X",
-      "url": "https://www.theverge.com/tech/959474/iphone-18-pro-leaked-videos-pulled",
-      "source": "The Verge",
-      "published": "2026-06-30T09:57:41-04:00",
-      "summary": "Videos purporting to show the iPhone 18 Pro undergoing a drop test were removed from X shortly after they surfaced, as spotted earlier by MacRumors. An account imitating leaker EvLeaks was suspended from X after sharing the clips, while the post was removed as well, with X saying it \"violated\" the platform's rules. Another leaker, [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Meet the lawyer who beat Elon Musk \u2014 twice",
-      "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
-      "source": "The Verge AI",
-      "published": "2026-06-30T08:00:00-04:00",
-      "summary": "Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead of seeing a therapist about his AI failures - was a bit like watching a toddler have a temper tantrum at his nursery school teacher. Savitt's questions were \"designed to trick me,\" [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Agriculture is ready for AI, but its data isn\u2019t",
-      "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 30 Jun 2026 12:00:00 +0000",
-      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Bernie Sanders Saw This Coming",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders/",
-      "source": "Wired",
-      "published": "Tue, 30 Jun 2026 10:30:00 +0000",
-      "summary": "For decades, the senator has argued that concentrated wealth threatened American democracy. Now he\u2019s betting that frustration with Big Tech, billionaires, and unchecked AI is reaching a tipping point.",
-      "isAI": true
-    },
-    {
-      "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
-      "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 09:00:00 +0000",
-      "summary": "OKX is bringing together payments, identity, and reputation into a marketplace for AI agents.",
-      "isAI": true
-    },
-    {
-      "title": "How ChatGPT adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "OpenAI",
-      "published": "Tue, 30 Jun 2026 09:00:00 GMT",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "isAI": true
-    },
-    {
-      "title": "Unlocking Britain\u2019s next era of productivity: Building a nation of AI trailblazers",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "source": "Google AI",
-      "published": "Tue, 30 Jun 2026 06:00:00 +0000",
-      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.",
-      "isAI": true
-    },
-    {
-      "title": "The AI jobs debate just got messier",
-      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 04:01:00 +0000",
-      "summary": "A new report finds \"high-intensity AI adopters\u201d saw headcount increase 10.2%. Among those companies, entry-level headcount rose by 12%, countering the rhetoric that AI kills junior jobs.",
-      "isAI": true
-    },
-    {
-      "title": "Vibe-coding platform Base44 launches own model as AI startups seek defensibility",
-      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 30 Jun 2026 02:28:41 +0000",
-      "summary": "Wix-owned vibe-coding platform Base44 has started rolling out its own AI model \u2014 with hopes that it will eventually outperform frontier models.",
-      "isAI": true
-    },
-    {
-      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-      "url": "https://huggingface.co/blog/eee-community-evals",
-      "source": "Hugging Face",
-      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Introducing GeneBench-Pro",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "source": "OpenAI",
-      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "isAI": true
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "source": "OpenAI",
-      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "isAI": true
-    },
-    {
-      "title": "Inside Genebench-Pro",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "source": "OpenAI",
-      "published": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "summary": "",
       "isAI": true
     }
   ]
