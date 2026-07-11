@@ -1,6 +1,182 @@
 {
-  "updated": "2026-07-10T15:10:20.495083+00:00",
+  "updated": "2026-07-11T14:00:01.156691+00:00",
   "items": [
+    {
+      "title": "Beatbot AquaSense X Review: A Pool Robot That Cleans Itself",
+      "url": "https://www.wired.com/review/beatbot-aquasense-x/",
+      "source": "Wired",
+      "published": "Sat, 11 Jul 2026 11:02:00 +0000",
+      "summary": "The AquaSense X brings self-cleaning technology to pool robots for the first time, but is it worth nearly twice the price of Beatbot\u2019s flagship cleaner?",
+      "isAI": false
+    },
+    {
+      "title": "Samsung Micro RGB R95H Review (2026): Not the Brightest",
+      "url": "https://www.wired.com/review/samsung-micro-rgb-r95h/",
+      "source": "Wired",
+      "published": "Sat, 11 Jul 2026 10:31:00 +0000",
+      "summary": "There\u2019s a new fleet of TVs using new mini and micro RBG display tech, and Samsung\u2019s R95H model isn\u2019t as impressive as it should be.",
+      "isAI": false
+    },
+    {
+      "title": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
+      "url": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/",
+      "source": "Wired",
+      "published": "Sat, 11 Jul 2026 10:30:00 +0000",
+      "summary": "Plus: The Pentagon is training amateurs to become part of its hacker army, a Flock license plate reader error led to cops surrounding a car reviewer, and more.",
+      "isAI": true
+    },
+    {
+      "title": "US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals",
+      "url": "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/",
+      "source": "TechCrunch",
+      "published": "Sat, 11 Jul 2026 01:01:28 +0000",
+      "summary": "Independent cybersecurity journalist Brian Krebs reported in May that a security researcher with cyber firm GitGuardian alerted him to reams of exposed passwords stored in a publicly accessible GitHub repository, which an employee of a CISA contractor had uploaded.",
+      "isAI": true
+    },
+    {
+      "title": "Phia accused of \u2018cookie stuffing,\u2019 taking affiliate credit on purchases it didn\u2019t earn",
+      "url": "https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/",
+      "source": "TechCrunch",
+      "published": "Sat, 11 Jul 2026 00:29:25 +0000",
+      "summary": "Phia, the shopping startup founded by Bill Gates\u2019 daughter, Phoebe, and her friend Sophia Kianni is under fire for a practice known as \u201ccookie stuffing,\u201d which helped the product receive commissions and credit for sales it did not actually generate, per a Bloomberg investigation.",
+      "isAI": true
+    },
+    {
+      "title": "Meta removes controversial AI feature on Instagram after backlash",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 10 Jul 2026 23:55:07 +0000",
+      "summary": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
+      "isAI": true
+    },
+    {
+      "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "source": "The Verge AI",
+      "published": "2026-07-10T19:49:50-04:00",
+      "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Quantum error correction can constantly recalibrate a processor",
+      "url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
+      "source": "Ars Technica",
+      "published": "Fri, 10 Jul 2026 23:02:30 +0000",
+      "summary": "Reinforcement learning uses error information to adjust control algorithms.",
+      "isAI": false
+    },
+    {
+      "title": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
+      "url": "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab",
+      "source": "The Verge",
+      "published": "2026-07-10T18:35:18-04:00",
+      "summary": "Last year, we told you about Xtra, the company that lets DJI sneak its popular cameras into the US, and Skyrover, a brand seemingly selling DJI drones in disguise. They're just two of the many firms DJI is suspected of starting to skirt the United States' foreign drone ban. But it appears the FCC is [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Bluesky\u2019s interim CEO, Toni Schneider, drops the \u2018interim\u2019",
+      "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 21:51:55 +0000",
+      "summary": "Schneider, who formerly served as the CEO of Automattic and is a partner at True Ventures, says he is \"all in\" on the unconventional social media platform.",
+      "isAI": false
+    },
+    {
+      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
+      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "source": "The Verge AI",
+      "published": "2026-07-10T17:36:51-04:00",
+      "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple sues OpenAI over alleged trade secret theft",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 10 Jul 2026 21:00:29 +0000",
+      "summary": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee.",
+      "isAI": true
+    },
+    {
+      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
+      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+      "source": "Wired",
+      "published": "Fri, 10 Jul 2026 20:44:05 +0000",
+      "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
+      "isAI": true
+    },
+    {
+      "title": "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue",
+      "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 10 Jul 2026 19:00:00 +0000",
+      "summary": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Meet the Battery Startup Taking on China\u2019s Giants",
+      "url": "https://www.wired.com/story/prologium-battery-startup-betting-against-china/",
+      "source": "Wired",
+      "published": "Fri, 10 Jul 2026 18:00:00 +0000",
+      "summary": "Solid-state batteries are safer and more capable\u2014but harder to mass-produce. They also represent an opportunity for non-Chinese companies to get back in the game.",
+      "isAI": true
+    },
+    {
+      "title": "Filing: College app Fizz accuses VC of sharing confidential startup information with rival Sidechat",
+      "url": "https://techcrunch.com/2026/07/10/filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 17:42:36 +0000",
+      "summary": "Fizz has expanded its lawsuit against rival Sidechat, alleging that a Maveron VC shared its confidential information obtained during a fundraising meeting with the competing startup.",
+      "isAI": true
+    },
+    {
+      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 10 Jul 2026 17:17:12 +0000",
+      "summary": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories.",
+      "isAI": true
+    },
+    {
+      "title": "A new app, HyperTexting, turns the open web into a scrollable social media-like feed",
+      "url": "https://techcrunch.com/2026/07/10/a-new-app-hypertexting-turns-the-open-web-into-a-scrollable-social-media-like-feed/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 17:11:51 +0000",
+      "summary": "HyperTexting's new app aims to make the open web feel more like social media by turning websites, blogs, newsletters, and podcasts into a scrollable feed, while also making it easier to post to your own website.",
+      "isAI": false
+    },
+    {
+      "title": "Valve's new Steam Machine verification system is silent on these Steam Deck-busters",
+      "url": "https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/",
+      "source": "Ars Technica",
+      "published": "Fri, 10 Jul 2026 16:53:31 +0000",
+      "summary": "Dozens of titles too taxing for Steam Deck are still unrated for the new hardware.",
+      "isAI": false
+    },
+    {
+      "title": "The tech of 'Terminator 2' \u2013 an oral history (2017)",
+      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "source": "Hacker News",
+      "published": "Fri, 10 Jul 2026 16:48:41 +0000",
+      "summary": "Article URL: https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/ Comments URL: https://news.ycombinator.com/item?id=48862365 Points: 235 # Comments: 80",
+      "isAI": false
+    },
+    {
+      "title": "Dumb Co dared me to trade my iPhone for a hacked flip phone",
+      "url": "https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/",
+      "source": "TechCrunch",
+      "published": "Fri, 10 Jul 2026 16:06:49 +0000",
+      "summary": "Dumb Co sells flip phones that sync to your smartphone, bridging the infinite connectivity of the iPhone and the unrealistic limitations of an early 2000s relic.",
+      "isAI": false
+    },
+    {
+      "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
+      "url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 10 Jul 2026 15:46:18 +0000",
+      "summary": "Digital Services Act may force Meta to make big changes on its platforms.",
+      "isAI": true
+    },
     {
       "title": "Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits",
       "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
@@ -24,6 +200,14 @@
       "published": "Fri, 10 Jul 2026 14:19:40 +0000",
       "summary": "The tech giant is in breach of the Digital Services Act by focusing on features like infinite scroll, autoplay, push notifications, and the highly personalized recommendation algorithms, the European Commission said.",
       "isAI": false
+    },
+    {
+      "title": "Hugging Face\u2019s CEO on why companies are done renting their AI",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 10 Jul 2026 14:00:00 +0000",
+      "summary": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [\u2026]",
+      "isAI": true
     },
     {
       "title": "Instagram\u2019s Adam Mosseri: If you don\u2019t like AI, \u2018then you shouldn\u2019t have it in your feed\u2019",
@@ -1815,190 +1999,6 @@
       "source": "TechCrunch",
       "published": "Wed, 01 Jul 2026 22:28:35 +0000",
       "summary": "The co-founders of Bending Spoons, the Italian company quietly buying beloved, ailing Internet brands, learned big lessons from their own startup's failure.",
-      "isAI": true
-    },
-    {
-      "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
-      "source": "Hacker News",
-      "published": "Wed, 01 Jul 2026 22:27:47 +0000",
-      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/ Comments URL: https://news.ycombinator.com/item?id=48753979 Points: 209 # Comments: 225",
-      "isAI": true
-    },
-    {
-      "title": "ZCode \u2013 Harness for GLM-5.2",
-      "url": "https://zcode.z.ai/en",
-      "source": "Hacker News",
-      "published": "Wed, 01 Jul 2026 22:03:36 +0000",
-      "summary": "Article URL: https://zcode.z.ai/en Comments URL: https://news.ycombinator.com/item?id=48753715 Points: 461 # Comments: 313",
-      "isAI": true
-    },
-    {
-      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
-      "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
-      "source": "Ars Technica",
-      "published": "Wed, 01 Jul 2026 21:21:21 +0000",
-      "summary": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
-      "isAI": false
-    },
-    {
-      "title": "Elon Musk denies a report about SpaceX\u2019s AI phone prototype",
-      "url": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
-      "source": "The Verge",
-      "published": "2026-07-01T16:10:21-04:00",
-      "summary": "Elon Musk says a report about a SpaceX AI phone prototype is \"utterly false.\" The report, published on Wednesday by The Wall Street Journal, says SpaceX showed off a \"handset-like prototype\" to some investors before launching its record-breaking initial public offering in June. The device was \"slimmer than an iPhone,\" and they were told it [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "US home battery installations hit record high on rising electricity costs",
-      "url": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
-      "source": "Ars Technica",
-      "published": "Wed, 01 Jul 2026 19:11:15 +0000",
-      "summary": "Record home battery installations unlock options for grids\u2014and AI data centers.",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
-      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 18:54:18 +0000",
-      "summary": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
-      "isAI": true
-    },
-    {
-      "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
-      "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 18:47:22 +0000",
-      "summary": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies \u2014 the infrastructure and energy that power them.",
-      "isAI": true
-    },
-    {
-      "title": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
-      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
-      "source": "TechCrunch",
-      "published": "Wed, 01 Jul 2026 18:29:14 +0000",
-      "summary": "The AI neocloud provider, which specializes in hosting open source models, last raised at a $3.3 billion valuation in early 2025.",
-      "isAI": true
-    },
-    {
-      "title": "A good little EV you won't be able to buy soon: The Volvo EX30 Cross Country",
-      "url": "https://arstechnica.com/cars/2026/07/the-volvo-ex30-cross-country-review-a-victim-of-geopolitics/",
-      "source": "Ars Technica",
-      "published": "Wed, 01 Jul 2026 18:24:04 +0000",
-      "summary": "Tariffs and anti-China policies killed this little Volvo in the United States.",
-      "isAI": false
-    },
-    {
-      "title": "The latest AI news we announced in June 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "source": "Google AI",
-      "published": "Wed, 01 Jul 2026 18:15:00 +0000",
-      "summary": "June Pixel Drop hero",
-      "isAI": true
-    },
-    {
-      "title": "Cloudflare\u2019s new policy pushes AI companies to pay for publishers\u2019 content",
-      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 17:48:37 +0000",
-      "summary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
-      "isAI": true
-    },
-    {
-      "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
-      "url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 01 Jul 2026 16:44:18 +0000",
-      "summary": "US lifts curbs on Anthropic\u2019s advanced Fable and Mythos models.",
-      "isAI": true
-    },
-    {
-      "title": "New York City educators and industry leaders gathered at Google\u2019s offices to shape the future of AI in classrooms.",
-      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "source": "Google AI",
-      "published": "Wed, 01 Jul 2026 16:00:00 +0000",
-      "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-      "isAI": true
-    },
-    {
-      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-      "source": "MIT Tech Review",
-      "published": "Wed, 01 Jul 2026 14:35:16 +0000",
-      "summary": "Let\u2019s start with a game. Open up your chatbot of choice\u2014Claude, ChatGPT, Gemini\u2014and type \u201cGive me a random number between 1 and 10.\u201d You\u2019re going to get 7. Almost always. Now type \u201cAnother\u201d and you\u2019ll get 3 or 4. Type \u201cAnother\u201d again and you\u2019ll get 8 or 9. That won\u2019t work every time\u2014but if it\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
-      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 14:25:23 +0000",
-      "summary": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
-      "isAI": true
-    },
-    {
-      "title": "Gemini Spark, Google\u2019s agentic assistant, is now available on Mac",
-      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 14:20:19 +0000",
-      "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
-      "isAI": true
-    },
-    {
-      "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 14:00:00 +0000",
-      "summary": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&A on what it takes to build and scale successful companies. Register now to save up to $330.",
-      "isAI": true
-    },
-    {
-      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
-      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 13:43:07 +0000",
-      "summary": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
-      "isAI": true
-    },
-    {
-      "title": "Motorola Phones Now Have a Built-In Travel eSIM for Mobile Data Outside the US",
-      "url": "https://www.wired.com/story/exclusive-motorola-phones-now-get-a-built-in-travel-esim/",
-      "source": "Wired",
-      "published": "Wed, 01 Jul 2026 13:00:00 +0000",
-      "summary": "Available in select markets thanks to a partnership with Gigs, Motorola phone owners have one less hurdle to clear when signing up for a data-only eSIM before traveling abroad.",
-      "isAI": false
-    },
-    {
-      "title": "Google built a great smart speaker, but Gemini isn\u2019t ready for it",
-      "url": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
-      "source": "The Verge AI",
-      "published": "2026-07-01T08:00:00-04:00",
-      "summary": "Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that. Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's finally Google's turn. [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
-      "url": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
-      "source": "Wired",
-      "published": "Wed, 01 Jul 2026 11:38:00 +0000",
-      "summary": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.",
-      "isAI": false
-    },
-    {
-      "title": "Godot will no longer accept AI-authored code contributions",
-      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
-      "source": "Hacker News",
-      "published": "Wed, 01 Jul 2026 07:43:22 +0000",
-      "summary": "Article URL: https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/ Comments URL: https://news.ycombinator.com/item?id=48743472 Points: 451 # Comments: 288",
-      "isAI": true
-    },
-    {
-      "title": "The \u2018Father of the Internet\u2019 is finally retiring",
-      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 01 Jul 2026 03:15:37 +0000",
-      "summary": "Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google's chief internet evangelist next week.",
       "isAI": true
     }
   ]
