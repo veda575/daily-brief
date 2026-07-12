@@ -1,6 +1,70 @@
 {
-  "updated": "2026-07-11T14:00:01.156691+00:00",
+  "updated": "2026-07-12T14:02:33.533212+00:00",
   "items": [
+    {
+      "title": "The fight against AI data centers is just beginning",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "source": "The Verge",
+      "published": "2026-07-12T08:00:00-04:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Scientists\u2019 Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
+      "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+      "source": "Wired",
+      "published": "Sun, 12 Jul 2026 10:00:00 +0000",
+      "summary": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
+      "isAI": true
+    },
+    {
+      "title": "Reed Jobs would rather talk about curing cancer than his last name",
+      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+      "source": "TechCrunch",
+      "published": "Sun, 12 Jul 2026 00:16:06 +0000",
+      "summary": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbuster drugs are all losing patent protection in roughly the same window, creating all kinds of new opportunities; and AI has gone from a curiosity to, in Jobs's words,\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "source": "Hacker News",
+      "published": "Sat, 11 Jul 2026 22:38:57 +0000",
+      "summary": "Article URL: https://www.iroh.computer/blog/mesh-llm Comments URL: https://news.ycombinator.com/item?id=48876505 Points: 292 # Comments: 69",
+      "isAI": true
+    },
+    {
+      "title": "Show HN: Ant \u2013 A JavaScript runtime and ecosystem",
+      "url": "https://antjs.org",
+      "source": "Hacker News",
+      "published": "Sat, 11 Jul 2026 20:07:18 +0000",
+      "summary": "Hello HN!I'm the author of Ant, a JavaScript ecosystem built around a runtime with its own JavaScript engine. Ant also includes a package manager, the ants.land package registry, a platform for deploying and hosting applications, and Ant Desktop for building native desktop apps with web technologies, similar to Electron.The goal is for these pieces to work as one coherent platform while remaining\u2026",
+      "isAI": false
+    },
+    {
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "source": "Hacker News",
+      "published": "Sat, 11 Jul 2026 17:21:49 +0000",
+      "summary": "Article URL: https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom Comments URL: https://news.ycombinator.com/item?id=48873836 Points: 306 # Comments: 123",
+      "isAI": true
+    },
+    {
+      "title": "FL Studio head Constantin Koehncke turns to Reddit for feedback and fun",
+      "url": "https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview",
+      "source": "The Verge",
+      "published": "2026-07-11T11:00:00-04:00",
+      "summary": "If you're a music maker of a certain age, then you probably once dabbled with a pirated copy of a little app called Fruity Loops. These days it's called FL Studio, and Constantin Koehncke, is the man responsible for shepherding the pioneering digital audio workstation (DAW) through the modern age. As CEO of Image Line, [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 11 Jul 2026 14:13:00 +0000",
+      "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+      "isAI": true
+    },
     {
       "title": "Beatbot AquaSense X Review: A Pool Robot That Cleans Itself",
       "url": "https://www.wired.com/review/beatbot-aquasense-x/",
@@ -1935,70 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-07-02T06:23:27-04:00",
       "summary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Inside the Luddite Festival Harnessing Gen Z\u2019s Rage Against Big Tech",
-      "url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
-      "source": "Wired",
-      "published": "Thu, 02 Jul 2026 10:00:00 +0000",
-      "summary": "New York City\u2019s Summer of Ludd festival is teaching people how to live offline amid the suffocating presence of Big Tech.",
-      "isAI": false
-    },
-    {
-      "title": "Meta Is Charging a Subscription for Smart Glasses Features. Welcome to the New Era of Consumer Tech",
-      "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
-      "source": "Wired",
-      "published": "Thu, 02 Jul 2026 09:30:00 +0000",
-      "summary": "You bought the hardware. Now you\u2019ll need to subscribe for \u201cexpanded access\u201d to the most advanced features.",
-      "isAI": false
-    },
-    {
-      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 02 Jul 2026 05:30:00 +0000",
-      "summary": "Neo is Bhavin Turakhia\u2019s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
-      "isAI": true
-    },
-    {
-      "title": "B&H Photo Promo Codes and Deals This July 2026",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "source": "Wired",
-      "published": "Thu, 02 Jul 2026 05:00:00 +0000",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "isAI": false
-    },
-    {
-      "title": "Android Developer Verification: Threat masquerading as Protection",
-      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "source": "Hacker News",
-      "published": "Thu, 02 Jul 2026 03:00:15 +0000",
-      "summary": "Article URL: https://f-droid.org/2026/07/01/adv-malware.html Comments URL: https://news.ycombinator.com/item?id=48755965 Points: 1075 # Comments: 438",
-      "isAI": false
-    },
-    {
-      "title": "Oomwoo, an open-source robot vacuum you build yourself",
-      "url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
-      "source": "Hacker News",
-      "published": "Thu, 02 Jul 2026 00:48:01 +0000",
-      "summary": "Article URL: https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/ Comments URL: https://news.ycombinator.com/item?id=48755005 Points: 391 # Comments: 75",
-      "isAI": false
-    },
-    {
-      "title": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
-      "url": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
-      "source": "TechCrunch",
-      "published": "Wed, 01 Jul 2026 22:47:04 +0000",
-      "summary": "The company has grown rapidly by acquiring and revamping last-generation tech brands like AOL, Eventbrite, Evernote, Meetup, and Vimeo.",
-      "isAI": true
-    },
-    {
-      "title": "After $18B IPO, Bending Spoons founder says success comes from minimizing luck",
-      "url": "https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/",
-      "source": "TechCrunch",
-      "published": "Wed, 01 Jul 2026 22:28:35 +0000",
-      "summary": "The co-founders of Bending Spoons, the Italian company quietly buying beloved, ailing Internet brands, learned big lessons from their own startup's failure.",
       "isAI": true
     }
   ]
