@@ -1,10 +1,122 @@
 {
-  "updated": "2026-07-12T14:02:33.533212+00:00",
+  "updated": "2026-07-13T15:20:36.358485+00:00",
   "items": [
+    {
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 13 Jul 2026 15:06:34 +0000",
+      "summary": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
+      "isAI": true
+    },
+    {
+      "title": "Even Nvidia\u2019s head of automotive fights with Nvidia for compute",
+      "url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
+      "source": "The Verge",
+      "published": "2026-07-13T11:00:00-04:00",
+      "summary": "Today, I\u2019m talking with Xinzhou Wu, who is the head of automotive at Nvidia. Nvidia is obviously in the news constantly because of the AI boom \u2014 it\u2019s one of the most valuable companies in the world, because the AI industry can\u2019t get enough of the company\u2019s GPUs. But Nvidia is also a key supplier [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100",
+      "url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
+      "source": "The Verge",
+      "published": "2026-07-13T10:52:14-04:00",
+      "summary": "Almost all gaming laptops have gone up in price over the past year. Curiously, the surprisingly fast Asus ROG Flow Z13 gaming laptop/tablet combo has not. It\u2019s actually gotten quite a bit cheaper recently. Best Buy has the lowest price on the configuration that includes the AMD Ryzen AI Max Plus 395 \u201cStrix Halo\u201d chipset, [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Waze adds new AI-powered features and customization updates",
+      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 13 Jul 2026 14:18:16 +0000",
+      "summary": "Some of the new features are powered by Google's Gemini AI assistant, which reflects the the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
+      "isAI": true
+    },
+    {
+      "title": "Python Is So Slow. Can Julia Solve the Two-Language Problem?",
+      "url": "https://www.wired.com/story/python-is-so-slow-can-julia-solve-the-two-language-problem/",
+      "source": "Wired",
+      "published": "Mon, 13 Jul 2026 11:00:00 +0000",
+      "summary": "By some benchmarks, Julia code can run 10X to 1,000X faster than Python\u2014but there\u2019s a reason it\u2019s not a very popular programming language.",
+      "isAI": false
+    },
+    {
+      "title": "This free Mac app reveals the truth about your mystery USB-C cables",
+      "url": "https://www.theverge.com/gadgets/963759/whatcable-usb-c-cable-tester-app-mac",
+      "source": "The Verge",
+      "published": "2026-07-13T06:00:00-04:00",
+      "summary": "Nearly three years ago, I showed you an awesome $8 cable tester that quickly tells you if your USB-C cable is likely fast, slow, powerful, or weak. Sadly, that gadget got discontinued, and I've never found anything as intuitive or inexpensive since. But if you've got a Mac with Apple Silicon chips, you can simply [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "A Leak of San Francisco Police Drone Footage Exposes the New Reality of Urban Surveillance",
+      "url": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/",
+      "source": "Wired",
+      "published": "Mon, 13 Jul 2026 10:00:00 +0000",
+      "summary": "The SFPD\u2019s exposure of hours of videos from drone platform Skydio reveals how broadly it\u2019s watching the city from above\u2014and how the results can spill online.",
+      "isAI": false
+    },
+    {
+      "title": "Waze is getting a bunch of new AI-powered features",
+      "url": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+      "source": "The Verge AI",
+      "published": "2026-07-13T05:00:00-04:00",
+      "summary": "Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze says its updating its conversation reporting feature, first introduced in 2024, [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "source": "Hacker News",
+      "published": "Mon, 13 Jul 2026 01:24:20 +0000",
+      "summary": "Should HN add the ability to flag articles as AI-generated? This doesn't have to act as a regular flag, i.e., it won't de-rank the article; it could just show up as an indicator, allowing others (like myself) who don't like reading AI-generated text, to skip it.Open questions:1. Why is the regular voting system not enough?2. Should HN change in response to the gen AI era? It has been successful\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Lorde says Ray-Ban Meta AI glasses are \u2018not sexy\u2019",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "source": "The Verge AI",
+      "published": "2026-07-12T16:10:19-04:00",
+      "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Uber\u2019s Autonomous Vehicle Strategy: Slow Their Adoption",
+      "url": "https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/",
+      "source": "Wired",
+      "published": "Sun, 12 Jul 2026 19:55:37 +0000",
+      "summary": "In at least two places, Uber has pushed a policy that could give it an advantage over developers of self-driving cars. The company says it\u2019s fighting monopolies.",
+      "isAI": false
+    },
+    {
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "source": "Hacker News",
+      "published": "Sun, 12 Jul 2026 17:13:07 +0000",
+      "summary": "Article URL: https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6 Comments URL: https://news.ycombinator.com/item?id=48882716 Points: 236 # Comments: 111",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s failed self-driving car program left a legacy of powerful AI chips",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "source": "The Verge AI",
+      "published": "2026-07-12T12:27:06-04:00",
+      "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "TechCrunch Mobility: A robotaxi ultimatum",
+      "url": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+      "source": "TechCrunch",
+      "published": "Sun, 12 Jul 2026 16:07:00 +0000",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "isAI": true
+    },
     {
       "title": "The fight against AI data centers is just beginning",
       "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-      "source": "The Verge",
+      "source": "The Verge AI",
       "published": "2026-07-12T08:00:00-04:00",
       "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power [\u2026]",
       "isAI": true
@@ -22,7 +134,7 @@
       "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
       "source": "TechCrunch",
       "published": "Sun, 12 Jul 2026 00:16:06 +0000",
-      "summary": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbuster drugs are all losing patent protection in roughly the same window, creating all kinds of new opportunities; and AI has gone from a curiosity to, in Jobs's words,\u2026",
+      "summary": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbuster drugs are all losing patent protection in roughly the same window, creating all kinds of new opportunities; and AI has gone from a curiosity to, in Jobs' words, a\u2026",
       "isAI": true
     },
     {
@@ -367,6 +479,14 @@
       "source": "Hugging Face",
       "published": "Fri, 10 Jul 2026 00:00:00 GMT",
       "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "url": "https://openai.com/academy/getting-started",
+      "source": "OpenAI",
+      "published": "Fri, 10 Jul 2026 00:00:00 GMT",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
       "isAI": true
     },
     {
@@ -1879,126 +1999,6 @@
       "source": "TechCrunch",
       "published": "Thu, 02 Jul 2026 15:14:03 +0000",
       "summary": "TV Time, the popular TV-tracking app, is shutting down on July 15 as parent company Whip Media pivots toward enterprise AI products.",
-      "isAI": true
-    },
-    {
-      "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders\u2019 target",
-      "url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 02 Jul 2026 15:12:25 +0000",
-      "summary": "Insiders say Sam Altman is in active talks with the Trump administration.",
-      "isAI": true
-    },
-    {
-      "title": "Musk\u2019s X poses \u201cserious risk to Americans\u2019 privacy,\u201d advocates warn FTC",
-      "url": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 02 Jul 2026 14:39:17 +0000",
-      "summary": "FTC urged to reject Elon Musk\u2019s bid to end X monitoring amid AI concerns.",
-      "isAI": true
-    },
-    {
-      "title": "US government says it got hacked \u2014 again",
-      "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
-      "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 14:22:36 +0000",
-      "summary": "A top Democrat on the Senate's Intelligence Committee warned that the information accessed on a Homeland Security intelligence-sharing network may risk national security.",
-      "isAI": false
-    },
-    {
-      "title": "Immich 3.0",
-      "url": "https://github.com/immich-app/immich/discussions/29439",
-      "source": "Hacker News",
-      "published": "Thu, 02 Jul 2026 14:13:26 +0000",
-      "summary": "Article URL: https://github.com/immich-app/immich/discussions/29439 Comments URL: https://news.ycombinator.com/item?id=48761944 Points: 520 # Comments: 257",
-      "isAI": false
-    },
-    {
-      "title": "AI won\u2019t save advertising, says Digitas\u2019 Amy Lanzi",
-      "url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
-      "source": "The Verge",
-      "published": "2026-07-02T10:00:00-04:00",
-      "summary": "We\u2019ve got a special Decoder today \u2014 I had the chance to talk with Amy Lanzi, the CEO of Digitas North America, in front of a live audience at the Uber Villa at the Cannes Lions advertising festival in the South of France. I know, it\u2019s a hard gig, but I do it for you. [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 02 Jul 2026 13:53:00 +0000",
-      "summary": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
-      "isAI": true
-    },
-    {
-      "title": "Teaching AI to run with the turbines",
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 02 Jul 2026 12:51:44 +0000",
-      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Building the foundation for an autonomous enterprise",
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 02 Jul 2026 12:51:44 +0000",
-      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Rivian raises EV sales forecast as Q2 production ramps up",
-      "url": "https://techcrunch.com/2026/07/02/rivian-thinks-it-will-sell-more-evs-than-expected-this-year/",
-      "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 12:30:00 +0000",
-      "summary": "The company now expects to ship a few thousand more vehicles by the end of 2026 than it previously expected, after launching its R2 SUV last month.",
-      "isAI": false
-    },
-    {
-      "title": "Yep, we\u2019re using OpenClaw to date now",
-      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 02 Jul 2026 12:00:00 +0000",
-      "summary": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s AI buildout drove 37% increase in electricity use in 2025",
-      "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 02 Jul 2026 11:15:49 +0000",
-      "summary": "Google tries balancing AI data center emissions with clean energy efforts.",
-      "isAI": true
-    },
-    {
-      "title": "BitTorrent\u2019s disastrous, legendary, and controversial story",
-      "url": "https://www.theverge.com/tech/959848/bittorrent-story-25-years-piracy",
-      "source": "The Verge",
-      "published": "2026-07-02T07:00:00-04:00",
-      "summary": "Twenty-five years ago today, a young, little-known programmer by the name of Bram Cohen fired off a short message to a mailing list for peer-to-peer enthusiasts. \"My new app, BitTorrent, is now in working order, check it out here,\" Cohen wrote, followed by a link to his personal website. \"What's BitTorrent, Bram?\" the founder of [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "How Trump Helped China Make America\u2019s Cheapest EV",
-      "url": "https://www.wired.com/story/how-trump-helped-china-make-slate-americas-cheapest-ev/",
-      "source": "Wired",
-      "published": "Thu, 02 Jul 2026 11:00:00 +0000",
-      "summary": "Slate is the latest automaker to transition to lower-cost batteries perfected in China, driven in part by the repeal of EV tax credits that required materials to be sourced domestically.",
-      "isAI": false
-    },
-    {
-      "title": "I Tried Rips, the Card-Pack App Where Users Spend Thousands Chasing Pricey Pok\u00e9mon",
-      "url": "https://www.wired.com/story/i-tried-rips-the-card-pack-app-where-users-spend-thousands-chasing-pricey-pokemon/",
-      "source": "Wired",
-      "published": "Thu, 02 Jul 2026 10:30:00 +0000",
-      "summary": "I ripped open $892 worth of Pok\u00e9mon packs on my phone in under 15 minutes and walked away with 62 cents. My adrenaline rush felt like the future of gambling.",
-      "isAI": false
-    },
-    {
-      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-      "source": "The Verge AI",
-      "published": "2026-07-02T06:23:27-04:00",
-      "summary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share [\u2026]",
       "isAI": true
     }
   ]
