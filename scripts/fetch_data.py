@@ -29,6 +29,7 @@ US_STOCKS = [
     ("ORCL",    "Oracle",              "Cloud"),
     ("SAP",     "SAP",                 "Enterprise AI"),
     ("CRM",     "Salesforce",          "AI CRM"),
+    ("ACN",     "Accenture",           "IT Services / Consulting"),
 ]
 
 ASIA_STOCKS = [
@@ -53,6 +54,11 @@ INDIA_STOCKS = [
     ("DIVISLAB.NS",   "Divi's Labs",         "API"),
     ("AUROPHARMA.NS", "Aurobindo Pharma",    "Pharma Exports"),
     ("APOLLOHOSP.NS", "Apollo Hospitals",    "Healthcare"),
+    ("GLENMARK.NS",   "Glenmark Pharmaceuticals", "Pharma"),
+    ("SWIGGY.NS",     "Swiggy",                  "Food Delivery / Quick Commerce"),
+    ("ETERNAL.NS",    "Eternal",                 "Food Delivery / Quick Commerce"),
+    ("ASTERDM.NS",    "Aster DM Quality Care",   "Healthcare"),
+    ("SIGMAADV.NS",   "Sigma Advanced Systems",  "Technology"),
 ]
 
 # ────────────────────────────────────────────────────────────────────
