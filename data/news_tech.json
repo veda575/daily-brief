@@ -1,6 +1,86 @@
 {
-  "updated": "2026-07-18T13:55:58.552632+00:00",
+  "updated": "2026-07-19T13:59:58.684910+00:00",
   "items": [
+    {
+      "title": "The future of physical games is not looking great",
+      "url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
+      "source": "The Verge",
+      "published": "2026-07-19T08:00:00-04:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on video games and physical media, follow Jay Peters. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started As a kid, I relished trips to [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "How to Disable Music Videos in Spotify",
+      "url": "https://www.wired.com/story/how-to-disable-all-the-music-videos-in-spotify/",
+      "source": "Wired",
+      "published": "Sun, 19 Jul 2026 11:00:00 +0000",
+      "summary": "A recent update made video playback the default for songs and podcasts with a visual component. If you just want to listen to music\u2014and save your data and battery\u2014follow these tips.",
+      "isAI": false
+    },
+    {
+      "title": "Best Power Banks (2026): My Picks After Testing Over 100",
+      "url": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
+      "source": "Wired",
+      "published": "Sun, 19 Jul 2026 11:00:00 +0000",
+      "summary": "Keep your phone, laptop, handheld gaming console, and other electronics running with these travel-friendly power banks.",
+      "isAI": false
+    },
+    {
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "source": "Hacker News",
+      "published": "Sun, 19 Jul 2026 01:29:19 +0000",
+      "summary": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 290 # Comments: 130",
+      "isAI": true
+    },
+    {
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "source": "Hacker News",
+      "published": "Sat, 18 Jul 2026 22:13:39 +0000",
+      "summary": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=48962983 Points: 512 # Comments: 222",
+      "isAI": true
+    },
+    {
+      "title": "Dave Eggers told OpenAI staff that ChatGPT was \u2018silencing an entire generation\u2019",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "source": "The Verge AI",
+      "published": "2026-07-18T16:54:42-04:00",
+      "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Kimi: Threat or menace?",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "source": "TechCrunch AI",
+      "published": "Sat, 18 Jul 2026 18:51:07 +0000",
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "isAI": true
+    },
+    {
+      "title": "All the EVs that were discontinued or killed off in the U.S. this year",
+      "url": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
+      "source": "TechCrunch",
+      "published": "Sat, 18 Jul 2026 16:30:00 +0000",
+      "summary": "Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year.",
+      "isAI": false
+    },
+    {
+      "title": "A 600-mile road trip (and data) proves EV charging doesn\u2019t suck anymore",
+      "url": "https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/",
+      "source": "TechCrunch",
+      "published": "Sat, 18 Jul 2026 14:32:00 +0000",
+      "summary": "A recent road trip in an EV revealed just how much faster and more reliable DC Fast charging has become in the U.S.",
+      "isAI": false
+    },
+    {
+      "title": "Surprise! Facial recognition smart locks are actually good",
+      "url": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+      "source": "The Verge",
+      "published": "2026-07-18T10:00:00-04:00",
+      "summary": "Hands-free unlocking is the future of smart locks. The best smart home tech removes friction, and having your door unlock for you as you walk up is as frictionless as it gets - no passcodes to remember, no need to have a free hand to wave, press, or poke at the lock. One way to [\u2026]",
+      "isAI": false
+    },
     {
       "title": "The apps, gadgets, and tools every reader needs",
       "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
@@ -1122,6 +1202,14 @@
       "isAI": true
     },
     {
+      "title": "Speech Recognition and TTS in less than 500kb",
+      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+      "source": "Hacker News",
+      "published": "Tue, 14 Jul 2026 19:25:10 +0000",
+      "summary": "Article URL: https://github.com/moonshine-ai/moonshine/tree/main/micro Comments URL: https://news.ycombinator.com/item?id=48911793 Points: 485 # Comments: 68",
+      "isAI": true
+    },
+    {
       "title": "SpaceXAI\u2019s Grok programming tool was uploading its users\u2019 entire codebase to cloud storage",
       "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
       "source": "The Verge AI",
@@ -1912,94 +2000,6 @@
       "published": "Fri, 10 Jul 2026 14:19:40 +0000",
       "summary": "The tech giant is in breach of the Digital Services Act by focusing on features like infinite scroll, autoplay, push notifications, and the highly personalized recommendation algorithms, the European Commission said.",
       "isAI": false
-    },
-    {
-      "title": "Hugging Face\u2019s CEO on why companies are done renting their AI",
-      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 10 Jul 2026 14:00:00 +0000",
-      "summary": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Instagram\u2019s Adam Mosseri: If you don\u2019t like AI, \u2018then you shouldn\u2019t have it in your feed\u2019",
-      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-      "source": "The Verge AI",
-      "published": "2026-07-10T09:45:02-04:00",
-      "summary": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out AI content,\" Mosseri said during an interview on Lenny Rachitsky's podcast. \"I think we should let you know [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Would you host part of an AI data center in your home?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
-      "source": "The Verge AI",
-      "published": "2026-07-10T09:20:25-04:00",
-      "summary": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is launching a pilot program for a new \"distributed AI compute\" program that will \"place numerous compute nodes in homes [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Doom\u2019s new expansion shows just what makes id Software special",
-      "url": "https://www.theverge.com/games/963515/doom-the-dark-ages-revelations-review",
-      "source": "The Verge",
-      "published": "2026-07-10T08:00:00-04:00",
-      "summary": "This week should have been a celebration for Doom developer id Software. The studio just launched Revelations, a meaty expansion for Doom: The Dark Ages that adds a powerful new weapon and more demonic levels to blast through. Even though I hadn't picked up The Dark Ages for more than a year, it only took [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Polestar owners left \u2018holding the bag\u2019 after EV brand pulls out of the US",
-      "url": "https://www.theverge.com/transportation/963399/polestar-owners-ban-dealers-service-warranty-lease",
-      "source": "The Verge",
-      "published": "2026-07-10T07:00:00-04:00",
-      "summary": "Last month, Polestar shocked the auto industry when it announced that it was pulling out of the US. The EV company's decision came after the federal government denied its authorization to continue selling its cars despite a rule banning vehicles with Chinese-made connected vehicle software. Polestar, which is headquartered in Sweden but majority owned by [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
-      "url": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
-      "source": "Wired",
-      "published": "Fri, 10 Jul 2026 10:30:00 +0000",
-      "summary": "Billed as the \u201cworld\u2019s first museum of AI arts,\u201d Dataland uses wearables and troves of material from the Amazon to merge nature, biometrics, and art.",
-      "isAI": true
-    },
-    {
-      "title": "AI-generated videos to maximally drive a target brain region",
-      "url": "https://nevo-project.epfl.ch/",
-      "source": "Hacker News",
-      "published": "Fri, 10 Jul 2026 07:39:11 +0000",
-      "summary": "Article URL: https://nevo-project.epfl.ch/ Comments URL: https://news.ycombinator.com/item?id=48856904 Points: 157 # Comments: 167",
-      "isAI": true
-    },
-    {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "source": "OpenAI",
-      "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "isAI": true
-    },
-    {
-      "title": "Robot Dogs, Teslas, and Rescue Helicopters: The UN AI Summit Was a Lot",
-      "url": "https://www.wired.com/story/robot-dogs-teslas-and-rescue-helicopters-the-un-ai-summit-was-alot/",
-      "source": "Wired",
-      "published": "Fri, 10 Jul 2026 06:00:00 +0000",
-      "summary": "Amid live coding sessions and Silicon Valley optimism, the UN\u2019s AI for Good summit wrestled with an urgent question: Can global governance catch up before the technology races beyond its control?",
-      "isAI": true
-    },
-    {
-      "title": "After Apple, India\u2019s smartphone manufacturing boom enters new phase with Vivo JV",
-      "url": "https://techcrunch.com/2026/07/09/after-apple-indias-smartphone-manufacturing-boom-enters-new-phase-with-vivo-jv/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 04:36:20 +0000",
-      "summary": "Vivo's joint venture could become a template for Chinese smartphone makers in India.",
-      "isAI": false
-    },
-    {
-      "title": "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter",
-      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 10 Jul 2026 00:16:54 +0000",
-      "summary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
-      "isAI": true
     }
   ]
 }
