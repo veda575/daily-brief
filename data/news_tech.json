@@ -1,6 +1,126 @@
 {
-  "updated": "2026-07-19T13:59:58.684910+00:00",
+  "updated": "2026-07-20T14:37:27.159812+00:00",
   "items": [
+    {
+      "title": "Electric air taxis go to war",
+      "url": "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder",
+      "source": "The Verge",
+      "published": "2026-07-20T09:52:21-04:00",
+      "summary": "Electric aviation is still in its infancy, but manufacturers are already looking beyond mere air taxi trips across cities. Today, one of the leading air taxi startups, San Jose-based Archer Aviation, unveiled a new aircraft it co-developed with defense technology company Anduril - though the platform is designed for both military and commercial uses, the [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Hugging Face confirms breach affected internal datasets and credentials, urges users to take action",
+      "url": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+      "source": "TechCrunch",
+      "published": "Mon, 20 Jul 2026 12:39:28 +0000",
+      "summary": "Hugging Face is urging users to rotate any access tokens stored on the platform and review account activity.",
+      "isAI": false
+    },
+    {
+      "title": "StrictlyVC returns to New York City September 10 to celebrate a huge year for the city\u2019s startup community",
+      "url": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
+      "source": "TechCrunch",
+      "published": "Mon, 20 Jul 2026 12:30:00 +0000",
+      "summary": "For the first time since 2024, StrictlyVC is coming back to New York City \u2014 and we're bringing the kind of access you\u2019d expect from an under-wraps event to the whole startup, VC, and dealmaking community.",
+      "isAI": true
+    },
+    {
+      "title": "Beyond grep: The case for a context-rich AI coding harness",
+      "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 20 Jul 2026 11:20:10 +0000",
+      "summary": "Augment Code's Vinay Perneti talks models, harnesses, and context.",
+      "isAI": true
+    },
+    {
+      "title": "AliExpress fined almost $630 million over illegal product sales",
+      "url": "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products",
+      "source": "The Verge",
+      "published": "2026-07-20T07:16:32-04:00",
+      "summary": "AliExpress has been hit with a \u20ac550 million (about $629 million) fine for violating Europe's Digital Services Act (DSA) rules by failing to prevent illegal, unsafe, or counterfeit products from being sold on the e-commerce platform. The European Commission ruled that AliExpress didn't take effective measures to reduce the dissemination of illegal products, noting the [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "China delivers a one-two punch to America\u2019s AI dominance",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "source": "The Verge AI",
+      "published": "2026-07-20T06:16:33-04:00",
+      "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The ACLU Is Arming Lawyers to Expose State Surveillance Secrets",
+      "url": "https://www.wired.com/story/the-aclu-is-arming-lawyers-to-expose-state-surveillance-secrets/",
+      "source": "Wired",
+      "published": "Mon, 20 Jul 2026 10:00:00 +0000",
+      "summary": "A new toolkit for attorneys in Massachusetts targets the technologies police use\u2014and conceal\u2014to build criminal cases, from facial recognition to AI-written police reports.",
+      "isAI": true
+    },
+    {
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 20 Jul 2026 08:39:01 +0000",
+      "summary": "The next time you apply for a job, AI may screen your r\u00e9sum\u00e9 before any human sees it. But there\u2019s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from\u2026",
+      "isAI": true
+    },
+    {
+      "title": "What to watch for after Jensen Huang\u2019s Japan visit",
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 19 Jul 2026 21:16:07 +0000",
+      "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+      "isAI": true
+    },
+    {
+      "title": "Can an Apple lawsuit derail OpenAI\u2019s hardware plans?",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 19 Jul 2026 19:24:45 +0000",
+      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast a shadow over OpenAi's much-discussed plans to get into hardware and go public.",
+      "isAI": true
+    },
+    {
+      "title": "Orion Browser by Kagi",
+      "url": "https://orionbrowser.com/",
+      "source": "Hacker News",
+      "published": "Sun, 19 Jul 2026 19:13:29 +0000",
+      "summary": "Article URL: https://orionbrowser.com/ Comments URL: https://news.ycombinator.com/item?id=48970894 Points: 268 # Comments: 229",
+      "isAI": false
+    },
+    {
+      "title": "I hate that I don\u2019t hate this song made with Suno",
+      "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+      "source": "The Verge AI",
+      "published": "2026-07-19T13:35:54-04:00",
+      "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "TechCrunch Mobility: The battle over robotaxi rules",
+      "url": "https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 16:05:00 +0000",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "isAI": true
+    },
+    {
+      "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019",
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 19 Jul 2026 14:52:08 +0000",
+      "summary": "\"Everybody knows the Greeks are inside.\"",
+      "isAI": true
+    },
+    {
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "source": "TechCrunch AI",
+      "published": "Sun, 19 Jul 2026 14:00:00 +0000",
+      "summary": "Current AI, a nonprofit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat, and more.",
+      "isAI": true
+    },
     {
       "title": "The future of physical games is not looking great",
       "url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
@@ -23,6 +143,14 @@
       "source": "Wired",
       "published": "Sun, 19 Jul 2026 11:00:00 +0000",
       "summary": "Keep your phone, laptop, handheld gaming console, and other electronics running with these travel-friendly power banks.",
+      "isAI": false
+    },
+    {
+      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "source": "Hacker News",
+      "published": "Sun, 19 Jul 2026 10:34:58 +0000",
+      "summary": "Article URL: https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard Comments URL: https://news.ycombinator.com/item?id=48966713 Points: 531 # Comments: 239",
       "isAI": false
     },
     {
@@ -1871,134 +1999,6 @@
       "source": "The Verge",
       "published": "2026-07-10T18:35:18-04:00",
       "summary": "Last year, we told you about Xtra, the company that lets DJI sneak its popular cameras into the US, and Skyrover, a brand seemingly selling DJI drones in disguise. They're just two of the many firms DJI is suspected of starting to skirt the United States' foreign drone ban. But it appears the FCC is [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Bluesky\u2019s interim CEO, Toni Schneider, drops the \u2018interim\u2019",
-      "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 21:51:55 +0000",
-      "summary": "Schneider, who formerly served as the CEO of Automattic and is a partner at True Ventures, says he is \"all in\" on the unconventional social media platform.",
-      "isAI": false
-    },
-    {
-      "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
-      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-      "source": "The Verge AI",
-      "published": "2026-07-10T17:36:51-04:00",
-      "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Apple sues OpenAI over alleged trade secret theft",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 10 Jul 2026 21:00:29 +0000",
-      "summary": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee.",
-      "isAI": true
-    },
-    {
-      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-      "source": "Wired",
-      "published": "Fri, 10 Jul 2026 20:44:05 +0000",
-      "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
-      "isAI": true
-    },
-    {
-      "title": "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue",
-      "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 10 Jul 2026 19:00:00 +0000",
-      "summary": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Meet the Battery Startup Taking on China\u2019s Giants",
-      "url": "https://www.wired.com/story/prologium-battery-startup-betting-against-china/",
-      "source": "Wired",
-      "published": "Fri, 10 Jul 2026 18:00:00 +0000",
-      "summary": "Solid-state batteries are safer and more capable\u2014but harder to mass-produce. They also represent an opportunity for non-Chinese companies to get back in the game.",
-      "isAI": true
-    },
-    {
-      "title": "Filing: College app Fizz accuses VC of sharing confidential startup information with rival Sidechat",
-      "url": "https://techcrunch.com/2026/07/10/filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 17:42:36 +0000",
-      "summary": "Fizz has expanded its lawsuit against rival Sidechat, alleging that a Maveron VC shared its confidential information obtained during a fundraising meeting with the competing startup.",
-      "isAI": true
-    },
-    {
-      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
-      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 10 Jul 2026 17:17:12 +0000",
-      "summary": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories.",
-      "isAI": true
-    },
-    {
-      "title": "A new app, HyperTexting, turns the open web into a scrollable social media-like feed",
-      "url": "https://techcrunch.com/2026/07/10/a-new-app-hypertexting-turns-the-open-web-into-a-scrollable-social-media-like-feed/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 17:11:51 +0000",
-      "summary": "HyperTexting's new app aims to make the open web feel more like social media by turning websites, blogs, newsletters, and podcasts into a scrollable feed, while also making it easier to post to your own website.",
-      "isAI": false
-    },
-    {
-      "title": "Valve's new Steam Machine verification system is silent on these Steam Deck-busters",
-      "url": "https://arstechnica.com/gaming/2026/07/valves-steam-machine-verified-ratings-offer-more-questions-than-answers/",
-      "source": "Ars Technica",
-      "published": "Fri, 10 Jul 2026 16:53:31 +0000",
-      "summary": "Dozens of titles too taxing for Steam Deck are still unrated for the new hardware.",
-      "isAI": false
-    },
-    {
-      "title": "The tech of 'Terminator 2' \u2013 an oral history (2017)",
-      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
-      "source": "Hacker News",
-      "published": "Fri, 10 Jul 2026 16:48:41 +0000",
-      "summary": "Article URL: https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/ Comments URL: https://news.ycombinator.com/item?id=48862365 Points: 235 # Comments: 80",
-      "isAI": false
-    },
-    {
-      "title": "Dumb Co dared me to trade my iPhone for a hacked flip phone",
-      "url": "https://techcrunch.com/2026/07/10/dumb-co-dared-me-to-trade-my-iphone-for-a-hacked-flip-phone/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 16:06:49 +0000",
-      "summary": "Dumb Co sells flip phones that sync to your smartphone, bridging the infinite connectivity of the iPhone and the unrealistic limitations of an early 2000s relic.",
-      "isAI": false
-    },
-    {
-      "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
-      "url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 10 Jul 2026 15:46:18 +0000",
-      "summary": "Digital Services Act may force Meta to make big changes on its platforms.",
-      "isAI": true
-    },
-    {
-      "title": "Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits",
-      "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 15:00:09 +0000",
-      "summary": "The new startup raised $300 million co-led by ARCH Venture Partners, Spark Capital, and Khosla Ventures.",
-      "isAI": true
-    },
-    {
-      "title": "I spent a week using the Trump phone \u2014 it sucks",
-      "url": "https://www.theverge.com/tech/963382/trump-mobile-t1-phone-review",
-      "source": "The Verge",
-      "published": "2026-07-10T10:19:59-04:00",
-      "summary": "The Trump phone was never a serious phone. Not when it was announced last June, in dodgy renders and with an incoherent spec sheet. Nor when Trump Mobile admitted - just two weeks later - that it wouldn't be made in the US. Not even when the company revealed the final phone, first to me [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "EU threatens Meta with fines over addictive features on Facebook and Instagram",
-      "url": "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/",
-      "source": "TechCrunch",
-      "published": "Fri, 10 Jul 2026 14:19:40 +0000",
-      "summary": "The tech giant is in breach of the Digital Services Act by focusing on features like infinite scroll, autoplay, push notifications, and the highly personalized recommendation algorithms, the European Commission said.",
       "isAI": false
     }
   ]
