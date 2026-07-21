@@ -7,7 +7,18 @@ function sym(c) { return CURRENCY_SYM[c] || (c ? c + ' ' : ''); }
 function fmtMarketCap(n, currency) {
   if (!n) return '—';
   const s = sym(currency);
-  return s + (n / 1e12).toFixed(2) + 'T';
+  // Indian stocks: quote in Lakh Crore (1 L Cr = 1e12) / Crore (1 Cr = 1e7),
+  // matching how Google/screener show them in India.
+  if (currency === 'INR') {
+    if (n >= 1e12) return s + (n / 1e12).toFixed(2) + ' L Cr';
+    if (n >= 1e7)  return s + (n / 1e7).toFixed(0) + ' Cr';
+    return s + fmtInt.format(Math.round(n));
+  }
+  // Everything else (USD etc.): Trillions / Billions / Millions.
+  if (n >= 1e12) return s + (n / 1e12).toFixed(2) + 'T';
+  if (n >= 1e9)  return s + (n / 1e9).toFixed(2) + 'B';
+  if (n >= 1e6)  return s + (n / 1e6).toFixed(2) + 'M';
+  return s + fmtInt.format(Math.round(n));
 }
 
 function fmtRelative(iso) {
