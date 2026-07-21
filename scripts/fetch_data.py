@@ -30,6 +30,13 @@ US_STOCKS = [
     ("SAP",     "SAP",                 "Enterprise AI"),
     ("CRM",     "Salesforce",          "AI CRM"),
     ("ACN",     "Accenture",           "IT Services / Consulting"),
+    ("AMAT",    "Applied Materials",   "Semiconductors"),
+    ("GE",      "GE Aerospace",        "Aerospace / Industrial"),
+    ("GM",      "General Motors",      "Automotive"),
+    ("NVDA",    "NVIDIA",              "AI Chips"),
+    ("SNOW",    "Snowflake",           "Cloud Data"),
+    ("TEAM",    "Atlassian",           "Software"),
+    ("SHOP",    "Shopify",             "E-commerce"),
 ]
 
 ASIA_STOCKS = [
@@ -59,6 +66,12 @@ INDIA_STOCKS = [
     ("ETERNAL.NS",    "Eternal",                 "Food Delivery / Quick Commerce"),
     ("ASTERDM.NS",    "Aster DM Quality Care",   "Healthcare"),
     ("SIGMAADV.NS",   "Sigma Advanced Systems",  "Technology"),
+    ("NCC.NS",        "NCC Ltd",                 "Construction / Infrastructure"),
+    ("KIMS.NS",       "Krishna Institute of Medical Sciences", "Healthcare / Hospitals"),
+    ("GLAND.NS",      "Gland Pharma",            "Pharma"),
+    ("INDIGO.NS",     "InterGlobe Aviation (IndiGo)", "Aviation"),
+    ("ADANIENT.NS",   "Adani Enterprises",       "Conglomerate"),
+    ("SAILIFE.NS",    "Sai Life Sciences",       "Pharma CRDMO"),
 ]
 
 # ────────────────────────────────────────────────────────────────────
