@@ -37,6 +37,8 @@ US_STOCKS = [
     ("SNOW",    "Snowflake",           "Cloud Data"),
     ("TEAM",    "Atlassian",           "Software"),
     ("SHOP",    "Shopify",             "E-commerce"),
+    ("SPCX",    "SpaceX",              "Aerospace / Satellite Internet"),
+    ("NDAQ",    "Nasdaq, Inc.",        "Stock Exchange / Financial Markets"),
 ]
 
 ASIA_STOCKS = [
@@ -44,6 +46,7 @@ ASIA_STOCKS = [
     ("0700.HK",   "Tencent",             "Gaming / AI"),
     ("TSM",       "TSMC",                "Chips demand"),
     ("005930.KS", "Samsung Electronics", "Memory chips"),
+    ("000001.SS", "Shanghai Composite Index", "Index / China Equities"),
 ]
 
 INDIA_STOCKS = [
@@ -72,6 +75,8 @@ INDIA_STOCKS = [
     ("INDIGO.NS",     "InterGlobe Aviation (IndiGo)", "Aviation"),
     ("ADANIENT.NS",   "Adani Enterprises",       "Conglomerate"),
     ("SAILIFE.NS",    "Sai Life Sciences",       "Pharma CRDMO"),
+    ("BSE.NS",        "BSE Ltd",                 "Stock Exchange / Financial Markets"),
+    ("NEULANDLAB.NS", "Neuland Laboratories",    "Pharma CRDMO"),
 ]
 
 # ────────────────────────────────────────────────────────────────────
