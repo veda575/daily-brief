@@ -39,6 +39,11 @@ US_STOCKS = [
     ("SHOP",    "Shopify",             "E-commerce"),
     ("SPCX",    "SpaceX",              "Aerospace / Satellite Internet"),
     ("NDAQ",    "Nasdaq, Inc.",        "Stock Exchange / Financial Markets"),
+    ("AVGO",    "Broadcom",            "Semiconductors / Networking"),
+    ("AAPL",    "Apple",               "Consumer Tech / iPhone"),
+    ("SIFY",    "Sify Technologies",   "IT Services / Data Centers"),
+    ("MU",      "Micron Technology",   "Semiconductors / Memory"),
+    ("SNDK",    "SanDisk",             "Storage / Flash Memory"),
 ]
 
 ASIA_STOCKS = [
