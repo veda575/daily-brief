@@ -1,6 +1,110 @@
 {
-  "updated": "2026-07-30T15:16:52.871638+00:00",
+  "updated": "2026-07-30T17:42:00.751783+00:00",
   "items": [
+    {
+      "title": "Google DeepMind\u2019s new AI model can control a robot\u2019s entire body",
+      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "source": "The Verge AI",
+      "published": "2026-07-30T13:18:45-04:00",
+      "summary": "Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announcement on Thursday. The new model will allow humanoid robots [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google is working on Chrome updates that don\u2019t require restarts",
+      "url": "https://www.theverge.com/tech/973174/google-chrome-update-no-restart",
+      "source": "The Verge",
+      "published": "2026-07-30T13:00:00-04:00",
+      "summary": "Google is working on a way to apply Chrome updates without requiring you to restart your browser. In a post on Thursday, Google outlines its approach to bug fixes in the age of AI, while noting that it's trying to make updates less disruptive by \"investing in 'dynamic patching' that will eliminate the need for [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Chrome Needs Twice-a-Week Patching Thanks to AI Bug Hunting",
+      "url": "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 17:00:00 +0000",
+      "summary": "The two Chrome updates in June patched more bugs than the 23 updates before them. Now, Google is ramping up its patching schedule thanks to AI-assisted vulnerability discovery.",
+      "isAI": true
+    },
+    {
+      "title": "Pixel 11 Pro Fold design leaks ahead of Google launch event",
+      "url": "https://www.theverge.com/tech/973249/pixel-11-pro-fold-buds-watch-leaks-google-launch-event",
+      "source": "The Verge",
+      "published": "2026-07-30T12:57:39-04:00",
+      "summary": "Weeks ahead of Google's next Pixel hardware event, Leaker Evan Blass has shared what appear to be marketing renders of the unannounced Google Pixel 11 Pro Fold in a post on his Substack. The renders, if accurate, show that the new foldable will look fairly similar to last year's model - it has a tall [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "source": "The Verge AI",
+      "published": "2026-07-30T12:33:32-04:00",
+      "summary": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This morning, Friend launched a new ad showing two [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Okta buys AI security startup Permiso; source says for about $200M",
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 16:09:42 +0000",
+      "summary": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "isAI": true
+    },
+    {
+      "title": "Tesla made its 10 millionth EV",
+      "url": "https://techcrunch.com/2026/07/30/tesla-made-its-10-millionth-ev/",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Jul 2026 16:00:25 +0000",
+      "summary": "The milestone means Tesla is halfway to accomplishing one of the four core product goals Elon Musk has to hit to unlock his full $1 trillion pay package.",
+      "isAI": false
+    },
+    {
+      "title": "The New Friend AI Pendant Can Now Talk Back to You",
+      "url": "https://www.wired.com/story/the-friend-2-necklace-can-talk-back-to-you-now/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 16:00:00 +0000",
+      "summary": "Avi Schiffmann has a new version of his controversial AI companion. It\u2019s more expensive, and you can\u2019t change its personality.",
+      "isAI": true
+    },
+    {
+      "title": "Quantum computers outperform classical ones, with results you can trust",
+      "url": "https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/",
+      "source": "Ars Technica",
+      "published": "Thu, 30 Jul 2026 15:59:37 +0000",
+      "summary": "Three approaches to the issue of quantum results that can't be verified classically.",
+      "isAI": false
+    },
+    {
+      "title": "When will fusion power startup Commonwealth Fusion Systems go public?",
+      "url": "https://techcrunch.com/2026/07/30/when-will-fusion-power-startup-commonwealth-fusion-systems-go-public/",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Jul 2026 15:45:36 +0000",
+      "summary": "There are fresh signs that fusion power startup Commonwealth Fusion Systems will list in the next two to three years.",
+      "isAI": true
+    },
+    {
+      "title": "Meta says AI is making it easier to build new apps \u2014 and more are coming",
+      "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 15:41:16 +0000",
+      "summary": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way following a recent wave of releases for Facebook Groups, Marketplace sellers, Instagram, and gaming.",
+      "isAI": true
+    },
+    {
+      "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+      "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 15:19:15 +0000",
+      "summary": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
+      "isAI": true
+    },
+    {
+      "title": "Fusion power darling Commonwealth Fusion Systems raises another $1B",
+      "url": "https://techcrunch.com/2026/07/30/fusion-power-darling-commonwealth-fusion-systems-raises-another-1b/",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Jul 2026 15:17:39 +0000",
+      "summary": "Commonwealth Fusion Systems raised $1 billion as the startup moves toward its first commercial fusion power plant.",
+      "isAI": true
+    },
     {
       "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
@@ -46,7 +150,7 @@
       "url": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
       "source": "Ars Technica AI",
       "published": "Thu, 30 Jul 2026 14:53:07 +0000",
-      "summary": "Plus, a new deprecation policy ensures features aren't removed suddenly.",
+      "summary": "Plus, a new policy for the AI protocol ensures features aren't removed suddenly.",
       "isAI": true
     },
     {
@@ -94,7 +198,7 @@
       "url": "https://techcrunch.com/2026/07/30/spotify-adds-a-running-mode-to-its-app/",
       "source": "TechCrunch",
       "published": "Thu, 30 Jul 2026 13:00:00 +0000",
-      "summary": "Running Mode will be available to Premium users on iOS in select countries",
+      "summary": "Running Mode will be available to Premium users on iOS in select countries.",
       "isAI": false
     },
     {
@@ -160,6 +264,14 @@
       "published": "Thu, 30 Jul 2026 10:00:00 +0000",
       "summary": "Drone warfare is making the skies more dangerous, even for airplanes far from the battlefield.",
       "isAI": false
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI",
+      "published": "Thu, 30 Jul 2026 10:00:00 GMT",
+      "summary": "Explore lower GPT\u20115.6 pricing for Luna and Terra\u2014and how OpenAI\u2019s more efficient models help enterprises deploy AI workflows at scale.",
+      "isAI": true
     },
     {
       "title": "AI Scammers Are Better at Building Trust Than Humans",
@@ -1888,118 +2000,6 @@
       "published": "Thu, 23 Jul 2026 13:58:37 +0000",
       "summary": "Ford is the first automaker to use a new set of developer tools that will let it embed Apple Maps navigation and mapping directly into its vehicles' infotainment systems.",
       "isAI": false
-    },
-    {
-      "title": "Ford picks Apple Maps for its next EV platform and updated BlueCruise",
-      "url": "https://www.theverge.com/transportation/969919/ford-apple-maps-bluecruise-driver-assist",
-      "source": "The Verge",
-      "published": "2026-07-23T09:49:51-04:00",
-      "summary": "Ford plans to embed Apple Maps directly into its Universal Electric Vehicle Platform, which will start with a $30,000 midsize pickup truck set for release in 2027. In an announcement on Thursday, Ford says it will use Apple Maps to offer \"turn-by-turn directions using natural language, real-time traffic and incident information, intuitive search featuring detailed [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Show HN: Physically accurate black hole you can put in your room",
-      "url": "https://blackhole.plav.in",
-      "source": "Hacker News",
-      "published": "Thu, 23 Jul 2026 13:29:24 +0000",
-      "summary": "We have a black hole at home \u2014 with actual relativistic physics, live in your browser.I'm Sasha (Alexander) Plavin, an astrophysicist at Harvard's Black Hole Initiative studying quasars and black hole environments. I work with raytracing/radiative transfer simulations professionally, and wanted to make one anyone can play with \u2014 so I built this app.Put the black hole onto your screen (any\u2026",
-      "isAI": false
-    },
-    {
-      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
-      "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
-      "source": "Hacker News",
-      "published": "Thu, 23 Jul 2026 13:10:02 +0000",
-      "summary": "Article URL: https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/ Comments URL: https://news.ycombinator.com/item?id=49021006 Points: 154 # Comments: 133",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-      "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
-      "source": "Hacker News",
-      "published": "Thu, 23 Jul 2026 13:00:03 +0000",
-      "summary": "Article URL: https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china Comments URL: https://news.ycombinator.com/item?id=49020868 Points: 194 # Comments: 212",
-      "isAI": true
-    },
-    {
-      "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
-      "url": "https://globaloilnetwork.staffinganalytics.io/",
-      "source": "Hacker News",
-      "published": "Thu, 23 Jul 2026 12:31:21 +0000",
-      "summary": "OP here: I created this visualization tool as the byproduct of a supply chain class I taught at Columbia. The pedagogical exercise grew into a full blown visualization and paper about global oil trade.The model: The mechanics are the same as the financial network Eisenberg-Noe: Instead of banks, every country consumes oil interconnected via bilateral trading. Shocks propagate throughout the\u2026",
-      "isAI": false
-    },
-    {
-      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
-      "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-      "source": "The Verge AI",
-      "published": "2026-07-23T08:00:00-04:00",
-      "summary": "On a gray, humid Saturday morning in central Florida, a little under a dozen people gathered outside the Spring Hill Branch Library to protest the construction of a hyperscale data center in their community. There was no immediate threat - the Hernando County commission had unanimously approved a one-year moratorium on such developments in June [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "How AI helps scientists design the next generation of medicines",
-      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 23 Jul 2026 12:00:00 +0000",
-      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to\u2026",
-      "isAI": true
-    },
-    {
-      "title": "The Best Vacuum for Pet Hair\u2014We Tested Many to Find Which Ones Work Best (2026)",
-      "url": "https://www.wired.com/gallery/best-pet-hair-vacuums/",
-      "source": "Wired",
-      "published": "Thu, 23 Jul 2026 11:33:00 +0000",
-      "summary": "Cordless, handheld, robot, and traditional\u2014we tested them all to find the vacuum that\u2019s fantastic for fur.",
-      "isAI": false
-    },
-    {
-      "title": "I wanted a clock that never needed setting. Things escalated.",
-      "url": "https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/",
-      "source": "Ars Technica",
-      "published": "Thu, 23 Jul 2026 11:00:50 +0000",
-      "summary": "Sure, maybe your clock has a backup battery, but mine has a deployment pipeline!",
-      "isAI": false
-    },
-    {
-      "title": "Experts say exploiting Anthropic\u2019s Fable isn\u2019t how Kimi K3 got so good",
-      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 11:00:00 +0000",
-      "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
-      "isAI": true
-    },
-    {
-      "title": "Google now lets you sign in to your account using a selfie video",
-      "url": "https://www.theverge.com/tech/969361/google-account-sign-in-selfie-video-security",
-      "source": "The Verge",
-      "published": "2026-07-23T06:00:00-04:00",
-      "summary": "Google announced yet another way to gain access to your account if you get locked out, forget your password, or don't have access to the phone, computer, or two-factor authentication apps you typically use. As the name implies, selfie video lets you capture a short video of your face on a mobile device or PC, [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Framework\u2019s premium laptop is shipping with less RAM",
-      "url": "https://www.theverge.com/tech/969819/framework-laptop-13-pro-preorder-ram-price-updates",
-      "source": "The Verge",
-      "published": "2026-07-23T05:28:30-04:00",
-      "summary": "RAMageddon has claimed yet another victim, with Framework now announcing a \"major and unfortunate\" pricing update for its upcoming premium laptop - which also impacts folks who preordered it. Memory configurations for the Laptop 13 Pro have been adjusted after Framework says it received cost updates from its memory supplier that \"are more than double [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Remember Jibo? Its Successor Is a Wearable That Turns Your Life Into AI Slop",
-      "url": "https://www.wired.com/story/the-beloved-jibo-robot-is-being-resurrected-as-an-ai-wearable/",
-      "source": "Wired",
-      "published": "Thu, 23 Jul 2026 09:15:00 +0000",
-      "summary": "With \u201cblessings\u201d from the original Jibo founders, iKairos is a wearable or desk-mounted \u201cAI journal\u201d that turns your family moments into AI images and video.",
-      "isAI": true
-    },
-    {
-      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 06:09:13 +0000",
-      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
-      "isAI": true
     }
   ]
 }
