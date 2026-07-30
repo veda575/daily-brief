@@ -1,6 +1,70 @@
 {
-  "updated": "2026-07-30T17:42:00.751783+00:00",
+  "updated": "2026-07-30T19:42:37.781207+00:00",
   "items": [
+    {
+      "title": "Chrome may get faster updates with no restart required",
+      "url": "https://arstechnica.com/ai/2026/07/chrome-may-get-faster-updates-with-no-restart-required/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 30 Jul 2026 19:26:56 +0000",
+      "summary": "The last two versions of Chrome have included more patches than the previous 23 combined.",
+      "isAI": true
+    },
+    {
+      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 18:57:58 +0000",
+      "summary": "As experts have warned for the last two years, some companies \u2014 like Microsoft and now Google \u2014 are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+      "isAI": true
+    },
+    {
+      "title": "LinkedIn actually adds a \u2018seems like AI slop\u2019 button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "source": "The Verge AI",
+      "published": "2026-07-30T14:43:26-04:00",
+      "summary": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that \"Seems like AI [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Florida plans to build air taxi pads using $200M intended for EV chargers",
+      "url": "https://techcrunch.com/2026/07/30/florida-plans-to-build-air-taxi-pads-using-200m-intended-for-ev-chargers/",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Jul 2026 18:38:12 +0000",
+      "summary": "Florida wants to use federal EV charger funds to build an air taxi network connecting golf courses, luxury apartment buildings, and airports.",
+      "isAI": false
+    },
+    {
+      "title": "LinkedIn adds a button to report AI-generated \u2018slop\u2019",
+      "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 18:05:21 +0000",
+      "summary": "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a \u201cseems like AI slop\u201d reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
+      "isAI": true
+    },
+    {
+      "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
+      "url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 30 Jul 2026 17:58:02 +0000",
+      "summary": "Gemini Robotics 2 includes three models, but only one is publicly available right now.",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia\u2019s Open Source Alliance Is Missing Some Key Names: OpenAI and Anthropic",
+      "url": "https://www.wired.com/story/nvidias-open-source-alliance-snubs-openai-and-anthropic/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 17:51:10 +0000",
+      "summary": "This week on Uncanny Valley, we discuss the open- vs. closed-source debate in AI, key players in White House AI policy, and how to stop your chatbot logs from showing up in search-engine results.",
+      "isAI": true
+    },
+    {
+      "title": "Synthetic-user startup Simile raises $200M at $2B valuation 5 months after $100M Series A",
+      "url": "https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Jul 2026 17:50:11 +0000",
+      "summary": "Add another member to the fast-and-furious AI unicorn club: Simile",
+      "isAI": true
+    },
     {
       "title": "Google DeepMind\u2019s new AI model can control a robot\u2019s entire body",
       "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
@@ -42,7 +106,7 @@
       "isAI": true
     },
     {
-      "title": "Okta buys AI security startup Permiso; source says for about $200M",
+      "title": "Okta buys AI security startup Permiso \u2014 source says for about $200M",
       "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
       "source": "TechCrunch AI",
       "published": "Thu, 30 Jul 2026 16:09:42 +0000",
@@ -1936,70 +2000,6 @@
       "published": "Thu, 23 Jul 2026 15:18:40 +0000",
       "summary": "https://littletech.org/https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0... Comments URL: https://news.ycombinator.com/item?id=49023016 Points: 1008 # Comments: 820",
       "isAI": true
-    },
-    {
-      "title": "Nvidia is sending GPUs to the moon",
-      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 15:00:00 +0000",
-      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
-      "isAI": true
-    },
-    {
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 15:00:00 +0000",
-      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s Gemini nears billion-user milestone",
-      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 14:52:44 +0000",
-      "summary": "Gemini had over 750 million monthly users in February.",
-      "isAI": true
-    },
-    {
-      "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
-      "url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 23 Jul 2026 14:45:05 +0000",
-      "summary": "Aggressive training techniques sharpens threat of bad behavior by leading models.",
-      "isAI": true
-    },
-    {
-      "title": "Lawmakers prepare bill requiring AI \u2018kill switch\u2019",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "source": "The Verge AI",
-      "published": "2026-07-23T10:13:35-04:00",
-      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico. Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) are expected to introduce the legislation on Thursday. The news of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Your backstage pass to TechCrunch Disrupt 2026 is waiting",
-      "url": "https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting/",
-      "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 14:02:00 +0000",
-      "summary": "Volunteer at TechCrunch Disrupt 2026 and get a behind-the-scenes look at how one of the world's biggest startup conferences gets built.",
-      "isAI": true
-    },
-    {
-      "title": "Apple\u2019s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "source": "The Verge AI",
-      "published": "2026-07-23T10:00:00-04:00",
-      "summary": "Today on Decoder, I\u2019m talking with Hayden Field, The Verge\u2019s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI\u2019s future. By now I\u2019m sure most Decoder listeners are familiar with Apple\u2019s allegations in this case. The company says a number of ex-Apple employees at [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Ford bets on Apple for its next-generation of EVs",
-      "url": "https://techcrunch.com/2026/07/23/ford-bets-on-apple-for-its-next-generation-of-evs/",
-      "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 13:58:37 +0000",
-      "summary": "Ford is the first automaker to use a new set of developer tools that will let it embed Apple Maps navigation and mapping directly into its vehicles' infotainment systems.",
-      "isAI": false
     }
   ]
 }
