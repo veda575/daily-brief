@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T07:37:23.201555+00:00",
+  "updated": "2026-07-30T10:30:08.018434+00:00",
   "regions": {
     "us": [
       {
@@ -15,7 +15,7 @@
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": 700440772608,
+        "marketCap": null,
         "changePercent": -5.5123,
         "sortName": "Advanced Micro Devices"
       },
@@ -104,7 +104,7 @@
         "name": "Micron Technology",
         "sector": "Semiconductors / Memory",
         "currency": "USD",
-        "marketCap": 834621538304,
+        "marketCap": null,
         "changePercent": -9.93626
       },
       {
@@ -144,7 +144,7 @@
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 154283229184,
+        "marketCap": null,
         "changePercent": 3.79064
       },
       {
@@ -218,7 +218,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 944921225304.7389,
+        "marketCap": 947648536858.0771,
         "changePercent": -0.7194245
       },
       {
@@ -234,8 +234,8 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 541919064382.83685,
-        "changePercent": 1.2435716
+        "marketCap": 541433030506.60767,
+        "changePercent": 1.1578032
       },
       {
         "ticker": "TSM",
@@ -252,216 +252,216 @@
         "name": "Adani Enterprises",
         "sector": "Conglomerate",
         "currency": "INR",
-        "marketCap": 4325127749632,
-        "changePercent": 0.49604815
+        "marketCap": 4338788335616,
+        "changePercent": 0.8133608
       },
       {
         "ticker": "APOLLOHOSP.NS",
         "name": "Apollo Hospitals",
         "sector": "Healthcare",
         "currency": "INR",
-        "marketCap": 1291401953280,
-        "changePercent": 0.5206001
+        "marketCap": 1292336496640,
+        "changePercent": 0.5931729
       },
       {
         "ticker": "ASTERDM.NS",
         "name": "Aster DM Quality Care",
         "sector": "Healthcare",
         "currency": "INR",
-        "marketCap": 718154891264,
-        "changePercent": 0.8126634
+        "marketCap": 708579491840,
+        "changePercent": -0.53155446
       },
       {
         "ticker": "AUROPHARMA.NS",
         "name": "Aurobindo Pharma",
         "sector": "Pharma Exports",
         "currency": "INR",
-        "marketCap": 911398600704,
-        "changePercent": -0.4212481
+        "marketCap": 906968236032,
+        "changePercent": -0.9052557
       },
       {
         "ticker": "BHARTIARTL",
         "name": "Bharti Airtel",
         "sector": "Telecom / Digital Infrastructure",
         "currency": "INR",
-        "marketCap": 12154153467904,
-        "changePercent": -0.10255358
+        "marketCap": 12207805956096,
+        "changePercent": 0.33843184
       },
       {
         "ticker": "BSE.NS",
         "name": "BSE Ltd",
         "sector": "Stock Exchange / Financial Markets",
         "currency": "INR",
-        "marketCap": 1442604384256,
-        "changePercent": -0.129888
+        "marketCap": 1439953190912,
+        "changePercent": -0.31343123
       },
       {
         "ticker": "DIVISLAB.NS",
         "name": "Divi's Labs",
         "sector": "API",
         "currency": "INR",
-        "marketCap": 2099590987776,
-        "changePercent": 1.599743
+        "marketCap": 2079946309632,
+        "changePercent": 0.64872503
       },
       {
         "ticker": "DRREDDY.NS",
         "name": "Dr. Reddy's",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 953451872256,
-        "changePercent": 0.20157112
+        "marketCap": 953618530304,
+        "changePercent": 0.21885668
       },
       {
         "ticker": "ETERNAL.NS",
         "name": "Eternal",
         "sector": "Food Delivery / Quick Commerce",
         "currency": "INR",
-        "marketCap": 2813628514304,
-        "changePercent": -1.9724163
+        "marketCap": 2859655495680,
+        "changePercent": -0.36882424
       },
       {
         "ticker": "GLAND.NS",
         "name": "Gland Pharma",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 413174497280,
-        "changePercent": -1.5335613
+        "marketCap": 415203524608,
+        "changePercent": -1.0496502
       },
       {
         "ticker": "GLENMARK.NS",
         "name": "Glenmark Pharmaceuticals",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 624736141312,
-        "changePercent": -2.1176844
+        "marketCap": 618104422400,
+        "changePercent": -3.156913
       },
       {
         "ticker": "HDFCBANK.NS",
         "name": "HDFC Bank",
         "sector": "Lending",
         "currency": "INR",
-        "marketCap": 11568402137088,
-        "changePercent": 0.3676962
+        "marketCap": 11614617075712,
+        "changePercent": 0.7685111
       },
       {
         "ticker": "HEROMOTOCO.NS",
         "name": "Hero MotoCorp",
         "sector": "Auto",
         "currency": "INR",
-        "marketCap": 1057331150848,
-        "changePercent": 2.623354
+        "marketCap": 1065494904832,
+        "changePercent": 3.4161289
       },
       {
         "ticker": "INFY.NS",
         "name": "Infosys",
         "sector": "Growth outlook",
         "currency": "INR",
-        "marketCap": 4762945191936,
-        "changePercent": 1.7654716
+        "marketCap": 4678297321472,
+        "changePercent": -0.043267567
       },
       {
         "ticker": "INDIGO.NS",
         "name": "InterGlobe Aviation (IndiGo)",
         "sector": "Aviation",
         "currency": "INR",
-        "marketCap": 2016852967424,
-        "changePercent": -1.1465933
+        "marketCap": 2022459572224,
+        "changePercent": -0.87179
       },
       {
         "ticker": "KIMS.NS",
         "name": "Krishna Institute of Medical Sciences",
         "sector": "Healthcare / Hospitals",
         "currency": "INR",
-        "marketCap": 324972838912,
-        "changePercent": 1.7735194
+        "marketCap": 322912124928,
+        "changePercent": 1.1278195
       },
       {
         "ticker": "MARUTI.NS",
         "name": "Maruti Suzuki",
         "sector": "Auto",
         "currency": "INR",
-        "marketCap": 4366422769664,
-        "changePercent": -0.4301692
+        "marketCap": 4460743491584,
+        "changePercent": 1.7206768
       },
       {
         "ticker": "NCC.NS",
         "name": "NCC Ltd",
         "sector": "Construction / Infrastructure",
         "currency": "INR",
-        "marketCap": 88808898560,
-        "changePercent": -0.49243543
+        "marketCap": 88469864448,
+        "changePercent": -0.8723112
       },
       {
         "ticker": "NEULANDLAB.NS",
         "name": "Neuland Laboratories",
         "sector": "Pharma CRDMO",
         "currency": "INR",
-        "marketCap": 247321772032,
-        "changePercent": -2.1324127
+        "marketCap": 246359523328,
+        "changePercent": -2.513073
       },
       {
         "ticker": "RELIANCE.NS",
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 17512371585024,
-        "changePercent": 1.4259931
+        "marketCap": null,
+        "changePercent": 1.3323928
       },
       {
         "ticker": "SAILIFE.NS",
         "name": "Sai Life Sciences",
         "sector": "Pharma CRDMO",
         "currency": "INR",
-        "marketCap": 277639299072,
-        "changePercent": -0.6153594
+        "marketCap": 279210262528,
+        "changePercent": -0.053201098
       },
       {
         "ticker": "SIGMAADV.NS",
         "name": "Sigma Advanced Systems",
         "sector": "Technology",
         "currency": "INR",
-        "marketCap": 108916137984,
-        "changePercent": 2.0778322
+        "marketCap": 105638084608,
+        "changePercent": -0.9910802
       },
       {
         "ticker": "SBIN.NS",
         "name": "State Bank of India",
         "sector": "Banking",
         "currency": "INR",
-        "marketCap": 9451229675520,
-        "changePercent": 1.006216
+        "marketCap": 9464152326144,
+        "changePercent": 1.1443263
       },
       {
         "ticker": "SWIGGY.NS",
         "name": "Swiggy",
         "sector": "Food Delivery / Quick Commerce",
         "currency": "INR",
-        "marketCap": 757918859264,
-        "changePercent": 1.2145433
+        "marketCap": 771157655552,
+        "changePercent": 2.982532
       },
       {
         "ticker": "TCS.NS",
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8892535799808,
-        "changePercent": 0.45768258
+        "marketCap": null,
+        "changePercent": -0.60492307
       },
       {
         "ticker": "TECHM.NS",
         "name": "Tech Mahindra",
         "sector": "Telecom IT",
         "currency": "INR",
-        "marketCap": 1491238518784,
-        "changePercent": 2.3842876
+        "marketCap": 1478482198528,
+        "changePercent": 1.5083354
       },
       {
         "ticker": "WIPRO.NS",
         "name": "Wipro",
         "sector": "IT",
         "currency": "INR",
-        "marketCap": 1862707576832,
-        "changePercent": 2.5546067
+        "marketCap": 1843219791872,
+        "changePercent": 1.4814014
       }
     ]
   }

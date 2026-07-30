@@ -1,6 +1,38 @@
 {
-  "updated": "2026-07-30T07:37:23.201555+00:00",
+  "updated": "2026-07-30T10:30:08.018434+00:00",
   "items": [
+    {
+      "title": "LinkedIn Won\u2019t Be Expanding Its Data Centers in the Next Year",
+      "url": "https://www.wired.com/story/how-linkedin-is-keeping-its-compute-capacity-flat/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 10:15:00 +0000",
+      "summary": "Despite the ongoing AI boom, LinkedIn is holding the line on compute spending. Instead, it\u2019s challenging engineers to make every GPU count.",
+      "isAI": true
+    },
+    {
+      "title": "A Civilian Plane Crashed in New Mexico. Was the Military\u2019s Tech to Blame?",
+      "url": "https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 10:00:00 +0000",
+      "summary": "Drone warfare is making the skies more dangerous, even for airplanes far from the battlefield.",
+      "isAI": false
+    },
+    {
+      "title": "AI Scammers Are Better at Building Trust Than Humans",
+      "url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 09:30:00 +0000",
+      "summary": "Researchers pitted a person against a Claude agent and found that, after a week of texting, the AI chatbot was more effective at creating \u201cexploitable trust\u201d with others.",
+      "isAI": true
+    },
+    {
+      "title": "I Got a Free Meal From a Private Chef\u2014Who Filmed It All to Train Robots",
+      "url": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 09:00:00 +0000",
+      "summary": "A German startup sent a camera-wearing chef to my apartment. In exchange for a free lunch, I let them record every chop and stir to train future humanoids.",
+      "isAI": true
+    },
     {
       "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
       "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
@@ -70,7 +102,7 @@
       "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
       "source": "Hacker News",
       "published": "Wed, 29 Jul 2026 21:25:40 +0000",
-      "summary": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 392 # Comments: 212",
+      "summary": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 481 # Comments: 245",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Wed, 22 Jul 2026 16:47:49 +0000",
       "summary": "\"This is day one for cybersecurity in the age of agents,\" Hugging Face CEO says.",
-      "isAI": true
-    },
-    {
-      "title": "Here\u2019s what Samsung\u2019s smart glasses actually look like",
-      "url": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
-      "source": "The Verge AI",
-      "published": "2026-07-22T12:35:34-04:00",
-      "summary": "Samsung has given us our first chance to check out its upcoming smart glasses in person, revealing two new designs and the first specs in the process, including an impressive 9-hour battery life. The glasses, developed in collaboration with Google and the eyewear brands Gentle Monster and Warby Parker, are due to launch this fall. [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 22 Jul 2026 16:24:08 +0000",
-      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
-      "isAI": true
-    },
-    {
-      "title": "Substack\u2019s new tool tells you who\u2019s been writing their newsletters with AI",
-      "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 22 Jul 2026 16:23:09 +0000",
-      "summary": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s AI spending spree has ballooned to $750B",
-      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 22 Jul 2026 16:13:30 +0000",
-      "summary": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
       "isAI": true
     }
   ]
