@@ -2,13 +2,13 @@ name: Market-hours data refresh
 
 on:
   schedule:
-    # Asia + India session, hourly: 00:00-10:00 UTC
+    # Asia + India session, hourly, Mon-Fri: 00:00-10:00 UTC
     # (KRX opens 00:00 UTC, HKEX/SSE ~01:30 UTC, NSE 03:45-10:00 UTC)
-    - cron: "0 0-10 * * *"
-    # US session, hourly: 13:00-21:00 UTC
+    - cron: "0 0-10 * * 1-5"
+    # US session, hourly, Mon-Fri: 13:00-21:00 UTC
     # (NYSE/Nasdaq 9:30am-4pm ET = 13:30-20:00 UTC in EDT, 14:30-21:00 UTC in EST;
     # the wider window covers both without needing to track the DST switch)
-    - cron: "0 13-21 * * *"
+    - cron: "0 13-21 * * 1-5"
   workflow_dispatch:
 
 # Only one update at a time. Newer runs queue; in-progress runs finish first.
