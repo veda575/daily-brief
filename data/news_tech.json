@@ -1,6 +1,78 @@
 {
-  "updated": "2026-07-30T21:17:41.710544+00:00",
+  "updated": "2026-07-31T03:29:54.164336+00:00",
   "items": [
+    {
+      "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
+      "url": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/",
+      "source": "Wired",
+      "published": "Fri, 31 Jul 2026 01:24:26 +0000",
+      "summary": "In a review triggered by OpenAI\u2019s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 31 Jul 2026 01:06:54 +0000",
+      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "isAI": true
+    },
+    {
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 23:25:58 +0000",
+      "summary": "The former OpenAI researcher\u2019s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+      "isAI": true
+    },
+    {
+      "title": "The AI Aesthetic",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "source": "Hacker News",
+      "published": "Thu, 30 Jul 2026 23:22:16 +0000",
+      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 157 # Comments: 78",
+      "isAI": true
+    },
+    {
+      "title": "How the FCC\u2019s New Rule Will Affect Robot Vacuums",
+      "url": "https://www.wired.com/story/the-fcc-is-coming-for-robot-vacuums/",
+      "source": "Wired",
+      "published": "Thu, 30 Jul 2026 23:17:46 +0000",
+      "summary": "A new restriction on foreign-made mobile robots affects robotic vacuums, pool cleaners, and lawn mowers. Here\u2019s what it means for the bots already in your home\u2014and the ones you may never get to buy.",
+      "isAI": true
+    },
+    {
+      "title": "Reddit reports a solid quarter but shows signs of AI\u2019s impact",
+      "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 23:08:58 +0000",
+      "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
+      "isAI": true
+    },
+    {
+      "title": "Investors love AI, as long as you\u2019re a cloud host",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 30 Jul 2026 22:41:41 +0000",
+      "summary": "Amazon isn't slowing down on data center spending \u2014 but investors don't seem to mind.",
+      "isAI": true
+    },
+    {
+      "title": "Apple says gaming slowdown and App Store changes hurt services growth",
+      "url": "https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Jul 2026 22:37:06 +0000",
+      "summary": "Apple said a slowdown in mobile gaming and changes to the App Store\u2019s business model \u2014 including court-ordered payment rule changes in the U.S. \u2014 weighed on its services business, even as the company topped 1.5 billion paid subscriptions.",
+      "isAI": false
+    },
+    {
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "source": "The Verge AI",
+      "published": "2026-07-30T18:29:45-04:00",
+      "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people [\u2026]",
+      "isAI": true
+    },
     {
       "title": "The loss of Situational Awareness",
       "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
@@ -10,11 +82,11 @@
       "isAI": true
     },
     {
-      "title": "Judge says Trump admin still lacks evidence for Anthropic \u2018supply chain risk\u2019 label",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic \u2018supply-chain risk\u2019 label",
       "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
       "source": "TechCrunch AI",
       "published": "Thu, 30 Jul 2026 20:26:38 +0000",
-      "summary": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply chain risk, casting doubt on the government's ban on its AI technology.",
+      "summary": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
       "isAI": true
     },
     {
@@ -214,7 +286,7 @@
       "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 15:10:27 +0000",
-      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 154 # Comments: 73",
+      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 204 # Comments: 83",
       "isAI": true
     },
     {
@@ -322,6 +394,14 @@
       "isAI": true
     },
     {
+      "title": "Why is everyone trying to build a solid-state battery?",
+      "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+      "source": "Hacker News",
+      "published": "Thu, 30 Jul 2026 12:38:51 +0000",
+      "summary": "Article URL: https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a Comments URL: https://news.ycombinator.com/item?id=49109193 Points: 179 # Comments: 217",
+      "isAI": false
+    },
+    {
       "title": "Best Vacuum Cleaners (2026): Cordless Vacuums, Robot Vacuums, Dysons",
       "url": "https://www.wired.com/gallery/the-best-vacuum-cleaner/",
       "source": "Wired",
@@ -334,7 +414,7 @@
       "url": "https://lwn.net/Articles/1086041/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 11:45:44 +0000",
-      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 193 # Comments: 220",
+      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 249 # Comments: 294",
       "isAI": true
     },
     {
@@ -374,7 +454,7 @@
       "url": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 10:13:46 +0000",
-      "summary": "Article URL: https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html Comments URL: https://news.ycombinator.com/item?id=49107950 Points: 301 # Comments: 378",
+      "summary": "Article URL: https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html Comments URL: https://news.ycombinator.com/item?id=49107950 Points: 367 # Comments: 455",
       "isAI": false
     },
     {
@@ -415,6 +495,14 @@
       "source": "TechCrunch AI",
       "published": "Thu, 30 Jul 2026 00:21:06 +0000",
       "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+      "isAI": true
+    },
+    {
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "url": "https://openai.com/index/avatarin",
+      "source": "OpenAI",
+      "published": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "summary": "avatarin uses OpenAI\u2019s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
       "isAI": true
     },
     {
@@ -1538,6 +1626,14 @@
       "isAI": true
     },
     {
+      "title": "2x, not 10x: coding with LLMs in 2026",
+      "url": "https://obryant.dev/p/2x-not-10x/",
+      "source": "Hacker News",
+      "published": "Sat, 25 Jul 2026 14:27:05 +0000",
+      "summary": "Article URL: https://obryant.dev/p/2x-not-10x/ Comments URL: https://news.ycombinator.com/item?id=49047839 Points: 228 # Comments: 177",
+      "isAI": false
+    },
+    {
       "title": "One fallen power line exposed a growing AI data center problem \u2014 here\u2019s how to fix it",
       "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
       "source": "TechCrunch AI",
@@ -1903,102 +1999,6 @@
       "source": "Ars Technica",
       "published": "Thu, 23 Jul 2026 20:47:33 +0000",
       "summary": "App is installed through Windows Update when certain LG monitors connect to a PC.",
-      "isAI": false
-    },
-    {
-      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
-      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 20:33:02 +0000",
-      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
-      "isAI": true
-    },
-    {
-      "title": "Patreon lays off 20% of its workforce",
-      "url": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
-      "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 20:30:07 +0000",
-      "summary": "In a memo to staff that was posted online, Conte said the company's core business is strong, but the platform has to respond to market changes and adjust its cost structure to remain stable.",
-      "isAI": false
-    },
-    {
-      "title": "Insurance startup Corgi reportedly raised more money at $4B \u2014 its third round in 8 weeks",
-      "url": "https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/",
-      "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 20:13:24 +0000",
-      "summary": "In the AI-funding frenzy, many startups are raising back-to-back rounds at ever-increasing valuations \u2014 but even by those standards, Corgi stands out.",
-      "isAI": true
-    },
-    {
-      "title": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models",
-      "url": "https://news.ycombinator.com/item?id=49026810",
-      "source": "Hacker News",
-      "published": "Thu, 23 Jul 2026 19:26:01 +0000",
-      "summary": "I\u2019ve been building Echo (https://echo.tracerml.ai/), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Forgot your Google password? Now you can log in with a selfie.",
-      "url": "https://arstechnica.com/gadgets/2026/07/google-now-lets-you-log-into-your-account-with-a-selfie/",
-      "source": "Ars Technica",
-      "published": "Thu, 23 Jul 2026 19:14:25 +0000",
-      "summary": "Google's selfie videos can be used for account access, AI Avatars, and age verification.",
-      "isAI": true
-    },
-    {
-      "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
-      "url": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 23 Jul 2026 19:08:01 +0000",
-      "summary": "Bill would let Homeland Security chief decide when an AI should be shut down.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic updates Claude voice mode with more capable models",
-      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 19:00:00 +0000",
-      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
-      "isAI": true
-    },
-    {
-      "title": "Claude\u2019s voice mode is now available for Opus and Sonnet",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-      "source": "The Verge AI",
-      "published": "2026-07-23T15:00:00-04:00",
-      "summary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Meta\u2019s New Feel-Good AI Ad Uses a Song About the World Ending",
-      "url": "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually/",
-      "source": "Wired",
-      "published": "Thu, 23 Jul 2026 18:45:52 +0000",
-      "summary": "The clip features the David Bowie track \u201cFive Years,\u201d which includes lyrics such as \u201cEarth was really dying (dying).\u201d",
-      "isAI": true
-    },
-    {
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 23 Jul 2026 18:38:34 +0000",
-      "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn\u2019t catch.",
-      "isAI": true
-    },
-    {
-      "title": "Patreon is laying off 20 percent of workers",
-      "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
-      "source": "The Verge AI",
-      "published": "2026-07-23T14:20:30-04:00",
-      "summary": "Patreon is laying off 20 percent of its workers, or around 93 employees, as reported earlier by 404 Media. In a memo to employees, Patreon CEO Jack Conte writes that the company isn't making these changes \"because we believe AI replaces humans,\" but says AI has \"fundamentally transformed the tech industry, including how we work, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Kimi K3 exploited the latest Redis server",
-      "url": "https://twitter.com/fried_rice/status/2080059356322918777",
-      "source": "Hacker News",
-      "published": "Thu, 23 Jul 2026 17:10:02 +0000",
-      "summary": "https://xcancel.com/fried_rice/status/2080059356322918777 Comments URL: https://news.ycombinator.com/item?id=49024938 Points: 247 # Comments: 78",
       "isAI": false
     }
   ]
