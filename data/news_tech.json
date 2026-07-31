@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T17:46:08.316655+00:00",
+  "updated": "2026-07-31T19:43:56.818405+00:00",
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -10,12 +10,60 @@
       "isAI": true
     },
     {
+      "title": "Google Earth\u2019s AI deepfake tool only lasted one day",
+      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+      "source": "The Verge AI",
+      "published": "2026-07-31T15:13:29-04:00",
+      "summary": "Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text prompts; Digital Digging's Henk van Ess, for example, intentionally generated images adding things like refugees near the Mexican border [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
+      "url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 19:04:56 +0000",
+      "summary": "LemonLime\u2019s CEO got \u201ccarried away\u201d with tattoo gimmick.",
+      "isAI": true
+    },
+    {
+      "title": "VC-backed startups commit more fraud, and researchers think they know why",
+      "url": "https://techcrunch.com/2026/07/31/vc-backed-startups-commit-more-fraud-and-researchers-think-they-know-why/",
+      "source": "TechCrunch",
+      "published": "Fri, 31 Jul 2026 19:00:00 +0000",
+      "summary": "New research from the U.K.\u2019s Imperial College and France\u2019s Emlyon Business School mapped out how Silicon Valley founders commit fraud \u2014 and the role investors play.",
+      "isAI": true
+    },
+    {
+      "title": "Chinese AI Researchers Are Finding Their Voice on X",
+      "url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
+      "source": "Wired",
+      "published": "Fri, 31 Jul 2026 18:14:43 +0000",
+      "summary": "As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI.",
+      "isAI": true
+    },
+    {
+      "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
+      "url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 18:11:55 +0000",
+      "summary": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
+      "isAI": true
+    },
+    {
       "title": "The ban on robot vacuums won\u2019t make them safer, only worse",
       "url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
       "source": "The Verge",
       "published": "2026-07-31T13:30:49-04:00",
       "summary": "No other gadget knows as much about your home as a robot vacuum. They map your space, learn your routines, and many now carry a camera and microphone into every room in your house. As AI gives them a better understanding of what they see, the privacy and security risks these autonomous robots pose are [\u2026]",
       "isAI": true
+    },
+    {
+      "title": "China could supply EV manufacturing boom with recycled EVs",
+      "url": "https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/",
+      "source": "Ars Technica",
+      "published": "Fri, 31 Jul 2026 17:29:21 +0000",
+      "summary": "Look at chemistry of batteries and motors shows big opportunity for recycling.",
+      "isAI": false
     },
     {
       "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI",
@@ -190,7 +238,7 @@
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 07:59:11 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/models/deepseek-v4-flash Comments URL: https://news.ycombinator.com/item?id=49120299 Points: 410 # Comments: 225",
+      "summary": "Article URL: https://artificialanalysis.ai/models/deepseek-v4-flash Comments URL: https://news.ycombinator.com/item?id=49120299 Points: 463 # Comments: 251",
       "isAI": true
     },
     {
@@ -214,7 +262,7 @@
       "url": "https://api-docs.deepseek.com/updates/",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 06:08:36 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 553 # Comments: 266",
+      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 614 # Comments: 298",
       "isAI": false
     },
     {
@@ -1951,54 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Fri, 24 Jul 2026 21:25:15 +0000",
       "summary": "\"Here\u2019s a more natural, flowing version of that section...\"",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
-      "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 24 Jul 2026 21:05:51 +0000",
-      "summary": "Models are improving quickly, but the cheaper options are often good enough.",
-      "isAI": true
-    },
-    {
-      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
-      "url": "https://artificialanalysis.ai/models",
-      "source": "Hacker News",
-      "published": "Fri, 24 Jul 2026 19:45:10 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/models Comments URL: https://news.ycombinator.com/item?id=49040741 Points: 335 # Comments: 196",
-      "isAI": true
-    },
-    {
-      "title": "Midjourney bought the astrology app Co-Star",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "source": "The Verge AI",
-      "published": "2026-07-24T15:06:58-04:00",
-      "summary": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily horoscopes and allows you to check your [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 24 Jul 2026 18:07:32 +0000",
-      "summary": "The acquisition brings Poke\u2019s conversational style and interaction model to Cognition\u2019s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
-      "isAI": true
-    },
-    {
-      "title": "China-US AI Race Escalates, OpenAI Models Break Free, and Why You Should Check Your Car Alarm",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast/",
-      "source": "Wired",
-      "published": "Fri, 24 Jul 2026 17:53:01 +0000",
-      "summary": "On this episode of Uncanny Valley, we dive into accusations that China\u2019s Moonshot AI stole from Anthropic, and how the US Army needs to cut back on AI use.",
-      "isAI": true
-    },
-    {
-      "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
-      "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 24 Jul 2026 17:31:26 +0000",
-      "summary": "Google's AlphaFold can help ID what parts of a gene editing protein enable mistakes.",
       "isAI": true
     }
   ]
