@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T03:29:54.164336+00:00",
+  "updated": "2026-07-31T06:49:33.946468+00:00",
   "items": [
     {
       "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
@@ -30,7 +30,7 @@
       "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 23:22:16 +0000",
-      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 157 # Comments: 78",
+      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 267 # Comments: 119",
       "isAI": true
     },
     {
@@ -64,6 +64,14 @@
       "published": "Thu, 30 Jul 2026 22:37:06 +0000",
       "summary": "Apple said a slowdown in mobile gaming and changes to the App Store\u2019s business model \u2014 including court-ordered payment rule changes in the U.S. \u2014 weighed on its services business, even as the company topped 1.5 billion paid subscriptions.",
       "isAI": false
+    },
+    {
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "source": "Hacker News",
+      "published": "Thu, 30 Jul 2026 22:33:11 +0000",
+      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 154 # Comments: 64",
+      "isAI": true
     },
     {
       "title": "Tim Cook hints at iCloud Plus tier for AI power users",
@@ -286,7 +294,7 @@
       "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 15:10:27 +0000",
-      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 204 # Comments: 83",
+      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 227 # Comments: 90",
       "isAI": true
     },
     {
@@ -398,7 +406,7 @@
       "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 12:38:51 +0000",
-      "summary": "Article URL: https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a Comments URL: https://news.ycombinator.com/item?id=49109193 Points: 179 # Comments: 217",
+      "summary": "Article URL: https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a Comments URL: https://news.ycombinator.com/item?id=49109193 Points: 185 # Comments: 237",
       "isAI": false
     },
     {
@@ -414,7 +422,7 @@
       "url": "https://lwn.net/Articles/1086041/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 11:45:44 +0000",
-      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 249 # Comments: 294",
+      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 274 # Comments: 310",
       "isAI": true
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "2026-07-23T17:15:06-04:00",
       "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to [\u2026]",
       "isAI": true
-    },
-    {
-      "title": "Microsoft responds to LG monitors installing McAfee ads on Windows",
-      "url": "https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/",
-      "source": "Ars Technica",
-      "published": "Thu, 23 Jul 2026 20:47:33 +0000",
-      "summary": "App is installed through Windows Update when certain LG monitors connect to a PC.",
-      "isAI": false
     }
   ]
 }
