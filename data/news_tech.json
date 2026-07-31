@@ -1,12 +1,36 @@
 {
-  "updated": "2026-07-31T19:43:56.818405+00:00",
+  "updated": "2026-07-31T21:13:34.690512+00:00",
   "items": [
     {
-      "title": "Disrupting a Criminal Scam Operation",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "source": "OpenAI",
-      "published": "Tue, 04 Aug 2026 00:00:00 GMT",
-      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "title": "India is starting to pay for apps, not just download them",
+      "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 31 Jul 2026 21:07:45 +0000",
+      "summary": "India's app market generated a record $345 million in Q2.",
+      "isAI": true
+    },
+    {
+      "title": "Claude published malicious code to the Internet and attacked 3 real companies",
+      "url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 20:39:14 +0000",
+      "summary": "Had the hacks used conventional methods, someone would likely go to prison.",
+      "isAI": true
+    },
+    {
+      "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
+      "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 20:21:05 +0000",
+      "summary": "\u201cWhat on earth is Google doing?\u201d Misinformation fears spur walk-back of AI tool.",
+      "isAI": true
+    },
+    {
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 31 Jul 2026 19:47:28 +0000",
+      "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
       "isAI": true
     },
     {
@@ -47,6 +71,14 @@
       "source": "Ars Technica AI",
       "published": "Fri, 31 Jul 2026 18:11:55 +0000",
       "summary": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
+      "isAI": true
+    },
+    {
+      "title": "qm",
+      "url": "https://github.com/yc-software/qm",
+      "source": "Hacker News",
+      "published": "Fri, 31 Jul 2026 18:04:58 +0000",
+      "summary": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?id=49126604 Points: 243 # Comments: 53",
       "isAI": true
     },
     {
@@ -262,7 +294,7 @@
       "url": "https://api-docs.deepseek.com/updates/",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 06:08:36 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 614 # Comments: 298",
+      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 646 # Comments: 305",
       "isAI": false
     },
     {
@@ -287,6 +319,14 @@
       "source": "TechCrunch AI",
       "published": "Fri, 31 Jul 2026 01:06:54 +0000",
       "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",
+      "isAI": true
+    },
+    {
+      "title": "Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "OpenAI",
+      "published": "Fri, 31 Jul 2026 00:00:00 GMT",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "isAI": true
     },
     {
@@ -1959,46 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Sat, 25 Jul 2026 00:23:11 +0000",
       "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
-      "isAI": true
-    },
-    {
-      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
-      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
-      "source": "Ars Technica",
-      "published": "Fri, 24 Jul 2026 22:28:20 +0000",
-      "summary": "\"Any potential damage will be assessed when it is safe to do so.\"",
-      "isAI": false
-    },
-    {
-      "title": "After backlash, Meta pauses plan to \u2018rate limit\u2019 its smart glasses",
-      "url": "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
-      "source": "The Verge",
-      "published": "2026-07-24T18:27:46-04:00",
-      "summary": "Remember when Meta was planning to charge a $20 monthly subscription fee for the smart glasses feature that lets people hear each other more clearly - even though that feature runs locally on your glasses and doesn't require the cloud? Meta has paused those plans, spokesperson Tyler Yee confirms to The Verge. The company is [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 24 Jul 2026 22:25:58 +0000",
-      "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-      "isAI": true
-    },
-    {
-      "title": "TechCrunch Disrupt 2026\u2019s new Smart Money Stage explores fintech, payments, AI, and everything between",
-      "url": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/",
-      "source": "TechCrunch",
-      "published": "Fri, 24 Jul 2026 22:10:00 +0000",
-      "summary": "Money has evolved into far more than the cash in your wallet or your bank account. And at TechCrunch Disrupt 2026, we\u2019re devoting an entire stage to that progression.",
-      "isAI": true
-    },
-    {
-      "title": "Canadian legislator reads out apparent LLM response in floor speech",
-      "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 24 Jul 2026 21:25:15 +0000",
-      "summary": "\"Here\u2019s a more natural, flowing version of that section...\"",
       "isAI": true
     }
   ]
