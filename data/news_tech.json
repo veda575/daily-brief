@@ -1,6 +1,30 @@
 {
-  "updated": "2026-07-31T06:49:33.946468+00:00",
+  "updated": "2026-07-31T09:49:17.109195+00:00",
   "items": [
+    {
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI",
+      "published": "Fri, 31 Jul 2026 15:00:00 GMT",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "isAI": true
+    },
+    {
+      "title": "Univ\u00e9 builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "source": "OpenAI",
+      "published": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "summary": "See how Univ\u00e9 built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "isAI": true
+    },
+    {
+      "title": "DeepSeek-V4-Flash Update",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "source": "Hacker News",
+      "published": "Fri, 31 Jul 2026 06:08:36 +0000",
+      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 240 # Comments: 94",
+      "isAI": false
+    },
     {
       "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
       "url": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/",
@@ -30,7 +54,7 @@
       "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 23:22:16 +0000",
-      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 267 # Comments: 119",
+      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 301 # Comments: 133",
       "isAI": true
     },
     {
@@ -70,7 +94,7 @@
       "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 22:33:11 +0000",
-      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 154 # Comments: 64",
+      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 191 # Comments: 89",
       "isAI": true
     },
     {
@@ -294,7 +318,7 @@
       "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 15:10:27 +0000",
-      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 227 # Comments: 90",
+      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 235 # Comments: 100",
       "isAI": true
     },
     {
@@ -422,7 +446,7 @@
       "url": "https://lwn.net/Articles/1086041/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 11:45:44 +0000",
-      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 274 # Comments: 310",
+      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 292 # Comments: 320",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "Hacker News",
       "published": "Fri, 24 Jul 2026 05:09:15 +0000",
       "summary": "Article URL: https://platform.claude.com/cookbook/ Comments URL: https://news.ycombinator.com/item?id=49031409 Points: 172 # Comments: 83",
-      "isAI": true
-    },
-    {
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 24 Jul 2026 01:00:00 +0000",
-      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI\u2019s and Anthropic\u2019s guardrails affect their work.",
-      "isAI": true
-    },
-    {
-      "title": "Meet the judges who will crown Australia\u2019s next breakout startup",
-      "url": "https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/",
-      "source": "TechCrunch",
-      "published": "Fri, 24 Jul 2026 00:05:00 +0000",
-      "summary": "TechCrunch Startup Battlefield is coming to Australia \u2014 and we're partnering with Stripe to find the country's most exciting early-stage startups.",
-      "isAI": true
-    },
-    {
-      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
-      "source": "The Verge AI",
-      "published": "2026-07-23T17:15:06-04:00",
-      "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to [\u2026]",
       "isAI": true
     }
   ]
