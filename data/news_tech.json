@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T09:49:17.109195+00:00",
+  "updated": "2026-07-31T12:04:40.955743+00:00",
   "items": [
     {
       "title": "Advancing responsible AI across Europe",
@@ -7,6 +7,22 @@
       "source": "OpenAI",
       "published": "Fri, 31 Jul 2026 15:00:00 GMT",
       "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "isAI": true
+    },
+    {
+      "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers",
+      "url": "https://techcrunch.com/2026/07/31/repeat-founder-ryan-williams-raises-10m-seed-for-an-ai-startup-for-private-credit-managers/",
+      "source": "TechCrunch",
+      "published": "Fri, 31 Jul 2026 12:00:00 +0000",
+      "summary": "Ellis AI announced Thursday its emergence from stealth with $10 million in seed funding.",
+      "isAI": true
+    },
+    {
+      "title": "The New Defcon Badges Pack a Unique Open Source Chip That Doubles as a Security Key",
+      "url": "https://www.wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang/",
+      "source": "Wired",
+      "published": "Fri, 31 Jul 2026 10:00:00 +0000",
+      "summary": "Created by legendary hardware hacker Andrew \u201cbunnie\u201d Huang, the badges for this year\u2019s famed security conference aim to push the boundaries of security and transparency.",
       "isAI": true
     },
     {
@@ -22,7 +38,7 @@
       "url": "https://api-docs.deepseek.com/updates/",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 06:08:36 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 240 # Comments: 94",
+      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 366 # Comments: 178",
       "isAI": false
     },
     {
@@ -54,7 +70,7 @@
       "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 23:22:16 +0000",
-      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 301 # Comments: 133",
+      "summary": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 325 # Comments: 144",
       "isAI": true
     },
     {
@@ -94,7 +110,7 @@
       "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 22:33:11 +0000",
-      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 191 # Comments: 89",
+      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 223 # Comments: 102",
       "isAI": true
     },
     {
@@ -318,7 +334,7 @@
       "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 15:10:27 +0000",
-      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 235 # Comments: 100",
+      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 247 # Comments: 107",
       "isAI": true
     },
     {
@@ -430,7 +446,7 @@
       "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 12:38:51 +0000",
-      "summary": "Article URL: https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a Comments URL: https://news.ycombinator.com/item?id=49109193 Points: 185 # Comments: 237",
+      "summary": "Article URL: https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a Comments URL: https://news.ycombinator.com/item?id=49109193 Points: 200 # Comments: 251",
       "isAI": false
     },
     {
@@ -446,7 +462,7 @@
       "url": "https://lwn.net/Articles/1086041/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 11:45:44 +0000",
-      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 292 # Comments: 320",
+      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 308 # Comments: 347",
       "isAI": true
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "Fri, 24 Jul 2026 08:49:52 +0000",
       "summary": "EU law gives researchers unprecedented rights to scrutinize social media data. Researchers say TikTok, X, and Meta impede their attempts to look inside.",
       "isAI": false
-    },
-    {
-      "title": "Flux 3",
-      "url": "https://bfl.ai/blog/flux-3",
-      "source": "Hacker News",
-      "published": "Fri, 24 Jul 2026 06:17:08 +0000",
-      "summary": "Article URL: https://bfl.ai/blog/flux-3 Comments URL: https://news.ycombinator.com/item?id=49031796 Points: 434 # Comments: 110",
-      "isAI": true
-    },
-    {
-      "title": "Claude Cookbook",
-      "url": "https://platform.claude.com/cookbook/",
-      "source": "Hacker News",
-      "published": "Fri, 24 Jul 2026 05:09:15 +0000",
-      "summary": "Article URL: https://platform.claude.com/cookbook/ Comments URL: https://news.ycombinator.com/item?id=49031409 Points: 172 # Comments: 83",
-      "isAI": true
     }
   ]
 }
