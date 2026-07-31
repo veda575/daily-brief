@@ -1,12 +1,76 @@
 {
-  "updated": "2026-07-31T12:04:40.955743+00:00",
+  "updated": "2026-07-31T15:24:13.807694+00:00",
   "items": [
+    {
+      "title": "SpaceX won\u2019t remove all of xAI\u2019s unpermitted turbines for another year",
+      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 31 Jul 2026 15:16:17 +0000",
+      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+      "isAI": true
+    },
+    {
+      "title": "AI Slop Melodramas Are Taking Over X\u2014and Their Creators Are Cashing In",
+      "url": "https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in/",
+      "source": "Wired",
+      "published": "Fri, 31 Jul 2026 15:00:09 +0000",
+      "summary": "Viral tales of good triumphing over evil are racking up millions of views. They\u2019re almost entirely AI-generated clickbait.",
+      "isAI": true
+    },
     {
       "title": "Advancing responsible AI across Europe",
       "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
       "source": "OpenAI",
       "published": "Fri, 31 Jul 2026 15:00:00 GMT",
       "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "isAI": true
+    },
+    {
+      "title": "Building abundant intelligence",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "source": "OpenAI",
+      "published": "Fri, 31 Jul 2026 15:00:00 GMT",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "isAI": true
+    },
+    {
+      "title": "This AI Assistant Wants to Make Up for Your Boyfriend\u2019s Incompetence",
+      "url": "https://www.wired.com/story/this-ai-assistants-whole-pitch-is-making-up-for-your-boyfriends-incompetence/",
+      "source": "Wired",
+      "published": "Fri, 31 Jul 2026 14:47:26 +0000",
+      "summary": "An ad for Orchid suggests the AI agent can fix relationship problems by simply doing everything for inconsiderate partners.",
+      "isAI": true
+    },
+    {
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 31 Jul 2026 14:47:11 +0000",
+      "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "isAI": true
+    },
+    {
+      "title": "It\u2019s time to panic about AI safety",
+      "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "source": "The Verge AI",
+      "published": "2026-07-31T10:03:04-04:00",
+      "summary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services, all in the name of [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "AI scammers outperform humans when it comes to building trust",
+      "url": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 14:01:40 +0000",
+      "summary": "The AI chatbot was more effective at creating \u201cexploitable trust\u201d than the humans.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic says Claude accidentally hacked real companies too",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "source": "The Verge AI",
+      "published": "2026-07-31T09:41:17-04:00",
+      "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI [\u2026]",
       "isAI": true
     },
     {
@@ -18,11 +82,35 @@
       "isAI": true
     },
     {
+      "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
+      "url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 11:00:52 +0000",
+      "summary": "A disputed exam, an unreliable detector, and one very late Apple Pages file.",
+      "isAI": true
+    },
+    {
       "title": "The New Defcon Badges Pack a Unique Open Source Chip That Doubles as a Security Key",
       "url": "https://www.wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang/",
       "source": "Wired",
       "published": "Fri, 31 Jul 2026 10:00:00 +0000",
       "summary": "Created by legendary hardware hacker Andrew \u201cbunnie\u201d Huang, the badges for this year\u2019s famed security conference aim to push the boundaries of security and transparency.",
+      "isAI": true
+    },
+    {
+      "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+      "source": "Hacker News",
+      "published": "Fri, 31 Jul 2026 07:59:11 +0000",
+      "summary": "Article URL: https://artificialanalysis.ai/models/deepseek-v4-flash-ga Comments URL: https://news.ycombinator.com/item?id=49120299 Points: 302 # Comments: 146",
+      "isAI": true
+    },
+    {
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "source": "Hacker News",
+      "published": "Fri, 31 Jul 2026 07:29:22 +0000",
+      "summary": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 317 # Comments: 279",
       "isAI": true
     },
     {
@@ -38,15 +126,23 @@
       "url": "https://api-docs.deepseek.com/updates/",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 06:08:36 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 366 # Comments: 178",
+      "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 476 # Comments: 240",
       "isAI": false
     },
     {
-      "title": "Anthropic Says Claude Hacked 3 Organizations During Cybersecurity Tests",
+      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+      "url": "https://github.com/mokshablr/gander",
+      "source": "Hacker News",
+      "published": "Fri, 31 Jul 2026 05:45:13 +0000",
+      "summary": "Hi HN,I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the\u2026",
+      "isAI": false
+    },
+    {
+      "title": "Anthropic Says Claude Hacked Into 3 Organizations During Cybersecurity Tests",
       "url": "https://www.wired.com/story/anthropic-says-claude-hacked-real-systems-during-cybersecurity-tests/",
       "source": "Wired",
       "published": "Fri, 31 Jul 2026 01:24:26 +0000",
-      "summary": "In a review triggered by OpenAI\u2019s Hugging Face incident, Anthropic discovered three of its AI models had breached real organizations during third-party evaluations.",
+      "summary": "In a review triggered by OpenAI\u2019s Hugging Face incident, Anthropic discovered three of its AI models had breached real-world organizations during third-party evaluations.",
       "isAI": true
     },
     {
@@ -110,7 +206,7 @@
       "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 22:33:11 +0000",
-      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 223 # Comments: 102",
+      "summary": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 254 # Comments: 127",
       "isAI": true
     },
     {
@@ -120,6 +216,14 @@
       "published": "2026-07-30T18:29:45-04:00",
       "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people [\u2026]",
       "isAI": true
+    },
+    {
+      "title": "Max-severity Exchange server flaw under active exploitation by Kremlin hackers",
+      "url": "https://arstechnica.com/security/2026/07/kremlin-hackers-are-exploiting-exchange-flaw-to-backdoor-unpatched-networks/",
+      "source": "Ars Technica",
+      "published": "Thu, 30 Jul 2026 20:57:22 +0000",
+      "summary": "Exploits can give persistent server access that survives credential rotation and disk re-imaging.",
+      "isAI": false
     },
     {
       "title": "The loss of Situational Awareness",
@@ -334,7 +438,7 @@
       "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 15:10:27 +0000",
-      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 247 # Comments: 107",
+      "summary": "Article URL: https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html Comments URL: https://news.ycombinator.com/item?id=49111176 Points: 267 # Comments: 115",
       "isAI": true
     },
     {
@@ -462,7 +566,7 @@
       "url": "https://lwn.net/Articles/1086041/",
       "source": "Hacker News",
       "published": "Thu, 30 Jul 2026 11:45:44 +0000",
-      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 308 # Comments: 347",
+      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 327 # Comments: 375",
       "isAI": true
     },
     {
@@ -1896,110 +2000,6 @@
       "published": "Fri, 24 Jul 2026 15:00:00 +0000",
       "summary": "The AI \u201cstartups\u201d worth billions of dollars are raising alarm bells about Chinese AI. The smaller players have a totally different take.",
       "isAI": true
-    },
-    {
-      "title": "The tech-broification of American science has officially begun",
-      "url": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-      "source": "The Verge AI",
-      "published": "2026-07-24T10:43:55-04:00",
-      "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "\u2018AI communism\u2019, rogue models, and the why Kimi K3 spooked Wall Street",
-      "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 24 Jul 2026 14:00:00 +0000",
-      "summary": "Chinese AI lab Moonshot\u2019s open model Kimi went viral this week for reasons that had less to do with the model itself and more to do with how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real security breach at Hugging Face \u2014 a reminder [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AI firms want more data centers; Trump's EPA may give neighbors less say",
-      "url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 24 Jul 2026 13:49:38 +0000",
-      "summary": "Rule would allow states to decide how much\u2014if any\u2014public input there can be.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app",
-      "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 24 Jul 2026 13:36:42 +0000",
-      "summary": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
-      "isAI": true
-    },
-    {
-      "title": "Facebook launches a dedicated Marketplace app for sellers, adds a free verification system",
-      "url": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
-      "source": "TechCrunch",
-      "published": "Fri, 24 Jul 2026 12:47:15 +0000",
-      "summary": "Seller is a dedicated Marketplace app for people who list and sell items frequently.",
-      "isAI": false
-    },
-    {
-      "title": "TikTok\u2019s protection of minors should not be opt-in, warns EU",
-      "url": "https://www.theverge.com/tech/970519/tiktok-eu-dsa-child-safety-age-account-privacy",
-      "source": "The Verge",
-      "published": "2026-07-24T07:40:03-04:00",
-      "summary": "TikTok has attracted the ire of the European Union over its protection of children who use the video sharing platform. The European Commission announced preliminary findings today under the Digital Services Act (DSA) that offer specific issues to address. The Commission suggests that TikTok should adjust the default settings of minors' \"public\" accounts so the [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
-      "url": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
-      "source": "Ars Technica",
-      "published": "Fri, 24 Jul 2026 11:20:43 +0000",
-      "summary": "US robotics researchers flew to Venezuela with snakebots after getting a call.",
-      "isAI": false
-    },
-    {
-      "title": "Facebook considers giving up and becoming TikTok",
-      "url": "https://www.theverge.com/tech/970504/facebook-video-experience-testing-tiktok-updates",
-      "source": "The Verge",
-      "published": "2026-07-24T07:00:00-04:00",
-      "summary": "Facebook is planning some big changes to try and keep its users from jumping to rival social platforms like TikTok - changes that sound dubiously similar to becoming a TikTok clone. Facebook head Tom Alison announced today that the platform will begin testing a \"reimagined experience\" later this year that will put a subset of [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Some Kids Will Never Think AI Is Cool",
-      "url": "https://www.wired.com/story/some-kids-will-never-think-ai-is-cool/",
-      "source": "Wired",
-      "published": "Fri, 24 Jul 2026 10:00:00 +0000",
-      "summary": "\u201cI think it should stand for artificial idiot,\u201d one 9-year-old says. Here\u2019s why kids of all ages are calling AI \u201cdisgusting\u201d and \u201ccreepy.\u201d",
-      "isAI": true
-    },
-    {
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "source": "Hacker News",
-      "published": "Fri, 24 Jul 2026 09:31:48 +0000",
-      "summary": "Article URL: https://bfl.ai/blog/flux-3-mimic Comments URL: https://news.ycombinator.com/item?id=49033127 Points: 205 # Comments: 27",
-      "isAI": true
-    },
-    {
-      "title": "Kagi Brings Back Old-School Search, One Human-Made Website at a Time",
-      "url": "https://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time/",
-      "source": "Wired",
-      "published": "Fri, 24 Jul 2026 09:30:00 +0000",
-      "summary": "If you\u2019re tired of sponsored and AI-summarized search results, Kagi gives you a curated\u2014and human-centric\u2014way to find what you\u2019re looking for.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft pressures LG into killing unwanted McAfee ads",
-      "url": "https://www.theverge.com/tech/970489/lg-mcafee-ads-windows-microsoft-crackdown",
-      "source": "The Verge",
-      "published": "2026-07-24T05:20:09-04:00",
-      "summary": "Microsoft has intervened to stop Windows 11 users with LG monitors from being bombarded with annoying McAfee trial pop-ups. In response to complaints about the LG bloatware, Microsoft's Windows chief, Pavan Davuluri, said that LG has agreed to immediately disable the McAfee pop-up from its LG Monitor App Installer, and pledged that Microsoft will \"keep [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "European Researchers Say Big Tech Is Blocking Access to Their Data",
-      "url": "https://www.wired.com/story/european-researchers-want-to-study-social-medias-harms-but-cant-get-the-data/",
-      "source": "Wired",
-      "published": "Fri, 24 Jul 2026 08:49:52 +0000",
-      "summary": "EU law gives researchers unprecedented rights to scrutinize social media data. Researchers say TikTok, X, and Meta impede their attempts to look inside.",
-      "isAI": false
     }
   ]
 }
