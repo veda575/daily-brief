@@ -1,6 +1,62 @@
 {
-  "updated": "2026-07-31T21:13:34.690512+00:00",
+  "updated": "2026-08-01T09:06:06.552513+00:00",
   "items": [
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI",
+      "published": "Sat, 01 Aug 2026 00:00:00 GMT",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 31 Jul 2026 22:47:26 +0000",
+      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "isAI": true
+    },
+    {
+      "title": "With Switch 2, iPhone, and laptop tricks, the Sharge Disk Pro 2 is finally a worthy EDC",
+      "url": "https://www.theverge.com/gadgets/973886/sharge-disk-pro-2-hands-on-switch-2-hdmi-usb-c-dock",
+      "source": "The Verge",
+      "published": "2026-07-31T18:09:11-04:00",
+      "summary": "Sharge, the company that makes delightful retro Mac-shaped chargers and see-inside batteries, is finally impressing me with a portable SSD. I couldn't recommend the Sharge Disk, Disk Plus, or even the Disk Pro, but I'd be happy to own the new Disk Pro 2 Ultra. This isn't just a drive. It's a 4K HDMI dock [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Rivian spinoff Also to start delivering e-bikes after months of delays",
+      "url": "https://techcrunch.com/2026/07/31/rivian-spinoff-also-to-start-delivering-e-bikes-after-months-of-delays/",
+      "source": "TechCrunch",
+      "published": "Fri, 31 Jul 2026 22:00:08 +0000",
+      "summary": "Also has big plans beyond the TM-B. The startup mostly refers to itself as a \"vehicle\" company and has plans to make four-wheel pedal-assist cargo vehicles for Amazon.",
+      "isAI": true
+    },
+    {
+      "title": "Silicon Valley loves young founders. Until it doesn\u2019t.",
+      "url": "https://techcrunch.com/2026/07/31/build-in-public-fail-in-public-what-its-like-to-be-a-founder-under-20-right-now/",
+      "source": "TechCrunch",
+      "published": "Fri, 31 Jul 2026 22:00:00 +0000",
+      "summary": "AI tools have democratized the opportunity to build, shortening the timelines of success and enabling more young people to start successful companies without stepping foot inside a Big Tech company.",
+      "isAI": true
+    },
+    {
+      "title": "Google plans to exempt sanctioned nations from Android developer verification",
+      "url": "https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/",
+      "source": "Ars Technica",
+      "published": "Fri, 31 Jul 2026 21:35:56 +0000",
+      "summary": "Someone in Cuba or Iran can keep installing APKs with no new restrictions, but devs will suffer.",
+      "isAI": false
+    },
+    {
+      "title": "Reddit keeps its strange DMCA fight over Google search results alive",
+      "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 31 Jul 2026 21:19:39 +0000",
+      "summary": "Reddit advances lawsuit accusing Perplexity AI of conspiring with web scraper.",
+      "isAI": true
+    },
     {
       "title": "India is starting to pay for apps, not just download them",
       "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
@@ -74,11 +130,11 @@
       "isAI": true
     },
     {
-      "title": "qm",
+      "title": "qm \u2013 Multiplayer agent harness for work",
       "url": "https://github.com/yc-software/qm",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 18:04:58 +0000",
-      "summary": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?id=49126604 Points: 243 # Comments: 53",
+      "summary": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?id=49126604 Points: 562 # Comments: 113",
       "isAI": true
     },
     {
@@ -278,7 +334,7 @@
       "url": "https://blog.google/security/chrome-stronger-with-every-update/",
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 07:29:22 +0000",
-      "summary": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 413 # Comments: 401",
+      "summary": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 511 # Comments: 524",
       "isAI": true
     },
     {
@@ -1943,62 +1999,6 @@
       "source": "The Verge",
       "published": "2026-07-25T14:13:36-04:00",
       "summary": "Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hike is not a complete surprise. Companies from [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Librarians are hosting viral \u2018Avoiding AI\u2019 workshops for people who are fed up with Big Tech",
-      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 25 Jul 2026 16:00:00 +0000",
-      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
-      "isAI": true
-    },
-    {
-      "title": "2x, not 10x: coding with LLMs in 2026",
-      "url": "https://obryant.dev/p/2x-not-10x/",
-      "source": "Hacker News",
-      "published": "Sat, 25 Jul 2026 14:27:05 +0000",
-      "summary": "Article URL: https://obryant.dev/p/2x-not-10x/ Comments URL: https://news.ycombinator.com/item?id=49047839 Points: 228 # Comments: 177",
-      "isAI": false
-    },
-    {
-      "title": "One fallen power line exposed a growing AI data center problem \u2014 here\u2019s how to fix it",
-      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 25 Jul 2026 13:05:00 +0000",
-      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
-      "isAI": true
-    },
-    {
-      "title": "Big Tech accused of stonewalling European social media researchers",
-      "url": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
-      "source": "Ars Technica",
-      "published": "Sat, 25 Jul 2026 10:45:32 +0000",
-      "summary": "Researchers say TikTok, X, and Meta aren't providing data they're legally required to.",
-      "isAI": false
-    },
-    {
-      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
-      "url": "https://www.wired.com/story/best-laptops/",
-      "source": "Wired",
-      "published": "Sat, 25 Jul 2026 10:00:00 +0000",
-      "summary": "I\u2019ve been reviewing laptops for over a decade, and here's my advice on how to find the right laptop for you.",
-      "isAI": false
-    },
-    {
-      "title": "Forget expensive sleepbuds. Buy this pillow instead",
-      "url": "https://www.theverge.com/tech/970473/forget-expensive-sleepbuds-buy-this-pillow-instead",
-      "source": "The Verge",
-      "published": "2026-07-25T03:00:00-04:00",
-      "summary": "Tech companies love to sell us expensive gadgets to solve all of life's little problems. Sleepbuds sold by the likes of Anker and Ozlo are a good example. These miniature marvels of engineering sit flush in the ear, and allow side-sleepers to doze off listening to podcasts, audiobooks, music, or white noise without annoying their [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else",
-      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 25 Jul 2026 00:23:11 +0000",
-      "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
       "isAI": true
     }
   ]

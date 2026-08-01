@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T21:13:34.690512+00:00",
+  "updated": "2026-08-01T09:06:06.552513+00:00",
   "regions": {
     "us": [
       {
@@ -16,7 +16,7 @@
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
         "marketCap": 776410431488,
-        "changePercent": -1.9036282,
+        "changePercent": -1.90363,
         "sortName": "Advanced Micro Devices"
       },
       {
@@ -25,7 +25,7 @@
         "sector": "Earnings / AI growth",
         "currency": "USD",
         "marketCap": 4355446800384,
-        "changePercent": 6.7344003
+        "changePercent": 6.7344
       },
       {
         "ticker": "AMZN",
@@ -33,7 +33,7 @@
         "sector": "AWS / Retail",
         "currency": "USD",
         "marketCap": 2921415835648,
-        "changePercent": 15.320589
+        "changePercent": 15.3206
       },
       {
         "ticker": "AAPL",
@@ -41,7 +41,7 @@
         "sector": "Consumer Tech / iPhone",
         "currency": "USD",
         "marketCap": 4537070911488,
-        "changePercent": -7.3538647
+        "changePercent": -7.35386
       },
       {
         "ticker": "AMAT",
@@ -49,7 +49,7 @@
         "sector": "Semiconductors",
         "currency": "USD",
         "marketCap": 403069403136,
-        "changePercent": 1.1758424
+        "changePercent": 1.17584
       },
       {
         "ticker": "TEAM",
@@ -57,7 +57,7 @@
         "sector": "Software",
         "currency": "USD",
         "marketCap": 25634359296,
-        "changePercent": 2.9504652
+        "changePercent": 2.95047
       },
       {
         "ticker": "AVGO",
@@ -65,7 +65,15 @@
         "sector": "Semiconductors / Networking",
         "currency": "USD",
         "marketCap": 1852030844928,
-        "changePercent": 0.37128776
+        "changePercent": 0.371288
+      },
+      {
+        "ticker": "CSCO",
+        "name": "Cisco Systems",
+        "sector": "Networking / Enterprise Tech",
+        "currency": "USD",
+        "marketCap": 457166979072,
+        "changePercent": 2.13984
       },
       {
         "ticker": "GE",
@@ -89,7 +97,7 @@
         "sector": "Chips",
         "currency": "USD",
         "marketCap": 454968770560,
-        "changePercent": -1.0205204
+        "changePercent": -1.02052
       },
       {
         "ticker": "META",
@@ -97,7 +105,7 @@
         "sector": "Ads / AI",
         "currency": "USD",
         "marketCap": 1418222239744,
-        "changePercent": 3.2799642
+        "changePercent": 3.27996
       },
       {
         "ticker": "MU",
@@ -105,7 +113,7 @@
         "sector": "Semiconductors / Memory",
         "currency": "USD",
         "marketCap": 929524482048,
-        "changePercent": -5.9028587
+        "changePercent": -5.90286
       },
       {
         "ticker": "MSFT",
@@ -113,7 +121,7 @@
         "sector": "Cloud / AI",
         "currency": "USD",
         "marketCap": 3450799652864,
-        "changePercent": 3.019285
+        "changePercent": 3.01928
       },
       {
         "ticker": "NDAQ",
@@ -121,7 +129,7 @@
         "sector": "Stock Exchange / Financial Markets",
         "currency": "USD",
         "marketCap": 52650078208,
-        "changePercent": -1.0193372
+        "changePercent": -1.01934
       },
       {
         "ticker": "NVDA",
@@ -129,7 +137,7 @@
         "sector": "AI Chips",
         "currency": "USD",
         "marketCap": 4862365925376,
-        "changePercent": 2.9276083
+        "changePercent": 2.92761
       },
       {
         "ticker": "ORCL",
@@ -153,7 +161,7 @@
         "sector": "Storage / Flash Memory",
         "currency": "USD",
         "marketCap": 179903873024,
-        "changePercent": -5.088441
+        "changePercent": -5.08844
       },
       {
         "ticker": "SAP",
@@ -169,7 +177,7 @@
         "sector": "E-commerce",
         "currency": "USD",
         "marketCap": 152020238336,
-        "changePercent": -4.289216
+        "changePercent": -4.28922
       },
       {
         "ticker": "SIFY",
@@ -177,7 +185,7 @@
         "sector": "IT Services / Data Centers",
         "currency": "USD",
         "marketCap": 1060442816,
-        "changePercent": 0.41152552
+        "changePercent": 0.411526
       },
       {
         "ticker": "SNOW",
@@ -193,7 +201,7 @@
         "sector": "Aerospace / Satellite Internet",
         "currency": "USD",
         "marketCap": 1427686686720,
-        "changePercent": -3.413542
+        "changePercent": -3.41354
       },
       {
         "ticker": "TSLA",
@@ -201,7 +209,7 @@
         "sector": "EV demand",
         "currency": "USD",
         "marketCap": 1229138690048,
-        "changePercent": 0.7641202
+        "changePercent": 0.76412
       }
     ],
     "asia": [
@@ -218,16 +226,8 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1195311494742.8406,
+        "marketCap": 1199862764321.1807,
         "changePercent": 26.811594
-      },
-      {
-        "ticker": "000001.SS",
-        "name": "Shanghai Composite Index",
-        "sector": "Index / China Equities",
-        "currency": "USD",
-        "marketCap": null,
-        "changePercent": 0.72462684
       },
       {
         "ticker": "0700.HK",
@@ -312,19 +312,11 @@
         "changePercent": 0.28825355
       },
       {
-        "ticker": "ETERNAL.NS",
-        "name": "Eternal",
-        "sector": "Food Delivery / Quick Commerce",
-        "currency": "INR",
-        "marketCap": 2784171393024,
-        "changePercent": -2.6396208
-      },
-      {
         "ticker": "GLAND.NS",
         "name": "Gland Pharma",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 412877553664,
+        "marketCap": 412895019008,
         "changePercent": -0.56019455
       },
       {
@@ -436,7 +428,7 @@
         "name": "Swiggy",
         "sector": "Food Delivery / Quick Commerce",
         "currency": "INR",
-        "marketCap": 742360678400,
+        "marketCap": 746333667328,
         "changePercent": -3.7342496
       },
       {
@@ -462,6 +454,56 @@
         "currency": "INR",
         "marketCap": 1816730140672,
         "changePercent": -1.4383126
+      },
+      {
+        "ticker": "ETERNAL.NS",
+        "name": "Zomato",
+        "sector": "Food Delivery / Quick Commerce",
+        "currency": "INR",
+        "marketCap": 2784171393024,
+        "changePercent": -2.6396208
+      }
+    ],
+    "indexes": [
+      {
+        "ticker": "^BSESN",
+        "name": "BSE Sensex",
+        "sector": "Index / India Equities",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 0.21364833
+      },
+      {
+        "ticker": "^HSI",
+        "name": "Hang Seng Index",
+        "sector": "Index / China (Hong Kong) Equities",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 0.09880098
+      },
+      {
+        "ticker": "^IXIC",
+        "name": "NASDAQ Composite",
+        "sector": "Index / US Equities",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 1.0018072
+      },
+      {
+        "ticker": "000001.SS",
+        "name": "Shanghai Composite Index",
+        "sector": "Index / China Equities",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 0.72462684
+      },
+      {
+        "ticker": "399001.SZ",
+        "name": "Shenzhen Component Index",
+        "sector": "Index / China Equities",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 2.2063322
       }
     ]
   }

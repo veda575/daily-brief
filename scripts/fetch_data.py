@@ -44,6 +44,7 @@ US_STOCKS = [
     ("SIFY",    "Sify Technologies",   "IT Services / Data Centers"),
     ("MU",      "Micron Technology",   "Semiconductors / Memory"),
     ("SNDK",    "SanDisk",             "Storage / Flash Memory"),
+    ("CSCO",    "Cisco Systems",       "Networking / Enterprise Tech"),
 ]
 
 ASIA_STOCKS = [
@@ -51,7 +52,14 @@ ASIA_STOCKS = [
     ("0700.HK",   "Tencent",             "Gaming / AI"),
     ("TSM",       "TSMC",                "Chips demand"),
     ("005930.KS", "Samsung Electronics", "Memory chips"),
+]
+
+INDEX_STOCKS = [
+    ("^BSESN",    "BSE Sensex",              "Index / India Equities"),
+    ("^IXIC",     "NASDAQ Composite",        "Index / US Equities"),
     ("000001.SS", "Shanghai Composite Index", "Index / China Equities"),
+    ("399001.SZ", "Shenzhen Component Index", "Index / China Equities"),
+    ("^HSI",      "Hang Seng Index",          "Index / China (Hong Kong) Equities"),
 ]
 
 INDIA_STOCKS = [
@@ -71,7 +79,7 @@ INDIA_STOCKS = [
     ("APOLLOHOSP.NS", "Apollo Hospitals",    "Healthcare"),
     ("GLENMARK.NS",   "Glenmark Pharmaceuticals", "Pharma"),
     ("SWIGGY.NS",     "Swiggy",                  "Food Delivery / Quick Commerce"),
-    ("ETERNAL.NS",    "Eternal",                 "Food Delivery / Quick Commerce"),
+    ("ETERNAL.NS",    "Zomato",                  "Food Delivery / Quick Commerce"),
     ("ASTERDM.NS",    "Aster DM Quality Care",   "Healthcare"),
     ("SIGMAADV.NS",   "Sigma Advanced Systems",  "Technology"),
     ("NCC.NS",        "NCC Ltd",                 "Construction / Infrastructure"),
@@ -492,11 +500,13 @@ def fetch_all_stocks() -> dict:
         return sorted(stocks, key=lambda s: (s.get("sortName") or s.get("name") or "").casefold())
 
     asia = [convert_market_cap_to_usd(s) for s in (fetch_stock(*x) for x in ASIA_STOCKS) if s]
+    indexes = [convert_market_cap_to_usd(s) for s in (fetch_stock(*x) for x in INDEX_STOCKS) if s]
 
     return {
-        "us":    sorted_region([s for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
-        "asia":  sorted_region(asia),
-        "india": sorted_region([s for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
+        "us":      sorted_region([s for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
+        "asia":    sorted_region(asia),
+        "india":   sorted_region([s for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
+        "indexes": sorted_region(indexes),
     }
 
 
