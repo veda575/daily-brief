@@ -75,10 +75,17 @@ async function loadJSON(path) {
 }
 
 // ── Stocks rendering ──────────────────────────────────
-function renderStocksTable(stocks) {
+const fmtIndexNum = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+function fmtIndexValue(n) {
+  if (n === null || n === undefined || !Number.isFinite(Number(n))) return '—';
+  return fmtIndexNum.format(Number(n));
+}
+
+function renderStocksTable(stocks, region) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
   }
+  const isIndexes = region === 'indexes';
   const sorted = stocks.slice().sort((a, b) =>
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
@@ -87,13 +94,13 @@ function renderStocksTable(stocks) {
       <td><strong>${escapeHtml(s.name)}</strong></td>
       <td class="muted">${escapeHtml(s.ticker)}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
-      <td class="num">${fmtMarketCap(s.marketCap, s.currency)}</td>
+      <td class="num">${isIndexes ? fmtIndexValue(s.indexValue) : fmtMarketCap(s.marketCap, s.currency)}</td>
       <td class="num">${fmtGainLossPercent(s.changePercent)}</td>
     </tr>`;
   }).join('');
   return `<table>
     <thead><tr>
-      <th>Company</th><th>Ticker</th><th>Sector</th><th>Mkt Cap</th><th>Gain / Loss %</th>
+      <th>Company</th><th>Ticker</th><th>Sector</th><th>${isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
@@ -275,7 +282,7 @@ function showStockRegion(region) {
   document.querySelectorAll('.subtab').forEach(b => b.classList.toggle('active', b.dataset.region === region));
   const container = document.getElementById('stocks-content');
   const list = stocksData?.regions?.[region] || [];
-  container.innerHTML = renderStocksTable(list);
+  container.innerHTML = renderStocksTable(list, region);
 }
 
 document.querySelectorAll('.subtab').forEach(b => {

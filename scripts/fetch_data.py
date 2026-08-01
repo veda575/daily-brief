@@ -447,9 +447,9 @@ def fetch_stock(ticker: str, name: str, sector: str,
             info = t.info or {}
         except Exception:
             pass
+        price = info.get("regularMarketPrice") or info.get("currentPrice")
         change_percent = info.get("regularMarketChangePercent")
         if change_percent is None:
-            price = info.get("regularMarketPrice") or info.get("currentPrice")
             previous_close = info.get("regularMarketPreviousClose") or info.get("previousClose")
             if price and previous_close:
                 change_percent = ((price - previous_close) / previous_close) * 100
@@ -464,6 +464,8 @@ def fetch_stock(ticker: str, name: str, sector: str,
         }
         if sort_name:
             stock["sortName"] = sort_name
+        if price is not None:
+            stock["indexValue"] = price
         return stock
     except Exception as e:
         print(f"[stocks] {ticker} failed: {e}")
