@@ -1,12 +1,60 @@
 {
-  "updated": "2026-08-03T19:09:16.068900+00:00",
+  "updated": "2026-08-03T20:40:03.898398+00:00",
   "items": [
+    {
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 03 Aug 2026 20:00:00 +0000",
+      "summary": "AWS now allows vibe coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step towards decoupling apps from models.",
+      "isAI": true
+    },
+    {
+      "title": "Who\u2019s legally to blame for Anthropic and OpenAI\u2019s autonomous AI hacks? It\u2019s complicated",
+      "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated/",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 19:45:35 +0000",
+      "summary": "OpenAI and Anthropic admitted that their unreleased AI models escaped their sandboxes and hacked several companies in unprecedented cyberattacks. Who is legally to blame? Should prosecutors charge the two AI frontier labs? Can victims sue them? We spoke to lawyers who specialize in computer hacking laws to find out.",
+      "isAI": true
+    },
+    {
+      "title": "DesignArena creators raise $7.9 million to bring taste to AI models",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 03 Aug 2026 19:28:57 +0000",
+      "summary": "DesignArena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+      "isAI": true
+    },
+    {
+      "title": "Influencers draw backlash for attending OpenAI\u2019s first luxury trip",
+      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 03 Aug 2026 19:09:56 +0000",
+      "summary": "OpenAI\u2019s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+      "isAI": true
+    },
+    {
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+      "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 03 Aug 2026 19:00:50 +0000",
+      "summary": "Top scores increased by 5x.",
+      "isAI": true
+    },
     {
       "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
       "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
       "source": "TechCrunch AI",
       "published": "Mon, 03 Aug 2026 18:43:43 +0000",
       "summary": "Apple\u2019s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. But after years of delays, the launch lands in an AI landscape where chatbots have evolved into agents that can code, reason, create media, and complete complex tasks. Siri AI is genuinely useful, yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
+      "isAI": true
+    },
+    {
+      "title": "Trump\u2019s AI protectionism has come for robotics",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 03 Aug 2026 18:43:30 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It\u2019s a nascent industry, and such robots\u2026",
       "isAI": true
     },
     {
@@ -18,7 +66,7 @@
       "isAI": false
     },
     {
-      "title": "WhatsApp says it is is fixing an issue that disabled several accounts",
+      "title": "WhatsApp says it is fixing an issue that disabled several accounts",
       "url": "https://techcrunch.com/2026/08/03/whatsapp-says-it-is-is-fixing-an-issue-that-disabled-several-accounts/",
       "source": "TechCrunch",
       "published": "Mon, 03 Aug 2026 17:46:01 +0000",
@@ -50,7 +98,7 @@
       "isAI": true
     },
     {
-      "title": "Congress\u2019s favorite AI tool? ChatGPT",
+      "title": "Congress\u2019 favorite AI tool? ChatGPT",
       "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
       "source": "TechCrunch AI",
       "published": "Mon, 03 Aug 2026 16:40:55 +0000",
@@ -106,6 +154,14 @@
       "isAI": false
     },
     {
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "Hacker News",
+      "published": "Mon, 03 Aug 2026 11:15:48 +0000",
+      "summary": "Article URL: https://github.com/lyogavin/airllm Comments URL: https://news.ycombinator.com/item?id=49154228 Points: 159 # Comments: 61",
+      "isAI": true
+    },
+    {
       "title": "China\u2019s Alibaba takes another swipe at America\u2019s AI supremacy",
       "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
       "source": "The Verge AI",
@@ -146,11 +202,19 @@
       "isAI": true
     },
     {
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "source": "OpenAI",
+      "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "isAI": true
+    },
+    {
       "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
       "url": "https://qwen.ai/blog?id=qwen3.8",
       "source": "Hacker News",
       "published": "Mon, 03 Aug 2026 02:16:09 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 987 # Comments: 514",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 1009 # Comments: 537",
       "isAI": true
     },
     {
@@ -1935,70 +1999,6 @@
       "source": "The Verge",
       "published": "2026-07-27T18:10:18-04:00",
       "summary": "X Money, a core part of Elon Musk's mission to turn X into an \"everything app,\" is rolling out starting today, 9to5Mac reports. The payment platform offers a digital wallet and peer-to-peer payments similar to Venmo, along with a metal Visa card users can emblazon with their X username. Other perks include Apple Wallet support [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 27 Jul 2026 21:56:14 +0000",
-      "summary": "Microsoft says tools cost less than competing ones and outperform them, too.",
-      "isAI": true
-    },
-    {
-      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
-      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 27 Jul 2026 21:17:11 +0000",
-      "summary": "Companies without their own models \u2014 or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself \u2014 will be in trouble, Nadella says.",
-      "isAI": true
-    },
-    {
-      "title": "Thea Energy lands $20M federal grant to build its magnets for fusion reactors",
-      "url": "https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/",
-      "source": "TechCrunch",
-      "published": "Mon, 27 Jul 2026 20:40:12 +0000",
-      "summary": "Fusion power startup Thea Energy snagged a $20 million award from ARPA-E to scale production of its high-temperature superconducting magnets.",
-      "isAI": true
-    },
-    {
-      "title": "As rivals chase acquisitions, Peacock bets on bundles through a new deal with YouTube",
-      "url": "https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/",
-      "source": "TechCrunch",
-      "published": "Mon, 27 Jul 2026 20:40:00 +0000",
-      "summary": "The deal means content will be integrated into the YouTube experience, allowing viewers to discover and watch Peacock content without leaving the platform.",
-      "isAI": false
-    },
-    {
-      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 27 Jul 2026 20:19:42 +0000",
-      "summary": "The issue appears to have originated from Claude\u2019s \u201cshare chat\u201d feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
-      "isAI": true
-    },
-    {
-      "title": "\u201cGoogle and Reddit do not own the Internet,\" web scraper says after court win",
-      "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 27 Jul 2026 20:12:42 +0000",
-      "summary": "Google's and Reddit's use of DMCA to fight web scraper is bizarre, expert says.",
-      "isAI": true
-    },
-    {
-      "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
-      "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 27 Jul 2026 18:48:41 +0000",
-      "summary": "Telecom expects AI revenue from dark fiber deals and retrofitted data centers.",
-      "isAI": true
-    },
-    {
-      "title": "Experts warn current Starship heat shield tech is a \"dead end\" for rapid reuse",
-      "url": "https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/",
-      "source": "Ars Technica",
-      "published": "Mon, 27 Jul 2026 18:34:40 +0000",
-      "summary": "NASA has not made substantial investments in thermal protection research for decades.",
       "isAI": false
     }
   ]
