@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-03T17:29:57.908726+00:00",
+  "updated": "2026-08-03T19:09:16.068900+00:00",
   "items": [
+    {
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 03 Aug 2026 18:43:43 +0000",
+      "summary": "Apple\u2019s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. But after years of delays, the launch lands in an AI landscape where chatbots have evolved into agents that can code, reason, create media, and complete complex tasks. Siri AI is genuinely useful, yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
+      "isAI": true
+    },
+    {
+      "title": "Outernet turns your saved posts into real-world adventures",
+      "url": "https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 18:00:24 +0000",
+      "summary": "Founded by the creators of viral offline events like San Francisco\u2019s citywide scavenger hunt Pursuit, Outernet's app helps users save places and events they discover online, then nudges them to actually go.",
+      "isAI": false
+    },
+    {
+      "title": "WhatsApp says it is is fixing an issue that disabled several accounts",
+      "url": "https://techcrunch.com/2026/08/03/whatsapp-says-it-is-is-fixing-an-issue-that-disabled-several-accounts/",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 17:46:01 +0000",
+      "summary": "Meta says it\u2019s restoring access to WhatsApp accounts that were mistakenly flagged and placed \u201cunder review\u201d after users reported being unexpectedly locked out of the messaging app.",
+      "isAI": false
+    },
+    {
+      "title": "Europe\u2019s AI labeling and transparency rules are now in effect",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "source": "The Verge AI",
+      "published": "2026-08-03T13:38:45-04:00",
+      "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
       "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
@@ -118,7 +150,7 @@
       "url": "https://qwen.ai/blog?id=qwen3.8",
       "source": "Hacker News",
       "published": "Mon, 03 Aug 2026 02:16:09 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 936 # Comments: 484",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 987 # Comments: 514",
       "isAI": true
     },
     {
@@ -246,7 +278,7 @@
       "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
       "source": "TechCrunch AI",
       "published": "Sat, 01 Aug 2026 17:07:34 +0000",
-      "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+      "summary": "This isn\u2019t the first time a tech CEO has promised that AI can shield users \u2014 and specifically users\u2019 morning commutes \u2014 from the messiness and inefficiency of human experience.",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Mon, 27 Jul 2026 18:34:40 +0000",
       "summary": "NASA has not made substantial investments in thermal protection research for decades.",
       "isAI": false
-    },
-    {
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 27 Jul 2026 18:32:11 +0000",
-      "summary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
-      "isAI": true
-    },
-    {
-      "title": "Apple sued after alleged App Store crypto scam cost users $1.8M",
-      "url": "https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m/",
-      "source": "TechCrunch",
-      "published": "Mon, 27 Jul 2026 18:28:15 +0000",
-      "summary": "Apple is facing a lawsuit from three users who say they collectively lost more than $1.8 million after downloading a fraudulent crypto wallet from the App Store, challenging the company\u2019s longstanding claims that its app review process keeps users safe from scams.",
-      "isAI": false
-    },
-    {
-      "title": "OpenAI called the Hugging Face attack unprecedented. But we\u2019ve been here before.",
-      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 27 Jul 2026 18:00:00 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI\u2019s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got\u2026",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s Hugging Face breach has reignited the debate over alignment and control",
-      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 27 Jul 2026 17:28:42 +0000",
-      "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
-      "isAI": true
     }
   ]
 }
