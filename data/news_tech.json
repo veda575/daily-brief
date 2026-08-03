@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-03T15:44:19.725486+00:00",
+  "updated": "2026-08-03T17:29:57.908726+00:00",
   "items": [
+    {
+      "title": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
+      "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 17:16:43 +0000",
+      "summary": "Valar Atomics raised $1 billion at a $6 billion valuation after signing a development deal with Nvidia in June.",
+      "isAI": true
+    },
+    {
+      "title": "Base Power raises another $1B to save the grid using backyard batteries",
+      "url": "https://techcrunch.com/2026/08/03/base-power-raises-another-1b-to-save-the-grid-using-backyard-batteries/",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 16:46:57 +0000",
+      "summary": "Base Power\u2019s $1 billion round will help the startup ramp production of its home batteries.",
+      "isAI": true
+    },
+    {
+      "title": "Congress\u2019s favorite AI tool? ChatGPT",
+      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 03 Aug 2026 16:40:55 +0000",
+      "summary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+      "isAI": true
+    },
     {
       "title": "Bluesky\u2019s new CEO wants a big tent, not a bubble",
       "url": "https://www.theverge.com/podcast/974387/bluesky-toni-schneider-interview-ai-atproto-atmosphere",
@@ -94,7 +118,7 @@
       "url": "https://qwen.ai/blog?id=qwen3.8",
       "source": "Hacker News",
       "published": "Mon, 03 Aug 2026 02:16:09 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 871 # Comments: 449",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 936 # Comments: 484",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Mon, 27 Jul 2026 17:28:42 +0000",
       "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
-      "isAI": true
-    },
-    {
-      "title": "ChatGPT starts blocking direct requests to copy an author's style",
-      "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 27 Jul 2026 16:58:46 +0000",
-      "summary": "New behavior capturing a writer's \"broad qualities\" could have legal implications.",
-      "isAI": true
-    },
-    {
-      "title": "Why China is giving away its best AI models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "source": "The Verge AI",
-      "published": "2026-07-27T12:51:50-04:00",
-      "summary": "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Threads users can now chat with Meta AI in their DMs",
-      "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 27 Jul 2026 16:45:24 +0000",
-      "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
       "isAI": true
     }
   ]
