@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T10:05:37.076118+00:00",
+  "updated": "2026-08-03T13:20:36.002667+00:00",
   "regions": {
     "us": [
       {
@@ -16,7 +16,7 @@
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": 776410431488,
+        "marketCap": null,
         "changePercent": -1.9036219,
         "sortName": "Advanced Micro Devices",
         "indexValue": 476.15
@@ -125,7 +125,7 @@
         "name": "Micron Technology",
         "sector": "Semiconductors / Memory",
         "currency": "USD",
-        "marketCap": 929524482048,
+        "marketCap": null,
         "changePercent": -5.9028654,
         "indexValue": 823.03
       },
@@ -170,7 +170,7 @@
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 150712385536,
+        "marketCap": null,
         "changePercent": 1.83166,
         "indexValue": 184.02
       },
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1101726071729.6943,
+        "marketCap": 1101571733772.7668,
         "changePercent": -8.761905,
         "indexValue": 239500.0
       },
@@ -262,7 +262,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 562888724055.9012,
+        "marketCap": 562960508268.4214,
         "changePercent": 3.1986494,
         "indexValue": 490.4
       },
@@ -444,7 +444,7 @@
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 17849330434048,
+        "marketCap": null,
         "changePercent": 0.85639626,
         "indexValue": 1319.0
       },
@@ -489,7 +489,7 @@
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8950062776320,
+        "marketCap": null,
         "changePercent": 4.5696588,
         "indexValue": 2473.7
       },
@@ -528,8 +528,8 @@
         "sector": "Index / India Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.71903944,
-        "indexValue": 78656.17
+        "changePercent": 0.69709086,
+        "indexValue": 78639.03
       },
       {
         "ticker": "^HSI",
