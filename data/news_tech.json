@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-03T03:30:40.360391+00:00",
+  "updated": "2026-08-03T06:13:23.948778+00:00",
   "items": [
+    {
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "source": "Hacker News",
+      "published": "Mon, 03 Aug 2026 02:16:09 +0000",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 344 # Comments: 129",
+      "isAI": true
+    },
     {
       "title": "The global memory shortage hits the MacBook Air",
       "url": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
@@ -1991,14 +1999,6 @@
       "source": "MIT Tech Review",
       "published": "Mon, 27 Jul 2026 12:00:00 +0000",
       "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Closing the data loop in AI-driven drug discovery",
-      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 27 Jul 2026 11:40:16 +0000",
-      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years\u2014a phenomenon known as Eroom\u2019s Law. Today, bringing a new drug to market takes an average of 10-15 years and costs\u2026",
       "isAI": true
     }
   ]
