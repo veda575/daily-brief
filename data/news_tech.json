@@ -1,12 +1,44 @@
 {
-  "updated": "2026-08-03T06:13:23.948778+00:00",
+  "updated": "2026-08-03T10:05:37.076118+00:00",
   "items": [
+    {
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 03 Aug 2026 10:00:00 +0000",
+      "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+      "isAI": true
+    },
+    {
+      "title": "AI Conquered Coding. Fast Food Is Next",
+      "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
+      "source": "Wired",
+      "published": "Mon, 03 Aug 2026 10:00:00 +0000",
+      "summary": "Your next drive-thru order might be taken by a bot. And you might not even notice.",
+      "isAI": true
+    },
+    {
+      "title": "ICE Collected Nearly 1 Million People\u2019s DNA Last Year\u2014Including Young Children",
+      "url": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
+      "source": "Wired",
+      "published": "Mon, 03 Aug 2026 10:00:00 +0000",
+      "summary": "Internal documents show ICE's DNA collection has skyrocketed in the second Trump administration. Now hundreds of thousands of people never convicted of a crime are in an FBI criminal database forever.",
+      "isAI": false
+    },
+    {
+      "title": "Here\u2019s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 03 Aug 2026 08:30:05 +0000",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what\u2019s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren\u2019t trying to make money or commit sabotage\u2014they were just looking for answers\u2026",
+      "isAI": true
+    },
     {
       "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
       "url": "https://qwen.ai/blog?id=qwen3.8",
       "source": "Hacker News",
       "published": "Mon, 03 Aug 2026 02:16:09 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 344 # Comments: 129",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 557 # Comments: 280",
       "isAI": true
     },
     {
@@ -156,7 +188,7 @@
     {
       "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
       "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-      "source": "Ars Technica AI",
+      "source": "Ars Technica",
       "published": "Sat, 01 Aug 2026 12:30:36 +0000",
       "summary": "Reddit may still be considering ending its licensing deal with Google.",
       "isAI": true
@@ -244,7 +276,7 @@
     {
       "title": "Reddit keeps its strange DMCA fight over Google search results alive",
       "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
-      "source": "Ars Technica AI",
+      "source": "Ars Technica",
       "published": "Fri, 31 Jul 2026 21:19:39 +0000",
       "summary": "Reddit advances lawsuit accusing Perplexity AI of conspiring with web scraper.",
       "isAI": true
@@ -268,7 +300,7 @@
     {
       "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
       "url": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
-      "source": "Ars Technica AI",
+      "source": "Ars Technica",
       "published": "Fri, 31 Jul 2026 20:21:05 +0000",
       "summary": "\u201cWhat on earth is Google doing?\u201d Misinformation fears spur walk-back of AI tool.",
       "isAI": true
@@ -292,7 +324,7 @@
     {
       "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
       "url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
-      "source": "Ars Technica AI",
+      "source": "Ars Technica",
       "published": "Fri, 31 Jul 2026 19:04:56 +0000",
       "summary": "LemonLime\u2019s CEO got \u201ccarried away\u201d with tattoo gimmick.",
       "isAI": true
@@ -316,7 +348,7 @@
     {
       "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
       "url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
-      "source": "Ars Technica AI",
+      "source": "Ars Technica",
       "published": "Fri, 31 Jul 2026 18:11:55 +0000",
       "summary": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
       "isAI": true
@@ -1967,38 +1999,6 @@
       "source": "The Verge",
       "published": "2026-07-27T11:00:00-04:00",
       "summary": "Today, I\u2019m talking with Evan Smith, who is cofounder and CEO of Altana, a company that develops software tools to manage big, messy supply chain networks around the world. We last had Evan on in early 2025 to talk about how Trump\u2019s first few waves of tariffs were starting to affect global trade and what [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
-      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 27 Jul 2026 13:00:00 +0000",
-      "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
-      "isAI": true
-    },
-    {
-      "title": "AI companies are shredding rare books",
-      "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
-      "source": "Hacker News",
-      "published": "Mon, 27 Jul 2026 12:32:12 +0000",
-      "summary": "Article URL: https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 472 # Comments: 252",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia, Microsoft launch open AI security alliance \u2014 without OpenAI, Google, or Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-      "source": "The Verge AI",
-      "published": "2026-07-27T08:06:22-04:00",
-      "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The path to artificial superintelligence",
-      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 27 Jul 2026 12:00:00 +0000",
-      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate\u2026",
       "isAI": true
     }
   ]
