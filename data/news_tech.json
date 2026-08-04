@@ -1,6 +1,54 @@
 {
-  "updated": "2026-08-04T18:55:50.428141+00:00",
+  "updated": "2026-08-04T20:27:11.550347+00:00",
   "items": [
+    {
+      "title": "Android app developers may be unwittingly sharing their users\u2019 location data with advertisers",
+      "url": "https://techcrunch.com/2026/08/04/android-app-developers-may-be-unwittingly-sharing-their-users-location-data-with-advertisers/",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 20:26:53 +0000",
+      "summary": "Developers may not realize they are sharing their users' location data with advertisers, per new research.",
+      "isAI": false
+    },
+    {
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 04 Aug 2026 20:05:26 +0000",
+      "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 04 Aug 2026 19:48:40 +0000",
+      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "isAI": true
+    },
+    {
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 04 Aug 2026 19:34:34 +0000",
+      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia doesn\u2019t mess around: A week after open AI industry group formed, it\u2019s already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 04 Aug 2026 19:28:49 +0000",
+      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "isAI": true
+    },
+    {
+      "title": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
+      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
+      "source": "The Verge",
+      "published": "2026-08-04T15:11:05-04:00",
+      "summary": "Telegram CEO Pavel Durov blames an extortionist for planting child sexual abuse material (CSAM) in a public chat to get the app temporarily removed from Apple's App Store on Monday night. \"Apple removed Telegram from the App Store before contacting us,\" Durov says in a post on X. \"This creates a potential systemic risk for [\u2026]",
+      "isAI": false
+    },
     {
       "title": "How an OpenAI influencer trip backfired",
       "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
@@ -1951,54 +1999,6 @@
       "source": "The Verge",
       "published": "2026-07-28T18:37:53-04:00",
       "summary": "The US government is targeting China with a new import ban on \"advanced robotic devices\" and power inverters made in foreign countries, as reported earlier by Reuters. In an announcement on Tuesday, the Federal Communications Commission says the ban will include \"mobile\" robots, such as humanoid and quadruped models - but it is not limited [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 28 Jul 2026 21:36:39 +0000",
-      "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
-      "isAI": true
-    },
-    {
-      "title": "Bot-detection startup Spur nabs $200M from Insight",
-      "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 28 Jul 2026 21:29:34 +0000",
-      "summary": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.",
-      "isAI": true
-    },
-    {
-      "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
-      "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 28 Jul 2026 20:45:12 +0000",
-      "summary": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway product and then opted to build one itself.",
-      "isAI": true
-    },
-    {
-      "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
-      "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 28 Jul 2026 20:20:20 +0000",
-      "summary": "Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected.",
-      "isAI": true
-    },
-    {
-      "title": "Sam Altman is ready to decelerate",
-      "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 28 Jul 2026 20:17:08 +0000",
-      "summary": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
-      "isAI": true
-    },
-    {
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-      "source": "The Verge AI",
-      "published": "2026-07-28T15:46:43-04:00",
-      "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better [\u2026]",
       "isAI": true
     }
   ]
