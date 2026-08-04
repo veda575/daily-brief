@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T05:25:59.044032+00:00",
+  "updated": "2026-08-04T08:01:07.139972+00:00",
   "items": [
     {
       "title": "Litter-Robot Promo Codes: Up to $150 Off",
@@ -31,6 +31,14 @@
       "source": "Ars Technica AI",
       "published": "Mon, 03 Aug 2026 22:11:39 +0000",
       "summary": "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
+      "isAI": true
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "OpenAI",
+      "published": "Mon, 03 Aug 2026 22:00:00 GMT",
+      "summary": "OpenAI addresses Apple\u2019s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "isAI": true
     },
     {
@@ -190,7 +198,7 @@
       "url": "https://github.com/lyogavin/airllm",
       "source": "Hacker News",
       "published": "Mon, 03 Aug 2026 11:15:48 +0000",
-      "summary": "Article URL: https://github.com/lyogavin/airllm Comments URL: https://news.ycombinator.com/item?id=49154228 Points: 205 # Comments: 76",
+      "summary": "Article URL: https://github.com/lyogavin/airllm Comments URL: https://news.ycombinator.com/item?id=49154228 Points: 216 # Comments: 77",
       "isAI": true
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "Tue, 28 Jul 2026 08:00:00 +0000",
       "summary": "Baidu's Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025.",
       "isAI": false
-    },
-    {
-      "title": "Hugging Face Has a Deepfake Nudes Problem",
-      "url": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
-      "source": "Wired",
-      "published": "Tue, 28 Jul 2026 05:30:00 +0000",
-      "summary": "Researchers tested top image editing models on Hugging Face and found they could easily create explicit deepfakes\u2014and 1,000 image editing prompts show how people use the software.",
-      "isAI": true
     }
   ]
 }
