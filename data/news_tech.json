@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-04T15:25:06.177483+00:00",
+  "updated": "2026-08-04T17:13:02.788947+00:00",
   "items": [
+    {
+      "title": "Hackers steal over $130 million by exploiting bug in offline hardware wallets",
+      "url": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 16:27:59 +0000",
+      "summary": "A security vulnerability in the cryptocurrency hardware wallet Coldcard is allowing hackers to drain the crypto from victims\u2019 wallets. The total losses amount to more than $130 million, according to blockchain monitoring firms.",
+      "isAI": false
+    },
+    {
+      "title": "Spotify expands AI remix and covers project with Merlin partnership",
+      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 04 Aug 2026 15:50:06 +0000",
+      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists\u2019 music while ensuring artists opt in, receive credit, and are compensated.",
+      "isAI": true
+    },
+    {
+      "title": "Texas halts new data centers as governor calls for audits",
+      "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 04 Aug 2026 15:42:35 +0000",
+      "summary": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they\u2019ve been drawn to Texas\u2019 loose regulations and seemingly abundant power supply. But even Texas can be pushed to the brink.",
+      "isAI": true
+    },
+    {
+      "title": "Walmart completes its acquisition of TV advertising company Vibe.co",
+      "url": "https://techcrunch.com/2026/08/04/walmart-completes-its-acquisition-of-tv-advertising-company-vibe-co/",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 15:38:22 +0000",
+      "summary": "The acquisition, which was announced in June, brings Vibe.co into Walmart Connect, Walmart's connected TV advertising platform.",
+      "isAI": false
+    },
+    {
+      "title": "Texas says data centers must pass an audit before connecting to the grid",
+      "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+      "source": "The Verge AI",
+      "published": "2026-08-04T11:33:21-04:00",
+      "summary": "Texas announced new a audit on data centers that could slow approval for new facilities seeking to connect to the state energy grid. Governor Greg Abbott (R) on Monday directed the Public Utility Commission of Texas (PUCT) and the Electric Reliability Council of Texas (ERCOT) to verify and audit new data center proposals, writing that [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
       "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
@@ -86,7 +126,15 @@
       "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 11:30:17 +0000",
-      "summary": "Article URL: https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/ Comments URL: https://news.ycombinator.com/item?id=49167113 Points: 530 # Comments: 307",
+      "summary": "Article URL: https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/ Comments URL: https://news.ycombinator.com/item?id=49167113 Points: 617 # Comments: 369",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI drags Apple\u2019s lawsuit into the court of public opinion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "source": "The Verge AI",
+      "published": "2026-08-04T07:27:55-04:00",
+      "summary": "Apple's legal battle against OpenAI just got messier now that the ChatGPT-maker has publicly aired receipts to counter Apple's version of events. In a blog post published overnight titled \"Apple is getting this wrong,\" OpenAI said that Apple's lawsuit accusing it of stealing trade secrets is \"careless, aggressive, and oddly personal,\" sharing iMessage and email [\u2026]",
       "isAI": true
     },
     {
@@ -144,6 +192,14 @@
       "published": "Tue, 04 Aug 2026 05:00:00 +0000",
       "summary": "Get the latest Litter-Robot Discounts on Litter-Robot self-cleaning litter boxes, accessories, and more.",
       "isAI": false
+    },
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "source": "OpenAI",
+      "published": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K\u201312 teachers, college educators, and students learn, teach, research, and build.",
+      "isAI": true
     },
     {
       "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry \u2018Marxist\u2019",
@@ -1943,62 +1999,6 @@
       "source": "TechCrunch",
       "published": "Tue, 28 Jul 2026 19:09:18 +0000",
       "summary": "Ozlo\u2019s first major update to its sleep earbuds introduces longer battery life, improved connectivity, enhanced audio, and new sleep features as the startup continues the product line once abandoned by Bose.",
-      "isAI": true
-    },
-    {
-      "title": "The robot NASA hired to lift a orbital telescope tumbled out of control",
-      "url": "https://techcrunch.com/2026/07/28/the-robot-nasa-hired-to-lift-a-orbital-telescope-is-tumbling-out-of-control/",
-      "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 19:07:31 +0000",
-      "summary": "According to NASA, two of the three reaction wheels that control the spacecraft's alignment have failed, and there are problems with one of the spacecraft's thruster systems.",
-      "isAI": false
-    },
-    {
-      "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
-      "url": "https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/",
-      "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 19:06:33 +0000",
-      "summary": "Rep. Kevin Mullin (D-California ) has proposed a bill that would direct federal regulators to establish minimum national safety standards for autonomous vehicle operators.",
-      "isAI": false
-    },
-    {
-      "title": "These App Store hidden gems prove there\u2019s still room for great software in the AI era",
-      "url": "https://techcrunch.com/2026/07/28/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-      "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 18:16:39 +0000",
-      "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
-      "isAI": true
-    },
-    {
-      "title": "Saudi prince buys 5% stake in Lucid Motors",
-      "url": "https://techcrunch.com/2026/07/28/saudi-prince-buys-5-stake-in-lucid-motors/",
-      "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 17:33:51 +0000",
-      "summary": "The investment comes after speculation that Saudi Arabia may take Lucid Motors private -- which the EV maker has denied.",
-      "isAI": false
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI",
-      "published": "Tue, 28 Jul 2026 17:00:00 GMT",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "isAI": true
-    },
-    {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "source": "Hugging Face",
-      "published": "Tue, 28 Jul 2026 16:27:42 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI",
-      "published": "Tue, 28 Jul 2026 16:00:00 +0000",
-      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
       "isAI": true
     }
   ]
