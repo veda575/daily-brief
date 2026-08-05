@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T21:33:24.504034+00:00",
+  "updated": "2026-08-05T22:42:52.819983+00:00",
   "regions": {
     "us": [
       {
@@ -16,7 +16,7 @@
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": null,
+        "marketCap": 786030985216,
         "changePercent": -7.0442414,
         "sortName": "Advanced Micro Devices",
         "indexValue": 482.05
@@ -125,7 +125,7 @@
         "name": "Micron Technology",
         "sector": "Semiconductors / Memory",
         "currency": "USD",
-        "marketCap": null,
+        "marketCap": 1008762683392,
         "changePercent": 0.058254395,
         "indexValue": 893.19
       },
@@ -170,7 +170,7 @@
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": null,
+        "marketCap": 158050615296,
         "changePercent": 1.04193,
         "indexValue": 192.98
       },
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1135827951451.2615,
+        "marketCap": 1136147497927.9673,
         "changePercent": 2.5,
         "indexValue": 246000.0
       },
@@ -262,7 +262,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 564882786824.0814,
+        "marketCap": 564875584901.6383,
         "changePercent": 0.94339746,
         "indexValue": 492.2
       },
@@ -444,7 +444,7 @@
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": null,
+        "marketCap": 17321564307456,
         "changePercent": -0.844374,
         "indexValue": 1280.0
       },
@@ -489,7 +489,7 @@
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": null,
+        "marketCap": 8730444824576,
         "changePercent": -1.9105692,
         "indexValue": 2413.0
       },
