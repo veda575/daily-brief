@@ -1,6 +1,54 @@
 {
-  "updated": "2026-08-05T16:55:00.990044+00:00",
+  "updated": "2026-08-05T18:22:48.299136+00:00",
   "items": [
+    {
+      "title": "Reddit aims to make \u2018karma\u2019 less important for first-time posters with shift to AI moderation tools",
+      "url": "https://techcrunch.com/2026/08/05/reddit-aims-to-make-karma-less-important-for-first-time-posters-with-shift-to-ai-moderation-tools/",
+      "source": "TechCrunch",
+      "published": "Wed, 05 Aug 2026 18:00:40 +0000",
+      "summary": "Reddit is expanding its moderation tools and building stronger abuse prevention systems that it says could eventually reduce communities\u2019 reliance on karma and account-age requirements, making it easier for legitimate newcomers to participate.",
+      "isAI": true
+    },
+    {
+      "title": "Lucid Motors just delayed its affordable EV. Now what?",
+      "url": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
+      "source": "TechCrunch",
+      "published": "Wed, 05 Aug 2026 17:57:45 +0000",
+      "summary": "The Cosmos EV is now slated for release in the second half of 2027. CEO Silivo Napoli said he's focused on getting the EV right as well as its nearer-term robotaxi project with Uber and Nuro.",
+      "isAI": false
+    },
+    {
+      "title": "Two of Ring\u2019s latest video doorbells are a lot cheaper than usual",
+      "url": "https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale",
+      "source": "The Verge",
+      "published": "2026-08-05T13:53:43-04:00",
+      "summary": "Ring\u2019s Wired Doorbell Pro and Battery Doorbell Plus are two of the brand\u2019s most well-rounded video doorbells, whether you\u2019re looking for a hardwired model or one that runs on a battery. Right now, its Wired Doorbell Pro is down to $199 ($50 off) at Amazon and Best Buy, while the Battery Doorbell Plus is on [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Meet the eight startups pitching at Startup Battlefield Australia",
+      "url": "https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia/",
+      "source": "TechCrunch",
+      "published": "Wed, 05 Aug 2026 17:02:00 +0000",
+      "summary": "The applications are in, and the TechCrunch Startup Battlefield team made their decisions!",
+      "isAI": true
+    },
+    {
+      "title": "EVgo starts building Tesla Superchargers under license",
+      "url": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/",
+      "source": "Ars Technica",
+      "published": "Wed, 05 Aug 2026 17:00:38 +0000",
+      "summary": "The V4 Superchargers will show up in the Tesla nav app and have NACS and CCS1 plugs.",
+      "isAI": false
+    },
+    {
+      "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "source": "The Verge AI",
+      "published": "2026-08-05T12:57:25-04:00",
+      "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was generated using [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Google just announced a major shakeup of its top AI leadership",
       "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
@@ -10,7 +58,7 @@
       "isAI": true
     },
     {
-      "title": "D-Wave on rails: Company tests entanglement on its dual-rail qubits",
+      "title": "D-Wave shows off its new entry in quantum computing race",
       "url": "https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/",
       "source": "Ars Technica",
       "published": "Wed, 05 Aug 2026 16:37:07 +0000",
@@ -34,11 +82,19 @@
       "isAI": true
     },
     {
-      "title": "Google DeepMind CEO Demis Hassabis is stepping down",
+      "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
       "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
       "source": "Hacker News",
       "published": "Wed, 05 Aug 2026 16:05:37 +0000",
-      "summary": "Article URL: https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai Comments URL: https://news.ycombinator.com/item?id=49184757 Points: 165 # Comments: 86",
+      "summary": "Article URL: https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai Comments URL: https://news.ycombinator.com/item?id=49184757 Points: 357 # Comments: 205",
+      "isAI": true
+    },
+    {
+      "title": "Jeff Dean leaving Alphabet",
+      "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+      "source": "Hacker News",
+      "published": "Wed, 05 Aug 2026 16:04:33 +0000",
+      "summary": "Article URL: https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html Comments URL: https://news.ycombinator.com/item?id=49184746 Points: 281 # Comments: 60",
       "isAI": true
     },
     {
@@ -126,7 +182,7 @@
       "url": "https://blog.cloudflare.com/cloudflare-os/",
       "source": "Hacker News",
       "published": "Wed, 05 Aug 2026 13:58:53 +0000",
-      "summary": "Article URL: https://blog.cloudflare.com/cloudflare-os/ Comments URL: https://news.ycombinator.com/item?id=49182996 Points: 272 # Comments: 155",
+      "summary": "Article URL: https://blog.cloudflare.com/cloudflare-os/ Comments URL: https://news.ycombinator.com/item?id=49182996 Points: 322 # Comments: 185",
       "isAI": false
     },
     {
@@ -142,7 +198,7 @@
       "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
       "source": "Hacker News",
       "published": "Wed, 05 Aug 2026 12:41:47 +0000",
-      "summary": "Article URL: https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/ Comments URL: https://news.ycombinator.com/item?id=49182041 Points: 166 # Comments: 66",
+      "summary": "Article URL: https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/ Comments URL: https://news.ycombinator.com/item?id=49182041 Points: 192 # Comments: 77",
       "isAI": true
     },
     {
@@ -190,7 +246,7 @@
       "url": "https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/",
       "source": "Hacker News",
       "published": "Wed, 05 Aug 2026 11:03:13 +0000",
-      "summary": "Article URL: https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/ Comments URL: https://news.ycombinator.com/item?id=49181099 Points: 327 # Comments: 160",
+      "summary": "Article URL: https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/ Comments URL: https://news.ycombinator.com/item?id=49181099 Points: 361 # Comments: 177",
       "isAI": false
     },
     {
@@ -1943,62 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Wed, 29 Jul 2026 23:00:11 +0000",
       "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-      "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 29 Jul 2026 22:46:03 +0000",
-      "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
-      "isAI": true
-    },
-    {
-      "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents",
-      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 29 Jul 2026 22:23:12 +0000",
-      "summary": "On the company\u2019s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a \u201clarge enterprise opportunity\u201d spanning AI agents, APIs, compute, and internal software.",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft confirms Copilot \u2018super app\u2019 coming this year",
-      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-      "source": "The Verge AI",
-      "published": "2026-07-29T18:17:38-04:00",
-      "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
-      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 29 Jul 2026 22:07:06 +0000",
-      "summary": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
-      "isAI": true
-    },
-    {
-      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
-      "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "source": "The Verge AI",
-      "published": "2026-07-29T17:48:07-04:00",
-      "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Qualcomm is raising phone chip prices starting September 1st",
-      "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
-      "source": "The Verge",
-      "published": "2026-07-29T17:41:56-04:00",
-      "summary": "RAMageddon won't be the only reason your next phone costs more - Qualcomm is about to raise prices on all its processors, as well. Qualcomm CEO Cristiano Amon said on Wednesday that \"prices are going to go up\" on the company's products starting on September 1st, CNBC reports. The price hikes were rumored last week [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AI's top startups are barely publishing their research",
-      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "source": "Hacker News",
-      "published": "Wed, 29 Jul 2026 21:25:40 +0000",
-      "summary": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 481 # Comments: 245",
       "isAI": true
     }
   ]
