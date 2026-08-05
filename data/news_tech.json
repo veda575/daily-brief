@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-04T21:50:42.482287+00:00",
+  "updated": "2026-08-05T02:12:28.049869+00:00",
   "items": [
+    {
+      "title": "OK, Well, Rogue AI Agents Are Hacking Again",
+      "url": "https://www.wired.com/story/ok-well-there-are-even-more-ai-agent-hacking-incidents/",
+      "source": "Wired",
+      "published": "Tue, 04 Aug 2026 23:11:31 +0000",
+      "summary": "Rogue AI agents from OpenAI and Anthropic have again been caught trying to disrupt servers and software\u2014and leaving instructions for future bad behavior.",
+      "isAI": true
+    },
+    {
+      "title": "Lucid\u2019s turnaround plan hinges on $1.4B in cash savings, robotaxis",
+      "url": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 22:24:00 +0000",
+      "summary": "Lucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis.",
+      "isAI": false
+    },
+    {
+      "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
+      "url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
+      "source": "Wired",
+      "published": "Tue, 04 Aug 2026 22:06:07 +0000",
+      "summary": "The Trump administration shared the details of its plan with OpenAI, Anthropic, and other AI labs on Tuesday. For now, the public remains in the dark.",
+      "isAI": true
+    },
     {
       "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
       "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
@@ -110,7 +134,7 @@
       "url": "https://mistral.ai/news/shieldstral/",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 16:36:05 +0000",
-      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 190 # Comments: 52",
+      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 310 # Comments: 74",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 29 Jul 2026 11:00:00 +0000",
       "summary": "Thanks to the surge in local AI processing and the ongoing memory shortage, it\u2019s incredibly difficult to buy a Mac Mini.",
-      "isAI": true
-    },
-    {
-      "title": "More Typos, Fewer Em Dashes: Writers Are Creating an Anti-AI \u2018Literary Counterculture\u2019",
-      "url": "https://www.wired.com/story/more-typos-fewer-em-dashes-writers-are-creating-an-anti-ai-literary-counterculture/",
-      "source": "Wired",
-      "published": "Wed, 29 Jul 2026 10:30:00 +0000",
-      "summary": "Novelists, journalists, and power LinkedIn posters are embracing first-person narratives and idiosyncrasies to avoid being mistaken for chat bots.",
-      "isAI": true
-    },
-    {
-      "title": "How to Bring a Geothermal Well Back from the Dead",
-      "url": "https://www.wired.com/story/zanskar-geothermal-well-back-from-dead/",
-      "source": "Wired",
-      "published": "Wed, 29 Jul 2026 10:00:00 +0000",
-      "summary": "Startup Zanskar has created one of the most productive geothermal wells in the US at a power plant that had been in decline for years.",
-      "isAI": true
-    },
-    {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "published": "Wed, 29 Jul 2026 10:00:00 GMT",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "isAI": true
     }
   ]
