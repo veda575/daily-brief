@@ -1,12 +1,44 @@
 {
-  "updated": "2026-08-05T05:25:26.246492+00:00",
+  "updated": "2026-08-05T08:01:35.696064+00:00",
   "items": [
+    {
+      "title": "Ted Lasso returns at an important time for Apple TV",
+      "url": "https://www.theverge.com/entertainment/975224/ted-lasso-season-4-apple-tv",
+      "source": "The Verge",
+      "published": "2026-08-05T03:00:00-04:00",
+      "summary": "2026 is shaping up to be an excellent year for Apple TV. Apple's streaming service has built out an impressive slate that spans returning favorites like Silo and Sugar to all-new hits including OnlyFans-inspired dramedies, terrifying comedies, and paranoid tech thrillers. But the most important release might be a feel-good sports sitcom. After what seemed [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The AI Notetaker Has Been Invited to All the Meetings",
+      "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
+      "source": "Wired",
+      "published": "Wed, 05 Aug 2026 07:00:00 +0000",
+      "summary": "Wispr Flow, a popular dictation tool, has released a live notetaker that transcribes and summarizes meetings. It joins a growing wave of AI notetakers for the workplace.",
+      "isAI": true
+    },
+    {
+      "title": "SpaceX is coming for T-Mobile, AT&T and Verizon",
+      "url": "https://www.theverge.com/science/975480/spacex-mobile-terrestrial-cellphone-company",
+      "source": "The Verge",
+      "published": "2026-08-05T02:50:19-04:00",
+      "summary": "SpaceX is preparing to build a terrestrial mobile network to \"acquire quite a few\" of the customers now subscribed to T-Mobile, AT&T, and Verizon. The message to compete head-to-head with the US carriers was delivered by SpaceX president Gwynne Shotwell and CEO Elon Musk during the Q&A section of the company's first earnings call. \"The [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Meta Quest Promo Codes and Coupons for August 2026",
       "url": "https://www.wired.com/story/meta-quest-promo-code/",
       "source": "Wired",
       "published": "Wed, 05 Aug 2026 05:00:00 +0000",
       "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "isAI": true
+    },
+    {
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "source": "Hacker News",
+      "published": "Tue, 04 Aug 2026 23:50:52 +0000",
+      "summary": "Article URL: https://queue.acm.org/detail.cfm?id=3807963 Comments URL: https://news.ycombinator.com/item?id=49176830 Points: 184 # Comments: 146",
       "isAI": true
     },
     {
@@ -38,7 +70,7 @@
       "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 22:01:41 +0000",
-      "summary": "https://www.interpol.int/Media/Documents/Publications/Cyberc... Comments URL: https://news.ycombinator.com/item?id=49175826 Points: 174 # Comments: 131",
+      "summary": "https://www.interpol.int/Media/Documents/Publications/Cyberc... Comments URL: https://news.ycombinator.com/item?id=49175826 Points: 209 # Comments: 164",
       "isAI": true
     },
     {
@@ -150,7 +182,7 @@
       "url": "https://mistral.ai/news/shieldstral/",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 16:36:05 +0000",
-      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 353 # Comments: 84",
+      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 383 # Comments: 94",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "TechCrunch",
       "published": "Wed, 29 Jul 2026 12:00:00 +0000",
       "summary": "Aluminum production has saddled the world with billions of tons of caustic waste. One startup has a plan to clean it up and turn a profit.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s rogue AI agent didn\u2019t stop at hacking Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-      "source": "The Verge AI",
-      "published": "2026-07-29T07:54:29-04:00",
-      "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-      "source": "Hacker News",
-      "published": "Wed, 29 Jul 2026 11:44:33 +0000",
-      "summary": "Article URL: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/ Comments URL: https://news.ycombinator.com/item?id=49096188 Points: 153 # Comments: 126",
-      "isAI": true
-    },
-    {
-      "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI disinformation",
-      "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 29 Jul 2026 11:00:39 +0000",
-      "summary": "Deciding what's real on the Internet won't be easy in the future.",
-      "isAI": true
-    },
-    {
-      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
-      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 29 Jul 2026 11:00:00 +0000",
-      "summary": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
       "isAI": true
     }
   ]
