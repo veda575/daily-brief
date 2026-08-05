@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-05T08:01:35.696064+00:00",
+  "updated": "2026-08-05T10:46:11.125856+00:00",
   "items": [
+    {
+      "title": "Trump\u2019s AI testing plan is limited and vague",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "source": "The Verge AI",
+      "published": "2026-08-05T06:29:47-04:00",
+      "summary": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core components - but the framework explicitly says it can't be used [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
+      "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
+      "source": "Wired",
+      "published": "Wed, 05 Aug 2026 09:00:00 +0000",
+      "summary": "Nobody likes getting a swab shoved up their nose. A startup in Japan has developed a much less intrusive system.",
+      "isAI": true
+    },
     {
       "title": "Ted Lasso returns at an important time for Apple TV",
       "url": "https://www.theverge.com/entertainment/975224/ted-lasso-season-4-apple-tv",
@@ -38,7 +54,7 @@
       "url": "https://queue.acm.org/detail.cfm?id=3807963",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 23:50:52 +0000",
-      "summary": "Article URL: https://queue.acm.org/detail.cfm?id=3807963 Comments URL: https://news.ycombinator.com/item?id=49176830 Points: 184 # Comments: 146",
+      "summary": "Article URL: https://queue.acm.org/detail.cfm?id=3807963 Comments URL: https://news.ycombinator.com/item?id=49176830 Points: 216 # Comments: 180",
       "isAI": true
     },
     {
@@ -70,7 +86,7 @@
       "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 22:01:41 +0000",
-      "summary": "https://www.interpol.int/Media/Documents/Publications/Cyberc... Comments URL: https://news.ycombinator.com/item?id=49175826 Points: 209 # Comments: 164",
+      "summary": "https://www.interpol.int/Media/Documents/Publications/Cyberc... Comments URL: https://news.ycombinator.com/item?id=49175826 Points: 247 # Comments: 192",
       "isAI": true
     },
     {
@@ -182,7 +198,7 @@
       "url": "https://mistral.ai/news/shieldstral/",
       "source": "Hacker News",
       "published": "Tue, 04 Aug 2026 16:36:05 +0000",
-      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 383 # Comments: 94",
+      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 426 # Comments: 109",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Wed, 29 Jul 2026 13:23:31 +0000",
       "summary": "AI is fantastic at spotting patterns, but human insight is the key.",
-      "isAI": true
-    },
-    {
-      "title": "Artists are lawyering up against AI slop, and some are even winning",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
-      "source": "The Verge AI",
-      "published": "2026-07-29T08:00:00-04:00",
-      "summary": "When The Atlantic published a searchable dataset of works used to train AI, Kirk Wallace Johnson, like a lot of artists, looked for his name out of curiosity. And, like a lot of artists, he found it. Essentially, his books, like The Feather Thief and The Fishermen and the Dragon - nonfiction tomes that he [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Fast Metals is treating waste with more waste to extract critical minerals",
-      "url": "https://techcrunch.com/2026/07/29/fast-metals-is-treating-waste-with-more-waste-to-extract-critical-minerals/",
-      "source": "TechCrunch",
-      "published": "Wed, 29 Jul 2026 12:00:00 +0000",
-      "summary": "Aluminum production has saddled the world with billions of tons of caustic waste. One startup has a plan to clean it up and turn a profit.",
       "isAI": true
     }
   ]
