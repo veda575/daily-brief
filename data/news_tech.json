@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-07T00:31:46.524515+00:00",
+  "updated": "2026-08-07T02:31:48.123067+00:00",
   "items": [
+    {
+      "title": "One of China\u2019s Most Powerful AI Models Has Also Escaped Containment",
+      "url": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
+      "source": "Wired",
+      "published": "Fri, 07 Aug 2026 01:16:55 +0000",
+      "summary": "Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
+      "isAI": true
+    },
     {
       "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400",
       "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
@@ -38,7 +46,7 @@
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 312 # Comments: 249",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 386 # Comments: 304",
       "isAI": true
     },
     {
@@ -102,7 +110,7 @@
       "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 18:44:49 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 412 # Comments: 264",
+      "summary": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 438 # Comments: 282",
       "isAI": true
     },
     {
@@ -302,7 +310,7 @@
       "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 11:58:07 +0000",
-      "summary": "Article URL: https://scalex.dev/blog/ai-agent-permissions-stats/ Comments URL: https://news.ycombinator.com/item?id=49195468 Points: 245 # Comments: 188",
+      "summary": "Article URL: https://scalex.dev/blog/ai-agent-permissions-stats/ Comments URL: https://news.ycombinator.com/item?id=49195468 Points: 258 # Comments: 192",
       "isAI": true
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "Hacker News",
       "published": "Fri, 31 Jul 2026 06:08:36 +0000",
       "summary": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 646 # Comments: 305",
-      "isAI": false
-    },
-    {
-      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
-      "url": "https://github.com/mokshablr/gander",
-      "source": "Hacker News",
-      "published": "Fri, 31 Jul 2026 05:45:13 +0000",
-      "summary": "Hi HN,I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the\u2026",
       "isAI": false
     }
   ]

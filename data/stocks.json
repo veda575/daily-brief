@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T00:31:46.524515+00:00",
+  "updated": "2026-08-07T02:31:48.123067+00:00",
   "regions": {
     "us": [
       {
@@ -253,18 +253,18 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1094673551098.3962,
-        "changePercent": 2.8199565,
-        "indexValue": 237000.0
+        "marketCap": 1073618198176.8763,
+        "changePercent": 0.6507592,
+        "indexValue": 232000.0
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 549914020547.4178,
-        "changePercent": -2.6412027,
-        "indexValue": 479.2
+        "marketCap": 547358659665.95874,
+        "changePercent": -0.45910102,
+        "indexValue": 477.0
       },
       {
         "ticker": "TSM",
@@ -537,8 +537,8 @@
         "sector": "Index / China (Hong Kong) Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -1.4876666,
-        "indexValue": 25530.28
+        "changePercent": -0.4075328,
+        "indexValue": 25426.23
       },
       {
         "ticker": "^IXIC",
@@ -555,8 +555,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.56524444,
-        "indexValue": 3900.3523
+        "changePercent": 0.21482612,
+        "indexValue": 3908.7307
       },
       {
         "ticker": "399001.SZ",
@@ -564,8 +564,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.24096802,
-        "indexValue": 14110.121
+        "changePercent": 1.0553964,
+        "indexValue": 14259.024
       }
     ]
   }
