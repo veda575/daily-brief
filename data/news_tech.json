@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-07T17:08:00.885852+00:00",
+  "updated": "2026-08-07T18:02:16.681105+00:00",
   "items": [
+    {
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "Hugging Face",
+      "published": "Fri, 07 Aug 2026 17:53:32 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
+      "url": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
+      "source": "The Verge",
+      "published": "2026-08-07T13:43:34-04:00",
+      "summary": "Microsoft Edge is ending support for the Manifest V2 extensions platform, which will cut off the uBlock Origin adblocker and others like it, just like Google Chrome did earlier this year. According to Microsoft, there are only 58 extensions on the Edge Add-On Store \"with any meaningful usage\" that still use MV2, and only three [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "OpenAI\u2019s expensive smart speaker will use moving parts to seem \u201cmore alive\u201d",
+      "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 07 Aug 2026 17:36:22 +0000",
+      "summary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff.",
+      "isAI": true
+    },
     {
       "title": "What\u2019s behind the Google AI shake-up",
       "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
@@ -63,6 +87,14 @@
       "source": "TechCrunch",
       "published": "Fri, 07 Aug 2026 14:07:31 +0000",
       "summary": "SpaceX and Tesla are building a massive semiconductor fab in Texas that will depend on natural gas power plants, not Tesla solar panels.",
+      "isAI": true
+    },
+    {
+      "title": "Jill Lepore on the \u2018Artificial State\u2019 and why Silicon Valley\u2019s leaders are bad sci-fi readers",
+      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 07 Aug 2026 14:00:00 +0000",
+      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products \u2014 almost as if they\u2019re forming a new government. And whether you\u2019re thinking of Twitter\u2019s old \u201ctown hall in your pocket\u201d or Anthropic\u2019s Claude constitution, it\u2019s a theory that doesn\u2019t paint Silicon Valley in a very flattering light. In Lepore\u2019s upcoming book, The Rise and Fall of the\u2026",
       "isAI": true
     },
     {
@@ -174,7 +206,7 @@
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 567 # Comments: 321",
+      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 604 # Comments: 336",
       "isAI": false
     },
     {
@@ -214,7 +246,7 @@
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 806 # Comments: 612",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 824 # Comments: 624",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Fri, 31 Jul 2026 17:29:21 +0000",
       "summary": "Look at chemistry of batteries and motors shows big opportunity for recycling.",
       "isAI": false
-    },
-    {
-      "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI",
-      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 31 Jul 2026 17:26:32 +0000",
-      "summary": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it\u2019s time for the AI industry to \u201cpace\u201d itself. The comments came just days after one of OpenAI\u2019s own models broke out of its test environment and got tangled up in a breach at Hugging Face \u2014 though as Equity\u2019s hosts point out, sloppy security seems to have [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Here\u2019s the problem with putting an AI image generator in Google Earth",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
-      "source": "The Verge AI",
-      "published": "2026-07-31T13:05:46-04:00",
-      "summary": "Now a text prompt is all it takes to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery, like these images generated by Digital Digging's Henk van Ess that show \"refugees near the Mexican border\" and a bomb crater near a hospital in Gaza. Google responded to Digital Digging's AI-altered images, saying, \"We [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
-      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 31 Jul 2026 16:49:08 +0000",
-      "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
-      "isAI": true
-    },
-    {
-      "title": "The major labels propose rules to keep AI slop off the charts",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
-      "source": "The Verge AI",
-      "published": "2026-07-31T12:36:48-04:00",
-      "summary": "Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes quite a bit further than a labeling proposal put forth by the RIAA, the International Federation of the Phonographic Industry [\u2026]",
-      "isAI": true
     }
   ]
 }
