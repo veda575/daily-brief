@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T20:05:58.640877+00:00",
+  "updated": "2026-08-07T20:59:23.549624+00:00",
   "items": [
     {
       "title": "Watching Roku\u2019s AI channel is like eating from a trough",
@@ -38,7 +38,7 @@
       "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 17:36:30 +0000",
-      "summary": "Article URL: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code Comments URL: https://news.ycombinator.com/item?id=49213754 Points: 227 # Comments: 157",
+      "summary": "Article URL: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code Comments URL: https://news.ycombinator.com/item?id=49213754 Points: 268 # Comments: 192",
       "isAI": true
     },
     {
@@ -146,12 +146,28 @@
       "isAI": true
     },
     {
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "source": "Hacker News",
+      "published": "Fri, 07 Aug 2026 12:42:27 +0000",
+      "summary": "Article URL: https://www.noemamag.com/why-is-everyone-in-tech-so-sad/ Comments URL: https://news.ycombinator.com/item?id=49209539 Points: 188 # Comments: 305",
+      "isAI": false
+    },
+    {
       "title": "The founder\u2019s guide to TechCrunch Disrupt 2026: Everything you need to know",
       "url": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
       "source": "TechCrunch",
       "published": "Fri, 07 Aug 2026 12:30:00 +0000",
       "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
       "isAI": true
+    },
+    {
+      "title": "Show HN: Wyzer Programming Language",
+      "url": "https://github.com/Wyzer-Lang/wyzer",
+      "source": "Hacker News",
+      "published": "Fri, 07 Aug 2026 12:28:55 +0000",
+      "summary": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by\u2026",
+      "isAI": false
     },
     {
       "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
@@ -238,7 +254,7 @@
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 671 # Comments: 360",
+      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 691 # Comments: 372",
       "isAI": false
     },
     {
@@ -278,7 +294,7 @@
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 856 # Comments: 641",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 864 # Comments: 648",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Fri, 31 Jul 2026 19:04:56 +0000",
       "summary": "LemonLime\u2019s CEO got \u201ccarried away\u201d with tattoo gimmick.",
-      "isAI": true
-    },
-    {
-      "title": "VC-backed startups commit more fraud, and researchers think they know why",
-      "url": "https://techcrunch.com/2026/07/31/vc-backed-startups-commit-more-fraud-and-researchers-think-they-know-why/",
-      "source": "TechCrunch",
-      "published": "Fri, 31 Jul 2026 19:00:00 +0000",
-      "summary": "New research from the U.K.\u2019s Imperial College and France\u2019s Emlyon Business School mapped out how Silicon Valley founders commit fraud \u2014 and the role investors play.",
-      "isAI": true
-    },
-    {
-      "title": "Chinese AI Researchers Are Finding Their Voice on X",
-      "url": "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
-      "source": "Wired",
-      "published": "Fri, 31 Jul 2026 18:14:43 +0000",
-      "summary": "As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI.",
       "isAI": true
     }
   ]
