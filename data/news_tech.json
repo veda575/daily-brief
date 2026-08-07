@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-07T18:02:16.681105+00:00",
+  "updated": "2026-08-07T19:15:47.788824+00:00",
   "items": [
+    {
+      "title": "Watching Roku\u2019s AI channel is like eating from a trough",
+      "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "source": "The Verge AI",
+      "published": "2026-08-07T14:59:46-04:00",
+      "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI puts the brakes on a new model because it\u2019s supposedly too powerful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "source": "The Verge AI",
+      "published": "2026-08-07T14:40:34-04:00",
+      "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue [\u2026]",
+      "isAI": true
+    },
     {
       "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
       "url": "https://huggingface.co/blog/allenai/tutormoments",
@@ -18,12 +34,28 @@
       "isAI": false
     },
     {
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "source": "Hacker News",
+      "published": "Fri, 07 Aug 2026 17:36:30 +0000",
+      "summary": "Article URL: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code Comments URL: https://news.ycombinator.com/item?id=49213754 Points: 169 # Comments: 101",
+      "isAI": true
+    },
+    {
       "title": "OpenAI\u2019s expensive smart speaker will use moving parts to seem \u201cmore alive\u201d",
       "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
       "source": "Ars Technica AI",
       "published": "Fri, 07 Aug 2026 17:36:22 +0000",
       "summary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff.",
       "isAI": true
+    },
+    {
+      "title": "Volkswagen plans to win America back with a pickup, report says",
+      "url": "https://arstechnica.com/cars/2026/08/volkswagen-plans-to-win-america-back-with-a-pickup-report-says/",
+      "source": "Ars Technica",
+      "published": "Fri, 07 Aug 2026 17:13:31 +0000",
+      "summary": "There's no evidence the truck will be a cheap EV truck, but what if it were?",
+      "isAI": false
     },
     {
       "title": "What\u2019s behind the Google AI shake-up",
@@ -206,7 +238,7 @@
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 604 # Comments: 336",
+      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 639 # Comments: 355",
       "isAI": false
     },
     {
@@ -246,7 +278,7 @@
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 824 # Comments: 624",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 847 # Comments: 637",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Fri, 31 Jul 2026 18:14:43 +0000",
       "summary": "As OpenAI and Anthropic employees grow quieter online, researchers at Chinese AI labs are flocking to X to explain their work, recruit talent, and shape the global conversation on AI.",
       "isAI": true
-    },
-    {
-      "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
-      "url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 31 Jul 2026 18:11:55 +0000",
-      "summary": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
-      "isAI": true
-    },
-    {
-      "title": "qm \u2013 Multiplayer agent harness for work",
-      "url": "https://github.com/yc-software/qm",
-      "source": "Hacker News",
-      "published": "Fri, 31 Jul 2026 18:04:58 +0000",
-      "summary": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?id=49126604 Points: 562 # Comments: 113",
-      "isAI": true
-    },
-    {
-      "title": "The ban on robot vacuums won\u2019t make them safer, only worse",
-      "url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
-      "source": "The Verge",
-      "published": "2026-07-31T13:30:49-04:00",
-      "summary": "No other gadget knows as much about your home as a robot vacuum. They map your space, learn your routines, and many now carry a camera and microphone into every room in your house. As AI gives them a better understanding of what they see, the privacy and security risks these autonomous robots pose are [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "China could supply EV manufacturing boom with recycled EVs",
-      "url": "https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/",
-      "source": "Ars Technica",
-      "published": "Fri, 31 Jul 2026 17:29:21 +0000",
-      "summary": "Look at chemistry of batteries and motors shows big opportunity for recycling.",
-      "isAI": false
     }
   ]
 }
