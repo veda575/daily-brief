@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-07T14:13:41.209039+00:00",
+  "updated": "2026-08-07T15:12:07.964925+00:00",
   "items": [
+    {
+      "title": "Zohran Mamdani\u2019s NYC Tech Team Is What DOGE Should Have Been",
+      "url": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
+      "source": "Wired",
+      "published": "Fri, 07 Aug 2026 15:00:00 +0000",
+      "summary": "The mayor of New York City has assembled a crew of Silicon Valley and United States Digital Service veterans to overhaul city services with better software.",
+      "isAI": true
+    },
+    {
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "url": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 14:28:31 +0000",
+      "summary": "In the Kimi test, the sandbox designed to contain the experiment was not properly configured.",
+      "isAI": true
+    },
+    {
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 07 Aug 2026 14:22:49 +0000",
+      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "isAI": true
+    },
+    {
+      "title": "Scientists Used AI to Create 16 New Viruses",
+      "url": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+      "source": "Wired",
+      "published": "Fri, 07 Aug 2026 14:13:57 +0000",
+      "summary": "The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation.",
+      "isAI": true
+    },
     {
       "title": "SpaceX\u2019s Terafab will rely on natural gas power plants, not Tesla solar panels",
       "url": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/",
@@ -118,7 +150,7 @@
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 447 # Comments: 257",
+      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 479 # Comments: 267",
       "isAI": false
     },
     {
@@ -158,7 +190,7 @@
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 751 # Comments: 573",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 766 # Comments: 581",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "TechCrunch",
       "published": "Fri, 31 Jul 2026 15:37:58 +0000",
       "summary": "AI data center demand is fueling a multi-year chip shortage, pushing up component costs and retail device prices.",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX won\u2019t remove all of xAI\u2019s unpermitted turbines for another year",
-      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 31 Jul 2026 15:16:17 +0000",
-      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
-      "isAI": true
-    },
-    {
-      "title": "AI Slop Melodramas Are Taking Over X\u2014and Their Creators Are Cashing In",
-      "url": "https://www.wired.com/story/ai-slop-melodramas-are-taking-over-x-and-their-creators-are-cashing-in/",
-      "source": "Wired",
-      "published": "Fri, 31 Jul 2026 15:00:09 +0000",
-      "summary": "Viral tales of good triumphing over evil are racking up millions of views. They\u2019re almost entirely AI-generated clickbait.",
-      "isAI": true
-    },
-    {
-      "title": "Advancing responsible AI across Europe",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "source": "OpenAI",
-      "published": "Fri, 31 Jul 2026 15:00:00 GMT",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "isAI": true
-    },
-    {
-      "title": "Building abundant intelligence",
-      "url": "https://openai.com/index/building-abundant-intelligence",
-      "source": "OpenAI",
-      "published": "Fri, 31 Jul 2026 15:00:00 GMT",
-      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
       "isAI": true
     }
   ]
