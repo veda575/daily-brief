@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-07T16:10:04.168719+00:00",
+  "updated": "2026-08-07T17:08:00.885852+00:00",
   "items": [
+    {
+      "title": "What\u2019s behind the Google AI shake-up",
+      "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "source": "The Verge AI",
+      "published": "2026-08-07T12:45:14-04:00",
+      "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 07 Aug 2026 16:16:09 +0000",
+      "summary": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "isAI": true
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "OpenAI",
+      "published": "Fri, 07 Aug 2026 15:20:00 GMT",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we\u2019re taking to strengthen safeguards and security controls.",
+      "isAI": true
+    },
     {
       "title": "Zohran Mamdani\u2019s NYC Tech Team Is What DOGE Should Have Been",
       "url": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
@@ -150,7 +174,7 @@
       "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 520 # Comments: 285",
+      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 567 # Comments: 321",
       "isAI": false
     },
     {
@@ -190,7 +214,7 @@
       "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "source": "Hacker News",
       "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 784 # Comments: 597",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 806 # Comments: 612",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-07-31T12:36:48-04:00",
       "summary": "Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes quite a bit further than a labeling proposal put forth by the RIAA, the International Federation of the Phonographic Industry [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Siri AI could come with a paywall for power users",
-      "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 31 Jul 2026 16:08:18 +0000",
-      "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
-      "isAI": true
-    },
-    {
-      "title": "Best Robot Vacuum of 2026: Shark, Eufy",
-      "url": "https://www.wired.com/story/best-robot-vacuum/",
-      "source": "Wired",
-      "published": "Fri, 31 Jul 2026 15:53:21 +0000",
-      "summary": "Tired of vacuuming? Hand the reins to a robot vacuum.",
-      "isAI": false
-    },
-    {
-      "title": "Samsung expects memory shortage to worsen through 2027 and last until 2028",
-      "url": "https://techcrunch.com/2026/07/31/samsung-expects-memory-shortage-to-worsen-through-2027-and-last-until-2028/",
-      "source": "TechCrunch",
-      "published": "Fri, 31 Jul 2026 15:37:58 +0000",
-      "summary": "AI data center demand is fueling a multi-year chip shortage, pushing up component costs and retail device prices.",
       "isAI": true
     }
   ]
