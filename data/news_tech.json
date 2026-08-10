@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-10T19:43:05.255270+00:00",
+  "updated": "2026-08-10T20:25:13.022381+00:00",
   "items": [
+    {
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 10 Aug 2026 20:04:24 +0000",
+      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "isAI": true
+    },
+    {
+      "title": "AI professors are negotiating the new realities of academic research",
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 10 Aug 2026 20:00:00 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI\u2026",
+      "isAI": true
+    },
     {
       "title": "Aptoide becomes the first rival app store to return to Google Play in the US",
       "url": "https://techcrunch.com/2026/08/10/aptoide-becomes-the-first-rival-app-store-to-return-to-google-play-in-the-us/",
@@ -95,6 +111,14 @@
       "source": "TechCrunch",
       "published": "Mon, 10 Aug 2026 14:14:43 +0000",
       "summary": "A bug in the tech giant's website the logo of US marketing automation company Klaviyo Inc. is seen displayed on a smartphone in front of an abstract background on a computer screen..",
+      "isAI": true
+    },
+    {
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "source": "Hacker News",
+      "published": "Mon, 10 Aug 2026 14:06:22 +0000",
+      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 187 # Comments: 234",
       "isAI": true
     },
     {
@@ -198,7 +222,7 @@
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 10:10:02 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 841 # Comments: 475",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 885 # Comments: 500",
       "isAI": true
     },
     {
@@ -246,7 +270,7 @@
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 06:02:38 +0000",
-      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 557 # Comments: 324",
+      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 569 # Comments: 331",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Mon, 03 Aug 2026 19:09:56 +0000",
       "summary": "OpenAI\u2019s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
-      "isAI": true
-    },
-    {
-      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
-      "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 03 Aug 2026 19:00:50 +0000",
-      "summary": "Top scores increased by 5x.",
-      "isAI": true
-    },
-    {
-      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
-      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 03 Aug 2026 18:43:43 +0000",
-      "summary": "Apple\u2019s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. But after years of delays, the launch lands in an AI landscape where chatbots have evolved into agents that can code, reason, create media, and complete complex tasks. Siri AI is genuinely useful, yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
-      "isAI": true
-    },
-    {
-      "title": "Trump\u2019s AI protectionism has come for robotics",
-      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 03 Aug 2026 18:43:30 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It\u2019s a nascent industry, and such robots\u2026",
       "isAI": true
     }
   ]
