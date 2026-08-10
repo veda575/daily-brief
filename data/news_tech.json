@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-10T17:37:37.029309+00:00",
+  "updated": "2026-08-10T18:35:10.205571+00:00",
   "items": [
+    {
+      "title": "Aptoide becomes the first rival app store to return to Google Play in the US",
+      "url": "https://techcrunch.com/2026/08/10/aptoide-becomes-the-first-rival-app-store-to-return-to-google-play-in-the-us/",
+      "source": "TechCrunch",
+      "published": "Mon, 10 Aug 2026 18:31:54 +0000",
+      "summary": "Aptoide has brought its games store back to Google Play after more than a decade, as court-ordered changes open Android to competing app stores.",
+      "isAI": false
+    },
+    {
+      "title": "YouTube now requires creators to have twice as many watch hours to start earning money",
+      "url": "https://techcrunch.com/2026/08/10/youtube-now-requires-creators-to-have-twice-as-many-watch-hours-to-start-earning-money/",
+      "source": "TechCrunch",
+      "published": "Mon, 10 Aug 2026 18:27:44 +0000",
+      "summary": "Creators who want to start earning on the platform will need at least 8,000 qualified watch hours over the past year or 20 million qualified Shorts views in the last 90 days.",
+      "isAI": false
+    },
     {
       "title": "What to expect from Google\u2019s 2026 Pixel hardware launch event",
       "url": "https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event",
@@ -34,11 +50,27 @@
       "isAI": true
     },
     {
+      "title": "Valve slowly expands SteamOS support on non-Valve hardware",
+      "url": "https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/",
+      "source": "Ars Technica",
+      "published": "Mon, 10 Aug 2026 16:01:04 +0000",
+      "summary": "New update includes improvements for the Intel-based MSI Claw 8 EX AI+ among others.",
+      "isAI": true
+    },
+    {
+      "title": "Following Epic loss, Google has started hosting rival app stores in the Play Store",
+      "url": "https://arstechnica.com/gadgets/2026/08/third-party-app-stores-are-rolling-out-in-google-play-but-theres-only-one-right-now/",
+      "source": "Ars Technica",
+      "published": "Mon, 10 Aug 2026 15:44:45 +0000",
+      "summary": "Aptoide has become the first app store distributed inside Google Play under a judge's order.",
+      "isAI": false
+    },
+    {
       "title": "Sila lands $1.4B Pentagon loan as militaries demand more batteries",
       "url": "https://techcrunch.com/2026/08/10/sila-lands-1-4b-pentagon-loan-as-militaries-demand-more-batteries/",
       "source": "TechCrunch",
       "published": "Mon, 10 Aug 2026 15:22:42 +0000",
-      "summary": "Battery materials startup Sila will use a $1.4 billion loan from the U.S. Department of Defense to scale production at its factory in Washington State.",
+      "summary": "Battery materials startup Sila will use a $1.4 billion loan from the U.S. Department of Defense to scale production at its factory in Washington state.",
       "isAI": true
     },
     {
@@ -166,7 +198,7 @@
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 10:10:02 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 737 # Comments: 407",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 779 # Comments: 434",
       "isAI": true
     },
     {
@@ -183,6 +215,14 @@
       "source": "OpenAI",
       "published": "Mon, 10 Aug 2026 10:00:00 GMT",
       "summary": "Approved Daybreak partners can use OpenAI\u2019s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "isAI": true
+    },
+    {
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI",
+      "published": "Mon, 10 Aug 2026 10:00:00 GMT",
+      "summary": "Meet GPT-5.6-Cyber, OpenAI\u2019s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
       "isAI": true
     },
     {
@@ -206,7 +246,7 @@
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 06:02:38 +0000",
-      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 508 # Comments: 306",
+      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 527 # Comments: 316",
       "isAI": true
     },
     {
@@ -278,7 +318,7 @@
       "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
       "source": "TechCrunch AI",
       "published": "Sun, 09 Aug 2026 14:30:00 +0000",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models.",
       "isAI": true
     },
     {
@@ -1959,46 +1999,6 @@
       "source": "MIT Tech Review",
       "published": "Mon, 03 Aug 2026 18:43:30 +0000",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It\u2019s a nascent industry, and such robots\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Outernet turns your saved posts into real-world adventures",
-      "url": "https://techcrunch.com/2026/08/03/outernet-turns-your-saved-posts-into-real-world-adventures/",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 18:00:24 +0000",
-      "summary": "Founded by the creators of viral offline events like San Francisco\u2019s citywide scavenger hunt Pursuit, Outernet's app helps users save places and events they discover online, then nudges them to actually go.",
-      "isAI": false
-    },
-    {
-      "title": "WhatsApp says it is fixing an issue that disabled several accounts",
-      "url": "https://techcrunch.com/2026/08/03/whatsapp-says-it-is-is-fixing-an-issue-that-disabled-several-accounts/",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 17:46:01 +0000",
-      "summary": "Meta says it\u2019s restoring access to WhatsApp accounts that were mistakenly flagged and placed \u201cunder review\u201d after users reported being unexpectedly locked out of the messaging app.",
-      "isAI": false
-    },
-    {
-      "title": "Europe\u2019s AI labeling and transparency rules are now in effect",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-      "source": "The Verge AI",
-      "published": "2026-08-03T13:38:45-04:00",
-      "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Sequoia\u2019s Shaun Maguire leads $1B round for nuclear startup Valar Atomics",
-      "url": "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics/",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 17:16:43 +0000",
-      "summary": "Valar Atomics raised $1 billion at a $6 billion valuation after signing a development deal with Nvidia in June.",
-      "isAI": true
-    },
-    {
-      "title": "Base Power raises another $1B to save the grid using backyard batteries",
-      "url": "https://techcrunch.com/2026/08/03/base-power-raises-another-1b-to-save-the-grid-using-backyard-batteries/",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 16:46:57 +0000",
-      "summary": "Base Power\u2019s $1 billion round will help the startup ramp production of its home batteries.",
       "isAI": true
     }
   ]
