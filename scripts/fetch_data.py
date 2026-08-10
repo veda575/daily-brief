@@ -237,6 +237,25 @@ def load_existing_items(path: Path) -> list[dict]:
         return []
 
 
+def load_existing_stocks(path: Path) -> dict[str, dict]:
+    """Read the latest saved stock snapshot keyed by ticker."""
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"[merge] could not load {path}: {e}")
+        return {}
+
+    by_ticker: dict[str, dict] = {}
+    for region_items in (payload.get("regions") or {}).values():
+        for item in region_items or []:
+            ticker = (item.get("ticker") or "").strip()
+            if ticker:
+                by_ticker[ticker] = item
+    return by_ticker
+
+
 def merge_with_history(new_items: list[dict], existing: list[dict]) -> list[dict]:
     """Merge new RSS items with what's already on disk. Dedupe by URL, drop old."""
     by_key: dict[str, dict] = {}
@@ -437,29 +456,86 @@ def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
 # STOCKS
 # ────────────────────────────────────────────────────────────────────
 
+def first_number(*values) -> float | None:
+    for value in values:
+        if value in (None, ""):
+            continue
+        try:
+            number = float(value)
+        except (TypeError, ValueError):
+            continue
+        if number == number:
+            return number
+    return None
+
+
+def merge_stock_with_existing(stock: dict, existing_by_ticker: dict[str, dict]) -> dict:
+    previous = existing_by_ticker.get(stock.get("ticker", ""))
+    if not previous:
+        return stock
+
+    for field in ("currency", "marketCap", "changePercent", "indexValue"):
+        if stock.get(field) in (None, "") and previous.get(field) not in (None, ""):
+            stock[field] = previous[field]
+    return stock
+
+
 def fetch_stock(ticker: str, name: str, sector: str,
                 display_ticker: str | None = None,
                 sort_name: str | None = None) -> dict | None:
     try:
         t = yf.Ticker(ticker)
         info = {}
+        fast_info = {}
         try:
             info = t.info or {}
         except Exception:
             pass
-        price = info.get("regularMarketPrice") or info.get("currentPrice")
+        try:
+            fast_info = dict(t.fast_info or {})
+        except Exception:
+            pass
+
+        price = first_number(
+            info.get("regularMarketPrice"),
+            info.get("currentPrice"),
+            fast_info.get("lastPrice"),
+            fast_info.get("last_price"),
+            fast_info.get("regularMarketPrice"),
+        )
         change_percent = info.get("regularMarketChangePercent")
         if change_percent is None:
-            previous_close = info.get("regularMarketPreviousClose") or info.get("previousClose")
+            previous_close = first_number(
+                info.get("regularMarketPreviousClose"),
+                info.get("previousClose"),
+                fast_info.get("previousClose"),
+                fast_info.get("previous_close"),
+            )
             if price and previous_close:
                 change_percent = ((price - previous_close) / previous_close) * 100
+
+        market_cap = first_number(
+            info.get("marketCap"),
+            fast_info.get("marketCap"),
+            fast_info.get("market_cap"),
+        )
+        if market_cap is None and price is not None:
+            shares_outstanding = first_number(
+                info.get("sharesOutstanding"),
+                info.get("impliedSharesOutstanding"),
+                fast_info.get("shares"),
+                fast_info.get("sharesOutstanding"),
+                fast_info.get("shares_outstanding"),
+            )
+            if shares_outstanding is not None:
+                market_cap = price * shares_outstanding
 
         stock = {
             "ticker": display_ticker or ticker,
             "name": name,
             "sector": sector,
-            "currency": info.get("currency") or info.get("financialCurrency") or "",
-            "marketCap": info.get("marketCap"),
+            "currency": info.get("currency") or info.get("financialCurrency") or fast_info.get("currency") or "",
+            "marketCap": market_cap,
             "changePercent": change_percent,
         }
         if sort_name:
@@ -498,16 +574,18 @@ def convert_market_cap_to_usd(stock: dict) -> dict:
 
 
 def fetch_all_stocks() -> dict:
+    existing_by_ticker = load_existing_stocks(DATA / "stocks.json")
+
     def sorted_region(stocks: list[dict]) -> list[dict]:
         return sorted(stocks, key=lambda s: (s.get("sortName") or s.get("name") or "").casefold())
 
-    asia = [convert_market_cap_to_usd(s) for s in (fetch_stock(*x) for x in ASIA_STOCKS) if s]
-    indexes = [convert_market_cap_to_usd(s) for s in (fetch_stock(*x) for x in INDEX_STOCKS) if s]
+    asia = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker) for s in (fetch_stock(*x) for x in ASIA_STOCKS) if s]
+    indexes = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker) for s in (fetch_stock(*x) for x in INDEX_STOCKS) if s]
 
     return {
-        "us":      sorted_region([s for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
+        "us":      sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
         "asia":    sorted_region(asia),
-        "india":   sorted_region([s for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
+        "india":   sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
         "indexes": sorted_region(indexes),
     }
 
