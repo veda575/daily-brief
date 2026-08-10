@@ -1,6 +1,78 @@
 {
-  "updated": "2026-08-10T11:10:11.487826+00:00",
+  "updated": "2026-08-10T14:20:29.059350+00:00",
   "items": [
+    {
+      "title": "Signed up for Klaviyo? Dozens of advertisers may have seen your password",
+      "url": "https://techcrunch.com/2026/08/10/signed-up-for-klaviyo-dozens-of-advertisers-may-have-seen-your-password/",
+      "source": "TechCrunch",
+      "published": "Mon, 10 Aug 2026 14:14:43 +0000",
+      "summary": "A bug in the tech giant's website mistakenly shared users' sign-up information, including personal data and their password, to third-party companies.",
+      "isAI": false
+    },
+    {
+      "title": "OpenAI\u2019s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "OpenAI",
+      "published": "Mon, 10 Aug 2026 14:00:00 GMT",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "isAI": true
+    },
+    {
+      "title": "Bose CEO Lila Snyder on the fight for high-quality audio",
+      "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "source": "The Verge AI",
+      "published": "2026-08-10T10:00:00-04:00",
+      "summary": "Today, I\u2019m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose \u2014 it\u2019s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Boeing is selling its air taxi startups to Archer Aviation",
+      "url": "https://www.theverge.com/transportation/977306/boeing-selling-evtol-archer-wisk-air-taxi",
+      "source": "The Verge",
+      "published": "2026-08-10T09:51:46-04:00",
+      "summary": "Boeing is selling three of its electric vertical takeoff and landing (eVTOL) subsidiaries to Archer Aviation, in addition to taking an undisclosed stake in the San Jose-based company. The subsidiares to be acquired by Archer include Wisk Aero, which has been developing an autonomous electric aircraft; SkyGrid, which is building air traffic management systems to [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Steam hardware shipper breach leaks customer data, including names and addresses",
+      "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
+      "source": "The Verge",
+      "published": "2026-08-10T08:48:12-04:00",
+      "summary": "Valve says a data breach may have exposed the personal information of customers who ordered its Steam hardware in Europe. In an email sent to users, Valve says its European shipping partner, CEVA Logistics, suffered a data breach that may have included customer names, addresses, phone numbers, and email addresses. The breach at CEVA occurred [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "source": "OpenAI",
+      "published": "Mon, 10 Aug 2026 12:00:00 GMT",
+      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "isAI": true
+    },
+    {
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 10 Aug 2026 12:00:00 +0000",
+      "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "isAI": true
+    },
+    {
+      "title": "The first rival Android app store just arrived in the US Play Store",
+      "url": "https://www.theverge.com/tech/977269/google-play-store-third-party-app-aptoide-games",
+      "source": "The Verge",
+      "published": "2026-08-10T07:30:32-04:00",
+      "summary": "Following the latest twist in Google's legal battles with Epic, US Android users are now able to open Google's Play Store and download a third-party digital store with its own selection of apps. Aptoide, a store specializing in mobile games, is the first to become available. Third-party app stores have always been available on Android, [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The AI Slop Backlash Is Actually Having an Impact",
+      "url": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
+      "source": "Wired",
+      "published": "Mon, 10 Aug 2026 11:30:00 +0000",
+      "summary": "Platforms are finally recognizing that people don\u2019t want to consume AI slop. A growing number of sites and apps now have tools and policies to flag, label, and ban AI-generated content.",
+      "isAI": true
+    },
     {
       "title": "Peer review is overwhelmed\u2014can it survive in the AI era?",
       "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
@@ -23,6 +95,14 @@
       "source": "Wired",
       "published": "Mon, 10 Aug 2026 10:30:00 +0000",
       "summary": "An AI interview is increasingly the first step of a hiring process. Since there\u2019s no human on the other end, candidates are scheduling them whenever\u2014even deep into the night.",
+      "isAI": true
+    },
+    {
+      "title": "Meta Muse Glimmer \u2013 open weights 30B local coding model",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source": "Hacker News",
+      "published": "Mon, 10 Aug 2026 10:10:02 +0000",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 413 # Comments: 206",
       "isAI": true
     },
     {
@@ -54,7 +134,7 @@
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 06:02:38 +0000",
-      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 252 # Comments: 153",
+      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 361 # Comments: 232",
       "isAI": true
     },
     {
@@ -134,7 +214,7 @@
       "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
       "source": "Hacker News",
       "published": "Sun, 09 Aug 2026 11:30:48 +0000",
-      "summary": "https://www.theatlantic.com/technology/2026/05/ai-wearable-s...https://archive.is/JxaZ7 Comments URL: https://news.ycombinator.com/item?id=49230477 Points: 320 # Comments: 273",
+      "summary": "https://www.theatlantic.com/technology/2026/05/ai-wearable-s...https://archive.is/JxaZ7 Comments URL: https://news.ycombinator.com/item?id=49230477 Points: 357 # Comments: 317",
       "isAI": true
     },
     {
@@ -1920,86 +2000,6 @@
       "published": "Mon, 03 Aug 2026 10:00:00 +0000",
       "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
       "isAI": true
-    },
-    {
-      "title": "AI Conquered Coding. Fast Food Is Next",
-      "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
-      "source": "Wired",
-      "published": "Mon, 03 Aug 2026 10:00:00 +0000",
-      "summary": "Your next drive-thru order might be taken by a bot. And you might not even notice.",
-      "isAI": true
-    },
-    {
-      "title": "ICE Collected Nearly 1 Million People\u2019s DNA Last Year\u2014Including Young Children",
-      "url": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
-      "source": "Wired",
-      "published": "Mon, 03 Aug 2026 10:00:00 +0000",
-      "summary": "Internal documents show ICE's DNA collection has skyrocketed in the second Trump administration. Now hundreds of thousands of people never convicted of a crime are in an FBI criminal database forever.",
-      "isAI": false
-    },
-    {
-      "title": "Here\u2019s why AI agents lie and cheat to reach their goals",
-      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 03 Aug 2026 08:30:05 +0000",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what\u2019s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren\u2019t trying to make money or commit sabotage\u2014they were just looking for answers\u2026",
-      "isAI": true
-    },
-    {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "OpenAI",
-      "published": "Mon, 03 Aug 2026 07:00:00 GMT",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "isAI": true
-    },
-    {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "source": "Hacker News",
-      "published": "Mon, 03 Aug 2026 02:16:09 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 1009 # Comments: 537",
-      "isAI": true
-    },
-    {
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "url": "https://openai.com/index/circles",
-      "source": "OpenAI",
-      "published": "Mon, 03 Aug 2026 00:00:00 GMT",
-      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "isAI": true
-    },
-    {
-      "title": "The global memory shortage hits the MacBook Air",
-      "url": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 21:33:59 +0000",
-      "summary": "The global memory chip shortage appears to be affecting the availability of Apple\u2019s most popular Mac.",
-      "isAI": true
-    },
-    {
-      "title": "Sam Altman and AI\u2019s decel debate",
-      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 02 Aug 2026 20:54:22 +0000",
-      "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
-      "isAI": true
-    },
-    {
-      "title": "Fender\u2019s CEO seems to think your bandmates are just analog AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
-      "source": "The Verge AI",
-      "published": "2026-08-02T15:36:08-04:00",
-      "summary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Malaysia is reportedly shutting down Balaji Srinivasan\u2019s Network School",
-      "url": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 17:05:07 +0000",
-      "summary": "Let's see how this \"frontier community for techno-optimists\" is doing ...",
-      "isAI": false
     }
   ]
 }
