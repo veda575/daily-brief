@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-10T09:56:57.282904+00:00",
+  "updated": "2026-08-10T11:10:11.487826+00:00",
   "items": [
+    {
+      "title": "Peer review is overwhelmed\u2014can it survive in the AI era?",
+      "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 10 Aug 2026 11:00:47 +0000",
+      "summary": "As research and AI-assisted papers surge, volunteer reviewers struggle to keep up.",
+      "isAI": true
+    },
+    {
+      "title": "Ford\u2019s new AI assistant can check your fuel levels and tire pressure",
+      "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+      "source": "The Verge AI",
+      "published": "2026-08-10T07:00:00-04:00",
+      "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The Rise of the 1 am Job Interview",
+      "url": "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
+      "source": "Wired",
+      "published": "Mon, 10 Aug 2026 10:30:00 +0000",
+      "summary": "An AI interview is increasingly the first step of a hiring process. Since there\u2019s no human on the other end, candidates are scheduling them whenever\u2014even deep into the night.",
+      "isAI": true
+    },
+    {
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": "Hugging Face",
+      "published": "Mon, 10 Aug 2026 10:05:36 GMT",
+      "summary": "",
+      "isAI": true
+    },
     {
       "title": "AI for science needs reasoning, not just data",
       "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
@@ -22,7 +54,15 @@
       "url": "https://www.docker.com/products/docker-sandboxes/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 06:02:38 +0000",
-      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 193 # Comments: 125",
+      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 252 # Comments: 153",
+      "isAI": true
+    },
+    {
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face",
+      "published": "Mon, 10 Aug 2026 00:00:00 GMT",
+      "summary": "",
       "isAI": true
     },
     {
@@ -94,7 +134,7 @@
       "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
       "source": "Hacker News",
       "published": "Sun, 09 Aug 2026 11:30:48 +0000",
-      "summary": "https://www.theatlantic.com/technology/2026/05/ai-wearable-s...https://archive.is/JxaZ7 Comments URL: https://news.ycombinator.com/item?id=49230477 Points: 304 # Comments: 247",
+      "summary": "https://www.theatlantic.com/technology/2026/05/ai-wearable-s...https://archive.is/JxaZ7 Comments URL: https://news.ycombinator.com/item?id=49230477 Points: 320 # Comments: 273",
       "isAI": true
     },
     {
@@ -134,7 +174,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
       "source": "The Verge AI",
       "published": "2026-08-08T13:53:34-04:00",
-      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, [\u2026]",
+      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to The New York Times. The new gas-burning plant in Pecos County, Texas, has received significant investment from Amazon and, [\u2026]",
       "isAI": true
     },
     {
@@ -1959,46 +1999,6 @@
       "source": "TechCrunch",
       "published": "Sun, 02 Aug 2026 17:05:07 +0000",
       "summary": "Let's see how this \"frontier community for techno-optimists\" is doing ...",
-      "isAI": false
-    },
-    {
-      "title": "GNU Hurd News 2026-Q2",
-      "url": "https://www.gnu.org/software/hurd/news/2026-q2.html",
-      "source": "Hacker News",
-      "published": "Sun, 02 Aug 2026 16:57:32 +0000",
-      "summary": "Article URL: https://www.gnu.org/software/hurd/news/2026-q2.html Comments URL: https://news.ycombinator.com/item?id=49146183 Points: 156 # Comments: 101",
-      "isAI": true
-    },
-    {
-      "title": "TechCrunch Mobility: Two roads diverged \u2014 for robotaxis",
-      "url": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 16:05:00 +0000",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "isAI": true
-    },
-    {
-      "title": "These App Store hidden gems prove there\u2019s still room for great software in the AI era",
-      "url": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 15:23:19 +0000",
-      "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
-      "isAI": true
-    },
-    {
-      "title": "Is paying artists enough to convince them to embrace AI?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-      "source": "The Verge AI",
-      "published": "2026-08-02T09:00:00-04:00",
-      "summary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles, but it's [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "F*: A general-purpose proof-oriented programming language",
-      "url": "https://fstar-lang.org/",
-      "source": "Hacker News",
-      "published": "Sun, 02 Aug 2026 12:31:16 +0000",
-      "summary": "Article URL: https://fstar-lang.org/ Comments URL: https://news.ycombinator.com/item?id=49143925 Points: 164 # Comments: 71",
       "isAI": false
     }
   ]
