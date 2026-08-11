@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-11T14:20:26.509305+00:00",
+  "updated": "2026-08-11T15:29:39.038221+00:00",
   "items": [
+    {
+      "title": "Kyoto Fusioneering starts work on key fusion power plant device",
+      "url": "https://techcrunch.com/2026/08/11/kyoto-fusioneering-starts-work-on-key-fusion-power-plant-device/",
+      "source": "TechCrunch",
+      "published": "Tue, 11 Aug 2026 15:00:00 +0000",
+      "summary": "Fusion power startups are turning to Kyoto Fusioneering to supply components for future power pants. The Japan-based startup just received a grant to build a part of the fuel system.",
+      "isAI": true
+    },
+    {
+      "title": "\u2018Zoomsday\u2019 hack uncovered using fewer than 20 AI prompts",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+      "source": "The Verge AI",
+      "published": "2026-08-11T10:45:44-04:00",
+      "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, [\u2026]",
+      "isAI": true
+    },
     {
       "title": "AI Could Help Fossil Fuel Companies Create More Emissions",
       "url": "https://www.wired.com/story/ai-could-help-fossil-fuel-companies-create-more-emissions/",
@@ -24,6 +40,14 @@
       "published": "2026-08-11T09:27:20-04:00",
       "summary": "Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: [\u2026]",
       "isAI": true
+    },
+    {
+      "title": "New surveillance tech links your phone to your license plate",
+      "url": "https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/",
+      "source": "Ars Technica",
+      "published": "Tue, 11 Aug 2026 13:15:24 +0000",
+      "summary": "Phone and Bluetooth signals could turn roadside cameras into far richer tracking tools.",
+      "isAI": false
     },
     {
       "title": "Spotify will label \u2018AI Persona\u2019 profiles and exclude their music from recommendations",
@@ -134,7 +158,7 @@
       "url": "https://github.com/antirez/h3.c",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 01:22:09 +0000",
-      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 357 # Comments: 77",
+      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 372 # Comments: 81",
       "isAI": true
     },
     {
@@ -158,7 +182,7 @@
       "url": "https://thewalrus.ca/google-search-is-dying/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 22:36:30 +0000",
-      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 533 # Comments: 627",
+      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 605 # Comments: 682",
       "isAI": true
     },
     {
@@ -190,7 +214,7 @@
       "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 21:36:56 +0000",
-      "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 283 # Comments: 252",
+      "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 313 # Comments: 270",
       "isAI": true
     },
     {
@@ -254,7 +278,7 @@
       "url": "https://www.vectorware.com/blog/simd-on-gpu/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 18:12:49 +0000",
-      "summary": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 205 # Comments: 99",
+      "summary": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 208 # Comments: 103",
       "isAI": true
     },
     {
@@ -350,7 +374,7 @@
       "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 14:06:22 +0000",
-      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 562 # Comments: 531",
+      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 573 # Comments: 549",
       "isAI": true
     },
     {
@@ -454,7 +478,7 @@
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 10:10:02 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1147 # Comments: 616",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1156 # Comments: 624",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-04T13:33:46-04:00",
       "summary": "Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI. Green described his AI usage as \"not healthy,\" but stressed that he used it for finding research sources and not to write scripts. Much of the ensuing firestorm in this corner of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-      "url": "https://mistral.ai/news/shieldstral/",
-      "source": "Hacker News",
-      "published": "Tue, 04 Aug 2026 16:36:05 +0000",
-      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 462 # Comments: 122",
-      "isAI": true
-    },
-    {
-      "title": "Hackers steal over $130M by exploiting bug in offline hardware wallets",
-      "url": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
-      "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 16:27:59 +0000",
-      "summary": "A security vulnerability in the cryptocurrency hardware wallet Coldcard is allowing hackers to drain the crypto from victims\u2019 wallets. The total losses amount to more than $130 million, according to blockchain-monitoring firms.",
-      "isAI": false
-    },
-    {
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 04 Aug 2026 15:50:06 +0000",
-      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists\u2019 music while ensuring artists opt in, receive credit, and are compensated.",
       "isAI": true
     }
   ]
