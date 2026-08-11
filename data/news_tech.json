@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T03:18:33.544505+00:00",
+  "updated": "2026-08-11T04:48:26.000669+00:00",
   "items": [
     {
       "title": "OpenAI reportedly completed a $7 billion employee tender offer",
@@ -98,6 +98,14 @@
       "isAI": false
     },
     {
+      "title": "Rust SIMD on the GPU",
+      "url": "https://www.vectorware.com/blog/simd-on-gpu/",
+      "source": "Hacker News",
+      "published": "Mon, 10 Aug 2026 18:12:49 +0000",
+      "summary": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 154 # Comments: 71",
+      "isAI": true
+    },
+    {
       "title": "What to expect from Google\u2019s 2026 Pixel hardware launch event",
       "url": "https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event",
       "source": "The Verge",
@@ -182,7 +190,7 @@
       "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 14:06:22 +0000",
-      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 398 # Comments: 394",
+      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 424 # Comments: 415",
       "isAI": true
     },
     {
@@ -286,7 +294,7 @@
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 10:10:02 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1054 # Comments: 584",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1069 # Comments: 590",
       "isAI": true
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-04T06:00:00-04:00",
       "summary": "Earlier this year, a Reddit user had asked members of a skincare-focused subreddit if anyone had tried a specific hypochlorous acid spray, a product often used for acne. There were dozens of responses; one from a user named Primary-Taro4254 seemed innocuous enough, at least at first. \"I haven't personally tried [that brand] so I can't [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "How Data Centers Broke American Politics",
-      "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
-      "source": "Wired",
-      "published": "Tue, 04 Aug 2026 10:00:00 +0000",
-      "summary": "What the Unabomber, Steve Bannon\u2019s tech guy, and Bernie Sanders taught me about the great data center backlash of 2026.",
       "isAI": true
     }
   ]
