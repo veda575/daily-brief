@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T01:25:41.576197+00:00",
+  "updated": "2026-08-11T03:18:33.544505+00:00",
   "items": [
     {
       "title": "OpenAI reportedly completed a $7 billion employee tender offer",
@@ -182,7 +182,7 @@
       "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 14:06:22 +0000",
-      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 356 # Comments: 380",
+      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 398 # Comments: 394",
       "isAI": true
     },
     {
@@ -286,7 +286,7 @@
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 10:10:02 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1030 # Comments: 574",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1054 # Comments: 584",
       "isAI": true
     },
     {
@@ -624,6 +624,14 @@
       "published": "Fri, 07 Aug 2026 17:36:22 +0000",
       "summary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff.",
       "isAI": true
+    },
+    {
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "url": "https://news.ycombinator.com/item?id=49213660",
+      "source": "Hacker News",
+      "published": "Fri, 07 Aug 2026 17:29:16 +0000",
+      "summary": "TL;DR I'm looking for advice regarding browser-based frontend development from people with practical e-ink UI experience. My specific device is a Bigme Hibreak Pro BW but I'm aiming for relatively broad compatibility.I've recently switched to a black-and-white e-ink smartphone with the motivation of withdrawing from the attention economy somewhat and it's a genuinely cool piece of hardware. While\u2026",
+      "isAI": false
     },
     {
       "title": "Volkswagen plans to win America back with a pickup, report says",
@@ -1991,14 +1999,6 @@
       "source": "Wired",
       "published": "Tue, 04 Aug 2026 10:00:00 +0000",
       "summary": "What the Unabomber, Steve Bannon\u2019s tech guy, and Bernie Sanders taught me about the great data center backlash of 2026.",
-      "isAI": true
-    },
-    {
-      "title": "Mistral Is in the Right Place at the Right Time",
-      "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-      "source": "Wired",
-      "published": "Tue, 04 Aug 2026 09:21:11 +0000",
-      "summary": "Open-weight AI models are having a moment in the wake of recent turmoil at US tech giants. For French AI lab Mistral, that\u2019s the the best thing that could have happened.",
       "isAI": true
     }
   ]
