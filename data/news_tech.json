@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-11T18:37:07.281320+00:00",
+  "updated": "2026-08-11T19:46:53.880170+00:00",
   "items": [
+    {
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 11 Aug 2026 19:15:35 +0000",
+      "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
+      "isAI": true
+    },
+    {
+      "title": "Threads has a VR app now",
+      "url": "https://www.theverge.com/tech/978181/meta-threads-quest-vr-app",
+      "source": "The Verge",
+      "published": "2026-08-11T15:10:14-04:00",
+      "summary": "Meta has launched a Threads app for Meta Quest VR headsets, the company announced on Tuesday. The launch follows Meta bringing the app to its Ray-Ban Display AR glasses last month and the recent news that the platform has crossed 500 million monthly active users. It seems like a pretty full-featured app. Meta says that [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Google\u2019s Gemini app surges to one billion users",
+      "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 11 Aug 2026 18:49:12 +0000",
+      "summary": "Gemini is keeping pace with OpenAI\u2019s ChatGPT, which hit 1 billion monthly active users back in June.",
+      "isAI": true
+    },
+    {
+      "title": "Used EV buying guide: The $30,000 edition",
+      "url": "https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/",
+      "source": "Ars Technica",
+      "published": "Tue, 11 Aug 2026 18:31:53 +0000",
+      "summary": "Depending on the model, you might have hundreds to choose from\u2014or just one.",
+      "isAI": false
+    },
     {
       "title": "Another OpenAI executive takes off",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
@@ -90,11 +122,11 @@
       "isAI": true
     },
     {
-      "title": "Apple Silicon and macOS VMs: 11\u201316\u00d7 Faster LLM Inference with Llama.cpp",
+      "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
       "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 14:50:33 +0000",
-      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 190 # Comments: 30",
+      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 249 # Comments: 39",
       "isAI": true
     },
     {
@@ -254,7 +286,7 @@
       "url": "https://github.com/antirez/h3.c",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 01:22:09 +0000",
-      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 399 # Comments: 92",
+      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 403 # Comments: 93",
       "isAI": true
     },
     {
@@ -278,7 +310,7 @@
       "url": "https://thewalrus.ca/google-search-is-dying/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 22:36:30 +0000",
-      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 756 # Comments: 782",
+      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 802 # Comments: 809",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "Wired",
       "published": "Tue, 04 Aug 2026 23:11:31 +0000",
       "summary": "Rogue AI agents from OpenAI and Anthropic have again been caught trying to disrupt servers and software\u2014and leaving instructions for future bad behavior.",
-      "isAI": true
-    },
-    {
-      "title": "Lucid\u2019s turnaround plan hinges on $1.4B in cash savings, robotaxis",
-      "url": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
-      "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 22:24:00 +0000",
-      "summary": "Lucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis.",
-      "isAI": false
-    },
-    {
-      "title": "The White House Is Keeping Its AI Cybersecurity Framework Secret",
-      "url": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
-      "source": "Wired",
-      "published": "Tue, 04 Aug 2026 22:06:07 +0000",
-      "summary": "The Trump administration shared the details of its plan with OpenAI, Anthropic, and other AI labs on Tuesday. For now, the public remains in the dark.",
-      "isAI": true
-    },
-    {
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
-      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
-      "source": "Hacker News",
-      "published": "Tue, 04 Aug 2026 22:01:41 +0000",
-      "summary": "https://www.interpol.int/Media/Documents/Publications/Cyberc... Comments URL: https://news.ycombinator.com/item?id=49175826 Points: 247 # Comments: 192",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
-      "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 04 Aug 2026 21:07:26 +0000",
-      "summary": "The purchase illustrates just how interconnected Elon Musk's universe of companies are.",
       "isAI": true
     }
   ]
