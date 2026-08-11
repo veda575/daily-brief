@@ -1,12 +1,44 @@
 {
-  "updated": "2026-08-11T15:29:39.038221+00:00",
+  "updated": "2026-08-11T16:27:50.843605+00:00",
   "items": [
+    {
+      "title": "An unreleased Anthropic model made progress on one of math\u2019s biggest unsolved problems",
+      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 11 Aug 2026 16:25:20 +0000",
+      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it \u2014 but the company's models made more progress than you might expect.",
+      "isAI": true
+    },
+    {
+      "title": "Apple could help you prove your iPhone photos aren\u2019t deepfakes",
+      "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+      "source": "The Verge AI",
+      "published": "2026-08-11T12:19:15-04:00",
+      "summary": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Delta investigating after someone set up fake Wi-Fi network mid-flight",
+      "url": "https://techcrunch.com/2026/08/11/delta-investigating-after-someone-set-up-fake-wi-fi-network-mid-flight/",
+      "source": "TechCrunch",
+      "published": "Tue, 11 Aug 2026 15:40:46 +0000",
+      "summary": "The Delta flight crew switched off the aircraft's legitimate Wi-Fi network for around 30 minutes due to the incident, according to a spokesperson.",
+      "isAI": false
+    },
+    {
+      "title": "2025\u2019s most downloaded game, Block Blast!, is going ad-free on Apple Arcade",
+      "url": "https://techcrunch.com/2026/08/11/2025s-most-downloaded-game-block-blast-is-going-ad-free-on-apple-arcade/",
+      "source": "TechCrunch",
+      "published": "Tue, 11 Aug 2026 15:33:59 +0000",
+      "summary": "Block Blast!, the most downloaded mobile game of 2025, is coming to Apple Arcade in September where it will be ad-free.",
+      "isAI": false
+    },
     {
       "title": "Kyoto Fusioneering starts work on key fusion power plant device",
       "url": "https://techcrunch.com/2026/08/11/kyoto-fusioneering-starts-work-on-key-fusion-power-plant-device/",
       "source": "TechCrunch",
       "published": "Tue, 11 Aug 2026 15:00:00 +0000",
-      "summary": "Fusion power startups are turning to Kyoto Fusioneering to supply components for future power pants. The Japan-based startup just received a grant to build a part of the fuel system.",
+      "summary": "Fusion power startups are turning to Kyoto Fusioneering to supply components for future power plants. The Japan-based startup just received a grant to build a part of the fuel system.",
       "isAI": true
     },
     {
@@ -158,7 +190,7 @@
       "url": "https://github.com/antirez/h3.c",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 01:22:09 +0000",
-      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 372 # Comments: 81",
+      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 385 # Comments: 87",
       "isAI": true
     },
     {
@@ -182,7 +214,7 @@
       "url": "https://thewalrus.ca/google-search-is-dying/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 22:36:30 +0000",
-      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 605 # Comments: 682",
+      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 645 # Comments: 701",
       "isAI": true
     },
     {
@@ -214,7 +246,7 @@
       "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 21:36:56 +0000",
-      "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 313 # Comments: 270",
+      "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 334 # Comments: 303",
       "isAI": true
     },
     {
@@ -374,7 +406,7 @@
       "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 14:06:22 +0000",
-      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 573 # Comments: 549",
+      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 583 # Comments: 557",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Tue, 04 Aug 2026 19:28:49 +0000",
       "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
-      "isAI": true
-    },
-    {
-      "title": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
-      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
-      "source": "The Verge",
-      "published": "2026-08-04T15:11:05-04:00",
-      "summary": "Telegram CEO Pavel Durov blames an extortionist for planting child sexual abuse material (CSAM) in a public chat to get the app temporarily removed from Apple's App Store on Monday night. \"Apple removed Telegram from the App Store before contacting us,\" Durov says in a post on X. \"This creates a potential systemic risk for [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "source": "OpenAI",
-      "published": "Tue, 04 Aug 2026 19:00:00 GMT",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "isAI": true
-    },
-    {
-      "title": "How an OpenAI influencer trip backfired",
-      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
-      "source": "The Verge AI",
-      "published": "2026-08-04T13:46:41-04:00",
-      "summary": "The brand trip is a right of passage for influencers. It's a mark of legitimacy that a sponsor wants to invite them on an all-expenses-paid vacation, often with luxurious freebies and activities. Trips can also spur hard feelings from uninvited influencers, trigger criticism from the public, and project a certain frivolousness. Usually it is fast [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "\u2018Not healthy\u2019 LLM use is more common than you think",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
-      "source": "The Verge AI",
-      "published": "2026-08-04T13:33:46-04:00",
-      "summary": "Hank Green, a popular YouTuber and science communicator, said he is stepping back from production amid intense criticism over his use of AI. Green described his AI usage as \"not healthy,\" but stressed that he used it for finding research sources and not to write scripts. Much of the ensuing firestorm in this corner of [\u2026]",
       "isAI": true
     }
   ]
