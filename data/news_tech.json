@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-11T20:45:54.702458+00:00",
+  "updated": "2026-08-11T21:49:56.276301+00:00",
   "items": [
+    {
+      "title": "Phoebe Gates and Sophia Kianni reportedly knew Phia was \u2018cookie stuffing\u2019 for months",
+      "url": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
+      "source": "TechCrunch",
+      "published": "Tue, 11 Aug 2026 21:39:58 +0000",
+      "summary": "Phia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices.",
+      "isAI": true
+    },
+    {
+      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
+      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 11 Aug 2026 21:39:11 +0000",
+      "summary": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
+      "isAI": true
+    },
     {
       "title": "Gemini becomes Google's fastest-growing product ever as it hits 1B users",
       "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
@@ -34,11 +50,11 @@
       "isAI": false
     },
     {
-      "title": "Google\u2019s Gemini app surges to one billion users",
+      "title": "Google\u2019s Gemini app surges to 1 billion users",
       "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
       "source": "TechCrunch AI",
       "published": "Tue, 11 Aug 2026 18:49:12 +0000",
-      "summary": "Gemini is keeping pace with OpenAI\u2019s ChatGPT, which hit 1 billion monthly active users back in June.",
+      "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
       "isAI": true
     },
     {
@@ -150,7 +166,7 @@
       "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 14:50:33 +0000",
-      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 261 # Comments: 39",
+      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 269 # Comments: 42",
       "isAI": true
     },
     {
@@ -290,6 +306,14 @@
       "isAI": true
     },
     {
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source": "OpenAI",
+      "published": "Tue, 11 Aug 2026 10:00:00 GMT",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "isAI": true
+    },
+    {
       "title": "AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia",
       "url": "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/",
       "source": "Wired",
@@ -310,7 +334,7 @@
       "url": "https://github.com/antirez/h3.c",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 01:22:09 +0000",
-      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 409 # Comments: 93",
+      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 414 # Comments: 93",
       "isAI": true
     },
     {
@@ -334,7 +358,7 @@
       "url": "https://thewalrus.ca/google-search-is-dying/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 22:36:30 +0000",
-      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 816 # Comments: 827",
+      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 847 # Comments: 846",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-05T06:29:47-04:00",
       "summary": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core components - but the framework explicitly says it can't be used [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
-      "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 09:00:00 +0000",
-      "summary": "Nobody likes getting a swab shoved up their nose. A startup in Japan has developed a much less intrusive system.",
-      "isAI": true
-    },
-    {
-      "title": "Ted Lasso returns at an important time for Apple TV",
-      "url": "https://www.theverge.com/entertainment/975224/ted-lasso-season-4-apple-tv",
-      "source": "The Verge",
-      "published": "2026-08-05T03:00:00-04:00",
-      "summary": "2026 is shaping up to be an excellent year for Apple TV. Apple's streaming service has built out an impressive slate that spans returning favorites like Silo and Sugar to all-new hits including OnlyFans-inspired dramedies, terrifying comedies, and paranoid tech thrillers. But the most important release might be a feel-good sports sitcom. After what seemed [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The AI Notetaker Has Been Invited to All the Meetings",
-      "url": "https://www.wired.com/story/ai-notetakers-invited-to-the-meetings/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 07:00:00 +0000",
-      "summary": "Wispr Flow, a popular dictation tool, has released a live notetaker that transcribes and summarizes meetings. It joins a growing wave of AI notetakers for the workplace.",
       "isAI": true
     }
   ]
