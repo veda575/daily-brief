@@ -1,10 +1,90 @@
 {
-  "updated": "2026-08-11T11:13:29.779564+00:00",
+  "updated": "2026-08-11T14:20:26.509305+00:00",
   "items": [
+    {
+      "title": "AI Could Help Fossil Fuel Companies Create More Emissions",
+      "url": "https://www.wired.com/story/ai-could-help-fossil-fuel-companies-create-more-emissions/",
+      "source": "Wired",
+      "published": "Tue, 11 Aug 2026 13:45:02 +0000",
+      "summary": "New research finds that by making the fossil fuel industry more productive, AI could help increase carbon emissions by up to nearly 5 percent\u2014vastly outpacing the impact of data centers.",
+      "isAI": true
+    },
+    {
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "source": "Hugging Face",
+      "published": "Tue, 11 Aug 2026 13:37:10 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "source": "The Verge AI",
+      "published": "2026-08-11T09:27:20-04:00",
+      "summary": "Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Spotify will label \u2018AI Persona\u2019 profiles and exclude their music from recommendations",
+      "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 11 Aug 2026 13:00:00 +0000",
+      "summary": "Spotify is introducing \u201cAI Persona\u201d labels for artist profiles that represent AI-generated identities and will exclude their music from editorial, algorithmic, and personalized recommendations by default.",
+      "isAI": true
+    },
+    {
+      "title": "Spotify says it won\u2019t recommend music from \u2018AI Personas\u2019",
+      "url": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+      "source": "The Verge AI",
+      "published": "2026-08-11T09:00:00-04:00",
+      "summary": "Spotify will soon label AI artists and remove their music from your recommendations. The change, which will start rolling out in mid-September, means you'll see an \"AI Persona\" badge on an artist's profile across the app if they do \"not represent a real person.\" The music streaming platform will allow artists to disclose that they're [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Bumble now lets men make the first move",
+      "url": "https://www.theverge.com/tech/977804/bumble-dating-app-men-message-first-update",
+      "source": "The Verge",
+      "published": "2026-08-11T09:00:00-04:00",
+      "summary": "Bumble was famously built around exclusively giving women the power to initiate messages in heterosexual matches when it first launched in 2014 - but now the times they are a-changin' for the dating app. Today, Bumble has announced a \"global evolution to its signature conversation experience\": anyone can now send the first message, and the [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
+      "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+      "source": "Wired",
+      "published": "Tue, 11 Aug 2026 12:37:12 +0000",
+      "summary": "Researchers say it took fewer than 20 prompts for a public AI tool to find a flaw (now fixed) allowing anyone on a Zoom call to hijack another participants\u2019 device.",
+      "isAI": true
+    },
+    {
+      "title": "What comes after the smartphone? Amazon\u2019s Panos Panay will make his case at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/11/what-comes-after-the-smartphone-amazons-panos-panay-will-make-his-case-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch",
+      "published": "Tue, 11 Aug 2026 12:30:00 +0000",
+      "summary": "At Disrupt 2026, Amazon's Panos Panay will provide an exclusive vision for what's in store for us beyond the smartphone.",
+      "isAI": false
+    },
+    {
+      "title": "Claude will apply invisible watermarks to AI text and images",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "source": "The Verge AI",
+      "published": "2026-08-11T08:22:20-04:00",
+      "summary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic says it will watermark text generated by its AI models",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 11 Aug 2026 12:13:47 +0000",
+      "summary": "Anthropic will extend support for watermarking AI generations for older models as well.",
+      "isAI": true
+    },
     {
       "title": "The AI takeover of mathematics has begun",
       "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
-      "source": "The Verge",
+      "source": "The Verge AI",
       "published": "2026-08-11T07:00:00-04:00",
       "summary": "Mathematician James Maynard has spent a lot of time this past year \"soul searching.\" A professor at the University of Oxford and winner of the prestigious Fields Medal, Maynard told The Verge he's been grappling with the future of his field as the traditionally slow-moving discipline hurries to adapt to AI. Days before we spoke, [\u2026]",
       "isAI": true
@@ -54,7 +134,7 @@
       "url": "https://github.com/antirez/h3.c",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 01:22:09 +0000",
-      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 293 # Comments: 62",
+      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 357 # Comments: 77",
       "isAI": true
     },
     {
@@ -78,7 +158,7 @@
       "url": "https://thewalrus.ca/google-search-is-dying/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 22:36:30 +0000",
-      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 333 # Comments: 365",
+      "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 533 # Comments: 627",
       "isAI": true
     },
     {
@@ -110,7 +190,7 @@
       "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 21:36:56 +0000",
-      "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 193 # Comments: 152",
+      "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 283 # Comments: 252",
       "isAI": true
     },
     {
@@ -174,7 +254,7 @@
       "url": "https://www.vectorware.com/blog/simd-on-gpu/",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 18:12:49 +0000",
-      "summary": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 188 # Comments: 93",
+      "summary": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 205 # Comments: 99",
       "isAI": true
     },
     {
@@ -270,7 +350,7 @@
       "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 14:06:22 +0000",
-      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 518 # Comments: 478",
+      "summary": "https://archive.is/20LOJhttps://www.meta.com/thefutureisforeveryone/ Comments URL: https://news.ycombinator.com/item?id=49243880 Points: 562 # Comments: 531",
       "isAI": true
     },
     {
@@ -374,7 +454,7 @@
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "source": "Hacker News",
       "published": "Mon, 10 Aug 2026 10:10:02 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1122 # Comments: 609",
+      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model Comments URL: https://news.ycombinator.com/item?id=49241679 Points: 1147 # Comments: 616",
       "isAI": true
     },
     {
@@ -1919,86 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Tue, 04 Aug 2026 15:50:06 +0000",
       "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists\u2019 music while ensuring artists opt in, receive credit, and are compensated.",
-      "isAI": true
-    },
-    {
-      "title": "Texas halts new data centers as governor calls for audits",
-      "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 04 Aug 2026 15:42:35 +0000",
-      "summary": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they\u2019ve been drawn to Texas\u2019 loose regulations and seemingly abundant power supply. But even Texas can be pushed to the brink.",
-      "isAI": true
-    },
-    {
-      "title": "Walmart completes its acquisition of TV advertising company Vibe.co",
-      "url": "https://techcrunch.com/2026/08/04/walmart-completes-its-acquisition-of-tv-advertising-company-vibe-co/",
-      "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 15:38:22 +0000",
-      "summary": "The acquisition, which was announced in June, brings Vibe.co into Walmart Connect, Walmart's connected TV advertising platform.",
-      "isAI": false
-    },
-    {
-      "title": "Texas says data centers must pass an audit before connecting to the grid",
-      "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
-      "source": "The Verge AI",
-      "published": "2026-08-04T11:33:21-04:00",
-      "summary": "Texas announced new a audit on data centers that could slow approval for new facilities seeking to connect to the state energy grid. Governor Greg Abbott (R) on Monday directed the Public Utility Commission of Texas (PUCT) and the Electric Reliability Council of Texas (ERCOT) to verify and audit new data center proposals, writing that [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 04 Aug 2026 15:20:06 +0000",
-      "summary": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla's car business.",
-      "isAI": true
-    },
-    {
-      "title": "Host a Side Event during TechCrunch Founder Summit Week in Boston",
-      "url": "https://techcrunch.com/2026/08/04/host-a-side-event-during-techcrunch-founder-summit-week-in-boston/",
-      "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 15:00:00 +0000",
-      "summary": "Want to tap into the energy of 1,100+ startup founders, investors, and tech leaders descending on Boston for the Founder Summit 2026 on June 9? Host your own Side Event during \u201cFounder Summit Week,\u201d happening June 4-10!",
-      "isAI": true
-    },
-    {
-      "title": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware",
-      "url": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
-      "source": "Ars Technica",
-      "published": "Tue, 04 Aug 2026 14:45:08 +0000",
-      "summary": "Chevy's 721-hp hybrid ups the ante with few compromises, but at a steep cost.",
-      "isAI": false
-    },
-    {
-      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 04 Aug 2026 14:03:01 +0000",
-      "summary": "Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
-      "isAI": true
-    },
-    {
-      "title": "We\u2019re giving away a back-to-school bag filled with over $800 of free tech",
-      "url": "https://www.theverge.com/gadgets/972547/back-to-school-giveaway-sweepstakes",
-      "source": "The Verge",
-      "published": "2026-08-04T10:00:00-04:00",
-      "summary": "It\u2019s time for yet another giveaway. We raided The Verge\u2019s closet full of tech in New York City to stuff as much can fit into a Nomatic Messenger Bag. It\u2019s overstuffed, to say the least, and if you\u2019re chosen as the winner of this sweepstakes on August 18th, the bag and its contents (valued at [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "source": "Hugging Face",
-      "published": "Tue, 04 Aug 2026 13:58:29 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "The latest AI news we announced in July 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "source": "Google AI",
-      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
-      "summary": "July AI recap header",
       "isAI": true
     }
   ]
