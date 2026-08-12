@@ -1,8 +1,24 @@
 {
-  "updated": "2026-08-12T14:20:51.836782+00:00",
+  "updated": "2026-08-12T15:29:17.148313+00:00",
   "items": [
     {
-      "title": "Google unveils Pixel 11 lineup, new AirTag rival, and Gemini features at Made by Google 2026",
+      "title": "Here\u2019s a balm if the idea of destroying books to train AI breaks your heart",
+      "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 12 Aug 2026 15:19:17 +0000",
+      "summary": "AI firms quietly bulk buying rare books face resistance from booksellers.",
+      "isAI": true
+    },
+    {
+      "title": "Silkroad Innovation Hub\u2019s Road to Battlefield competition continues",
+      "url": "https://techcrunch.com/2026/08/12/silkroad-innovation-hubs-road-to-battlefield-competition-continues/",
+      "source": "TechCrunch",
+      "published": "Wed, 12 Aug 2026 15:02:00 +0000",
+      "summary": "The Road to Battlefield competition is now in its second year, and its purpose is to give founders across Central Eurasia a direct route to Startup Battlefield",
+      "isAI": true
+    },
+    {
+      "title": "Everything announced at Made by Google \u201926: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
       "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
       "source": "TechCrunch AI",
       "published": "Wed, 12 Aug 2026 14:20:33 +0000",
@@ -50,11 +66,11 @@
       "isAI": true
     },
     {
-      "title": "Google\u2019s Pixel 11 lineup offer fewer hardware changes, but much more Gemini",
+      "title": "Google\u2019s Pixel 11 lineup offers fewer hardware changes, but much more Gemini",
       "url": "https://techcrunch.com/2026/08/12/pixel-11-has-few-hardware-changes-and-more-gemini/",
       "source": "TechCrunch",
       "published": "Wed, 12 Aug 2026 14:00:00 +0000",
-      "summary": "Google Pixel 11 Series starts $100 costlier than the last year, but offers 256GB base storage",
+      "summary": "The Google Pixel 11 series starts $100 costlier than the last year, but offers 256GB base storage.",
       "isAI": true
     },
     {
@@ -74,11 +90,43 @@
       "isAI": false
     },
     {
+      "title": "Google\u2019s Pixel 11 series pairs a little new hardware with a lot of new software",
+      "url": "https://www.theverge.com/tech/978013/google-pixel-11-series-hands-on-hardware-software",
+      "source": "The Verge",
+      "published": "2026-08-12T10:00:00-04:00",
+      "summary": "When I first picked up the Pixel 11 Pro this week, it was clear to me that this was one of those refinement years - at least when it comes to hardware. Aesthetically, the phones are as beautiful as ever, with Google's signature camera bar and bright, colorful backing glass. There are small updates, like [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google is making the Pixel cameras better by making them worse",
+      "url": "https://www.theverge.com/tech/978084/google-camera-looks-interview-computational-photography",
+      "source": "The Verge",
+      "published": "2026-08-12T10:00:00-04:00",
+      "summary": "If you look at a photo taken by a smartphone today, it's hard to find much that's technically wrong. Faces are bright and visible. The skies are pristine and blue. Even at night, scenes are well lit and noise-free. If the physical limitations of a tiny camera are what you're trying to solve for, you [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Jaguar offers a first look inside the all-electric Type 01",
+      "url": "https://www.theverge.com/transportation/978793/jaguar-type-01-interior",
+      "source": "The Verge",
+      "published": "2026-08-12T09:48:48-04:00",
+      "summary": "Jaguar's all-electric Type 01 comes with a very beige interior that divides the four seats with a \"spine\" that spans the length of the cabin. New photos shared by Jaguar show a low-slung driver's seat, alongside a slim dashboard with a smartphone-style display in the center. This vehicle doesn't come with a traditional rear-view mirror, [\u2026]",
+      "isAI": false
+    },
+    {
       "title": "Researchers found a way to hijack devices through Zoom screen sharing",
       "url": "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/",
       "source": "Ars Technica",
       "published": "Wed, 12 Aug 2026 13:37:12 +0000",
       "summary": "A public AI tool found the dangerous Zoom flaw in under 20 prompts.",
+      "isAI": true
+    },
+    {
+      "title": "AI is removing the middle class of software engineering",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 13:20:05 +0000",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 158 # Comments: 131",
       "isAI": true
     },
     {
@@ -135,6 +183,14 @@
       "source": "Wired",
       "published": "Wed, 12 Aug 2026 10:30:00 +0000",
       "summary": "Last week, an AI newsroom beat mainstream journalists\u2014including WIRED\u2014to a story about OpenAI and hacking. It\u2019s just the beginning.",
+      "isAI": true
+    },
+    {
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "url": "https://woxi.ad-si.com",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 10:06:29 +0000",
+      "summary": "Woxi is an interpreter for the Wolfram Language written in Rust.It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module.Compared with wolframscript / Mathematica, the main differences are:- Free and open source - Very fast startup - Typically milliseconds rather than seconds for the\u2026",
       "isAI": true
     },
     {
@@ -1943,62 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 05 Aug 2026 18:30:00 +0000",
       "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
-      "isAI": true
-    },
-    {
-      "title": "Reddit aims to make \u2018karma\u2019 less important for first-time posters with shift to AI moderation tools",
-      "url": "https://techcrunch.com/2026/08/05/reddit-aims-to-make-karma-less-important-for-first-time-posters-with-shift-to-ai-moderation-tools/",
-      "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 18:00:40 +0000",
-      "summary": "Reddit is expanding its moderation tools and building stronger abuse prevention systems that it says could eventually reduce communities\u2019 reliance on karma and account-age requirements, making it easier for legitimate newcomers to participate.",
-      "isAI": true
-    },
-    {
-      "title": "Lucid Motors just delayed its affordable EV. Now what?",
-      "url": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
-      "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 17:57:45 +0000",
-      "summary": "The Cosmos EV is now slated for release in the second half of 2027. CEO Silvio Napoli said he's focused on getting the EV right, as well as its nearer-term robotaxi project with Uber and Nuro.",
-      "isAI": false
-    },
-    {
-      "title": "Two of Ring\u2019s latest video doorbells are a lot cheaper than usual",
-      "url": "https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale",
-      "source": "The Verge",
-      "published": "2026-08-05T13:53:43-04:00",
-      "summary": "Ring\u2019s Wired Doorbell Pro and Battery Doorbell Plus are two of the brand\u2019s most well-rounded video doorbells, whether you\u2019re looking for a hardwired model or one that runs on a battery. Right now, its Wired Doorbell Pro is down to $199 ($50 off) at Amazon and Best Buy, while the Battery Doorbell Plus is on [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Meet the eight startups pitching at Startup Battlefield Australia",
-      "url": "https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia/",
-      "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 17:02:00 +0000",
-      "summary": "The applications are in, and the TechCrunch Startup Battlefield team made their decisions!",
-      "isAI": true
-    },
-    {
-      "title": "EVgo starts building Tesla Superchargers under license",
-      "url": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/",
-      "source": "Ars Technica",
-      "published": "Wed, 05 Aug 2026 17:00:38 +0000",
-      "summary": "The V4 Superchargers will show up in the Tesla nav app and have NACS and CCS1 plugs.",
-      "isAI": false
-    },
-    {
-      "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
-      "source": "The Verge AI",
-      "published": "2026-08-05T12:57:25-04:00",
-      "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was generated using [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google just announced a major shakeup of its top AI leadership",
-      "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-      "source": "The Verge AI",
-      "published": "2026-08-05T12:47:23-04:00",
-      "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray [\u2026]",
       "isAI": true
     }
   ]
