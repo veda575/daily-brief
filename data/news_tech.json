@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-12T16:29:27.655882+00:00",
+  "updated": "2026-08-12T17:33:20.772177+00:00",
   "items": [
+    {
+      "title": "Twitch streamers can now opt out from training Amazon\u2019s AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "source": "The Verge AI",
+      "published": "2026-08-12T13:29:10-04:00",
+      "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "How Google\u2019s new Pixel 11 phones compare to last year\u2019s models",
+      "url": "https://www.theverge.com/gadgets/975237/google-pixel-11-pro-comparison-specs-price-features",
+      "source": "The Verge",
+      "published": "2026-08-12T13:00:00-04:00",
+      "summary": "Google just added four new phones to the Pixel family: the Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL, and the Pixel 11 Pro Fold. They're slightly more expensive than their predecessors, but they come with some notable upgrades, including improved cameras and a new Tensor G6 chip that should deliver faster performance. The [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Mesh, Automattic\u2019s CRM for everyone, comes to Android",
+      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 16:57:58 +0000",
+      "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic is now an Android app.",
+      "isAI": true
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source": "MIT Tech Review",
+      "published": "Wed, 12 Aug 2026 16:51:57 +0000",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology\u2019s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
+      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 16:46:02 +0000",
+      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables \u2014 rings especially \u2014 are betting people want to capture stray thoughts and ideas the same way. One of [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Tesla wants to build a $10B solar factory in Texas",
       "url": "https://techcrunch.com/2026/08/12/tesla-wants-to-build-a-10b-solar-factory-in-texas/",
@@ -15,6 +55,14 @@
       "source": "Hugging Face",
       "published": "Wed, 12 Aug 2026 16:14:36 GMT",
       "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 16:04:50 +0000",
+      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 161 # Comments: 42",
       "isAI": true
     },
     {
@@ -38,7 +86,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
       "source": "The Verge AI",
       "published": "2026-08-12T11:52:07-04:00",
-      "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plugins like Autotune introducing [\u2026]",
+      "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing [\u2026]",
       "isAI": true
     },
     {
@@ -70,8 +118,16 @@
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:22:30 +0000",
-      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 216 # Comments: 21",
+      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 363 # Comments: 51",
       "isAI": false
+    },
+    {
+      "title": "Why Sandbar thinks it\u2019s voice-enabled ring can avoid the AI hardware graveyard",
+      "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 14:22:00 +0000",
+      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables \u2014 rings especially \u2014 are betting people want to capture stray thoughts and ideas the same way. One of [\u2026]",
+      "isAI": true
     },
     {
       "title": "Everything announced at Made by Google \u201926: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
@@ -182,7 +238,7 @@
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 267 # Comments: 228",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 381 # Comments: 317",
       "isAI": true
     },
     {
@@ -1943,62 +1999,6 @@
       "source": "Hacker News",
       "published": "Wed, 05 Aug 2026 21:11:57 +0000",
       "summary": "Article URL: https://www.primeintellect.ai/blog/prime-agent Comments URL: https://news.ycombinator.com/item?id=49189075 Points: 211 # Comments: 52",
-      "isAI": true
-    },
-    {
-      "title": "Moove raises $250M to become the backbone of the robotaxi industry",
-      "url": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
-      "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 20:50:45 +0000",
-      "summary": "Moove is scaling up the autonomous vehicle fleet management side of its business and plans to someday own, not just manage, Waymo robotaxis.",
-      "isAI": false
-    },
-    {
-      "title": "Anthropic\u2019s AI used fake identities, malware in rogue attack on GitHub project",
-      "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 05 Aug 2026 20:47:11 +0000",
-      "summary": "Anthropic and OpenAI models\u2019 unprompted actions forced halt to UK cyber tests.",
-      "isAI": true
-    },
-    {
-      "title": "Klaviyo acquires Elias Torres\u2019 Agency in full-circle reunion for tech founders",
-      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 05 Aug 2026 20:05:00 +0000",
-      "summary": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
-      "isAI": true
-    },
-    {
-      "title": "Reddit signals ominous upcoming \"changes\u201d for old.reddit.com",
-      "url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 05 Aug 2026 20:01:32 +0000",
-      "summary": "Reddit says the beloved site is used for some \"bad behavior.\"",
-      "isAI": true
-    },
-    {
-      "title": "Hank Green found the AI problem that YouTube labels can\u2019t catch",
-      "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 05 Aug 2026 19:51:40 +0000",
-      "summary": "\"Slop\" isn't the only problem.",
-      "isAI": true
-    },
-    {
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "source": "Hacker News",
-      "published": "Wed, 05 Aug 2026 19:47:26 +0000",
-      "summary": "Article URL: https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/ Comments URL: https://news.ycombinator.com/item?id=49187977 Points: 190 # Comments: 138",
-      "isAI": true
-    },
-    {
-      "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
-      "url": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 19:42:12 +0000",
-      "summary": "Security researcher James Kettle tried to push the limit of AI\u2019s hacking abilities\u2014and discovered how effective it can be when combined with human expertise.",
       "isAI": true
     }
   ]
