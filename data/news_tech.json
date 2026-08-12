@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-12T10:42:45.026008+00:00",
+  "updated": "2026-08-12T11:32:11.072945+00:00",
   "items": [
+    {
+      "title": "AI code-testing startup Blacksmith\u2019s valuation jumps almost 10x in less than a year",
+      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 11:00:00 +0000",
+      "summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
+      "isAI": true
+    },
+    {
+      "title": "Ego 1300 Electric Mower Review: Tame Your Lawn Without Gas",
+      "url": "https://www.wired.com/review/ego-1300-electric-lawn-mower/",
+      "source": "Wired",
+      "published": "Wed, 12 Aug 2026 11:00:00 +0000",
+      "summary": "Ego\u2019s newest, biggest, self-propelled mower handles larger yards in less time with impressive performance and battery life.",
+      "isAI": false
+    },
+    {
+      "title": "The Job Interview Tattoo Guy Everyone Got Mad at Finally Explains Himself",
+      "url": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
+      "source": "Wired",
+      "published": "Wed, 12 Aug 2026 10:45:00 +0000",
+      "summary": "LemonLime cofounder Jordan Zietz hears your criticism loud and clear. That\u2019s why he got his startup\u2019s logo tattooed on his shoulder.",
+      "isAI": true
+    },
     {
       "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
       "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
@@ -46,7 +70,7 @@
       "url": "https://llama.app",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 04:51:59 +0000",
-      "summary": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 238 # Comments: 100",
+      "summary": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 254 # Comments: 113",
       "isAI": true
     },
     {
@@ -166,7 +190,7 @@
       "url": "https://x.ai/bot",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 17:23:09 +0000",
-      "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 291 # Comments: 256",
+      "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 301 # Comments: 266",
       "isAI": true
     },
     {
@@ -190,7 +214,7 @@
       "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 16:57:09 +0000",
-      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 376 # Comments: 426",
+      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 391 # Comments: 448",
       "isAI": true
     },
     {
@@ -910,7 +934,7 @@
       "url": "https://photosynthesis.camera",
       "source": "Hacker News",
       "published": "Sat, 08 Aug 2026 22:47:10 +0000",
-      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 292 # Comments: 268",
+      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 294 # Comments: 272",
       "isAI": false
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "The Verge",
       "published": "2026-08-05T10:13:15-04:00",
       "summary": "Sunbird Messaging is back on the Google Play Store, offering Android users blue bubble privileges in iMessage complete with reactions and high quality videos for $2.99 a month. Apple and Google have made cross platform messaging better in recent years with support for RCS, but Android users can still cause issues in iMessage group chats, [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "SpaceX spooks investors with debut earnings report",
-      "url": "https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 05 Aug 2026 13:59:17 +0000",
-      "summary": "Shares slide in pre-market trading even as group says its quarterly revenues nearly doubled.",
-      "isAI": true
-    },
-    {
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "source": "Hacker News",
-      "published": "Wed, 05 Aug 2026 13:58:53 +0000",
-      "summary": "Article URL: https://blog.cloudflare.com/cloudflare-os/ Comments URL: https://news.ycombinator.com/item?id=49182996 Points: 605 # Comments: 292",
-      "isAI": false
-    },
-    {
-      "title": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed",
-      "url": "https://techcrunch.com/2026/08/05/disney-looks-to-tiktok-creators-to-bring-fan-content-to-its-short-form-video-feed/",
-      "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 13:21:43 +0000",
-      "summary": "As streamers compete with social media giants for viewer attention, Disney+ is partnering with TikTok to bring creator content to its app.",
       "isAI": false
     }
   ]
