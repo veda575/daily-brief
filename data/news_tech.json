@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-12T18:37:15.018953+00:00",
+  "updated": "2026-08-12T19:49:11.040392+00:00",
   "items": [
+    {
+      "title": "Rogue AI Agents Aren\u2019t Evil. They\u2019re Just Eager to Please",
+      "url": "https://www.wired.com/story/rogue-ai-is-just-misunderstood/",
+      "source": "Wired",
+      "published": "Wed, 12 Aug 2026 18:45:00 +0000",
+      "summary": "AI agents that break free and hack into other systems are only trying to make us happy.",
+      "isAI": true
+    },
     {
       "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
       "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
@@ -22,13 +30,13 @@
       "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
       "source": "TechCrunch AI",
       "published": "Wed, 12 Aug 2026 17:41:29 +0000",
-      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Alitmeter Capital.",
+      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
       "isAI": true
     },
     {
       "title": "Twitch streamers can now opt out from training Amazon\u2019s AI",
       "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-      "source": "The Verge",
+      "source": "The Verge AI",
       "published": "2026-08-12T13:29:10-04:00",
       "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, [\u2026]",
       "isAI": true
@@ -47,6 +55,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 12 Aug 2026 16:57:58 +0000",
       "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
+      "isAI": true
+    },
+    {
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 16:54:25 +0000",
+      "summary": "Article URL: https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis Comments URL: https://news.ycombinator.com/item?id=49275385 Points: 195 # Comments: 179",
       "isAI": true
     },
     {
@@ -86,7 +102,7 @@
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 324 # Comments: 105",
+      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 454 # Comments: 163",
       "isAI": true
     },
     {
@@ -108,7 +124,7 @@
     {
       "title": "Guitar company D\u2019Addario admits that AI music was used in a promotional video",
       "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
-      "source": "The Verge",
+      "source": "The Verge AI",
       "published": "2026-08-12T11:52:07-04:00",
       "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing [\u2026]",
       "isAI": true
@@ -119,6 +135,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 12 Aug 2026 15:44:56 +0000",
       "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
+      "isAI": true
+    },
+    {
+      "title": "Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 15:32:50 +0000",
+      "summary": "Article URL: https://x.ai/news/grok-4-6 Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 208 # Comments: 214",
       "isAI": true
     },
     {
@@ -142,7 +166,7 @@
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:22:30 +0000",
-      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 449 # Comments: 72",
+      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 545 # Comments: 90",
       "isAI": false
     },
     {
@@ -162,12 +186,28 @@
       "isAI": true
     },
     {
+      "title": "Tim King, AmigaDOS developer, has died",
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 14:09:11 +0000",
+      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 156 # Comments: 23",
+      "isAI": false
+    },
+    {
       "title": "Google\u2019s Pixel Watch 5 Can Now Detect Breathing Emergencies",
       "url": "https://www.wired.com/story/googles-pixel-watch-5-can-now-detect-breathing-emergencies/",
       "source": "Wired",
       "published": "Wed, 12 Aug 2026 14:07:59 +0000",
       "summary": "The company is also adding blood pressure and insulin resistance trends as proactive monitoring tools in the Google Health app.",
       "isAI": false
+    },
+    {
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 14:02:46 +0000",
+      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 158 # Comments: 100",
+      "isAI": true
     },
     {
       "title": "Putting sign language AI into users\u2019 hands",
@@ -262,7 +302,7 @@
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 451 # Comments: 375",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 523 # Comments: 441",
       "isAI": true
     },
     {
@@ -1959,46 +1999,6 @@
       "source": "OpenAI",
       "published": "Thu, 06 Aug 2026 06:00:00 GMT",
       "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-      "isAI": true
-    },
-    {
-      "title": "Elon Musk\u2019s attempt at an AI Wikipedia hasn\u2019t been updated in months",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
-      "source": "The Verge AI",
-      "published": "2026-08-05T20:25:10-04:00",
-      "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI Didn\u2019t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
-      "url": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
-      "source": "Wired",
-      "published": "Thu, 06 Aug 2026 00:15:04 +0000",
-      "summary": "At the Black Hat security conference, the AI giant revealed new details about how its agents went rogue, hacked several other companies\u2014and did it all right under the company\u2019s nose.",
-      "isAI": true
-    },
-    {
-      "title": "Baseten on Hugging Face Inference Providers \ud83d\udd25",
-      "url": "https://huggingface.co/blog/baseten",
-      "source": "Hugging Face",
-      "published": "Thu, 06 Aug 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "source": "OpenAI",
-      "published": "Thu, 06 Aug 2026 00:00:00 GMT",
-      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s Browser Could Be Hijacked to Spam Your WhatsApp Contacts",
-      "url": "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 23:30:00 +0000",
-      "summary": "Researchers at security firm Zenity found more than a dozen flaws in AI browsers\u2014and managed to get OpenAI\u2019s Atlas to make an unauthorized Amazon purchase.",
       "isAI": true
     }
   ]
