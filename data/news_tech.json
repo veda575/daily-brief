@@ -1,8 +1,56 @@
 {
-  "updated": "2026-08-12T15:29:17.148313+00:00",
+  "updated": "2026-08-12T16:29:27.655882+00:00",
   "items": [
     {
-      "title": "Here\u2019s a balm if the idea of destroying books to train AI breaks your heart",
+      "title": "Tesla wants to build a $10B solar factory in Texas",
+      "url": "https://techcrunch.com/2026/08/12/tesla-wants-to-build-a-10b-solar-factory-in-texas/",
+      "source": "TechCrunch",
+      "published": "Wed, 12 Aug 2026 16:18:31 +0000",
+      "summary": "Tesla wants to build a massive solar factory in Texas, but first it wants the state to chip in to defray the costs.",
+      "isAI": true
+    },
+    {
+      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": "Hugging Face",
+      "published": "Wed, 12 Aug 2026 16:14:36 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 16:04:27 +0000",
+      "summary": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
+      "isAI": true
+    },
+    {
+      "title": "Facebook officially rolls out its standalone Creator Studio app with AI tools for creators",
+      "url": "https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators/",
+      "source": "TechCrunch",
+      "published": "Wed, 12 Aug 2026 15:56:13 +0000",
+      "summary": "The new app launches with Facebook's AI creator assistant built into it, providing creators with personalized recommendations based on their content style, performance, audience engagement, and goals.",
+      "isAI": true
+    },
+    {
+      "title": "Guitar company D\u2019Addario admits that AI music was used in a promotional video",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+      "source": "The Verge AI",
+      "published": "2026-08-12T11:52:07-04:00",
+      "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plugins like Autotune introducing [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 15:44:56 +0000",
+      "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
+      "isAI": true
+    },
+    {
+      "title": "Booksellers suspect AI firms are buying and then destroying rare books",
       "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
       "source": "Ars Technica AI",
       "published": "Wed, 12 Aug 2026 15:19:17 +0000",
@@ -16,6 +64,14 @@
       "published": "Wed, 12 Aug 2026 15:02:00 +0000",
       "summary": "The Road to Battlefield competition is now in its second year, and its purpose is to give founders across Central Eurasia a direct route to Startup Battlefield",
       "isAI": true
+    },
+    {
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 14:22:30 +0000",
+      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 216 # Comments: 21",
+      "isAI": false
     },
     {
       "title": "Everything announced at Made by Google \u201926: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
@@ -126,7 +182,7 @@
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 158 # Comments: 131",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 267 # Comments: 228",
       "isAI": true
     },
     {
@@ -142,7 +198,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
       "source": "The Verge AI",
       "published": "2026-08-12T08:09:34-04:00",
-      "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: he's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well [\u2026]",
+      "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well [\u2026]",
       "isAI": true
     },
     {
@@ -1943,62 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 05 Aug 2026 19:42:12 +0000",
       "summary": "Security researcher James Kettle tried to push the limit of AI\u2019s hacking abilities\u2014and discovered how effective it can be when combined with human expertise.",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX claims Starlink Mobile will be better than AT&T, T-Mobile, and Verizon",
-      "url": "https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/",
-      "source": "Ars Technica",
-      "published": "Wed, 05 Aug 2026 19:38:56 +0000",
-      "summary": "SpaceX won't build large cell towers but plans small base stations across US.",
-      "isAI": false
-    },
-    {
-      "title": "TikTok Says \u2018Moderator Error\u2019 Kept Perez Hilton Livestream Up",
-      "url": "https://www.wired.com/story/tiktok-says-moderator-error-kept-perez-hilton-livestream-on-platform/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 19:35:22 +0000",
-      "summary": "The gossip blogger was on TikTok covered in what appeared to be blood and wielding a knifelike object before the platform cut his stream. He\u2019s since been hospitalized.",
-      "isAI": false
-    },
-    {
-      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 05 Aug 2026 19:30:19 +0000",
-      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
-      "isAI": true
-    },
-    {
-      "title": "Muse Code and Muse Spark 1.2",
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "source": "Hacker News",
-      "published": "Wed, 05 Aug 2026 19:15:52 +0000",
-      "summary": "Article URL: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 Comments URL: https://news.ycombinator.com/item?id=49187575 Points: 291 # Comments: 191",
-      "isAI": true
-    },
-    {
-      "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
-      "url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/",
-      "source": "Ars Technica",
-      "published": "Wed, 05 Aug 2026 19:05:58 +0000",
-      "summary": "Google's AI brain drain continues.",
-      "isAI": true
-    },
-    {
-      "title": "Born Against, or why hobby programming communities are against LLM usage",
-      "url": "https://blog.fogus.me/llm/born-against.html",
-      "source": "Hacker News",
-      "published": "Wed, 05 Aug 2026 18:37:49 +0000",
-      "summary": "Article URL: https://blog.fogus.me/llm/born-against.html Comments URL: https://news.ycombinator.com/item?id=49187061 Points: 340 # Comments: 379",
-      "isAI": true
-    },
-    {
-      "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
-      "url": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 18:30:00 +0000",
-      "summary": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
       "isAI": true
     }
   ]
