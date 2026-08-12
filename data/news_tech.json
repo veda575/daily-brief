@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T01:42:52.887837+00:00",
+  "updated": "2026-08-12T03:51:12.657840+00:00",
   "items": [
     {
       "title": "Saber denies replacing Rideshare Stimulator\u2019s writers with ChatGPT",
@@ -106,6 +106,14 @@
       "isAI": true
     },
     {
+      "title": "Grok Bot",
+      "url": "https://x.ai/bot",
+      "source": "Hacker News",
+      "published": "Tue, 11 Aug 2026 17:23:09 +0000",
+      "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 189 # Comments: 159",
+      "isAI": true
+    },
+    {
       "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
       "source": "Google AI",
@@ -126,7 +134,7 @@
       "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 16:57:09 +0000",
-      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 263 # Comments: 317",
+      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 305 # Comments: 355",
       "isAI": true
     },
     {
@@ -846,7 +854,7 @@
       "url": "https://photosynthesis.camera",
       "source": "Hacker News",
       "published": "Sat, 08 Aug 2026 22:47:10 +0000",
-      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 202 # Comments: 206",
+      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 227 # Comments: 228",
       "isAI": false
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "Wed, 05 Aug 2026 11:03:13 +0000",
       "summary": "Article URL: https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/ Comments URL: https://news.ycombinator.com/item?id=49181099 Points: 432 # Comments: 225",
       "isAI": false
-    },
-    {
-      "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-      "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 05 Aug 2026 11:00:00 +0000",
-      "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
-      "isAI": true
     }
   ]
 }
