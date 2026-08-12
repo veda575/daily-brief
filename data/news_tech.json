@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-11T21:49:56.276301+00:00",
+  "updated": "2026-08-12T01:42:52.887837+00:00",
   "items": [
+    {
+      "title": "Saber denies replacing Rideshare Stimulator\u2019s writers with ChatGPT",
+      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+      "source": "The Verge AI",
+      "published": "2026-08-11T20:39:26-04:00",
+      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Phoebe Gates and Sophia Kianni reportedly knew Phia was \u2018cookie stuffing\u2019 for months",
       "url": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
@@ -118,7 +126,7 @@
       "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 16:57:09 +0000",
-      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 173 # Comments: 211",
+      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 263 # Comments: 317",
       "isAI": true
     },
     {
@@ -832,6 +840,14 @@
       "published": "Sun, 09 Aug 2026 09:30:00 +0000",
       "summary": "A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?",
       "isAI": true
+    },
+    {
+      "title": "Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo",
+      "url": "https://photosynthesis.camera",
+      "source": "Hacker News",
+      "published": "Sat, 08 Aug 2026 22:47:10 +0000",
+      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 202 # Comments: 206",
+      "isAI": false
     },
     {
       "title": "Planned Amazon data center could become the biggest climate polluter in the US",
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Wed, 05 Aug 2026 11:00:00 +0000",
       "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
-      "isAI": true
-    },
-    {
-      "title": "Gene-Edited Puppies Will Melt Your Heart\u2014but Won\u2019t Trigger Your Allergies",
-      "url": "https://www.wired.com/story/gene-edited-puppies-wont-trigger-allergies/",
-      "source": "Wired",
-      "published": "Wed, 05 Aug 2026 11:00:00 +0000",
-      "summary": "A startup has created beagles without the gene that causes runny noses and watery eyes for allergy sufferers.",
-      "isAI": true
-    },
-    {
-      "title": "Trump\u2019s AI testing plan is limited and vague",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
-      "source": "The Verge AI",
-      "published": "2026-08-05T06:29:47-04:00",
-      "summary": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models. Axios reports that not only do the voluntary guidelines outright exclude open models - meaning anyone can download them and inspect their core components - but the framework explicitly says it can't be used [\u2026]",
       "isAI": true
     }
   ]
