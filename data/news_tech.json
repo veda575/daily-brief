@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-12T06:55:06.428649+00:00",
+  "updated": "2026-08-12T08:14:32.635881+00:00",
   "items": [
+    {
+      "title": "llama.cpp",
+      "url": "https://llama.app",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 04:51:59 +0000",
+      "summary": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 158 # Comments: 73",
+      "isAI": true
+    },
     {
       "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
       "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
@@ -118,7 +126,7 @@
       "url": "https://x.ai/bot",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 17:23:09 +0000",
-      "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 244 # Comments: 194",
+      "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 267 # Comments: 218",
       "isAI": true
     },
     {
@@ -142,7 +150,7 @@
       "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 16:57:09 +0000",
-      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 334 # Comments: 392",
+      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 357 # Comments: 409",
       "isAI": true
     },
     {
@@ -862,7 +870,7 @@
       "url": "https://photosynthesis.camera",
       "source": "Hacker News",
       "published": "Sat, 08 Aug 2026 22:47:10 +0000",
-      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 256 # Comments: 242",
+      "summary": "Article URL: https://photosynthesis.camera Comments URL: https://news.ycombinator.com/item?id=49226623 Points: 270 # Comments: 245",
       "isAI": false
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "TechCrunch",
       "published": "Wed, 05 Aug 2026 11:26:00 +0000",
       "summary": "River plans to build a new factory, launch additional models from 2027, and target profitability as it scales production.",
-      "isAI": true
-    },
-    {
-      "title": "Google Assistant will disappear from your phone next month",
-      "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
-      "source": "The Verge AI",
-      "published": "2026-08-05T07:12:50-04:00",
-      "summary": "Google Assistant's days have been numbered ever since Gemini arrived on the scene, and its time is now up. Google has announced that it will be removing access to Assistant on Android phones and tablets, along with paired devices like smartwatches or headphones, from September 4th. The announcement came in an email apparently sent to [\u2026]",
       "isAI": true
     }
   ]
