@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-13T20:23:52.996886+00:00",
+  "updated": "2026-08-13T21:21:30.718075+00:00",
   "items": [
+    {
+      "title": "Mark Zuckerberg\u2019s AI Manifesto Is 6,500-Words\u2014and Barely Says Anything",
+      "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
+      "source": "Wired",
+      "published": "Thu, 13 Aug 2026 21:14:43 +0000",
+      "summary": "AI is shifting the culture, from tech CEO manifestos to 1 am job interviews. We unpack some of the latest, along with the top findings from Black Hat and Defcon, this week on Uncanny Valley.",
+      "isAI": true
+    },
+    {
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 21:13:24 +0000",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "isAI": true
+    },
     {
       "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
       "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
@@ -78,7 +94,7 @@
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 208 # Comments: 72",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 264 # Comments: 102",
       "isAI": true
     },
     {
@@ -102,7 +118,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 391 # Comments: 238",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 445 # Comments: 267",
       "isAI": true
     },
     {
@@ -118,7 +134,7 @@
       "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
       "source": "TechCrunch AI",
       "published": "Thu, 13 Aug 2026 17:07:13 +0000",
-      "summary": "Dali Rajic will take over as OpenAI's top salesperson.",
+      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
       "isAI": true
     },
     {
@@ -126,7 +142,7 @@
       "url": "https://docs.mistral.ai/models/ocr-4-1",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:05:12 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 157 # Comments: 54",
+      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 186 # Comments: 67",
       "isAI": true
     },
     {
@@ -266,6 +282,14 @@
       "isAI": true
     },
     {
+      "title": "Choosing an AI model: one prompt, 11 models, different results",
+      "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 13:05:29 +0000",
+      "summary": "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news.ycombinator.com/item?id=49285327 Points: 153 # Comments: 66",
+      "isAI": true
+    },
+    {
       "title": "Flock CEO: \u2018We got this one wrong\u2019",
       "url": "https://www.theverge.com/policy/979339/flock-ceo-audits-data-retention",
       "source": "The Verge",
@@ -286,7 +310,7 @@
       "url": "https://deepseek.com/harness/en/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 12:58:02 +0000",
-      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 478 # Comments: 221",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 498 # Comments: 228",
       "isAI": true
     },
     {
@@ -350,7 +374,7 @@
       "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 04:53:41 +0000",
-      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 420 # Comments: 289",
+      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 431 # Comments: 291",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch",
       "published": "Fri, 07 Aug 2026 14:07:31 +0000",
       "summary": "SpaceX and Tesla are building a massive semiconductor fab in Texas that will depend on natural gas power plants, not Tesla solar panels.",
-      "isAI": true
-    },
-    {
-      "title": "Jill Lepore on the \u2018Artificial State\u2019 and why Silicon Valley\u2019s leaders are bad sci-fi readers",
-      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 07 Aug 2026 14:00:00 +0000",
-      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products \u2014 almost as if they\u2019re forming a new government. And whether you\u2019re thinking of Twitter\u2019s old \u201ctown hall in your pocket\u201d or Anthropic\u2019s Claude constitution, it\u2019s a theory that doesn\u2019t paint Silicon Valley in a very flattering light. In Lepore\u2019s upcoming book, The Rise and Fall of the\u2026",
-      "isAI": true
-    },
-    {
-      "title": "AI chatbots have failed people in crisis. Can that be fixed?",
-      "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 07 Aug 2026 13:49:37 +0000",
-      "summary": "Clinicians and researchers say AI companies need to open up their safety data.",
-      "isAI": true
-    },
-    {
-      "title": "ByteDance trains massive AI model in bid to rival Anthropic",
-      "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 07 Aug 2026 13:29:22 +0000",
-      "summary": "TikTok owner training a model with 10 trillion parameters.",
       "isAI": true
     }
   ]
