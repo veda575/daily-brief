@@ -1,6 +1,62 @@
 {
-  "updated": "2026-08-13T10:59:05.556795+00:00",
+  "updated": "2026-08-13T14:22:25.913019+00:00",
   "items": [
+    {
+      "title": "Does Google even want to win at AI?",
+      "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+      "source": "The Verge AI",
+      "published": "2026-08-13T10:10:31-04:00",
+      "summary": "Today on Decoder, I\u2019m talking with Hayden Field, The Verge\u2019s senior AI reporter, about a question that\u2019s been rocketing around the tech industry for the past week: Is Google losing the AI race? That\u2019s because last week Google announced a bombshell reorganization of its AI division, Google DeepMind. Jeff Dean, the company\u2019s chief scientist, is [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "In a first, US will allow some private firms to carry out cyberattacks",
+      "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/",
+      "source": "TechCrunch",
+      "published": "Thu, 13 Aug 2026 14:09:05 +0000",
+      "summary": "The new order sweeps away decades of existing U.S. cybersecurity policy prohibiting private companies from conducting 'hack back' attacks or offensive cyber operations.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic could be worth $2 trillion when it goes public",
+      "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 13 Aug 2026 13:58:56 +0000",
+      "summary": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+      "isAI": true
+    },
+    {
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 13 Aug 2026 13:41:10 +0000",
+      "summary": "The police-tech giant Flock is announcing today that it will change officers\u2019 access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft is combining its Copilot apps ahead of a \u2018super app\u2019",
+      "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+      "source": "The Verge AI",
+      "published": "2026-08-13T09:30:00-04:00",
+      "summary": "Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single \"super app\" interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the \"Microsoft Copilot\" name but features an updated app icon. The single [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Flock CEO: \u2018We got this one wrong\u2019",
+      "url": "https://www.theverge.com/policy/979339/flock-ceo-audits-data-retention",
+      "source": "The Verge",
+      "published": "2026-08-13T09:00:00-04:00",
+      "summary": "Surveillance tech company Flock is rolling out updates to address reports of cops across the country abusing its tools to stalk ex-romantic partners and others. CEO Garrett Langley is delivering a mea culpa, and in an interview with The Verge, says he's changed his mind on what responsibility Flock bears for how law enforcement uses [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Claude's new Scarlet Letter watermark is invisible\u2014for now",
+      "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 13 Aug 2026 11:10:18 +0000",
+      "summary": "The mark flags anything Claude processed, even human writing it only edited.",
+      "isAI": true
+    },
     {
       "title": "5 Best Android Tablets in 2026: Samsung, TCL, Amazon, and More",
       "url": "https://www.wired.com/story/the-best-android-tablets/",
@@ -198,7 +254,7 @@
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 942 # Comments: 386",
+      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 993 # Comments: 426",
       "isAI": true
     },
     {
@@ -238,7 +294,7 @@
       "url": "https://x.ai/news/grok-4-6",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 15:32:50 +0000",
-      "summary": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-a... Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 558 # Comments: 504",
+      "summary": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-a... Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 602 # Comments: 556",
       "isAI": true
     },
     {
@@ -286,7 +342,7 @@
       "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:09:11 +0000",
-      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 277 # Comments: 34",
+      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 290 # Comments: 35",
       "isAI": false
     },
     {
@@ -503,6 +559,14 @@
       "source": "Wired",
       "published": "Wed, 12 Aug 2026 09:30:00 +0000",
       "summary": "From pessimism around dating to AI reshaping culture, cyber-ethnographer Ruby J. Thelot tells WIRED why people are putting too much stock into things that go viral.",
+      "isAI": true
+    },
+    {
+      "title": "Launch HN: Discovered Materials (YC P26) \u2013 AI agents to discover new materials",
+      "url": "https://discoveredmaterials.com/research/",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 07:51:20 +0000",
+      "summary": "Hey HN, we're Advaith and Akash from Discovered Materials ( https://discoveredmaterials.com/ ). We build AI agents that discover new materials for the semiconductor industry.GPUs today have a heat problem. Nvidia & AMD are almost doubling the TDP (Thermal Design Power) in every chip they release - the H100 (released 2022) has a TDP of 700W, Blackwell (2024) gives out 1.2 kW and Rubin (2026) gives\u2026",
       "isAI": true
     },
     {
@@ -1935,70 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Thu, 06 Aug 2026 16:15:30 +0000",
       "summary": "Cloudflare built an AI agent workspace for its employees. Now it\u2019s open source.",
-      "isAI": true
-    },
-    {
-      "title": "Google Wallet now lets parents set up secure balances for their kids",
-      "url": "https://techcrunch.com/2026/08/06/google-wallet-now-lets-parents-set-up-secure-balances-for-their-kids/",
-      "source": "TechCrunch",
-      "published": "Thu, 06 Aug 2026 16:00:00 +0000",
-      "summary": "The tech giant says the new feature will allow parents to teach their kids healthy financial habits while maintaining oversight over their child's spending with built-in safeguards.",
-      "isAI": false
-    },
-    {
-      "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
-      "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 15:53:03 +0000",
-      "summary": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else \u2014 even an AI matchmaker.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI says Apple\u2019s own security practices undermine its trade secrets case",
-      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 15:10:32 +0000",
-      "summary": "Newly filed court exhibits show OpenAI\u2019s legal strategy in Apple\u2019s trade secrets lawsuit: argue that Apple\u2019s own security and offboarding practices \u2014 including allowing an Apple manager to access a former engineer\u2019s iCloud account after he left the company \u2014undermine its claims that the allegedly stolen information was properly protected.",
-      "isAI": true
-    },
-    {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source": "Google DeepMind",
-      "published": "Thu, 06 Aug 2026 15:06:15 +0000",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "SoftBank donated $50 million to Trump\u2019s library months before federal data center deal",
-      "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
-      "source": "The Verge AI",
-      "published": "2026-08-06T10:30:00-04:00",
-      "summary": "SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Sen. Elizabeth Warren (D-MA), Sen. Richard Blumenthal (D-CT), and Rep. Melanie [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The left and right agree on one thing: no data centers",
-      "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
-      "source": "The Verge AI",
-      "published": "2026-08-06T10:00:00-04:00",
-      "summary": "Today, I\u2019m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Amid legal battles, Suno says it will start watermarking songs",
-      "url": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 13:31:57 +0000",
-      "summary": "Suno's watermarking feature comes as the company is fighting legal battles on several fronts.",
-      "isAI": true
-    },
-    {
-      "title": "The messy politics behind Google\u2019s big AI shakeup",
-      "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
-      "source": "The Verge AI",
-      "published": "2026-08-06T09:26:42-04:00",
-      "summary": "In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is [\u2026]",
       "isAI": true
     }
   ]
