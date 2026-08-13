@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-13T14:22:25.913019+00:00",
+  "updated": "2026-08-13T15:31:10.680062+00:00",
   "items": [
+    {
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 15:30:52 +0000",
+      "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia\u2019s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 15:08:00 +0000",
+      "summary": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+      "isAI": true
+    },
+    {
+      "title": "This is Instagram\u2019s new logo",
+      "url": "https://www.theverge.com/tech/979583/this-is-instagrams-new-logo",
+      "source": "The Verge",
+      "published": "2026-08-13T11:00:38-04:00",
+      "summary": "Instagram has unveiled a new wordmark, moving away from the recognizable cursive typeface it's used over the last decade. The updated wordmark is a strange mix of half-cursive half-print that's somehow less legible than its predecessor. Like, that totally says \"Instagzam\", right? \"The wordmark at the top of the app hasn't changed in 10 years, [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Who really needs a cocktail robot?",
+      "url": "https://techcrunch.com/2026/08/13/bartesian-duet-cocktail-maker-review/",
+      "source": "TechCrunch",
+      "published": "Thu, 13 Aug 2026 15:00:00 +0000",
+      "summary": "Bartesian's cocktail makers would be best described like a Keurig or Nespresso machine, but for alcoholic drinks.",
+      "isAI": false
+    },
+    {
+      "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+      "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 14:34:43 +0000",
+      "summary": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
+      "isAI": true
+    },
     {
       "title": "Does Google even want to win at AI?",
       "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
@@ -48,6 +88,14 @@
       "published": "2026-08-13T09:00:00-04:00",
       "summary": "Surveillance tech company Flock is rolling out updates to address reports of cops across the country abusing its tools to stalk ex-romantic partners and others. CEO Garrett Langley is delivering a mea culpa, and in an interview with The Verge, says he's changed his mind on what responsibility Flock bears for how law enforcement uses [\u2026]",
       "isAI": false
+    },
+    {
+      "title": "DeepSeek Harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 12:58:02 +0000",
+      "summary": "Article URL: https://github.com/deepseek-ai/deepseek-harness Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 237 # Comments: 107",
+      "isAI": true
     },
     {
       "title": "Claude's new Scarlet Letter watermark is invisible\u2014for now",
@@ -254,7 +302,7 @@
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 993 # Comments: 426",
+      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 1005 # Comments: 431",
       "isAI": true
     },
     {
@@ -1951,54 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-06T13:39:43-04:00",
       "summary": "Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "ChatGPT brings unlimited text chats to free users",
-      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 17:34:42 +0000",
-      "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "isAI": true
-    },
-    {
-      "title": "Na\u00efve raises $28.5M to automate the grunt work of setting up and running a company",
-      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 17:00:37 +0000",
-      "summary": "Taking vibe-coding a step further, Na\u00efve claims its infra can automate most of the work in setting up and running a business.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI is giving ChatGPT free users unlimited text chats",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
-      "source": "The Verge AI",
-      "published": "2026-08-06T13:00:00-04:00",
-      "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "TikTok blames \u2018moderator error\u2019 on slow response to Perez Hilton livestream",
-      "url": "https://www.theverge.com/tech/976228/tiktok-perez-hilton-livestream-moderator-error",
-      "source": "The Verge",
-      "published": "2026-08-06T12:41:25-04:00",
-      "summary": "TikTok says a \"moderator error\" delayed the removal of a livestream that appeared to show blogger Perez Hilton harming himself, as reported earlier by Wired. Jamie Favazza, a spokesperson for TikTok US, tells The Verge that the platform notified law enforcement about the situation and banned Hilton's account for violating its community guidelines. Hilton, or [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "DeepMind Says Its AI Can Predict Hurricanes Earlier Than Everyone Else",
-      "url": "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/",
-      "source": "Wired",
-      "published": "Thu, 06 Aug 2026 16:23:04 +0000",
-      "summary": "Its WeatherNext model, which will be open-sourced, can accurately predict a storm\u2019s track and intensity using lower-resolution weather data. Researchers don\u2019t yet fully understand how it does this.",
-      "isAI": true
-    },
-    {
-      "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
-      "url": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 06 Aug 2026 16:15:30 +0000",
-      "summary": "Cloudflare built an AI agent workspace for its employees. Now it\u2019s open source.",
       "isAI": true
     }
   ]
