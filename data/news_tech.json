@@ -1,6 +1,62 @@
 {
-  "updated": "2026-08-13T16:36:01.257923+00:00",
+  "updated": "2026-08-13T17:43:24.925903+00:00",
   "items": [
+    {
+      "title": "The new Instagram logo is the perfect embodiment of AI slop",
+      "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 13 Aug 2026 17:32:10 +0000",
+      "summary": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
+      "isAI": true
+    },
+    {
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face",
+      "published": "Thu, 13 Aug 2026 17:16:04 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI hires new CRO as executive shake-up continues",
+      "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 17:07:13 +0000",
+      "summary": "Dali Rajic will take over as OpenAI's top salesperson.",
+      "isAI": true
+    },
+    {
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": "Google DeepMind",
+      "published": "Thu, 13 Aug 2026 17:04:18 +0000",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
+      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 13 Aug 2026 17:00:13 +0000",
+      "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"",
+      "isAI": true
+    },
+    {
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "source": "Google AI",
+      "published": "Thu, 13 Aug 2026 16:45:00 +0000",
+      "summary": "The video shows Sheets canvas in action.",
+      "isAI": true
+    },
+    {
+      "title": "Ford on track to complete $2B factory overhaul for Fathom EV truck",
+      "url": "https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
+      "source": "TechCrunch",
+      "published": "Thu, 13 Aug 2026 16:37:53 +0000",
+      "summary": "Ford expects to begin prototype builds of the Fathom EV in the first quarter of 2027.",
+      "isAI": false
+    },
     {
       "title": "Ford\u2019s $28,000 Fathom EV nears production after $2 billion factory overhaul",
       "url": "https://www.theverge.com/transportation/979565/ford-fathom-uev-louisville-assembly-plant",
@@ -20,7 +76,7 @@
     {
       "title": "Suno is trying to look more like a real music production tool",
       "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-      "source": "The Verge AI",
+      "source": "The Verge",
       "published": "2026-08-13T12:00:00-04:00",
       "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, [\u2026]",
       "isAI": true
@@ -126,7 +182,7 @@
       "url": "https://deepseek.com/harness/en/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 12:58:02 +0000",
-      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 358 # Comments: 161",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 401 # Comments: 187",
       "isAI": true
     },
     {
@@ -144,6 +200,14 @@
       "published": "Thu, 13 Aug 2026 10:00:00 +0000",
       "summary": "Whether you need a portable, around-the-house entertainment center or a full-on laptop replacement, these are the best Android tablets.",
       "isAI": false
+    },
+    {
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI",
+      "published": "Thu, 13 Aug 2026 10:00:00 GMT",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14\u00d7 faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "isAI": true
     },
     {
       "title": "How kids feel about AI, in their own words",
@@ -174,7 +238,15 @@
       "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 04:53:41 +0000",
-      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 363 # Comments: 254",
+      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 388 # Comments: 266",
+      "isAI": true
+    },
+    {
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": "Hugging Face",
+      "published": "Thu, 13 Aug 2026 00:00:00 GMT",
+      "summary": "",
       "isAI": true
     },
     {
@@ -1927,78 +1999,6 @@
       "source": "Hacker News",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
       "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 696 # Comments: 375",
-      "isAI": false
-    },
-    {
-      "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400",
-      "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 22:43:53 +0000",
-      "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
-      "isAI": true
-    },
-    {
-      "title": "Organ donation group accused of trying to take living man's organs faces shutdown",
-      "url": "https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/",
-      "source": "Ars Technica",
-      "published": "Thu, 06 Aug 2026 22:20:50 +0000",
-      "summary": "The organization, Network for Hope, \"strongly disagrees\" with Trump admin's decision.",
-      "isAI": false
-    },
-    {
-      "title": "Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands",
-      "url": "https://techcrunch.com/2026/08/06/your-table-awaits-exhibit-at-techcrunch-disrupt-2026-to-be-seen-by-thousands/",
-      "source": "TechCrunch",
-      "published": "Thu, 06 Aug 2026 22:00:00 +0000",
-      "summary": "Not everyone needs a keynote slot to make noise at TechCrunch Disrupt 2026. Sometimes the best way to meet investors, customers, and partners is by exhibiting directly on the Expo Hall floor at San Francisco\u2019s Moscone West from October 13-15. That\u2019s exactly what our Exhibit Program offers, and it\u2019s still open to showcase your startup. Here\u2019s what $12,500 buys you: Joining fellow exhibitors is the\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Trevor Noah is hosting Google\u2019s Pixel 11 launch event",
-      "url": "https://www.theverge.com/tech/976454/made-by-google-2026-event-pixel-11-trevor-noah",
-      "source": "The Verge",
-      "published": "2026-08-06T17:15:47-04:00",
-      "summary": "Google is set to host its next live Made by Google hardware launch event on August 12th, and the company says in a new video that comedian Trevor Noah will be hosting the show. The video indicates that the event will feature other celebrities and influencers as well, including Call Her Daddy host Alex Cooper [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "source": "Hacker News",
-      "published": "Thu, 06 Aug 2026 20:23:11 +0000",
-      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 869 # Comments: 652",
-      "isAI": true
-    },
-    {
-      "title": "Suno hopes to go legit with watermarks for AI-generated music",
-      "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 06 Aug 2026 20:17:36 +0000",
-      "summary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic will design its own hardware to power Claude",
-      "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 06 Aug 2026 20:03:44 +0000",
-      "summary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
-      "isAI": true
-    },
-    {
-      "title": "Why Normal People Aren\u2019t Using AI Agents",
-      "url": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
-      "source": "Wired",
-      "published": "Thu, 06 Aug 2026 19:55:45 +0000",
-      "summary": "The tech industry is realizing it needs to build agents based on what regular consumers want, not just what its AI models can do.",
-      "isAI": true
-    },
-    {
-      "title": "Flock Highlighted Police Departments Using Its Tech. Now 4 Face Allegations of Misuse",
-      "url": "https://www.wired.com/story/flock-videos-highlighted-police-departments-that-face-misuse/",
-      "source": "Wired",
-      "published": "Thu, 06 Aug 2026 19:31:07 +0000",
-      "summary": "Flock posted videos on its YouTube channel highlighting at least four police departments whose officers have faced allegations of misusing the company\u2019s tech.",
       "isAI": false
     }
   ]
