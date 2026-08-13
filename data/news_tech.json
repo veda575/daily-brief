@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-13T15:31:10.680062+00:00",
+  "updated": "2026-08-13T16:36:01.257923+00:00",
   "items": [
+    {
+      "title": "Ford\u2019s $28,000 Fathom EV nears production after $2 billion factory overhaul",
+      "url": "https://www.theverge.com/transportation/979565/ford-fathom-uev-louisville-assembly-plant",
+      "source": "The Verge",
+      "published": "2026-08-13T12:23:18-04:00",
+      "summary": "Ford said today that its next-generation electric vehicle - recently dubbed Fathom - will go into production at the automaker's recently overhauled Louisville Assembly Plant in the first quarter of 2027. The first Fathoms will be prototypes, with Ford's team in Louisville already in the production-level pre-tooling phase at the recently converted facility. Factory workers [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Meta adds AI screening to detect WhatsApp scams",
+      "url": "https://www.theverge.com/tech/979654/meta-whatsapp-scam-message-detection",
+      "source": "The Verge",
+      "published": "2026-08-13T12:10:06-04:00",
+      "summary": "Meta is launching an optional Scam Alert feature on WhatsApp that uses on-device machine learning to flag suspicious messages. Earlier this year, Meta also launched scam detection for device linking requests on WhatsApp. The new Scam Alert feature, which is rolling out in a limited beta, shows users a warning if a chat seems like [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Suno is trying to look more like a real music production tool",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+      "source": "The Verge AI",
+      "published": "2026-08-13T12:00:00-04:00",
+      "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
       "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
@@ -22,7 +46,7 @@
       "url": "https://www.theverge.com/tech/979583/this-is-instagrams-new-logo",
       "source": "The Verge",
       "published": "2026-08-13T11:00:38-04:00",
-      "summary": "Instagram has unveiled a new wordmark, moving away from the recognizable cursive typeface it's used over the last decade. The updated wordmark is a strange mix of half-cursive half-print that's somehow less legible than its predecessor. Like, that totally says \"Instagzam\", right? \"The wordmark at the top of the app hasn't changed in 10 years, [\u2026]",
+      "summary": "Instagram has unveiled a new wordmark, moving away from the recognizable cursive typeface it's used over the last decade. The updated wordmark is a strange mix of half-cursive half-print that's somehow less legible than its predecessor. Like, that totally says \"Instagzam,\" right? \"The wordmark at the top of the app hasn't changed in 10 years, [\u2026]",
       "isAI": false
     },
     {
@@ -98,6 +122,14 @@
       "isAI": true
     },
     {
+      "title": "DeepSeek Harness developer preview",
+      "url": "https://deepseek.com/harness/en/",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 12:58:02 +0000",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 358 # Comments: 161",
+      "isAI": true
+    },
+    {
       "title": "Claude's new Scarlet Letter watermark is invisible\u2014for now",
       "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
       "source": "Ars Technica AI",
@@ -127,6 +159,22 @@
       "source": "Wired",
       "published": "Thu, 13 Aug 2026 09:00:00 +0000",
       "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition\u2014and help stop it\u2014early enough to save lives.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "source": "OpenAI",
+      "published": "Thu, 13 Aug 2026 09:00:00 GMT",
+      "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+      "isAI": true
+    },
+    {
+      "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+      "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 04:53:41 +0000",
+      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 363 # Comments: 254",
       "isAI": true
     },
     {
@@ -1952,54 +2000,6 @@
       "published": "Thu, 06 Aug 2026 19:31:07 +0000",
       "summary": "Flock posted videos on its YouTube channel highlighting at least four police departments whose officers have faced allegations of misusing the company\u2019s tech.",
       "isAI": false
-    },
-    {
-      "title": "ICE\u2019s DNA Collection Increases, SpaceX\u2019s Rocket Crashes Into the Moon, and the AI Backlash Grows",
-      "url": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/",
-      "source": "Wired",
-      "published": "Thu, 06 Aug 2026 19:30:46 +0000",
-      "summary": "In today\u2019s episode of Uncanny Valley, we discuss how ICE has been collecting DNA samples of people who have no criminal convictions, including children, which end up in an FBI database indefinitely.",
-      "isAI": true
-    },
-    {
-      "title": "Large genome models used to design new viruses",
-      "url": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 06 Aug 2026 19:04:57 +0000",
-      "summary": "The AI system makes genetically distant versions of a bacteria-killing virus.",
-      "isAI": true
-    },
-    {
-      "title": "Defense tech Hadrian raises $1.37B at $8B valuation",
-      "url": "https://techcrunch.com/2026/08/06/defense-tech-hadrian-raises-1-37b-at-8b-valuation/",
-      "source": "TechCrunch",
-      "published": "Thu, 06 Aug 2026 19:02:57 +0000",
-      "summary": "Hadrian is building automated factories to mass-produce parts for defense vehicles like submarines. It's backed by a long list of well-known investors.",
-      "isAI": false
-    },
-    {
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "source": "Hacker News",
-      "published": "Thu, 06 Aug 2026 18:44:49 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 438 # Comments: 282",
-      "isAI": true
-    },
-    {
-      "title": "Ford needs another Taurus, and the $30K Fathom EV pickup isn\u2019t it",
-      "url": "https://techcrunch.com/2026/08/06/ford-needs-another-taurus-and-the-30k-fathom-ev-pickup-isnt-it/",
-      "source": "TechCrunch",
-      "published": "Thu, 06 Aug 2026 17:41:56 +0000",
-      "summary": "Ford's CEO has described the new Ford Fathom as a \"Model T moment\" for the company. But the EV pickup is unlikely to live up to lofty expectations, and maybe it doesn't have to.",
-      "isAI": false
-    },
-    {
-      "title": "Suno shares plans to combat spammy AI music",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
-      "source": "The Verge AI",
-      "published": "2026-08-06T13:39:43-04:00",
-      "summary": "Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new [\u2026]",
-      "isAI": true
     }
   ]
 }
