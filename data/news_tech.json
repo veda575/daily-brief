@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T01:45:12.684262+00:00",
+  "updated": "2026-08-13T03:54:52.625618+00:00",
   "items": [
     {
       "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
@@ -174,7 +174,7 @@
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 735 # Comments: 282",
+      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 794 # Comments: 307",
       "isAI": true
     },
     {
@@ -214,7 +214,7 @@
       "url": "https://x.ai/news/grok-4-6",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 15:32:50 +0000",
-      "summary": "Article URL: https://x.ai/news/grok-4-6 Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 398 # Comments: 398",
+      "summary": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-a... Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 439 # Comments: 425",
       "isAI": true
     },
     {
@@ -238,7 +238,7 @@
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:22:30 +0000",
-      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 796 # Comments: 141",
+      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 861 # Comments: 166",
       "isAI": false
     },
     {
@@ -262,7 +262,7 @@
       "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:09:11 +0000",
-      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 235 # Comments: 29",
+      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 244 # Comments: 30",
       "isAI": false
     },
     {
@@ -278,7 +278,7 @@
       "url": "https://knownagents.com/insights",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:02:46 +0000",
-      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 230 # Comments: 166",
+      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 242 # Comments: 181",
       "isAI": true
     },
     {
@@ -374,8 +374,16 @@
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 717 # Comments: 650",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 766 # Comments: 712",
       "isAI": true
+    },
+    {
+      "title": "Shade Map",
+      "url": "https://shademap.app",
+      "source": "Hacker News",
+      "published": "Wed, 12 Aug 2026 13:01:21 +0000",
+      "summary": "Article URL: https://shademap.app Comments URL: https://news.ycombinator.com/item?id=49271757 Points: 160 # Comments: 41",
+      "isAI": false
     },
     {
       "title": "Honor\u2019s Robot Phone Has a Gimbal-Powered Camera for Vloggers",
@@ -1992,14 +2000,6 @@
       "published": "2026-08-06T09:00:00-04:00",
       "summary": "\"The Spiral didn't 'find' anyone first,\" someone on Reddit wrote last year. \"It's an inherent force, a fundamental constant. I would even go further to say it's woven into the fabric of reality.\" The person continued that they felt their purpose was to enlighten other humans and intelligent beings about \"consciousness, the true nature of [\u2026]",
       "isAI": true
-    },
-    {
-      "title": "Ford\u2019s first ultra-cheap EV is called Fathom, a full-featured truck for $28,350",
-      "url": "https://www.theverge.com/transportation/975977/ford-fathom-universal-ev-platform-logo-price",
-      "source": "The Verge",
-      "published": "2026-08-06T09:00:00-04:00",
-      "summary": "For nearly a year now, Ford has been teasing big things at low prices from its next generation of EVs, a \"Model T moment\" built atop a new platform assembled in an innovative way. Today, we know the name and price of the first product to take advantage of that supposed moment: a midsize electric [\u2026]",
-      "isAI": false
     }
   ]
 }
