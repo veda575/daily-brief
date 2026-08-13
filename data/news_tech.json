@@ -1,12 +1,44 @@
 {
-  "updated": "2026-08-13T17:43:24.925903+00:00",
+  "updated": "2026-08-13T18:40:18.794869+00:00",
   "items": [
+    {
+      "title": "I finally found a robot lawnmower I\u2019d trust with my yard",
+      "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame",
+      "source": "The Verge",
+      "published": "2026-08-13T14:30:00-04:00",
+      "summary": "Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they\u2019re still not set-it-and-forget-it machines. If you don\u2019t want these autonomous cutting machines to tear up your lawn or go roaming in your neighbors\u2019 yard, you\u2019re still going to need to keep an eye on them. But [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 18:28:14 +0000",
+      "summary": "Anthropic researchers found AI agents can clash, collude and coordinate in unexpected ways, raising new questions about whether today\u2019s safety tests capture the risks of multi-agent systems.",
+      "isAI": true
+    },
+    {
+      "title": "You can now just point at a mess and this robot vacuum will suck it up",
+      "url": "https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review",
+      "source": "The Verge",
+      "published": "2026-08-13T14:00:00-04:00",
+      "summary": "Matic, my current favorite robot vacuum, just got a big upgrade. The company has launched Matic Cues, which brings voice and gesture control to the robot. Now, you can talk directly to your vacuum to tell it what you want it to do, or just point at a mess to have it spot-clean. The feature [\u2026]",
+      "isAI": false
+    },
     {
       "title": "The new Instagram logo is the perfect embodiment of AI slop",
       "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
       "source": "Ars Technica AI",
       "published": "Thu, 13 Aug 2026 17:32:10 +0000",
       "summary": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
+      "isAI": true
+    },
+    {
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 17:23:22 +0000",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 218 # Comments: 144",
       "isAI": true
     },
     {
@@ -76,7 +108,7 @@
     {
       "title": "Suno is trying to look more like a real music production tool",
       "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-      "source": "The Verge",
+      "source": "The Verge AI",
       "published": "2026-08-13T12:00:00-04:00",
       "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, [\u2026]",
       "isAI": true
@@ -182,7 +214,7 @@
       "url": "https://deepseek.com/harness/en/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 12:58:02 +0000",
-      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 401 # Comments: 187",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 439 # Comments: 200",
       "isAI": true
     },
     {
@@ -191,6 +223,14 @@
       "source": "Ars Technica AI",
       "published": "Thu, 13 Aug 2026 11:10:18 +0000",
       "summary": "The mark flags anything Claude processed, even human writing it only edited.",
+      "isAI": true
+    },
+    {
+      "title": "The builder\u2019s guide to GPT\u20115.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI",
+      "published": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
       "isAI": true
     },
     {
@@ -238,7 +278,7 @@
       "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 04:53:41 +0000",
-      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 388 # Comments: 266",
+      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 400 # Comments: 278",
       "isAI": true
     },
     {
@@ -1960,46 +2000,6 @@
       "published": "Fri, 07 Aug 2026 10:00:00 +0000",
       "summary": "WIRED spoke with Tucker Bryant, an artist and former Google employee who created ChatTJB to get people to reflect on the \u201cstrange moment\u201d we\u2019re in.",
       "isAI": true
-    },
-    {
-      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "url": "https://openai.com/index/hsp-gruppe",
-      "source": "OpenAI",
-      "published": "Fri, 07 Aug 2026 09:00:00 GMT",
-      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-      "isAI": true
-    },
-    {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "source": "Wired",
-      "published": "Fri, 07 Aug 2026 05:00:00 +0000",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "isAI": false
-    },
-    {
-      "title": "One of China\u2019s Most Powerful AI Models Has Also Escaped Containment",
-      "url": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
-      "source": "Wired",
-      "published": "Fri, 07 Aug 2026 01:16:55 +0000",
-      "summary": "Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
-      "isAI": true
-    },
-    {
-      "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
-      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
-      "source": "Hacker News",
-      "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "Article URL: https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7 Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 181 # Comments: 110",
-      "isAI": false
-    },
-    {
-      "title": "New Mexico court orders Meta to pay $567m over harms to children\u2019s mental health",
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "source": "Hacker News",
-      "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 696 # Comments: 375",
-      "isAI": false
     }
   ]
 }
