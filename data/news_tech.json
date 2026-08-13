@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-13T19:44:44.003894+00:00",
+  "updated": "2026-08-13T20:23:52.996886+00:00",
   "items": [
+    {
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 13 Aug 2026 20:14:39 +0000",
+      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+      "isAI": true
+    },
+    {
+      "title": "This school-friendly laptop from HP is $300 off",
+      "url": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale",
+      "source": "The Verge",
+      "published": "2026-08-13T16:07:53-04:00",
+      "summary": "With memory prices still high and showing no signs of dropping, we\u2019re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X Flip discounted by $300, bringing the cost down to $699.99. This model is equipped with an Intel Core Ultra [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+      "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+      "source": "Ars Technica",
+      "published": "Thu, 13 Aug 2026 19:38:58 +0000",
+      "summary": "Trump memo is first time gov't has authorized private sector to perform cyber attacks.",
+      "isAI": false
+    },
     {
       "title": "OpenAI is losing its second executive this week",
       "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
@@ -10,7 +34,7 @@
       "isAI": true
     },
     {
-      "title": "OpenAI introduces \u2018Ultrafast,\u2019 a new mode that makes GPT 5.6 Sol work at 14x the speed",
+      "title": "OpenAI introduces \u2018Ultrafast,\u2019 a new mode that makes GPT-5.6 Sol work at 14x the speed",
       "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
       "source": "TechCrunch AI",
       "published": "Thu, 13 Aug 2026 19:22:40 +0000",
@@ -42,6 +66,22 @@
       "isAI": true
     },
     {
+      "title": "Flock \u201ccan\u2019t tech its way out\u201d of the stalker cop problem, experts say",
+      "url": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/",
+      "source": "Ars Technica",
+      "published": "Thu, 13 Aug 2026 18:10:14 +0000",
+      "summary": "Flock to lock out cops who stalk exes, but agencies can still hide abuse.",
+      "isAI": false
+    },
+    {
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 18:10:02 +0000",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 208 # Comments: 72",
+      "isAI": true
+    },
+    {
       "title": "You can now just point at a mess and this robot vacuum will suck it up",
       "url": "https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review",
       "source": "The Verge",
@@ -62,7 +102,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 319 # Comments: 208",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 391 # Comments: 238",
       "isAI": true
     },
     {
@@ -79,6 +119,14 @@
       "source": "TechCrunch AI",
       "published": "Thu, 13 Aug 2026 17:07:13 +0000",
       "summary": "Dali Rajic will take over as OpenAI's top salesperson.",
+      "isAI": true
+    },
+    {
+      "title": "Mistral OCR 4.1",
+      "url": "https://docs.mistral.ai/models/ocr-4-1",
+      "source": "Hacker News",
+      "published": "Thu, 13 Aug 2026 17:05:12 +0000",
+      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 157 # Comments: 54",
       "isAI": true
     },
     {
@@ -238,7 +286,7 @@
       "url": "https://deepseek.com/harness/en/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 12:58:02 +0000",
-      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 463 # Comments: 212",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 478 # Comments: 221",
       "isAI": true
     },
     {
@@ -302,7 +350,7 @@
       "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 04:53:41 +0000",
-      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 414 # Comments: 287",
+      "summary": "Article URL: https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027 Comments URL: https://news.ycombinator.com/item?id=49281916 Points: 420 # Comments: 289",
       "isAI": true
     },
     {
@@ -1952,54 +2000,6 @@
       "published": "Fri, 07 Aug 2026 13:29:22 +0000",
       "summary": "TikTok owner training a model with 10 trillion parameters.",
       "isAI": true
-    },
-    {
-      "title": "What happens if an entire class of workers loses faith in their careers",
-      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-      "source": "Hacker News",
-      "published": "Fri, 07 Aug 2026 12:42:27 +0000",
-      "summary": "Article URL: https://www.noemamag.com/why-is-everyone-in-tech-so-sad/ Comments URL: https://news.ycombinator.com/item?id=49209539 Points: 235 # Comments: 376",
-      "isAI": false
-    },
-    {
-      "title": "The founder\u2019s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "url": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 12:30:00 +0000",
-      "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
-      "isAI": true
-    },
-    {
-      "title": "Show HN: Wyzer Programming Language",
-      "url": "https://github.com/Wyzer-Lang/wyzer",
-      "source": "Hacker News",
-      "published": "Fri, 07 Aug 2026 12:28:55 +0000",
-      "summary": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by\u2026",
-      "isAI": false
-    },
-    {
-      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
-      "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 07 Aug 2026 11:40:37 +0000",
-      "summary": "Meta's total fine has racked up to $942 million in this case.",
-      "isAI": true
-    },
-    {
-      "title": "The 5 Best Laptop Power Banks I've Personally Tested (2026)",
-      "url": "https://www.wired.com/story/best-laptop-power-banks/",
-      "source": "Wired",
-      "published": "Fri, 07 Aug 2026 11:30:00 +0000",
-      "summary": "These powerful, high-capacity portable batteries are the best ones when laptop charging is a priority. All have at least 20,000 mAh, enough to charge most laptops twice.",
-      "isAI": false
-    },
-    {
-      "title": "Why does Apple keep banning Telegram, but never X?",
-      "url": "https://www.theverge.com/tech/976405/apple-telegram-ban-x-app-store-violations",
-      "source": "The Verge",
-      "published": "2026-08-07T07:00:00-04:00",
-      "summary": "For roughly an hour this week, Telegram vanished from Apple's App Store. Even during that blip, it was a stunning absence for such a major app: an avenue of communication for more than 1 billion users around the world, used widely as a secure platform for people who live in countries under censorship. Apple later [\u2026]",
-      "isAI": false
     }
   ]
 }
