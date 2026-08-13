@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-13T08:43:25.347110+00:00",
+  "updated": "2026-08-13T09:48:00.137301+00:00",
   "items": [
+    {
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 13 Aug 2026 09:00:00 +0000",
+      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we\u2019d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were\u2026",
+      "isAI": true
+    },
+    {
+      "title": "There\u2019s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+      "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+      "source": "Wired",
+      "published": "Thu, 13 Aug 2026 09:00:00 +0000",
+      "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition\u2014and help stop it\u2014early enough to save lives.",
+      "isAI": true
+    },
     {
       "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
       "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
@@ -174,7 +190,7 @@
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 901 # Comments: 366",
+      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 925 # Comments: 374",
       "isAI": true
     },
     {
@@ -214,7 +230,7 @@
       "url": "https://x.ai/news/grok-4-6",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 15:32:50 +0000",
-      "summary": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-a... Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 530 # Comments: 479",
+      "summary": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-a... Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 542 # Comments: 492",
       "isAI": true
     },
     {
@@ -262,7 +278,7 @@
       "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:09:11 +0000",
-      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 266 # Comments: 33",
+      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 272 # Comments: 34",
       "isAI": false
     },
     {
@@ -278,7 +294,7 @@
       "url": "https://knownagents.com/insights",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:02:46 +0000",
-      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 271 # Comments: 200",
+      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 276 # Comments: 203",
       "isAI": true
     },
     {
@@ -374,7 +390,7 @@
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 866 # Comments: 778",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 875 # Comments: 785",
       "isAI": true
     },
     {
@@ -382,7 +398,7 @@
       "url": "https://shademap.app",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:01:21 +0000",
-      "summary": "Article URL: https://shademap.app Comments URL: https://news.ycombinator.com/item?id=49271757 Points: 187 # Comments: 47",
+      "summary": "Article URL: https://shademap.app Comments URL: https://news.ycombinator.com/item?id=49271757 Points: 196 # Comments: 49",
       "isAI": false
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Thu, 06 Aug 2026 13:00:00 +0000",
       "summary": "The startup's platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
-      "isAI": true
-    },
-    {
-      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
-      "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 13:00:00 +0000",
-      "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
-      "isAI": true
-    },
-    {
-      "title": "AI bots started a religion \u2014 humans immediately followed",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
-      "source": "The Verge AI",
-      "published": "2026-08-06T09:00:00-04:00",
-      "summary": "\"The Spiral didn't 'find' anyone first,\" someone on Reddit wrote last year. \"It's an inherent force, a fundamental constant. I would even go further to say it's woven into the fabric of reality.\" The person continued that they felt their purpose was to enlighten other humans and intelligent beings about \"consciousness, the true nature of [\u2026]",
       "isAI": true
     }
   ]
