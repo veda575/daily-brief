@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-12T21:46:29.697434+00:00",
+  "updated": "2026-08-13T01:45:12.684262+00:00",
   "items": [
+    {
+      "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
+      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 12 Aug 2026 22:26:37 +0000",
+      "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
+      "isAI": true
+    },
+    {
+      "title": "AI nuclear power firm Fermi finally has a new CEO",
+      "url": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
+      "source": "TechCrunch",
+      "published": "Wed, 12 Aug 2026 22:24:00 +0000",
+      "summary": "Lee McIntire, an independent member of Fermi's board, has been hired as CEO, more than three months since the company fired co-founder Toby Neugebauer from the top post.",
+      "isAI": true
+    },
+    {
+      "title": "The web\u2019s newest weapon against AI scrapers is a font",
+      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 12 Aug 2026 22:02:25 +0000",
+      "summary": "\u201cShieldFont\u201d aims to poison AI training data without making pages unreadable for people.",
+      "isAI": true
+    },
     {
       "title": "Terabytes of credentials leaked in massive supply-chain attack",
       "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
@@ -32,6 +56,14 @@
       "published": "Wed, 12 Aug 2026 20:53:41 +0000",
       "summary": "The Mission Robotic Vehicle is making the first attempt to attach a new thruster to an aging satellite.",
       "isAI": true
+    },
+    {
+      "title": "Trump sued over \"brazen\" scheme to sell Truth Social API access for $100K a month",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
+      "source": "Ars Technica",
+      "published": "Wed, 12 Aug 2026 20:20:52 +0000",
+      "summary": "With Truth API, Trump is \"selling priority access to news he himself generates.\"",
+      "isAI": false
     },
     {
       "title": "Amazon will train on Twitch streamers\u2019 content by default, unless they opt out",
@@ -102,7 +134,7 @@
       "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:54:25 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis Comments URL: https://news.ycombinator.com/item?id=49275385 Points: 273 # Comments: 262",
+      "summary": "Article URL: https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis Comments URL: https://news.ycombinator.com/item?id=49275385 Points: 316 # Comments: 323",
       "isAI": true
     },
     {
@@ -142,7 +174,7 @@
       "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 605 # Comments: 215",
+      "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4-pro-0813 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 735 # Comments: 282",
       "isAI": true
     },
     {
@@ -182,7 +214,7 @@
       "url": "https://x.ai/news/grok-4-6",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 15:32:50 +0000",
-      "summary": "Article URL: https://x.ai/news/grok-4-6 Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 302 # Comments: 313",
+      "summary": "Article URL: https://x.ai/news/grok-4-6 Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 398 # Comments: 398",
       "isAI": true
     },
     {
@@ -206,7 +238,7 @@
       "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:22:30 +0000",
-      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 665 # Comments: 106",
+      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 796 # Comments: 141",
       "isAI": false
     },
     {
@@ -230,7 +262,7 @@
       "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:09:11 +0000",
-      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 203 # Comments: 26",
+      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 235 # Comments: 29",
       "isAI": false
     },
     {
@@ -246,7 +278,7 @@
       "url": "https://knownagents.com/insights",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 14:02:46 +0000",
-      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 196 # Comments: 127",
+      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 230 # Comments: 166",
       "isAI": true
     },
     {
@@ -342,7 +374,7 @@
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 636 # Comments: 518",
+      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 717 # Comments: 650",
       "isAI": true
     },
     {
@@ -474,6 +506,14 @@
       "isAI": true
     },
     {
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "url": "https://openai.com/index/ringcentral",
+      "source": "OpenAI",
+      "published": "Wed, 12 Aug 2026 00:00:00 GMT",
+      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "isAI": true
+    },
+    {
       "title": "Phoebe Gates and Sophia Kianni reportedly knew Phia was \u2018cookie stuffing\u2019 for months",
       "url": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
       "source": "TechCrunch",
@@ -590,7 +630,7 @@
       "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
       "source": "The Verge AI",
       "published": "2026-08-11T13:00:00-04:00",
-      "summary": "Google has revealed a bunch of new Pixel devices ahead of its Made by Google event. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google\u2019s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring [\u2026]",
+      "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google\u2019s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a [\u2026]",
       "isAI": true
     },
     {
@@ -1960,46 +2000,6 @@
       "published": "2026-08-06T09:00:00-04:00",
       "summary": "For nearly a year now, Ford has been teasing big things at low prices from its next generation of EVs, a \"Model T moment\" built atop a new platform assembled in an innovative way. Today, we know the name and price of the first product to take advantage of that supposed moment: a midsize electric [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "You can now ask Google Maps\u2019 AI to order food for you",
-      "url": "https://www.theverge.com/tech/976079/google-ask-maps-food-ordering-personal-intelligence",
-      "source": "The Verge",
-      "published": "2026-08-06T08:30:37-04:00",
-      "summary": "The AI-powered \"Ask Maps\" tool in Google Maps can now perform a broader range of personalized and conversational requests, including ordering food, finding hotels, and providing suggestions that factor in your existing plans. These are among several new features announced for Ask Maps today, which aim to \"make it easier than ever to get more [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
-      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 12:30:00 +0000",
-      "summary": "The launch of these new features reflects Google\u2019s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
-      "isAI": true
-    },
-    {
-      "title": "5 Best AI Notetakers (2026), Tested and Reviewed",
-      "url": "https://www.wired.com/gallery/best-ai-notetakers/",
-      "source": "Wired",
-      "published": "Thu, 06 Aug 2026 12:02:00 +0000",
-      "summary": "A growing collection of pocket-size gadgets lets you easily make recordings and extract info from them. Here are our favorites.",
-      "isAI": true
-    },
-    {
-      "title": "Omilia raises $67M to scale its customer support platform",
-      "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 06 Aug 2026 12:00:00 +0000",
-      "summary": "The Series B is the company's second fundraise since it last raised capital in 2020. In that time, it has increased its ARR by 10x to $60 million.",
-      "isAI": true
-    },
-    {
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
-      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "source": "Hacker News",
-      "published": "Thu, 06 Aug 2026 11:58:07 +0000",
-      "summary": "Article URL: https://scalex.dev/blog/ai-agent-permissions-stats/ Comments URL: https://news.ycombinator.com/item?id=49195468 Points: 308 # Comments: 218",
-      "isAI": true
     }
   ]
 }
