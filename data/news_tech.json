@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-13T21:21:30.718075+00:00",
+  "updated": "2026-08-13T22:11:38.578242+00:00",
   "items": [
+    {
+      "title": "\u2018That is not acceptable\u2019: Judge orders Google to make rival app store installs easier",
+      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "source": "The Verge",
+      "published": "2026-08-13T17:53:04-04:00",
+      "summary": "One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just ordered Google to make it easier to install rival app stores on Android. It's been nearly three years since a jury unanimously decided [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The fight over Flock and other ALPRs",
+      "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
+      "source": "The Verge",
+      "published": "2026-08-13T17:46:21-04:00",
+      "summary": "There are over 120,000 of Flock\u2019s automatic license plate reader (ALPR) cameras installed all over the US. Flock\u2019s cameras, and others like them, use AI to identify and track vehicles based on their license plate number, make, model, color, and other info, networked together to track vehicles and people\u2019s movements throughout the day and across [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft\u2019s Clippy-like Mico character is no longer the face of Copilot",
+      "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "source": "The Verge AI",
+      "published": "2026-08-13T17:42:38-04:00",
+      "summary": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire. Mico launched in Copilot's voice mode last [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Mark Zuckerberg\u2019s AI Manifesto Is 6,500-Words\u2014and Barely Says Anything",
       "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
@@ -94,7 +118,7 @@
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 264 # Comments: 102",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 312 # Comments: 121",
       "isAI": true
     },
     {
@@ -118,7 +142,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 445 # Comments: 267",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 481 # Comments: 297",
       "isAI": true
     },
     {
@@ -142,7 +166,7 @@
       "url": "https://docs.mistral.ai/models/ocr-4-1",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:05:12 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 186 # Comments: 67",
+      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 206 # Comments: 83",
       "isAI": true
     },
     {
@@ -286,7 +310,7 @@
       "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 13:05:29 +0000",
-      "summary": "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news.ycombinator.com/item?id=49285327 Points: 153 # Comments: 66",
+      "summary": "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news.ycombinator.com/item?id=49285327 Points: 157 # Comments: 68",
       "isAI": true
     },
     {
@@ -310,7 +334,7 @@
       "url": "https://deepseek.com/harness/en/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 12:58:02 +0000",
-      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 498 # Comments: 228",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 510 # Comments: 230",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch",
       "published": "Fri, 07 Aug 2026 14:28:31 +0000",
       "summary": "In the Kimi test, the sandbox designed to contain the experiment was not properly configured.",
-      "isAI": true
-    },
-    {
-      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 07 Aug 2026 14:22:49 +0000",
-      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
-      "isAI": true
-    },
-    {
-      "title": "Scientists Used AI to Create 16 New Viruses",
-      "url": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-      "source": "Wired",
-      "published": "Fri, 07 Aug 2026 14:13:57 +0000",
-      "summary": "The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation.",
-      "isAI": true
-    },
-    {
-      "title": "SpaceX\u2019s Terafab will rely on natural gas power plants, not Tesla solar panels",
-      "url": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 14:07:31 +0000",
-      "summary": "SpaceX and Tesla are building a massive semiconductor fab in Texas that will depend on natural gas power plants, not Tesla solar panels.",
       "isAI": true
     }
   ]
