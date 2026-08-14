@@ -1,12 +1,20 @@
 {
-  "updated": "2026-08-14T08:21:53.761732+00:00",
+  "updated": "2026-08-14T09:35:18.529332+00:00",
   "items": [
+    {
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "source": "The Verge",
+      "published": "2026-08-14T05:21:17-04:00",
+      "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with [\u2026]",
+      "isAI": true
+    },
     {
       "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
       "url": "https://z.ai/blog/glm-5.3",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 05:19:59 +0000",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 344 # Comments: 129",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 440 # Comments: 183",
       "isAI": true
     },
     {
@@ -150,7 +158,7 @@
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 561 # Comments: 233",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 594 # Comments: 236",
       "isAI": true
     },
     {
@@ -174,7 +182,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 794 # Comments: 424",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 827 # Comments: 433",
       "isAI": true
     },
     {
@@ -198,7 +206,7 @@
       "url": "https://docs.mistral.ai/models/ocr-4-1",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:05:12 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 323 # Comments: 130",
+      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 346 # Comments: 137",
       "isAI": true
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "Fri, 07 Aug 2026 17:13:31 +0000",
       "summary": "There's no evidence the truck will be a cheap EV truck, but what if it were?",
       "isAI": false
-    },
-    {
-      "title": "What\u2019s behind the Google AI shake-up",
-      "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-      "source": "The Verge AI",
-      "published": "2026-08-07T12:45:14-04:00",
-      "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in [\u2026]",
-      "isAI": true
     }
   ]
 }
