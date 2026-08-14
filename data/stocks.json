@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T20:15:15.641791+00:00",
+  "updated": "2026-08-14T20:49:47.523498+00:00",
   "regions": {
     "us": [
       {
@@ -8,7 +8,7 @@
         "sector": "IT Services / Consulting",
         "currency": "USD",
         "marketCap": 108246433792.0,
-        "changePercent": -0.89641213,
+        "changePercent": -0.896412,
         "indexValue": 176.89
       },
       {
@@ -90,7 +90,7 @@
         "sector": "Aerospace / Industrial",
         "currency": "USD",
         "marketCap": 382217289728.0,
-        "changePercent": 2.1461818,
+        "changePercent": 2.14618,
         "indexValue": 368.38
       },
       {
@@ -99,7 +99,7 @@
         "sector": "Automotive",
         "currency": "USD",
         "marketCap": 78479253504.0,
-        "changePercent": 0.43986255,
+        "changePercent": 0.439863,
         "indexValue": 86.77
       },
       {
@@ -161,9 +161,9 @@
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "marketCap": 432992419840.0,
-        "changePercent": -3.7767212,
-        "indexValue": 150.32
+        "marketCap": 433568514048.0,
+        "changePercent": -3.6487,
+        "indexValue": 150.52
       },
       {
         "ticker": "CRM",
@@ -171,7 +171,7 @@
         "sector": "AI CRM",
         "currency": "USD",
         "marketCap": 160695995498.65723,
-        "changePercent": -2.5624416,
+        "changePercent": -2.56244,
         "indexValue": 196.21
       },
       {
@@ -189,7 +189,7 @@
         "sector": "Enterprise AI",
         "currency": "USD",
         "marketCap": 240039870464.0,
-        "changePercent": -0.62595445,
+        "changePercent": -0.625954,
         "indexValue": 207.97
       },
       {
@@ -216,7 +216,7 @@
         "sector": "Cloud Data",
         "currency": "USD",
         "marketCap": 114003673088.0,
-        "changePercent": -2.5075557,
+        "changePercent": -2.50756,
         "indexValue": 328.92
       },
       {
@@ -245,7 +245,7 @@
         "sector": "E-commerce",
         "currency": "USD",
         "marketCap": 296756936704.0,
-        "changePercent": 1.3506826,
+        "changePercent": 1.35068,
         "indexValue": 123.81
       },
       {
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1272293398750.2551,
+        "marketCap": 1271709942626.9395,
         "changePercent": 2.425373,
         "indexValue": 274500.0
       },
@@ -271,9 +271,9 @@
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "marketCap": 2211097608192.0,
-        "changePercent": -0.96865964,
-        "indexValue": 426.32
+        "marketCap": 2211253321728.0,
+        "changePercent": -0.961691,
+        "indexValue": 426.35
       }
     ],
     "india": [

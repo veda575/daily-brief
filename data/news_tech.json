@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-14T20:15:15.641791+00:00",
+  "updated": "2026-08-14T20:49:47.523498+00:00",
   "items": [
+    {
+      "title": "Self-driving trucks are officially testing on California highways",
+      "url": "https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
+      "source": "TechCrunch",
+      "published": "Fri, 14 Aug 2026 20:37:49 +0000",
+      "summary": "Aurora Innovation and Kodiak AI, two companies developing self-driving trucks, have received permits from the California Department of Motor Vehicles.",
+      "isAI": true
+    },
     {
       "title": "Thrive\u2019s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
       "url": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
@@ -106,6 +114,14 @@
       "isAI": true
     },
     {
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "Hacker News",
+      "published": "Fri, 14 Aug 2026 15:43:10 +0000",
+      "summary": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 167 # Comments: 112",
+      "isAI": true
+    },
+    {
       "title": "Tech Visionary Says the Big AI Labs Don\u2019t Get What People Want",
       "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
       "source": "Wired",
@@ -206,7 +222,7 @@
       "url": "https://api-docs.deepseek.com/news/news260813/",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 09:55:33 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 225 # Comments: 119",
+      "summary": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 230 # Comments: 122",
       "isAI": false
     },
     {
@@ -222,7 +238,7 @@
       "url": "https://z.ai/blog/glm-5.3",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 05:19:59 +0000",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 973 # Comments: 486",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 983 # Comments: 491",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Sun, 09 Aug 2026 15:00:00 +0000",
       "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
-      "isAI": true
-    },
-    {
-      "title": "The AI safety test is becoming a safety risk",
-      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-      "source": "TechCrunch AI",
-      "published": "Sun, 09 Aug 2026 14:30:00 +0000",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models.",
-      "isAI": true
-    },
-    {
-      "title": "This former notorious red-light district is now one of the world\u2019s top AI hubs",
-      "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
-      "source": "TechCrunch",
-      "published": "Sun, 09 Aug 2026 13:00:00 +0000",
-      "summary": "More than 20 years ago, King's Cross was one of the seediest area's in London. Now it's sprouting something new.",
       "isAI": true
     }
   ]
