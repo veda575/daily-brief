@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-13T22:11:38.578242+00:00",
+  "updated": "2026-08-14T01:43:37.464336+00:00",
   "items": [
+    {
+      "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
+      "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+      "source": "The Verge",
+      "published": "2026-08-13T19:13:24-04:00",
+      "summary": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purchase system. Epic has already responded, saying that Apple's request is \"far outside of the bounds\" of the [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The Safety Reckoning Inside OpenAI",
+      "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+      "source": "Wired",
+      "published": "Thu, 13 Aug 2026 22:37:19 +0000",
+      "summary": "OpenAI\u2019s rogue agent hack was a watershed moment for AI safety and cybersecurity. It also sparked internal questions about the culture that led to it.",
+      "isAI": true
+    },
+    {
+      "title": "Investors sue Selena Gomez alleging fraud tied to her mental health startup",
+      "url": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
+      "source": "TechCrunch",
+      "published": "Thu, 13 Aug 2026 22:12:40 +0000",
+      "summary": "The plaintiffs say they invested nearly $1.2 million in the company, and are accusing Gomez of failing to build and market the startup.",
+      "isAI": true
+    },
     {
       "title": "\u2018That is not acceptable\u2019: Judge orders Google to make rival app store installs easier",
       "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
@@ -26,7 +50,7 @@
       "isAI": true
     },
     {
-      "title": "Mark Zuckerberg\u2019s AI Manifesto Is 6,500-Words\u2014and Barely Says Anything",
+      "title": "Mark Zuckerberg\u2019s AI Manifesto Is 6,500 Words\u2014and Barely Says Anything",
       "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
       "source": "Wired",
       "published": "Thu, 13 Aug 2026 21:14:43 +0000",
@@ -118,7 +142,7 @@
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 312 # Comments: 121",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 417 # Comments: 174",
       "isAI": true
     },
     {
@@ -142,7 +166,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 481 # Comments: 297",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 614 # Comments: 342",
       "isAI": true
     },
     {
@@ -166,7 +190,7 @@
       "url": "https://docs.mistral.ai/models/ocr-4-1",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:05:12 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 206 # Comments: 83",
+      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 251 # Comments: 99",
       "isAI": true
     },
     {
@@ -334,7 +358,7 @@
       "url": "https://deepseek.com/harness/en/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 12:58:02 +0000",
-      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 510 # Comments: 230",
+      "summary": "https://github.com/deepseek-ai/deepseek-harnesshttps://deepseek-harness.github.io/deepseek-harness/en/guide... Comments URL: https://news.ycombinator.com/item?id=49285244 Points: 554 # Comments: 241",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Fri, 07 Aug 2026 16:16:09 +0000",
       "summary": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
-      "isAI": true
-    },
-    {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "source": "OpenAI",
-      "published": "Fri, 07 Aug 2026 15:20:00 GMT",
-      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we\u2019re taking to strengthen safeguards and security controls.",
-      "isAI": true
-    },
-    {
-      "title": "Zohran Mamdani\u2019s NYC Tech Team Is What DOGE Should Have Been",
-      "url": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
-      "source": "Wired",
-      "published": "Fri, 07 Aug 2026 15:00:00 +0000",
-      "summary": "The mayor of New York City has assembled a crew of Silicon Valley and United States Digital Service veterans to overhaul city services with better software.",
-      "isAI": true
-    },
-    {
-      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
-      "url": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 14:28:31 +0000",
-      "summary": "In the Kimi test, the sandbox designed to contain the experiment was not properly configured.",
       "isAI": true
     }
   ]
