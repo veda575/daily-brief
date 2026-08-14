@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-14T05:30:28.582688+00:00",
+  "updated": "2026-08-14T06:58:47.682780+00:00",
   "items": [
+    {
+      "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "source": "Hacker News",
+      "published": "Fri, 14 Aug 2026 05:19:59 +0000",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 217 # Comments: 73",
+      "isAI": true
+    },
     {
       "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
       "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
@@ -142,7 +150,7 @@
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 505 # Comments: 208",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 542 # Comments: 225",
       "isAI": true
     },
     {
@@ -166,7 +174,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 715 # Comments: 392",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 772 # Comments: 404",
       "isAI": true
     },
     {
@@ -190,7 +198,7 @@
       "url": "https://docs.mistral.ai/models/ocr-4-1",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:05:12 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 283 # Comments: 113",
+      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 309 # Comments: 117",
       "isAI": true
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-07T12:45:14-04:00",
       "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 07 Aug 2026 16:16:09 +0000",
-      "summary": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
       "isAI": true
     }
   ]
