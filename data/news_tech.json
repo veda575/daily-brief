@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-14T15:22:24.430082+00:00",
+  "updated": "2026-08-14T16:23:57.059789+00:00",
   "items": [
+    {
+      "title": "Unforgetful is a new reminders app for people who can\u2019t stop hitting snooze",
+      "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+      "source": "TechCrunch",
+      "published": "Fri, 14 Aug 2026 16:21:04 +0000",
+      "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore \u2014 or accidentally dismiss.",
+      "isAI": false
+    },
+    {
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 14 Aug 2026 16:13:40 +0000",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file",
+      "isAI": true
+    },
+    {
+      "title": "Does Mark Zuckerberg really believe AI is \u2018for everyone\u2019?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 14 Aug 2026 15:43:28 +0000",
+      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware \u2014 a contrast to Muse Spark, the company\u2019s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be \u201cfor everyone\u201d rather than controlled by a handful of labs, but as Equity\u2019s [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Tech Visionary Says the Big AI Labs Don\u2019t Get What People Want",
       "url": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
@@ -34,11 +58,27 @@
       "isAI": true
     },
     {
+      "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
+      "url": "https://e360.yale.edu/digest/australia-home-batteries",
+      "source": "Hacker News",
+      "published": "Fri, 14 Aug 2026 14:07:52 +0000",
+      "summary": "Article URL: https://e360.yale.edu/digest/australia-home-batteries Comments URL: https://news.ycombinator.com/item?id=49298910 Points: 161 # Comments: 120",
+      "isAI": false
+    },
+    {
       "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
       "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
       "source": "TechCrunch AI",
       "published": "Fri, 14 Aug 2026 14:05:00 +0000",
       "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "isAI": true
+    },
+    {
+      "title": "Meta\u2019s \u2018open\u2019 AI, and a $250M deal gone very wrong",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 14 Aug 2026 14:00:00 +0000",
+      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware \u2014 a contrast to Muse Spark, the company\u2019s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be \u201cfor everyone\u201d rather than controlled by a handful of labs, but as Equity\u2019s [\u2026]",
       "isAI": true
     },
     {
@@ -86,7 +126,7 @@
       "url": "https://api-docs.deepseek.com/news/news260813/",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 09:55:33 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 164 # Comments: 86",
+      "summary": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 182 # Comments: 102",
       "isAI": false
     },
     {
@@ -102,7 +142,7 @@
       "url": "https://z.ai/blog/glm-5.3",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 05:19:59 +0000",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 827 # Comments: 433",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 860 # Comments: 451",
       "isAI": true
     },
     {
@@ -254,7 +294,7 @@
       "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 669 # Comments: 262",
+      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 678 # Comments: 263",
       "isAI": true
     },
     {
@@ -1960,46 +2000,6 @@
       "published": "Sat, 08 Aug 2026 11:34:00 +0000",
       "summary": "My favorite budget laptop, the HP OmniBook 5, has an OLED screen and gets great battery life, despite being just $750 right now.",
       "isAI": false
-    },
-    {
-      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
-      "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
-      "source": "Ars Technica",
-      "published": "Sat, 08 Aug 2026 11:30:48 +0000",
-      "summary": "About 90 percent of the distance driven by Perseverance has been autonomous.",
-      "isAI": false
-    },
-    {
-      "title": "DeepMind\u2019s hurricane breakthrough has surprised weather scientists",
-      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-      "source": "Ars Technica AI",
-      "published": "Sat, 08 Aug 2026 11:05:50 +0000",
-      "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
-      "isAI": true
-    },
-    {
-      "title": "Best Gaming Laptops (2026): Razer, Asus, Dell, and More",
-      "url": "https://www.wired.com/story/best-gaming-laptops/",
-      "source": "Wired",
-      "published": "Sat, 08 Aug 2026 11:01:00 +0000",
-      "summary": "You don\u2019t want any old gaming laptop. Here\u2019s my take on which to get, based on hundreds of hours of testing.",
-      "isAI": false
-    },
-    {
-      "title": "How to Disable Gemini in Gmail and Google Docs",
-      "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
-      "source": "Wired",
-      "published": "Sat, 08 Aug 2026 10:00:00 +0000",
-      "summary": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don\u2019t want Gemini\u2019s help in writing documents and emails, here\u2019s how to turn that stuff off.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 07 Aug 2026 22:48:24 +0000",
-      "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
-      "isAI": true
     }
   ]
 }
