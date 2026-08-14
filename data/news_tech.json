@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-14T16:23:57.059789+00:00",
+  "updated": "2026-08-14T17:29:25.809187+00:00",
   "items": [
+    {
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 14 Aug 2026 17:26:53 +0000",
+      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+      "isAI": true
+    },
+    {
+      "title": "Mark Zuckerberg has an Instagzam",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "source": "The Verge AI",
+      "published": "2026-08-14T12:54:16-04:00",
+      "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "You can now turn off Google Gemini\u2019s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "source": "The Verge AI",
+      "published": "2026-08-14T12:39:32-04:00",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Unforgetful is a new reminders app for people who can\u2019t stop hitting snooze",
       "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
@@ -14,8 +38,16 @@
       "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
       "source": "TechCrunch AI",
       "published": "Fri, 14 Aug 2026 16:13:40 +0000",
-      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
       "isAI": true
+    },
+    {
+      "title": "Judge gives Google one week to fix \"anticompetitive\" app store download in Google Play",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/",
+      "source": "Ars Technica",
+      "published": "Fri, 14 Aug 2026 15:46:40 +0000",
+      "summary": "Third-party app stores are about to become more visible in Google Play.",
+      "isAI": false
     },
     {
       "title": "Does Mark Zuckerberg really believe AI is \u2018for everyone\u2019?",
@@ -58,11 +90,11 @@
       "isAI": true
     },
     {
-      "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
+      "title": "In Australia, a home battery boom has helped cut wholesale power prices",
       "url": "https://e360.yale.edu/digest/australia-home-batteries",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 14:07:52 +0000",
-      "summary": "Article URL: https://e360.yale.edu/digest/australia-home-batteries Comments URL: https://news.ycombinator.com/item?id=49298910 Points: 161 # Comments: 120",
+      "summary": "Article URL: https://e360.yale.edu/digest/australia-home-batteries Comments URL: https://news.ycombinator.com/item?id=49298910 Points: 206 # Comments: 159",
       "isAI": false
     },
     {
@@ -126,7 +158,7 @@
       "url": "https://api-docs.deepseek.com/news/news260813/",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 09:55:33 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 182 # Comments: 102",
+      "summary": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 197 # Comments: 108",
       "isAI": false
     },
     {
@@ -142,7 +174,7 @@
       "url": "https://z.ai/blog/glm-5.3",
       "source": "Hacker News",
       "published": "Fri, 14 Aug 2026 05:19:59 +0000",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 860 # Comments: 451",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 908 # Comments: 461",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Sat, 08 Aug 2026 21:24:02 +0000",
       "summary": "AI has already had a significant impact on Amazon\u2019s carbon emissions, which it reported were up 16% last year \u2014 the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
       "isAI": true
-    },
-    {
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 08 Aug 2026 19:41:13 +0000",
-      "summary": "Founder Ahmed Beshry describes the startup\u2019s product as one \u201cthat could turn prompts, notes, documents, or research into a polished, editable presentation.\u201d",
-      "isAI": true
-    },
-    {
-      "title": "An Amazon data center could have the worst polluting power plant in the country",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-      "source": "The Verge AI",
-      "published": "2026-08-08T13:53:34-04:00",
-      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to The New York Times. The new gas-burning plant in Pecos County, Texas, has received significant investment from Amazon and, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Is this $450 laptop from an unknown brand too good to be true?",
-      "url": "https://www.theverge.com/tech/977031/chuwi-unibook-laptop-intel-wildcat-lake-review",
-      "source": "The Verge",
-      "published": "2026-08-08T08:00:00-04:00",
-      "summary": "Finding a good laptop under $500 was hard enough before RAMageddon. They nearly always had cheap hardware and underpowered, often outdated chips. That's what made the MacBook Neo so disruptive: It offered great build quality and good-enough performance starting at $599. Windows laptops couldn't touch it. Even though it's gone up to $699, it's still [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The Excellent HP OmniBook 5 Is $550 Off Its Retail Price Today",
-      "url": "https://www.wired.com/story/hp-omnibook-5-50-percent-off/",
-      "source": "Wired",
-      "published": "Sat, 08 Aug 2026 11:34:00 +0000",
-      "summary": "My favorite budget laptop, the HP OmniBook 5, has an OLED screen and gets great battery life, despite being just $750 right now.",
-      "isAI": false
     }
   ]
 }
