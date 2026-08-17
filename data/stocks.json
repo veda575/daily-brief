@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T10:04:49.024338+00:00",
+  "updated": "2026-08-17T10:48:03.331495+00:00",
   "regions": {
     "us": [
       {
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1276275142976.092,
+        "marketCap": 1276229961256.4775,
         "changePercent": 2.425373,
         "indexValue": 274500.0
       },
@@ -262,7 +262,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 512823356096.3174,
+        "marketCap": 512784790528.06134,
         "changePercent": 1.4545441,
         "indexValue": 446.4
       },
@@ -528,8 +528,8 @@
         "sector": "Index / India Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.21757236,
-        "indexValue": 77839.52
+        "changePercent": -0.36033386,
+        "indexValue": 77728.16
       },
       {
         "ticker": "^HSI",
