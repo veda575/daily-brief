@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T15:41:34.715783+00:00",
+  "updated": "2026-08-17T16:00:23.995487+00:00",
   "items": [
     {
       "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
@@ -23,6 +23,14 @@
       "source": "TechCrunch",
       "published": "Mon, 17 Aug 2026 15:06:07 +0000",
       "summary": "African defense tech company Terra Industries announced an additional $18 million in funding, bringing its seed round to $52 million.",
+      "isAI": false
+    },
+    {
+      "title": "This sub-$7,000 sportscar might be just what the future needs",
+      "url": "https://arstechnica.com/cars/2026/08/the-opposite-of-a-hypercar-is-fun-meet-the-gasolini-ar1/",
+      "source": "Ars Technica",
+      "published": "Mon, 17 Aug 2026 15:01:25 +0000",
+      "summary": "The Gasolini AR1 uses 2-cylinder Honda bike engine, and an EV is underway, too.",
       "isAI": false
     },
     {
@@ -118,7 +126,7 @@
       "url": "https://reticulum.network/",
       "source": "Hacker News",
       "published": "Sun, 16 Aug 2026 23:59:10 +0000",
-      "summary": "Article URL: https://reticulum.network/ Comments URL: https://news.ycombinator.com/item?id=49325061 Points: 178 # Comments: 62",
+      "summary": "Article URL: https://reticulum.network/ Comments URL: https://news.ycombinator.com/item?id=49325061 Points: 186 # Comments: 64",
       "isAI": false
     },
     {
@@ -182,7 +190,7 @@
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "source": "Hacker News",
       "published": "Sun, 16 Aug 2026 12:48:21 +0000",
-      "summary": "Article URL: https://platform.claude.com/docs/en/release-notes/system-prompts Comments URL: https://news.ycombinator.com/item?id=49319556 Points: 722 # Comments: 273",
+      "summary": "Article URL: https://platform.claude.com/docs/en/release-notes/system-prompts Comments URL: https://news.ycombinator.com/item?id=49319556 Points: 724 # Comments: 276",
       "isAI": true
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "Mon, 10 Aug 2026 16:01:04 +0000",
       "summary": "New update includes improvements for the Intel-based MSI Claw 8 EX AI+ among others.",
       "isAI": true
-    },
-    {
-      "title": "Following Epic loss, Google has started hosting rival app stores in the Play Store",
-      "url": "https://arstechnica.com/gadgets/2026/08/third-party-app-stores-are-rolling-out-in-google-play-but-theres-only-one-right-now/",
-      "source": "Ars Technica",
-      "published": "Mon, 10 Aug 2026 15:44:45 +0000",
-      "summary": "Aptoide has become the first app store distributed inside Google Play under a judge's order.",
-      "isAI": false
     }
   ]
 }
