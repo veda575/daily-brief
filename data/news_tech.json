@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-17T16:00:23.995487+00:00",
+  "updated": "2026-08-17T16:46:02.387435+00:00",
   "items": [
+    {
+      "title": "Amazon, once an online bookseller, is destroying rare books to train AI models",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 17 Aug 2026 16:38:44 +0000",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "isAI": true
+    },
+    {
+      "title": "Sonos finally added Live Activities controls for your iPhone lockscreen",
+      "url": "https://www.theverge.com/tech/981008/sonos-mobile-ios-iphone-app-live-activities",
+      "source": "The Verge",
+      "published": "2026-08-17T12:38:35-04:00",
+      "summary": "Sonos released an update to its mobile app that finally introduces support for iOS' Live Activities, giving iPhone users quick access to playback controls on their lock screen. The added functionality is a \"much requested, anticipated, and needed feature,\" according to a post Sonos shared to Reddit today that was spotted by 9to5Mac. While some [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 17 Aug 2026 16:15:12 +0000",
+      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "isAI": true
+    },
     {
       "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
       "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
@@ -39,6 +63,14 @@
       "source": "The Verge",
       "published": "2026-08-17T10:35:25-04:00",
       "summary": "The smart speaker market is more or less dominated by major tech companies: Apple, Google, Sonos, and Amazon. But WiiM\u2019s powerful 100W Sound smart speaker is an attractive alternative because it\u2019s not locked down to play nicely with select music services. It supports over 20 services, and it sports Wi-Fi 6E, Bluetooth 5.3 and ethernet, [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Apple's App Tracking Transparency treated its own apps better than rivals",
+      "url": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html",
+      "source": "Hacker News",
+      "published": "Mon, 17 Aug 2026 14:07:59 +0000",
+      "summary": "Article URL: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html Comments URL: https://news.ycombinator.com/item?id=49331222 Points: 167 # Comments: 59",
       "isAI": false
     },
     {
@@ -126,7 +158,7 @@
       "url": "https://reticulum.network/",
       "source": "Hacker News",
       "published": "Sun, 16 Aug 2026 23:59:10 +0000",
-      "summary": "Article URL: https://reticulum.network/ Comments URL: https://news.ycombinator.com/item?id=49325061 Points: 186 # Comments: 64",
+      "summary": "Article URL: https://reticulum.network/ Comments URL: https://news.ycombinator.com/item?id=49325061 Points: 193 # Comments: 65",
       "isAI": false
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "OpenAI",
       "published": "Mon, 10 Aug 2026 17:00:00 GMT",
       "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-      "isAI": true
-    },
-    {
-      "title": "What's the best programming language for coding agents?",
-      "url": "http://danluu.com/pl-tokens/",
-      "source": "Hacker News",
-      "published": "Mon, 10 Aug 2026 16:28:58 +0000",
-      "summary": "Related: Which programming languages are most token-efficient? - https://news.ycombinator.com/item?id=46582728 - Jan 2026 (91 comments) Comments URL: https://news.ycombinator.com/item?id=49245936 Points: 191 # Comments: 127",
-      "isAI": false
-    },
-    {
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "source": "Hugging Face",
-      "published": "Mon, 10 Aug 2026 16:25:36 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Meta\u2019s new Glimmer AI model offers a hint at Zuckerberg\u2019s personal intelligence vision",
-      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 10 Aug 2026 16:20:13 +0000",
-      "summary": "Meta\u2019s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg\u2019s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
-      "isAI": true
-    },
-    {
-      "title": "Valve slowly expands SteamOS support on non-Valve hardware",
-      "url": "https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/",
-      "source": "Ars Technica",
-      "published": "Mon, 10 Aug 2026 16:01:04 +0000",
-      "summary": "New update includes improvements for the Intel-based MSI Claw 8 EX AI+ among others.",
       "isAI": true
     }
   ]
