@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-17T20:56:32.341246+00:00",
+  "updated": "2026-08-17T21:29:48.439503+00:00",
   "items": [
+    {
+      "title": "AI automation startup Relay shuts down, staff joins Google\u2019s Chrome team",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 17 Aug 2026 21:27:05 +0000",
+      "summary": "Relay, which offered businesses workflow automation, will stop operating next month. Its CEO and some of its staff plan to get to work on Google Chrome next.",
+      "isAI": true
+    },
+    {
+      "title": "ABC\u2019s livestreamed news show is powered by trending topics",
+      "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
+      "source": "The Verge",
+      "published": "2026-08-17T16:59:23-04:00",
+      "summary": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the network just announced the show now, Searched began airing on the ABC News Live streaming channel in April, which appears on both Disney Plus and [\u2026]",
+      "isAI": false
+    },
     {
       "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
       "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
@@ -14,7 +30,7 @@
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 19:47:15 +0000",
-      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 219 # Comments: 106",
+      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 309 # Comments: 181",
       "isAI": true
     },
     {
@@ -78,7 +94,7 @@
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 17:25:17 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/models/qwen3-8-27b Comments URL: https://news.ycombinator.com/item?id=49334544 Points: 208 # Comments: 101",
+      "summary": "Article URL: https://artificialanalysis.ai/models/qwen3-8-27b Comments URL: https://news.ycombinator.com/item?id=49334544 Points: 235 # Comments: 109",
       "isAI": true
     },
     {
@@ -166,7 +182,7 @@
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:18:38 +0000",
-      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 257 # Comments: 112",
+      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 272 # Comments: 113",
       "isAI": true
     },
     {
@@ -182,7 +198,7 @@
       "url": "https://www.librarian.net/notoai/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:07:56 +0000",
-      "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 195 # Comments: 100",
+      "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 205 # Comments: 112",
       "isAI": true
     },
     {
@@ -206,7 +222,7 @@
       "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
       "source": "TechCrunch AI",
       "published": "Mon, 17 Aug 2026 13:10:05 +0000",
-      "summary": "Wispr\u2019s total funding is now over $361 million.",
+      "summary": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
       "isAI": true
     },
     {
@@ -278,7 +294,7 @@
       "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 01:59:56 +0000",
-      "summary": "https://xcancel.com/DarioAmodei/status/2088758816376807762 Comments URL: https://news.ycombinator.com/item?id=49325789 Points: 220 # Comments: 463",
+      "summary": "https://xcancel.com/DarioAmodei/status/2088758816376807762 Comments URL: https://news.ycombinator.com/item?id=49325789 Points: 222 # Comments: 473",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Wired",
       "published": "Tue, 11 Aug 2026 05:00:00 +0000",
       "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "isAI": true
-    },
-    {
-      "title": "H3-metal \u2013 Native MiniMax-H3 inference for Apple Silicon",
-      "url": "https://github.com/antirez/h3.c",
-      "source": "Hacker News",
-      "published": "Tue, 11 Aug 2026 01:22:09 +0000",
-      "summary": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 414 # Comments: 93",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 11 Aug 2026 00:03:18 +0000",
-      "summary": "San Francisco's housing market is in trouble again.",
       "isAI": true
     }
   ]
