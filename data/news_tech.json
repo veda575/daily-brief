@@ -1,12 +1,28 @@
 {
-  "updated": "2026-08-18T19:58:06.076866+00:00",
+  "updated": "2026-08-18T20:32:49.149671+00:00",
   "items": [
+    {
+      "title": "Squeeze More Juice Out of a Dead Battery!",
+      "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
+      "source": "Wired",
+      "published": "Tue, 18 Aug 2026 20:11:03 +0000",
+      "summary": "How the joule thief circuit \u201csteals\u201d energy from seemingly depleted power cells.",
+      "isAI": false
+    },
     {
       "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
       "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
       "source": "The Verge AI",
       "published": "2026-08-18T15:28:30-04:00",
       "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Strengthening Democratic Oversight in National Security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "source": "OpenAI",
+      "published": "Tue, 18 Aug 2026 19:00:00 GMT",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
       "isAI": true
     },
     {
@@ -126,7 +142,7 @@
       "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 13:18:40 +0000",
-      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 275 # Comments: 180",
+      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 286 # Comments: 186",
       "isAI": false
     },
     {
@@ -158,7 +174,7 @@
       "url": "https://philo.gay/linecam/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 12:43:54 +0000",
-      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 320 # Comments: 52",
+      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 328 # Comments: 52",
       "isAI": false
     },
     {
@@ -262,7 +278,7 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 519 # Comments: 358",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 527 # Comments: 364",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 07:51:20 +0000",
       "summary": "Hey HN, we're Advaith and Akash from Discovered Materials ( https://discoveredmaterials.com/ ). We build AI agents that discover new materials for the semiconductor industry.GPUs today have a heat problem. Nvidia & AMD are almost doubling the TDP (Thermal Design Power) in every chip they release - the H100 (released 2022) has a TDP of 700W, Blackwell (2024) gives out 1.2 kW and Rubin (2026) gives\u2026",
-      "isAI": true
-    },
-    {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "source": "OpenAI",
-      "published": "Wed, 12 Aug 2026 06:00:00 GMT",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "isAI": true
-    },
-    {
-      "title": "llama.cpp",
-      "url": "https://llama.app",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 04:51:59 +0000",
-      "summary": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 254 # Comments: 113",
       "isAI": true
     }
   ]
