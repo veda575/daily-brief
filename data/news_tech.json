@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-18T14:17:43.280974+00:00",
+  "updated": "2026-08-18T15:02:11.271552+00:00",
   "items": [
+    {
+      "title": "Meta Ran Ads for an App That Promised to Nudify Female Politicians",
+      "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+      "source": "Wired",
+      "published": "Tue, 18 Aug 2026 14:45:33 +0000",
+      "summary": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.",
+      "isAI": false
+    },
     {
       "title": "Warp\u2019s new system is an out-of-the-box software factory for AI development",
       "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
@@ -146,11 +154,11 @@
       "isAI": true
     },
     {
-      "title": "Google buys crashed airline Spirit's data at auction, because AI",
+      "title": "Google buys crashed airline Spirit's data at auction",
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 304 # Comments: 200",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 336 # Comments: 218",
       "isAI": true
     },
     {
@@ -194,6 +202,14 @@
       "isAI": true
     },
     {
+      "title": "Rethinking Database Programming",
+      "url": "https://acadia.engineering/blog/rethinking-database-programming",
+      "source": "Hacker News",
+      "published": "Tue, 18 Aug 2026 07:28:27 +0000",
+      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 153 # Comments: 69",
+      "isAI": false
+    },
+    {
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "source": "Hugging Face",
@@ -230,7 +246,7 @@
       "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 21:03:18 +0000",
-      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 550 # Comments: 362",
+      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 561 # Comments: 366",
       "isAI": true
     },
     {
@@ -246,7 +262,7 @@
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 20:46:10 +0000",
-      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 812 # Comments: 466",
+      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 844 # Comments: 484",
       "isAI": true
     },
     {
@@ -422,7 +438,7 @@
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:18:38 +0000",
-      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 404 # Comments: 150",
+      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 407 # Comments: 151",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Tue, 11 Aug 2026 17:41:34 +0000",
       "summary": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\"",
-      "isAI": true
-    },
-    {
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 11 Aug 2026 17:41:22 +0000",
-      "summary": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
-      "isAI": true
-    },
-    {
-      "title": "Grok Bot",
-      "url": "https://x.ai/bot",
-      "source": "Hacker News",
-      "published": "Tue, 11 Aug 2026 17:23:09 +0000",
-      "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 301 # Comments: 266",
       "isAI": true
     }
   ]
