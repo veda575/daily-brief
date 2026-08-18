@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-18T18:13:22.637353+00:00",
+  "updated": "2026-08-18T18:59:54.323031+00:00",
   "items": [
+    {
+      "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+      "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+      "source": "Wired",
+      "published": "Tue, 18 Aug 2026 18:33:11 +0000",
+      "summary": "The ChatGPT maker says its upcoming Astra model may have reached \u201ccritical\u201d cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
+      "isAI": true
+    },
     {
       "title": "How Much Memory Does Your Agent Actually Need?",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
@@ -110,7 +118,7 @@
       "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 13:18:40 +0000",
-      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 228 # Comments: 139",
+      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 248 # Comments: 158",
       "isAI": false
     },
     {
@@ -142,7 +150,7 @@
       "url": "https://philo.gay/linecam/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 12:43:54 +0000",
-      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 285 # Comments: 49",
+      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 301 # Comments: 52",
       "isAI": false
     },
     {
@@ -210,6 +218,14 @@
       "isAI": true
     },
     {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "source": "OpenAI",
+      "published": "Tue, 18 Aug 2026 11:00:00 GMT",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "isAI": true
+    },
+    {
       "title": "Exclusive: You Can Finally Buy a Fairphone\u2014a Sustainable, Repairable Smartphone\u2014in the US",
       "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
       "source": "Wired",
@@ -238,7 +254,7 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 483 # Comments: 337",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 504 # Comments: 351",
       "isAI": true
     },
     {
@@ -286,7 +302,7 @@
       "url": "https://acadia.engineering/blog/rethinking-database-programming",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:28:27 +0000",
-      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 192 # Comments: 101",
+      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 202 # Comments: 103",
       "isAI": false
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 02:05:42 +0000",
       "summary": "Article URL: https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/ Comments URL: https://news.ycombinator.com/item?id=49267057 Points: 155 # Comments: 33",
-      "isAI": true
-    },
-    {
-      "title": "Saber denies replacing Rideshare Stimulator\u2019s writers with ChatGPT",
-      "url": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
-      "source": "The Verge AI",
-      "published": "2026-08-11T20:39:26-04:00",
-      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "url": "https://openai.com/index/ringcentral",
-      "source": "OpenAI",
-      "published": "Wed, 12 Aug 2026 00:00:00 GMT",
-      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
       "isAI": true
     }
   ]
