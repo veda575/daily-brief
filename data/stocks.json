@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T02:21:07.108847+00:00",
+  "updated": "2026-08-18T03:22:36.817205+00:00",
   "regions": {
     "us": [
       {
@@ -62,7 +62,7 @@
         "name": "Atlassian",
         "sector": "Software",
         "currency": "USD",
-        "marketCap": 40181600256.0,
+        "marketCap": 40081997824.0,
         "changePercent": -2.39182,
         "indexValue": 158.34
       },
@@ -253,18 +253,18 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1300452353793.589,
-        "changePercent": 1.8214936,
-        "indexValue": 279500.0
+        "marketCap": 1270792891218.686,
+        "changePercent": -0.63752276,
+        "indexValue": 272750.0
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 503250440178.99713,
-        "changePercent": -1.8817191,
-        "indexValue": 438.0
+        "marketCap": 504091990252.33484,
+        "changePercent": -1.7025104,
+        "indexValue": 438.8
       },
       {
         "ticker": "TSM",
@@ -498,7 +498,7 @@
         "name": "Tech Mahindra",
         "sector": "Telecom IT",
         "currency": "INR",
-        "marketCap": 1426217107456.0,
+        "marketCap": 1426296012800.0,
         "changePercent": -1.3963773,
         "indexValue": 1610.0
       },
@@ -537,8 +537,8 @@
         "sector": "Index / China (Hong Kong) Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.770164,
-        "indexValue": 25257.2
+        "changePercent": -0.61234397,
+        "indexValue": 25297.37
       },
       {
         "ticker": "^IXIC",
@@ -555,8 +555,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.057962384,
-        "indexValue": 3980.345
+        "changePercent": -0.5960685,
+        "indexValue": 3958.9138
       },
       {
         "ticker": "399001.SZ",
@@ -564,8 +564,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.5349236,
-        "indexValue": 14625.623
+        "changePercent": -1.4880683,
+        "indexValue": 14485.468
       }
     ]
   }

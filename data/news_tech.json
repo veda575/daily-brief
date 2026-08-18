@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T02:21:07.108847+00:00",
+  "updated": "2026-08-18T03:22:36.817205+00:00",
   "items": [
     {
       "title": "Anthropic\u2019s annualized revenue surges to $65B",
@@ -26,12 +26,28 @@
       "isAI": true
     },
     {
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "source": "Hacker News",
+      "published": "Mon, 17 Aug 2026 21:03:18 +0000",
+      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 186 # Comments: 109",
+      "isAI": true
+    },
+    {
       "title": "ABC\u2019s livestreamed news show is powered by trending topics",
       "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
       "source": "The Verge",
       "published": "2026-08-17T16:59:23-04:00",
       "summary": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the network just announced the show now, Searched began airing on the ABC News Live streaming channel in April, which appears on both Disney Plus and [\u2026]",
       "isAI": false
+    },
+    {
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "source": "Hacker News",
+      "published": "Mon, 17 Aug 2026 20:46:10 +0000",
+      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 155 # Comments: 56",
+      "isAI": true
     },
     {
       "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
@@ -46,7 +62,7 @@
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 19:47:15 +0000",
-      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 608 # Comments: 381",
+      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 650 # Comments: 403",
       "isAI": true
     },
     {
@@ -110,7 +126,7 @@
       "url": "https://arxiv.org/abs/2608.13759",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 17:54:59 +0000",
-      "summary": "Article URL: https://arxiv.org/abs/2608.13759 Comments URL: https://news.ycombinator.com/item?id=49334991 Points: 165 # Comments: 36",
+      "summary": "Article URL: https://arxiv.org/abs/2608.13759 Comments URL: https://news.ycombinator.com/item?id=49334991 Points: 169 # Comments: 36",
       "isAI": true
     },
     {
@@ -206,7 +222,7 @@
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:18:38 +0000",
-      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 318 # Comments: 125",
+      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 324 # Comments: 127",
       "isAI": true
     },
     {
@@ -222,7 +238,7 @@
       "url": "https://www.librarian.net/notoai/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:07:56 +0000",
-      "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 257 # Comments: 156",
+      "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 262 # Comments: 163",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Wired",
       "published": "Tue, 11 Aug 2026 10:30:00 +0000",
       "summary": "Beyond Elon Musk\u2019s interpretation of The Odyssey, Silicon Valley leaders have often misunderstood classic books like Foundation and The Hitchhiker\u2019s Guide to the Galaxy. It\u2019s evident in their tech.",
-      "isAI": true
-    },
-    {
-      "title": "AI Is Dead. Organoids Are Alive",
-      "url": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
-      "source": "Wired",
-      "published": "Tue, 11 Aug 2026 10:00:00 +0000",
-      "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
-      "isAI": true
-    },
-    {
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "source": "OpenAI",
-      "published": "Tue, 11 Aug 2026 10:00:00 GMT",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "isAI": true
     }
   ]
