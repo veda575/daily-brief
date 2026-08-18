@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-18T15:46:55.786343+00:00",
+  "updated": "2026-08-18T16:33:07.544155+00:00",
   "items": [
+    {
+      "title": "Why Apple\u2019s camera-equipped AirPods may not be the \u2018pervert pods\u2019 consumers fear",
+      "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 18 Aug 2026 16:19:10 +0000",
+      "summary": "Apple\u2019s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
+      "isAI": true
+    },
     {
       "title": "Meta Ran Ads for an App That Promised to Nudify Female Politicians",
       "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
@@ -50,6 +58,14 @@
       "isAI": false
     },
     {
+      "title": "Fixing a Bricked Framework Laptop",
+      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+      "source": "Hacker News",
+      "published": "Tue, 18 Aug 2026 13:18:40 +0000",
+      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 163 # Comments: 77",
+      "isAI": false
+    },
+    {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
       "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
       "source": "Ars Technica AI",
@@ -78,7 +94,7 @@
       "url": "https://philo.gay/linecam/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 12:43:54 +0000",
-      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 183 # Comments: 36",
+      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 219 # Comments: 39",
       "isAI": false
     },
     {
@@ -162,11 +178,11 @@
       "isAI": true
     },
     {
-      "title": "Google buys crashed airline Spirit's data at auction",
+      "title": "Google has acquired the data of failed US airline Spirit",
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 393 # Comments: 264",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 427 # Comments: 304",
       "isAI": true
     },
     {
@@ -214,8 +230,16 @@
       "url": "https://acadia.engineering/blog/rethinking-database-programming",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:28:27 +0000",
-      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 163 # Comments: 78",
+      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 173 # Comments: 88",
       "isAI": false
+    },
+    {
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "source": "OpenAI",
+      "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "isAI": true
     },
     {
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
@@ -254,7 +278,7 @@
       "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 21:03:18 +0000",
-      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 577 # Comments: 379",
+      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 590 # Comments: 395",
       "isAI": true
     },
     {
@@ -270,7 +294,7 @@
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 20:46:10 +0000",
-      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 890 # Comments: 509",
+      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 928 # Comments: 544",
       "isAI": true
     },
     {
@@ -1976,30 +2000,6 @@
       "published": "Tue, 11 Aug 2026 18:49:12 +0000",
       "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
       "isAI": true
-    },
-    {
-      "title": "Used EV buying guide: The $30,000 edition",
-      "url": "https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/",
-      "source": "Ars Technica",
-      "published": "Tue, 11 Aug 2026 18:31:53 +0000",
-      "summary": "Depending on the model, you might have hundreds to choose from\u2014or just one.",
-      "isAI": false
-    },
-    {
-      "title": "Another OpenAI executive takes off",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
-      "source": "The Verge AI",
-      "published": "2026-08-11T13:50:01-04:00",
-      "summary": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last few months, I've been focused on the next horizon and what would stand [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Bluesky\u2019s active user base is shrinking as its focus expands beyond the app",
-      "url": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
-      "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 17:46:14 +0000",
-      "summary": "Over a year following its post-election surge, Bluesky\u2019s mobile app is seeing a continued decline in active users, though its remaining community is still relatively engaged.",
-      "isAI": false
     }
   ]
 }
