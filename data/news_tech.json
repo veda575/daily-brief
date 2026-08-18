@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-18T18:59:54.323031+00:00",
+  "updated": "2026-08-18T19:34:52.925177+00:00",
   "items": [
+    {
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "source": "The Verge",
+      "published": "2026-08-18T15:28:30-04:00",
+      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [\u2026]",
+      "isAI": true
+    },
     {
       "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
       "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
@@ -118,7 +126,7 @@
       "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 13:18:40 +0000",
-      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 248 # Comments: 158",
+      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 264 # Comments: 171",
       "isAI": false
     },
     {
@@ -150,7 +158,7 @@
       "url": "https://philo.gay/linecam/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 12:43:54 +0000",
-      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 301 # Comments: 52",
+      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 309 # Comments: 52",
       "isAI": false
     },
     {
@@ -178,7 +186,7 @@
       "isAI": false
     },
     {
-      "title": "Elon Musk broke the FAA \u2014 Palantir is picking up the pieces",
+      "title": "Elon Musk made flying even worse so Palantir could profit",
       "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
       "source": "The Verge AI",
       "published": "2026-08-18T07:00:00-04:00",
@@ -254,7 +262,7 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 504 # Comments: 351",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 519 # Comments: 358",
       "isAI": true
     },
     {
@@ -302,7 +310,7 @@
       "url": "https://acadia.engineering/blog/rethinking-database-programming",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:28:27 +0000",
-      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 202 # Comments: 103",
+      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 207 # Comments: 104",
       "isAI": false
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 04:51:59 +0000",
       "summary": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 254 # Comments: 113",
-      "isAI": true
-    },
-    {
-      "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 02:05:42 +0000",
-      "summary": "Article URL: https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/ Comments URL: https://news.ycombinator.com/item?id=49267057 Points: 155 # Comments: 33",
       "isAI": true
     }
   ]
