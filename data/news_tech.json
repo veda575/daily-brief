@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-18T13:42:51.923834+00:00",
+  "updated": "2026-08-18T14:17:43.280974+00:00",
   "items": [
+    {
+      "title": "Warp\u2019s new system is an out-of-the-box software factory for AI development",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 18 Aug 2026 14:00:00 +0000",
+      "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastrructure system designed to make building AI software factories as easy as possible.",
+      "isAI": true
+    },
+    {
+      "title": "Anthro Energy breaks ground on factory that could pave the road to solid-state batteries",
+      "url": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
+      "source": "TechCrunch",
+      "published": "Tue, 18 Aug 2026 14:00:00 +0000",
+      "summary": "Battery materials startup Anthro Energy has broken ground on a Louisville factory to make electrolytes, including those for solid-state batteries.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI launches a safer ChatGPT for teens \u2014 years after teens started using it",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 18 Aug 2026 13:50:30 +0000",
+      "summary": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content \u2014 and from using AI to cheat on their homework.",
+      "isAI": true
+    },
+    {
+      "title": "Perplexity\u2019s free AI offer left it with millions more users in India",
+      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 18 Aug 2026 13:45:40 +0000",
+      "summary": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",
+      "isAI": true
+    },
     {
       "title": "Comcast is turning millions of its routers into motion detectors",
       "url": "https://www.theverge.com/news/981381/comcast-xfinity-shield-wifi-motion-sensing",
@@ -118,7 +150,7 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 247 # Comments: 142",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 304 # Comments: 200",
       "isAI": true
     },
     {
@@ -162,6 +194,14 @@
       "isAI": true
     },
     {
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "Hugging Face",
+      "published": "Tue, 18 Aug 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
       "title": "Anthropic\u2019s annualized revenue surges to $65B",
       "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
       "source": "TechCrunch AI",
@@ -190,7 +230,7 @@
       "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 21:03:18 +0000",
-      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 535 # Comments: 351",
+      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 550 # Comments: 362",
       "isAI": true
     },
     {
@@ -206,7 +246,7 @@
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 20:46:10 +0000",
-      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 755 # Comments: 434",
+      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 812 # Comments: 466",
       "isAI": true
     },
     {
@@ -382,7 +422,7 @@
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:18:38 +0000",
-      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 398 # Comments: 149",
+      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 404 # Comments: 150",
       "isAI": true
     },
     {
@@ -1959,46 +1999,6 @@
       "source": "Hacker News",
       "published": "Tue, 11 Aug 2026 17:23:09 +0000",
       "summary": "Article URL: https://x.ai/bot Comments URL: https://news.ycombinator.com/item?id=49261514 Points: 301 # Comments: 266",
-      "isAI": true
-    },
-    {
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "source": "Google AI",
-      "published": "Tue, 11 Aug 2026 17:00:00 +0000",
-      "summary": "AMIE promotional video",
-      "isAI": true
-    },
-    {
-      "title": "Made by Google 2026: all the Pixel news and announcements",
-      "url": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
-      "source": "The Verge AI",
-      "published": "2026-08-11T13:00:00-04:00",
-      "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google\u2019s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Go is an ideal language for AI-assisted software engineering",
-      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
-      "source": "Hacker News",
-      "published": "Tue, 11 Aug 2026 16:57:09 +0000",
-      "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 391 # Comments: 448",
-      "isAI": true
-    },
-    {
-      "title": "An unreleased Anthropic model made progress on one of math\u2019s biggest unsolved problems",
-      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 11 Aug 2026 16:25:20 +0000",
-      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it \u2014 but the company's models made more progress than you might expect.",
-      "isAI": true
-    },
-    {
-      "title": "Apple could help you prove your iPhone photos aren\u2019t deepfakes",
-      "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
-      "source": "The Verge AI",
-      "published": "2026-08-11T12:19:15-04:00",
-      "summary": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where [\u2026]",
       "isAI": true
     }
   ]
