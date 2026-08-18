@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T07:24:35.981116+00:00",
+  "updated": "2026-08-18T08:02:21.778651+00:00",
   "regions": {
     "us": [
       {
@@ -197,7 +197,7 @@
         "name": "Shopify",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 192896352256.0,
+        "marketCap": 191259623424.0,
         "changePercent": -3.67419,
         "indexValue": 148.65
       },
@@ -224,7 +224,7 @@
         "name": "SpaceX",
         "sector": "Aerospace / Satellite Internet",
         "currency": "USD",
-        "marketCap": 1927571570688.0,
+        "marketCap": 1926461259776.0,
         "changePercent": 4.45,
         "indexValue": 146.23
       },
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1248555156283.5942,
+        "marketCap": 1249395677973.5767,
         "changePercent": -2.1857922,
         "indexValue": 268500.0
       },
@@ -262,9 +262,9 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 508961717526.9167,
-        "changePercent": -0.7616474,
-        "indexValue": 443.0
+        "marketCap": 509214243727.0026,
+        "changePercent": -0.71684176,
+        "indexValue": 443.2
       },
       {
         "ticker": "TSM",
@@ -282,18 +282,18 @@
         "name": "Adani Enterprises",
         "sector": "Conglomerate",
         "currency": "INR",
-        "marketCap": 4307483099136.0,
-        "changePercent": 0.6584214,
-        "indexValue": 3027.1
+        "marketCap": 4303925542912.0,
+        "changePercent": 0.57534504,
+        "indexValue": 3024.6
       },
       {
         "ticker": "APOLLOHOSP.NS",
         "name": "Apollo Hospitals",
         "sector": "Healthcare",
         "currency": "INR",
-        "marketCap": 1267964968960.0,
-        "changePercent": -0.0793291,
-        "indexValue": 8818.5
+        "marketCap": 1265592565760.0,
+        "changePercent": -0.2662437,
+        "indexValue": 8802.0
       },
       {
         "ticker": "ASTERDM.NS",
@@ -309,27 +309,27 @@
         "name": "Aurobindo Pharma",
         "sector": "Pharma Exports",
         "currency": "INR",
-        "marketCap": 942181318656.0,
-        "changePercent": 0.6329922,
-        "indexValue": 1637.5
+        "marketCap": 939764809728.0,
+        "changePercent": 0.37488312,
+        "indexValue": 1633.3
       },
       {
         "ticker": "BHARTIARTL",
         "name": "Bharti Airtel",
         "sector": "Telecom / Digital Infrastructure",
         "currency": "INR",
-        "marketCap": 12141052559360.0,
-        "changePercent": -1.1781471,
-        "indexValue": 1946.1
+        "marketCap": 12135437434880.0,
+        "changePercent": -1.22379,
+        "indexValue": 1945.2
       },
       {
         "ticker": "BSE.NS",
         "name": "BSE Ltd",
         "sector": "Stock Exchange / Financial Markets",
         "currency": "INR",
-        "marketCap": 1333281161216.0,
-        "changePercent": -1.4736809,
-        "indexValue": 3282.9
+        "marketCap": 1339129462784.0,
+        "changePercent": -1.0411026,
+        "indexValue": 3297.3
       },
       {
         "ticker": "DIVISLAB.NS",
@@ -345,117 +345,117 @@
         "name": "Dr. Reddy's",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 988104622080.0,
-        "changePercent": -0.48666292,
-        "indexValue": 1186.2
+        "marketCap": 988521103360.0,
+        "changePercent": -0.4447842,
+        "indexValue": 1186.7
       },
       {
         "ticker": "GLAND.NS",
         "name": "Gland Pharma",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 476192768000.0,
-        "changePercent": -0.8109358,
-        "indexValue": 2886.6
+        "marketCap": 474609057792.0,
+        "changePercent": -1.1406958,
+        "indexValue": 2877.0
       },
       {
         "ticker": "GLENMARK.NS",
         "name": "Glenmark Pharmaceuticals",
         "sector": "Pharma",
         "currency": "INR",
-        "marketCap": 651600330752.0,
-        "changePercent": -0.8673229,
-        "indexValue": 2308.8
+        "marketCap": 652277645312.0,
+        "changePercent": -0.76440984,
+        "indexValue": 2311.2
       },
       {
         "ticker": "HDFCBANK.NS",
         "name": "HDFC Bank",
         "sector": "Lending",
         "currency": "INR",
-        "marketCap": 11175286800384.0,
-        "changePercent": -0.52811736,
-        "indexValue": 725.15
+        "marketCap": 11174516097024.0,
+        "changePercent": -0.53501946,
+        "indexValue": 725.1
       },
       {
         "ticker": "HEROMOTOCO.NS",
         "name": "Hero MotoCorp",
         "sector": "Auto",
         "currency": "INR",
-        "marketCap": 1145608208384.0,
-        "changePercent": -0.36553526,
-        "indexValue": 5724.0
+        "marketCap": 1151912640512.0,
+        "changePercent": 0.18276763,
+        "indexValue": 5755.5
       },
       {
         "ticker": "INFY.NS",
         "name": "Infosys",
         "sector": "Growth outlook",
         "currency": "INR",
-        "marketCap": 4515482828800.0,
-        "changePercent": -2.1933672,
-        "indexValue": 1114.9
+        "marketCap": 4523583078400.0,
+        "changePercent": -2.017367,
+        "indexValue": 1116.9
       },
       {
         "ticker": "INDIGO.NS",
         "name": "InterGlobe Aviation (IndiGo)",
         "sector": "Aviation",
         "currency": "INR",
-        "marketCap": 2012019556352.0,
-        "changePercent": -1.3647995,
-        "indexValue": 5203.5
+        "marketCap": 2020912922624.0,
+        "changePercent": -0.92890996,
+        "indexValue": 5226.5
       },
       {
         "ticker": "KIMS.NS",
         "name": "Krishna Institute of Medical Sciences",
         "sector": "Healthcare / Hospitals",
         "currency": "INR",
-        "marketCap": 320511279104.0,
-        "changePercent": 0.074992254,
-        "indexValue": 801.0
+        "marketCap": 321551630336.0,
+        "changePercent": 0.39981896,
+        "indexValue": 803.6
       },
       {
         "ticker": "MARUTI.NS",
         "name": "Maruti Suzuki",
         "sector": "Auto",
         "currency": "INR",
-        "marketCap": 4334353645568.0,
-        "changePercent": 0.18902217,
-        "indexValue": 13786.0
+        "marketCap": 4346615431168.0,
+        "changePercent": 0.47228074,
+        "indexValue": 13825.0
       },
       {
         "ticker": "NCC.NS",
         "name": "NCC Ltd",
         "sector": "Construction / Infrastructure",
         "currency": "INR",
-        "marketCap": 87264403456.0,
-        "changePercent": -0.29410934,
-        "indexValue": 138.99
+        "marketCap": 87584595968.0,
+        "changePercent": 0.07179705,
+        "indexValue": 139.5
       },
       {
         "ticker": "NEULANDLAB.NS",
         "name": "Neuland Laboratories",
         "sector": "Pharma CRDMO",
         "currency": "INR",
-        "marketCap": 298885087232.0,
-        "changePercent": -1.5426881,
-        "indexValue": 23296.0
+        "marketCap": 299128848384.0,
+        "changePercent": -1.4611486,
+        "indexValue": 23315.0
       },
       {
         "ticker": "RELIANCE.NS",
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 17916992946176.0,
-        "changePercent": 0.6078566,
-        "indexValue": 1324.0
+        "marketCap": 17918345609216.0,
+        "changePercent": 0.6155464,
+        "indexValue": 1324.1
       },
       {
         "ticker": "SAILIFE.NS",
         "name": "Sai Life Sciences",
         "sector": "Pharma CRDMO",
         "currency": "INR",
-        "marketCap": 306113773568.0,
-        "changePercent": 1.7932805,
-        "indexValue": 1441.8
+        "marketCap": 305795301376.0,
+        "changePercent": 1.6873782,
+        "indexValue": 1440.3
       },
       {
         "ticker": "SIGMAADV.NS",
@@ -471,54 +471,54 @@
         "name": "State Bank of India",
         "sector": "Banking",
         "currency": "INR",
-        "marketCap": 9755839954944.0,
-        "changePercent": -0.4051566,
-        "indexValue": 1056.9
+        "marketCap": 9747532087296.0,
+        "changePercent": -0.48996058,
+        "indexValue": 1056.0
       },
       {
         "ticker": "SWIGGY.NS",
         "name": "Swiggy",
         "sector": "Food Delivery / Quick Commerce",
         "currency": "INR",
-        "marketCap": 715784519680.0,
-        "changePercent": -2.0093205,
-        "indexValue": 273.2
+        "marketCap": 717487538176.0,
+        "changePercent": -1.7754598,
+        "indexValue": 273.85
       },
       {
         "ticker": "TCS.NS",
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8266243899392.0,
-        "changePercent": -1.231953,
-        "indexValue": 2284.7
+        "marketCap": 8279631069184.0,
+        "changePercent": -1.07211,
+        "indexValue": 2288.4
       },
       {
         "ticker": "TECHM.NS",
         "name": "Tech Mahindra",
         "sector": "Telecom IT",
         "currency": "INR",
-        "marketCap": 1402022395904.0,
-        "changePercent": -1.7018648,
-        "indexValue": 1582.6
+        "marketCap": 1406274633728.0,
+        "changePercent": -1.4038997,
+        "indexValue": 1587.4
       },
       {
         "ticker": "WIPRO.NS",
         "name": "Wipro",
         "sector": "IT",
         "currency": "INR",
-        "marketCap": 1773748879360.0,
-        "changePercent": -1.429509,
-        "indexValue": 179.3
+        "marketCap": 1773353041920.0,
+        "changePercent": -1.4514264,
+        "indexValue": 179.26
       },
       {
         "ticker": "ETERNAL.NS",
         "name": "Zomato",
         "sector": "Food Delivery / Quick Commerce",
         "currency": "INR",
-        "marketCap": 2919030325248.0,
-        "changePercent": -0.28301695,
-        "indexValue": 317.1
+        "marketCap": 2918569738240.0,
+        "changePercent": -0.298746,
+        "indexValue": 317.05
       }
     ],
     "indexes": [
@@ -528,8 +528,8 @@
         "sector": "Index / India Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.44585562,
-        "indexValue": 77381.6
+        "changePercent": -0.4498847,
+        "indexValue": 77378.48
       },
       {
         "ticker": "^HSI",
@@ -537,8 +537,8 @@
         "sector": "Index / China (Hong Kong) Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.19501914,
-        "indexValue": 25502.87
+        "changePercent": 0.22229615,
+        "indexValue": 25509.82
       },
       {
         "ticker": "^IXIC",
