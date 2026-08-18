@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-18T10:00:16.639940+00:00",
+  "updated": "2026-08-18T10:38:26.395985+00:00",
   "items": [
+    {
+      "title": "Exclusive: You Can Finally Buy a Fairphone\u2014a Sustainable, Repairable Smartphone\u2014in the US",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+      "source": "Wired",
+      "published": "Tue, 18 Aug 2026 10:30:00 +0000",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
+      "isAI": false
+    },
+    {
+      "title": "Can AI Coexist With Privacy? Proton\u2019s Andy Yen Says It Will Have To",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "source": "Wired",
+      "published": "Tue, 18 Aug 2026 10:30:00 +0000",
+      "summary": "Proton\u2019s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "isAI": true
+    },
+    {
+      "title": "We still don\u2019t know how people are really using AI",
+      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 18 Aug 2026 10:06:43 +0000",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. \u201cThere is no independent source to corroborate it,\u201d says Anka Reuel, a Computer Science PhD candidate at the Stanford Trustworthy AI Research\u2026",
+      "isAI": true
+    },
     {
       "title": "Detroit startup Grounded raises $5M to customize electric and gas-powered vans",
       "url": "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/",
@@ -23,6 +47,14 @@
       "source": "Wired",
       "published": "Tue, 18 Aug 2026 09:00:00 +0000",
       "summary": "Z.ai\u2019s latest AI model release could help companies secure their systems\u2014or find its way into the hands of hackers.",
+      "isAI": true
+    },
+    {
+      "title": "AI\u2019s recursive self-improvement might not come so quickly after all",
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 18 Aug 2026 09:00:00 +0000",
+      "summary": "The AI industry\u2019s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. \u2026",
       "isAI": true
     },
     {
@@ -54,7 +86,7 @@
       "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 21:03:18 +0000",
-      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 433 # Comments: 261",
+      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 455 # Comments: 283",
       "isAI": true
     },
     {
@@ -70,7 +102,7 @@
       "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 20:46:10 +0000",
-      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 488 # Comments: 315",
+      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 533 # Comments: 329",
       "isAI": true
     },
     {
@@ -86,7 +118,7 @@
       "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 19:47:15 +0000",
-      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 877 # Comments: 535",
+      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 894 # Comments: 545",
       "isAI": true
     },
     {
@@ -150,7 +182,7 @@
       "url": "https://arxiv.org/abs/2608.13759",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 17:54:59 +0000",
-      "summary": "Article URL: https://arxiv.org/abs/2608.13759 Comments URL: https://news.ycombinator.com/item?id=49334991 Points: 213 # Comments: 43",
+      "summary": "Article URL: https://arxiv.org/abs/2608.13759 Comments URL: https://news.ycombinator.com/item?id=49334991 Points: 218 # Comments: 44",
       "isAI": true
     },
     {
@@ -246,7 +278,7 @@
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:18:38 +0000",
-      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 372 # Comments: 142",
+      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 376 # Comments: 143",
       "isAI": true
     },
     {
@@ -262,7 +294,7 @@
       "url": "https://www.librarian.net/notoai/",
       "source": "Hacker News",
       "published": "Mon, 17 Aug 2026 14:07:56 +0000",
-      "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 298 # Comments: 178",
+      "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 302 # Comments: 180",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "2026-08-11T09:00:00-04:00",
       "summary": "Bumble was famously built around exclusively giving women the power to initiate messages in heterosexual matches when it first launched in 2014 - but now the times they are a-changin' for the dating app. Today, Bumble has announced a \"global evolution to its signature conversation experience\": anyone can now send the first message, and the [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
-      "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
-      "source": "Wired",
-      "published": "Tue, 11 Aug 2026 12:37:12 +0000",
-      "summary": "Researchers say it took fewer than 20 prompts for a public AI tool to find a flaw (now fixed) allowing anyone on a Zoom call to hijack another participants\u2019 device.",
-      "isAI": true
-    },
-    {
-      "title": "What comes after the smartphone? Amazon\u2019s Panos Panay will make his case at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/11/what-comes-after-the-smartphone-amazons-panos-panay-will-make-his-case-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 12:30:00 +0000",
-      "summary": "At Disrupt 2026, Amazon's Panos Panay will provide an exclusive vision for what's in store for us beyond the smartphone.",
-      "isAI": false
-    },
-    {
-      "title": "Claude will apply invisible watermarks to AI text and images",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-      "source": "The Verge AI",
-      "published": "2026-08-11T08:22:20-04:00",
-      "summary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic says it will watermark text generated by its AI models",
-      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 11 Aug 2026 12:13:47 +0000",
-      "summary": "Anthropic will extend support for watermarking AI generations for older models as well.",
-      "isAI": true
     }
   ]
 }
