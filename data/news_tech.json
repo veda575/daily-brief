@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-18T17:43:53.041159+00:00",
+  "updated": "2026-08-18T18:13:22.637353+00:00",
   "items": [
+    {
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face",
+      "published": "Tue, 18 Aug 2026 18:09:38 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 18 Aug 2026 18:00:00 +0000",
+      "summary": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+      "isAI": true
+    },
     {
       "title": "Save up to $300 on your TechCrunch Disrupt 2026 pass until August 21",
       "url": "https://techcrunch.com/2026/08/18/save-up-to-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
@@ -94,7 +110,7 @@
       "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 13:18:40 +0000",
-      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 201 # Comments: 118",
+      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 228 # Comments: 139",
       "isAI": false
     },
     {
@@ -126,7 +142,7 @@
       "url": "https://philo.gay/linecam/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 12:43:54 +0000",
-      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 267 # Comments: 46",
+      "summary": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 285 # Comments: 49",
       "isAI": false
     },
     {
@@ -222,7 +238,7 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 468 # Comments: 330",
+      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 483 # Comments: 337",
       "isAI": true
     },
     {
@@ -270,7 +286,7 @@
       "url": "https://acadia.engineering/blog/rethinking-database-programming",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:28:27 +0000",
-      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 185 # Comments: 96",
+      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 192 # Comments: 101",
       "isAI": false
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "OpenAI",
       "published": "Wed, 12 Aug 2026 00:00:00 GMT",
       "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-      "isAI": true
-    },
-    {
-      "title": "Phoebe Gates and Sophia Kianni reportedly knew Phia was \u2018cookie stuffing\u2019 for months",
-      "url": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
-      "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 21:39:58 +0000",
-      "summary": "Phia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices.",
-      "isAI": true
-    },
-    {
-      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
-      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 11 Aug 2026 21:39:11 +0000",
-      "summary": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
       "isAI": true
     }
   ]
