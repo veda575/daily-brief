@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-19T21:31:02.652623+00:00",
+  "updated": "2026-08-19T22:01:05.099781+00:00",
   "items": [
+    {
+      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 21:51:23 +0000",
+      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+      "isAI": true
+    },
     {
       "title": "Rillet raises $100M Series C at $1B valuation \u2014 2 years after emerging from stealth",
       "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
@@ -202,6 +210,14 @@
       "isAI": true
     },
     {
+      "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "source": "Hacker News",
+      "published": "Wed, 19 Aug 2026 14:48:39 +0000",
+      "summary": "Article URL: https://ornith.ai/ornith_1_5.html Comments URL: https://news.ycombinator.com/item?id=49362401 Points: 152 # Comments: 48",
+      "isAI": true
+    },
+    {
       "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
       "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
       "source": "VentureBeat AI",
@@ -246,7 +262,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 366 # Comments: 64",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 373 # Comments: 66",
       "isAI": false
     },
     {
@@ -290,11 +306,11 @@
       "isAI": false
     },
     {
-      "title": "Air Theremin \u2013 a browser theremin you play by waving at your webcam",
+      "title": "Air Theremin \u2013 A browser theremin you play by waving at your webcam",
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 219 # Comments: 75",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 225 # Comments: 79",
       "isAI": false
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 12 Aug 2026 18:45:00 +0000",
       "summary": "AI agents that break free and hack into other systems are only trying to make us happy.",
-      "isAI": true
-    },
-    {
-      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
-      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 18:19:12 +0000",
-      "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
-      "isAI": true
-    },
-    {
-      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
-      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 17:51:00 +0000",
-      "summary": "At Ai4, three of the world's most respected AI experts \u2014 Geoffrey Hinton, Fei-Fei Li, and Andrew Ng \u2014 debated regulation, open source access, and how America can compete as China advances in Asia.",
       "isAI": true
     }
   ]
