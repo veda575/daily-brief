@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T01:04:02.576696+00:00",
+  "updated": "2026-08-19T02:31:32.482548+00:00",
   "regions": {
     "us": [
       {
@@ -179,7 +179,7 @@
         "name": "SanDisk",
         "sector": "Storage / Flash Memory",
         "currency": "USD",
-        "marketCap": 237363888128.0,
+        "marketCap": 238045102080.0,
         "changePercent": -9.01418,
         "indexValue": 1625.78
       },
@@ -253,18 +253,18 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1168535573415.7764,
-        "changePercent": -6.6976743,
-        "indexValue": 250500.0
+        "marketCap": 1165360879764.6455,
+        "changePercent": -7.07635,
+        "indexValue": 249500.0
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 508245805556.8162,
-        "changePercent": -0.89605737,
-        "indexValue": 442.4
+        "marketCap": 509063612674.1885,
+        "changePercent": 0.13562526,
+        "indexValue": 443.0
       },
       {
         "ticker": "TSM",
@@ -537,8 +537,8 @@
         "sector": "Index / China (Hong Kong) Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.07040333,
-        "indexValue": 25471.15
+        "changePercent": -0.23382522,
+        "indexValue": 25411.59
       },
       {
         "ticker": "^IXIC",
@@ -555,8 +555,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.19208667,
-        "indexValue": 3990.3037
+        "changePercent": -1.7160212,
+        "indexValue": 3921.8425
       },
       {
         "ticker": "399001.SZ",
@@ -564,8 +564,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.55616003,
-        "indexValue": 14622.495
+        "changePercent": -3.2309265,
+        "indexValue": 14150.178
       }
     ]
   }
