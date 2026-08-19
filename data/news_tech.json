@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-19T17:03:35.318972+00:00",
+  "updated": "2026-08-19T17:41:12.244361+00:00",
   "items": [
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "source": "OpenAI",
+      "published": "Wed, 19 Aug 2026 19:00:00 GMT",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "isAI": true
+    },
+    {
+      "title": "Meet the startup helping Wall Street put a price on AI compute",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 17:26:48 +0000",
+      "summary": "The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn\u2019t a straightforward way to put a price on compute \u2014 or for firms to hedge their exposure when the price changes. Silicon Data [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "T-Mobile \u2018chopped a cable\u2019 to expel Chinese hackers from its network",
+      "url": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+      "source": "TechCrunch",
+      "published": "Wed, 19 Aug 2026 17:26:32 +0000",
+      "summary": "The U.S. phone provider escaped a large-scale breach of its network after identifying Chinese-backed hackers early on.",
+      "isAI": false
+    },
+    {
+      "title": "OpenAI hit the brakes. Now what?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "source": "The Verge AI",
+      "published": "2026-08-19T13:10:09-04:00",
+      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Meta AI is getting a Mac app",
       "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
@@ -134,7 +166,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 246 # Comments: 49",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 271 # Comments: 50",
       "isAI": false
     },
     {
@@ -182,7 +214,7 @@
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 170 # Comments: 67",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 176 # Comments: 69",
       "isAI": false
     },
     {
@@ -230,7 +262,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 409 # Comments: 248",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 414 # Comments: 252",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "Hacker News",
       "published": "Wed, 12 Aug 2026 16:04:50 +0000",
       "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 1005 # Comments: 431",
-      "isAI": true
-    },
-    {
-      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
-      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 16:04:27 +0000",
-      "summary": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
-      "isAI": true
-    },
-    {
-      "title": "Facebook officially rolls out its stand-alone Creator Studio app with AI tools for creators",
-      "url": "https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators/",
-      "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 15:56:13 +0000",
-      "summary": "The new app launches with Facebook's AI creator assistant built into it, providing creators with personalized recommendations based on their content style, performance, audience engagement, and goals.",
-      "isAI": true
-    },
-    {
-      "title": "Guitar company D\u2019Addario admits that AI music was used in a promotional video",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
-      "source": "The Verge AI",
-      "published": "2026-08-12T11:52:07-04:00",
-      "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
-      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 15:44:56 +0000",
-      "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
       "isAI": true
     }
   ]
