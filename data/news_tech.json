@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-19T05:26:38.503455+00:00",
+  "updated": "2026-08-19T05:56:20.589812+00:00",
   "items": [
     {
       "title": "Cerebras CS-4",
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 161 # Comments: 116",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 175 # Comments: 126",
       "isAI": true
     },
     {
@@ -23,6 +23,14 @@
       "source": "TechCrunch AI",
       "published": "Tue, 18 Aug 2026 22:14:25 +0000",
       "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "isAI": true
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "OpenAI",
+      "published": "Tue, 18 Aug 2026 22:00:00 GMT",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
       "isAI": true
     },
     {
@@ -358,7 +366,7 @@
       "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 161 # Comments: 54",
+      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 166 # Comments: 53",
       "isAI": false
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 12 Aug 2026 10:30:00 +0000",
       "summary": "Last week, an AI newsroom beat mainstream journalists\u2014including WIRED\u2014to a story about OpenAI and hacking. It\u2019s just the beginning.",
-      "isAI": true
-    },
-    {
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "url": "https://woxi.ad-si.com",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 10:06:29 +0000",
-      "summary": "Woxi is an interpreter for the Wolfram Language written in Rust.It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module.Compared with wolframscript / Mathematica, the main differences are:- Free and open source - Very fast startup - Typically milliseconds rather than seconds for the\u2026",
       "isAI": true
     }
   ]
