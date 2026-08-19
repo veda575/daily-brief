@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-19T19:26:26.565562+00:00",
+  "updated": "2026-08-19T19:51:15.664279+00:00",
   "items": [
+    {
+      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
+      "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 19:30:00 +0000",
+      "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
+      "isAI": true
+    },
     {
       "title": "AI was supposed to win people over by now \u2014 it hasn\u2019t",
       "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
@@ -42,11 +50,19 @@
       "isAI": true
     },
     {
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "OpenAI",
+      "published": "Wed, 19 Aug 2026 19:00:00 GMT",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "isAI": true
+    },
+    {
       "title": "Researchers say OpenAI revoked their access to limited cyber program",
       "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
       "source": "TechCrunch AI",
       "published": "Wed, 19 Aug 2026 18:46:14 +0000",
-      "summary": "Multiple cybersecurity researchers said they suddenly lost access to OpenAI\u2019s Trusted Access for Cyber (TAC) program, which offers models with fewer guardrails for vetted users.",
+      "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
       "isAI": true
     },
     {
@@ -214,7 +230,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 317 # Comments: 55",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 323 # Comments: 55",
       "isAI": false
     },
     {
@@ -262,7 +278,7 @@
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 192 # Comments: 70",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 204 # Comments: 74",
       "isAI": false
     },
     {
@@ -310,7 +326,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 433 # Comments: 255",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 442 # Comments: 256",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-12T13:29:10-04:00",
       "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "How Google\u2019s new Pixel 11 phones compare to last year\u2019s models",
-      "url": "https://www.theverge.com/gadgets/975237/google-pixel-11-pro-comparison-specs-price-features",
-      "source": "The Verge",
-      "published": "2026-08-12T13:00:00-04:00",
-      "summary": "Google just added four new phones to the Pixel family: the Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL, and the Pixel 11 Pro Fold. They're slightly more expensive than their predecessors, but they come with some notable upgrades, including improved cameras and a new Tensor G6 chip that should deliver faster performance. The [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Mesh, Automattic\u2019s CRM for everyone, comes to Android",
-      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 16:57:58 +0000",
-      "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
       "isAI": true
     }
   ]
