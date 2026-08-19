@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-19T16:32:44.317034+00:00",
+  "updated": "2026-08-19T17:03:35.318972+00:00",
   "items": [
+    {
+      "title": "Meta AI is getting a Mac app",
+      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "source": "The Verge AI",
+      "published": "2026-08-19T13:00:00-04:00",
+      "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Coders Say They Already Found Workarounds to Claude\u2019s Invisible Watermarks",
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 16:44:07 +0000",
+      "summary": "Anthropic announced last week it would include invisible watermarks in AI-generated content to comply with new EU rules. Within hours, overrides were being touted online.",
+      "isAI": true
+    },
+    {
+      "title": "Google Pixel Watch 5 Review: More Health, More AI",
+      "url": "https://www.wired.com/review/google-pixel-watch-5/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 16:34:24 +0000",
+      "summary": "With smarter gym tracking, new health alerts, and offline Gemini, the Pixel Watch 5 fine-tunes a winning formula\u2014for a price.",
+      "isAI": true
+    },
     {
       "title": "Time\u2019s running out! Save $300 on your TechCrunch Disrupt 2026 pass until August 21",
       "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
@@ -50,7 +74,7 @@
       "isAI": true
     },
     {
-      "title": "Rivian spinout Also raises another $150 million",
+      "title": "Rivian spinout Also raises another $150M",
       "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
       "source": "TechCrunch",
       "published": "Wed, 19 Aug 2026 15:39:47 +0000",
@@ -110,7 +134,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 223 # Comments: 44",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 246 # Comments: 49",
       "isAI": false
     },
     {
@@ -158,7 +182,7 @@
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 162 # Comments: 65",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 170 # Comments: 67",
       "isAI": false
     },
     {
@@ -206,7 +230,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 404 # Comments: 244",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 409 # Comments: 248",
       "isAI": true
     },
     {
@@ -574,7 +598,7 @@
       "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 277 # Comments: 92",
+      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 298 # Comments: 101",
       "isAI": false
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Wed, 12 Aug 2026 15:44:56 +0000",
       "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
-      "isAI": true
-    },
-    {
-      "title": "Grok 4.6",
-      "url": "https://x.ai/news/grok-4-6",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 15:32:50 +0000",
-      "summary": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-a... Comments URL: https://news.ycombinator.com/item?id=49274027 Points: 602 # Comments: 556",
-      "isAI": true
-    },
-    {
-      "title": "Booksellers suspect AI firms are buying and then destroying rare books",
-      "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 12 Aug 2026 15:19:17 +0000",
-      "summary": "AI firms quietly bulk buying rare books face resistance from booksellers.",
-      "isAI": true
-    },
-    {
-      "title": "Silkroad Innovation Hub\u2019s Road to Battlefield competition continues",
-      "url": "https://techcrunch.com/2026/08/12/silkroad-innovation-hubs-road-to-battlefield-competition-continues/",
-      "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 15:02:00 +0000",
-      "summary": "The Road to Battlefield competition is now in its second year, and its purpose is to give founders across Central Eurasia a direct route to Startup Battlefield",
       "isAI": true
     }
   ]
