@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T18:00:12.608289+00:00",
+  "updated": "2026-08-19T18:48:20.543649+00:00",
   "items": [
     {
       "title": "Offering Zero Data Retention for frontier models",
@@ -8,6 +8,22 @@
       "published": "Wed, 19 Aug 2026 19:00:00 GMT",
       "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
       "isAI": true
+    },
+    {
+      "title": "Researchers complain that OpenAI revoked their access to limited cyber program",
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 18:46:14 +0000",
+      "summary": "Multiple cybersecurity researchers said they suddenly lost access to OpenAI\u2019s Trusted Access for Cyber (TAC) program, which offers models with fewer guardrails for vetted users.",
+      "isAI": true
+    },
+    {
+      "title": "Watch Valve set up the Steam Frame in its own leaked videos",
+      "url": "https://www.theverge.com/games/982406/valve-steam-frame-setup-unboxing-leaked-videos",
+      "source": "The Verge",
+      "published": "2026-08-19T14:16:27-04:00",
+      "summary": "Valve just leaked several new videos showing the Steam Frame's unboxing, setup process, and various accessories. The videos apparently appeared on the ARM Steam client following an update, but they were \"quickly pulled after that,\" according to the Steam Hardware Updates account on X. The Steam Frame is Valve's virtual-reality headset that can stream games [\u2026]",
+      "isAI": false
     },
     {
       "title": "Meet the startup helping Wall Street put a price on AI compute",
@@ -166,7 +182,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 277 # Comments: 52",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 300 # Comments: 55",
       "isAI": false
     },
     {
@@ -214,7 +230,7 @@
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 178 # Comments: 69",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 188 # Comments: 70",
       "isAI": false
     },
     {
@@ -262,7 +278,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 416 # Comments: 252",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 421 # Comments: 253",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch",
       "published": "Wed, 12 Aug 2026 16:18:31 +0000",
       "summary": "Tesla wants to build a massive solar factory in Texas, but first it wants the state to chip in to defray the costs.",
-      "isAI": true
-    },
-    {
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "source": "Hugging Face",
-      "published": "Wed, 12 Aug 2026 16:14:36 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 16:04:50 +0000",
-      "summary": "https://api-docs.deepseek.com/https://artificialanalysis.ai/models/deepseek-v4-prohttps://twitter.com/ChrisGPT/status/2087572834650407024, https://xcancel.com/ChrisGPT/status/2087572834650407024 Comments URL: https://news.ycombinator.com/item?id=49274600 Points: 1005 # Comments: 431",
       "isAI": true
     }
   ]
