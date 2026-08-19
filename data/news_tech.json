@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-19T13:45:10.676032+00:00",
+  "updated": "2026-08-19T14:19:08.581026+00:00",
   "items": [
+    {
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "source": "VentureBeat AI",
+      "published": "Wed, 19 Aug 2026 14:18:12 GMT",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers \u2014 the directors, VPs, CIOs, and CTOs \u2014 who are evaluating, buying,\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Calendly throws its hat into meeting note-taker circus",
+      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 14:09:39 +0000",
+      "summary": "Calendly is also releasing a meeting scheduling assistant called Callie",
+      "isAI": true
+    },
+    {
+      "title": "The founder\u2019s secret weapon: Work at TechCrunch Disrupt 2026 and learn how the pros do it",
+      "url": "https://techcrunch.com/2026/08/19/the-founders-secret-weapon-work-at-techcrunch-disrupt-2026-and-learn-how-the-pros-do-it/",
+      "source": "TechCrunch",
+      "published": "Wed, 19 Aug 2026 14:02:00 +0000",
+      "summary": "Volunteer at TechCrunch Disrupt 2026 and get an insider's view of how world-class tech events get built and more.",
+      "isAI": false
+    },
+    {
+      "title": "This robot vacuum solves my kitchen stool problem",
+      "url": "https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review",
+      "source": "The Verge",
+      "published": "2026-08-19T10:00:00-04:00",
+      "summary": "Robot vacuums are great at keeping your floors clean, but there are a few areas they fall down on the job - stairs being one. Another is chairs and stools. You know the scenario: You have a row of stools at a kitchen table, or chairs tucked under a dining table, and the robovac just [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "Hugging Face",
+      "published": "Wed, 19 Aug 2026 13:48:49 GMT",
+      "summary": "",
+      "isAI": true
+    },
     {
       "title": "AI isn\u2019t close to curing cancer. This startup says it knows what it will take.",
       "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
@@ -74,11 +114,19 @@
       "isAI": true
     },
     {
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "source": "OpenAI",
+      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "isAI": true
+    },
+    {
       "title": "Cerebras CS-4",
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 360 # Comments: 221",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 368 # Comments: 226",
       "isAI": true
     },
     {
@@ -446,7 +494,7 @@
       "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 253 # Comments: 83",
+      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 260 # Comments: 85",
       "isAI": false
     },
     {
@@ -1952,54 +2000,6 @@
       "published": "2026-08-12T10:00:00-04:00",
       "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too, because the Pixel [\u2026]",
       "isAI": true
-    },
-    {
-      "title": "Google\u2019s Pixel 11 lineup offers fewer hardware changes, but much more Gemini",
-      "url": "https://techcrunch.com/2026/08/12/pixel-11-has-few-hardware-changes-and-more-gemini/",
-      "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 14:00:00 +0000",
-      "summary": "The Google Pixel 11 series starts $100 costlier than the last year, but offers 256GB base storage.",
-      "isAI": true
-    },
-    {
-      "title": "Google takes on AirTag with the new $29 Pixel Tag",
-      "url": "https://techcrunch.com/2026/08/12/google-takes-on-airtag-with-the-new-29-pixel-tag/",
-      "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 14:00:00 +0000",
-      "summary": "Google\u2019s new Pixel Tag taps into its Find Hub network to help users track lost keys, bags, and other items.",
-      "isAI": false
-    },
-    {
-      "title": "Google Pixel 11 Series, Pixel Watch 5, Pixel Tag: Specs, Features, Price, Release Date",
-      "url": "https://www.wired.com/story/pixel-11-pixel-watch-5-pixel-tag-everything-google-announced-at-its-made-by-google-2026-event/",
-      "source": "Wired",
-      "published": "Wed, 12 Aug 2026 14:00:00 +0000",
-      "summary": "The Pixel 11 smartphone lineup is here, alongside the Pixel Watch 5 and the all-new Pixel Tag.",
-      "isAI": false
-    },
-    {
-      "title": "Google\u2019s Pixel 11 series pairs a little new hardware with a lot of new software",
-      "url": "https://www.theverge.com/tech/978013/google-pixel-11-series-hands-on-hardware-software",
-      "source": "The Verge",
-      "published": "2026-08-12T10:00:00-04:00",
-      "summary": "When I first picked up the Pixel 11 Pro this week, it was clear to me that this was one of those refinement years - at least when it comes to hardware. Aesthetically, the phones are as beautiful as ever, with Google's signature camera bar and bright, colorful backing glass. There are small updates, like [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google is making the Pixel cameras better by making them worse",
-      "url": "https://www.theverge.com/tech/978084/google-camera-looks-interview-computational-photography",
-      "source": "The Verge",
-      "published": "2026-08-12T10:00:00-04:00",
-      "summary": "If you look at a photo taken by a smartphone today, it's hard to find much that's technically wrong. Faces are bright and visible. The skies are pristine and blue. Even at night, scenes are well lit and noise-free. If the physical limitations of a tiny camera are what you're trying to solve for, you [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Jaguar offers a first look inside the all-electric Type 01",
-      "url": "https://www.theverge.com/transportation/978793/jaguar-type-01-interior",
-      "source": "The Verge",
-      "published": "2026-08-12T09:48:48-04:00",
-      "summary": "Jaguar's all-electric Type 01 comes with a very beige interior that divides the four seats with a \"spine\" that spans the length of the cabin. New photos shared by Jaguar show a low-slung driver's seat, alongside a slim dashboard with a smartphone-style display in the center. This vehicle doesn't come with a traditional rear-view mirror, [\u2026]",
-      "isAI": false
     }
   ]
 }
