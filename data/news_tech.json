@@ -1,12 +1,20 @@
 {
-  "updated": "2026-08-19T08:54:11.596532+00:00",
+  "updated": "2026-08-19T09:30:41.016396+00:00",
   "items": [
+    {
+      "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
+      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 09:00:00 +0000",
+      "summary": "Flock\u2019s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates.",
+      "isAI": true
+    },
     {
       "title": "Cerebras CS-4",
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 255 # Comments: 179",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 266 # Comments: 187",
       "isAI": true
     },
     {
@@ -44,7 +52,7 @@
     {
       "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
       "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge AI",
+      "source": "The Verge",
       "published": "2026-08-18T15:28:30-04:00",
       "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [\u2026]",
       "isAI": true
@@ -234,7 +242,7 @@
       "isAI": false
     },
     {
-      "title": "Elon Musk broke the FAA \u2014 Palantir is picking up the pieces",
+      "title": "Elon Musk made flying even worse so Palantir could profit",
       "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
       "source": "The Verge AI",
       "published": "2026-08-18T07:00:00-04:00",
@@ -366,7 +374,7 @@
       "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 206 # Comments: 63",
+      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 210 # Comments: 65",
       "isAI": false
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "Wired",
       "published": "Wed, 12 Aug 2026 10:45:00 +0000",
       "summary": "LemonLime cofounder Jordan Zietz hears your criticism loud and clear. That\u2019s why he got his startup\u2019s logo tattooed on his shoulder.",
-      "isAI": true
-    },
-    {
-      "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
-      "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
-      "source": "Wired",
-      "published": "Wed, 12 Aug 2026 10:30:00 +0000",
-      "summary": "Last week, an AI newsroom beat mainstream journalists\u2014including WIRED\u2014to a story about OpenAI and hacking. It\u2019s just the beginning.",
       "isAI": true
     }
   ]
