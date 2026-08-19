@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-19T18:48:20.543649+00:00",
+  "updated": "2026-08-19T19:26:26.565562+00:00",
   "items": [
+    {
+      "title": "AI was supposed to win people over by now \u2014 it hasn\u2019t",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 19:11:40 +0000",
+      "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology \u2014 and Silicon Valley is discovering that widespread adoption doesn\u2019t necessarily lead to acceptance.",
+      "isAI": true
+    },
     {
       "title": "Offering Zero Data Retention for frontier models",
       "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
@@ -10,7 +18,31 @@
       "isAI": true
     },
     {
-      "title": "Researchers complain that OpenAI revoked their access to limited cyber program",
+      "title": "5 new ways to level up your learning with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "source": "Google AI",
+      "published": "Wed, 19 Aug 2026 19:00:00 +0000",
+      "summary": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
+      "isAI": true
+    },
+    {
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 19:00:00 +0000",
+      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "isAI": true
+    },
+    {
+      "title": "Google Gemini is getting a dedicated student hub",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "source": "The Verge AI",
+      "published": "2026-08-19T15:00:00-04:00",
+      "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Researchers say OpenAI revoked their access to limited cyber program",
       "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
       "source": "TechCrunch AI",
       "published": "Wed, 19 Aug 2026 18:46:14 +0000",
@@ -182,7 +214,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 300 # Comments: 55",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 317 # Comments: 55",
       "isAI": false
     },
     {
@@ -230,7 +262,7 @@
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 188 # Comments: 70",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 192 # Comments: 70",
       "isAI": false
     },
     {
@@ -278,7 +310,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 421 # Comments: 253",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 433 # Comments: 255",
       "isAI": true
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Wed, 12 Aug 2026 16:57:58 +0000",
       "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
-      "isAI": true
-    },
-    {
-      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 16:54:25 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis Comments URL: https://news.ycombinator.com/item?id=49275385 Points: 316 # Comments: 323",
-      "isAI": true
-    },
-    {
-      "title": "Scaling AI agents with trustworthy data",
-      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "source": "MIT Tech Review",
-      "published": "Wed, 12 Aug 2026 16:51:57 +0000",
-      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology\u2019s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-      "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 16:46:02 +0000",
-      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables \u2014 rings especially \u2014 are betting people want to capture stray thoughts and ideas the same way. One of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Tesla wants to build a $10B solar factory in Texas",
-      "url": "https://techcrunch.com/2026/08/12/tesla-wants-to-build-a-10b-solar-factory-in-texas/",
-      "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 16:18:31 +0000",
-      "summary": "Tesla wants to build a massive solar factory in Texas, but first it wants the state to chip in to defray the costs.",
       "isAI": true
     }
   ]
