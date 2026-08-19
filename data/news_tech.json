@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-19T15:46:56.858030+00:00",
+  "updated": "2026-08-19T16:32:44.317034+00:00",
   "items": [
+    {
+      "title": "Time\u2019s running out! Save $300 on your TechCrunch Disrupt 2026 pass until August 21",
+      "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
+      "source": "TechCrunch",
+      "published": "Wed, 19 Aug 2026 16:16:18 +0000",
+      "summary": "If you\u2019ve been circling around Disrupt, then now\u2019s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
+      "isAI": true
+    },
+    {
+      "title": "We reviewed the new Pixel lineup, ask us anything",
+      "url": "https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama",
+      "source": "The Verge",
+      "published": "2026-08-19T12:15:00-04:00",
+      "summary": "The embargo has lifted on Google's Pixel 11 series, as well as for its Pixel Watch 5. Now we get to talk smack - just kidding, the new hardware is good. We have four reviews live on the site that you can peruse at your leisure. We're giving subscribers a chance to engage with us [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Google\u2019s Pixel Watch 5 is promising \u2014 but it isn\u2019t finished",
+      "url": "https://www.theverge.com/tech/981957/google-pixel-watch-5-review-wearables-smartwatch",
+      "source": "The Verge",
+      "published": "2026-08-19T12:00:00-04:00",
+      "summary": "The Google Pixel Watch 5 has, in many ways, been the hardest Pixel Watch to accurately review. Barely anything has changed in terms of hardware. The sizes are the same, the chips and battery got an itty-bitty boost, and there's a new pyrite satin case finish. Instead, the big updates are all software-related: This year's [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
+      "url": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 16:00:00 +0000",
+      "summary": "Google\u2019s new voice typing is pure magic, but subpar gaming performance and a useless rear LED keep these flagships from true greatness.",
+      "isAI": true
+    },
+    {
+      "title": "Meta ran ads for an app promising to nudify female politicians",
+      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 19 Aug 2026 15:45:29 +0000",
+      "summary": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
+      "isAI": true
+    },
     {
       "title": "TerraPower\u2019s nuclear reactor has a secret weapon for powering AI data centers",
       "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
@@ -70,7 +110,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 175 # Comments: 38",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 223 # Comments: 44",
       "isAI": false
     },
     {
@@ -111,6 +151,14 @@
       "source": "Wired",
       "published": "Wed, 19 Aug 2026 10:30:00 +0000",
       "summary": "The Dell XPS 13 and MacBook Neo are both premium-feeling laptops with only 8 GB of RAM. Which $700 laptop is the better buy?",
+      "isAI": false
+    },
+    {
+      "title": "Air Theremin \u2013 a browser theremin you play by waving at your webcam",
+      "url": "https://theremin.bizibah.com/",
+      "source": "Hacker News",
+      "published": "Wed, 19 Aug 2026 10:15:00 +0000",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 162 # Comments: 65",
       "isAI": false
     },
     {
@@ -158,7 +206,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 393 # Comments: 237",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 404 # Comments: 244",
       "isAI": true
     },
     {
@@ -1951,54 +1999,6 @@
       "source": "TechCrunch",
       "published": "Wed, 12 Aug 2026 15:02:00 +0000",
       "summary": "The Road to Battlefield competition is now in its second year, and its purpose is to give founders across Central Eurasia a direct route to Startup Battlefield",
-      "isAI": true
-    },
-    {
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 14:22:30 +0000",
-      "summary": "Article URL: https://tailscale.com/blog/sqlite-wal-reset-bug Comments URL: https://news.ycombinator.com/item?id=49272832 Points: 917 # Comments: 177",
-      "isAI": false
-    },
-    {
-      "title": "Why Sandbar thinks it\u2019s voice-enabled ring can avoid the AI hardware graveyard",
-      "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 14:22:00 +0000",
-      "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables \u2014 rings especially \u2014 are betting people want to capture stray thoughts and ideas the same way. One of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Everything announced at Made by Google \u201926: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
-      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 14:20:33 +0000",
-      "summary": "From the Pixel 11 series and a brand new competitor to Apple\u2019s AirTag, here are all the announcements from the Made by Google 2026 event.",
-      "isAI": true
-    },
-    {
-      "title": "Tim King, AmigaDOS developer, has died",
-      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 14:09:11 +0000",
-      "summary": "Article URL: https://amiga-news.de/en/news/AN-2026-08-00070-EN.html Comments URL: https://news.ycombinator.com/item?id=49272655 Points: 290 # Comments: 35",
-      "isAI": false
-    },
-    {
-      "title": "Google\u2019s Pixel Watch 5 Can Now Detect Breathing Emergencies",
-      "url": "https://www.wired.com/story/googles-pixel-watch-5-can-now-detect-breathing-emergencies/",
-      "source": "Wired",
-      "published": "Wed, 12 Aug 2026 14:07:59 +0000",
-      "summary": "The company is also adding blood pressure and insulin resistance trends as proactive monitoring tools in the Google Health app.",
-      "isAI": false
-    },
-    {
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "url": "https://knownagents.com/insights",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 14:02:46 +0000",
-      "summary": "Article URL: https://knownagents.com/insights Comments URL: https://news.ycombinator.com/item?id=49272569 Points: 278 # Comments: 206",
       "isAI": true
     }
   ]
