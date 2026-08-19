@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-19T10:45:34.385949+00:00",
+  "updated": "2026-08-19T13:45:10.676032+00:00",
   "items": [
+    {
+      "title": "AI isn\u2019t close to curing cancer. This startup says it knows what it will take.",
+      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 19 Aug 2026 12:00:00 +0000",
+      "summary": "It's the data, stupid.",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia\u2019s new financial strategy does not compute",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "source": "The Verge AI",
+      "published": "2026-08-19T08:00:00-04:00",
+      "summary": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The everyday tech I use to track my corgi",
+      "url": "https://www.theverge.com/gadgets/981143/airtag-corgi-pet-tech-tracking",
+      "source": "The Verge",
+      "published": "2026-08-19T07:30:00-04:00",
+      "summary": "The Apple AirTag may be a jack-of-all-trades - people use it for keeping track of keys, suitcases, backpacks, purses - but I think the most logical use case for it, by far, is keeping track of your pet. I attach it to my corgi Jelly's collar via a matching silicone holder. Have I ever once [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "I Tried a Window-Cleaning Robot: Do Not Recommend",
+      "url": "https://www.wired.com/story/window-cleaning-robots-are-kinda-terrible/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 11:08:00 +0000",
+      "summary": "I tested the top-of-the-line Ecovacs Winbot W2S Omni window-cleaning robot on my Victorian home, and it was an unmitigated disaster.",
+      "isAI": false
+    },
     {
       "title": "Dell XPS 13 vs. MacBook Neo: A Surprising Upset",
       "url": "https://www.wired.com/story/macbook-neo-vs-dell-xps-13/",
@@ -46,7 +78,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 293 # Comments: 202",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 360 # Comments: 221",
       "isAI": true
     },
     {
@@ -63,6 +95,14 @@
       "source": "TechCrunch AI",
       "published": "Tue, 18 Aug 2026 22:14:25 +0000",
       "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "isAI": true
+    },
+    {
+      "title": "AI usage patterns in software teams",
+      "url": "https://linear.app/data",
+      "source": "Hacker News",
+      "published": "Tue, 18 Aug 2026 22:08:07 +0000",
+      "summary": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 158 # Comments: 101",
       "isAI": true
     },
     {
@@ -406,7 +446,7 @@
       "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 221 # Comments: 69",
+      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 253 # Comments: 83",
       "isAI": false
     },
     {
@@ -1960,46 +2000,6 @@
       "published": "2026-08-12T09:48:48-04:00",
       "summary": "Jaguar's all-electric Type 01 comes with a very beige interior that divides the four seats with a \"spine\" that spans the length of the cabin. New photos shared by Jaguar show a low-slung driver's seat, alongside a slim dashboard with a smartphone-style display in the center. This vehicle doesn't come with a traditional rear-view mirror, [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "Researchers found a way to hijack devices through Zoom screen sharing",
-      "url": "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/",
-      "source": "Ars Technica",
-      "published": "Wed, 12 Aug 2026 13:37:12 +0000",
-      "summary": "A public AI tool found the dangerous Zoom flaw in under 20 prompts.",
-      "isAI": true
-    },
-    {
-      "title": "AI is removing the middle class of software engineering?",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 13:20:05 +0000",
-      "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 875 # Comments: 785",
-      "isAI": true
-    },
-    {
-      "title": "Shade Map",
-      "url": "https://shademap.app",
-      "source": "Hacker News",
-      "published": "Wed, 12 Aug 2026 13:01:21 +0000",
-      "summary": "Article URL: https://shademap.app Comments URL: https://news.ycombinator.com/item?id=49271757 Points: 209 # Comments: 52",
-      "isAI": false
-    },
-    {
-      "title": "Honor\u2019s Robot Phone Has a Gimbal-Powered Camera for Vloggers",
-      "url": "https://www.wired.com/story/honor-robot-phone/",
-      "source": "Wired",
-      "published": "Wed, 12 Aug 2026 12:30:00 +0000",
-      "summary": "Honor\u2019s new China-exclusive Android phone features a pop-out motorized gimbal camera designed to replace your action cam.",
-      "isAI": false
-    },
-    {
-      "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
-      "source": "The Verge AI",
-      "published": "2026-08-12T08:09:34-04:00",
-      "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well [\u2026]",
-      "isAI": true
     }
   ]
 }
