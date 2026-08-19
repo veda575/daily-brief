@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-19T10:03:33.180766+00:00",
+  "updated": "2026-08-19T10:45:34.385949+00:00",
   "items": [
+    {
+      "title": "Dell XPS 13 vs. MacBook Neo: A Surprising Upset",
+      "url": "https://www.wired.com/story/macbook-neo-vs-dell-xps-13/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 10:30:00 +0000",
+      "summary": "The Dell XPS 13 and MacBook Neo are both premium-feeling laptops with only 8 GB of RAM. Which $700 laptop is the better buy?",
+      "isAI": false
+    },
+    {
+      "title": "Framework gave its 12-inch laptop some hardware upgrades",
+      "url": "https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability",
+      "source": "The Verge",
+      "published": "2026-08-19T06:14:26-04:00",
+      "summary": "Framework has refreshed its 12-inch convertible laptop, introducing Intel's latest Core Series 3 processors, expanded hardware customizations, and a pre-built Linux option. The cheapest pre-built base configuration for the Framework Laptop 12 now starts at $699 - $100 less than the previous version when it launched last year. Preorders are open now, with the first [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
       "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
@@ -8,6 +24,14 @@
       "published": "Wed, 19 Aug 2026 10:00:00 +0000",
       "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
       "isAI": true
+    },
+    {
+      "title": "Reverse-Lookup Service Exposed Millions of Photos of People\u2019s Faces",
+      "url": "https://www.wired.com/story/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "source": "Wired",
+      "published": "Wed, 19 Aug 2026 10:00:00 +0000",
+      "summary": "The people-search tool ClarityCheck says its reverse image search service is \u201cprivate and secure\u201d\u2014but it left a database containing more than 9 million image files exposed.",
+      "isAI": false
     },
     {
       "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
@@ -22,7 +46,7 @@
       "url": "https://www.cerebras.ai/cs4",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 277 # Comments: 196",
+      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 293 # Comments: 202",
       "isAI": true
     },
     {
@@ -382,7 +406,7 @@
       "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 214 # Comments: 67",
+      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 221 # Comments: 69",
       "isAI": false
     },
     {
@@ -1976,30 +2000,6 @@
       "published": "2026-08-12T08:09:34-04:00",
       "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well [\u2026]",
       "isAI": true
-    },
-    {
-      "title": "Grok is now an AI \u2018teammate\u2019 you can assign work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-      "source": "The Verge AI",
-      "published": "2026-08-12T07:58:54-04:00",
-      "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming back when their assigned work [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AI code-testing startup Blacksmith\u2019s valuation jumps almost 10x in less than a year",
-      "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 11:00:00 +0000",
-      "summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
-      "isAI": true
-    },
-    {
-      "title": "Ego 1300 Electric Mower Review: Tame Your Lawn Without Gas",
-      "url": "https://www.wired.com/review/ego-1300-electric-lawn-mower/",
-      "source": "Wired",
-      "published": "Wed, 12 Aug 2026 11:00:00 +0000",
-      "summary": "Ego\u2019s newest, biggest, self-propelled mower handles larger yards in less time with impressive performance and battery life.",
-      "isAI": false
     }
   ]
 }
