@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-20T09:49:55.010584+00:00",
+  "updated": "2026-08-20T10:26:46.624453+00:00",
   "items": [
+    {
+      "title": "How Teen \u2018After-Prom\u2019 Kings in LA Monetized the High School Rager",
+      "url": "https://www.wired.com/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
+      "source": "Wired",
+      "published": "Thu, 20 Aug 2026 10:00:00 +0000",
+      "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire.",
+      "isAI": false
+    },
+    {
+      "title": "Unlocking hidden revenue streams with market models",
+      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 20 Aug 2026 09:47:22 +0000",
+      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name\u2026",
+      "isAI": true
+    },
     {
       "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
       "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
@@ -14,7 +30,7 @@
       "url": "https://dontpastetheai.com/",
       "source": "Hacker News",
       "published": "Thu, 20 Aug 2026 08:20:44 +0000",
-      "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 151 # Comments: 88",
+      "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 265 # Comments: 145",
       "isAI": true
     },
     {
@@ -126,7 +142,7 @@
       "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 18:36:45 +0000",
-      "summary": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 266 # Comments: 96",
+      "summary": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 274 # Comments: 99",
       "isAI": true
     },
     {
@@ -190,7 +206,7 @@
       "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 16:26:05 +0000",
-      "summary": "Article URL: https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/ Comments URL: https://news.ycombinator.com/item?id=49363668 Points: 150 # Comments: 62",
+      "summary": "Article URL: https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/ Comments URL: https://news.ycombinator.com/item?id=49363668 Points: 152 # Comments: 62",
       "isAI": true
     },
     {
@@ -254,7 +270,7 @@
       "url": "https://arxiv.org/abs/2608.16753",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 15:14:25 +0000",
-      "summary": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 168 # Comments: 196",
+      "summary": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 172 # Comments: 199",
       "isAI": true
     },
     {
@@ -318,7 +334,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 475 # Comments: 78",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 482 # Comments: 78",
       "isAI": false
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Hugging Face",
       "published": "Thu, 13 Aug 2026 00:00:00 GMT",
       "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
-      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 12 Aug 2026 22:26:37 +0000",
-      "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
-      "isAI": true
-    },
-    {
-      "title": "AI nuclear power firm Fermi finally has a new CEO",
-      "url": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
-      "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 22:24:00 +0000",
-      "summary": "Lee McIntire, an independent member of Fermi's board, has been hired as CEO, more than three months since the company fired co-founder Toby Neugebauer from the top post.",
       "isAI": true
     }
   ]
