@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-20T18:40:33.655746+00:00",
+  "updated": "2026-08-20T19:19:01.248387+00:00",
   "items": [
+    {
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 20 Aug 2026 19:18:21 +0000",
+      "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+      "isAI": true
+    },
+    {
+      "title": "Runlayer, Rippling drop lawsuits. But the brouhaha is still a cautionary tale for founders.",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 20 Aug 2026 19:15:05 +0000",
+      "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "isAI": true
+    },
+    {
+      "title": "Silicon Valley Doesn't Get Why You Hate AI",
+      "url": "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
+      "source": "Wired",
+      "published": "Thu, 20 Aug 2026 18:49:07 +0000",
+      "summary": "Technology leaders don\u2019t seem to understand society\u2019s gripes about AI, but boy, are they posting through it.",
+      "isAI": true
+    },
     {
       "title": "Linkdaze\u2019s smart calendar is built to run a household, not just track a schedule",
       "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
@@ -31,6 +55,14 @@
       "source": "The Verge",
       "published": "2026-08-20T13:16:02-04:00",
       "summary": "Some Framework Laptop 13 owners with last-gen AMD chips have reported that a recent BIOS update is bricking their laptops on both Windows and Linux. The BIOS update causing this issue is version 3.20 for Ryzen 7040-series mainboards, released back in July and still available on Framework's site at the time of this writing. Upon [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Roblox must make changes after failing to block adults creeping on kids",
+      "url": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/",
+      "source": "Ars Technica",
+      "published": "Thu, 20 Aug 2026 17:14:08 +0000",
+      "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
       "isAI": false
     },
     {
@@ -1967,38 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Thu, 13 Aug 2026 18:28:14 +0000",
       "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today\u2019s safety tests capture the risks of multi-agent systems.",
-      "isAI": true
-    },
-    {
-      "title": "Flock \u201ccan\u2019t tech its way out\u201d of the stalker cop problem, experts say",
-      "url": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/",
-      "source": "Ars Technica",
-      "published": "Thu, 13 Aug 2026 18:10:14 +0000",
-      "summary": "Flock to lock out cops who stalk exes, but agencies can still hide abuse.",
-      "isAI": false
-    },
-    {
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "source": "Hacker News",
-      "published": "Thu, 13 Aug 2026 18:10:02 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai Comments URL: https://news.ycombinator.com/item?id=49289844 Points: 678 # Comments: 263",
-      "isAI": true
-    },
-    {
-      "title": "You can now just point at a mess and this robot vacuum will suck it up",
-      "url": "https://www.theverge.com/tech/979516/matic-cues-robot-vacuum-gesture-control-hands-on-review",
-      "source": "The Verge",
-      "published": "2026-08-13T14:00:00-04:00",
-      "summary": "Matic, my current favorite robot vacuum, just got a big upgrade. The company has launched Matic Cues, which brings voice and gesture control to the robot. Now, you can talk directly to your vacuum to tell it what you want it to do, or just point at a mess to have it spot-clean. The feature [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "The new Instagram logo is the perfect embodiment of AI slop",
-      "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 13 Aug 2026 17:32:10 +0000",
-      "summary": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
       "isAI": true
     }
   ]
