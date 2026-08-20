@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T05:57:40.554503+00:00",
+  "updated": "2026-08-20T06:51:40.075155+00:00",
   "items": [
     {
       "title": "Stripe didn\u2019t really buy OpenRouter because of the \u2018singularity\u2019",
@@ -110,7 +110,7 @@
       "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 18:36:45 +0000",
-      "summary": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 226 # Comments: 84",
+      "summary": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 231 # Comments: 90",
       "isAI": true
     },
     {
@@ -226,6 +226,14 @@
       "isAI": false
     },
     {
+      "title": "Mathematics in the age of AI",
+      "url": "https://arxiv.org/abs/2608.16753",
+      "source": "Hacker News",
+      "published": "Wed, 19 Aug 2026 15:14:25 +0000",
+      "summary": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 153 # Comments: 182",
+      "isAI": true
+    },
+    {
       "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
       "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
       "source": "TechCrunch AI",
@@ -238,7 +246,7 @@
       "url": "https://ornith.ai/ornith_1_5.html",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 14:48:39 +0000",
-      "summary": "Article URL: https://ornith.ai/ornith_1_5.html Comments URL: https://news.ycombinator.com/item?id=49362401 Points: 184 # Comments: 61",
+      "summary": "Article URL: https://ornith.ai/ornith_1_5.html Comments URL: https://news.ycombinator.com/item?id=49362401 Points: 188 # Comments: 61",
       "isAI": true
     },
     {
@@ -286,7 +294,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 446 # Comments: 77",
+      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 454 # Comments: 77",
       "isAI": false
     },
     {
@@ -334,7 +342,7 @@
       "url": "https://theremin.bizibah.com/",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 265 # Comments: 88",
+      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 268 # Comments: 90",
       "isAI": false
     },
     {
@@ -414,7 +422,7 @@
       "url": "https://fx.sh",
       "source": "Hacker News",
       "published": "Tue, 18 Aug 2026 22:00:21 +0000",
-      "summary": "Article URL: https://fx.sh Comments URL: https://news.ycombinator.com/item?id=49353339 Points: 224 # Comments: 96",
+      "summary": "Article URL: https://fx.sh Comments URL: https://news.ycombinator.com/item?id=49353339 Points: 235 # Comments: 99",
       "isAI": true
     },
     {
@@ -1991,14 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Wed, 12 Aug 2026 21:00:30 +0000",
       "summary": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
-      "isAI": true
-    },
-    {
-      "title": "The White House Is Going to Expand Its AI Policy",
-      "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
-      "source": "Wired",
-      "published": "Wed, 12 Aug 2026 21:00:00 +0000",
-      "summary": "Open models may soon be added to an updated AI framework, sources tell WIRED, as the White House continues to grapple with how to regulate a technology it has tried not to regulate.",
       "isAI": true
     }
   ]
