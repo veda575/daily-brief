@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-20T16:45:04.963741+00:00",
+  "updated": "2026-08-20T17:14:04.314132+00:00",
   "items": [
+    {
+      "title": "Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner",
+      "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
+      "source": "TechCrunch",
+      "published": "Thu, 20 Aug 2026 17:04:53 +0000",
+      "summary": "At Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments.",
+      "isAI": true
+    },
+    {
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face",
+      "published": "Thu, 20 Aug 2026 16:52:57 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Ramp launches its own AI model router, called Router",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 20 Aug 2026 16:46:00 +0000",
+      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+      "isAI": true
+    },
     {
       "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
       "url": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
@@ -204,6 +228,14 @@
     {
       "title": "How Teen \u2018After-Prom\u2019 Kings in LA Monetized the High School Rager",
       "url": "https://www.wired.com/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
+      "source": "Wired",
+      "published": "Thu, 20 Aug 2026 10:00:00 +0000",
+      "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire.",
+      "isAI": false
+    },
+    {
+      "title": "How Teen \u2018After-Prom\u2019 Kings in LA Monetized the High School Rager",
+      "url": "https://www.wired.com/story/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
       "source": "Wired",
       "published": "Thu, 20 Aug 2026 10:00:00 +0000",
       "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire.",
@@ -1968,38 +2000,6 @@
       "published": "Thu, 13 Aug 2026 17:05:12 +0000",
       "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 393 # Comments: 156",
       "isAI": true
-    },
-    {
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "source": "Google DeepMind",
-      "published": "Thu, 13 Aug 2026 17:04:18 +0000",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
-      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 13 Aug 2026 17:00:13 +0000",
-      "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"",
-      "isAI": true
-    },
-    {
-      "title": "Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "source": "Google AI",
-      "published": "Thu, 13 Aug 2026 16:45:00 +0000",
-      "summary": "The video shows Sheets canvas in action.",
-      "isAI": true
-    },
-    {
-      "title": "Ford on track to complete $2B factory overhaul for Fathom EV truck",
-      "url": "https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
-      "source": "TechCrunch",
-      "published": "Thu, 13 Aug 2026 16:37:53 +0000",
-      "summary": "Ford expects to begin prototype builds of the Fathom EV in the first quarter of 2027.",
-      "isAI": false
     }
   ]
 }
