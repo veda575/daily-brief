@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-20T19:19:01.248387+00:00",
+  "updated": "2026-08-20T19:56:03.920238+00:00",
   "items": [
+    {
+      "title": "The Genesis GV90 blows the bloody doors off what\u2019s possible in EV design",
+      "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
+      "source": "The Verge",
+      "published": "2026-08-20T15:52:57-04:00",
+      "summary": "Genesis, Hyundai's luxury brand, just revealed its first full-size, three-row electric SUV for the US market, the GV90. And arguably it has some of the wildest designs and features in the auto market today. Right off the bat, the coach-style doors signal that things aren't what they seem with the GV90. When the front and [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Google gives publishers a new way to fight AI-driven traffic losses",
       "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
@@ -10,7 +18,7 @@
       "isAI": true
     },
     {
-      "title": "Runlayer, Rippling drop lawsuits. But the brouhaha is still a cautionary tale for founders.",
+      "title": "Runlayer, Rippling drop lawsuits \u2014 but the brouhaha is still a cautionary tale for founders",
       "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
       "source": "TechCrunch AI",
       "published": "Thu, 20 Aug 2026 19:15:05 +0000",
@@ -327,6 +335,14 @@
       "source": "Hacker News",
       "published": "Thu, 20 Aug 2026 08:20:44 +0000",
       "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 856 # Comments: 430",
+      "isAI": true
+    },
+    {
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "source": "OpenAI",
+      "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Thu, 13 Aug 2026 19:19:49 +0000",
       "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
-      "isAI": true
-    },
-    {
-      "title": "I finally found a robot lawnmower I\u2019d trust with my yard",
-      "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame",
-      "source": "The Verge",
-      "published": "2026-08-13T14:30:00-04:00",
-      "summary": "Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they\u2019re still not set-it-and-forget-it machines. If you don\u2019t want these autonomous cutting machines to tear up your lawn or go roaming in your neighbors\u2019 yard, you\u2019re still going to need to keep an eye on them. But [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
-      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 13 Aug 2026 18:28:14 +0000",
-      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today\u2019s safety tests capture the risks of multi-agent systems.",
       "isAI": true
     }
   ]
