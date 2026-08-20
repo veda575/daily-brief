@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-20T21:44:00.949218+00:00",
+  "updated": "2026-08-20T22:03:59.930186+00:00",
   "items": [
+    {
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "source": "The Verge AI",
+      "published": "2026-08-20T17:50:22-04:00",
+      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [\u2026]",
+      "isAI": true
+    },
     {
       "title": "The Enhanced Games \u2014 tech\u2019s steroid extravaganza \u2014 didn\u2019t pay off, as company posts $60 million loss",
       "url": "https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/",
@@ -10,11 +18,11 @@
       "isAI": false
     },
     {
-      "title": "Ok, can we actually cool data centers with our pee?",
+      "title": "OK, can we actually cool data centers with our pee?",
       "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
       "source": "TechCrunch AI",
       "published": "Thu, 20 Aug 2026 20:53:13 +0000",
-      "summary": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- his suggestion is not completely ludicrous.",
+      "summary": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
       "isAI": true
     },
     {
@@ -47,6 +55,14 @@
       "source": "TechCrunch AI",
       "published": "Thu, 20 Aug 2026 19:15:05 +0000",
       "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "isAI": true
+    },
+    {
+      "title": "Show HN: Huzzah \u2013 a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "source": "Hacker News",
+      "published": "Thu, 20 Aug 2026 19:05:36 +0000",
+      "summary": "Hello everyone. I've been working on this experimental editor called Huzzah.I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there's a complexity limit for\u2026",
       "isAI": true
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "Thu, 13 Aug 2026 21:13:24 +0000",
       "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
       "isAI": true
-    },
-    {
-      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
-      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 13 Aug 2026 20:14:39 +0000",
-      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
-      "isAI": true
-    },
-    {
-      "title": "This school-friendly laptop from HP is $300 off",
-      "url": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale",
-      "source": "The Verge",
-      "published": "2026-08-13T16:07:53-04:00",
-      "summary": "With memory prices still high and showing no signs of dropping, we\u2019re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X Flip discounted by $300, bringing the cost down to $699.99. This model is equipped with an Intel Core Ultra [\u2026]",
-      "isAI": false
     }
   ]
 }
