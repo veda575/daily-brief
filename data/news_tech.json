@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-20T15:59:38.557918+00:00",
+  "updated": "2026-08-20T16:45:04.963741+00:00",
   "items": [
+    {
+      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
+      "url": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
+      "source": "TechCrunch",
+      "published": "Thu, 20 Aug 2026 16:22:19 +0000",
+      "summary": "The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.",
+      "isAI": false
+    },
+    {
+      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 20 Aug 2026 16:07:26 +0000",
+      "summary": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+      "isAI": true
+    },
     {
       "title": "The 2026 Startup Battlefield 200 is here \u2014 see who made the cut",
       "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
@@ -31,6 +47,14 @@
       "source": "The Verge AI",
       "published": "2026-08-20T11:45:55-04:00",
       "summary": "OpenAI has had a hell of a year. The company spent months battling former co-founder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 20 Aug 2026 15:42:39 +0000",
+      "summary": "\u201cRunaway\u201d AI, \u201crogue\u201d agents, and \u201cautonomous\u201d actors\u2014the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly \u201csuperhuman\u201d systems, while a separate faction, led by policy organizations\u2026",
       "isAI": true
     },
     {
@@ -126,7 +150,7 @@
       "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
       "source": "TechCrunch AI",
       "published": "Thu, 20 Aug 2026 12:11:57 +0000",
-      "summary": "Meta said its Muse Spark model is powering the dictation feature.",
+      "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
       "isAI": true
     },
     {
@@ -1976,30 +2000,6 @@
       "published": "Thu, 13 Aug 2026 16:37:53 +0000",
       "summary": "Ford expects to begin prototype builds of the Fathom EV in the first quarter of 2027.",
       "isAI": false
-    },
-    {
-      "title": "Ford\u2019s $28,000 Fathom EV nears production after $2 billion factory overhaul",
-      "url": "https://www.theverge.com/transportation/979565/ford-fathom-uev-louisville-assembly-plant",
-      "source": "The Verge",
-      "published": "2026-08-13T12:23:18-04:00",
-      "summary": "Ford said today that its next-generation electric vehicle - recently dubbed Fathom - will go into production at the automaker's recently overhauled Louisville Assembly Plant in the first quarter of 2027. The first Fathoms will be prototypes, with Ford's team in Louisville already in the production-level pre-tooling phase at the recently converted facility. Factory workers [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Meta adds AI screening to detect WhatsApp scams",
-      "url": "https://www.theverge.com/tech/979654/meta-whatsapp-scam-message-detection",
-      "source": "The Verge",
-      "published": "2026-08-13T12:10:06-04:00",
-      "summary": "Meta is launching an optional Scam Alert feature on WhatsApp that uses on-device machine learning to flag suspicious messages. Earlier this year, Meta also launched scam detection for device linking requests on WhatsApp. The new Scam Alert feature, which is rolling out in a limited beta, shows users a warning if a chat seems like [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Suno is trying to look more like a real music production tool",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-      "source": "The Verge AI",
-      "published": "2026-08-13T12:00:00-04:00",
-      "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, [\u2026]",
-      "isAI": true
     }
   ]
 }
