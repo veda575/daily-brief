@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-20T13:48:28.406993+00:00",
+  "updated": "2026-08-20T14:37:11.760649+00:00",
   "items": [
+    {
+      "title": "Here\u2019s what data Comcast says its motion-detecting routers collect",
+      "url": "https://www.theverge.com/tech/982689/comcast-xfinity-wifi-motion-privacy-concerns-response",
+      "source": "The Verge",
+      "published": "2026-08-20T10:00:22-04:00",
+      "summary": "Comcast announced a new platform this week called Xfinity Shield that includes the option to let customers turn their routers into motion sensors. Many people reacted with fear and anger. \"I am not enabling this. I am also seriously considering replacing my leased gateway with my own equipment, because a device I do not control [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Welcome to the AI crisis in math",
+      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "source": "The Verge AI",
+      "published": "2026-08-20T10:00:00-04:00",
+      "summary": "Today on Decoder, I\u2019m talking with Robert Hart, The Verge\u2019s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "We played The Duskbloods, the Switch 2\u2019s wildest new exclusive",
+      "url": "https://www.theverge.com/entertainment/981990/the-duskbloods-hands-on-nintendo-switch-2-fromsoftware",
+      "source": "The Verge",
+      "published": "2026-08-20T10:00:00-04:00",
+      "summary": "The Duskbloods is a world away from the approachable games Nintendo is known for. But for its next Switch 2 exclusive, the company has partnered with Elden Ring developer FromSoftware on a hardcore multiplayer game about vampires. And after spending a few hours playing through its gothic world at FromSoft's offices in Tokyo, I'm convinced [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Waymo lifts the lid on the \u2018brain\u2019 powering its robotaxis",
+      "url": "https://www.theverge.com/transportation/982653/waymo-brain-computer-chip-robotaxi-hardware-suppliers",
+      "source": "The Verge",
+      "published": "2026-08-20T10:00:00-04:00",
+      "summary": "What's in the trunk of your car? Shopping bags? A spare tire? Jumper cables? What about a high-powered computer capable of performing up to one quadrillion operations a second? Only if you're Waymo. For the first time, Waymo revealed key details about the heavy compute \"brain\" housed in the trunk of its robotaxis, including chip [\u2026]",
+      "isAI": true
+    },
     {
       "title": "DJI Osmo fans are breaking the shackles of its closed-source camera app",
       "url": "https://www.theverge.com/tech/981852/osmosis-app-download-dji-osmo-camera-video-mimo-replacement",
@@ -47,6 +79,14 @@
       "source": "TechCrunch AI",
       "published": "Thu, 20 Aug 2026 12:11:57 +0000",
       "summary": "Meta said its Muse Spark model is powering the dictation feature.",
+      "isAI": true
+    },
+    {
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "source": "Hacker News",
+      "published": "Thu, 20 Aug 2026 12:04:38 +0000",
+      "summary": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.The app is free if anyone wants to try it. Happy to answer questions\u2026",
       "isAI": true
     },
     {
@@ -118,7 +158,7 @@
       "url": "https://dontpastetheai.com/",
       "source": "Hacker News",
       "published": "Thu, 20 Aug 2026 08:20:44 +0000",
-      "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 729 # Comments: 361",
+      "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 856 # Comments: 430",
       "isAI": true
     },
     {
@@ -230,7 +270,7 @@
       "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
       "source": "Hacker News",
       "published": "Wed, 19 Aug 2026 18:36:45 +0000",
-      "summary": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 301 # Comments: 106",
+      "summary": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 309 # Comments: 110",
       "isAI": true
     },
     {
@@ -1960,46 +2000,6 @@
       "published": "Thu, 13 Aug 2026 14:09:05 +0000",
       "summary": "The new order sweeps away decades of existing U.S. cybersecurity policy prohibiting private companies from conducting 'hack back' attacks or offensive cyber operations.",
       "isAI": true
-    },
-    {
-      "title": "Anthropic could be worth $2 trillion when it goes public",
-      "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 13 Aug 2026 13:58:56 +0000",
-      "summary": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-      "isAI": true
-    },
-    {
-      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
-      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 13 Aug 2026 13:41:10 +0000",
-      "summary": "The police-tech giant Flock is announcing today that it will change officers\u2019 access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Microsoft is combining its Copilot apps ahead of a \u2018super app\u2019",
-      "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
-      "source": "The Verge AI",
-      "published": "2026-08-13T09:30:00-04:00",
-      "summary": "Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single \"super app\" interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the \"Microsoft Copilot\" name but features an updated app icon. The single [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Choosing an AI model: one prompt, 11 models, different results",
-      "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
-      "source": "Hacker News",
-      "published": "Thu, 13 Aug 2026 13:05:29 +0000",
-      "summary": "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news.ycombinator.com/item?id=49285327 Points: 187 # Comments: 77",
-      "isAI": true
-    },
-    {
-      "title": "Flock CEO: \u2018We got this one wrong\u2019",
-      "url": "https://www.theverge.com/policy/979339/flock-ceo-audits-data-retention",
-      "source": "The Verge",
-      "published": "2026-08-13T09:00:00-04:00",
-      "summary": "Surveillance tech company Flock is rolling out updates to address reports of cops across the country abusing its tools to stalk ex-romantic partners and others. CEO Garrett Langley is delivering a mea culpa, and in an interview with The Verge, says he's changed his mind on what responsibility Flock bears for how law enforcement uses [\u2026]",
-      "isAI": false
     }
   ]
 }
