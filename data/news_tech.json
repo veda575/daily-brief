@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-20T17:14:04.314132+00:00",
+  "updated": "2026-08-20T17:48:33.682336+00:00",
   "items": [
+    {
+      "title": "Grok keeps sending gibberish responses to users",
+      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 20 Aug 2026 17:32:16 +0000",
+      "summary": "Affected users told TechCrunch say they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+      "isAI": true
+    },
+    {
+      "title": "A third of web pages published since ChatGPT\u2019s launch show signs of AI authorship, study finds",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 20 Aug 2026 17:18:58 +0000",
+      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+      "isAI": true
+    },
+    {
+      "title": "Framework says it\u2019s addressing a BIOS update that bricked some of its older laptops",
+      "url": "https://www.theverge.com/gadgets/982800/framework-laptop-13-amd-7040-bios-320-bricking-warranty",
+      "source": "The Verge",
+      "published": "2026-08-20T13:16:02-04:00",
+      "summary": "Some Framework Laptop 13 owners with last-gen AMD chips have reported that a recent BIOS update is bricking their laptops on both Windows and Linux. The BIOS update causing this issue is version 3.20 for Ryzen 7040-series mainboards, released back in July and still available on Framework's site at the time of this writing. Upon [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner",
       "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
@@ -1975,30 +1999,6 @@
       "source": "Hacker News",
       "published": "Thu, 13 Aug 2026 17:23:22 +0000",
       "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 928 # Comments: 468",
-      "isAI": true
-    },
-    {
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "source": "Hugging Face",
-      "published": "Thu, 13 Aug 2026 17:16:04 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI hires new CRO as executive shake-up continues",
-      "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 13 Aug 2026 17:07:13 +0000",
-      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
-      "isAI": true
-    },
-    {
-      "title": "Mistral OCR 4.1",
-      "url": "https://docs.mistral.ai/models/ocr-4-1",
-      "source": "Hacker News",
-      "published": "Thu, 13 Aug 2026 17:05:12 +0000",
-      "summary": "Article URL: https://docs.mistral.ai/models/ocr-4-1 Comments URL: https://news.ycombinator.com/item?id=49288889 Points: 393 # Comments: 156",
       "isAI": true
     }
   ]
