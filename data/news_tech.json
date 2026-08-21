@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T15:14:43.259005+00:00",
+  "updated": "2026-08-21T15:51:56.184502+00:00",
   "items": [
     {
       "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
@@ -10,12 +10,28 @@
       "isAI": true
     },
     {
+      "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 21 Aug 2026 14:00:00 +0000",
+      "summary": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that\u2019s rarely used against VCs. Board conflicts\u2026",
+      "isAI": true
+    },
+    {
       "title": "Major YouTube creators are facing backlash for accepting AI money",
       "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
       "source": "The Verge AI",
       "published": "2026-08-21T09:37:52-04:00",
       "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, [\u2026]",
       "isAI": true
+    },
+    {
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+      "source": "Ars Technica",
+      "published": "Fri, 21 Aug 2026 13:11:35 +0000",
+      "summary": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
+      "isAI": false
     },
     {
       "title": "Tesla sunsets its Solar Roof tiles",
@@ -62,7 +78,7 @@
       "url": "https://api-docs.deepseek.com/guides/vision/",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:33:56 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 297 # Comments: 92",
+      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 313 # Comments: 101",
       "isAI": false
     },
     {
@@ -70,7 +86,7 @@
       "url": "https://annas-archive.pk/blog/physical-destruction.html",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:05:46 +0000",
-      "summary": "Article URL: https://annas-archive.pk/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49385994 Points: 415 # Comments: 300",
+      "summary": "Article URL: https://annas-archive.pk/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49385994 Points: 512 # Comments: 342",
       "isAI": true
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "Fri, 14 Aug 2026 14:07:52 +0000",
       "summary": "Article URL: https://e360.yale.edu/digest/australia-home-batteries Comments URL: https://news.ycombinator.com/item?id=49298910 Points: 270 # Comments: 202",
       "isAI": false
-    },
-    {
-      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
-      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 14 Aug 2026 14:05:00 +0000",
-      "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
-      "isAI": true
-    },
-    {
-      "title": "Meta\u2019s \u2018open\u2019 AI, and a $250M deal gone very wrong",
-      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 14 Aug 2026 14:00:00 +0000",
-      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware \u2014 a contrast to Muse Spark, the company\u2019s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be \u201cfor everyone\u201d rather than controlled by a handful of labs, but as Equity\u2019s [\u2026]",
-      "isAI": true
     }
   ]
 }
