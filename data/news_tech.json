@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-21T15:51:56.184502+00:00",
+  "updated": "2026-08-21T16:36:08.734656+00:00",
   "items": [
+    {
+      "title": "Pixel 11 gets in on the digicam trend",
+      "url": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
+      "source": "The Verge",
+      "published": "2026-08-21T12:27:05-04:00",
+      "summary": "I recently looked back at a photo I'd taken on a smartphone in 2014, and I was struck by just how good it looked. The details were soft, the shadows were dark. It was the kind of photo I felt like I hadn't seen out of a phone in years. That might be changing, though. [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "US government lab is probing Chinese lidar for security vulnerabilities",
+      "url": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
+      "source": "TechCrunch",
+      "published": "Fri, 21 Aug 2026 16:01:54 +0000",
+      "summary": "The security review is being performed by the Idaho National Laboratory, and the research is being funded by a company -- or a group of companies -- in the electric and autonomous vehicle industries.",
+      "isAI": false
+    },
     {
       "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
       "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
@@ -78,7 +94,7 @@
       "url": "https://api-docs.deepseek.com/guides/vision/",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:33:56 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 313 # Comments: 101",
+      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 332 # Comments: 110",
       "isAI": false
     },
     {
@@ -86,7 +102,7 @@
       "url": "https://annas-archive.pk/blog/physical-destruction.html",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:05:46 +0000",
-      "summary": "Article URL: https://annas-archive.pk/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49385994 Points: 512 # Comments: 342",
+      "summary": "Article URL: https://annas-archive.pk/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49385994 Points: 586 # Comments: 364",
       "isAI": true
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "Fri, 14 Aug 2026 14:50:11 +0000",
       "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
       "isAI": true
-    },
-    {
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-      "source": "Ars Technica AI",
-      "published": "Fri, 14 Aug 2026 14:27:14 +0000",
-      "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
-      "isAI": true
-    },
-    {
-      "title": "In Australia, a home battery boom has helped cut wholesale power prices",
-      "url": "https://e360.yale.edu/digest/australia-home-batteries",
-      "source": "Hacker News",
-      "published": "Fri, 14 Aug 2026 14:07:52 +0000",
-      "summary": "Article URL: https://e360.yale.edu/digest/australia-home-batteries Comments URL: https://news.ycombinator.com/item?id=49298910 Points: 270 # Comments: 202",
-      "isAI": false
     }
   ]
 }
