@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T17:11:20.737173+00:00",
+  "updated": "2026-08-21T17:46:45.106797+00:00",
   "items": [
     {
       "title": "Pixel 11 gets in on the digicam trend",
@@ -16,6 +16,14 @@
       "published": "Fri, 21 Aug 2026 16:01:54 +0000",
       "summary": "The security review is being performed by the Idaho National Laboratory, and the research is being funded by a company -- or a group of companies -- in the electric and autonomous vehicle industries.",
       "isAI": false
+    },
+    {
+      "title": "AI Boosted Homework Scores by 18% \u2013 Then Exam Scores Dropped 20%, Study Shows",
+      "url": "https://canews24.online/?p=71",
+      "source": "Hacker News",
+      "published": "Fri, 21 Aug 2026 15:25:42 +0000",
+      "summary": "Article URL: https://canews24.online/?p=71 Comments URL: https://news.ycombinator.com/item?id=49389565 Points: 158 # Comments: 104",
+      "isAI": true
     },
     {
       "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
@@ -94,7 +102,7 @@
       "url": "https://api-docs.deepseek.com/guides/vision/",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:33:56 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 356 # Comments: 119",
+      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 375 # Comments: 123",
       "isAI": false
     },
     {
@@ -126,7 +134,7 @@
       "url": "https://annas-archive.gl/blog/physical-destruction.html",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 02:37:47 +0000",
-      "summary": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 330 # Comments: 236",
+      "summary": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 394 # Comments: 750",
       "isAI": true
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "Fri, 14 Aug 2026 14:54:48 +0000",
       "summary": "Apple is asking a federal judge to allow it to charge commissions of up to 15% on purchases made through external links in iOS apps.",
       "isAI": false
-    },
-    {
-      "title": "Kog is going deeper to squeeze more inference out of GPUs",
-      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 14 Aug 2026 14:50:11 +0000",
-      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
-      "isAI": true
     }
   ]
 }
