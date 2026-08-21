@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-21T21:01:13.397754+00:00",
+  "updated": "2026-08-21T21:39:32.234910+00:00",
   "items": [
+    {
+      "title": "Over one million people have clicked LinkedIn\u2019s AI slop button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "source": "The Verge",
+      "published": "2026-08-21T17:25:50-04:00",
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a [\u2026]",
+      "isAI": true
+    },
     {
       "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch",
       "url": "https://techcrunch.com/2026/08/21/the-225-pebble-time-2-is-a-refreshingly-fun-smartwatch/",
@@ -110,7 +118,7 @@
       "url": "https://cymerys.com/w/im-becoming-ai-blind",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 11:48:05 +0000",
-      "summary": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 177 # Comments: 181",
+      "summary": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 195 # Comments: 197",
       "isAI": true
     },
     {
@@ -142,7 +150,7 @@
       "url": "https://api-docs.deepseek.com/guides/vision/",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:33:56 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 417 # Comments: 136",
+      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 424 # Comments: 139",
       "isAI": false
     },
     {
@@ -174,7 +182,7 @@
       "url": "https://annas-archive.gl/blog/physical-destruction.html",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 02:37:47 +0000",
-      "summary": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 437 # Comments: 791",
+      "summary": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 462 # Comments: 813",
       "isAI": true
     },
     {
@@ -1007,6 +1015,14 @@
       "source": "OpenAI",
       "published": "Wed, 19 Aug 2026 07:00:00 GMT",
       "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "isAI": true
+    },
+    {
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "source": "Hacker News",
+      "published": "Wed, 19 Aug 2026 06:13:31 +0000",
+      "summary": "https://archive.is/w1enghttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618 Comments URL: https://news.ycombinator.com/item?id=49357530 Points: 168 # Comments: 222",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-14T12:39:32-04:00",
       "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Unforgetful is a new reminders app for people who can\u2019t stop hitting snooze",
-      "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
-      "source": "TechCrunch",
-      "published": "Fri, 14 Aug 2026 16:21:04 +0000",
-      "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore \u2014 or accidentally dismiss.",
-      "isAI": false
-    },
-    {
-      "title": "Google will now allow users to remove visible watermark from its AI generations",
-      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 14 Aug 2026 16:13:40 +0000",
-      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
       "isAI": true
     }
   ]
