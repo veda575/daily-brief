@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-21T19:41:46.438038+00:00",
+  "updated": "2026-08-21T19:59:14.087733+00:00",
   "items": [
+    {
+      "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch",
+      "url": "https://techcrunch.com/2026/08/21/the-225-pebble-time-2-is-a-refreshingly-fun-smartwatch/",
+      "source": "TechCrunch",
+      "published": "Fri, 21 Aug 2026 19:57:46 +0000",
+      "summary": "The $225 Pebble Time 2 pairs quirky watch faces and apps with physical buttons, an e-paper display, weeks of battery life, and a playful hacker spirit.",
+      "isAI": false
+    },
+    {
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 21 Aug 2026 19:43:39 +0000",
+      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "isAI": true
+    },
     {
       "title": "Last chance: Save up to $300 on your TechCrunch Disrupt 2026 ticket today",
       "url": "https://techcrunch.com/2026/08/21/last-chance-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket-today/",
@@ -118,7 +134,7 @@
       "url": "https://api-docs.deepseek.com/guides/vision/",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 10:33:56 +0000",
-      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 397 # Comments: 135",
+      "summary": "Article URL: https://api-docs.deepseek.com/guides/vision/ Comments URL: https://news.ycombinator.com/item?id=49386163 Points: 398 # Comments: 136",
       "isAI": false
     },
     {
@@ -150,7 +166,7 @@
       "url": "https://annas-archive.gl/blog/physical-destruction.html",
       "source": "Hacker News",
       "published": "Fri, 21 Aug 2026 02:37:47 +0000",
-      "summary": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 394 # Comments: 750",
+      "summary": "Article URL: https://annas-archive.gl/blog/physical-destruction.html Comments URL: https://news.ycombinator.com/item?id=49383026 Points: 437 # Comments: 791",
       "isAI": true
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "Fri, 14 Aug 2026 15:46:40 +0000",
       "summary": "Third-party app stores are about to become more visible in Google Play.",
       "isAI": false
-    },
-    {
-      "title": "Does Mark Zuckerberg really believe AI is \u2018for everyone\u2019?",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-      "source": "TechCrunch AI",
-      "published": "Fri, 14 Aug 2026 15:43:28 +0000",
-      "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware \u2014 a contrast to Muse Spark, the company\u2019s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be \u201cfor everyone\u201d rather than controlled by a handful of labs, but as Equity\u2019s [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "source": "Hacker News",
-      "published": "Fri, 14 Aug 2026 15:43:10 +0000",
-      "summary": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 191 # Comments: 126",
-      "isAI": true
     }
   ]
 }
