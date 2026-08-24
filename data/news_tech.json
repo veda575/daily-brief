@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-24T19:37:19.320586+00:00",
+  "updated": "2026-08-24T20:03:07.235267+00:00",
   "items": [
+    {
+      "title": "Alabama launches investigation into OpenAI\u2019s hack of Hugging Face",
+      "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
+      "source": "TechCrunch",
+      "published": "Mon, 24 Aug 2026 19:58:17 +0000",
+      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama\u2019s Attorney General announced an investigation into the incident.",
+      "isAI": true
+    },
+    {
+      "title": "Amazon hikes hardware prices by 60 percent, blaming memory shortage",
+      "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
+      "source": "TechCrunch",
+      "published": "Mon, 24 Aug 2026 19:54:50 +0000",
+      "summary": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
+      "isAI": false
+    },
+    {
+      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 24 Aug 2026 19:54:19 +0000",
+      "summary": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
+      "isAI": true
+    },
+    {
+      "title": "The cat-and-mouse game over 3D-printed guns has begun",
+      "url": "https://www.theverge.com/tech/983244/3d-printed-guns-hashes-hochul",
+      "source": "The Verge",
+      "published": "2026-08-24T15:50:00-04:00",
+      "summary": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle between regulators trying to stem the tide of ghost guns and individuals trying to create workarounds. Cody [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Instinct\u2019s powerful AI assistant is raising privacy and security concerns",
       "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
@@ -22,7 +54,7 @@
       "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:52:33 +0000",
-      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 273 # Comments: 312",
+      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 293 # Comments: 328",
       "isAI": true
     },
     {
@@ -38,7 +70,7 @@
       "url": "https://developers.openai.com/api/docs/pricing",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:22:43 +0000",
-      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 194 # Comments: 181",
+      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 210 # Comments: 187",
       "isAI": true
     },
     {
@@ -90,6 +122,14 @@
       "isAI": true
     },
     {
+      "title": "Advancing price-performance for developers with GPT\u20115.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI",
+      "published": "Mon, 24 Aug 2026 12:00:00 GMT",
+      "summary": "GPT\u20115.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "isAI": true
+    },
+    {
       "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
       "url": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
       "source": "Ars Technica",
@@ -126,7 +166,7 @@
       "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 04:48:20 +0000",
-      "summary": "Article URL: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database Comments URL: https://news.ycombinator.com/item?id=49415271 Points: 397 # Comments: 81",
+      "summary": "Article URL: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database Comments URL: https://news.ycombinator.com/item?id=49415271 Points: 411 # Comments: 84",
       "isAI": false
     },
     {
@@ -1959,46 +1999,6 @@
       "source": "The Verge",
       "published": "2026-08-17T11:10:25-04:00",
       "summary": "Apple's changing its rules for data collection consent prompts after Germany's Federal Cartel Office accused Apple of giving the prompts a design that favored its own apps. Apple's App Tracking Transparency prompts reportedly cost social media apps nearly $10 billion when they launched with iOS 14.5, making cross-app tracking of users largely opt-in. But as [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
-      "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
-      "source": "TechCrunch",
-      "published": "Mon, 17 Aug 2026 15:06:07 +0000",
-      "summary": "African defense tech company Terra Industries announced an additional $18 million in funding, bringing its seed round to $52 million.",
-      "isAI": false
-    },
-    {
-      "title": "This sub-$7,000 sportscar might be just what the future needs",
-      "url": "https://arstechnica.com/cars/2026/08/the-opposite-of-a-hypercar-is-fun-meet-the-gasolini-ar1/",
-      "source": "Ars Technica",
-      "published": "Mon, 17 Aug 2026 15:01:25 +0000",
-      "summary": "The Gasolini AR1 uses 2-cylinder Honda bike engine, and an EV is underway, too.",
-      "isAI": false
-    },
-    {
-      "title": "WiiM\u2019s capable HomePod-esque smart speaker is almost $50 off",
-      "url": "https://www.theverge.com/gadgets/980916/wiim-sound-speaker-lite-airpods-max-2-deal-sale",
-      "source": "The Verge",
-      "published": "2026-08-17T10:35:25-04:00",
-      "summary": "The smart speaker market is more or less dominated by major tech companies: Apple, Google, Sonos, and Amazon. But WiiM\u2019s powerful 100W Sound smart speaker is an attractive alternative because it\u2019s not locked down to play nicely with select music services. It supports over 20 services, and it sports Wi-Fi 6E, Bluetooth 5.3 and ethernet, [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "AI-Generated GitHub Copilot \u201cAutofix\u201d Allowed Compromise of Snowflake's Jira",
-      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 14:18:38 +0000",
-      "summary": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 407 # Comments: 151",
-      "isAI": true
-    },
-    {
-      "title": "Apple's App Tracking Transparency treated its own apps better than rivals",
-      "url": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 14:07:59 +0000",
-      "summary": "Article URL: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html Comments URL: https://news.ycombinator.com/item?id=49331222 Points: 232 # Comments: 87",
       "isAI": false
     }
   ]
