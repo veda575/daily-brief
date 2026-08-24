@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-24T13:52:38.781309+00:00",
+  "updated": "2026-08-24T14:42:59.956957+00:00",
   "items": [
+    {
+      "title": "How to encourage smarter AI use in the classroom",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "source": "MIT Tech Review",
+      "published": "Mon, 24 Aug 2026 14:20:19 +0000",
+      "summary": "This article is from Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Brake problems in GM EVs draw greater federal scrutiny",
+      "url": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
+      "source": "TechCrunch",
+      "published": "Mon, 24 Aug 2026 14:18:47 +0000",
+      "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
+      "isAI": false
+    },
+    {
+      "title": "How GoFundMe became America\u2019s backup plan",
+      "url": "https://www.theverge.com/podcast/982901/gofundme-ceo-tim-cadogan-fundraising-healthcare-medical-expenses",
+      "source": "The Verge",
+      "published": "2026-08-24T10:00:00-04:00",
+      "summary": "Today on Decoder, I\u2019m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe \u2014 it\u2019s a major fundraising platform where you can donate to help people with everything from medical expenses to little league uniforms to starting a new business. Tim took over as CEO in March 2020 \u2014 a fascinating and chaotic [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Hugging Face reportedly in talks to be acquired for $13B",
       "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
@@ -1975,30 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-17T07:00:00-04:00",
       "summary": "The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box usage that could flag health issues? Sign me up. But I have two [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic explains how Claude\u2019s invisible text watermarks will work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-      "source": "The Verge AI",
-      "published": "2026-08-17T06:57:13-04:00",
-      "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This\u2026",
-      "isAI": true
-    },
-    {
-      "title": "What happens when a kid\u2019s robot best friend dies?",
-      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 17 Aug 2026 09:00:00 +0000",
-      "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they\u2019ve known each other,\u2026",
-      "isAI": true
-    },
-    {
-      "title": "The Defender\u2019s Window",
-      "url": "https://openai.com/index/the-defenders-window",
-      "source": "OpenAI",
-      "published": "Mon, 17 Aug 2026 05:30:00 GMT",
-      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
       "isAI": true
     }
   ]
