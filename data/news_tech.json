@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-24T20:03:07.235267+00:00",
+  "updated": "2026-08-24T20:49:06.187129+00:00",
   "items": [
+    {
+      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there\u2019s still space",
+      "url": "https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/",
+      "source": "TechCrunch",
+      "published": "Mon, 24 Aug 2026 20:16:34 +0000",
+      "summary": "Make the most of Disrupt's crowds of potential investors and partners by exhibiting your startup from October 13-15.",
+      "isAI": true
+    },
     {
       "title": "Alabama launches investigation into OpenAI\u2019s hack of Hugging Face",
       "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
@@ -38,7 +46,7 @@
       "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
       "source": "TechCrunch AI",
       "published": "Mon, 24 Aug 2026 18:03:55 +0000",
-      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant\u2019s sweeping access, broad terms and ability to act on users\u2019 behalf come with uncomfortable trade-offs",
+      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant\u2019s sweeping access, broad terms and ability to act on users\u2019 behalf come with uncomfortable trade-offs.",
       "isAI": true
     },
     {
@@ -54,7 +62,7 @@
       "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:52:33 +0000",
-      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 293 # Comments: 328",
+      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 327 # Comments: 348",
       "isAI": true
     },
     {
@@ -70,7 +78,7 @@
       "url": "https://developers.openai.com/api/docs/pricing",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:22:43 +0000",
-      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 210 # Comments: 187",
+      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 232 # Comments: 204",
       "isAI": true
     },
     {
@@ -166,7 +174,7 @@
       "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 04:48:20 +0000",
-      "summary": "Article URL: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database Comments URL: https://news.ycombinator.com/item?id=49415271 Points: 411 # Comments: 84",
+      "summary": "Article URL: https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database Comments URL: https://news.ycombinator.com/item?id=49415271 Points: 426 # Comments: 85",
       "isAI": false
     },
     {
@@ -1992,14 +2000,6 @@
       "published": "Mon, 17 Aug 2026 15:16:24 +0000",
       "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
       "isAI": true
-    },
-    {
-      "title": "Apple ordered to change app data consent prompts on iPhones and iPads",
-      "url": "https://www.theverge.com/tech/980977/apple-app-tracking-transparency-settlement-germany",
-      "source": "The Verge",
-      "published": "2026-08-17T11:10:25-04:00",
-      "summary": "Apple's changing its rules for data collection consent prompts after Germany's Federal Cartel Office accused Apple of giving the prompts a design that favored its own apps. Apple's App Tracking Transparency prompts reportedly cost social media apps nearly $10 billion when they launched with iOS 14.5, making cross-app tracking of users largely opt-in. But as [\u2026]",
-      "isAI": false
     }
   ]
 }

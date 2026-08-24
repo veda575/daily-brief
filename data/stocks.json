@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T20:03:07.235267+00:00",
+  "updated": "2026-08-24T20:49:06.187129+00:00",
   "regions": {
     "us": [
       {
@@ -7,9 +7,9 @@
         "name": "Accenture",
         "sector": "IT Services / Consulting",
         "currency": "USD",
-        "marketCap": 114133311488.0,
-        "changePercent": 0.6638578,
-        "indexValue": 186.51
+        "marketCap": 114145558528.0,
+        "changePercent": 0.674655,
+        "indexValue": 186.53
       },
       {
         "ticker": "AMD",
@@ -90,7 +90,7 @@
         "sector": "Aerospace / Industrial",
         "currency": "USD",
         "marketCap": 354680373248.0,
-        "changePercent": -1.8744435,
+        "changePercent": -1.87444,
         "indexValue": 341.84
       },
       {
@@ -99,7 +99,7 @@
         "sector": "Automotive",
         "currency": "USD",
         "marketCap": 78669193216.0,
-        "changePercent": -1.0804014,
+        "changePercent": -1.0804,
         "indexValue": 86.98
       },
       {
@@ -161,18 +161,18 @@
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "marketCap": 410321059840.0,
-        "changePercent": -2.7450714,
-        "indexValue": 142.4493
+        "marketCap": 410323091456.0,
+        "changePercent": -2.74459,
+        "indexValue": 142.45
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 171297944000.24414,
-        "changePercent": -0.0071741673,
-        "indexValue": 209.155
+        "marketCap": 171220138000.48828,
+        "changePercent": -0.0525891,
+        "indexValue": 209.06
       },
       {
         "ticker": "SNDK",
@@ -180,7 +180,7 @@
         "sector": "Storage / Flash Memory",
         "currency": "USD",
         "marketCap": 218621149184.0,
-        "changePercent": -6.4508023,
+        "changePercent": -6.450802,
         "indexValue": 1493.12
       },
       {
@@ -188,9 +188,9 @@
         "name": "SAP",
         "sector": "Enterprise AI",
         "currency": "USD",
-        "marketCap": 252257107968.0,
-        "changePercent": -0.057161152,
-        "indexValue": 218.555
+        "marketCap": 252378316800.0,
+        "changePercent": -0.00914076,
+        "indexValue": 218.66
       },
       {
         "ticker": "SHOP",
@@ -215,9 +215,9 @@
         "name": "Snowflake",
         "sector": "Cloud Data",
         "currency": "USD",
-        "marketCap": 111913680896.0,
-        "changePercent": -2.9719286,
-        "indexValue": 322.89
+        "marketCap": 111875547136.0,
+        "changePercent": -3.00499,
+        "indexValue": 322.78
       },
       {
         "ticker": "SPCX",
@@ -245,7 +245,7 @@
         "sector": "E-commerce",
         "currency": "USD",
         "marketCap": 283957624832.0,
-        "changePercent": -0.72900546,
+        "changePercent": -0.729006,
         "indexValue": 118.47
       },
       {
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1220453680414.8196,
+        "marketCap": 1220665544810.7456,
         "changePercent": -8.703375,
         "indexValue": 257000.0
       },
@@ -262,7 +262,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 506014998545.668,
+        "marketCap": 506021456278.10815,
         "changePercent": -3.7199125,
         "indexValue": 440.0
       },
@@ -271,9 +271,9 @@
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "marketCap": 2127128559616.0,
-        "changePercent": -2.105265,
-        "indexValue": 410.13
+        "marketCap": 2127076655104.0,
+        "changePercent": -2.10765,
+        "indexValue": 410.12
       }
     ],
     "india": [
