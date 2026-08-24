@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T18:04:45.334177+00:00",
+  "updated": "2026-08-24T18:59:58.258852+00:00",
   "items": [
     {
       "title": "Instinct\u2019s powerful AI assistant is raising privacy and security concerns",
@@ -18,11 +18,27 @@
       "isAI": true
     },
     {
+      "title": "Coding expertise is going to collapse from AI reliance",
+      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "source": "Hacker News",
+      "published": "Mon, 24 Aug 2026 15:52:33 +0000",
+      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 247 # Comments: 280",
+      "isAI": true
+    },
+    {
       "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
       "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
       "source": "TechCrunch AI",
       "published": "Mon, 24 Aug 2026 15:24:18 +0000",
       "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "source": "Hacker News",
+      "published": "Mon, 24 Aug 2026 15:22:43 +0000",
+      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 174 # Comments: 168",
       "isAI": true
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "Mon, 17 Aug 2026 14:07:56 +0000",
       "summary": "Article URL: https://www.librarian.net/notoai/ Comments URL: https://news.ycombinator.com/item?id=49331220 Points: 318 # Comments: 190",
       "isAI": true
-    },
-    {
-      "title": "Incident with Github.com",
-      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 13:35:06 +0000",
-      "summary": "Just got this message: \"No server is currently available to service your request. Sorry about that. Please try refreshing and contact us if the problem persists.\"Edit: at the time of posting there was not an incident on githubstatus.com. Now there is. https://www.githubstatus.com/incidents/zkxwbgr0cnmxOriginal Title: \"Tell HN: GitHub Is Overloaded\" Comments URL:\u2026",
-      "isAI": false
-    },
-    {
-      "title": "Uber adds Zipline drones to its Eats delivery network",
-      "url": "https://techcrunch.com/2026/08/17/uber-adds-zipline-drones-to-its-eats-delivery-network/",
-      "source": "TechCrunch",
-      "published": "Mon, 17 Aug 2026 13:18:49 +0000",
-      "summary": "Uber is also making investing in Zipline as part of the tie-up.",
-      "isAI": false
     }
   ]
 }
