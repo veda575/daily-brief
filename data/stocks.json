@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T01:06:29.857068+00:00",
+  "updated": "2026-08-24T02:37:47.507097+00:00",
   "regions": {
     "us": [
       {
@@ -125,7 +125,7 @@
         "name": "Micron Technology",
         "sector": "Semiconductors / Memory",
         "currency": "USD",
-        "marketCap": 1091874717696.0,
+        "marketCap": 1091874743611.47,
         "changePercent": -0.7748902,
         "indexValue": 966.78
       },
@@ -170,7 +170,7 @@
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 171310235648.0,
+        "marketCap": 171310228500.3662,
         "changePercent": 1.82057,
         "indexValue": 209.17
       },
@@ -197,7 +197,7 @@
         "name": "Shopify",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 192031604736.0,
+        "marketCap": 193674952704.0,
         "changePercent": 1.4064461,
         "indexValue": 149.25
       },
@@ -224,7 +224,7 @@
         "name": "SpaceX",
         "sector": "Aerospace / Satellite Internet",
         "currency": "USD",
-        "marketCap": 1804468355072.0,
+        "marketCap": 1805508411392.0,
         "changePercent": 2.2164187,
         "indexValue": 136.97
       },
@@ -253,18 +253,18 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1252852441253.3728,
-        "changePercent": -6.394316,
-        "indexValue": 263500.0
+        "marketCap": 1241575103538.5215,
+        "changePercent": -7.3712254,
+        "indexValue": 260750.0
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 525371818407.68787,
-        "changePercent": 1.2405862,
-        "indexValue": 457.0
+        "marketCap": 506774633182.8771,
+        "changePercent": -3.5448604,
+        "indexValue": 440.8
       },
       {
         "ticker": "TSM",
@@ -444,7 +444,7 @@
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 17808733765632.0,
+        "marketCap": 17808733987660.0,
         "changePercent": 0.21322335,
         "indexValue": 1316.0
       },
@@ -489,7 +489,7 @@
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8328837070848.0,
+        "marketCap": 8328837466436.0,
         "changePercent": 0.1740644,
         "indexValue": 2302.0
       },
@@ -537,8 +537,8 @@
         "sector": "Index / China (Hong Kong) Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 1.2100353,
-        "indexValue": 26009.46
+        "changePercent": -1.9036567,
+        "indexValue": 25514.33
       },
       {
         "ticker": "^IXIC",
@@ -555,8 +555,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.03798085,
-        "indexValue": 3905.2026
+        "changePercent": -0.24996218,
+        "indexValue": 3895.4429
       },
       {
         "ticker": "399001.SZ",
@@ -564,8 +564,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.86860305,
-        "indexValue": 14094.168
+        "changePercent": -1.5258677,
+        "indexValue": 13879.101
       }
     ]
   }
