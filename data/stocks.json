@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T10:03:23.085398+00:00",
+  "updated": "2026-08-24T10:53:21.280030+00:00",
   "regions": {
     "us": [
       {
@@ -125,7 +125,7 @@
         "name": "Micron Technology",
         "sector": "Semiconductors / Memory",
         "currency": "USD",
-        "marketCap": 1091874743611.47,
+        "marketCap": 1091874717696.0,
         "changePercent": -0.7748902,
         "indexValue": 966.78
       },
@@ -170,7 +170,7 @@
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 171310228500.3662,
+        "marketCap": 171310235648.0,
         "changePercent": 1.82057,
         "indexValue": 209.17
       },
@@ -197,7 +197,7 @@
         "name": "Shopify",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 193674952704.0,
+        "marketCap": 192031604736.0,
         "changePercent": 1.4064461,
         "indexValue": 149.25
       },
@@ -224,7 +224,7 @@
         "name": "SpaceX",
         "sector": "Aerospace / Satellite Internet",
         "currency": "USD",
-        "marketCap": 1805508411392.0,
+        "marketCap": 1804468355072.0,
         "changePercent": 2.2164187,
         "indexValue": 136.97
       },
@@ -253,7 +253,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1220418376832.1028,
+        "marketCap": 1219289739588.6106,
         "changePercent": -8.703375,
         "indexValue": 257000.0
       },
@@ -262,7 +262,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 506003375042.62335,
+        "marketCap": 506040830464.42474,
         "changePercent": -3.7199125,
         "indexValue": 440.0
       },
@@ -444,7 +444,7 @@
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 17724833318088.266,
+        "marketCap": 17724833005568.0,
         "changePercent": -0.4711209,
         "indexValue": 1309.8
       },
@@ -489,7 +489,7 @@
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8264074053192.659,
+        "marketCap": 8264073871360.0,
         "changePercent": -0.77758044,
         "indexValue": 2284.1
       },
@@ -528,8 +528,8 @@
         "sector": "Index / India Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.30543384,
-        "indexValue": 77303.99
+        "changePercent": -0.22145592,
+        "indexValue": 77369.11
       },
       {
         "ticker": "^HSI",
