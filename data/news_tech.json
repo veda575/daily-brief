@@ -1,12 +1,44 @@
 {
-  "updated": "2026-08-24T22:01:50.887294+00:00",
+  "updated": "2026-08-25T01:05:36.330524+00:00",
   "items": [
+    {
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 25 Aug 2026 00:23:12 +0000",
+      "summary": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+      "isAI": true
+    },
+    {
+      "title": "Lenovo confirms Legion Go issues after gamers report bricked devices",
+      "url": "https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked",
+      "source": "The Verge",
+      "published": "2026-08-24T19:38:10-04:00",
+      "summary": "When a company's software update turns your computer into a useless brick, should fixes be free? Framework, the modular computer startup, apparently thinks so. But it's not clear that computing giant Lenovo will go that far. Three weeks after a Redditor presented a nearly $300 repair bill for their handheld gaming PC - among other [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "source": "Hacker News",
+      "published": "Mon, 24 Aug 2026 22:13:40 +0000",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 195 # Comments: 40",
+      "isAI": false
+    },
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
       "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
       "source": "Ars Technica AI",
       "published": "Mon, 24 Aug 2026 21:45:53 +0000",
       "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
+      "isAI": true
+    },
+    {
+      "title": "Data centers become \"killer application\" for new power transformer tech",
+      "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
+      "source": "Ars Technica",
+      "published": "Mon, 24 Aug 2026 21:32:16 +0000",
+      "summary": "Solid-state transformers could also benefit EV charging and someday households.",
       "isAI": true
     },
     {
@@ -78,7 +110,7 @@
       "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:52:33 +0000",
-      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 360 # Comments: 378",
+      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 448 # Comments: 452",
       "isAI": true
     },
     {
@@ -94,7 +126,7 @@
       "url": "https://developers.openai.com/api/docs/pricing",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:22:43 +0000",
-      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 249 # Comments: 233",
+      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 289 # Comments: 262",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Mon, 17 Aug 2026 17:25:17 +0000",
       "summary": "Article URL: https://artificialanalysis.ai/models/qwen3-8-27b Comments URL: https://news.ycombinator.com/item?id=49334544 Points: 297 # Comments: 129",
       "isAI": true
-    },
-    {
-      "title": "YouTube is changing how it counts views to give the numbers a boost",
-      "url": "https://www.theverge.com/streaming/981105/youtube-video-view-counting-update",
-      "source": "The Verge",
-      "published": "2026-08-17T13:13:03-04:00",
-      "summary": "YouTube will soon count a view as soon as a video starts to play, lining up with the system used by Instagram, TikTok, and its Shorts videos. The update will go into effect on August 24th, \"which means creators will likely see their total view counts increase faster moving forward,\" the platform says. Instagram and [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Feedly attributes weeklong slowdown to bug, not its AI pivot",
-      "url": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
-      "source": "TechCrunch",
-      "published": "Mon, 17 Aug 2026 17:10:59 +0000",
-      "summary": "Feedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are adding to frustrations.",
-      "isAI": true
-    },
-    {
-      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 17 Aug 2026 16:38:44 +0000",
-      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-      "isAI": true
-    },
-    {
-      "title": "Sonos finally added Live Activities controls for your iPhone lockscreen",
-      "url": "https://www.theverge.com/tech/981008/sonos-mobile-ios-iphone-app-live-activities",
-      "source": "The Verge",
-      "published": "2026-08-17T12:38:35-04:00",
-      "summary": "Sonos released an update to its mobile app that finally introduces support for iOS' Live Activities, giving iPhone users quick access to playback controls on their lockscreen. The added functionality is a \"much requested, anticipated, and needed feature,\" according to a post Sonos shared to Reddit today that was spotted by 9to5Mac. While some features [\u2026]",
-      "isAI": false
     }
   ]
 }
