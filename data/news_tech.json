@@ -1,12 +1,52 @@
 {
-  "updated": "2026-08-25T13:51:31.926183+00:00",
+  "updated": "2026-08-25T14:46:43.470289+00:00",
   "items": [
+    {
+      "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 25 Aug 2026 14:22:04 +0000",
+      "summary": "Tested on Semianalysis\u2019s InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "isAI": true
+    },
+    {
+      "title": "Apple debuts its \u2018most powerful chip ever\u2019 in M5 Ultra and M6",
+      "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 14:10:36 +0000",
+      "summary": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI says its Jalape\u00f1o chip can power faster AI responses than the competition",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "source": "The Verge AI",
+      "published": "2026-08-25T10:00:00-04:00",
+      "summary": "OpenAI says its new AI chip, Jalape\u00f1o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape\u00f1o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+      "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 14:00:00 +0000",
+      "summary": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s latest Mac Mini runs on a new M6 chip, and starts at $899",
+      "url": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 13:55:06 +0000",
+      "summary": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899.",
+      "isAI": true
+    },
     {
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
       "source": "Hacker News",
       "published": "Tue, 25 Aug 2026 13:01:22 +0000",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 198 # Comments: 132",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 315 # Comments: 262",
       "isAI": true
     },
     {
@@ -114,6 +154,14 @@
       "isAI": true
     },
     {
+      "title": "Jalape\u00f1o\u2019s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "summary": "Jalape\u00f1o is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "isAI": true
+    },
+    {
       "title": "India\u2019s Airbound bags $37M to take on trucks with rocket-like drones",
       "url": "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/",
       "source": "TechCrunch",
@@ -158,7 +206,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 533 # Comments: 163",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 547 # Comments: 173",
       "isAI": false
     },
     {
@@ -1951,54 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-18T05:00:01-04:00",
       "summary": "We may have our first glimpse of Apple's rumored camera-equipped AirPods, thanks to a video that MacRumors found in the macOS Tahoe 26.7 Release Candidate. The short video clip features a man - who is wearing the new AirPods - holding up a book with the cover displayed, so that Visual Intelligence can see the [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
-      "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
-      "source": "Wired",
-      "published": "Tue, 18 Aug 2026 09:00:00 +0000",
-      "summary": "Z.ai\u2019s latest AI model release could help companies secure their systems\u2014or find its way into the hands of hackers.",
-      "isAI": true
-    },
-    {
-      "title": "AI\u2019s recursive self-improvement might not come so quickly after all",
-      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 18 Aug 2026 09:00:00 +0000",
-      "summary": "The AI industry\u2019s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. \u2026",
-      "isAI": true
-    },
-    {
-      "title": "Rethinking Database Programming",
-      "url": "https://acadia.engineering/blog/rethinking-database-programming",
-      "source": "Hacker News",
-      "published": "Tue, 18 Aug 2026 07:28:27 +0000",
-      "summary": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 214 # Comments: 120",
-      "isAI": false
-    },
-    {
-      "title": "Finger: the 1971 social network that never died",
-      "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
-      "source": "Hacker News",
-      "published": "Tue, 18 Aug 2026 07:21:35 +0000",
-      "summary": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 298 # Comments: 101",
-      "isAI": false
-    },
-    {
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "url": "https://openai.com/index/asana",
-      "source": "OpenAI",
-      "published": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-      "isAI": true
-    },
-    {
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face",
-      "published": "Tue, 18 Aug 2026 00:00:00 GMT",
-      "summary": "",
       "isAI": true
     }
   ]
