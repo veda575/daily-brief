@@ -1,12 +1,28 @@
 {
-  "updated": "2026-08-25T21:44:29.445947+00:00",
+  "updated": "2026-08-25T22:03:02.432267+00:00",
   "items": [
+    {
+      "title": "Trump is upping the price of Big Tech\u2019s favorite visa",
+      "url": "https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration",
+      "source": "The Verge",
+      "published": "2026-08-25T17:45:00-04:00",
+      "summary": "In the span of a few hours on Monday, the Department of Homeland Security announced that it would be implementing a fee of over $103,000 on H-1B visas, and news broke that the State Department plans on revoking the visas of up to 200,000 asylum seekers - which, according to The Associated Press, would be [\u2026]",
+      "isAI": false
+    },
     {
       "title": "World humanoid robot games show runners breaking records, bursting into flames",
       "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
       "source": "Ars Technica AI",
       "published": "Tue, 25 Aug 2026 20:59:03 +0000",
       "summary": "Record-breaking robot races are less substantial than household chore challenges.",
+      "isAI": true
+    },
+    {
+      "title": "Instagram\u2019s \u2018First Draft\u2019 feature aims to make editing Reels less tedious",
+      "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 19:22:52 +0000",
+      "summary": "Instagram says the process can produce a first pass in under 10 seconds, potentially saving creators significant editing time while making video creation more approachable for people who don't have much experience with editing software.",
       "isAI": true
     },
     {
@@ -30,7 +46,7 @@
       "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
       "source": "Hacker News",
       "published": "Tue, 25 Aug 2026 17:55:23 +0000",
-      "summary": "Article URL: https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1 Comments URL: https://news.ycombinator.com/item?id=49437946 Points: 198 # Comments: 36",
+      "summary": "Article URL: https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1 Comments URL: https://news.ycombinator.com/item?id=49437946 Points: 200 # Comments: 44",
       "isAI": false
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "2026-08-18T09:30:00-04:00",
       "summary": "Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers' homes, turning the devices into activity monitors. A new update to the Xfinity Internet app, arriving today, August 18th, enables the feature on compatible Xfinity routers at no extra cost. Announced as part of its new Xfinity Shield service, WiFi [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "Fixing a bricked Framework laptop",
-      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
-      "source": "Hacker News",
-      "published": "Tue, 18 Aug 2026 13:18:40 +0000",
-      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 391 # Comments: 263",
-      "isAI": false
-    },
-    {
-      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-      "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 18 Aug 2026 13:00:04 +0000",
-      "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
-      "isAI": true
     }
   ]
 }
