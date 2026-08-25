@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-25T14:46:43.470289+00:00",
+  "updated": "2026-08-25T15:42:49.827109+00:00",
   "items": [
+    {
+      "title": "Pacific Fusion\u2019s next fusion machine could clear a key hurdle to commercial power",
+      "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 15:30:00 +0000",
+      "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
+      "isAI": true
+    },
+    {
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "Hugging Face",
+      "published": "Tue, 25 Aug 2026 15:14:14 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "AI won\u2019t replace radiologists, but it will dramatically change their jobs",
+      "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 25 Aug 2026 15:10:03 +0000",
+      "summary": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
+      "isAI": true
+    },
+    {
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 25 Aug 2026 15:00:00 +0000",
+      "summary": "Lica co-founders are going to work on Gamma's new research team.",
+      "isAI": true
+    },
     {
       "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
       "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
@@ -46,7 +78,7 @@
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
       "source": "Hacker News",
       "published": "Tue, 25 Aug 2026 13:01:22 +0000",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 315 # Comments: 262",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 360 # Comments: 323",
       "isAI": true
     },
     {
@@ -154,6 +186,14 @@
       "isAI": true
     },
     {
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source": "OpenAI",
+      "published": "Tue, 25 Aug 2026 07:05:00 GMT",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "isAI": true
+    },
+    {
       "title": "Jalape\u00f1o\u2019s first results show industry-leading speed and efficiency in AI inference",
       "url": "https://openai.com/index/jalapeno-first-results",
       "source": "OpenAI",
@@ -206,7 +246,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 547 # Comments: 173",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 557 # Comments: 175",
       "isAI": false
     },
     {
@@ -282,7 +322,7 @@
       "isAI": true
     },
     {
-      "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+      "title": "Nvidia senior manager tied to ex-Supermicro staff's AI smuggling scheme",
       "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
       "source": "Ars Technica AI",
       "published": "Mon, 24 Aug 2026 16:41:45 +0000",
@@ -415,6 +455,14 @@
       "source": "TechCrunch AI",
       "published": "Sun, 23 Aug 2026 20:01:36 +0000",
       "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+      "isAI": true
+    },
+    {
+      "title": "Training AI to Paint with Code",
+      "url": "https://surya.website/rling-qwen-to-paint-with-code",
+      "source": "Hacker News",
+      "published": "Sun, 23 Aug 2026 19:39:29 +0000",
+      "summary": "Article URL: https://surya.website/rling-qwen-to-paint-with-code Comments URL: https://news.ycombinator.com/item?id=49411800 Points: 158 # Comments: 18",
       "isAI": true
     },
     {
@@ -1952,54 +2000,6 @@
       "published": "Tue, 18 Aug 2026 10:30:00 +0000",
       "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
       "isAI": false
-    },
-    {
-      "title": "Can AI Coexist With Privacy? Proton\u2019s Andy Yen Says It Will Have To",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "Wired",
-      "published": "Tue, 18 Aug 2026 10:30:00 +0000",
-      "summary": "Proton\u2019s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "isAI": true
-    },
-    {
-      "title": "Einride strikes deal to add 500 Tesla Semis to its fleet",
-      "url": "https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/",
-      "source": "TechCrunch",
-      "published": "Tue, 18 Aug 2026 10:30:00 +0000",
-      "summary": "The deal will triple the size of Einride's fleet while sweetening the company's sales pitch for its Saga AI software. The Tesla Semis will be available to customers across North America.",
-      "isAI": true
-    },
-    {
-      "title": "Google has acquired the data of failed US airline Spirit",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "source": "Hacker News",
-      "published": "Tue, 18 Aug 2026 10:13:28 +0000",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 547 # Comments: 373",
-      "isAI": true
-    },
-    {
-      "title": "We still don\u2019t know how people are really using AI",
-      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 18 Aug 2026 10:06:43 +0000",
-      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. \u201cThere is no independent source to corroborate it,\u201d says Anka Reuel, a computer science PhD candidate at the Stanford Trustworthy AI Research\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Detroit startup Grounded raises $5M to customize electric and gas-powered vans",
-      "url": "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/",
-      "source": "TechCrunch",
-      "published": "Tue, 18 Aug 2026 10:00:00 +0000",
-      "summary": "The company has shifted from making van-life builds to custom outfitting vehicles for small businesses, all while the EV landscape in the U.S. changed dramatically.",
-      "isAI": true
-    },
-    {
-      "title": "Apple\u2019s camera-equipped AirPods appear in leaked video",
-      "url": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
-      "source": "The Verge AI",
-      "published": "2026-08-18T05:00:01-04:00",
-      "summary": "We may have our first glimpse of Apple's rumored camera-equipped AirPods, thanks to a video that MacRumors found in the macOS Tahoe 26.7 Release Candidate. The short video clip features a man - who is wearing the new AirPods - holding up a book with the cover displayed, so that Visual Intelligence can see the [\u2026]",
-      "isAI": true
     }
   ]
 }
