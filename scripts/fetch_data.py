@@ -85,6 +85,7 @@ INDIA_STOCKS = [
     ("KIMS.NS",       "Krishna Institute of Medical Sciences", "Healthcare / Hospitals"),
     ("GLAND.NS",      "Gland Pharma",            "Pharma"),
     ("INDIGO.NS",     "InterGlobe Aviation (IndiGo)", "Aviation"),
+    ("KERNEX.NS",     "Kernex Microsystems (India) Limited", "Railway Safety Systems"),
     ("ADANIENT.NS",   "Adani Enterprises",       "Conglomerate"),
     ("SAILIFE.NS",    "Sai Life Sciences",       "Pharma CRDMO"),
     ("NEULANDLAB.NS", "Neuland Laboratories",    "Pharma CRDMO"),
