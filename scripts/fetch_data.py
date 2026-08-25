@@ -38,7 +38,6 @@ US_STOCKS = [
     ("TEAM",    "Atlassian",           "Software"),
     ("SHOP",    "Shopify",             "E-commerce"),
     ("SPCX",    "SpaceX",              "Aerospace / Satellite Internet"),
-    ("NDAQ",    "Nasdaq, Inc.",        "Stock Exchange / Financial Markets"),
     ("AVGO",    "Broadcom",            "Semiconductors / Networking"),
     ("AAPL",    "Apple",               "Consumer Tech / iPhone"),
     ("SIFY",    "Sify Technologies",   "IT Services / Data Centers"),
@@ -88,7 +87,6 @@ INDIA_STOCKS = [
     ("INDIGO.NS",     "InterGlobe Aviation (IndiGo)", "Aviation"),
     ("ADANIENT.NS",   "Adani Enterprises",       "Conglomerate"),
     ("SAILIFE.NS",    "Sai Life Sciences",       "Pharma CRDMO"),
-    ("BSE.NS",        "BSE Ltd",                 "Stock Exchange / Financial Markets"),
     ("NEULANDLAB.NS", "Neuland Laboratories",    "Pharma CRDMO"),
 ]
 
