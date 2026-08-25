@@ -1,12 +1,28 @@
 {
-  "updated": "2026-08-25T02:31:16.977236+00:00",
+  "updated": "2026-08-25T03:30:51.084617+00:00",
   "items": [
+    {
+      "title": "India\u2019s Airbound bags $37M to take on trucks with rocket-like drones",
+      "url": "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 03:30:00 +0000",
+      "summary": "Airbound's ultra-lightweight approach to drone delivery has attracted backing from Greenoaks, DoorDash, and Silicon Valley investor Lachy Groom.",
+      "isAI": true
+    },
     {
       "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
       "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
       "source": "TechCrunch AI",
       "published": "Tue, 25 Aug 2026 00:23:12 +0000",
       "summary": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+      "isAI": true
+    },
+    {
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face",
+      "published": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "summary": "",
       "isAI": true
     },
     {
@@ -22,7 +38,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 242 # Comments: 55",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 277 # Comments: 69",
       "isAI": false
     },
     {
@@ -110,7 +126,7 @@
       "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:52:33 +0000",
-      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 475 # Comments: 466",
+      "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 491 # Comments: 480",
       "isAI": true
     },
     {
@@ -126,7 +142,7 @@
       "url": "https://developers.openai.com/api/docs/pricing",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 15:22:43 +0000",
-      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 299 # Comments: 270",
+      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 308 # Comments: 275",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Mon, 17 Aug 2026 18:13:47 +0000",
       "summary": "Amazon\u2019s team uses a T. rex preparing to devour a book as its logo.",
-      "isAI": true
-    },
-    {
-      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
-      "url": "https://arxiv.org/abs/2608.13759",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 17:54:59 +0000",
-      "summary": "Article URL: https://arxiv.org/abs/2608.13759 Comments URL: https://news.ycombinator.com/item?id=49334991 Points: 229 # Comments: 48",
-      "isAI": true
-    },
-    {
-      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
-      "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 17:25:17 +0000",
-      "summary": "Article URL: https://artificialanalysis.ai/models/qwen3-8-27b Comments URL: https://news.ycombinator.com/item?id=49334544 Points: 297 # Comments: 129",
       "isAI": true
     }
   ]

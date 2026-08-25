@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T02:31:16.977236+00:00",
+  "updated": "2026-08-25T03:30:51.084617+00:00",
   "regions": {
     "us": [
       {
@@ -253,18 +253,18 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1191773201567.0762,
-        "changePercent": -2.4342747,
-        "indexValue": 250750.0
+        "marketCap": 1187340547443.1558,
+        "changePercent": -2.7237353,
+        "indexValue": 250000.0
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 505762541854.04944,
-        "changePercent": 0.0,
-        "indexValue": 440.0
+        "marketCap": 505831114895.5277,
+        "changePercent": 0.04545732,
+        "indexValue": 440.2
       },
       {
         "ticker": "TSM",
@@ -537,8 +537,8 @@
         "sector": "Index / China (Hong Kong) Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.24889413,
-        "indexValue": 25453.82
+        "changePercent": -0.12344552,
+        "indexValue": 25485.83
       },
       {
         "ticker": "^IXIC",
@@ -546,7 +546,7 @@
         "sector": "Index / US Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.7649358,
+        "changePercent": -0.7651061,
         "indexValue": 25980.191
       },
       {
@@ -555,8 +555,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.14290503,
-        "indexValue": 3876.4602
+        "changePercent": -0.21744737,
+        "indexValue": 3873.5654
       },
       {
         "ticker": "399001.SZ",
@@ -564,8 +564,8 @@
         "sector": "Index / China Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.42505202,
-        "indexValue": 13735.66
+        "changePercent": -0.8991197,
+        "indexValue": 13670.257
       }
     ]
   }
