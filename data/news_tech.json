@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-25T16:19:18.897757+00:00",
+  "updated": "2026-08-25T17:05:45.014538+00:00",
   "items": [
+    {
+      "title": "Nothing OS 5.0 brings a new Glyph Interface app and a more customizable homescreen",
+      "url": "https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17",
+      "source": "The Verge",
+      "published": "2026-08-25T12:58:53-04:00",
+      "summary": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your wallpaper, which update whenever your wallpaper changes. Alongside Android's built-in Dynamic Colors, the company says it allows you to have specific elements change to match your wallpaper \"while Nothing's predominantly monochrome character [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "GeForce Now is getting support for the Steam Controller",
+      "url": "https://www.theverge.com/games/984422/nvidia-geforce-now-steam-controller-machine-support",
+      "source": "The Verge",
+      "published": "2026-08-25T12:47:15-04:00",
+      "summary": "Nvidia's GeForce Now cloud gaming service will officially support Valve's Steam Controller and Steam Machine starting later this year. With Steam Controller support, you'll be able to play games with Valve's great new gamepad when using the GeForce Now app on your Steam Deck or Steam Machine. If you're using GeForce Now on Windows or [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Polestar claims it was blindsided by sales ban",
       "url": "https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump",
@@ -23,6 +39,14 @@
       "source": "TechCrunch",
       "published": "Tue, 25 Aug 2026 15:30:00 +0000",
       "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
+      "isAI": true
+    },
+    {
+      "title": "How much of HN is AI?",
+      "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+      "source": "Hacker News",
+      "published": "Tue, 25 Aug 2026 15:23:41 +0000",
+      "summary": "Article URL: https://blog.coredump.cx/p/how-much-of-hn-is-ai Comments URL: https://news.ycombinator.com/item?id=49435728 Points: 178 # Comments: 147",
       "isAI": true
     },
     {
@@ -94,7 +118,7 @@
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
       "source": "Hacker News",
       "published": "Tue, 25 Aug 2026 13:01:22 +0000",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 445 # Comments: 365",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 545 # Comments: 432",
       "isAI": true
     },
     {
@@ -262,7 +286,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 567 # Comments: 177",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 572 # Comments: 182",
       "isAI": false
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-18T07:00:00-04:00",
       "summary": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Reach Capital raises $265M Fund V to back AI founders building to \u2018expand human potential\u2019",
-      "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
-      "source": "TechCrunch",
-      "published": "Tue, 18 Aug 2026 11:00:00 +0000",
-      "summary": "Reach Capital announced Tuesday an oversubscribed $265 million Fund V.",
-      "isAI": true
-    },
-    {
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "source": "OpenAI",
-      "published": "Tue, 18 Aug 2026 11:00:00 GMT",
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "isAI": true
-    },
-    {
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "source": "OpenAI",
-      "published": "Tue, 18 Aug 2026 11:00:00 GMT",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
       "isAI": true
     }
   ]
