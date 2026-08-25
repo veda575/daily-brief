@@ -1,6 +1,86 @@
 {
-  "updated": "2026-08-25T11:01:33.752099+00:00",
+  "updated": "2026-08-25T13:51:31.926183+00:00",
   "items": [
+    {
+      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "source": "Hacker News",
+      "published": "Tue, 25 Aug 2026 13:01:22 +0000",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 198 # Comments: 132",
+      "isAI": true
+    },
+    {
+      "title": "Apple's new desktop computers are designed specifically for local AI development",
+      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+      "source": "Ars Technica AI",
+      "published": "Tue, 25 Aug 2026 13:00:11 +0000",
+      "summary": "Folks have been daisy-chaining Macs for AI\u2014this refresh keeps that in mind.",
+      "isAI": true
+    },
+    {
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+      "isAI": true
+    },
+    {
+      "title": "Andy Dunn\u2019s startup Pie becomes less of an events app and more of a social network",
+      "url": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s new M6 chip gets more cores and more AI compute",
+      "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+      "source": "The Verge",
+      "published": "2026-08-25T09:00:00-04:00",
+      "summary": "Apple has announced a new M6 chip for Macs, along with an M5 Ultra that it says is its \"most powerful chip ever,\" designed for tasks like 3D rendering and running frontier AI models. The M6 is Apple's first 2nm chip, which Apple says will bring improvements in performance and power efficiency, and it also [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple\u2019s new Mac Mini has fresh M6 and M5 Pro chip offerings \u2014 and higher prices",
+      "url": "https://www.theverge.com/tech/984190/apple-mac-mini-m6-m5-pro-price-specs",
+      "source": "The Verge",
+      "published": "2026-08-25T09:00:00-04:00",
+      "summary": "Apple is announcing a new generation of the Mac Mini, once again offering two models: one with a new M6 chip and a higher-end model with the M5 Pro found in this year's MacBook Pro. The new Minis have the same tiny design and footprint as the 2024 M4 / M4 Pro models, but with [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple launches new Mac Studios with its \u2018most powerful chip ever\u2019 \u2014 the M5 Ultra",
+      "url": "https://www.theverge.com/tech/984207/apple-mac-studio-m5-max-ultra-price-specs-launch",
+      "source": "The Verge",
+      "published": "2026-08-25T09:00:00-04:00",
+      "summary": "Apple is announcing new models of the Mac Studio, now using the existing M5 Max and a new M5 Ultra. This reunification under one chip generation comes over a year after Apple awkwardly split the Studio between M4 Max and M3 Ultra offerings. (The older sounding M3 Ultra was actually the more powerful one, and [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date",
+      "url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
+      "source": "Wired",
+      "published": "Tue, 25 Aug 2026 13:00:00 +0000",
+      "summary": "Apple\u2019s Mac Mini and Mac Studio have been tough to buy for months, but updated versions have arrived. Both include new chips optimized for AI, with the M6 Mac Mini getting a $200 price bump.",
+      "isAI": true
+    },
+    {
+      "title": "\u2018The world seems to be ready\u2019: An interview with OpenAI head of product Thibault Sottiaux",
+      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 25 Aug 2026 12:00:00 +0000",
+      "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+      "isAI": true
+    },
+    {
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face",
+      "published": "Tue, 25 Aug 2026 11:39:24 GMT",
+      "summary": "",
+      "isAI": true
+    },
     {
       "title": "Greenworks\u2019 MaximusZ electric riding mower has five motors and a few compromises",
       "url": "https://www.theverge.com/transportation/983980/greenworks-maximusz-electric-riding-mower-review-specs-price",
@@ -78,7 +158,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 484 # Comments: 142",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 533 # Comments: 163",
       "isAI": false
     },
     {
@@ -94,7 +174,7 @@
       "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
       "source": "Ars Technica",
       "published": "Mon, 24 Aug 2026 21:32:16 +0000",
-      "summary": "Solid-state transformers could also benefit EV charging and someday households.",
+      "summary": "Solid-state transformers could also benefit EV charging and, someday, households.",
       "isAI": true
     },
     {
@@ -684,6 +764,14 @@
     {
       "title": "Measuring benchmark optimization in speech recognition",
       "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": "Hugging Face",
+      "published": "Fri, 21 Aug 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "url": "https://huggingface.co/blog/pwc-search",
       "source": "Hugging Face",
       "published": "Fri, 21 Aug 2026 00:00:00 GMT",
       "summary": "",
@@ -1911,94 +1999,6 @@
       "source": "Hugging Face",
       "published": "Tue, 18 Aug 2026 00:00:00 GMT",
       "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "How NVIDIA scales expertise with ChatGPT Work",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "source": "OpenAI",
-      "published": "Tue, 18 Aug 2026 00:00:00 GMT",
-      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic\u2019s annualized revenue surges to $65B",
-      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 17 Aug 2026 23:56:26 +0000",
-      "summary": "The model maker added $18 billion in annualized revenue in two months.",
-      "isAI": true
-    },
-    {
-      "title": "Reddit\u2019s AI is turning posts into podcasts and short videos",
-      "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
-      "source": "The Verge",
-      "published": "2026-08-17T19:46:01-04:00",
-      "summary": "Reddit is trying out a new way for people to take in content on Reddit: by turning text posts into audio / video content. As part of an experiment, some posts are being adapted into videos that use AI voices to read the text of the main post and some comments. The video highlights the [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AI automation startup Relay shuts down, staff joins Google\u2019s Chrome team",
-      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 17 Aug 2026 21:27:05 +0000",
-      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I\u2019ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
-      "isAI": true
-    },
-    {
-      "title": "GPT-5.6 Sol Pricing Cut by 50%",
-      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 21:03:18 +0000",
-      "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 590 # Comments: 395",
-      "isAI": true
-    },
-    {
-      "title": "ABC\u2019s livestreamed news show is powered by trending topics",
-      "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
-      "source": "The Verge",
-      "published": "2026-08-17T16:59:23-04:00",
-      "summary": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the network just announced the show now, Searched began airing on the ABC News Live streaming channel in April, which appears on both Disney Plus and [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
-      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 20:46:10 +0000",
-      "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 928 # Comments: 544",
-      "isAI": true
-    },
-    {
-      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
-      "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
-      "source": "Ars Technica",
-      "published": "Mon, 17 Aug 2026 20:14:23 +0000",
-      "summary": "\"Network effect\" can run in reverse.",
-      "isAI": false
-    },
-    {
-      "title": "AI;DR (AI; Didn't Read)",
-      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "source": "Hacker News",
-      "published": "Mon, 17 Aug 2026 19:47:15 +0000",
-      "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 903 # Comments: 548",
-      "isAI": true
-    },
-    {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face",
-      "published": "Mon, 17 Aug 2026 19:46:21 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Save up to $300 on your TechCrunch Disrupt 2026 pass until August 21",
-      "url": "https://techcrunch.com/2026/08/17/save-up-to-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
-      "source": "TechCrunch",
-      "published": "Mon, 17 Aug 2026 19:33:51 +0000",
-      "summary": "If you\u2019ve been circling around Disrupt, then now\u2019s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
       "isAI": true
     }
   ]
