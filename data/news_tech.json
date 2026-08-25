@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-25T09:07:30.224244+00:00",
+  "updated": "2026-08-25T09:50:54.167666+00:00",
   "items": [
+    {
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "source": "The Verge AI",
+      "published": "2026-08-25T05:15:03-04:00",
+      "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
+      "url": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
+      "source": "Wired",
+      "published": "Tue, 25 Aug 2026 09:15:00 +0000",
+      "summary": "\u201cIt never crossed my mind that they would be so bold as to sell our private data for AI,\u201d says one former Spirit Airlines flight attendant.",
+      "isAI": true
+    },
+    {
+      "title": "I spent a day at a robot \u201ccarnival\u201d in Shanghai. Here\u2019s what I saw.",
+      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "source": "MIT Tech Review",
+      "published": "Tue, 25 Aug 2026 09:00:00 +0000",
+      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country\u2019s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems\u2014an idea called embodied AI\u2014was a key facet of China\u2019s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the\u2026",
+      "isAI": true
+    },
     {
       "title": "India\u2019s Airbound bags $37M to take on trucks with rocket-like drones",
       "url": "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/",
@@ -46,7 +70,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 440 # Comments: 119",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 460 # Comments: 129",
       "isAI": false
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "MIT Tech Review",
       "published": "Mon, 17 Aug 2026 19:16:09 +0000",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B",
-      "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
-      "source": "TechCrunch",
-      "published": "Mon, 17 Aug 2026 19:04:27 +0000",
-      "summary": "Higgsfield, founded by former Snap exec Alex Mashrabov, lets users create AI images and videos.",
-      "isAI": true
-    },
-    {
-      "title": "Wordle meets Clippy in this new word game",
-      "url": "https://www.theverge.com/entertainment/981014/dartwords-clippy-word-game",
-      "source": "The Verge",
-      "published": "2026-08-17T15:03:41-04:00",
-      "summary": "Like many of us, Sam Rosenthal plays games like Wordle every day, chasing after good scores and sharing the results with friends and family. But he's also a game designer, the creative director at Blaseball developer The Game Band, and so this regular habit got him thinking about what else could be done in the [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
-      "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/",
-      "source": "TechCrunch",
-      "published": "Mon, 17 Aug 2026 18:32:27 +0000",
-      "summary": "Sonic Fire Protection raised its new funding to help get its sound-powered fire protection system into everything from commercial kitchens to apartment buildings.",
       "isAI": true
     }
   ]
