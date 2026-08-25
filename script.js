@@ -86,6 +86,7 @@ function renderStocksTable(stocks, region) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
   }
   const isIndexes = region === 'indexes';
+  const isCommodities = region === 'commodities';
   const sorted = stocks.slice().sort((a, b) =>
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
@@ -94,13 +95,13 @@ function renderStocksTable(stocks, region) {
       <td><strong>${escapeHtml(s.name)}</strong></td>
       <td class="muted">${escapeHtml(s.ticker)}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
-      <td class="num">${isIndexes ? fmtIndexValue(s.indexValue) : fmtMarketCap(s.marketCap, s.currency)}</td>
+      <td class="num">${isIndexes || isCommodities ? fmtIndexValue(s.indexValue) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '') : fmtMarketCap(s.marketCap, s.currency)}</td>
       <td class="num">${fmtGainLossPercent(s.changePercent)}</td>
     </tr>`;
   }).join('');
   return `<table>
     <thead><tr>
-      <th>Company</th><th>Ticker</th><th>Sector</th><th>${isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
+      <th>${isCommodities ? 'Commodity' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : 'Sector'}</th><th>${isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;

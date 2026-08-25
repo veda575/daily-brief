@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T11:01:33.752099+00:00",
+  "updated": "2026-08-25T12:17:43.7084878Z",
   "regions": {
     "us": [
       {
@@ -557,6 +557,108 @@
         "marketCap": null,
         "changePercent": -0.35101426,
         "indexValue": 13745.869
+      }
+    ],
+    "commodities": [
+      {
+        "ticker": "ALI=F",
+        "name": "Aluminum",
+        "sector": "Metals",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": -0.66975784,
+        "indexValue": 3374.0,
+        "unit": "USD/metric ton"
+      },
+      {
+        "ticker": "ZC=F",
+        "name": "Corn",
+        "sector": "Agricultural",
+        "currency": "USX",
+        "marketCap": null,
+        "changePercent": 0.19398642,
+        "indexValue": 516.5,
+        "unit": "US¢/bushel"
+      },
+      {
+        "ticker": "HG=F",
+        "name": "Copper",
+        "sector": "Metals",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 0.59046227,
+        "indexValue": 6.644,
+        "unit": "USD/lb"
+      },
+      {
+        "ticker": "CL=F",
+        "name": "Crude Oil",
+        "sector": "Energy",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": -3.564285,
+        "indexValue": 81.98,
+        "unit": "USD/bbl"
+      },
+      {
+        "ticker": "GC=F",
+        "name": "Gold",
+        "sector": "Metals",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": -0.114945345,
+        "indexValue": 4692.4,
+        "unit": "USD/troy oz"
+      },
+      {
+        "ticker": "TIO=F",
+        "name": "Iron Ore",
+        "sector": "Metals",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": 20.99088,
+        "indexValue": 161.91,
+        "unit": "USD/metric ton"
+      },
+      {
+        "ticker": "NG=F",
+        "name": "Natural Gas",
+        "sector": "Energy",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": -1.4109334,
+        "indexValue": 2.795,
+        "unit": "USD/MMBtu"
+      },
+      {
+        "ticker": "SI=F",
+        "name": "Silver",
+        "sector": "Metals",
+        "currency": "USD",
+        "marketCap": null,
+        "changePercent": -0.9680168,
+        "indexValue": 67.93,
+        "unit": "USD/troy oz"
+      },
+      {
+        "ticker": "ZS=F",
+        "name": "Soybeans",
+        "sector": "Agricultural",
+        "currency": "USX",
+        "marketCap": null,
+        "changePercent": -0.3471513,
+        "indexValue": 1220.0,
+        "unit": "US¢/bushel"
+      },
+      {
+        "ticker": "ZW=F",
+        "name": "Wheat",
+        "sector": "Agricultural",
+        "currency": "USX",
+        "marketCap": null,
+        "changePercent": -1.3581129,
+        "indexValue": 690.0,
+        "unit": "US¢/bushel"
       }
     ]
   }

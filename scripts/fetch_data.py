@@ -61,6 +61,19 @@ INDEX_STOCKS = [
     ("^HSI",      "Hang Seng Index",          "Index / China (Hong Kong) Equities"),
 ]
 
+COMMODITIES = [
+    ("CL=F",  "Crude Oil",   "Energy",        "USD/bbl"),
+    ("NG=F",  "Natural Gas", "Energy",        "USD/MMBtu"),
+    ("GC=F",  "Gold",        "Metals",        "USD/troy oz"),
+    ("SI=F",  "Silver",      "Metals",        "USD/troy oz"),
+    ("HG=F",  "Copper",      "Metals",        "USD/lb"),
+    ("TIO=F", "Iron Ore",    "Metals",        "USD/metric ton"),
+    ("ALI=F", "Aluminum",    "Metals",        "USD/metric ton"),
+    ("ZC=F",  "Corn",        "Agricultural",  "US¢/bushel"),
+    ("ZW=F",  "Wheat",       "Agricultural",  "US¢/bushel"),
+    ("ZS=F",  "Soybeans",    "Agricultural",  "US¢/bushel"),
+]
+
 INDIA_STOCKS = [
     ("RELIANCE.NS",   "Reliance Industries", "Energy / Telecom"),
     ("BHARTIARTL.NS", "Bharti Airtel",       "Telecom / Digital Infrastructure", "BHARTIARTL"),
@@ -580,12 +593,19 @@ def fetch_all_stocks() -> dict:
 
     asia = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker) for s in (fetch_stock(*x) for x in ASIA_STOCKS) if s]
     indexes = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker) for s in (fetch_stock(*x) for x in INDEX_STOCKS) if s]
+    commodities = []
+    for ticker, name, category, unit in COMMODITIES:
+        commodity = fetch_stock(ticker, name, category)
+        if commodity:
+            commodity["unit"] = unit
+            commodities.append(merge_stock_with_existing(commodity, existing_by_ticker))
 
     return {
         "us":      sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
         "asia":    sorted_region(asia),
         "india":   sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
         "indexes": sorted_region(indexes),
+        "commodities": sorted_region(commodities),
     }
 
 
