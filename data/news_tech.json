@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-25T17:05:45.014538+00:00",
+  "updated": "2026-08-25T17:45:49.850885+00:00",
   "items": [
+    {
+      "title": "Waymo robotaxis are headed to Munich",
+      "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
+      "source": "TechCrunch",
+      "published": "Tue, 25 Aug 2026 17:32:03 +0000",
+      "summary": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment.",
+      "isAI": false
+    },
+    {
+      "title": "Instagram\u2019s \u2018First Draft\u2019 trims your Reels clips for you",
+      "url": "https://www.theverge.com/tech/984463/instagram-first-draft-edit-reels",
+      "source": "The Verge",
+      "published": "2026-08-25T13:12:31-04:00",
+      "summary": "Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights. The feature, called First Draft, is rolling out to Instagram's iPhone app and provides a \"starting point\" that you can build upon with other edits, according to an announcement on Tuesday. An example shared by Instagram shows [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Nothing OS 5.0 brings a new Glyph Interface app and a more customizable homescreen",
       "url": "https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17",
@@ -118,7 +134,7 @@
       "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
       "source": "Hacker News",
       "published": "Tue, 25 Aug 2026 13:01:22 +0000",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 545 # Comments: 432",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 600 # Comments: 485",
       "isAI": true
     },
     {
@@ -274,6 +290,14 @@
       "isAI": true
     },
     {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "source": "OpenAI",
+      "published": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "isAI": true
+    },
+    {
       "title": "Lenovo confirms Legion Go issues after gamers report bricked devices",
       "url": "https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked",
       "source": "The Verge",
@@ -286,7 +310,7 @@
       "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "source": "Hacker News",
       "published": "Mon, 24 Aug 2026 22:13:40 +0000",
-      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 572 # Comments: 182",
+      "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm Comments URL: https://news.ycombinator.com/item?id=49426564 Points: 581 # Comments: 183",
       "isAI": false
     },
     {
@@ -1976,30 +2000,6 @@
       "published": "2026-08-18T08:01:28-04:00",
       "summary": "Ah, the relationship between animals and the technology they can\u2019t quite understand. Today, it seems like there\u2019s a high-tech solution to every element of pet ownership, with devices on the market designed to keep pets fed, cleaned, watched over, and entertained. And if you have a pet you know: nothing is too good \u2014 or [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "How I turned my fish tank high tech",
-      "url": "https://www.theverge.com/tech/978229/fish-tank-tech",
-      "source": "The Verge",
-      "published": "2026-08-18T07:15:00-04:00",
-      "summary": "When I was a kid, I owned two goldfish that eventually outgrew the size of their tank. At the time, I didn't realize just how much actually goes into having fish and keeping them healthy. I've learned a lot over the past couple of years while keeping nano fish - a group of five celestial [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Elon Musk broke the FAA \u2014 Palantir is picking up the pieces",
-      "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
-      "source": "The Verge AI",
-      "published": "2026-08-18T07:00:00-04:00",
-      "summary": "On August 6th, the Minneapolis Air Route Traffic Control Center lost radar and communications for around two hours. The outage disrupted more than 1,100 flights across the center's 330,000 square mile, nine-state airspace sector. Two days earlier, on August 4th, President Donald Trump departed the White House inside his Marine One military helicopter. As Federal [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "ChatGPT is getting a dedicated mode for teens",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-      "source": "The Verge AI",
-      "published": "2026-08-18T07:00:00-04:00",
-      "summary": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens [\u2026]",
-      "isAI": true
     }
   ]
 }
