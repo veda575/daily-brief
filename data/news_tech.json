@@ -1,6 +1,54 @@
 {
-  "updated": "2026-08-26T11:07:22.313067+00:00",
+  "updated": "2026-08-26T13:56:03.126359+00:00",
   "items": [
+    {
+      "title": "Robot brain builders are pushing out of their GPT-2 era",
+      "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 13:30:00 +0000",
+      "summary": "Robot bodies are waiting for their AI brains to catch up.",
+      "isAI": true
+    },
+    {
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 13:00:00 +0000",
+      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+      "isAI": true
+    },
+    {
+      "title": "Ring says its new encryption limits what it can give police",
+      "url": "https://www.theverge.com/tech/984838/ring-take-encryption-throw-away-the-key-law-enforcement",
+      "source": "The Verge",
+      "published": "2026-08-26T08:55:45-04:00",
+      "summary": "Ring has a new way to protect your videos. It's developed an encryption method called TAKE, short for Throw Away the Key Encryption, that the Amazon-owned company says will protect your videos without traditional end-to-end encryption. TAKE limits when and why Amazon's cloud can access those videos, while still providing features like smart alerts for [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 12:55:28 +0000",
+      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "isAI": true
+    },
+    {
+      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 12:00:00 +0000",
+      "summary": "The glasses, called Legato Frames, integrate the company\u2019s patented hearing-assistance technology into the arms of eyewear frames.",
+      "isAI": true
+    },
+    {
+      "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+      "url": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 26 Aug 2026 11:10:49 +0000",
+      "summary": "The focus is on agentic capability and predictable enterprise deployment.",
+      "isAI": true
+    },
     {
       "title": "Bill Gates is deeply worried about AI, and he\u2019s no longer staying quiet",
       "url": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
@@ -12,7 +60,7 @@
     {
       "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
       "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 11:00:00 +0000",
       "summary": "Runable says 60%\u201370% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
       "isAI": true
@@ -23,6 +71,14 @@
       "source": "Wired",
       "published": "Wed, 26 Aug 2026 11:00:00 +0000",
       "summary": "Pet owners, rescue agencies, and wildlife groups are calling for new safeguards as AI makes it harder to tell whether animals, from polar bears to house cats, are real or fake.",
+      "isAI": true
+    },
+    {
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "source": "Hacker News",
+      "published": "Wed, 26 Aug 2026 10:04:55 +0000",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 260 # Comments: 101",
       "isAI": true
     },
     {
@@ -95,6 +151,14 @@
       "source": "OpenAI",
       "published": "Wed, 26 Aug 2026 00:00:00 GMT",
       "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "isAI": true
+    },
+    {
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face",
+      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
+      "summary": "",
       "isAI": true
     },
     {
@@ -1935,70 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Tue, 18 Aug 2026 22:14:25 +0000",
       "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
-      "isAI": true
-    },
-    {
-      "title": "AI usage patterns in software teams",
-      "url": "https://linear.app/data",
-      "source": "Hacker News",
-      "published": "Tue, 18 Aug 2026 22:08:07 +0000",
-      "summary": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 158 # Comments: 101",
-      "isAI": true
-    },
-    {
-      "title": "fx :Tiny, open, native coding agent.",
-      "url": "https://fx.sh",
-      "source": "Hacker News",
-      "published": "Tue, 18 Aug 2026 22:00:21 +0000",
-      "summary": "Article URL: https://fx.sh Comments URL: https://news.ycombinator.com/item?id=49353339 Points: 258 # Comments: 108",
-      "isAI": true
-    },
-    {
-      "title": "ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI",
-      "published": "Tue, 18 Aug 2026 22:00:00 GMT",
-      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "isAI": true
-    },
-    {
-      "title": "Squeeze More Juice Out of a Dead Battery!",
-      "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
-      "source": "Wired",
-      "published": "Tue, 18 Aug 2026 20:11:03 +0000",
-      "summary": "How the joule thief circuit \u201csteals\u201d energy from seemingly depleted power cells.",
-      "isAI": false
-    },
-    {
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge AI",
-      "published": "2026-08-18T15:28:30-04:00",
-      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "OpenAI",
-      "published": "Tue, 18 Aug 2026 19:00:00 GMT",
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
-      "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-      "source": "Wired",
-      "published": "Tue, 18 Aug 2026 18:33:11 +0000",
-      "summary": "The ChatGPT maker says its upcoming Astra model may have reached \u201ccritical\u201d cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
-      "isAI": true
-    },
-    {
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face",
-      "published": "Tue, 18 Aug 2026 18:09:38 GMT",
-      "summary": "",
       "isAI": true
     }
   ]
