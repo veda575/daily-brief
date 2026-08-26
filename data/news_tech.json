@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-26T16:18:32.819548+00:00",
+  "updated": "2026-08-26T18:15:53.859750+00:00",
   "items": [
+    {
+      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+      "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+      "source": "Wired",
+      "published": "Wed, 26 Aug 2026 17:13:37 +0000",
+      "summary": "More than 15 politicians from across the country have signed on to the AI Pact, vowing to regulate data centers and AI. \u201cWe\u2019ve got to get this right,\u201d says Senate candidate Dan Osborn of Nebraska.",
+      "isAI": true
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "source": "Google DeepMind",
+      "published": "Wed, 26 Aug 2026 17:01:00 +0000",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s new AI transcription edits out your \u2018ums\u2019 and \u2018ahs\u2019",
+      "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "source": "The Verge AI",
+      "published": "2026-08-26T13:00:00-04:00",
+      "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple is holding its iPhone launch event on September 9",
+      "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 16:53:07 +0000",
+      "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
+      "isAI": false
+    },
     {
       "title": "What\u2019s driving Sweden\u2019s startup boom, from Lovable to Legora",
       "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/",
@@ -70,7 +102,7 @@
       "url": "https://z.ai/blog/glm-5.3-flash",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 14:08:50 +0000",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 323 # Comments: 133",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 545 # Comments: 251",
       "isAI": true
     },
     {
@@ -114,11 +146,11 @@
       "isAI": true
     },
     {
-      "title": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",
+      "title": "Qwen3.8-Flash-Next",
       "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 12:52:12 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 339 # Comments: 103",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 450 # Comments: 135",
       "isAI": true
     },
     {
@@ -176,6 +208,22 @@
       "published": "2026-08-26T06:00:00-04:00",
       "summary": "Ikea has teamed up with Microsoft to launch a new assortment of gaming-inspired furniture and home accessories, coinciding with the 25th anniversary of the first Xbox console. The nine-piece Yxstaby collection (good luck pronouncing that) includes a TV stand, laptop stand, side table, lounge chair, and multi-functional toolbox, with standout products like a stool, cushion, [\u2026]",
       "isAI": false
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "source": "OpenAI",
+      "published": "Wed, 26 Aug 2026 10:00:00 GMT",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "isAI": true
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "source": "OpenAI",
+      "published": "Wed, 26 Aug 2026 10:00:00 GMT",
+      "summary": "OpenAI\u2019s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "isAI": true
     },
     {
       "title": "Raised on AI",
@@ -1951,54 +1999,6 @@
       "source": "The Verge",
       "published": "2026-08-19T10:00:00-04:00",
       "summary": "Robot vacuums are great at keeping your floors clean, but there are a few areas they fall down on the job - stairs being one. Another is chairs and stools. You know the scenario: You have a row of stools at a kitchen table, or chairs tucked under a dining table, and the robovac just [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face",
-      "published": "Wed, 19 Aug 2026 13:48:49 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Geolocating a random island using geometry and CUDA programming",
-      "url": "https://yassa9.github.io/osint/gralhix-004/",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 12:19:52 +0000",
-      "summary": "Article URL: https://yassa9.github.io/osint/gralhix-004/ Comments URL: https://news.ycombinator.com/item?id=49360545 Points: 500 # Comments: 81",
-      "isAI": false
-    },
-    {
-      "title": "AI isn\u2019t close to curing cancer. This startup says it knows what it will take.",
-      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 12:00:00 +0000",
-      "summary": "It's the data, stupid.",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia\u2019s new financial strategy does not compute",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "source": "The Verge AI",
-      "published": "2026-08-19T08:00:00-04:00",
-      "summary": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The everyday tech I use to track my corgi",
-      "url": "https://www.theverge.com/gadgets/981143/airtag-corgi-pet-tech-tracking",
-      "source": "The Verge",
-      "published": "2026-08-19T07:30:00-04:00",
-      "summary": "The Apple AirTag may be a jack-of-all-trades - people use it for keeping track of keys, suitcases, backpacks, purses - but I think the most logical use case for it, by far, is keeping track of your pet. I attach it to my corgi Jelly's collar via a matching silicone holder. Have I ever once [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "I Tried a Window-Cleaning Robot: Do Not Recommend",
-      "url": "https://www.wired.com/story/window-cleaning-robots-are-kinda-terrible/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 11:08:00 +0000",
-      "summary": "I tested the top-of-the-line Ecovacs Winbot W2S Omni window-cleaning robot on my Victorian home, and it was an unmitigated disaster.",
       "isAI": false
     }
   ]
