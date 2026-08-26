@@ -1,6 +1,70 @@
 {
-  "updated": "2026-08-26T18:15:53.859750+00:00",
+  "updated": "2026-08-26T20:11:03.564559+00:00",
   "items": [
+    {
+      "title": "Google\u2019s Gemini has a branding problem, and so does the rest of AI",
+      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 19:37:34 +0000",
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "isAI": true
+    },
+    {
+      "title": "How do we explain OpenAI\u2019s executive exodus?",
+      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 19:34:04 +0000",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "isAI": true
+    },
+    {
+      "title": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
+      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 26 Aug 2026 19:19:22 +0000",
+      "summary": "The AI that powers Gboard's Rambler is coming to more Google products, including Chrome.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+      "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+      "source": "Wired",
+      "published": "Wed, 26 Aug 2026 19:16:42 +0000",
+      "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 19:05:22 +0000",
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "isAI": true
+    },
+    {
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "source": "MIT Tech Review",
+      "published": "Wed, 26 Aug 2026 19:00:00 +0000",
+      "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
+      "url": "https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 18:35:40 +0000",
+      "summary": "Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard\u2019s growing open social web ecosystem.",
+      "isAI": true
+    },
+    {
+      "title": "The Humanoids at China\u2019s Robot Games Were Faster Than Usain Bolt\u2014but I\u2019m More Impressed by Their Tweezer Mastery",
+      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
+      "source": "Wired",
+      "published": "Wed, 26 Aug 2026 18:15:00 +0000",
+      "summary": "Beijing\u2019s endlessly delightful Robot Games featured tons of impressive stunts. But the most mind-blowing tricks challenged the humanoid\u2019s brain, not its brawn.",
+      "isAI": false
+    },
     {
       "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
       "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
@@ -102,7 +166,7 @@
       "url": "https://z.ai/blog/glm-5.3-flash",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 14:08:50 +0000",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 545 # Comments: 251",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 682 # Comments: 320",
       "isAI": true
     },
     {
@@ -150,7 +214,7 @@
       "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 12:52:12 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 450 # Comments: 135",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 521 # Comments: 166",
       "isAI": true
     },
     {
@@ -295,6 +359,14 @@
       "source": "Hugging Face",
       "published": "Wed, 26 Aug 2026 00:00:00 GMT",
       "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "source": "OpenAI",
+      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we\u2019re taking to strengthen AI model security, monitoring, and alignment.",
       "isAI": true
     },
     {
@@ -1928,78 +2000,6 @@
       "published": "Wed, 19 Aug 2026 15:45:29 +0000",
       "summary": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
       "isAI": true
-    },
-    {
-      "title": "TerraPower\u2019s nuclear reactor has a secret weapon for powering AI data centers",
-      "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 15:44:53 +0000",
-      "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
-      "isAI": true
-    },
-    {
-      "title": "Rivian spinout Also raises another $150M",
-      "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
-      "source": "TechCrunch",
-      "published": "Wed, 19 Aug 2026 15:39:47 +0000",
-      "summary": "The round, led by Prysm Capital, will fund the company's expansion beyond pedal-assist electric bikes and commercial cargo quads to autonomous delivery vehicles.",
-      "isAI": false
-    },
-    {
-      "title": "Mathematics in the age of AI",
-      "url": "https://arxiv.org/abs/2608.16753",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 15:14:25 +0000",
-      "summary": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 196 # Comments: 231",
-      "isAI": true
-    },
-    {
-      "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
-      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 15:00:00 +0000",
-      "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
-      "isAI": true
-    },
-    {
-      "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
-      "url": "https://ornith.ai/ornith_1_5.html",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 14:48:39 +0000",
-      "summary": "Article URL: https://ornith.ai/ornith_1_5.html Comments URL: https://news.ycombinator.com/item?id=49362401 Points: 193 # Comments: 65",
-      "isAI": true
-    },
-    {
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "source": "VentureBeat AI",
-      "published": "Wed, 19 Aug 2026 14:18:12 GMT",
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers \u2014 the directors, VPs, CIOs, and CTOs \u2014 who are evaluating, buying,\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Calendly throws its hat into meeting note-taker circus",
-      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 14:09:39 +0000",
-      "summary": "Calendly is also releasing a meeting scheduling assistant called Callie.",
-      "isAI": true
-    },
-    {
-      "title": "The founder\u2019s secret weapon: Work at TechCrunch Disrupt 2026 and learn how the pros do it",
-      "url": "https://techcrunch.com/2026/08/19/the-founders-secret-weapon-work-at-techcrunch-disrupt-2026-and-learn-how-the-pros-do-it/",
-      "source": "TechCrunch",
-      "published": "Wed, 19 Aug 2026 14:02:00 +0000",
-      "summary": "Volunteer at TechCrunch Disrupt 2026 and get an insider's view of how world-class tech events get built and more.",
-      "isAI": false
-    },
-    {
-      "title": "This robot vacuum solves my kitchen stool problem",
-      "url": "https://www.theverge.com/tech/981874/mova-v70-ultra-robot-vacuum-mop-arm-hands-on-review",
-      "source": "The Verge",
-      "published": "2026-08-19T10:00:00-04:00",
-      "summary": "Robot vacuums are great at keeping your floors clean, but there are a few areas they fall down on the job - stairs being one. Another is chairs and stools. You know the scenario: You have a row of stools at a kitchen table, or chairs tucked under a dining table, and the robovac just [\u2026]",
-      "isAI": false
     }
   ]
 }
