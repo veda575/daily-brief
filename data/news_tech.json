@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-26T14:48:00.485519+00:00",
+  "updated": "2026-08-26T16:18:32.819548+00:00",
   "items": [
+    {
+      "title": "What\u2019s driving Sweden\u2019s startup boom, from Lovable to Legora",
+      "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 16:00:00 +0000",
+      "summary": "Vibe-coding darling Lovable just raised $400 million at a $13.3 billion valuation, roughly doubling its worth in eight months. But Lovable isn\u2019t the only Stockholm startup putting up huge numbers lately \u2014 legal AI company Legora and health tech startup Neko Health are right there with it. On this episode of TechCrunch\u2019s Equity podcast, Dominic-Madori Davis is joined by Sophia Bendz, a partner at\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Radar makes podcasts searchable \u2014 and usable by AI agents",
+      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 15:47:28 +0000",
+      "summary": "Particle\u2019s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+      "isAI": true
+    },
+    {
+      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 15:00:00 +0000",
+      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
+      "isAI": true
+    },
     {
       "title": "Ring introduces a new encryption standard, makes it the default for cloud features",
       "url": "https://techcrunch.com/2026/08/26/ring-introduces-a-new-encryption-standard-makes-it-the-default-for-cloud-features/",
@@ -39,6 +63,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 14:19:29 +0000",
       "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+      "isAI": true
+    },
+    {
+      "title": "GLM-5.3-Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "source": "Hacker News",
+      "published": "Wed, 26 Aug 2026 14:08:50 +0000",
+      "summary": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 323 # Comments: 133",
       "isAI": true
     },
     {
@@ -86,7 +118,7 @@
       "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 12:52:12 +0000",
-      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 232 # Comments: 74",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 339 # Comments: 103",
       "isAI": true
     },
     {
@@ -118,7 +150,7 @@
       "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
       "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 11:00:00 +0000",
-      "summary": "Runable says 60%\u201370% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+      "summary": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
       "isAI": true
     },
     {
@@ -134,7 +166,7 @@
       "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 10:04:55 +0000",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 313 # Comments: 117",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 357 # Comments: 129",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Wed, 19 Aug 2026 11:08:00 +0000",
       "summary": "I tested the top-of-the-line Ecovacs Winbot W2S Omni window-cleaning robot on my Victorian home, and it was an unmitigated disaster.",
       "isAI": false
-    },
-    {
-      "title": "Dell XPS 13 vs. MacBook Neo: A Surprising Upset",
-      "url": "https://www.wired.com/story/macbook-neo-vs-dell-xps-13/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 10:30:00 +0000",
-      "summary": "The Dell XPS 13 and MacBook Neo are both premium-feeling laptops with only 8 GB of RAM. Which $700 laptop is the better buy?",
-      "isAI": false
-    },
-    {
-      "title": "Air Theremin \u2013 A browser theremin you play by waving at your webcam",
-      "url": "https://theremin.bizibah.com/",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 10:15:00 +0000",
-      "summary": "Article URL: https://theremin.bizibah.com/ Comments URL: https://news.ycombinator.com/item?id=49359425 Points: 272 # Comments: 93",
-      "isAI": false
-    },
-    {
-      "title": "Framework gave its 12-inch laptop some hardware upgrades",
-      "url": "https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability",
-      "source": "The Verge",
-      "published": "2026-08-19T06:14:26-04:00",
-      "summary": "Framework has refreshed its 12-inch convertible laptop, introducing Intel's latest Core Series 3 processors, expanded hardware customizations, and a pre-built Linux option. The cheapest pre-built base configuration for the Framework Laptop 12 now starts at $699 - $100 less than the previous version when it launched last year. Preorders are open now, with the first [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
-      "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 10:00:00 +0000",
-      "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
-      "isAI": true
     }
   ]
 }
