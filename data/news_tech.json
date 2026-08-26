@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-26T20:11:03.564559+00:00",
+  "updated": "2026-08-26T23:34:55.727805+00:00",
   "items": [
+    {
+      "title": "Meta\u2019s $18B child-safety deal hinges on age verification tech that doesn\u2019t work well",
+      "url": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 22:47:58 +0000",
+      "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
+      "isAI": false
+    },
+    {
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "source": "The Verge AI",
+      "published": "2026-08-26T17:40:53-04:00",
+      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 21:37:39 +0000",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI\u2019s rogue AI model incident was worse than we thought",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "source": "The Verge AI",
+      "published": "2026-08-26T17:36:06-04:00",
+      "summary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d",
+      "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 26 Aug 2026 21:25:27 +0000",
+      "summary": "Report shows Meta's challenges replacing people with AI agents.",
+      "isAI": true
+    },
     {
       "title": "Google\u2019s Gemini has a branding problem, and so does the rest of AI",
       "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
@@ -26,7 +66,7 @@
       "isAI": true
     },
     {
-      "title": "OpenAI\u2019s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+      "title": "What We Still Don\u2019t Know About OpenAI\u2019s Hugging Face Hack",
       "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
       "source": "Wired",
       "published": "Wed, 26 Aug 2026 19:16:42 +0000",
@@ -66,6 +106,14 @@
       "isAI": false
     },
     {
+      "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+      "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+      "source": "Hacker News",
+      "published": "Wed, 26 Aug 2026 17:20:12 +0000",
+      "summary": "Article URL: https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/ Comments URL: https://news.ycombinator.com/item?id=49452671 Points: 172 # Comments: 43",
+      "isAI": false
+    },
+    {
       "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
       "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
       "source": "Wired",
@@ -90,6 +138,14 @@
       "isAI": true
     },
     {
+      "title": "Capital F closes $17M debut fund with goal to back the future of the \u2018female economy\u2019",
+      "url": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 17:00:00 +0000",
+      "summary": "The firm backs companies building in the \u201cfemale economy,\u201d or the markets where women drive demand \u2014 women\u2019s health, digital commerce, and AI tools.",
+      "isAI": true
+    },
+    {
       "title": "Apple is holding its iPhone launch event on September 9",
       "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
       "source": "TechCrunch",
@@ -111,6 +167,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 15:47:28 +0000",
       "summary": "Particle\u2019s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+      "isAI": true
+    },
+    {
+      "title": "It\u2019s so hard to finish an idea that is not yours and is just suggested by AI",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+      "source": "Hacker News",
+      "published": "Wed, 26 Aug 2026 15:30:05 +0000",
+      "summary": "Article URL: https://www.ssp.sh/brain/using-obsidian-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49450898 Points: 159 # Comments: 85",
       "isAI": true
     },
     {
@@ -1770,11 +1834,19 @@
       "isAI": true
     },
     {
-      "title": "Introducing AI Futures",
+      "title": "Introducing Intelligence Age",
       "url": "https://openai.com/index/introducing-ai-futures",
       "source": "OpenAI",
       "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "isAI": true
+    },
+    {
+      "title": "Introducing Intelligence Age",
+      "url": "https://openai.com/index/introducing-intelligence-age",
+      "source": "OpenAI",
+      "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "isAI": true
     },
     {
@@ -1927,78 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-19T13:10:09-04:00",
       "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Meta AI is getting a Mac app",
-      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "source": "The Verge AI",
-      "published": "2026-08-19T13:00:00-04:00",
-      "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Coders Say They Already Found Workarounds to Claude\u2019s Invisible Watermarks",
-      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 16:44:07 +0000",
-      "summary": "Anthropic announced last week it would include invisible watermarks in AI-generated content to comply with new EU rules. Within hours, overrides were being touted online.",
-      "isAI": true
-    },
-    {
-      "title": "Google Pixel Watch 5 Review: More Health, More AI",
-      "url": "https://www.wired.com/review/google-pixel-watch-5/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 16:34:24 +0000",
-      "summary": "With smarter gym tracking, new health alerts, and offline Gemini, the Pixel Watch 5 fine-tunes a winning formula\u2014for a price.",
-      "isAI": true
-    },
-    {
-      "title": "Extensible Software in the age of LLMs",
-      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 16:26:05 +0000",
-      "summary": "Article URL: https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/ Comments URL: https://news.ycombinator.com/item?id=49363668 Points: 153 # Comments: 63",
-      "isAI": true
-    },
-    {
-      "title": "Time\u2019s running out! Save $300 on your TechCrunch Disrupt 2026 pass until August 21",
-      "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
-      "source": "TechCrunch",
-      "published": "Wed, 19 Aug 2026 16:16:18 +0000",
-      "summary": "If you\u2019ve been circling around Disrupt, then now\u2019s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
-      "isAI": true
-    },
-    {
-      "title": "We reviewed the new Pixel lineup, ask us anything",
-      "url": "https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama",
-      "source": "The Verge",
-      "published": "2026-08-19T12:15:00-04:00",
-      "summary": "The embargo has lifted on Google's Pixel 11 series, as well as for its Pixel Watch 5. Now we get to talk smack - just kidding, the new hardware is good. We have four reviews live on the site that you can peruse at your leisure. We're giving subscribers a chance to engage with us [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Google\u2019s Pixel Watch 5 is promising \u2014 but it isn\u2019t finished",
-      "url": "https://www.theverge.com/tech/981957/google-pixel-watch-5-review-wearables-smartwatch",
-      "source": "The Verge",
-      "published": "2026-08-19T12:00:00-04:00",
-      "summary": "The Google Pixel Watch 5 has, in many ways, been the hardest Pixel Watch to accurately review. Barely anything has changed in terms of hardware. The sizes are the same, the chips and battery got an itty-bitty boost, and there's a new pyrite satin case finish. Instead, the big updates are all software-related: This year's [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
-      "url": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 16:00:00 +0000",
-      "summary": "Google\u2019s new voice typing is pure magic, but subpar gaming performance and a useless rear LED keep these flagships from true greatness.",
-      "isAI": true
-    },
-    {
-      "title": "Meta ran ads for an app promising to nudify female politicians",
-      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 19 Aug 2026 15:45:29 +0000",
-      "summary": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
       "isAI": true
     }
   ]
