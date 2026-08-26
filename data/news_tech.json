@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-26T09:11:09.378584+00:00",
+  "updated": "2026-08-26T09:57:19.944292+00:00",
   "items": [
+    {
+      "title": "Raised on AI",
+      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "source": "MIT Tech Review",
+      "published": "Wed, 26 Aug 2026 09:00:00 +0000",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet. Fast-forward a couple\u2026",
+      "isAI": true
+    },
+    {
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "source": "MIT Tech Review",
+      "published": "Wed, 26 Aug 2026 09:00:00 +0000",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term \u201cmachine learning\u201d was popularized in a 1959 article by the IBM computer scientist Arthur\u2026",
+      "isAI": true
+    },
     {
       "title": "Bill Gates says we\u2019ve passed AI\u2019s danger thresholds. Now what?",
       "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
@@ -39,6 +55,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 00:06:20 +0000",
       "summary": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "isAI": true
+    },
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "source": "OpenAI",
+      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
       "isAI": true
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "TechCrunch",
       "published": "Tue, 18 Aug 2026 17:12:13 +0000",
       "summary": "Apple is simplifying its EU App Store fees, replacing its per-install fee with a 5% commission for apps distributed outside the App Store and making it easier for developers to operate alternative app marketplaces.",
-      "isAI": false
-    },
-    {
-      "title": "Apple squashes EU beef with new App Store rules",
-      "url": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
-      "source": "The Verge",
-      "published": "2026-08-18T12:48:26-04:00",
-      "summary": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagreements with the Commission over business terms and alternative distribution.\" As part of the changes, every developer that distributes apps will be moved to a single set of business terms, and digital transactions for apps distributed [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Why Apple\u2019s camera-equipped AirPods may not be the \u2018pervert pods\u2019 consumers fear",
-      "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 18 Aug 2026 16:19:10 +0000",
-      "summary": "Apple\u2019s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
-      "isAI": true
-    },
-    {
-      "title": "Meta Ran Ads for an App That Promised to Nudify Female Politicians",
-      "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-      "source": "Wired",
-      "published": "Tue, 18 Aug 2026 14:45:33 +0000",
-      "summary": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.",
       "isAI": false
     }
   ]
