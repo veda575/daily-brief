@@ -1,10 +1,58 @@
 {
-  "updated": "2026-08-26T13:56:03.126359+00:00",
+  "updated": "2026-08-26T14:48:00.485519+00:00",
   "items": [
+    {
+      "title": "Ring introduces a new encryption standard, makes it the default for cloud features",
+      "url": "https://techcrunch.com/2026/08/26/ring-introduces-a-new-encryption-standard-makes-it-the-default-for-cloud-features/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 14:44:33 +0000",
+      "summary": "Ring says users can still opt for end-to-end encryption.",
+      "isAI": true
+    },
+    {
+      "title": "Bill Gates wants to see a robot tax and \u2018Human Reserved\u2019 jobs to mitigate harms from AI",
+      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 14:37:01 +0000",
+      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
+      "isAI": true
+    },
+    {
+      "title": "CISA confirms hackers targeted over 100 US water systems during July",
+      "url": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
+      "source": "TechCrunch",
+      "published": "Wed, 26 Aug 2026 14:31:05 +0000",
+      "summary": "The federal cyber agency's warning comes amid a wave of suspected Iran-backed cyberattacks targeting critical water systems across the United States.",
+      "isAI": false
+    },
+    {
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "source": "VentureBeat AI",
+      "published": "Wed, 26 Aug 2026 14:30:00 GMT",
+      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer Interaction Suite at Tata Communications.\"In the rush to\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 26 Aug 2026 14:19:29 +0000",
+      "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+      "isAI": true
+    },
+    {
+      "title": "You can now buy music on SoundCloud",
+      "url": "https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
+      "source": "The Verge",
+      "published": "2026-08-26T10:00:00-04:00",
+      "summary": "SoundCloud has launched a new beta feature that allows artists on the audio streaming platform to sell music directly from their profiles, instead of diverting fans to purchase from third-party services like Bandcamp and Beatport. The feature aims to give listeners a better way to support the musicians behind their favorite songs, because SoundCloud isn't [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Robot brain builders are pushing out of their GPT-2 era",
       "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 13:30:00 +0000",
       "summary": "Robot bodies are waiting for their AI brains to catch up.",
       "isAI": true
@@ -31,6 +79,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 12:55:28 +0000",
       "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "isAI": true
+    },
+    {
+      "title": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source": "Hacker News",
+      "published": "Wed, 26 Aug 2026 12:52:12 +0000",
+      "summary": "Article URL: https://qwen.ai/blog?id=qwen3.8-flash-next Comments URL: https://news.ycombinator.com/item?id=49448210 Points: 232 # Comments: 74",
       "isAI": true
     },
     {
@@ -78,7 +134,7 @@
       "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
       "source": "Hacker News",
       "published": "Wed, 26 Aug 2026 10:04:55 +0000",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 260 # Comments: 101",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek Comments URL: https://news.ycombinator.com/item?id=49446422 Points: 313 # Comments: 117",
       "isAI": true
     },
     {
@@ -1943,62 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Wed, 19 Aug 2026 10:00:00 +0000",
       "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
-      "isAI": true
-    },
-    {
-      "title": "Reverse-Lookup Service Exposed Millions of Photos of People\u2019s Faces",
-      "url": "https://www.wired.com/story/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 10:00:00 +0000",
-      "summary": "The people-search tool ClarityCheck says its reverse image search service is \u201cprivate and secure\u201d\u2014but it left a database containing more than 9 million image files exposed.",
-      "isAI": false
-    },
-    {
-      "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
-      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 09:00:00 +0000",
-      "summary": "Flock\u2019s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates.",
-      "isAI": true
-    },
-    {
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "source": "OpenAI",
-      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "isAI": true
-    },
-    {
-      "title": "AI boosted homework scores, then exam scores dropped: study",
-      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 06:13:31 +0000",
-      "summary": "https://archive.is/w1enghttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618 Comments URL: https://news.ycombinator.com/item?id=49357530 Points: 173 # Comments: 231",
-      "isAI": true
-    },
-    {
-      "title": "Cerebras CS-4",
-      "url": "https://www.cerebras.ai/cs4",
-      "source": "Hacker News",
-      "published": "Wed, 19 Aug 2026 00:28:18 +0000",
-      "summary": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 442 # Comments: 256",
-      "isAI": true
-    },
-    {
-      "title": "Ukrainian drones overwhelm Russian tanks\u2019 new active protection system\u2014for now",
-      "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
-      "source": "Ars Technica",
-      "published": "Tue, 18 Aug 2026 22:18:13 +0000",
-      "summary": "Tanks with defensive tech for shooting down drones are still proving vulnerable.",
-      "isAI": false
-    },
-    {
-      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 18 Aug 2026 22:14:25 +0000",
-      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
       "isAI": true
     }
   ]
