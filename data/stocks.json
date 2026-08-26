@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T10:37:42.954958+00:00",
+  "updated": "2026-08-26T11:07:22.313067+00:00",
   "regions": {
     "us": [
       {
@@ -244,7 +244,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1240863282519.2278,
+        "marketCap": 1240441985452.2527,
         "changePercent": 1.7509726,
         "indexValue": 261500.0
       },
@@ -253,7 +253,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 511865113392.6134,
+        "marketCap": 511870990587.12164,
         "changePercent": 0.76922935,
         "indexValue": 445.4
       },
@@ -576,8 +576,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.0586855,
-        "indexValue": 6.8115,
+        "changePercent": -0.02934275,
+        "indexValue": 6.8135,
         "unit": "USD/lb"
       },
       {
@@ -586,8 +586,8 @@
         "sector": "Agricultural",
         "currency": "USX",
         "marketCap": null,
-        "changePercent": 0.8595989,
-        "indexValue": 528.0,
+        "changePercent": 0.81184334,
+        "indexValue": 527.75,
         "unit": "US\u00a2/bushel"
       },
       {
@@ -596,8 +596,8 @@
         "sector": "Energy",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -2.6833403,
-        "indexValue": 80.15,
+        "changePercent": -2.4040837,
+        "indexValue": 80.38,
         "unit": "USD/bbl"
       },
       {
@@ -606,8 +606,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.49632132,
-        "indexValue": 4671.2,
+        "changePercent": -0.3834274,
+        "indexValue": 4676.5,
         "unit": "USD/troy oz"
       },
       {
@@ -626,8 +626,8 @@
         "sector": "Energy",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 1.9851114,
-        "indexValue": 2.877,
+        "changePercent": 2.162349,
+        "indexValue": 2.882,
         "unit": "USD/MMBtu"
       },
       {
@@ -636,8 +636,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.30866602,
-        "indexValue": 68.47,
+        "changePercent": -0.33779195,
+        "indexValue": 68.45,
         "unit": "USD/troy oz"
       },
       {
@@ -646,8 +646,8 @@
         "sector": "Agricultural",
         "currency": "USX",
         "marketCap": null,
-        "changePercent": 0.24237528,
-        "indexValue": 1240.75,
+        "changePercent": 0.18178146,
+        "indexValue": 1240.0,
         "unit": "US\u00a2/bushel"
       },
       {
@@ -656,8 +656,8 @@
         "sector": "Agricultural",
         "currency": "USX",
         "marketCap": null,
-        "changePercent": 1.670814,
-        "indexValue": 715.0,
+        "changePercent": 1.5286171,
+        "indexValue": 714.0,
         "unit": "US\u00a2/bushel"
       }
     ]
