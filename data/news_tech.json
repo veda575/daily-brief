@@ -1,6 +1,94 @@
 {
-  "updated": "2026-08-27T18:18:23.571161+00:00",
+  "updated": "2026-08-27T22:51:10.156291+00:00",
   "items": [
+    {
+      "title": "Anthropic's new hardware standard lets AI agents control the physical world",
+      "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 22:15:43 +0000",
+      "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
+      "isAI": true
+    },
+    {
+      "title": "Meta addresses \u2018pervert glasses\u2019 reputation with a privacy fix and a new marketing campaign",
+      "url": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
+      "source": "The Verge",
+      "published": "2026-08-27T17:37:45-04:00",
+      "summary": "Meta is updating its AI-powered smart glasses to close a loophole that allowed wearers to keep recording after covering the front-facing LED. Alex Himel, Meta's vice president of augmented reality, writes in a post on Threads that \"the camera will now stop working if the light is covered during a recording.\" The company's line of [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "6 Takeaways From the GTA VI Extended Look",
+      "url": "https://www.wired.com/story/5-takeaways-from-the-gta-vi-extended-look/",
+      "source": "Wired",
+      "published": "Thu, 27 Aug 2026 21:30:28 +0000",
+      "summary": "Grand Theft Auto VI is nigh. Here\u2019s what the developer revealed about its highly anticipated game.",
+      "isAI": false
+    },
+    {
+      "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
+      "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
+      "source": "Wired",
+      "published": "Thu, 27 Aug 2026 21:08:34 +0000",
+      "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
+      "isAI": true
+    },
+    {
+      "title": "Elon Musk\u2019s xAI used child porn to train Grok models, lawsuit says",
+      "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 20:52:31 +0000",
+      "summary": "xAI accused of training Grok on real and AI-generated child pornography.",
+      "isAI": true
+    },
+    {
+      "title": "GTA VI: all the news on Rockstar\u2019s next entry in the Grand Theft Auto series",
+      "url": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
+      "source": "The Verge",
+      "published": "2026-08-27T16:01:56-04:00",
+      "summary": "It\u2019s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, eventually shifting to November 19th, 2026, a full year after its originally planned fall 2025 [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+      "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 19:55:22 +0000",
+      "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+      "isAI": true
+    },
+    {
+      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 19:52:52 +0000",
+      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s AI note-taking app now allows you to interact with books",
+      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+      "source": "The Verge AI",
+      "published": "2026-08-27T15:30:00-04:00",
+      "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "AI industry says Trump plans to tax chips in the \u201csingle dumbest way imaginable\u201d",
+      "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 18:57:08 +0000",
+      "summary": "Tech industry is perplexed by Trump\u2019s plan to win AI race by taxing data centers.",
+      "isAI": true
+    },
+    {
+      "title": "Google tells Android app developers to cool it on memory use, or else",
+      "url": "https://www.theverge.com/tech/985679/google-play-android-17-memory-limit",
+      "source": "The Verge",
+      "published": "2026-08-27T14:33:11-04:00",
+      "summary": "Google will start policing memory-hungry Android apps as a direct response to the RAM crisis. Spotted by TechCrunch, the company yesterday published a memo addressing the Play Store's role in enforcing new memory-usage restrictions. The post emphasizes the importance of meeting new memory usage limits for apps, in order \"to help developers navigate industry-wide hardware [\u2026]",
+      "isAI": false
+    },
     {
       "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
       "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
@@ -15,6 +103,14 @@
       "source": "TechCrunch AI",
       "published": "Thu, 27 Aug 2026 17:43:24 +0000",
       "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "isAI": true
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "source": "Hacker News",
+      "published": "Thu, 27 Aug 2026 17:06:32 +0000",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/ Comments URL: https://news.ycombinator.com/item?id=49467922 Points: 166 # Comments: 119",
       "isAI": true
     },
     {
@@ -106,14 +202,6 @@
       "isAI": false
     },
     {
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "source": "VentureBeat AI",
-      "published": "Thu, 27 Aug 2026 14:30:00 GMT",
-      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer Interaction Suite at Tata Communications.\"In the rush to\u2026",
-      "isAI": true
-    },
-    {
       "title": "Australian police arrest two over TeamPCP hacks targeting Mercor, OpenAI, and others",
       "url": "https://techcrunch.com/2026/08/27/australian-police-arrest-two-over-teampcp-hacks-targeting-mercor-openai-and-others/",
       "source": "TechCrunch",
@@ -198,7 +286,7 @@
       "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
       "source": "TechCrunch AI",
       "published": "Thu, 27 Aug 2026 13:00:00 +0000",
-      "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
+      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
       "isAI": true
     },
     {
@@ -562,6 +650,14 @@
       "isAI": false
     },
     {
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "source": "VentureBeat AI",
+      "published": "Wed, 26 Aug 2026 14:30:00 GMT",
+      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer Interaction Suite at Tata Communications.\"In the rush to\u2026",
+      "isAI": true
+    },
+    {
       "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
       "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
       "source": "TechCrunch AI",
@@ -631,6 +727,14 @@
       "source": "TechCrunch AI",
       "published": "Wed, 26 Aug 2026 12:00:00 +0000",
       "summary": "The glasses, called Legato Frames, integrate the company\u2019s patented hearing-assistance technology into the arms of eyewear frames.",
+      "isAI": true
+    },
+    {
+      "title": "The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+      "source": "Hacker News",
+      "published": "Wed, 26 Aug 2026 11:23:54 +0000",
+      "summary": "Article URL: https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med Comments URL: https://news.ycombinator.com/item?id=49447057 Points: 176 # Comments: 433",
       "isAI": true
     },
     {
@@ -1362,14 +1466,6 @@
       "isAI": true
     },
     {
-      "title": "GTA VI: all the news on Rockstar\u2019s next entry in the Grand Theft Auto series",
-      "url": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
-      "source": "The Verge",
-      "published": "2026-08-23T15:14:37-04:00",
-      "summary": "It\u2019s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [\u2026]",
-      "isAI": false
-    },
-    {
       "title": "Linkdaze\u2019s smart calendar is built to run a household, not just track a schedule",
       "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
       "source": "TechCrunch AI",
@@ -1904,102 +2000,6 @@
       "published": "Thu, 20 Aug 2026 17:14:08 +0000",
       "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
       "isAI": false
-    },
-    {
-      "title": "Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner",
-      "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 17:04:53 +0000",
-      "summary": "At Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments.",
-      "isAI": true
-    },
-    {
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source": "Hugging Face",
-      "published": "Thu, 20 Aug 2026 16:52:57 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Ramp launches its own AI model router, called Router",
-      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 16:46:00 +0000",
-      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "isAI": true
-    },
-    {
-      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
-      "url": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 16:22:19 +0000",
-      "summary": "The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.",
-      "isAI": false
-    },
-    {
-      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
-      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 16:07:26 +0000",
-      "summary": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
-      "isAI": true
-    },
-    {
-      "title": "The 2026 Startup Battlefield 200 is here \u2014 see who made the cut",
-      "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 16:00:00 +0000",
-      "summary": "We\u2019re thrilled to unveil the 2026 Startup Battlefield 200, our annual handpicked list of the 200 most promising early-stage startups from around the world.",
-      "isAI": true
-    },
-    {
-      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
-      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 16:00:00 +0000",
-      "summary": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of ten hurdles the company must overcome to make a profitable power plant.",
-      "isAI": true
-    },
-    {
-      "title": "There are less than 48 hours to save up to $300 on your TechCrunch Disrupt 2026 ticket",
-      "url": "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 15:53:49 +0000",
-      "summary": "If you\u2019ve been circling around Disrupt, then now\u2019s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
-      "isAI": true
-    },
-    {
-      "title": "It\u2019s Greg Brockman\u2019s OpenAI now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "source": "The Verge AI",
-      "published": "2026-08-20T11:45:55-04:00",
-      "summary": "OpenAI has had a hell of a year. The company spent months battling former co-founder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Debates over AI consciousness are a trap",
-      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 20 Aug 2026 15:42:39 +0000",
-      "summary": "\u201cRunaway\u201d AI, \u201crogue\u201d agents, and \u201cautonomous\u201d actors\u2014the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly \u201csuperhuman\u201d systems, while a separate faction, led by policy organizations\u2026",
-      "isAI": true
-    },
-    {
-      "title": "This app makes the Pixel 11\u2019s HiLight feature actually useful",
-      "url": "https://www.theverge.com/tech/982791/this-app-makes-the-pixel-11s-hilight-feature-actually-useful",
-      "source": "The Verge",
-      "published": "2026-08-20T11:30:34-04:00",
-      "summary": "Google's new HiLight notification LED on the Pixel 11 Pro is nearly useless. Out of the box, the only two things it can glow for are when the phone is face down and you're interacting with Gemini, or when you get a call from a favorite contact. And even then, it can only glow one [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Anti-AI fonts are useless and harmful",
-      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-      "source": "Hacker News",
-      "published": "Thu, 20 Aug 2026 15:06:53 +0000",
-      "summary": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 170 # Comments: 131",
-      "isAI": true
     }
   ]
 }
