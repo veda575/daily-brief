@@ -1,12 +1,284 @@
 {
-  "updated": "2026-08-27T07:13:44.268684+00:00",
+  "updated": "2026-08-27T18:18:23.571161+00:00",
   "items": [
+    {
+      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
+      "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
+      "source": "Wired",
+      "published": "Thu, 27 Aug 2026 18:06:52 +0000",
+      "summary": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 17:43:24 +0000",
+      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s new Fitbit Air brings Pok\u00e9mon Sleep to your wrist",
+      "url": "https://techcrunch.com/2026/08/27/googles-new-fitbit-air-brings-pokemon-sleep-to-your-wrist/",
+      "source": "TechCrunch",
+      "published": "Thu, 27 Aug 2026 17:05:45 +0000",
+      "summary": "Google teamed up with the Pok\u00e9mon Company to introduce a special-edition Fitbit Air that works with the Pok\u00e9mon Sleep app.",
+      "isAI": false
+    },
+    {
+      "title": "Hoomanely\u2019s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
+      "url": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
+      "source": "TechCrunch",
+      "published": "Thu, 27 Aug 2026 16:53:50 +0000",
+      "summary": "Hoomanely has developed a smart bowl to measure and record dogs' feeding data, then tells owners if behaviors change.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI Is Developing a \u2018Persistent\u2019 AI Agent",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
+      "source": "Wired",
+      "published": "Thu, 27 Aug 2026 16:52:42 +0000",
+      "summary": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is \u201cput to sleep.\u201d",
+      "isAI": true
+    },
+    {
+      "title": "Jensen Huang says Nvidia achieved AGI, again \u2014 not that it matters",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "source": "The Verge AI",
+      "published": "2026-08-27T12:15:52-04:00",
+      "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "source": "Google DeepMind",
+      "published": "Thu, 27 Aug 2026 16:11:32 +0000",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "Google AI",
+      "published": "Thu, 27 Aug 2026 16:00:00 +0000",
+      "summary": "Graphic depicting new travel features for AI Mode in Search",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s AI Mode can now track flight prices, help book hotels, and more",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 16:00:00 +0000",
+      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "isAI": true
+    },
+    {
+      "title": "This former PG&E engineer is building a \u2018Google Maps for the underground\u2019",
+      "url": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
+      "source": "TechCrunch",
+      "published": "Thu, 27 Aug 2026 15:00:00 +0000",
+      "summary": "The startup just raised a $26 million Series A to grow its customer base and help reduce red tape for utility and construction work.",
+      "isAI": true
+    },
+    {
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 14:56:52 +0000",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an \u201copen-source robot you can teach new tricks with reinforcement learning.\u201d",
+      "isAI": true
+    },
+    {
+      "title": "In a swipe at Tesla, Waymo says \u2018cameras\u2026 aren\u2019t enough\u2019",
+      "url": "https://www.theverge.com/transportation/985503/waymo-tesla-lidar-camera-robotaxi-cybercab-musk",
+      "source": "The Verge",
+      "published": "2026-08-27T10:55:20-04:00",
+      "summary": "As Tesla gears up for the official launch of its steering wheel and pedal-less Cybercabs, Waymo is issuing a stark warning about Elon Musk's approach autonomous driving. Srikanth Thirumalai, Waymo's VP of Onboard Software, doesn't specifically call out Musk or Tesla in a blog post, published Wednesday, entitled \"10 AI Lessons from Driving 200+ Million [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
+      "url": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/",
+      "source": "TechCrunch",
+      "published": "Thu, 27 Aug 2026 14:36:37 +0000",
+      "summary": "Test drivers for Waymo and Zoox sustained more than two dozen injuries in 2024 and 2025 from hard braking or other sudden movements made by the autonomous vehicles, according to a TechCrunch review of data submitted to OSHA.",
+      "isAI": false
+    },
+    {
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "source": "VentureBeat AI",
+      "published": "Thu, 27 Aug 2026 14:30:00 GMT",
+      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer Interaction Suite at Tata Communications.\"In the rush to\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Australian police arrest two over TeamPCP hacks targeting Mercor, OpenAI, and others",
+      "url": "https://techcrunch.com/2026/08/27/australian-police-arrest-two-over-teampcp-hacks-targeting-mercor-openai-and-others/",
+      "source": "TechCrunch",
+      "published": "Thu, 27 Aug 2026 14:27:52 +0000",
+      "summary": "The arrests come after a wave of cyberattacks earlier this year targeting tech companies that rely on high-profile and widely used open source software.",
+      "isAI": true
+    },
+    {
+      "title": "AI\u2019s memory crunch is coming for Android apps",
+      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 14:27:04 +0000",
+      "summary": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "isAI": true
+    },
+    {
+      "title": "If Meta\u2019s going down, it\u2019s taking TikTok and YouTube with it",
+      "url": "https://www.theverge.com/policy/985556/meta-settlement-youtube-tiktok-snap",
+      "source": "The Verge",
+      "published": "2026-08-27T10:24:29-04:00",
+      "summary": "Meta might be on the hook for $17.1 billion and a host of app changes under a new kids safety settlement, but it's already spinning the deal to its advantage. After years of being the national punching bag for social media harms, Meta has reached a settlement with 47 US states and several districts and [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Here\u2019s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 14:01:42 +0000",
+      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "isAI": true
+    },
+    {
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+      "source": "VentureBeat AI",
+      "published": "Thu, 27 Aug 2026 14:01:00 GMT",
+      "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it.That\u2019s because enterprises don't deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling other agents, reaching into applications that were never built with a machine decision-maker in mind. That's the failure mode that should keep\u2026",
+      "isAI": true
+    },
+    {
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 14:00:13 +0000",
+      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI\u2019s executive exodus has one big winner",
+      "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+      "source": "The Verge AI",
+      "published": "2026-08-27T10:00:00-04:00",
+      "summary": "Today on Decoder, I\u2019m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company\u2019s president. While Sam Altman is the CEO and still OpenAI\u2019s most public face, Brockman has amassed [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "How much of a problem is AI\u2019s water use?",
+      "url": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 13:57:08 +0000",
+      "summary": "AI\u2019s water footprint is growing, but location and cooling technology make a difference.",
+      "isAI": true
+    },
+    {
+      "title": "Hugging Face\u2019s new robot is an adorable rollerskating duck",
+      "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "source": "The Verge AI",
+      "published": "2026-08-27T09:44:00-04:00",
+      "summary": "Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Plaud is launching AI earbuds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability",
+      "source": "The Verge AI",
+      "published": "2026-08-27T09:11:23-04:00",
+      "summary": "Plaud has introduced a new AI wearable that's designed to record, transcribe, and summarize your conversations, only this time it looks like earbuds instead of a pin. The Plaud One Explorer Edition can be worn like traditional earbuds or used through its standalone charging case, and the case includes built-in 4G to upload and process [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Plaud\u2019s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 13:00:00 +0000",
+      "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
+      "isAI": true
+    },
+    {
+      "title": "Adobe is adding more AI to Photoshop",
+      "url": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
+      "source": "The Verge AI",
+      "published": "2026-08-27T09:00:00-04:00",
+      "summary": "Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based image editor, background remover, an AI image extender, and more. There are also [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source": "Google DeepMind",
+      "published": "Thu, 27 Aug 2026 12:59:16 +0000",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "isAI": true
+    },
+    {
+      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+      "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+      "source": "Ars Technica AI",
+      "published": "Thu, 27 Aug 2026 12:58:59 +0000",
+      "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
+      "isAI": true
+    },
+    {
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "source": "VentureBeat AI",
+      "published": "Thu, 27 Aug 2026 12:01:00 GMT",
+      "summary": "Presented by EDB As enterprises give AI agents more autonomy \u2014 the ability to plan, decide, and act across systems without a human approving each step \u2014 a hard question moves to the center of every architecture review: When an agent tries to complete an action that it was never authorized to do, what actually stops it?These are your agents, running on your models, touching your data in your\u2026",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI to start showing ads on ChatGPT\u2019s free and Go tiers in India",
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 11:35:59 +0000",
+      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "isAI": true
+    },
+    {
+      "title": "Bentley takes us for a ride in its new EV, the Torcal",
+      "url": "https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/",
+      "source": "Ars Technica",
+      "published": "Thu, 27 Aug 2026 11:30:09 +0000",
+      "summary": "The electric Torcal will be Bentley's entry model and cost less than a Bentayga.",
+      "isAI": false
+    },
+    {
+      "title": "Stop Touching Your Keyboard. Use This AI-Powered Microphone Instead",
+      "url": "https://www.wired.com/story/relay-q-voice-to-text-ai-app/",
+      "source": "Wired",
+      "published": "Thu, 27 Aug 2026 10:30:00 +0000",
+      "summary": "The Relay Q, due next year, is the latest attempt to reposition voice as the most seamless method for human-computer interaction.",
+      "isAI": true
+    },
+    {
+      "title": "The Best Google Pixel Phones of 2026: Comparison, Features, and Accessories",
+      "url": "https://www.wired.com/story/best-google-pixel-phone/",
+      "source": "Wired",
+      "published": "Thu, 27 Aug 2026 10:00:00 +0000",
+      "summary": "Let us help you choose the right Pixel phone. Plus, check out our Pixel accessory recommendations and smart software tricks to try.",
+      "isAI": true
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI",
+      "published": "Thu, 27 Aug 2026 09:00:00 GMT",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "isAI": true
+    },
     {
       "title": "Nvidia closes in on Hugging Face acquisition",
       "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
       "source": "TechCrunch AI",
       "published": "Thu, 27 Aug 2026 06:32:51 +0000",
-      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
       "isAI": true
     },
     {
@@ -32,6 +304,14 @@
       "published": "Thu, 27 Aug 2026 05:00:00 +0000",
       "summary": "Discover ways to save at TopResume, including their free review service and 4-week Career Services Platform trial.",
       "isAI": false
+    },
+    {
+      "title": "Expanding OpenAI\u2019s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "source": "OpenAI",
+      "published": "Thu, 27 Aug 2026 03:00:00 GMT",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "isAI": true
     },
     {
       "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
@@ -280,14 +560,6 @@
       "published": "Wed, 26 Aug 2026 14:31:05 +0000",
       "summary": "The federal cyber agency's warning comes amid a wave of suspected Iran-backed cyberattacks targeting critical water systems across the United States.",
       "isAI": false
-    },
-    {
-      "title": "Orchestration is the new challenge for CX in the age of AI agents",
-      "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-      "source": "VentureBeat AI",
-      "published": "Wed, 26 Aug 2026 14:30:00 GMT",
-      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer Interaction Suite at Tata Communications.\"In the rush to\u2026",
-      "isAI": true
     },
     {
       "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
@@ -1727,278 +1999,6 @@
       "source": "Hacker News",
       "published": "Thu, 20 Aug 2026 15:06:53 +0000",
       "summary": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 170 # Comments: 131",
-      "isAI": true
-    },
-    {
-      "title": "Here\u2019s what data Comcast says its motion-detecting routers collect",
-      "url": "https://www.theverge.com/tech/982689/comcast-xfinity-wifi-motion-privacy-concerns-response",
-      "source": "The Verge",
-      "published": "2026-08-20T10:00:22-04:00",
-      "summary": "Comcast announced a new platform this week called Xfinity Shield that includes the option to let customers turn their routers into motion sensors. Many people reacted with fear and anger. \"I am not enabling this. I am also seriously considering replacing my leased gateway with my own equipment, because a device I do not control [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Welcome to the AI crisis in math",
-      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
-      "source": "The Verge AI",
-      "published": "2026-08-20T10:00:00-04:00",
-      "summary": "Today on Decoder, I\u2019m talking with Robert Hart, The Verge\u2019s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "We played The Duskbloods, the Switch 2\u2019s wildest new exclusive",
-      "url": "https://www.theverge.com/entertainment/981990/the-duskbloods-hands-on-nintendo-switch-2-fromsoftware",
-      "source": "The Verge",
-      "published": "2026-08-20T10:00:00-04:00",
-      "summary": "The Duskbloods is a world away from the approachable games Nintendo is known for. But for its next Switch 2 exclusive, the company has partnered with Elden Ring developer FromSoftware on a hardcore multiplayer game about vampires. And after spending a few hours playing through its gothic world at FromSoft's offices in Tokyo, I'm convinced [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Waymo lifts the lid on the \u2018brain\u2019 powering its robotaxis",
-      "url": "https://www.theverge.com/transportation/982653/waymo-brain-computer-chip-robotaxi-hardware-suppliers",
-      "source": "The Verge",
-      "published": "2026-08-20T10:00:00-04:00",
-      "summary": "What's in the trunk of your car? Shopping bags? A spare tire? Jumper cables? What about a high-powered computer capable of performing up to one quadrillion operations a second? Only if you're Waymo. For the first time, Waymo revealed key details about the heavy compute \"brain\" housed in the trunk of its robotaxis, including chip [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "DJI Osmo fans are breaking the shackles of its closed-source camera app",
-      "url": "https://www.theverge.com/tech/981852/osmosis-app-download-dji-osmo-camera-video-mimo-replacement",
-      "source": "The Verge",
-      "published": "2026-08-20T09:30:00-04:00",
-      "summary": "Even if you love DJI's drones and cameras, you might not love the company's bloated closed-source apps that phone home to its cloud servers. But they're the only way to easily review, manage, and wirelessly download your pocket camera's footage on the go. Osmosis, a free open-source app built by DJI watcher Konrad Iturbe (with [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Reverse-lookup service exposed millions of photos of people\u2019s faces",
-      "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "source": "Ars Technica",
-      "published": "Thu, 20 Aug 2026 13:29:54 +0000",
-      "summary": "People-search tool ClarityCheck left database containing more than 9M image files exposed.",
-      "isAI": false
-    },
-    {
-      "title": "AI data giant Alation confirms cyberattack",
-      "url": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 13:01:24 +0000",
-      "summary": "The data search and AI giant confirmed unauthorized access to its systems during an incident on Tuesday, and said it was investigating the breach.",
-      "isAI": true
-    },
-    {
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 20 Aug 2026 13:00:35 +0000",
-      "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
-      "isAI": true
-    },
-    {
-      "title": "For a16z, AI gives foreign founders an advantage",
-      "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 13:00:00 +0000",
-      "summary": "a16z\u2019s Borderless Founder network initiative supports immigrant and international founders. 'Having one foot in your home country, and one foot in Silicon Valley,\" is an advantage, the firm believes.",
-      "isAI": true
-    },
-    {
-      "title": "US says hackers are targeting vulnerable water systems with the help of AI",
-      "url": "https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/",
-      "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 12:43:19 +0000",
-      "summary": "Hackers are targeting internet-connected Siemens controllers used in water facilities around the United States.",
-      "isAI": true
-    },
-    {
-      "title": "Meta AI\u2019s new Mac app wants you to talk to your apps",
-      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 12:11:57 +0000",
-      "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
-      "isAI": true
-    },
-    {
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "source": "Hacker News",
-      "published": "Thu, 20 Aug 2026 12:04:38 +0000",
-      "summary": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you played, entirely on-device.The app is free if anyone wants to try it. Happy to answer questions\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Slack is launching collaborative vibe-coding channels",
-      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "source": "The Verge AI",
-      "published": "2026-08-20T08:00:00-04:00",
-      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "I ruined my cats\u2019 toilet time with a motion-activated neon litter box sign",
-      "url": "https://www.theverge.com/gadgets/978782/cat-litterbox-motion-activated-neon-on-air-sign",
-      "source": "The Verge",
-      "published": "2026-08-20T07:30:00-04:00",
-      "summary": "My two cats live a refreshingly low-tech lifestyle. They've never experienced a robot litter box, an automated feeder, or a GPS tracker. Noodle and Loaf live blissfully unaware of the technological trappings that surround the rest of my life. Except, that is, for the glowing neon sign that turns on whenever they go to the [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Poolease X1 Pool Robot Review: How Bad Can It Be?",
-      "url": "https://www.wired.com/review/poolease-x1-pool-robot/",
-      "source": "Wired",
-      "published": "Thu, 20 Aug 2026 11:02:00 +0000",
-      "summary": "The Poolease X1 can collect leaves from the pool floor, but dirt, silt, walls, and steps are all beyond its pay grade.",
-      "isAI": false
-    },
-    {
-      "title": "The Audi S6 Sportback E-tron proves that sedans still matter",
-      "url": "https://www.theverge.com/transportation/982464/audi-s6-sportback-etron-sedan-ev-review",
-      "source": "The Verge",
-      "published": "2026-08-20T07:00:00-04:00",
-      "summary": "Last year, Audi announced that it gave its all-EV-by-2033 plan the boot, and instead will offer a mix of gasoline, hybrid, and electrified propulsion. There's no doubt still some uncertainty among bigger automakers - especially those under the Volkswagen Group umbrella - when it comes to such a (now prior) commitment. Even so, what it's [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Bumble Tried to Change Dating, but the Dating Market Forced It to Change Instead",
-      "url": "https://www.wired.com/story/bumble-women-first-rule-change/",
-      "source": "Wired",
-      "published": "Thu, 20 Aug 2026 11:00:00 +0000",
-      "summary": "The app now allows men to make the first move, suggesting its women-first positioning was limiting growth. It joins other dating apps now throwing everything at the wall in a bid to stay relevant.",
-      "isAI": false
-    },
-    {
-      "title": "How Teen \u2018After-Prom\u2019 Kings in LA Monetized the High School Rager",
-      "url": "https://www.wired.com/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
-      "source": "Wired",
-      "published": "Thu, 20 Aug 2026 10:00:00 +0000",
-      "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire.",
-      "isAI": false
-    },
-    {
-      "title": "How Teen \u2018After-Prom\u2019 Kings in LA Monetized the High School Rager",
-      "url": "https://www.wired.com/story/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
-      "source": "Wired",
-      "published": "Thu, 20 Aug 2026 10:00:00 +0000",
-      "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire.",
-      "isAI": false
-    },
-    {
-      "title": "Unlocking hidden revenue streams with market models",
-      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "source": "MIT Tech Review",
-      "published": "Thu, 20 Aug 2026 09:47:22 +0000",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 09:30:00 +0000",
-      "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
-      "isAI": true
-    },
-    {
-      "title": "Don't Paste the AI, please",
-      "url": "https://dontpastetheai.com/",
-      "source": "Hacker News",
-      "published": "Thu, 20 Aug 2026 08:20:44 +0000",
-      "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 856 # Comments: 430",
-      "isAI": true
-    },
-    {
-      "title": "Introducing Intelligence Age",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "source": "OpenAI",
-      "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "isAI": true
-    },
-    {
-      "title": "Introducing Intelligence Age",
-      "url": "https://openai.com/index/introducing-intelligence-age",
-      "source": "OpenAI",
-      "published": "Thu, 20 Aug 2026 07:00:00 GMT",
-      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "isAI": true
-    },
-    {
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "url": "https://openai.com/index/stampli",
-      "source": "OpenAI",
-      "published": "Thu, 20 Aug 2026 00:00:00 GMT",
-      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "isAI": true
-    },
-    {
-      "title": "Stripe didn\u2019t really buy OpenRouter because of the \u2018singularity\u2019",
-      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 23:32:00 +0000",
-      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 22:10:46 +0000",
-      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
-      "isAI": true
-    },
-    {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 21:51:23 +0000",
-      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
-      "isAI": true
-    },
-    {
-      "title": "Rillet raises $100M Series C at $1B valuation \u2014 2 years after emerging from stealth",
-      "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
-      "source": "TechCrunch",
-      "published": "Wed, 19 Aug 2026 20:12:33 +0000",
-      "summary": "AI-native account startup Rillet became a unicorn, led by Iconiq, after it doubled its ARR in the past three months, it said.",
-      "isAI": true
-    },
-    {
-      "title": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
-      "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 19 Aug 2026 20:04:41 +0000",
-      "summary": "Bankrupt Spirit accused of selling out workers in massive data sale to Google.",
-      "isAI": true
-    },
-    {
-      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
-      "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
-      "source": "Wired",
-      "published": "Wed, 19 Aug 2026 19:30:00 +0000",
-      "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
-      "isAI": true
-    },
-    {
-      "title": "AI was supposed to win people over by now \u2014 it hasn\u2019t",
-      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 19 Aug 2026 19:11:40 +0000",
-      "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology \u2014 and Silicon Valley is discovering that widespread adoption doesn\u2019t necessarily lead to acceptance.",
-      "isAI": true
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
-      "source": "OpenAI",
-      "published": "Wed, 19 Aug 2026 19:00:00 GMT",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "isAI": true
-    },
-    {
-      "title": "5 new ways to level up your learning with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "source": "Google AI",
-      "published": "Wed, 19 Aug 2026 19:00:00 +0000",
-      "summary": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
       "isAI": true
     }
   ]
