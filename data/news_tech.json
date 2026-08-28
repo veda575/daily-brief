@@ -1,6 +1,14 @@
 {
-  "updated": "2026-08-28T20:58:12.664620+00:00",
+  "updated": "2026-08-28T22:55:09.422441+00:00",
   "items": [
+    {
+      "title": "Google further buries search results under AI mode",
+      "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "source": "The Verge",
+      "published": "2026-08-28T18:48:11-04:00",
+      "summary": "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead of seeing part of an AI Overview with [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Neocloud Lambda secures $1B in debt to buy more chips",
       "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
@@ -86,7 +94,7 @@
       "url": "https://huggingface.co/zai-org/GLM-5.3",
       "source": "Hacker News",
       "published": "Fri, 28 Aug 2026 15:20:13 +0000",
-      "summary": "https://twitter.com/Zai_org/status/2093354097122455713https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 450 # Comments: 164",
+      "summary": "https://twitter.com/Zai_org/status/2093354097122455713https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 533 # Comments: 188",
       "isAI": true
     },
     {
@@ -166,7 +174,7 @@
       "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
       "source": "Hacker News",
       "published": "Fri, 28 Aug 2026 06:33:57 +0000",
-      "summary": "Article URL: https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/ Comments URL: https://news.ycombinator.com/item?id=49475079 Points: 358 # Comments: 117",
+      "summary": "Article URL: https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/ Comments URL: https://news.ycombinator.com/item?id=49475079 Points: 408 # Comments: 123",
       "isAI": true
     },
     {
@@ -194,6 +202,14 @@
       "isAI": true
     },
     {
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": "Hugging Face",
+      "published": "Fri, 28 Aug 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
       "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
       "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
       "source": "TechCrunch AI",
@@ -202,11 +218,11 @@
       "isAI": true
     },
     {
-      "title": "The Twelve-Factor App",
+      "title": "The Twelve-Factor App (2025)",
       "url": "https://12factor.net/",
       "source": "Hacker News",
       "published": "Thu, 27 Aug 2026 22:41:11 +0000",
-      "summary": "Article URL: https://12factor.net/ Comments URL: https://news.ycombinator.com/item?id=49472216 Points: 175 # Comments: 91",
+      "summary": "Article URL: https://12factor.net/ Comments URL: https://news.ycombinator.com/item?id=49472216 Points: 203 # Comments: 103",
       "isAI": false
     },
     {
@@ -1984,22 +2000,6 @@
       "published": "2026-08-21T08:01:07-04:00",
       "summary": "Tesla has discontinued Solar Roof, its solar panels designed to look like regular roofing tiles, Electrek reports. Sources \"close to the program\" told the publication that Tesla has informed its third-party installer network that Solar Roof is no longer available to order, and that only conventional solar panels will be supplied going forward. While Tesla [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "source": "Google DeepMind",
-      "published": "Fri, 21 Aug 2026 11:59:48 +0000",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "isAI": true
-    },
-    {
-      "title": "I'm becoming AI-blind",
-      "url": "https://cymerys.com/w/im-becoming-ai-blind",
-      "source": "Hacker News",
-      "published": "Fri, 21 Aug 2026 11:48:05 +0000",
-      "summary": "Article URL: https://cymerys.com/w/im-becoming-ai-blind Comments URL: https://news.ycombinator.com/item?id=49386699 Points: 199 # Comments: 200",
-      "isAI": true
     }
   ]
 }
