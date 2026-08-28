@@ -1,6 +1,46 @@
 {
-  "updated": "2026-08-27T22:51:10.156291+00:00",
+  "updated": "2026-08-28T09:26:21.622408+00:00",
   "items": [
+    {
+      "title": "How an Atlanta Suburb Ended Up Sharing Flock Data With More Than 2,000 Organizations",
+      "url": "https://www.wired.com/story/how-an-atlanta-suburb-ended-up-sharing-flock-data-with-more-than-2000-organizations/",
+      "source": "Wired",
+      "published": "Fri, 28 Aug 2026 09:00:00 +0000",
+      "summary": "Alpharetta, Georgia, cops share data with thousands of Flock users, ranging from federal agencies to a fish and wildlife commission. The reasons why show how vast\u2014and invasive\u2014the network has become.",
+      "isAI": false
+    },
+    {
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+      "source": "The Verge AI",
+      "published": "2026-08-27T23:14:06-04:00",
+      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "AI, athletes, and Keith Rabois: StrictlyVC is back in New York on September 10",
+      "url": "https://techcrunch.com/2026/08/27/ai-athletes-and-keith-rabois-strictlyvc-is-back-in-new-york-on-september-10/",
+      "source": "TechCrunch",
+      "published": "Fri, 28 Aug 2026 02:02:44 +0000",
+      "summary": "A boutique StrictlyVC evening returns to New York's West Village on September 10 with Keith Rabois, Craig Shapiro, Jason Levien, Tristan Walker, Brynn Putnam, and Deven Parekh \u2014 covering AI, sports investing, community-building, venture economics, and politics, with cocktails, food, and networking throughout the night.",
+      "isAI": true
+    },
+    {
+      "title": "Supporting Thailand\u2019s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "published": "Fri, 28 Aug 2026 02:00:00 GMT",
+      "summary": "OpenAI and Thailand\u2019s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "published": "Thu, 27 Aug 2026 23:16:45 +0000",
+      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "isAI": true
+    },
     {
       "title": "Anthropic's new hardware standard lets AI agents control the physical world",
       "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
@@ -98,6 +138,14 @@
       "isAI": true
     },
     {
+      "title": "Gemini-3.5-Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "source": "Hacker News",
+      "published": "Thu, 27 Aug 2026 18:03:42 +0000",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/ Comments URL: https://news.ycombinator.com/item?id=49468818 Points: 279 # Comments: 85",
+      "isAI": true
+    },
+    {
       "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
       "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "source": "TechCrunch AI",
@@ -110,7 +158,7 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
       "source": "Hacker News",
       "published": "Thu, 27 Aug 2026 17:06:32 +0000",
-      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/ Comments URL: https://news.ycombinator.com/item?id=49467922 Points: 166 # Comments: 119",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/ Comments URL: https://news.ycombinator.com/item?id=49467922 Points: 249 # Comments: 187",
       "isAI": true
     },
     {
@@ -415,6 +463,14 @@
       "source": "TechCrunch AI",
       "published": "Thu, 27 Aug 2026 00:24:57 +0000",
       "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "isAI": true
+    },
+    {
+      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
+      "url": "https://morphing.cloud/afterglow/",
+      "source": "Hacker News",
+      "published": "Thu, 27 Aug 2026 00:18:27 +0000",
+      "summary": "Article URL: https://morphing.cloud/afterglow/ Comments URL: https://news.ycombinator.com/item?id=49457722 Points: 152 # Comments: 43",
       "isAI": true
     },
     {
@@ -1944,62 +2000,6 @@
       "published": "Thu, 20 Aug 2026 19:05:36 +0000",
       "summary": "Hello everyone. I've been working on this experimental editor called Huzzah.I've been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They're great, but I'm finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there's a complexity limit for\u2026",
       "isAI": true
-    },
-    {
-      "title": "Watching TikTok and Instagram deactivates the cognitive control network: Study",
-      "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/",
-      "source": "Hacker News",
-      "published": "Thu, 20 Aug 2026 18:54:32 +0000",
-      "summary": "Article URL: https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/ Comments URL: https://news.ycombinator.com/item?id=49378630 Points: 256 # Comments: 100",
-      "isAI": false
-    },
-    {
-      "title": "Silicon Valley Doesn't Get Why You Hate AI",
-      "url": "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
-      "source": "Wired",
-      "published": "Thu, 20 Aug 2026 18:49:07 +0000",
-      "summary": "Technology leaders don\u2019t seem to understand society\u2019s gripes about AI, but boy, are they posting through it.",
-      "isAI": true
-    },
-    {
-      "title": "Linkdaze\u2019s smart calendar is built to run a household, not just track a schedule",
-      "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 18:20:35 +0000",
-      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-      "isAI": true
-    },
-    {
-      "title": "Grok keeps sending gibberish responses to users",
-      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 17:32:16 +0000",
-      "summary": "Affected users told TechCrunch say they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
-      "isAI": true
-    },
-    {
-      "title": "A third of web pages published since ChatGPT launched were written by AI, study finds",
-      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 20 Aug 2026 17:18:58 +0000",
-      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
-      "isAI": true
-    },
-    {
-      "title": "Framework says it\u2019s addressing a BIOS update that bricked some of its older laptops",
-      "url": "https://www.theverge.com/gadgets/982800/framework-laptop-13-amd-7040-bios-320-bricking-warranty",
-      "source": "The Verge",
-      "published": "2026-08-20T13:16:02-04:00",
-      "summary": "Some Framework Laptop 13 owners with last-gen AMD chips have reported that a recent BIOS update is bricking their laptops on both Windows and Linux. The BIOS update causing this issue is version 3.20 for Ryzen 7040-series mainboards, released back in July and still available on Framework's site at the time of this writing. Upon [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Roblox must make changes after failing to block adults creeping on kids",
-      "url": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/",
-      "source": "Ars Technica",
-      "published": "Thu, 20 Aug 2026 17:14:08 +0000",
-      "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
-      "isAI": false
     }
   ]
 }
