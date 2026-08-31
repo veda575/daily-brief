@@ -81,6 +81,7 @@ INDIA_STOCKS = [
     ("INFY.NS",       "Infosys",             "Growth outlook"),
     ("WIPRO.NS",      "Wipro",               "IT"),
     ("TECHM.NS",      "Tech Mahindra",       "Telecom IT"),
+    ("HCLTECH.NS",    "HCL Technologies Ltd", "IT Services"),
     ("SBIN.NS",       "State Bank of India", "Banking"),
     ("HDFCBANK.NS",   "HDFC Bank",           "Lending"),
     ("HEROMOTOCO.NS", "Hero MotoCorp",       "Auto"),
