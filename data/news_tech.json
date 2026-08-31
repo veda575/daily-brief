@@ -1,6 +1,30 @@
 {
-  "updated": "2026-08-31T03:32:30.772862+00:00",
+  "updated": "2026-08-31T10:05:32.310267+00:00",
   "items": [
+    {
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "url": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
+      "source": "Ars Technica AI",
+      "published": "Mon, 31 Aug 2026 10:00:34 +0000",
+      "summary": "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform.",
+      "isAI": true
+    },
+    {
+      "title": "The 9 Best MagSafe Phone Grips for Your Butter Fingers (2026)",
+      "url": "https://www.wired.com/gallery/best-magsafe-grips/",
+      "source": "Wired",
+      "published": "Mon, 31 Aug 2026 10:00:00 +0000",
+      "summary": "Keep your phone firmly in hand and add some personality with these comfortable, durable, and nifty smartphone grips.",
+      "isAI": false
+    },
+    {
+      "title": "ATM Flaws Reveal Key Weaknesses in the Software Supply Chain",
+      "url": "https://www.wired.com/story/atm-flaws-reveal-key-weaknesses-in-the-software-supply-chain/",
+      "source": "Wired",
+      "published": "Mon, 31 Aug 2026 10:00:00 +0000",
+      "summary": "A security researcher discovered nine vulnerabilities impacting ATM encryption and authentication software. But the problems extend far beyond your local cash machine.",
+      "isAI": true
+    },
     {
       "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
       "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
@@ -208,6 +232,14 @@
       "published": "Fri, 28 Aug 2026 15:35:03 +0000",
       "summary": "Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding.",
       "isAI": false
+    },
+    {
+      "title": "It takes 5 cloud services to hear my doorbell",
+      "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
+      "source": "Hacker News",
+      "published": "Fri, 28 Aug 2026 15:34:30 +0000",
+      "summary": "Article URL: https://blog.vghaisas.com/rube-goldberg-doorbell/ Comments URL: https://news.ycombinator.com/item?id=49480091 Points: 156 # Comments: 150",
+      "isAI": true
     },
     {
       "title": "GLM-5.3 is now open-weight",
@@ -1968,38 +2000,6 @@
       "published": "2026-08-22T09:00:00-04:00",
       "summary": "Laptop prices are out of whack. $500 used to get you a tolerable laptop, and $900 got you a really good one. They often had similar CPU, RAM, and storage options because that stuff was comparatively cheap; the difference was often in build quality and screen rather than power. But RAMageddon has thrown everything off. [\u2026]",
       "isAI": false
-    },
-    {
-      "title": "Set Up a Separate Work Profile on Your Android Phone",
-      "url": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
-      "source": "Wired",
-      "published": "Sat, 22 Aug 2026 11:00:00 +0000",
-      "summary": "It is possible to achieve your desired work-life balance on your smartphone. Just set up separate accounts using this built-in Android feature.",
-      "isAI": false
-    },
-    {
-      "title": "Your Expired Visa Card Could Be \u2018Zombified\u2019 to Make Contactless Payments",
-      "url": "https://www.wired.com/story/security-news-this-week-your-expired-visa-card-could-be-zombiefied-to-make-contactless-payments/",
-      "source": "Wired",
-      "published": "Sat, 22 Aug 2026 10:30:00 +0000",
-      "summary": "Plus: Apple sends out an \u201cunprecedented\u201d number of spyware warnings, Ukraine hits a Russian ecommerce giant with cyber and drone attacks, and more.",
-      "isAI": false
-    },
-    {
-      "title": "Michael Polansky is training an AI model on skin that\u2019s still alive",
-      "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 22 Aug 2026 01:31:04 +0000",
-      "summary": "Michael Polansky \u2014 better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker \u2014 has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now going public about it.",
-      "isAI": true
-    },
-    {
-      "title": "The Unlikely Place at the Center of China\u2019s AI Boom",
-      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
-      "source": "Wired",
-      "published": "Fri, 21 Aug 2026 23:25:32 +0000",
-      "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
-      "isAI": true
     }
   ]
 }
