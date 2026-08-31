@@ -81,27 +81,39 @@ function fmtIndexValue(n) {
   return fmtIndexNum.format(Number(n));
 }
 
+const fmtFxNum = new Intl.NumberFormat('en-US', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
+function fmtFxValue(n) {
+  if (n === null || n === undefined || !Number.isFinite(Number(n))) return '—';
+  return fmtFxNum.format(Number(n));
+}
+
 function renderStocksTable(stocks, region) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
   }
   const isIndexes = region === 'indexes';
   const isCommodities = region === 'commodities';
-  const sorted = stocks.slice().sort((a, b) =>
+  const isCurrency = region === 'currency';
+  const sorted = isCurrency ? stocks.slice() : stocks.slice().sort((a, b) =>
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
   const rows = sorted.map(s => {
+    const value = isCurrency
+      ? fmtFxValue(s.indexValue)
+      : (isIndexes || isCommodities)
+        ? fmtIndexValue(s.indexValue) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '')
+        : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(s.name)}</strong></td>
       <td class="muted">${escapeHtml(s.ticker)}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
-      <td class="num">${isIndexes || isCommodities ? fmtIndexValue(s.indexValue) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '') : fmtMarketCap(s.marketCap, s.currency)}</td>
+      <td class="num">${value}</td>
       <td class="num">${fmtGainLossPercent(s.changePercent)}</td>
     </tr>`;
   }).join('');
   return `<table>
     <thead><tr>
-      <th>${isCommodities ? 'Commodity' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : 'Sector'}</th><th>${isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
+      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th><th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;

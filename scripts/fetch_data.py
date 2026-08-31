@@ -61,6 +61,15 @@ INDEX_STOCKS = [
     ("^HSI",      "Hang Seng Index",          "Index / China (Hong Kong) Equities"),
 ]
 
+CURRENCY_PAIRS = [
+    ("INR=X",    "US Dollar / Indian Rupee",   "USD to INR"),
+    ("DX-Y.NYB", "US Dollar Index",            "vs. Basket of Major Currencies"),
+    ("EURUSD=X", "Euro / US Dollar",           "EUR to USD"),
+    ("GBPUSD=X", "British Pound / US Dollar",  "GBP to USD"),
+    ("JPY=X",    "US Dollar / Japanese Yen",   "USD to JPY"),
+    ("CNY=X",    "US Dollar / Chinese Yuan",   "USD to CNY"),
+]
+
 COMMODITIES = [
     ("CL=F",  "Crude Oil",   "Energy",        "USD/bbl"),
     ("NG=F",  "Natural Gas", "Energy",        "USD/MMBtu"),
@@ -600,6 +609,7 @@ def fetch_all_stocks() -> dict:
         if commodity:
             commodity["unit"] = unit
             commodities.append(merge_stock_with_existing(commodity, existing_by_ticker))
+    currency = [merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in CURRENCY_PAIRS) if s]
 
     return {
         "us":      sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
@@ -607,6 +617,7 @@ def fetch_all_stocks() -> dict:
         "india":   sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
         "indexes": sorted_region(indexes),
         "commodities": sorted_region(commodities),
+        "currency": currency,
     }
 
 
