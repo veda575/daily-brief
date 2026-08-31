@@ -87,6 +87,18 @@ function fmtFxValue(n) {
   return fmtFxNum.format(Number(n));
 }
 
+function fxHeroHtml(stocks) {
+  const usdInr = stocks.find(s => s.ticker === 'INR=X');
+  if (!usdInr || !Number.isFinite(Number(usdInr.indexValue))) return '';
+  const dir = Number(usdInr.changePercent) < 0 ? 'down' : 'up';
+  return `
+    <div class="fx-hero">
+      <div class="fx-hero-label">US Dollar → Indian Rupee, for easy comparison</div>
+      <div class="fx-hero-value">1 USD = ₹${Number(usdInr.indexValue).toFixed(2)}</div>
+      <div class="fx-hero-change ${dir}">${fmtGainLossPercent(usdInr.changePercent)} today</div>
+    </div>`;
+}
+
 function renderStocksTable(stocks, region) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
@@ -94,6 +106,7 @@ function renderStocksTable(stocks, region) {
   const isIndexes = region === 'indexes';
   const isCommodities = region === 'commodities';
   const isCurrency = region === 'currency';
+  const hero = isCurrency ? fxHeroHtml(stocks) : '';
   const sorted = isCurrency ? stocks.slice() : stocks.slice().sort((a, b) =>
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
@@ -111,7 +124,7 @@ function renderStocksTable(stocks, region) {
       <td class="num">${fmtGainLossPercent(s.changePercent)}</td>
     </tr>`;
   }).join('');
-  return `<table>
+  return `${hero}<table>
     <thead><tr>
       <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th><th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>

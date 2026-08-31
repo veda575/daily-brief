@@ -149,6 +149,18 @@ body.menu-open main { margin-left: var(--sidebar-w); }
 .subtab:hover { background: var(--panel-2); }
 .subtab.active { background: var(--accent); border-color: var(--accent); color: #0f1115; font-weight: 600; }
 
+/* ── USD/INR hero card (top of the US Dollar tab) ────── */
+.fx-hero {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.fx-hero-label { color: var(--muted); font-size: 13px; }
+.fx-hero-value { font-size: 34px; font-weight: 700; letter-spacing: -0.01em; }
+.fx-hero-change { font-size: 13px; font-weight: 600; }
+
 /* ── Stocks table ─────────────────────────────────────── */
 .stocks-content { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
 .stocks-content table { width: 100%; border-collapse: collapse; font-size: 13px; }
