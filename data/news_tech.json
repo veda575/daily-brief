@@ -1,6 +1,38 @@
 {
-  "updated": "2026-08-31T19:25:30.425196+00:00",
+  "updated": "2026-08-31T23:17:24.946528+00:00",
   "items": [
+    {
+      "title": "A group funded by Andreessen, Horowitz, and Brockman plans data center ads to sway midterms",
+      "url": "https://techcrunch.com/2026/08/31/a-group-funded-by-andreessen-horowitz-and-brockman-plan-data-center-ads-to-sway-midterms/",
+      "source": "TechCrunch",
+      "published": "Mon, 31 Aug 2026 22:14:05 +0000",
+      "summary": "Build American AI plans to lobby voters in select states about the virtues of data centers by spending millions of dollars on ads.",
+      "isAI": true
+    },
+    {
+      "title": "FTC lawsuit alleges Amazon has been \u2018secretly and systematically\u2019 overcharging for ads",
+      "url": "https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit",
+      "source": "The Verge",
+      "published": "2026-08-31T17:41:42-04:00",
+      "summary": "The FTC and 22 state attorneys general are suing Amazon for allegedly using a \"secret ad surcharge\" to drive up prices for ads on its website and app. FTC chairman Andrew Ferguson claims in a blog post on the lawsuit that the higher advertising prices \"were largely passed on to American consumers.\" According to the [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "source": "TechCrunch AI",
+      "published": "Mon, 31 Aug 2026 20:13:45 +0000",
+      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+      "isAI": true
+    },
+    {
+      "title": "Alienware\u2019s budget-friendly QD-OLED is discounted for the first time",
+      "url": "https://www.theverge.com/gadgets/986901/alienware-qdoled-2726dm-deal-sale",
+      "source": "The Verge",
+      "published": "2026-08-31T15:31:59-04:00",
+      "summary": "While memory and storage prices are still high, there are still good discounts on other gaming-related hardware. Take Alienware\u2019s AW2726DM, for example. Dell is selling it for $319.99, a $30 break from the usual price of $349.99. The 27-inch gaming monitor features an QD-OLED panel for deep, immersive black levels, and quantum dots for full [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Instagram puts new limits on undisclosed AI profiles",
       "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
@@ -22,7 +54,7 @@
       "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
       "source": "TechCrunch AI",
       "published": "Mon, 31 Aug 2026 18:35:11 +0000",
-      "summary": "The seed round for the app that provides real-time legal and policy guidance to officers was led by SignalFire and Las Olas VC.",
+      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
       "isAI": true
     },
     {
@@ -34,7 +66,7 @@
       "isAI": true
     },
     {
-      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
       "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
       "source": "MIT Tech Review",
       "published": "Mon, 31 Aug 2026 18:00:00 +0000",
@@ -71,6 +103,14 @@
       "source": "The Verge",
       "published": "2026-08-31T12:54:07-04:00",
       "summary": "Longtime Apple executive Phil Schiller is stepping down from his role as the head of the App Store and Apple events, according to a report from Bloomberg. Following the change, Schiller will keep his Apple Fellow title and continue \"working on unspecified initiatives,\" Bloomberg reports. Schiller initially joined Apple in 1987 and became the company's [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Think twice before installing this device promising free movies",
+      "url": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
+      "source": "Ars Technica",
+      "published": "Mon, 31 Aug 2026 16:33:38 +0000",
+      "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
       "isAI": false
     },
     {
@@ -159,6 +199,14 @@
       "source": "TechCrunch AI",
       "published": "Mon, 31 Aug 2026 12:56:46 +0000",
       "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
+      "isAI": true
+    },
+    {
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "source": "Hacker News",
+      "published": "Mon, 31 Aug 2026 12:41:22 +0000",
+      "summary": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 264 # Comments: 294",
       "isAI": true
     },
     {
@@ -1952,54 +2000,6 @@
       "published": "Mon, 24 Aug 2026 14:18:47 +0000",
       "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
       "isAI": false
-    },
-    {
-      "title": "How GoFundMe became America\u2019s backup plan",
-      "url": "https://www.theverge.com/podcast/982901/gofundme-ceo-tim-cadogan-fundraising-healthcare-medical-expenses",
-      "source": "The Verge",
-      "published": "2026-08-24T10:00:00-04:00",
-      "summary": "Today on Decoder, I\u2019m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe \u2014 it\u2019s a major fundraising platform where you can donate to help people with everything from medical expenses to Little League uniforms to starting a new business. Tim took over as CEO in March 2020 \u2014 a fascinating and chaotic [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Hugging Face reportedly in talks to be acquired for $13B",
-      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 24 Aug 2026 13:47:26 +0000",
-      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
-      "isAI": true
-    },
-    {
-      "title": "US nutrition startup Berry Street merges with India\u2019s Healthify as GLP-1 trends upwards",
-      "url": "https://techcrunch.com/2026/08/24/us-nutrition-startup-berry-street-merges-with-indias-healthify-as-glp-1-trends-upwards/",
-      "source": "TechCrunch",
-      "published": "Mon, 24 Aug 2026 13:45:15 +0000",
-      "summary": "Berry Street founder Noah Kotlove and Healthify founder Tushar Vashisht will act as co-CEOs of the new entity.",
-      "isAI": true
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT\u20115.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI",
-      "published": "Mon, 24 Aug 2026 12:00:00 GMT",
-      "summary": "GPT\u20115.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "isAI": true
-    },
-    {
-      "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
-      "url": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
-      "source": "Ars Technica",
-      "published": "Mon, 24 Aug 2026 11:00:01 +0000",
-      "summary": "The Unibook is a weird entry-level laptop for people with patience.",
-      "isAI": false
-    },
-    {
-      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
-      "url": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
-      "source": "Wired",
-      "published": "Mon, 24 Aug 2026 09:30:00 +0000",
-      "summary": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content\u2014and how difficult it was to find accountability.",
-      "isAI": true
     }
   ]
 }
