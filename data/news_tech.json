@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-01T17:12:08.464430+00:00",
+  "updated": "2026-09-01T19:56:55.161984+00:00",
   "items": [
+    {
+      "title": "Tim Cook did alright by the environment \u2014 but AI could upend his climate legacy",
+      "url": "https://www.theverge.com/tech/987550/tim-cook-apple-environment-sustainability-legacy",
+      "source": "The Verge",
+      "published": "2026-09-01T15:43:39-04:00",
+      "summary": "As he steps down from his post as Apple CEO today, Tim Cook leaves behind a mostly positive environmental record. As far as billionaire tech moguls and the environment go, Cook will likely be remembered as one of the better ones - certainly far from the worst. But it will become harder for the company [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic\u2019s new Fable release is cheaper, less restrictive",
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 19:39:22 +0000",
+      "summary": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "isAI": true
+    },
+    {
+      "title": "The rise of AI \u2018civilizations\u2019 and the fall of corporate responsibility",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "source": "The Verge AI",
+      "published": "2026-09-01T15:02:54-04:00",
+      "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Apple accuses OpenAI of destroying evidence",
+      "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+      "source": "The Verge AI",
+      "published": "2026-09-01T14:19:26-04:00",
+      "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Hacker News",
+      "published": "Tue, 01 Sep 2026 17:53:53 +0000",
+      "summary": "What's new in Claude Fable 5.1 \u2013 https://platform.claude.com/docs/en/models/fable-5-1/whats-n...System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32... Comments URL: https://news.ycombinator.com/item?id=49525378 Points: 495 # Comments: 448",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s answer to Canva is an AI tool where you prompt instead of design",
+      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 17:35:37 +0000",
+      "summary": "With Google Pics, Google is pushing deeper into the creative software market dominated by Canva and Adobe, but with a distinctly AI-first approach.",
+      "isAI": true
+    },
     {
       "title": "Introducing agentic video understanding with Gemini",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
@@ -10,12 +58,44 @@
       "isAI": true
     },
     {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "source": "OpenAI",
+      "published": "Tue, 01 Sep 2026 17:00:00 GMT",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "isAI": true
+    },
+    {
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 17:00:00 +0000",
+      "summary": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "isAI": true
+    },
+    {
+      "title": "Homey just made the smart home controller I hoped Apple would build",
+      "url": "https://www.theverge.com/tech/987462/homey-lg-smart-portal-smart-home-controller-price-specs-release-date",
+      "source": "The Verge",
+      "published": "2026-09-01T13:00:00-04:00",
+      "summary": "Smart homes have gotten really good at making things really complicated. Turning on a light can involve multiple steps, compared to just flipping a switch. Homey, the Dutch-based smart home platform owned by LG, thinks it has a solution. This week it launched the Homey Portal, a touchscreen smart home controller that looks very promising, [\u2026]",
+      "isAI": false
+    },
+    {
       "title": "Waymo goes on offense ahead of Tesla\u2019s Cybercab launch",
       "url": "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
       "source": "TechCrunch",
       "published": "Tue, 01 Sep 2026 16:49:12 +0000",
       "summary": "Waymo argued that fully autonomous vehicles aren't possible without using a mix of sensors and warned that pure end-to-end AI systems aren't safe enough.",
       "isAI": true
+    },
+    {
+      "title": "Samsung\u2019s Galaxy Z Fold 8 Ultra hits its lowest price since launch",
+      "url": "https://www.theverge.com/gadgets/987490/galaxy-z-fold-8-ultra-remarkable-paper-pro-move-deal-sale",
+      "source": "The Verge",
+      "published": "2026-09-01T12:48:45-04:00",
+      "summary": "If you missed the release promotions for the recent round of Samsung Galaxy phones, you\u2019re in luck. The Samsung Galaxy Z Fold 8 Ultra is $300 off at Best Buy, the best deal we\u2019ve seen since the phone launched last month. The phone impressed us with its rear triple camera setup, excellent battery life, and [\u2026]",
+      "isAI": false
     },
     {
       "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
@@ -152,6 +232,14 @@
       "published": "2026-09-01T09:00:00-04:00",
       "summary": "Mozilla is officially launching ad blocking for Firefox on iOS today, after testing the feature over the past few weeks. The new built-in option will block most third-party ads and trackers before they load on an iPhone, reducing bandwidth use and decluttering mobile websites. Mozilla is using Apple's WebKit Content Blocker technology and the EasyList [\u2026]",
       "isAI": false
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI",
+      "published": "Tue, 01 Sep 2026 12:00:00 GMT",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "isAI": true
     },
     {
       "title": "Sennheiser Momentum 5 Wireless Headphones Review (2026)",
@@ -1911,94 +1999,6 @@
       "source": "The Verge AI",
       "published": "2026-08-25T10:00:00-04:00",
       "summary": "OpenAI says its new AI chip, Jalape\u00f1o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape\u00f1o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
-      "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
-      "source": "TechCrunch",
-      "published": "Tue, 25 Aug 2026 14:00:00 +0000",
-      "summary": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
-      "isAI": true
-    },
-    {
-      "title": "Apple\u2019s latest Mac Mini runs on a new M6 chip, and starts at $899",
-      "url": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
-      "source": "TechCrunch",
-      "published": "Tue, 25 Aug 2026 13:55:06 +0000",
-      "summary": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899.",
-      "isAI": true
-    },
-    {
-      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "source": "Hacker News",
-      "published": "Tue, 25 Aug 2026 13:01:22 +0000",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/ Comments URL: https://news.ycombinator.com/item?id=49433292 Points: 600 # Comments: 485",
-      "isAI": true
-    },
-    {
-      "title": "Apple's new desktop computers are designed specifically for local AI development",
-      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 25 Aug 2026 13:00:11 +0000",
-      "summary": "Folks have been daisy-chaining Macs for AI\u2014this refresh keeps that in mind.",
-      "isAI": true
-    },
-    {
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
-      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 25 Aug 2026 13:00:00 +0000",
-      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
-      "isAI": true
-    },
-    {
-      "title": "Andy Dunn\u2019s startup Pie becomes less of an events app and more of a social network",
-      "url": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
-      "source": "TechCrunch",
-      "published": "Tue, 25 Aug 2026 13:00:00 +0000",
-      "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
-      "isAI": true
-    },
-    {
-      "title": "Apple\u2019s new M6 chip gets more cores and more AI compute",
-      "url": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-      "source": "The Verge",
-      "published": "2026-08-25T09:00:00-04:00",
-      "summary": "Apple has announced a new M6 chip for Macs, along with an M5 Ultra that it says is its \"most powerful chip ever,\" designed for tasks like 3D rendering and running frontier AI models. The M6 is Apple's first 2nm chip, which Apple says will bring improvements in performance and power efficiency, and it also [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Apple\u2019s new Mac Mini has fresh M6 and M5 Pro chip offerings \u2014 and higher prices",
-      "url": "https://www.theverge.com/tech/984190/apple-mac-mini-m6-m5-pro-price-specs",
-      "source": "The Verge",
-      "published": "2026-08-25T09:00:00-04:00",
-      "summary": "Apple is announcing a new generation of the Mac Mini, once again offering two models: one with a new M6 chip and a higher-end model with the M5 Pro found in this year's MacBook Pro. The new Minis have the same tiny design and footprint as the 2024 M4 / M4 Pro models, but with [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Apple launches new Mac Studios with its \u2018most powerful chip ever\u2019 \u2014 the M5 Ultra",
-      "url": "https://www.theverge.com/tech/984207/apple-mac-studio-m5-max-ultra-price-specs-launch",
-      "source": "The Verge",
-      "published": "2026-08-25T09:00:00-04:00",
-      "summary": "Apple is announcing new models of the Mac Studio, now using the existing M5 Max and a new M5 Ultra. This reunification under one chip generation comes over a year after Apple awkwardly split the Studio between M4 Max and M3 Ultra offerings. (The older sounding M3 Ultra was actually the more powerful one, and [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date",
-      "url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
-      "source": "Wired",
-      "published": "Tue, 25 Aug 2026 13:00:00 +0000",
-      "summary": "Apple\u2019s Mac Mini and Mac Studio have been tough to buy for months, but updated versions have arrived. Both include new chips optimized for AI, with the M6 Mac Mini getting a $200 price bump.",
-      "isAI": true
-    },
-    {
-      "title": "\u2018The world seems to be ready\u2019: An interview with OpenAI head of product Thibault Sottiaux",
-      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 25 Aug 2026 12:00:00 +0000",
-      "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
       "isAI": true
     }
   ]
