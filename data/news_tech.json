@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-01T08:55:04.356617+00:00",
+  "updated": "2026-09-01T13:54:53.303082+00:00",
   "items": [
+    {
+      "title": "John Ternus takes over as Apple\u2019s new CEO",
+      "url": "https://www.theverge.com/tech/915272/apple-john-ternus-tim-cook",
+      "source": "The Verge",
+      "published": "2026-09-01T09:28:43-04:00",
+      "summary": "The multitrillion-dollar home of the iPhone, Mac, and so many other tech gadgets has a new leaader, as Tim Cook has been replaced as CEO as of September 1st by former hardware boss John Ternus. How will we look back on Cook\u2019s legacy, and what will Apple look like under the leadership of Ternus and [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Nvidia\u2019s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
+      "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
+      "source": "The Verge AI",
+      "published": "2026-09-01T09:00:00-04:00",
+      "summary": "Nvidia is officially launching DLSS 5 this week, following a divisive announcement in March where we likened the AI upscaling tech to a \"real-time generative AI filter for video games\" and \"motion smoothing for video games, but worse.\" DLSS 5 will officially be available on RTX 50-series desktop and laptop GPUs and through GeForce Now [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Nvidia\u2019s DLSS 5, explained",
+      "url": "https://www.theverge.com/games/986980/nvidias-dlss-5-explained",
+      "source": "The Verge",
+      "published": "2026-09-01T09:00:00-04:00",
+      "summary": "Nvidia knows that DLSS 5 left a bad first impression. In March, many gamers took one look at Resident Evil Requiem protagonist Grace Ashcroft's DLSS 5-ified face and declared it AI slop. So this week, the company's re-introducing its controversial \"neural rendering\" with firm messaging about how it \"preserves artistic intent,\" \"respects the rendered frame,\" [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Mozilla launches ad blocking for Firefox on iOS",
+      "url": "https://www.theverge.com/news/987247/mozilla-firefox-ad-blocker-ios-launch",
+      "source": "The Verge",
+      "published": "2026-09-01T09:00:00-04:00",
+      "summary": "Mozilla is officially launching ad blocking for Firefox on iOS today, after testing the feature over the past few weeks. The new built-in option will block most third-party ads and trackers before they load on an iPhone, reducing bandwidth use and decluttering mobile websites. Mozilla is using Apple's WebKit Content Blocker technology and the EasyList [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Sennheiser Momentum 5 Wireless Headphones Review (2026)",
+      "url": "https://www.wired.com/review/sennheiser-momentum-5/",
+      "source": "Wired",
+      "published": "Tue, 01 Sep 2026 11:00:00 +0000",
+      "summary": "The flagship headphones get up to 57 hours of battery life and have easily replaceable batteries.",
+      "isAI": false
+    },
+    {
+      "title": "Inside the Perimenopause Industrial Complex",
+      "url": "https://www.wired.com/story/inside-the-perimenopause-industrial-complex/",
+      "source": "Wired",
+      "published": "Tue, 01 Sep 2026 10:00:00 +0000",
+      "summary": "How an alliance of tech startups, MAHA operatives, and actual medical experts made millennial women the new face of hormone therapy.",
+      "isAI": false
+    },
     {
       "title": "Magna increases bet on battery swapping in India with $35M for Yuma",
       "url": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
@@ -14,7 +62,7 @@
       "url": "https://www.gpuworld.org/",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 03:16:36 +0000",
-      "summary": "Article URL: https://www.gpuworld.org/ Comments URL: https://news.ycombinator.com/item?id=49517584 Points: 196 # Comments: 82",
+      "summary": "Article URL: https://www.gpuworld.org/ Comments URL: https://news.ycombinator.com/item?id=49517584 Points: 305 # Comments: 179",
       "isAI": true
     },
     {
@@ -246,7 +294,7 @@
       "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
       "source": "Hacker News",
       "published": "Mon, 31 Aug 2026 12:41:22 +0000",
-      "summary": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 398 # Comments: 446",
+      "summary": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 445 # Comments: 503",
       "isAI": true
     },
     {
@@ -374,7 +422,7 @@
       "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
       "source": "Hacker News",
       "published": "Sun, 30 Aug 2026 06:52:04 +0000",
-      "summary": "Article URL: https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/ Comments URL: https://news.ycombinator.com/item?id=49496292 Points: 206 # Comments: 60",
+      "summary": "Article URL: https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/ Comments URL: https://news.ycombinator.com/item?id=49496292 Points: 243 # Comments: 70",
       "isAI": true
     },
     {
@@ -1951,54 +1999,6 @@
       "source": "Ars Technica",
       "published": "Mon, 24 Aug 2026 21:32:16 +0000",
       "summary": "Solid-state transformers could also benefit EV charging and, someday, households.",
-      "isAI": true
-    },
-    {
-      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 24 Aug 2026 21:24:17 +0000",
-      "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
-      "isAI": true
-    },
-    {
-      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there\u2019s still space",
-      "url": "https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/",
-      "source": "TechCrunch",
-      "published": "Mon, 24 Aug 2026 20:16:34 +0000",
-      "summary": "Make the most of Disrupt's crowds of potential investors and partners by exhibiting your startup from October 13-15.",
-      "isAI": true
-    },
-    {
-      "title": "Alabama launches investigation into OpenAI\u2019s hack of Hugging Face",
-      "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
-      "source": "TechCrunch",
-      "published": "Mon, 24 Aug 2026 19:58:17 +0000",
-      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama\u2019s attorney general announced an investigation into the incident.",
-      "isAI": true
-    },
-    {
-      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-      "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
-      "source": "TechCrunch",
-      "published": "Mon, 24 Aug 2026 19:54:50 +0000",
-      "summary": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
-      "isAI": false
-    },
-    {
-      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 24 Aug 2026 19:54:19 +0000",
-      "summary": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
-      "isAI": true
-    },
-    {
-      "title": "The cat-and-mouse game over 3D-printed guns has begun",
-      "url": "https://www.theverge.com/tech/983244/3d-printed-guns-hashes-hochul",
-      "source": "The Verge",
-      "published": "2026-08-24T15:50:00-04:00",
-      "summary": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle between regulators trying to stem the tide of ghost guns and individuals trying to create workarounds. Cody [\u2026]",
       "isAI": true
     }
   ]
