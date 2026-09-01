@@ -1,6 +1,22 @@
 {
-  "updated": "2026-08-31T23:17:24.946528+00:00",
+  "updated": "2026-09-01T03:30:27.341240+00:00",
   "items": [
+    {
+      "title": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year",
+      "url": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
+      "source": "TechCrunch",
+      "published": "Tue, 01 Sep 2026 00:30:00 +0000",
+      "summary": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for several months.",
+      "isAI": true
+    },
+    {
+      "title": "Apple shares \u2018shocking evidence\u2019 against former employee accused of stealing company data for OpenAI",
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 00:13:00 +0000",
+      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "isAI": true
+    },
     {
       "title": "A group funded by Andreessen, Horowitz, and Brockman plans data center ads to sway midterms",
       "url": "https://techcrunch.com/2026/08/31/a-group-funded-by-andreessen-horowitz-and-brockman-plan-data-center-ads-to-sway-midterms/",
@@ -206,7 +222,7 @@
       "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
       "source": "Hacker News",
       "published": "Mon, 31 Aug 2026 12:41:22 +0000",
-      "summary": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 264 # Comments: 294",
+      "summary": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 326 # Comments: 370",
       "isAI": true
     },
     {
@@ -239,6 +255,14 @@
       "source": "Wired",
       "published": "Mon, 31 Aug 2026 10:00:00 +0000",
       "summary": "A security researcher discovered nine vulnerabilities impacting ATM encryption and authentication software. But the problems extend far beyond your local cash machine.",
+      "isAI": true
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "source": "OpenAI",
+      "published": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
       "isAI": true
     },
     {
@@ -311,6 +335,14 @@
       "source": "Ars Technica AI",
       "published": "Sun, 30 Aug 2026 11:03:47 +0000",
       "summary": "The company is testing robots on tasks that can performed by technicians.",
+      "isAI": true
+    },
+    {
+      "title": "Smartphone LED detects hidden cameras with AI",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+      "source": "Hacker News",
+      "published": "Sun, 30 Aug 2026 06:52:04 +0000",
+      "summary": "Article URL: https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/ Comments URL: https://news.ycombinator.com/item?id=49496292 Points: 162 # Comments: 46",
       "isAI": true
     },
     {
@@ -1968,38 +2000,6 @@
       "published": "Mon, 24 Aug 2026 15:24:18 +0000",
       "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
       "isAI": true
-    },
-    {
-      "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
-      "url": "https://developers.openai.com/api/docs/pricing",
-      "source": "Hacker News",
-      "published": "Mon, 24 Aug 2026 15:22:43 +0000",
-      "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 308 # Comments: 275",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 24 Aug 2026 15:00:00 +0000",
-      "summary": "Inside the frontier lab\u2019s push to bring AI agents from software engineers to the masses.",
-      "isAI": true
-    },
-    {
-      "title": "How to encourage smarter AI use in the classroom",
-      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 24 Aug 2026 14:20:19 +0000",
-      "summary": "This article is from Making AI Work, MIT Technology Review\u2019s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Brake problems in GM EVs draw greater federal scrutiny",
-      "url": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
-      "source": "TechCrunch",
-      "published": "Mon, 24 Aug 2026 14:18:47 +0000",
-      "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
-      "isAI": false
     }
   ]
 }
