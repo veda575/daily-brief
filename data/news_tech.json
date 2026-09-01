@@ -1,6 +1,86 @@
 {
-  "updated": "2026-09-01T19:56:55.161984+00:00",
+  "updated": "2026-09-01T22:30:29.070517+00:00",
   "items": [
+    {
+      "title": "AfterQuery reportedly becomes Y Combinator\u2019s fastest-ever unicorn, now valued at $3.2B",
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 22:08:24 +0000",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "isAI": true
+    },
+    {
+      "title": "Anthropic launches Claude Fable 5.1 and says it\u2019s up to 45 percent cheaper for agentic work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "source": "The Verge AI",
+      "published": "2026-09-01T18:01:36-04:00",
+      "summary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face",
+      "published": "Tue, 01 Sep 2026 21:39:07 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Open AI\u2019s Astra model is on the way \u2014 and very good at breaking into computer systems",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 21:06:24 +0000",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "isAI": true
+    },
+    {
+      "title": "Google\u2019s Android update tackles motion sickness, accessibility, and more",
+      "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "source": "TechCrunch AI",
+      "published": "Tue, 01 Sep 2026 20:53:05 +0000",
+      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI delayed its new model\u2019s development after the Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "source": "The Verge AI",
+      "published": "2026-09-01T16:45:49-04:00",
+      "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": "Google AI",
+      "published": "Tue, 01 Sep 2026 20:45:00 +0000",
+      "summary": "Transitioning cards: 1. Text \"Gemini 3.7 Flash\" next to the Gemini logo icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text \"Claim your student plan for 1 year at no cost\"",
+      "isAI": true
+    },
+    {
+      "title": "On first listen, the Sonos Beam Ultra sounds great",
+      "url": "https://www.theverge.com/tech/987574/sonos-beam-ultra-first-listen",
+      "source": "The Verge",
+      "published": "2026-09-01T16:08:38-04:00",
+      "summary": "Sonos unveiled a bunch of new stuff today at its open house event. There's the $699 Beam Ultra soundbar and the $449 Ace Ultra headphones, plus several under-the-hood app updates (some coming sooner than others). While the show floor was a less than ideal venue to judge audio quality of either new product, a private [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "source": "Hacker News",
+      "published": "Tue, 01 Sep 2026 20:07:57 +0000",
+      "summary": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 162 # Comments: 83",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI Is About to Release Its First AI Model With \u2018Critical\u2019 Cyber Abilities",
+      "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+      "source": "Wired",
+      "published": "Tue, 01 Sep 2026 20:00:00 +0000",
+      "summary": "The company will give select partners early access to its Astra AI model\u2014so they have time to shore up their defenses.",
+      "isAI": true
+    },
     {
       "title": "Tim Cook did alright by the environment \u2014 but AI could upend his climate legacy",
       "url": "https://www.theverge.com/tech/987550/tim-cook-apple-environment-sustainability-legacy",
@@ -26,6 +106,14 @@
       "isAI": true
     },
     {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "source": "Hacker News",
+      "published": "Tue, 01 Sep 2026 18:35:15 +0000",
+      "summary": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 237 # Comments: 254",
+      "isAI": true
+    },
+    {
       "title": "Apple accuses OpenAI of destroying evidence",
       "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
       "source": "The Verge AI",
@@ -38,7 +126,7 @@
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 17:53:53 +0000",
-      "summary": "What's new in Claude Fable 5.1 \u2013 https://platform.claude.com/docs/en/models/fable-5-1/whats-n...System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32... Comments URL: https://news.ycombinator.com/item?id=49525378 Points: 495 # Comments: 448",
+      "summary": "What's new in Claude Fable 5.1 \u2013 https://platform.claude.com/docs/en/models/fable-5-1/whats-n...System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32... Comments URL: https://news.ycombinator.com/item?id=49525378 Points: 763 # Comments: 720",
       "isAI": true
     },
     {
@@ -154,6 +242,14 @@
       "isAI": true
     },
     {
+      "title": "Ambient CSS v3 \u2013 Blender meets CSS",
+      "url": "https://ambientcss.vercel.app/",
+      "source": "Hacker News",
+      "published": "Tue, 01 Sep 2026 15:35:11 +0000",
+      "summary": "Article URL: https://ambientcss.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49523387 Points: 169 # Comments: 63",
+      "isAI": false
+    },
+    {
       "title": "Shelly\u2019s new $50 security camera watches your home without a subscription",
       "url": "https://www.theverge.com/tech/987436/shelly-smart-home-hd-security-camera-automation",
       "source": "The Verge",
@@ -232,6 +328,14 @@
       "published": "2026-09-01T09:00:00-04:00",
       "summary": "Mozilla is officially launching ad blocking for Firefox on iOS today, after testing the feature over the past few weeks. The new built-in option will block most third-party ads and trackers before they load on an iPhone, reducing bandwidth use and decluttering mobile websites. Mozilla is using Apple's WebKit Content Blocker technology and the EasyList [\u2026]",
       "isAI": false
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI",
+      "published": "Tue, 01 Sep 2026 13:00:00 GMT",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "isAI": true
     },
     {
       "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
@@ -1896,110 +2000,6 @@
       "published": "Tue, 25 Aug 2026 17:32:03 +0000",
       "summary": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment.",
       "isAI": false
-    },
-    {
-      "title": "Instagram\u2019s \u2018First Draft\u2019 trims your Reels clips for you",
-      "url": "https://www.theverge.com/tech/984463/instagram-first-draft-edit-reels",
-      "source": "The Verge",
-      "published": "2026-08-25T13:12:31-04:00",
-      "summary": "Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights. The feature, called First Draft, is rolling out to Instagram's iPhone app and provides a \"starting point\" that you can build upon with other edits, according to an announcement on Tuesday. An example shared by Instagram shows [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "Nothing OS 5.0 brings a new Glyph Interface app and a more customizable homescreen",
-      "url": "https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17",
-      "source": "The Verge",
-      "published": "2026-08-25T12:58:53-04:00",
-      "summary": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your wallpaper, which update whenever your wallpaper changes. Alongside Android's built-in Dynamic Colors, the company says it allows you to have specific elements change to match your wallpaper \"while Nothing's predominantly monochrome character [\u2026]",
-      "isAI": false
-    },
-    {
-      "title": "GeForce Now is getting support for the Steam Controller",
-      "url": "https://www.theverge.com/games/984422/nvidia-geforce-now-steam-controller-machine-support",
-      "source": "The Verge",
-      "published": "2026-08-25T12:47:15-04:00",
-      "summary": "Nvidia's GeForce Now cloud gaming service will officially support Valve's Steam Controller and Steam Machine starting later this year. With Steam Controller support, you'll be able to play games with Valve's great new gamepad when using the GeForce Now app on your Steam Deck or Steam Machine. If you're using GeForce Now on Windows or [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Polestar claims it was blindsided by sales ban",
-      "url": "https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump",
-      "source": "The Verge",
-      "published": "2026-08-25T12:14:45-04:00",
-      "summary": "Polestar said the Trump administration strung it along for months before finally rejecting its request to continue selling its electric vehicles in the US under a rule outlawing vehicles with connected software from China. In an August 18th letter sent to dealers and obtained by The Verge, Polestar said it doesn't have a clear answer [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "source": "Google AI",
-      "published": "Tue, 25 Aug 2026 16:00:00 +0000",
-      "summary": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background",
-      "isAI": true
-    },
-    {
-      "title": "Pacific Fusion\u2019s next fusion machine could clear a key hurdle to commercial power",
-      "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
-      "source": "TechCrunch",
-      "published": "Tue, 25 Aug 2026 15:30:00 +0000",
-      "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
-      "isAI": true
-    },
-    {
-      "title": "How much of HN is AI?",
-      "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
-      "source": "Hacker News",
-      "published": "Tue, 25 Aug 2026 15:23:41 +0000",
-      "summary": "Article URL: https://blog.coredump.cx/p/how-much-of-hn-is-ai Comments URL: https://news.ycombinator.com/item?id=49435728 Points: 178 # Comments: 147",
-      "isAI": true
-    },
-    {
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "source": "Hugging Face",
-      "published": "Tue, 25 Aug 2026 15:14:14 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "AI won\u2019t replace radiologists, but it will dramatically change their jobs",
-      "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
-      "source": "Ars Technica AI",
-      "published": "Tue, 25 Aug 2026 15:10:03 +0000",
-      "summary": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
-      "isAI": true
-    },
-    {
-      "title": "Gamma acquires Accel-backed design startup Lica",
-      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 25 Aug 2026 15:00:00 +0000",
-      "summary": "Lica co-founders are going to work on Gamma's new research team.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s Jalape\u00f1o chip is built for fast inference at scale, benchmarks show",
-      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-      "source": "TechCrunch AI",
-      "published": "Tue, 25 Aug 2026 14:22:04 +0000",
-      "summary": "Tested on Semianalysis\u2019s InferenceX benchmark, Jalape\u00f1o registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-      "isAI": true
-    },
-    {
-      "title": "Apple debuts its \u2018most powerful chip ever\u2019 in M5 Ultra and M6",
-      "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
-      "source": "TechCrunch",
-      "published": "Tue, 25 Aug 2026 14:10:36 +0000",
-      "summary": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI says its Jalape\u00f1o chip can power faster AI responses than the competition",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-      "source": "The Verge AI",
-      "published": "2026-08-25T10:00:00-04:00",
-      "summary": "OpenAI says its new AI chip, Jalape\u00f1o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape\u00f1o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [\u2026]",
-      "isAI": true
     }
   ]
 }

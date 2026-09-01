@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T19:56:55.161984+00:00",
+  "updated": "2026-09-01T22:30:29.070517+00:00",
   "regions": {
     "us": [
       {
@@ -7,118 +7,118 @@
         "name": "Accenture",
         "sector": "IT Services / Consulting",
         "currency": "USD",
-        "marketCap": 115191980032.0,
-        "changePercent": -0.801006,
-        "indexValue": 188.24
+        "marketCap": 115100180480.0,
+        "changePercent": -0.880058,
+        "indexValue": 188.09
       },
       {
         "ticker": "AMD",
         "name": "AMD (Advanced Micro Devices)",
         "sector": "Semiconductors / AI Chips",
         "currency": "USD",
-        "marketCap": 748897894400.0,
-        "changePercent": -2.5429132,
+        "marketCap": 750301806592.0,
+        "changePercent": -2.3602176,
         "sortName": "Advanced Micro Devices",
-        "indexValue": 458.75
+        "indexValue": 459.61
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet Inc.",
         "sector": "Earnings / AI growth",
         "currency": "USD",
-        "marketCap": 4092702490624.0,
-        "changePercent": -1.3860924,
-        "indexValue": 334.6463
+        "marketCap": 4097272709120.0,
+        "changePercent": -1.2759738,
+        "indexValue": 335.02
       },
       {
         "ticker": "AMZN",
         "name": "Amazon",
         "sector": "AWS / Retail",
         "currency": "USD",
-        "marketCap": 2746411122688.0,
-        "changePercent": -1.9825207,
-        "indexValue": 254.62
+        "marketCap": 2749647028224.0,
+        "changePercent": -1.8670328,
+        "indexValue": 254.92
       },
       {
         "ticker": "AAPL",
         "name": "Apple",
         "sector": "Consumer Tech / iPhone",
         "currency": "USD",
-        "marketCap": 4734133469184.0,
-        "changePercent": 2.378098,
-        "indexValue": 324.385
+        "marketCap": 4745005629440.0,
+        "changePercent": 2.6132236,
+        "indexValue": 325.13
       },
       {
         "ticker": "AMAT",
         "name": "Applied Materials",
         "sector": "Semiconductors",
         "currency": "USD",
-        "marketCap": 350365319168.0,
-        "changePercent": -3.6868222,
-        "indexValue": 441.49
+        "marketCap": 350651023360.0,
+        "changePercent": -3.608283,
+        "indexValue": 441.85
       },
       {
         "ticker": "TEAM",
         "name": "Atlassian",
         "sector": "Software",
         "currency": "USD",
-        "marketCap": 47288860672.0,
-        "changePercent": -3.7904932,
-        "indexValue": 186.81
+        "marketCap": 47344553984.0,
+        "changePercent": -3.6771898,
+        "indexValue": 187.03
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom",
         "sector": "Semiconductors / Networking",
         "currency": "USD",
-        "marketCap": 1755261698048.0,
-        "changePercent": -0.37802935,
-        "indexValue": 368.94
+        "marketCap": 1758782291968.0,
+        "changePercent": -0.17821561,
+        "indexValue": 369.68
       },
       {
         "ticker": "CSCO",
         "name": "Cisco Systems",
         "sector": "Networking / Enterprise Tech",
         "currency": "USD",
-        "marketCap": 431882698752.0,
-        "changePercent": -0.82813007,
-        "indexValue": 109.575
+        "marketCap": 432533012480.0,
+        "changePercent": -0.67879444,
+        "indexValue": 109.74
       },
       {
         "ticker": "GE",
         "name": "GE Aerospace",
         "sector": "Aerospace / Industrial",
         "currency": "USD",
-        "marketCap": 343287922688.0,
-        "changePercent": -1.4447012,
-        "indexValue": 330.86
+        "marketCap": 343526572032.0,
+        "changePercent": -1.37619,
+        "indexValue": 331.09
       },
       {
         "ticker": "GM",
         "name": "General Motors",
         "sector": "Automotive",
         "currency": "USD",
-        "marketCap": 77280862208.0,
-        "changePercent": -1.0136701,
-        "indexValue": 85.445
+        "marketCap": 77448183808.0,
+        "changePercent": -0.799354,
+        "indexValue": 85.63
       },
       {
         "ticker": "INTC",
         "name": "Intel",
         "sector": "Chips",
         "currency": "USD",
-        "marketCap": 470146187264.0,
-        "changePercent": -0.6368,
-        "indexValue": 88.94
+        "marketCap": 470304784384.0,
+        "changePercent": -0.60328555,
+        "indexValue": 88.97
       },
       {
         "ticker": "META",
         "name": "Meta Platforms",
         "sector": "Ads / AI",
         "currency": "USD",
-        "marketCap": 1471949045760.0,
-        "changePercent": 0.9539715,
-        "indexValue": 577.8
+        "marketCap": 1473834123264.0,
+        "changePercent": 1.0832635,
+        "indexValue": 578.54
       },
       {
         "ticker": "MU",
@@ -134,99 +134,99 @@
         "name": "Microsoft",
         "sector": "Cloud / AI",
         "currency": "USD",
-        "marketCap": 3716559929344.0,
-        "changePercent": -1.3365134,
-        "indexValue": 500.51
+        "marketCap": 3720346861568.0,
+        "changePercent": -1.2359833,
+        "indexValue": 501.02
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
         "sector": "AI Chips",
         "currency": "USD",
-        "marketCap": 5240140070912.0,
-        "changePercent": -1.5827689,
-        "indexValue": 217.01
+        "marketCap": 5250523594752.0,
+        "changePercent": -1.387754,
+        "indexValue": 217.44
       },
       {
         "ticker": "ORCL",
         "name": "Oracle",
         "sector": "Cloud",
         "currency": "USD",
-        "marketCap": 405764734976.0,
-        "changePercent": -5.5340424,
-        "indexValue": 140.8675
+        "marketCap": 407068180480.0,
+        "changePercent": -5.23068,
+        "indexValue": 141.32
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "AI CRM",
         "currency": "USD",
-        "marketCap": 212371046400.0,
-        "changePercent": 0.19608794,
-        "indexValue": 258.045
+        "marketCap": 212424523776.0,
+        "changePercent": 0.221316,
+        "indexValue": 258.11
       },
       {
         "ticker": "SNDK",
         "name": "SanDisk",
         "sector": "Storage / Flash Memory",
         "currency": "USD",
-        "marketCap": 225889386496.0,
-        "changePercent": -1.5280489,
-        "indexValue": 1542.76
+        "marketCap": 225026981888.0,
+        "changePercent": -1.9039992,
+        "indexValue": 1536.87
       },
       {
         "ticker": "SAP",
         "name": "SAP",
         "sector": "Enterprise AI",
         "currency": "USD",
-        "marketCap": 245101051904.0,
-        "changePercent": -3.863916,
-        "indexValue": 212.355
+        "marketCap": 244737474560.0,
+        "changePercent": -4.00652,
+        "indexValue": 212.04
       },
       {
         "ticker": "SHOP",
         "name": "Shopify",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 181321285632.0,
-        "changePercent": -5.18423,
-        "indexValue": 139.73
+        "marketCap": 179898564608.0,
+        "changePercent": -5.1231513,
+        "indexValue": 139.82
       },
       {
         "ticker": "SIFY",
         "name": "Sify Technologies",
         "sector": "IT Services / Data Centers",
         "currency": "USD",
-        "marketCap": 1043782784.0,
-        "changePercent": -3.360215,
-        "indexValue": 14.41
+        "marketCap": 1029295872.0,
+        "changePercent": -4.694834,
+        "indexValue": 14.21
       },
       {
         "ticker": "SNOW",
         "name": "Snowflake",
         "sector": "Cloud Data",
         "currency": "USD",
-        "marketCap": 110710980608.0,
-        "changePercent": -3.624615,
-        "indexValue": 319.42
+        "marketCap": 110842675200.0,
+        "changePercent": -3.50904,
+        "indexValue": 319.8
       },
       {
         "ticker": "SPCX",
         "name": "SpaceX",
         "sector": "Aerospace / Satellite Internet",
         "currency": "USD",
-        "marketCap": 1874580996096.0,
-        "changePercent": -1.0299921,
-        "indexValue": 142.21
+        "marketCap": 1873764548608.0,
+        "changePercent": -1.016081,
+        "indexValue": 142.23
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "EV demand",
         "currency": "USD",
-        "marketCap": 1406619484160.0,
-        "changePercent": -3.2080107,
-        "indexValue": 356.147
+        "marketCap": 1406394302464.0,
+        "changePercent": -3.2232683,
+        "indexValue": 356.09
       }
     ],
     "asia": [
@@ -235,16 +235,16 @@
         "name": "Alibaba Group",
         "sector": "E-commerce",
         "currency": "USD",
-        "marketCap": 280303763456.0,
-        "changePercent": -1.0962989,
-        "indexValue": 112.77
+        "marketCap": 280502599680.0,
+        "changePercent": -1.02613,
+        "indexValue": 112.85
       },
       {
         "ticker": "005930.KS",
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1247732591835.3164,
+        "marketCap": 1246979097233.067,
         "changePercent": 0.3846154,
         "indexValue": 261000.0
       },
@@ -253,7 +253,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 507327786503.9626,
+        "marketCap": 507335551031.92316,
         "changePercent": -2.5607078,
         "indexValue": 441.4
       },
@@ -262,9 +262,9 @@
         "name": "TSMC",
         "sector": "Chips demand",
         "currency": "USD",
-        "marketCap": 2152114421760.0,
-        "changePercent": -0.089687675,
-        "indexValue": 414.9475
+        "marketCap": 2147200270336.0,
+        "changePercent": -0.317829,
+        "indexValue": 414.0
       }
     ],
     "india": [
@@ -363,7 +363,7 @@
         "name": "HDFC Bank",
         "sector": "Lending",
         "currency": "INR",
-        "marketCap": 10973269196800.0,
+        "marketCap": 10971091304448.0,
         "changePercent": 0.40903026,
         "indexValue": 711.9
       },
@@ -444,7 +444,7 @@
         "name": "Reliance Industries",
         "sector": "Energy / Telecom",
         "currency": "INR",
-        "marketCap": 17714006679215.0,
+        "marketCap": 17714005409792.0,
         "changePercent": 2.5058732,
         "indexValue": 1309.0
       },
@@ -489,7 +489,7 @@
         "name": "TCS",
         "sector": "IT demand",
         "currency": "INR",
-        "marketCap": 8571249330142.0,
+        "marketCap": 8571248967680.0,
         "changePercent": -1.2628703,
         "indexValue": 2369.0
       },
@@ -546,8 +546,8 @@
         "sector": "Index / US Equities",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -1.127636,
-        "indexValue": 26073.52
+        "changePercent": -1.0280854,
+        "indexValue": 26099.773
       },
       {
         "ticker": "000001.SS",
@@ -575,8 +575,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.9172965,
-        "indexValue": 3438.0,
+        "changePercent": -0.02906132,
+        "indexValue": 3440.0,
         "unit": "USD/metric ton"
       },
       {
@@ -585,8 +585,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -2.4446747,
-        "indexValue": 6.524,
+        "changePercent": -0.9847747,
+        "indexValue": 6.5355,
         "unit": "USD/lb"
       },
       {
@@ -595,7 +595,7 @@
         "sector": "Agricultural",
         "currency": "USX",
         "marketCap": null,
-        "changePercent": 1.4411901,
+        "changePercent": -0.09157509,
         "indexValue": 545.5,
         "unit": "US\u00a2/bushel"
       },
@@ -605,8 +605,8 @@
         "sector": "Energy",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 5.5620294,
-        "indexValue": 90.53,
+        "changePercent": 0.69829,
+        "indexValue": 90.85,
         "unit": "USD/bbl"
       },
       {
@@ -615,8 +615,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -2.4746158,
-        "indexValue": 4370.6,
+        "changePercent": -0.50495195,
+        "indexValue": 4374.2,
         "unit": "USD/troy oz"
       },
       {
@@ -635,8 +635,8 @@
         "sector": "Energy",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.47699964,
-        "indexValue": 2.949,
+        "changePercent": 1.5151484,
+        "indexValue": 2.948,
         "unit": "USD/MMBtu"
       },
       {
@@ -645,8 +645,8 @@
         "sector": "Metals",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -3.4930532,
-        "indexValue": 64.65,
+        "changePercent": -1.1381592,
+        "indexValue": 64.625,
         "unit": "USD/troy oz"
       },
       {
@@ -655,7 +655,7 @@
         "sector": "Agricultural",
         "currency": "USX",
         "marketCap": null,
-        "changePercent": 2.3680124,
+        "changePercent": 0.056915198,
         "indexValue": 1318.5,
         "unit": "US\u00a2/bushel"
       },
@@ -665,7 +665,7 @@
         "sector": "Agricultural",
         "currency": "USX",
         "marketCap": null,
-        "changePercent": 0.9043928,
+        "changePercent": -0.19169329,
         "indexValue": 781.0,
         "unit": "US\u00a2/bushel"
       }
@@ -686,8 +686,8 @@
         "sector": "vs. Basket of Major Currencies",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.27356032,
-        "indexValue": 99.7
+        "changePercent": 0.22729807,
+        "indexValue": 99.654
       },
       {
         "ticker": "EURUSD=X",
@@ -695,8 +695,8 @@
         "sector": "EUR to USD",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.25504375,
-        "indexValue": 1.1592858
+        "changePercent": -0.22033605,
+        "indexValue": 1.1596892
       },
       {
         "ticker": "GBPUSD=X",
@@ -704,8 +704,8 @@
         "sector": "GBP to USD",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.30267847,
-        "indexValue": 1.3512236
+        "changePercent": -0.27169707,
+        "indexValue": 1.3516437
       },
       {
         "ticker": "JPY=X",
@@ -713,8 +713,8 @@
         "sector": "USD to JPY",
         "currency": "JPY",
         "marketCap": null,
-        "changePercent": 0.31868836,
-        "indexValue": 160.224
+        "changePercent": 0.2905476,
+        "indexValue": 160.179
       },
       {
         "ticker": "CNY=X",
@@ -722,7 +722,7 @@
         "sector": "USD to CNY",
         "currency": "CNY",
         "marketCap": null,
-        "changePercent": 0.0074372743,
+        "changePercent": 0.0074474714,
         "indexValue": 6.7197
       }
     ]
