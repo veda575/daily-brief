@@ -99,12 +99,72 @@ function fxHeroHtml(stocks) {
     </div>`;
 }
 
+// ── Commodities: physical-unit INR pricing ─────────────
+// The raw feed quotes each commodity in its own futures trade unit
+// (troy oz, ¢/bushel, USD/lb, ...) which isn't something most readers can
+// price against. Convert each to a standard physical unit (gram/KG/Ton/...)
+// in INR using the day's USD/INR rate instead.
+const TROY_OZ_G = 31.1034768;
+const LB_KG = 0.45359237;
+
+const COMMODITY_UNIT_CONVERSIONS = {
+  'GC=F':  { qty: '1 gram',   toUsdPerQty: v => v / TROY_OZ_G },
+  'SI=F':  { qty: '1 KG',     toUsdPerQty: v => (v / TROY_OZ_G) * 1000 },
+  'HG=F':  { qty: '1 KG',     toUsdPerQty: v => v / LB_KG },
+  'TIO=F': { qty: '1 Ton',    toUsdPerQty: v => v },
+  'ALI=F': { qty: '1 Ton',    toUsdPerQty: v => v },
+  'CL=F':  { qty: '1 Barrel', toUsdPerQty: v => v },
+  'NG=F':  { qty: '1 MMBtu',  toUsdPerQty: v => v },
+  'ZC=F':  { qty: '1 Ton',    toUsdPerQty: v => (v / 100 / (56 * LB_KG)) * 1000 },
+  'ZS=F':  { qty: '1 Ton',    toUsdPerQty: v => (v / 100 / (60 * LB_KG)) * 1000 },
+  'ZW=F':  { qty: '1 Ton',    toUsdPerQty: v => (v / 100 / (60 * LB_KG)) * 1000 },
+};
+
+const fmtInr = new Intl.NumberFormat('en-IN', { maximumFractionDigits: 2 });
+
+// A >15% daily move on a bulk commodity is far more likely to be a stale or
+// mismatched futures tick than a real market swing (TIO=F has reported the
+// exact same frozen price across multiple refreshes) — flag it visibly
+// instead of presenting it as fact.
+const SUSPECT_MOVE_PCT = 15;
+
+function renderCommoditiesTable(commodities) {
+  const usdInr = Number(stocksData?.regions?.currency?.find(c => c.ticker === 'INR=X')?.indexValue);
+  const sorted = commodities.slice().sort((a, b) =>
+    (a.sector || '').localeCompare(b.sector || '') || (a.name || '').localeCompare(b.name || '')
+  );
+  const rows = sorted.map(c => {
+    const conv = COMMODITY_UNIT_CONVERSIONS[c.ticker];
+    const rawValue = Number(c.indexValue);
+    const rate = conv && Number.isFinite(usdInr) && Number.isFinite(rawValue)
+      ? '₹' + fmtInr.format(conv.toUsdPerQty(rawValue) * usdInr)
+      : '—';
+    const pct = Number(c.changePercent);
+    const suspect = Number.isFinite(pct) && Math.abs(pct) >= SUSPECT_MOVE_PCT;
+    const dir = pct < 0 ? 'down' : 'up';
+    return `<tr>
+      <td><strong>${escapeHtml(c.name)}</strong></td>
+      <td class="muted">${escapeHtml(c.sector || '')}</td>
+      <td class="muted">${conv ? conv.qty : '—'}</td>
+      <td class="num">${rate}</td>
+      <td class="num ${dir}">${fmtGainLossPercent(c.changePercent)}${suspect ? ' ⚠' : ''}</td>
+    </tr>`;
+  }).join('');
+  return `<table>
+    <thead><tr>
+      <th>Commodity</th><th>Category</th><th>Quantity</th><th>Market Rate in INR</th><th>Gain / Loss %</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>
+  <p class="muted" style="padding:8px 4px;font-size:12px;">⚠ = daily move ≥ ${SUSPECT_MOVE_PCT}% — likely a stale or bad data tick rather than a real market swing.</p>`;
+}
+
 function renderStocksTable(stocks, region) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
   }
+  if (region === 'commodities') return renderCommoditiesTable(stocks);
   const isIndexes = region === 'indexes';
-  const isCommodities = region === 'commodities';
   const isCurrency = region === 'currency';
   const hero = isCurrency ? fxHeroHtml(stocks) : '';
   const sorted = isCurrency ? stocks.slice() : stocks.slice().sort((a, b) =>
@@ -113,8 +173,8 @@ function renderStocksTable(stocks, region) {
   const rows = sorted.map(s => {
     const value = isCurrency
       ? fmtFxValue(s.indexValue)
-      : (isIndexes || isCommodities)
-        ? fmtIndexValue(s.indexValue) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '')
+      : isIndexes
+        ? fmtIndexValue(s.indexValue)
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(s.name)}</strong></td>
@@ -126,7 +186,7 @@ function renderStocksTable(stocks, region) {
   }).join('');
   return `${hero}<table>
     <thead><tr>
-      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th><th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
+      <th>${isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCurrency ? 'Conversion' : 'Sector'}</th><th>${isCurrency ? 'Exchange Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
