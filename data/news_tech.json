@@ -1,6 +1,46 @@
 {
-  "updated": "2026-09-02T19:47:34.121186+00:00",
+  "updated": "2026-09-02T22:25:58.113876+00:00",
   "items": [
+    {
+      "title": "TechCrunch Disrupt 2026\u2019s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 02 Sep 2026 22:24:09 +0000",
+      "summary": "On our new Real World AI stage, we\u2019ll be focusing on the intersection between the digital and physical, and all the ways we\u2019ll continue to see a blending of the two.",
+      "isAI": true
+    },
+    {
+      "title": "OpenAI\u2019s new reasoning technique alarms AI safety experts",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 02 Sep 2026 20:19:14 +0000",
+      "summary": "OpenAI\u2019s new Astra model will use \u201crecurrent depth,\u201d a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+      "isAI": true
+    },
+    {
+      "title": "MapQuest is now the No. 1 US app after bucking Trump\u2019s \u2018Lake America\u2019 renaming",
+      "url": "https://techcrunch.com/2026/09/02/mapquest-is-now-the-no-1-u-s-app-after-bucking-trumps-lake-america-renaming/",
+      "source": "TechCrunch",
+      "published": "Wed, 02 Sep 2026 20:12:41 +0000",
+      "summary": "The once-dominant mapping app has surged to the top of Apple\u2019s U.S. App Store after refusing to adopt Trump\u2019s \u201cLake America\u201d name, drawing more than half of its 2026 U.S. downloads in just six days.",
+      "isAI": false
+    },
+    {
+      "title": "Google says its new Gemini 3.8 Flash model \u2018works harder\u2019 but might cost more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "source": "The Verge AI",
+      "published": "2026-09-02T16:11:40-04:00",
+      "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Muse Spark 1.3",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "source": "Hacker News",
+      "published": "Wed, 02 Sep 2026 19:35:04 +0000",
+      "summary": "Article URL: https://developer.meta.com/ai/models/muse-spark/ Comments URL: https://news.ycombinator.com/item?id=49541256 Points: 274 # Comments: 172",
+      "isAI": true
+    },
     {
       "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
       "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
@@ -182,7 +222,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 15:12:40 +0000",
-      "summary": "https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 611 # Comments: 369",
+      "summary": "https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 739 # Comments: 429",
       "isAI": true
     },
     {
@@ -200,6 +240,14 @@
       "published": "Wed, 02 Sep 2026 14:56:34 +0000",
       "summary": "Amazon is adding a scam-detection feature to Alexa for Shopping that can verify whether suspicious emails, texts, and other messages actually came from the retailer.",
       "isAI": true
+    },
+    {
+      "title": "Google avoids a breakup of its ad tech business",
+      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "source": "Hacker News",
+      "published": "Wed, 02 Sep 2026 14:46:16 +0000",
+      "summary": "https://archive.ph/rlAbYhttps://www.reuters.com/legal/litigation/google-defeats-us-b... Comments URL: https://news.ycombinator.com/item?id=49537131 Points: 171 # Comments: 93",
+      "isAI": false
     },
     {
       "title": "OpenAI accused of \u2018aiding and abetting\u2019 Tumbler Ridge mass shooting in dozens of new lawsuits",
@@ -238,7 +286,7 @@
       "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 13:59:59 +0000",
-      "summary": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 236 # Comments: 109",
+      "summary": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 260 # Comments: 121",
       "isAI": true
     },
     {
@@ -254,7 +302,7 @@
       "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 12:30:39 +0000",
-      "summary": "Article URL: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training Comments URL: https://news.ycombinator.com/item?id=49535284 Points: 310 # Comments: 130",
+      "summary": "Article URL: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training Comments URL: https://news.ycombinator.com/item?id=49535284 Points: 346 # Comments: 149",
       "isAI": true
     },
     {
@@ -1951,54 +1999,6 @@
       "source": "MIT Tech Review",
       "published": "Wed, 26 Aug 2026 19:00:00 +0000",
       "summary": "The models responsible for last month\u2019s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts\u2019\u2026",
-      "isAI": true
-    },
-    {
-      "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
-      "url": "https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 18:35:40 +0000",
-      "summary": "Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard\u2019s growing open social web ecosystem.",
-      "isAI": true
-    },
-    {
-      "title": "The Humanoids at China\u2019s Robot Games Were Faster Than Usain Bolt\u2014but I\u2019m More Impressed by Their Tweezer Mastery",
-      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
-      "source": "Wired",
-      "published": "Wed, 26 Aug 2026 18:15:00 +0000",
-      "summary": "Beijing\u2019s endlessly delightful Robot Games featured tons of impressive stunts. But the most mind-blowing tricks challenged the humanoid\u2019s brain, not its brawn.",
-      "isAI": false
-    },
-    {
-      "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
-      "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
-      "source": "Hacker News",
-      "published": "Wed, 26 Aug 2026 17:20:12 +0000",
-      "summary": "Article URL: https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/ Comments URL: https://news.ycombinator.com/item?id=49452671 Points: 255 # Comments: 55",
-      "isAI": false
-    },
-    {
-      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-      "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
-      "source": "Wired",
-      "published": "Wed, 26 Aug 2026 17:13:37 +0000",
-      "summary": "More than 15 politicians from across the country have signed on to the AI Pact, vowing to regulate data centers and AI. \u201cWe\u2019ve got to get this right,\u201d says Senate candidate Dan Osborn of Nebraska.",
-      "isAI": true
-    },
-    {
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "source": "Google DeepMind",
-      "published": "Wed, 26 Aug 2026 17:01:00 +0000",
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s new AI transcription edits out your \u2018ums\u2019 and \u2018ahs\u2019",
-      "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
-      "source": "The Verge AI",
-      "published": "2026-08-26T13:00:00-04:00",
-      "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it [\u2026]",
       "isAI": true
     }
   ]
