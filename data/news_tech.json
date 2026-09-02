@@ -1,6 +1,46 @@
 {
-  "updated": "2026-09-02T07:36:40.196099+00:00",
+  "updated": "2026-09-02T12:17:26.813808+00:00",
   "items": [
+    {
+      "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+      "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 02 Sep 2026 12:09:42 +0000",
+      "summary": "Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.",
+      "isAI": true
+    },
+    {
+      "title": "The robot butler dream doesn\u2019t have legs",
+      "url": "https://www.theverge.com/tech/987756/humanoid-robot-butlers-lg-cloid-smart-home-ifa",
+      "source": "The Verge",
+      "published": "2026-09-02T07:00:00-04:00",
+      "summary": "The idea of humanoid robots running our homes has been the stuff of science fiction for years. But unlike hoverboards and self-tying sneakers, a robot housekeeper has never felt close to rolling into our homes. Until now. This has been the year of the humanoid robot. At CES, there were dozens of human-shaped bots on [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+      "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
+      "source": "Wired",
+      "published": "Wed, 02 Sep 2026 10:00:00 +0000",
+      "summary": "Meet the AI police who can make or break careers\u2014in publishing and beyond.",
+      "isAI": true
+    },
+    {
+      "title": "Acer\u2019s new MacBook Air rival is nearly a pound lighter than Apple\u2019s laptop",
+      "url": "https://www.theverge.com/gadgets/987802/acer-swift-blade-14-air-16-laptop-ifa-price-specs",
+      "source": "The Verge",
+      "published": "2026-09-02T05:30:00-04:00",
+      "summary": "Acer is announcing a new laptop poised to rival the MacBook Air's thinness and lightness - and in the process, it cops another laptop's name. The Acer Swift Blade 14 (not to be confused with the Razer Blade 14) is a productivity machine weighing just 1.76 pounds / 799g and measuring as little as 0.51 [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Acer\u2019s new concept hardware is a gaming handheld with a keyboard",
+      "url": "https://www.theverge.com/games/988029/acer-project-dualplay-mini-concept-gaming-handheld-keyboard-ifa",
+      "source": "The Verge",
+      "published": "2026-09-02T05:30:00-04:00",
+      "summary": "For the last few years, PC gamers on the go have had a choice: Buy a gaming laptop, or pick up one of the many Steam Deck-inspired handhelds that are a fraction of the size but a lot less versatile. Acer's latest concept device, Project DualPlay Mini, is an attempt to upend that dichotomy by [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Dell\u2019s newest laptop sounds a lot like a MacBook Neo",
       "url": "https://www.theverge.com/gadgets/987839/dell-14s-student-laptop-ifa-2026-price-specs",
@@ -47,6 +87,14 @@
       "source": "TechCrunch AI",
       "published": "Tue, 01 Sep 2026 22:08:24 +0000",
       "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "isAI": true
+    },
+    {
+      "title": "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos",
+      "url": "https://masteranza.github.io/weedout/",
+      "source": "Hacker News",
+      "published": "Tue, 01 Sep 2026 22:06:57 +0000",
+      "summary": "I'm the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that removes videos YouTube labels \u201cMade with AI\u201d from feed, search, related videos, playlists and Shorts. It uses YouTube's label rather than AI detection, runs locally, and does not catch unlabeled videos.Source for developers\u2026",
       "isAI": true
     },
     {
@@ -110,7 +158,7 @@
       "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 20:07:57 +0000",
-      "summary": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 370 # Comments: 170",
+      "summary": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 434 # Comments: 197",
       "isAI": true
     },
     {
@@ -150,7 +198,7 @@
       "url": "https://danluu.com/zitron/",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 18:35:15 +0000",
-      "summary": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 642 # Comments: 698",
+      "summary": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 750 # Comments: 823",
       "isAI": true
     },
     {
@@ -166,7 +214,7 @@
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 17:53:53 +0000",
-      "summary": "What's new in Claude Fable 5.1 \u2013 https://platform.claude.com/docs/en/models/fable-5-1/whats-n...System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32... Comments URL: https://news.ycombinator.com/item?id=49525378 Points: 1169 # Comments: 1078",
+      "summary": "What's new in Claude Fable 5.1 \u2013 https://platform.claude.com/docs/en/models/fable-5-1/whats-n...System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32... Comments URL: https://news.ycombinator.com/item?id=49525378 Points: 1294 # Comments: 1205",
       "isAI": true
     },
     {
@@ -302,7 +350,7 @@
       "url": "https://ambientcss.vercel.app/",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 15:35:11 +0000",
-      "summary": "Article URL: https://ambientcss.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49523387 Points: 243 # Comments: 74",
+      "summary": "Article URL: https://ambientcss.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49523387 Points: 283 # Comments: 82",
       "isAI": false
     },
     {
@@ -1952,54 +2000,6 @@
       "published": "Wed, 26 Aug 2026 07:00:00 +0000",
       "summary": "The Pan-African venture firm has raised $84 million and plans to invest in startups beyond its home market of Nigeria.",
       "isAI": false
-    },
-    {
-      "title": "India\u2019s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 03:30:00 +0000",
-      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
-      "isAI": true
-    },
-    {
-      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
-      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 00:40:59 +0000",
-      "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
-      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 00:06:20 +0000",
-      "summary": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
-      "isAI": true
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "source": "OpenAI",
-      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "isAI": true
-    },
-    {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face",
-      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI",
-      "published": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we\u2019re taking to strengthen AI model security, monitoring, and alignment.",
-      "isAI": true
     }
   ]
 }
