@@ -1,6 +1,78 @@
 {
-  "updated": "2026-09-02T17:02:31.836609+00:00",
+  "updated": "2026-09-02T19:47:34.121186+00:00",
   "items": [
+    {
+      "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+      "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+      "source": "Wired",
+      "published": "Wed, 02 Sep 2026 18:41:02 +0000",
+      "summary": "The US government wrote a letter in support of OpenAI\u2019s argument that training AI on others' intellectual property is fair use.",
+      "isAI": true
+    },
+    {
+      "title": "ICE Plans to Pay $5 Million to Create National Voting Database",
+      "url": "https://www.wired.com/story/ice-plans-to-pay-5-million-to-create-national-voting-database/",
+      "source": "Wired",
+      "published": "Wed, 02 Sep 2026 18:32:01 +0000",
+      "summary": "As part of a broader DHS surge to investigate alleged voter fraud, ICE has announced it plans to pay up to $5 million to create what amounts to a federal voter database.",
+      "isAI": false
+    },
+    {
+      "title": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
+      "url": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
+      "source": "Wired",
+      "published": "Wed, 02 Sep 2026 18:20:00 +0000",
+      "summary": "A startup called Mostik has a wild new approach to combining the capabilities of AI models.",
+      "isAI": true
+    },
+    {
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 02 Sep 2026 18:13:54 +0000",
+      "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+      "isAI": true
+    },
+    {
+      "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+      "source": "Ars Technica AI",
+      "published": "Wed, 02 Sep 2026 17:58:33 +0000",
+      "summary": "Trump\u2019s secret reviews of frontier AI models may hide corruption, lawsuit says.",
+      "isAI": true
+    },
+    {
+      "title": "Amazon\u2019s AI assistant can now spot fake emails from the company",
+      "url": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+      "source": "The Verge AI",
+      "published": "2026-09-02T13:52:56-04:00",
+      "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Pangram\u2019s Max Spero on why AI detection is harder than \u2018Real or Fake\u2019",
+      "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 02 Sep 2026 17:18:13 +0000",
+      "summary": "The internet has a trust problem, and it\u2019s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what\u2019s real. A handful of startups have cropped up in the past couple of [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "We\u2019re \u2018dangerously close\u2019 to dead internet theory, says Pangram\u2019s CEO",
+      "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 02 Sep 2026 17:09:57 +0000",
+      "summary": "The internet has a trust problem, and it\u2019s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what\u2019s real. A handful of startups have cropped up in the past couple of [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+      "source": "TechCrunch AI",
+      "published": "Wed, 02 Sep 2026 17:09:06 +0000",
+      "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
+      "isAI": true
+    },
     {
       "title": "Range Rover\u2019s new EV looks just like a regular Range Rover \u2014 that\u2019s refreshing",
       "url": "https://www.theverge.com/transportation/988232/range-rover-electric-range-battery-specs",
@@ -106,6 +178,14 @@
       "isAI": true
     },
     {
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "source": "Hacker News",
+      "published": "Wed, 02 Sep 2026 15:12:40 +0000",
+      "summary": "https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 611 # Comments: 369",
+      "isAI": true
+    },
+    {
       "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
       "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
       "source": "TechCrunch AI",
@@ -158,7 +238,7 @@
       "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 13:59:59 +0000",
-      "summary": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 158 # Comments: 84",
+      "summary": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 236 # Comments: 109",
       "isAI": true
     },
     {
@@ -170,11 +250,11 @@
       "isAI": true
     },
     {
-      "title": "Mistral now trains on user input by default, except on enterprise tier",
+      "title": "Can I opt out of my input or output data being used for training?",
       "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 12:30:39 +0000",
-      "summary": "Article URL: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training Comments URL: https://news.ycombinator.com/item?id=49535284 Points: 197 # Comments: 92",
+      "summary": "Article URL: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training Comments URL: https://news.ycombinator.com/item?id=49535284 Points: 310 # Comments: 130",
       "isAI": true
     },
     {
@@ -1920,86 +2000,6 @@
       "published": "2026-08-26T13:00:00-04:00",
       "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it [\u2026]",
       "isAI": true
-    },
-    {
-      "title": "Capital F closes $17M debut fund with goal to back the future of the \u2018female economy\u2019",
-      "url": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 17:00:00 +0000",
-      "summary": "The firm backs companies building in the \u201cfemale economy,\u201d or the markets where women drive demand \u2014 women\u2019s health, digital commerce, and AI tools.",
-      "isAI": true
-    },
-    {
-      "title": "Apple is holding its iPhone launch event on September 9",
-      "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 16:53:07 +0000",
-      "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
-      "isAI": false
-    },
-    {
-      "title": "What\u2019s driving Sweden\u2019s startup boom, from Lovable to Legora",
-      "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 16:00:00 +0000",
-      "summary": "Vibe-coding darling Lovable just raised $400 million at a $13.3 billion valuation, roughly doubling its worth in eight months. But Lovable isn\u2019t the only Stockholm startup putting up huge numbers lately \u2014 legal AI company Legora and health tech startup Neko Health are right there with it. On this episode of TechCrunch\u2019s Equity podcast, Dominic-Madori Davis is joined by Sophia Bendz, a partner at\u2026",
-      "isAI": true
-    },
-    {
-      "title": "The turbulent AI era is here",
-      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-      "source": "Hacker News",
-      "published": "Wed, 26 Aug 2026 15:55:15 +0000",
-      "summary": "Article URL: https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make Comments URL: https://news.ycombinator.com/item?id=49451313 Points: 216 # Comments: 192",
-      "isAI": true
-    },
-    {
-      "title": "Radar makes podcasts searchable \u2014 and usable by AI agents",
-      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 15:47:28 +0000",
-      "summary": "Particle\u2019s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "isAI": true
-    },
-    {
-      "title": "It\u2019s so hard to finish an idea that is not yours and is just suggested by AI",
-      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
-      "source": "Hacker News",
-      "published": "Wed, 26 Aug 2026 15:30:05 +0000",
-      "summary": "Article URL: https://www.ssp.sh/brain/using-obsidian-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49450898 Points: 159 # Comments: 85",
-      "isAI": true
-    },
-    {
-      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
-      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 15:00:00 +0000",
-      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
-      "isAI": true
-    },
-    {
-      "title": "Ring introduces a new encryption standard, makes it the default for cloud features",
-      "url": "https://techcrunch.com/2026/08/26/ring-introduces-a-new-encryption-standard-makes-it-the-default-for-cloud-features/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 14:44:33 +0000",
-      "summary": "Ring says users can still opt for end-to-end encryption.",
-      "isAI": true
-    },
-    {
-      "title": "Bill Gates wants to see a robot tax and \u2018Human Reserved\u2019 jobs to mitigate harms from AI",
-      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 14:37:01 +0000",
-      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
-      "isAI": true
-    },
-    {
-      "title": "CISA confirms hackers targeted over 100 US water systems during July",
-      "url": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 14:31:05 +0000",
-      "summary": "The federal cyber agency's warning comes amid a wave of suspected Iran-backed cyberattacks targeting critical water systems across the United States.",
-      "isAI": false
     }
   ]
 }
