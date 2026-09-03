@@ -1,12 +1,108 @@
 {
-  "updated": "2026-09-03T07:46:12.509274+00:00",
+  "updated": "2026-09-03T12:35:03.852058+00:00",
   "items": [
+    {
+      "title": "Nvidia is buying Hugging Face for almost $13 billion",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "source": "The Verge AI",
+      "published": "2026-09-03T08:12:06-04:00",
+      "summary": "Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker. Hugging Face is an online platform founded in 2016 that gives AI developers a space to share their projects and data [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "These new robot lawnmowers trim your edges",
+      "url": "https://www.theverge.com/tech/988172/anker-mammotion-robot-mowers-edgers-ifa-2026",
+      "source": "The Verge",
+      "published": "2026-09-03T07:55:00-04:00",
+      "summary": "Anker's new robot lawnmower might take over for your weedwacker, too. Announced at IFA 2026, the Eufy Robot Lawn Mower S2 Max comes with an extendable trimming arm to clean up the grass around your driveway and flowerbeds. The dual-blade mower offers vSLAM navigation that uses built-in cameras to build a 3D map of your [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Ugly AI Food Photos Are Only the Beginning",
+      "url": "https://www.wired.com/story/ugly-ai-food-photos-are-only-the-beginning/",
+      "source": "Wired",
+      "published": "Thu, 03 Sep 2026 11:00:00 +0000",
+      "summary": "Restaurant menus with AI-generated food images are going viral for their off-putting aesthetic. But AI\u2019s impact on modern menus runs even deeper.",
+      "isAI": true
+    },
+    {
+      "title": "Is It Even Possible to Understand Quantum Mechanics?",
+      "url": "https://www.wired.com/story/is-it-even-possible-to-understand-quantum-mechanics/",
+      "source": "Wired",
+      "published": "Thu, 03 Sep 2026 10:00:00 +0000",
+      "summary": "Common sense is of no help in studying reality at the atomic scale.",
+      "isAI": false
+    },
+    {
+      "title": "This Is Flock\u2019s AI Search Tool for Cops",
+      "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
+      "source": "Wired",
+      "published": "Thu, 03 Sep 2026 10:00:00 +0000",
+      "summary": "WIRED rebuilt Flock\u2019s latest search tool from code the company sends to a police officer\u2019s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
+      "isAI": true
+    },
+    {
+      "title": "Smart Toilets Are Already Using AI to Analyze Your Poop",
+      "url": "https://www.wired.com/story/smart-toilets-using-ai-to-analyze-your-poop/",
+      "source": "Wired",
+      "published": "Thu, 03 Sep 2026 09:30:00 +0000",
+      "summary": "While companies promise they can help users monitor gut health, experts suggest that smart toilets provide little in the way of benefits to the average person.",
+      "isAI": true
+    },
+    {
+      "title": "Microsoft discloses Azure revenue as part of major financial reporting changes",
+      "url": "https://www.theverge.com/news/989102/microsoft-earnings-changes-azure-revenue",
+      "source": "The Verge",
+      "published": "2026-09-03T04:59:09-04:00",
+      "summary": "Microsoft is changing how it reports its finances to investors by splitting its businesses into two segments and disclosing quarterly revenue for its Azure cloud business for the first time. The changes are meant to reflect the ongoing impact of AI on Microsoft and how the company now operates. The software giant has previously reported [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Belkin introduces its first longer-lasting semi-solid-state power banks",
+      "url": "https://www.theverge.com/tech/988248/belkin-ultracharge-pro-boostsolid-cell-power-bank-battery-safer",
+      "source": "The Verge",
+      "published": "2026-09-03T04:00:00-04:00",
+      "summary": "Belkin is joining companies like BMX, Kuxiu, and Zens with the launch of its first power banks featuring semi-solid-state battery technology. The company claims the new accessories have been \"engineered to last up to 3x longer than other power banks\" with the addition of a \"gel-like layer\" alongside the liquid electrolyte typically found in lithium-ion [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Anker\u2019s Soundcore is bringing its incredible call quality to more headphones",
+      "url": "https://www.theverge.com/tech/986330/soundcore-headphones-earbuds-announcement-ifa-2026",
+      "source": "The Verge",
+      "published": "2026-09-03T03:30:00-04:00",
+      "summary": "After introducing the Thus processing chip in April and releasing it with the Liberty 5 Pro series earbuds, Soundcore is bringing it to more audio products. The Thus chip is behind the best call quality I've ever heard from a pair of earbuds or headphones, virtually eliminating ambient sounds from the speaker's environment. At IFA [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Meta Pushes Its New AI Agent on Employees\u2014but Eases Off on Tokenmaxxing",
       "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
       "source": "Wired",
       "published": "Thu, 03 Sep 2026 01:32:02 +0000",
       "summary": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
+      "isAI": true
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": "Hugging Face",
+      "published": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face",
+      "published": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "summary": "",
+      "isAI": true
+    },
+    {
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": "Hugging Face",
+      "published": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "summary": "",
       "isAI": true
     },
     {
@@ -254,7 +350,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 15:12:40 +0000",
-      "summary": "https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 973 # Comments: 553",
+      "summary": "https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 1061 # Comments: 598",
       "isAI": true
     },
     {
@@ -278,7 +374,7 @@
       "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 14:46:16 +0000",
-      "summary": "https://archive.ph/rlAbYhttps://www.reuters.com/legal/litigation/google-defeats-us-b... Comments URL: https://news.ycombinator.com/item?id=49537131 Points: 355 # Comments: 257",
+      "summary": "https://archive.ph/rlAbYhttps://www.reuters.com/legal/litigation/google-defeats-us-b... Comments URL: https://news.ycombinator.com/item?id=49537131 Points: 416 # Comments: 293",
       "isAI": false
     },
     {
@@ -318,7 +414,7 @@
       "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 13:59:59 +0000",
-      "summary": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 386 # Comments: 182",
+      "summary": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 448 # Comments: 216",
       "isAI": true
     },
     {
@@ -334,7 +430,7 @@
       "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
       "source": "Hacker News",
       "published": "Wed, 02 Sep 2026 12:30:39 +0000",
-      "summary": "Article URL: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training Comments URL: https://news.ycombinator.com/item?id=49535284 Points: 424 # Comments: 183",
+      "summary": "Article URL: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training Comments URL: https://news.ycombinator.com/item?id=49535284 Points: 466 # Comments: 215",
       "isAI": true
     },
     {
@@ -744,6 +840,14 @@
       "published": "Tue, 01 Sep 2026 14:40:00 +0000",
       "summary": "Sonos is cramming AI into its software because it\u2019s \u201cvery hot these days.\u201d The new features, which include agentic automation, are opt-in.",
       "isAI": true
+    },
+    {
+      "title": "The Browser's Main Thread Is Expensive",
+      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
+      "source": "Hacker News",
+      "published": "Tue, 01 Sep 2026 14:00:15 +0000",
+      "summary": "Article URL: https://kciter.so/posts/the-expensive-main-thread/en/ Comments URL: https://news.ycombinator.com/item?id=49522137 Points: 169 # Comments: 49",
+      "isAI": false
     },
     {
       "title": "Sonos introduces new headphones, soundbar, and software in its biggest announcement in years",
@@ -1896,110 +2000,6 @@
       "published": "Thu, 27 Aug 2026 05:00:00 +0000",
       "summary": "Get the latest Litter-Robot Discounts on Litter-Robot self-cleaning litter boxes, accessories, and more.",
       "isAI": false
-    },
-    {
-      "title": "TopResume Packages: Everything You Need to Get Hired",
-      "url": "https://www.wired.com/story/topresume-discount-code/",
-      "source": "Wired",
-      "published": "Thu, 27 Aug 2026 05:00:00 +0000",
-      "summary": "Discover ways to save at TopResume, including their free review service and 4-week Career Services Platform trial.",
-      "isAI": false
-    },
-    {
-      "title": "Expanding OpenAI\u2019s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "OpenAI",
-      "published": "Thu, 27 Aug 2026 03:00:00 GMT",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "isAI": true
-    },
-    {
-      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "source": "Hacker News",
-      "published": "Thu, 27 Aug 2026 01:46:22 +0000",
-      "summary": "Article URL: https://github.com/SenteLabsAI/OpenExecutive Comments URL: https://news.ycombinator.com/item?id=49458418 Points: 451 # Comments: 279",
-      "isAI": true
-    },
-    {
-      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
-      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 27 Aug 2026 00:24:57 +0000",
-      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
-      "isAI": true
-    },
-    {
-      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
-      "url": "https://morphing.cloud/afterglow/",
-      "source": "Hacker News",
-      "published": "Thu, 27 Aug 2026 00:18:27 +0000",
-      "summary": "Article URL: https://morphing.cloud/afterglow/ Comments URL: https://news.ycombinator.com/item?id=49457722 Points: 152 # Comments: 43",
-      "isAI": true
-    },
-    {
-      "title": "Amazon just tripled its order of Nvidia chips over \u2018surging demand\u2019",
-      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 23:47:18 +0000",
-      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
-      "isAI": true
-    },
-    {
-      "title": "Meta\u2019s $18B child-safety deal hinges on age-verification tech that doesn\u2019t work well",
-      "url": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
-      "source": "TechCrunch",
-      "published": "Wed, 26 Aug 2026 22:47:58 +0000",
-      "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
-      "isAI": false
-    },
-    {
-      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-      "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
-      "source": "The Verge AI",
-      "published": "2026-08-26T17:40:53-04:00",
-      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 21:37:39 +0000",
-      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
-      "isAI": true
-    },
-    {
-      "title": "OpenAI\u2019s rogue AI model incident was worse than we thought",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "source": "The Verge AI",
-      "published": "2026-08-26T17:36:06-04:00",
-      "summary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d",
-      "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-      "source": "Ars Technica AI",
-      "published": "Wed, 26 Aug 2026 21:25:27 +0000",
-      "summary": "Report shows Meta's challenges replacing people with AI agents.",
-      "isAI": true
-    },
-    {
-      "title": "Google\u2019s Gemini has a branding problem, and so does the rest of AI",
-      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 19:37:34 +0000",
-      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
-      "isAI": true
-    },
-    {
-      "title": "How do we explain OpenAI\u2019s executive exodus?",
-      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-      "source": "TechCrunch AI",
-      "published": "Wed, 26 Aug 2026 19:34:04 +0000",
-      "summary": "Was Greg Brockman the right executive all along?",
-      "isAI": true
     }
   ]
 }
