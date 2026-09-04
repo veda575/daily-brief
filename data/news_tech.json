@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-04T02:51:55.732450+00:00",
+  "updated": "2026-09-04T07:41:51.941671+00:00",
   "items": [
+    {
+      "title": "Lexar\u2019s Muse is an ultra-slim portable SSD that\u2019s less than 4mm thick",
+      "url": "https://www.theverge.com/tech/986960/lexar-muse-ultra-thin-ssd-storage-drive-proprietary-cable",
+      "source": "The Verge",
+      "published": "2026-09-04T03:00:00-04:00",
+      "summary": "Following the lead of companies like Xteink, Lexar is the latest to sacrifice a USB-C port in the pursuit of slimming down its hardware. When the Lexar Muse Ultra-Slim Portable SSD launches later this year in 512GB and 1TB capacities it will be one of the slimmest you can buy. At its thickest point in [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "The sameness problem behind those unappetizing AI-generated menus",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 04 Sep 2026 04:21:03 +0000",
+      "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+      "isAI": true
+    },
     {
       "title": "Nvidia will officially bring DLSS 5 to older GPUs \u2014 but won\u2019t give gamers full control",
       "url": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
@@ -42,6 +58,14 @@
       "isAI": true
     },
     {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "source": "Hacker News",
+      "published": "Thu, 03 Sep 2026 21:20:34 +0000",
+      "summary": "Article URL: https://armature.tech/blog/which-tools-coding-agents-install Comments URL: https://news.ycombinator.com/item?id=49557206 Points: 190 # Comments: 81",
+      "isAI": true
+    },
+    {
       "title": "Startup ARR is less secure than ever, new research shows",
       "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
       "source": "TechCrunch",
@@ -70,7 +94,7 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:41:05 +0000",
-      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 1380 # Comments: 1140",
+      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 1681 # Comments: 1471",
       "isAI": true
     },
     {
@@ -86,7 +110,7 @@
       "url": "https://inference-docs.cerebras.ai/models/overview",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:32:13 +0000",
-      "summary": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 464 # Comments: 136",
+      "summary": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 527 # Comments: 167",
       "isAI": true
     },
     {
@@ -262,7 +286,7 @@
       "url": "https://ifm.ai/blog/k2/",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 15:36:43 +0000",
-      "summary": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 264 # Comments: 84",
+      "summary": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 290 # Comments: 96",
       "isAI": true
     },
     {
@@ -462,7 +486,7 @@
       "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 01:11:22 +0000",
-      "summary": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007 Comments URL: https://news.ycombinator.com/item?id=49544762 Points: 208 # Comments: 58",
+      "summary": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007 Comments URL: https://news.ycombinator.com/item?id=49544762 Points: 277 # Comments: 85",
       "isAI": true
     },
     {
@@ -1230,7 +1254,7 @@
       "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
       "source": "Hacker News",
       "published": "Tue, 01 Sep 2026 14:00:15 +0000",
-      "summary": "Article URL: https://kciter.so/posts/the-expensive-main-thread/en/ Comments URL: https://news.ycombinator.com/item?id=49522137 Points: 301 # Comments: 100",
+      "summary": "Article URL: https://kciter.so/posts/the-expensive-main-thread/en/ Comments URL: https://news.ycombinator.com/item?id=49522137 Points: 397 # Comments: 137",
       "isAI": false
     },
     {
@@ -1975,30 +1999,6 @@
       "source": "Hugging Face",
       "published": "Fri, 28 Aug 2026 00:00:00 GMT",
       "summary": "",
-      "isAI": true
-    },
-    {
-      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch AI",
-      "published": "Thu, 27 Aug 2026 23:16:45 +0000",
-      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "isAI": true
-    },
-    {
-      "title": "The Twelve-Factor App (2025)",
-      "url": "https://12factor.net/",
-      "source": "Hacker News",
-      "published": "Thu, 27 Aug 2026 22:41:11 +0000",
-      "summary": "Article URL: https://12factor.net/ Comments URL: https://news.ycombinator.com/item?id=49472216 Points: 203 # Comments: 103",
-      "isAI": false
-    },
-    {
-      "title": "Anthropic's new hardware standard lets AI agents control the physical world",
-      "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 27 Aug 2026 22:15:43 +0000",
-      "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
       "isAI": true
     }
   ]
