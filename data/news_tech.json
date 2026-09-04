@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-04T19:19:53.384573+00:00",
+  "updated": "2026-09-04T21:40:33.133172+00:00",
   "items": [
+    {
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 04 Sep 2026 21:12:11 +0000",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "isAI": true
+    },
     {
       "title": "Architecting memory and storage in the AI era",
       "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
@@ -39,6 +47,14 @@
       "source": "Ars Technica AI",
       "published": "Fri, 04 Sep 2026 17:18:12 +0000",
       "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "isAI": true
+    },
+    {
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "url": "https://opentrailpaper.com",
+      "source": "Hacker News",
+      "published": "Fri, 04 Sep 2026 17:18:08 +0000",
+      "summary": "Hey all, i just launched my Eink Bike computer project and think it is cool.Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used in workout/biking) implementation for ESP32 by messing around with undocumented registers: https://github.com/RaemondBW/esp32-ant Comments URL: https://news.ycombinator.com/item?id=49567437 Points: 175\u2026",
       "isAI": true
     },
     {
@@ -374,7 +390,7 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:41:05 +0000",
-      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 2105 # Comments: 1912",
+      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 2134 # Comments: 1941",
       "isAI": true
     },
     {
@@ -1983,22 +1999,6 @@
       "source": "TechCrunch AI",
       "published": "Sun, 30 Aug 2026 15:00:00 +0000",
       "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
-      "isAI": true
-    },
-    {
-      "title": "China\u2019s robots race ahead",
-      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
-      "source": "The Verge",
-      "published": "2026-08-30T08:00:00-04:00",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on falling robots and the US-China AI race, follow Robert Hart. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started I've admitted my fondness for [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "Inside Meta\u2019s push to put robots to work in data centers",
-      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-      "source": "Ars Technica AI",
-      "published": "Sun, 30 Aug 2026 11:03:47 +0000",
-      "summary": "The company is testing robots on tasks that can performed by technicians.",
       "isAI": true
     }
   ]
