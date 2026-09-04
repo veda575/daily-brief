@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-03T21:53:55.830903+00:00",
+  "updated": "2026-09-04T02:51:55.732450+00:00",
   "items": [
+    {
+      "title": "Nvidia will officially bring DLSS 5 to older GPUs \u2014 but won\u2019t give gamers full control",
+      "url": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
+      "source": "The Verge",
+      "published": "2026-09-03T21:49:25-04:00",
+      "summary": "Officially, Nvidia's controversial DLSS 5 AI rendering was supposed to launch this evening with only a single game, only on Nvidia's latest RTX 50 GPUs, and with developers in full control of their artistic vision. But unofficially, modders have already ported a leaked version of DLSS 5 to run on just about anything while cranking [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Crusoe reportedly raises $3B at a $30B valuation",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 04 Sep 2026 00:48:42 +0000",
+      "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "isAI": true
+    },
+    {
+      "title": "The unusually muted Tesla Cybercab launch",
+      "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "The Verge",
+      "published": "2026-09-03T20:25:06-04:00",
+      "summary": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybercab. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on AI, autonomous vehicles, and humanoid robots. It [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "You can watch the coolant flow inside Ugreen\u2019s liquid-cooled power bank",
+      "url": "https://www.theverge.com/tech/988648/ugreen-magflow-pro-magnetic-wireless-power-bank-10k-liquid-cooling",
+      "source": "The Verge",
+      "published": "2026-09-03T18:00:00-04:00",
+      "summary": "Does your power bank have \"CryoPulse technology\" or a \"Cyber Window\"? If you disappointingly answered \"no\" to both, you might want to consider upgrading to Ugreen's new MagFlow Pro Magnetic Power Bank. It's available starting today for $149.99, which puts it on the really expensive end of power banks with only a 10,000mAh battery, but [\u2026]",
+      "isAI": false
+    },
     {
       "title": "Prediction Market Betting Is Getting People Banned and Arrested",
       "url": "https://www.wired.com/story/prediction-market-betting-is-getting-people-banned-and-arrested/",
@@ -38,7 +70,7 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:41:05 +0000",
-      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 889 # Comments: 624",
+      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 1380 # Comments: 1140",
       "isAI": true
     },
     {
@@ -54,7 +86,7 @@
       "url": "https://inference-docs.cerebras.ai/models/overview",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:32:13 +0000",
-      "summary": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 332 # Comments: 108",
+      "summary": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 464 # Comments: 136",
       "isAI": true
     },
     {
@@ -230,7 +262,7 @@
       "url": "https://ifm.ai/blog/k2/",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 15:36:43 +0000",
-      "summary": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 215 # Comments: 72",
+      "summary": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 264 # Comments: 84",
       "isAI": true
     },
     {
@@ -423,6 +455,14 @@
       "source": "Wired",
       "published": "Thu, 03 Sep 2026 01:32:02 +0000",
       "summary": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
+      "isAI": true
+    },
+    {
+      "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "source": "Hacker News",
+      "published": "Thu, 03 Sep 2026 01:11:22 +0000",
+      "summary": "Article URL: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007 Comments URL: https://news.ycombinator.com/item?id=49544762 Points: 208 # Comments: 58",
       "isAI": true
     },
     {
@@ -1960,46 +2000,6 @@
       "published": "Thu, 27 Aug 2026 22:15:43 +0000",
       "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
       "isAI": true
-    },
-    {
-      "title": "Meta addresses \u2018pervert glasses\u2019 reputation with a privacy fix and a new marketing campaign",
-      "url": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
-      "source": "The Verge",
-      "published": "2026-08-27T17:37:45-04:00",
-      "summary": "Meta is updating its AI-powered smart glasses to close a loophole that allowed wearers to keep recording after covering the front-facing LED. Alex Himel, Meta's vice president of augmented reality, writes in a post on Threads that \"the camera will now stop working if the light is covered during a recording.\" The company's line of [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "6 Takeaways From the GTA VI Extended Look",
-      "url": "https://www.wired.com/story/5-takeaways-from-the-gta-vi-extended-look/",
-      "source": "Wired",
-      "published": "Thu, 27 Aug 2026 21:30:28 +0000",
-      "summary": "Grand Theft Auto VI is nigh. Here\u2019s what the developer revealed about its highly anticipated game.",
-      "isAI": false
-    },
-    {
-      "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-      "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-      "source": "Wired",
-      "published": "Thu, 27 Aug 2026 21:08:34 +0000",
-      "summary": "This week on \u201cUncanny Valley,\u201d senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-      "isAI": true
-    },
-    {
-      "title": "Elon Musk\u2019s xAI used child porn to train Grok models, lawsuit says",
-      "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-      "source": "Ars Technica AI",
-      "published": "Thu, 27 Aug 2026 20:52:31 +0000",
-      "summary": "xAI accused of training Grok on real and AI-generated child pornography.",
-      "isAI": true
-    },
-    {
-      "title": "GTA VI: all the news on Rockstar\u2019s next entry in the Grand Theft Auto series",
-      "url": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
-      "source": "The Verge",
-      "published": "2026-08-27T16:01:56-04:00",
-      "summary": "It\u2019s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, eventually shifting to November 19th, 2026, a full year after its originally planned fall 2025 [\u2026]",
-      "isAI": false
     }
   ]
 }
