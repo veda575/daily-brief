@@ -1,6 +1,62 @@
 {
-  "updated": "2026-09-04T16:46:04.758516+00:00",
+  "updated": "2026-09-04T19:19:53.384573+00:00",
   "items": [
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "source": "MIT Tech Review",
+      "published": "Fri, 04 Sep 2026 18:39:19 +0000",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while\u2026",
+      "isAI": true
+    },
+    {
+      "title": "GoPro says it\u2019s still committed \u2018to your collective stoke\u2019",
+      "url": "https://www.theverge.com/gadgets/990425/gopro-nick-woodman-starman-letter",
+      "source": "The Verge",
+      "published": "2026-09-04T14:00:45-04:00",
+      "summary": "GoPro CEO Nick Woodman said in a letter to customers that making cameras is still his company's \"core DNA,\" after a proposed $285 million acquisition by Starman was announced earlier this week. He claims the merger puts GoPro in a better position to continue developing its content creation tech, after saying in the deal announcement [\u2026]",
+      "isAI": false
+    },
+    {
+      "title": "Judge blocks X rival from using Twitter name, but allows \u2018Tweet\u2019 for now",
+      "url": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+      "source": "TechCrunch",
+      "published": "Fri, 04 Sep 2026 17:52:05 +0000",
+      "summary": "A federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the \u201cTweet\u201d trademark and bird logo. The startup has since relaunched as Tweet.app.",
+      "isAI": true
+    },
+    {
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "source": "The Verge AI",
+      "published": "2026-09-04T13:51:35-04:00",
+      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "source": "Ars Technica AI",
+      "published": "Fri, 04 Sep 2026 17:18:12 +0000",
+      "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "isAI": true
+    },
+    {
+      "title": "What will Apple\u2019s John Ternus era look like?",
+      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "source": "TechCrunch AI",
+      "published": "Fri, 04 Sep 2026 17:18:00 +0000",
+      "summary": "It\u2019s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a \u201chuge launch next week\u201d \u2014 timing that puts Apple\u2019s next iPhone event on his desk before he\u2019s even settled in. Cook isn\u2019t going far, though: he\u2019s staying on as Executive Chairman, focused on the kind of policy [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "AGI is whatever you want it to be",
+      "url": "https://www.theverge.com/podcast/990323/agi-is-whatever-you-want-it-to-be",
+      "source": "The Verge",
+      "published": "2026-09-04T13:16:49-04:00",
+      "summary": "OpenAI announced its next big model, GPT-6 Astra, and also, by the way, that \"the AGI era\" is here now. Today on The Vergecast, we've got an all-star panel to break down the news of the week. First, senior AI reporter Hayden Field joins us to talk about our supposed AGI era and Nvidia's acquisition [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Anthropic\u2019s $2 trillion IPO puts powerful external trustees in spotlight",
       "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
@@ -31,6 +87,22 @@
       "source": "TechCrunch AI",
       "published": "Fri, 04 Sep 2026 16:04:08 +0000",
       "summary": "It\u2019s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a \u201chuge launch next week\u201d \u2014 timing that puts Apple\u2019s next iPhone event on his desk before he\u2019s even settled in. Cook isn\u2019t going far, though: he\u2019s staying on as Executive Chairman, focused on the kind of policy [\u2026]",
+      "isAI": true
+    },
+    {
+      "title": "Musk wins court order to block use of \u201cTwitter,\u201d but not \u201ctweet\u201d and bird logo",
+      "url": "https://arstechnica.com/tech-policy/2026/09/musk-wins-court-order-to-block-use-of-twitter-but-not-tweet-and-bird-logo/",
+      "source": "Ars Technica",
+      "published": "Fri, 04 Sep 2026 15:59:47 +0000",
+      "summary": "Saying X is \u201cformerly Twitter\u201d in App Store lets Musk block use of Twitter name.",
+      "isAI": false
+    },
+    {
+      "title": "Corporate America is getting hooked on open-source AI",
+      "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "source": "Hacker News",
+      "published": "Fri, 04 Sep 2026 15:33:45 +0000",
+      "summary": "Article URL: https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html Comments URL: https://news.ycombinator.com/item?id=49566137 Points: 180 # Comments: 161",
       "isAI": true
     },
     {
@@ -134,7 +206,7 @@
       "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
       "source": "Hacker News",
       "published": "Fri, 04 Sep 2026 11:59:15 +0000",
-      "summary": "Article URL: https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products Comments URL: https://news.ycombinator.com/item?id=49563386 Points: 279 # Comments: 51",
+      "summary": "Article URL: https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products Comments URL: https://news.ycombinator.com/item?id=49563386 Points: 327 # Comments: 64",
       "isAI": true
     },
     {
@@ -146,7 +218,7 @@
       "isAI": false
     },
     {
-      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+.",
+      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
       "url": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
       "source": "Ars Technica",
       "published": "Fri, 04 Sep 2026 11:00:05 +0000",
@@ -302,7 +374,7 @@
       "url": "https://openai.com/index/gpt-6-astra/",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:41:05 +0000",
-      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 2036 # Comments: 1860",
+      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments URL: https://news.ycombinator.com/item?id=49554643 Points: 2105 # Comments: 1912",
       "isAI": true
     },
     {
@@ -318,7 +390,7 @@
       "url": "https://inference-docs.cerebras.ai/models/overview",
       "source": "Hacker News",
       "published": "Thu, 03 Sep 2026 18:32:13 +0000",
-      "summary": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 653 # Comments: 212",
+      "summary": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 668 # Comments: 220",
       "isAI": true
     },
     {
@@ -1927,78 +1999,6 @@
       "source": "Ars Technica AI",
       "published": "Sun, 30 Aug 2026 11:03:47 +0000",
       "summary": "The company is testing robots on tasks that can performed by technicians.",
-      "isAI": true
-    },
-    {
-      "title": "Smartphone LED detects hidden cameras with AI",
-      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
-      "source": "Hacker News",
-      "published": "Sun, 30 Aug 2026 06:52:04 +0000",
-      "summary": "Article URL: https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/ Comments URL: https://news.ycombinator.com/item?id=49496292 Points: 243 # Comments: 70",
-      "isAI": true
-    },
-    {
-      "title": "Sony Music, Warner sue Anthropic, alleging a \u2018brazen campaign\u2019 of intellectual property theft",
-      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 29 Aug 2026 18:41:59 +0000",
-      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "isAI": true
-    },
-    {
-      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "source": "The Verge AI",
-      "published": "2026-08-29T14:19:53-04:00",
-      "summary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "At TechBBQ, Europe\u2019s AI conversations kept coming back to: Who\u2019s actually in control?",
-      "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 29 Aug 2026 17:51:10 +0000",
-      "summary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
-      "isAI": true
-    },
-    {
-      "title": "\u2018We\u2019re not doing 30 bets a year\u2019: Vijay Pande on betting small after running $4B at a16z",
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 29 Aug 2026 17:36:47 +0000",
-      "summary": "Vijay Pande \u2014 who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC \u2014 talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
-      "isAI": true
-    },
-    {
-      "title": "Nvidia\u2019s AI advantage is moving beyond the GPU",
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "source": "TechCrunch AI",
-      "published": "Sat, 29 Aug 2026 13:00:00 +0000",
-      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-      "isAI": true
-    },
-    {
-      "title": "Musicians-turned-detectives are hunting for AI grifters",
-      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-      "source": "The Verge AI",
-      "published": "2026-08-29T08:00:00-04:00",
-      "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology [\u2026]",
-      "isAI": true
-    },
-    {
-      "title": "The Cybersecurity Apocalypse Is Coming in \u2018Months,\u2019 AI Giants Warn",
-      "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-      "source": "Wired",
-      "published": "Sat, 29 Aug 2026 10:30:00 +0000",
-      "summary": "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you\u2019ll never guess what \u201cMrChildPorn\u201d was arrested for.",
-      "isAI": true
-    },
-    {
-      "title": "Google further buries search results under AI mode",
-      "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
-      "source": "The Verge",
-      "published": "2026-08-28T18:48:11-04:00",
-      "summary": "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead of seeing part of an AI Overview with [\u2026]",
       "isAI": true
     }
   ]
