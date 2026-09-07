@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T13:58:00.877534+00:00",
+  "updated": "2026-09-07T18:08:28.242037+00:00",
   "regions": {
     "us": [
       {
@@ -244,7 +244,7 @@
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1316530900323.172,
+        "marketCap": 1318028326133.6604,
         "changePercent": 5.6751466,
         "indexValue": 270000.0
       },
@@ -253,7 +253,7 @@
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 503881728000.0,
+        "marketCap": 503939578206.6819,
         "changePercent": -0.9936753,
         "indexValue": 438.4
       },
@@ -686,8 +686,8 @@
         "sector": "vs. Basket of Major Currencies",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": -0.27426034,
-        "indexValue": 98.904
+        "changePercent": -0.27829412,
+        "indexValue": 98.9
       },
       {
         "ticker": "EURUSD=X",
@@ -695,8 +695,8 @@
         "sector": "EUR to USD",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.09305035,
-        "indexValue": 1.1631964
+        "changePercent": 0.058142077,
+        "indexValue": 1.1627907
       },
       {
         "ticker": "GBPUSD=X",
@@ -704,8 +704,8 @@
         "sector": "GBP to USD",
         "currency": "USD",
         "marketCap": null,
-        "changePercent": 0.16246201,
-        "indexValue": 1.3538945
+        "changePercent": 0.18418689,
+        "indexValue": 1.3541878
       },
       {
         "ticker": "JPY=X",
@@ -713,8 +713,8 @@
         "sector": "USD to JPY",
         "currency": "JPY",
         "marketCap": null,
-        "changePercent": -1.0549059,
-        "indexValue": 154.573
+        "changePercent": -1.1995782,
+        "indexValue": 154.347
       },
       {
         "ticker": "CNY=X",
@@ -722,8 +722,8 @@
         "sector": "USD to CNY",
         "currency": "CNY",
         "marketCap": null,
-        "changePercent": -0.031337067,
-        "indexValue": 6.6992
+        "changePercent": -0.03283134,
+        "indexValue": 6.6991
       }
     ]
   }
