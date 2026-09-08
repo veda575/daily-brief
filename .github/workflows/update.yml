@@ -5,6 +5,13 @@ on:
     # UTC target; GitHub may delay or drop scheduled runs under load.
     - cron: "*/5 * * * *"
   workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'script.js'
+      - 'requirements.txt'
+      - '.github/workflows/update.yml'
 
 # Only one update at a time. Newer runs queue; in-progress runs finish first.
 concurrency:
@@ -35,11 +42,12 @@ jobs:
       - run: node tests/frontend.cjs
 
       - run: python scripts/fetch_data.py
+        if: github.event_name != 'pull_request'
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
 
       - name: Save actual execution and validation attempts
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: validation-${{ github.run_id }}-${{ github.run_attempt }}
@@ -49,6 +57,7 @@ jobs:
           retention-days: 7
 
       - name: Commit data if changed
+        if: github.event_name != 'pull_request'
         run: |
           set -e
           git config user.name  "github-actions[bot]"
