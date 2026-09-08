@@ -142,6 +142,35 @@ function fxHeroHtml(stocks) {
     </div>`;
 }
 
+function commodityDisplay(row) {
+  const units = {
+    'USD/metric ton': ['1 Ton', '1 metric ton (1,000 kg)', 'USD'],
+    'USD/lb': ['1 Lb', '1 pound', 'USD'],
+    'US¢/bushel': ['1 Bushel', '1 bushel', 'US¢'],
+    'USD/bbl': ['1 Barrel', '1 barrel', 'USD'],
+    'USD/troy oz': ['1 Troy Oz', '1 troy ounce', 'USD'],
+    'USD/MMBtu': ['1 MMBtu', '1 million British thermal units', 'USD'],
+  };
+  const goldGram = row.ticker === 'GC=F' && row.unit === 'USD/troy oz';
+  const [quantity, quantityTitle, currency] = goldGram ? ['1 Grm', '1 gram', 'USD'] : units[row.unit] || ['—', row.unit || '', row.currency || ''];
+  const exact = exactValue(row, 'indexValue');
+  const available = canDisplay(row, 'indexValue');
+  let rate = 'DATA UNAVAILABLE';
+  let title = exact || 'DATA UNAVAILABLE';
+  if (available) {
+    if (goldGram) {
+      // The international troy ounce is exactly 31.1034768 grams.
+      const perGram = Number(exact) / 31.1034768;
+      rate = '≈ USD ' + new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 6 }).format(perGram);
+      title = 'Converted from USD ' + exact + ' per troy ounce ÷ 31.1034768 grams; rounded to 6 decimal places';
+    } else {
+      rate = currency + ' ' + fmtIndexValue(row.indexValue, exact);
+      title = currency + ' ' + exact + ' for ' + quantityTitle;
+    }
+  }
+  return {quantity, quantityTitle, rate, title};
+}
+
 function renderStocksTable(stocks, region) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
@@ -154,23 +183,25 @@ function renderStocksTable(stocks, region) {
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
   const rows = sorted.map(s => {
+    const commodity = isCommodities ? commodityDisplay(s) : null;
     const field = (isCurrency || isIndexes || isCommodities) ? 'indexValue' : 'marketCap';
-    const value = !canDisplay(s, field) ? 'DATA UNAVAILABLE' : isCurrency
+    const value = isCommodities ? escapeHtml(commodity.rate) : !canDisplay(s, field) ? 'DATA UNAVAILABLE' : isCurrency
       ? fmtFxValue(s.indexValue, exactValue(s, 'indexValue'))
-      : (isIndexes || isCommodities)
-        ? fmtIndexValue(s.indexValue, exactValue(s, 'indexValue')) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '')
+      : isIndexes
+        ? fmtIndexValue(s.indexValue, exactValue(s, 'indexValue'))
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
-      <td><strong>${escapeHtml(s.name)}</strong></td>
+      <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong></td>
       <td class="muted">${escapeHtml(s.ticker)}<br><small>${escapeHtml(quoteStatus(s))}${s.google_instrument && isCommodities ? '<br>Google series: ' + escapeHtml(s.google_instrument) : ''}</small></td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
-      <td class="num" title="${escapeHtml(exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${fieldStatus(s, field)}</td>
+      ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${fieldStatus(s, field)}</td>
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
   return `${hero}<table>
     <thead><tr>
-      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th><th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
+      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
