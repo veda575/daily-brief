@@ -27,7 +27,7 @@ EXCHANGES = {'NMS': 'NASDAQ', 'NGM': 'NASDAQ', 'NCM': 'NASDAQ', 'NYQ': 'NYSE',
 EXCHANGES.update({value:value for value in list(EXCHANGES.values())})
 INDEX_IDS = {'^BSESN': 'SENSEX:INDEXBOM', '^IXIC': '.IXIC:INDEXNASDAQ',
              '^HSI': 'HSI:INDEXHANGSENG', '000001.SS': '000001:SHA',
-             '399001.SZ': '399001:SHE', 'DX-Y.NYB': 'DXY:INDEXICE'}
+             '399001.SZ': '399001:SHE'}
 PAIRS = {'INR=X': ('USD', 'INR'), 'JPY=X': ('USD', 'JPY'),
          'CNY=X': ('USD', 'CNY'), 'EURUSD=X': ('EUR', 'USD'),
          'GBPUSD=X': ('GBP', 'USD'), 'HKD=X': ('USD', 'HKD'),

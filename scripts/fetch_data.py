@@ -66,7 +66,6 @@ INDEX_STOCKS = [
 
 CURRENCY_PAIRS = [
     ("INR=X",    "US Dollar / Indian Rupee",   "USD to INR"),
-    ("DX-Y.NYB", "US Dollar Index",            "vs. Basket of Major Currencies"),
     ("EURUSD=X", "Euro / US Dollar",           "EUR to USD"),
     ("GBPUSD=X", "British Pound / US Dollar",  "GBP to USD"),
     ("JPY=X",    "US Dollar / Japanese Yen",   "USD to JPY"),
