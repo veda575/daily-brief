@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-07T23:47:10.270122+00:00",
+  "updated": "2026-09-08T02:59:52.494832+00:00",
   "items": [
+    {
+      "title": "Eric Wu\u2019s newest company, out of stealth since May, is going after construction\u2019s labor crunch",
+      "url": "https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/",
+      "source": "TechCrunch",
+      "published": "Tue, 08 Sep 2026 02:16:39 +0000",
+      "summary": "Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May \u2014 building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta's AI glasses, backed by $25 million from Elad Gil, Khosla Ventures, and Lennar to tackle a labor shortage severe enough that data center projects alone now\u2026",
+      "isAI": true
+    },
+    {
+      "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+      "url": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3",
+      "source": "The Verge",
+      "published": "2026-09-07T22:00:00-04:00",
+      "summary": "China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What's so special about that? After five years of development, Arm now has [\u2026]",
+      "isAI": true
+    },
     {
       "title": "Audi\u2019s new A2 E-tron is its most affordable and efficient EV yet",
       "url": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price",
@@ -248,6 +264,14 @@
       "published": "Fri, 04 Sep 2026 21:12:11 +0000",
       "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
       "isAI": true
+    },
+    {
+      "title": "Scientists observe Einstein's gravity in the quantum world",
+      "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
+      "source": "Hacker News",
+      "published": "Fri, 04 Sep 2026 20:28:52 +0000",
+      "summary": "https://www.youtube.com/watch?v=CfjnTJos_no Comments URL: https://news.ycombinator.com/item?id=49569838 Points: 156 # Comments: 40",
+      "isAI": false
     },
     {
       "title": "Architecting memory and storage in the AI era",
@@ -1976,30 +2000,6 @@
       "published": "Mon, 31 Aug 2026 19:02:06 +0000",
       "summary": "The longtime executive won't be leaving Apple just yet but staff at the company say it's a step closer to Schiller retiring.",
       "isAI": false
-    },
-    {
-      "title": "Harvard Law dropout raises $6M for Blue Voice to build a \u2018Harvey for police officers\u2019",
-      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-      "source": "TechCrunch AI",
-      "published": "Mon, 31 Aug 2026 18:35:11 +0000",
-      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
-      "isAI": true
-    },
-    {
-      "title": "\u201cZlibrary my beloved\u201d: Anthropic staff chats extolling piracy cited in Sony suit",
-      "url": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/",
-      "source": "Ars Technica AI",
-      "published": "Mon, 31 Aug 2026 18:10:45 +0000",
-      "summary": "Lawsuit: Anthropic\u2019s torrenting totally screwed songwriters as AI songs top charts.",
-      "isAI": true
-    },
-    {
-      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-      "source": "MIT Tech Review",
-      "published": "Mon, 31 Aug 2026 18:00:00 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you\u2019ve probably heard about last month\u2019s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on\u2026",
-      "isAI": true
     }
   ]
 }
