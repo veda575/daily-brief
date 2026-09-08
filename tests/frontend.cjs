@@ -15,6 +15,15 @@ assert(vm.runInContext('quoteStatus(fxRow)', ctx).startsWith('STALE'));
 assert(vm.runInContext('quoteStatus(fxRow)', ctx).includes('Google Finance'));
 ctx.fxRow.source_timestamp = new Date().toISOString();
 assert(!vm.runInContext('quoteStatus(fxRow)', ctx).startsWith('STALE'));
+ctx.indicative = {...ctx.fxRow, ticker:'INR=X', indexValue:94.4905, verification_version:1,
+  validation_status:'INDICATIVE', quote_quality:'INDICATIVE',
+  field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'94.4905'}}};
+const fxHtml = vm.runInContext('fxHeroHtml([indicative])',ctx);
+assert(fxHtml.includes('1 USD = ₹94.4905'));
+assert(fxHtml.includes('INDICATIVE'));
+assert(!fxHtml.includes('DATA UNAVAILABLE'));
+ctx.indicative.validation_status = 'STALE';
+assert(vm.runInContext('fxHeroHtml([indicative])',ctx).includes('STALE · INDICATIVE'));
 assert.equal(vm.runInContext("formatDecimal('123456.123456789')", ctx), '123,456.123456789');
 assert.equal(vm.runInContext('fmtGainLossPercent(null)', ctx), 'DATA UNAVAILABLE');
 assert.equal(vm.runInContext("safeNewsUrl('javascript:alert(1)')", ctx), '#');

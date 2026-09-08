@@ -96,10 +96,10 @@ function formatDecimal(value) {
 }
 function exactValue(row, field) {
   const meta = row.field_metadata?.[field];
-  return ['VERIFIED', 'STALE'].includes(meta?.validation_status) ? meta.decimal : null;
+  return ['VERIFIED', 'STALE', 'INDICATIVE'].includes(meta?.validation_status) ? meta.decimal : null;
 }
 function canDisplay(row, field) {
-  return row.verification_version === 1 && ['VERIFIED', 'STALE'].includes(row.validation_status)
+  return row.verification_version === 1 && ['VERIFIED', 'STALE', 'INDICATIVE'].includes(row.validation_status)
     && row[field] !== null && row[field] !== undefined && !!exactValue(row, field);
 }
 function fmtIndexValue(n, exact) {
@@ -119,7 +119,7 @@ function quoteStatus(row) {
   const maxAge = (row.quote_policy?.max_quote_age_seconds ?? (row.market_status === 'OPEN' ? 1800 : 7 * 86400)) * 1000;
   const stale = row.validation_status === 'STALE' || Object.values(row.field_metadata || {}).some(m => m.validation_status === 'STALE') ||
     !Number.isFinite(age) || age < -120000 || age > maxAge;
-  return (stale ? 'STALE · ' : '') + (row.market_status || 'UNKNOWN') + ' · Quote ' +
+  return (stale ? 'STALE · ' : '') + (row.quote_quality === 'INDICATIVE' ? 'INDICATIVE' : row.market_status || 'UNKNOWN') + ' · Quote ' +
     quoteTime(ts) + ' · ' + (row.source || 'Source unavailable') + (row.quote_basis ? ' · ' + row.quote_basis : '');
 }
 function fieldStatus(row, field) {
@@ -137,7 +137,7 @@ function fxHeroHtml(stocks) {
     <div class="fx-hero">
       <div class="fx-hero-label">US Dollar → Indian Rupee, for easy comparison</div>
       <div class="fx-hero-value">${available ? '1 USD = ₹' + fmtFxValue(usdInr.indexValue, exactValue(usdInr, 'indexValue')) : 'DATA UNAVAILABLE'}</div>
-      <div class="fx-hero-change ${dir}">${canDisplay(usdInr, 'changePercent') ? fmtGainLossPercent(usdInr.changePercent, exactValue(usdInr, 'changePercent')) : 'DATA UNAVAILABLE'} · ${escapeHtml(quoteStatus(usdInr))}</div>
+      <div class="fx-hero-change ${dir}">${canDisplay(usdInr, 'changePercent') ? fmtGainLossPercent(usdInr.changePercent, exactValue(usdInr, 'changePercent')) + ' · ' : ''}${escapeHtml(quoteStatus(usdInr))}</div>
     </div>`;
 }
 

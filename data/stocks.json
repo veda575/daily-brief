@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T05:50:57.222738+00:00",
+  "updated": "2026-09-08T06:02:29.175723+00:00",
   "regions": {
     "us": [
       {
@@ -10042,7 +10042,7 @@
         "currency": "INR",
         "marketCap": null,
         "changePercent": null,
-        "indexValue": null,
+        "indexValue": 94.4905,
         "legacy_snapshot": {
           "indexValue": 94.475,
           "marketCap": null,
@@ -10054,20 +10054,66 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "DATA_UNAVAILABLE",
-        "source_timestamp": null,
-        "market_status": "TEMPORARILY_UNAVAILABLE",
-        "validationStatus": "DATA_UNAVAILABLE",
-        "error": {
-          "status": "VALIDATION_FAILED",
-          "reason": "INCOMPARABLE_SOURCE_TIMESTAMPS"
-        },
+        "validation_status": "STALE",
+        "source_timestamp": "2026-09-05T07:47:19+00:00",
+        "market_status": "UNKNOWN",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 2,
-          "price_relative_tolerance": 0.0001,
-          "max_timestamp_skew_seconds": 60,
+          "policy_version": 3,
           "max_quote_age_seconds": 480
-        }
+        },
+        "verification_version": 1,
+        "quote_quality": "INDICATIVE",
+        "validation_scope": "Google Finance observation; not independently verified",
+        "source": "Google Finance",
+        "retrieved_at": "2026-09-08T06:02:25.745167+00:00",
+        "source_symbol": "INR=X",
+        "base_currency": "USD",
+        "quote_currency": "INR",
+        "instrument_type": "CURRENCY",
+        "exchange": "CCY",
+        "quote_basis": "unspecified",
+        "market_timezone": "UTC",
+        "market_status_basis": "Google FX page does not establish current market session",
+        "field_metadata": {
+          "indexValue": {
+            "validation_status": "STALE",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-05T07:47:19+00:00",
+            "retrieved_at": "2026-09-08T06:02:25.745167+00:00",
+            "decimal": "94.4905",
+            "currency": "INR",
+            "verification_sources": []
+          },
+          "marketCap": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "changePercent": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "absoluteChange": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "previousClose": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayHigh": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayLow": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "volume": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "marketCapUSD": {
+            "validation_status": "DATA_UNAVAILABLE"
+          }
+        },
+        "sourceTimestamp": "2026-09-05T07:47:19+00:00",
+        "retrievedAt": "2026-09-08T06:02:25.745167+00:00",
+        "marketStatus": "UNKNOWN",
+        "marketTimezone": "UTC"
       },
       {
         "ticker": "DX-Y.NYB",
@@ -10110,7 +10156,7 @@
         "currency": "USD",
         "marketCap": null,
         "changePercent": null,
-        "indexValue": null,
+        "indexValue": 1.16139297,
         "legacy_snapshot": {
           "indexValue": 1.1627907,
           "marketCap": null,
@@ -10122,20 +10168,66 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "DATA_UNAVAILABLE",
-        "source_timestamp": null,
-        "market_status": "TEMPORARILY_UNAVAILABLE",
-        "validationStatus": "DATA_UNAVAILABLE",
-        "error": {
-          "status": "VALIDATION_FAILED",
-          "reason": "INCOMPARABLE_SOURCE_TIMESTAMPS"
-        },
+        "validation_status": "STALE",
+        "source_timestamp": "2026-09-06T20:32:19+00:00",
+        "market_status": "UNKNOWN",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 2,
-          "price_relative_tolerance": 0.0001,
-          "max_timestamp_skew_seconds": 60,
+          "policy_version": 3,
           "max_quote_age_seconds": 480
-        }
+        },
+        "verification_version": 1,
+        "quote_quality": "INDICATIVE",
+        "validation_scope": "Google Finance observation; not independently verified",
+        "source": "Google Finance",
+        "retrieved_at": "2026-09-08T06:02:26.544422+00:00",
+        "source_symbol": "EURUSD=X",
+        "base_currency": "EUR",
+        "quote_currency": "USD",
+        "instrument_type": "CURRENCY",
+        "exchange": "CCY",
+        "quote_basis": "unspecified",
+        "market_timezone": "UTC",
+        "market_status_basis": "Google FX page does not establish current market session",
+        "field_metadata": {
+          "indexValue": {
+            "validation_status": "STALE",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-06T20:32:19+00:00",
+            "retrieved_at": "2026-09-08T06:02:26.544422+00:00",
+            "decimal": "1.16139297",
+            "currency": "USD",
+            "verification_sources": []
+          },
+          "marketCap": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "changePercent": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "absoluteChange": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "previousClose": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayHigh": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayLow": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "volume": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "marketCapUSD": {
+            "validation_status": "DATA_UNAVAILABLE"
+          }
+        },
+        "sourceTimestamp": "2026-09-06T20:32:19+00:00",
+        "retrievedAt": "2026-09-08T06:02:26.544422+00:00",
+        "marketStatus": "UNKNOWN",
+        "marketTimezone": "UTC"
       },
       {
         "ticker": "GBPUSD=X",
@@ -10144,7 +10236,7 @@
         "currency": "USD",
         "marketCap": null,
         "changePercent": null,
-        "indexValue": null,
+        "indexValue": 1.35158,
         "legacy_snapshot": {
           "indexValue": 1.353528,
           "marketCap": null,
@@ -10156,20 +10248,66 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "DATA_UNAVAILABLE",
-        "source_timestamp": null,
-        "market_status": "TEMPORARILY_UNAVAILABLE",
-        "validationStatus": "DATA_UNAVAILABLE",
-        "error": {
-          "status": "VALIDATION_FAILED",
-          "reason": "INCOMPARABLE_SOURCE_TIMESTAMPS"
-        },
+        "validation_status": "STALE",
+        "source_timestamp": "2026-09-06T20:32:19+00:00",
+        "market_status": "UNKNOWN",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 2,
-          "price_relative_tolerance": 0.0001,
-          "max_timestamp_skew_seconds": 60,
+          "policy_version": 3,
           "max_quote_age_seconds": 480
-        }
+        },
+        "verification_version": 1,
+        "quote_quality": "INDICATIVE",
+        "validation_scope": "Google Finance observation; not independently verified",
+        "source": "Google Finance",
+        "retrieved_at": "2026-09-08T06:02:27.320363+00:00",
+        "source_symbol": "GBPUSD=X",
+        "base_currency": "GBP",
+        "quote_currency": "USD",
+        "instrument_type": "CURRENCY",
+        "exchange": "CCY",
+        "quote_basis": "unspecified",
+        "market_timezone": "UTC",
+        "market_status_basis": "Google FX page does not establish current market session",
+        "field_metadata": {
+          "indexValue": {
+            "validation_status": "STALE",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-06T20:32:19+00:00",
+            "retrieved_at": "2026-09-08T06:02:27.320363+00:00",
+            "decimal": "1.35158",
+            "currency": "USD",
+            "verification_sources": []
+          },
+          "marketCap": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "changePercent": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "absoluteChange": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "previousClose": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayHigh": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayLow": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "volume": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "marketCapUSD": {
+            "validation_status": "DATA_UNAVAILABLE"
+          }
+        },
+        "sourceTimestamp": "2026-09-06T20:32:19+00:00",
+        "retrievedAt": "2026-09-08T06:02:27.320363+00:00",
+        "marketStatus": "UNKNOWN",
+        "marketTimezone": "UTC"
       },
       {
         "ticker": "JPY=X",
@@ -10178,7 +10316,7 @@
         "currency": "JPY",
         "marketCap": null,
         "changePercent": null,
-        "indexValue": null,
+        "indexValue": 155.9675,
         "legacy_snapshot": {
           "indexValue": 153.348,
           "marketCap": null,
@@ -10190,20 +10328,66 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "DATA_UNAVAILABLE",
-        "source_timestamp": null,
-        "market_status": "TEMPORARILY_UNAVAILABLE",
-        "validationStatus": "DATA_UNAVAILABLE",
-        "error": {
-          "status": "VALIDATION_FAILED",
-          "reason": "INCOMPARABLE_SOURCE_TIMESTAMPS"
-        },
+        "validation_status": "STALE",
+        "source_timestamp": "2026-09-06T20:27:19+00:00",
+        "market_status": "UNKNOWN",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 2,
-          "price_relative_tolerance": 0.0001,
-          "max_timestamp_skew_seconds": 60,
+          "policy_version": 3,
           "max_quote_age_seconds": 480
-        }
+        },
+        "verification_version": 1,
+        "quote_quality": "INDICATIVE",
+        "validation_scope": "Google Finance observation; not independently verified",
+        "source": "Google Finance",
+        "retrieved_at": "2026-09-08T06:02:28.186546+00:00",
+        "source_symbol": "JPY=X",
+        "base_currency": "USD",
+        "quote_currency": "JPY",
+        "instrument_type": "CURRENCY",
+        "exchange": "CCY",
+        "quote_basis": "unspecified",
+        "market_timezone": "UTC",
+        "market_status_basis": "Google FX page does not establish current market session",
+        "field_metadata": {
+          "indexValue": {
+            "validation_status": "STALE",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-06T20:27:19+00:00",
+            "retrieved_at": "2026-09-08T06:02:28.186546+00:00",
+            "decimal": "155.9675",
+            "currency": "JPY",
+            "verification_sources": []
+          },
+          "marketCap": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "changePercent": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "absoluteChange": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "previousClose": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayHigh": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayLow": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "volume": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "marketCapUSD": {
+            "validation_status": "DATA_UNAVAILABLE"
+          }
+        },
+        "sourceTimestamp": "2026-09-06T20:27:19+00:00",
+        "retrievedAt": "2026-09-08T06:02:28.186546+00:00",
+        "marketStatus": "UNKNOWN",
+        "marketTimezone": "UTC"
       },
       {
         "ticker": "CNY=X",
@@ -10212,7 +10396,7 @@
         "currency": "CNY",
         "marketCap": null,
         "changePercent": null,
-        "indexValue": null,
+        "indexValue": 6.71130129,
         "legacy_snapshot": {
           "indexValue": 6.6989,
           "marketCap": null,
@@ -10224,20 +10408,66 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "DATA_UNAVAILABLE",
-        "source_timestamp": null,
-        "market_status": "TEMPORARILY_UNAVAILABLE",
-        "validationStatus": "DATA_UNAVAILABLE",
-        "error": {
-          "status": "VALIDATION_FAILED",
-          "reason": "GOOGLE_QUOTE_SCHEMA_CHANGED"
-        },
+        "validation_status": "STALE",
+        "source_timestamp": "2026-09-06T20:32:19+00:00",
+        "market_status": "UNKNOWN",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 2,
-          "price_relative_tolerance": 0.0001,
-          "max_timestamp_skew_seconds": 60,
+          "policy_version": 3,
           "max_quote_age_seconds": 480
-        }
+        },
+        "verification_version": 1,
+        "quote_quality": "INDICATIVE",
+        "validation_scope": "Google Finance observation; not independently verified",
+        "source": "Google Finance",
+        "retrieved_at": "2026-09-08T06:02:29.167451+00:00",
+        "source_symbol": "CNY=X",
+        "base_currency": "USD",
+        "quote_currency": "CNY",
+        "instrument_type": "CURRENCY",
+        "exchange": "CCY",
+        "quote_basis": "unspecified",
+        "market_timezone": "UTC",
+        "market_status_basis": "Google FX page does not establish current market session",
+        "field_metadata": {
+          "indexValue": {
+            "validation_status": "STALE",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-06T20:32:19+00:00",
+            "retrieved_at": "2026-09-08T06:02:29.167451+00:00",
+            "decimal": "6.71130129",
+            "currency": "CNY",
+            "verification_sources": []
+          },
+          "marketCap": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "changePercent": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "absoluteChange": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "previousClose": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayHigh": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "dayLow": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "volume": {
+            "validation_status": "DATA_UNAVAILABLE"
+          },
+          "marketCapUSD": {
+            "validation_status": "DATA_UNAVAILABLE"
+          }
+        },
+        "sourceTimestamp": "2026-09-06T20:32:19+00:00",
+        "retrievedAt": "2026-09-08T06:02:29.167451+00:00",
+        "marketStatus": "UNKNOWN",
+        "marketTimezone": "UTC"
       }
     ]
   }

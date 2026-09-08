@@ -54,6 +54,36 @@ class IntegrityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'SOURCE_CONFLICT'):
             m.validate_pair({}, 'INR=X', a, b, self.now)
 
+    def test_google_fx_visible_without_yahoo_and_preserves_precision(self):
+        _, b = self.fx_quotes()
+        b.pop('quote_basis')
+        row = m.google_fx({'ticker':'INR=X'}, 'INR=X', b, self.now)
+        self.assertEqual(row['validation_status'], 'INDICATIVE')
+        self.assertEqual(row['field_metadata']['indexValue']['decimal'], '94.4905')
+        self.assertEqual(row['field_metadata']['indexValue']['verification_sources'], [])
+        payload = {'regions':{'currency':[{'ticker':'INR=X','name':'USD/INR'}]}}
+        b['timestamp'] = datetime.now(timezone.utc).isoformat()
+        with patch.object(m, 'yahoo_quotes', side_effect=TimeoutError), patch.object(m, 'fetch_google', return_value=b):
+            output, _ = m.refresh_markets(payload)
+        self.assertEqual(output['regions']['currency'][0]['indexValue'], Decimal('94.4905'))
+
+    def test_old_google_fx_visible_and_failed_refresh_retains_timestamp(self):
+        _, b = self.fx_quotes()
+        b['timestamp'] = (self.now-timedelta(days=3)).isoformat()
+        row = m.google_fx({'ticker':'INR=X'}, 'INR=X', b, self.now)
+        self.assertEqual(row['validation_status'], 'STALE')
+        retained = m.unavailable(row, 'TimeoutError')
+        self.assertEqual(retained['indexValue'], Decimal('94.4905'))
+        self.assertEqual(retained['source_timestamp'], b['timestamp'])
+        self.assertEqual(retained['quote_quality'], 'INDICATIVE')
+
+    def test_google_fx_still_rejects_invalid_observations(self):
+        _, b = self.fx_quotes()
+        for updates in [{'id':'EUR-INR'}, {'currency':'USD'}, {'price':Decimal('NaN')},
+                        {'price':0}, {'timestamp':(self.now+timedelta(hours=1)).isoformat()}]:
+            with self.subTest(updates=updates), self.assertRaises(ValueError):
+                m.google_fx({}, 'INR=X', dict(b, **updates), self.now)
+
     def test_fx_matching_basis_precision_and_policy(self):
         a, b = self.fx_quotes()
         out = m.accepted({'ticker': 'INR=X', 'name': 'USD/INR'}, 'INR=X', a, b, self.now)

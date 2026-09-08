@@ -295,11 +295,47 @@ def quote_policy(symbol, state):
             'max_quote_age_seconds': 480 if fx else 1800 if state == 'OPEN' else 7200 if state == 'BREAK' else 7 * 86400}
 
 
+def google_fx(row, symbol, quote, now):
+    """Display a directly sourced FX observation without claiming corroboration."""
+    if symbol not in PAIRS or quote.get('id') != '-'.join(PAIRS[symbol]):
+        raise ValueError('FX_DIRECTION_MISMATCH')
+    if quote.get('currency') != PAIRS[symbol][1]:
+        raise ValueError('CURRENCY_MISMATCH')
+    price = decimal(quote['price'])
+    if price <= 0:
+        raise ValueError('NONPOSITIVE_PRICE')
+    ts = timestamp(quote['timestamp'])
+    age = (now-ts).total_seconds()
+    if age < -120:
+        raise ValueError('FUTURE_TIMESTAMP')
+    status = 'STALE' if age > 480 else 'INDICATIVE'
+    out = deepcopy(row)
+    for key in ['error', 'validation_evidence', 'field_conflicts', 'outlier_validation']:
+        out.pop(key, None)
+    for field in FIELDS:
+        out[field] = None
+    out.update(verification_version=1, validation_status=status, validationStatus=status,
+        quote_quality='INDICATIVE', validation_scope='Google Finance observation; not independently verified',
+        source='Google Finance', source_timestamp=quote['timestamp'], retrieved_at=quote['retrieved_at'],
+        source_symbol=symbol, currency=PAIRS[symbol][1], base_currency=PAIRS[symbol][0],
+        quote_currency=PAIRS[symbol][1], instrument_type='CURRENCY', exchange='CCY',
+        quote_basis='unspecified', market_status='UNKNOWN', market_timezone='UTC',
+        market_status_basis='Google FX page does not establish current market session',
+        quote_policy={'policy_version':3, 'max_quote_age_seconds':480}, indexValue=price,
+        field_metadata={field: {'validation_status':'DATA_UNAVAILABLE'} for field in FIELDS})
+    out['field_metadata']['indexValue'] = {'validation_status':status, 'source':'Google Finance',
+        'source_timestamp':quote['timestamp'], 'retrieved_at':quote['retrieved_at'],
+        'decimal':format(price,'f'), 'currency':PAIRS[symbol][1], 'verification_sources':[]}
+    out.update(sourceTimestamp=out['source_timestamp'], retrievedAt=out['retrieved_at'],
+               marketStatus=out['market_status'], marketTimezone=out['market_timezone'])
+    return out
+
+
 def unavailable(row, reason):
     result = deepcopy(row)
     symbol = row.get('source_symbol') or row.get('ticker')
     result['quote_policy'] = quote_policy(symbol, row.get('market_status'))
-    if row.get('verification_version') == 1 and row.get('source_timestamp') and row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') == 'VERIFIED':
+    if row.get('verification_version') == 1 and row.get('source_timestamp') and (row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') == 'VERIFIED' or row.get('quote_quality') == 'INDICATIVE' and row.get('indexValue') is not None):
         result['validation_status'] = 'STALE'
     else:
         # Preserve historical bytes as evidence, never reuse as verified history.
@@ -464,9 +500,13 @@ def refresh_markets(payload):
         reason = 'SOURCE_UNAVAILABLE'
         for attempt in range(2):
             try:
-                a, b = quotes[symbol], secondary[symbol]
+                b = secondary[symbol]
                 if 'error' in b:
                     raise ValueError(b['error'])
+                if symbol in PAIRS:
+                    result = google_fx(row, symbol, b, datetime.now(timezone.utc))
+                    break
+                a = quotes[symbol]
                 result = accepted(row, symbol, a, b, datetime.now(timezone.utc))
                 if result.get('field_conflicts') and attempt == 0:
                     try:
