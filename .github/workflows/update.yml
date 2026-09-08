@@ -20,6 +20,7 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   update:
@@ -72,3 +73,10 @@ jobs:
           # Never resolve a data conflict with ours: a newer snapshot must win.
           # A rejected push fails visibly; the next run fetches the latest branch.
           git push
+
+      # Commits made with GITHUB_TOKEN do not automatically rebuild Pages.
+      - name: Request publication of refreshed data
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
