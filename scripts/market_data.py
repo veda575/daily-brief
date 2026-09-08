@@ -252,22 +252,30 @@ def validate_pair(row, symbol, a, b, now):
             raise ValueError('INDEX_EXCHANGE_MISMATCH')
     elif not a.get('currency') or a['currency'] != b.get('currency'):
         raise ValueError('CURRENCY_MISMATCH')
+    if b.get('id') != google_id(symbol, a):
+        raise ValueError('INDEPENDENT_INSTRUMENT_ID_MISMATCH')
     ZoneInfo(a['exchangeTimezoneName'])
     state, _ = session_state(a, now)
     ta, tb = timestamp(a['regularMarketTime']), timestamp(b['timestamp'])
     if min((now-ta).total_seconds(), (now-tb).total_seconds()) < -120:
         raise ValueError('FUTURE_TIMESTAMP')
-    if abs((ta-tb).total_seconds()) > 1200:
+    policy = quote_policy(symbol, state)
+    if abs((ta-tb).total_seconds()) > policy['max_timestamp_skew_seconds']:
         raise ValueError('INCOMPARABLE_SOURCE_TIMESTAMPS')
     # Closing quotes can span long weekends; never label them live.
-    max_age = 1800 if state == 'OPEN' else 7200 if state == 'BREAK' else 7 * 86400
+    max_age = policy['max_quote_age_seconds']
     if max((now-ta).total_seconds(), (now-tb).total_seconds()) > max_age:
         raise ValueError('STALE_SOURCE_DATA')
     price, other = decimal(a['regularMarketPrice']), decimal(b['price'])
     if price <= 0 or other <= 0:
         raise ValueError('NONPOSITIVE_PRICE')
-    if abs(price-other) / other > Decimal('0.005'):
+    if abs(price-other) / other > policy['price_relative_tolerance']:
         raise ValueError('SOURCE_CONFLICT')
+    if symbol in PAIRS:
+        # Neither public adapter documents bid/ask/midpoint. Never infer it.
+        basis = a.get('quote_basis')
+        if basis not in {'bid', 'ask', 'midpoint', 'last'} or basis != b.get('quote_basis'):
+            raise ValueError('FX_QUOTE_BASIS_UNCONFIRMED')
     # Split-shaped jumps are NOT automatically exempted.
     if row.get('verification_version') == 1 and row.get('indexValue'):
         if abs(price / decimal(row['indexValue']) - 1) > Decimal('0.35'):
@@ -277,8 +285,20 @@ def validate_pair(row, symbol, a, b, now):
     return ta, tb
 
 
+def quote_policy(symbol, state):
+    """Conservative acceptance limits, not a guarantee of provider accuracy."""
+    fx = symbol in PAIRS
+    return {'policy_version': 2,
+            'price_relative_tolerance': Decimal('0.0001') if fx else Decimal('0.001') if symbol in INDEX_IDS else Decimal('0.005'),
+            'max_timestamp_skew_seconds': 60 if fx else 1200,
+            # FX: disclosed three-minute Google delay plus one refresh interval.
+            'max_quote_age_seconds': 480 if fx else 1800 if state == 'OPEN' else 7200 if state == 'BREAK' else 7 * 86400}
+
+
 def unavailable(row, reason):
     result = deepcopy(row)
+    symbol = row.get('source_symbol') or row.get('ticker')
+    result['quote_policy'] = quote_policy(symbol, row.get('market_status'))
     if row.get('verification_version') == 1 and row.get('source_timestamp') and row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') == 'VERIFIED':
         result['validation_status'] = 'STALE'
     else:
@@ -311,6 +331,7 @@ def accepted(row, symbol, a, b, now):
                market_status=state, calendar=calendar_name,
                market_status_basis='Yahoo Finance + exchange_calendars' if calendar_name else 'Yahoo Finance; holiday calendar unavailable',
                provider_market_state=a['marketState'], field_metadata={})
+    out['quote_policy'] = quote_policy(symbol, state)
     if now.astimezone(ZoneInfo(a['exchangeTimezoneName'])).weekday() >= 5 and out['market_status'] == 'CLOSED':
         out['market_status'] = 'WEEKEND'
     def put(field, value, source='Google Finance', resolution=None):
@@ -347,18 +368,19 @@ def accepted(row, symbol, a, b, now):
                 put(field, a[key], 'Yahoo Finance')
     if a.get('marketCap') is not None and b.get('marketCap') is not None:
         cap = decimal(a['marketCap'])
-        if cap > 0 and abs(cap-b['marketCap']) <= b['cap_resolution']/2 + cap*Decimal('0.005'):
+        if cap > 0 and abs(cap-b['marketCap']) <= b['cap_resolution']/2:
             put('marketCap', cap, 'Yahoo Finance', b['cap_resolution'])
         else:
             out.setdefault('field_conflicts', []).append('marketCap')
     if symbol in PAIRS:
         out['base_currency'], out['quote_currency'] = PAIRS[symbol]
+        out['quote_basis'] = a['quote_basis']
     out['sourceTimestamp'], out['marketStatus'], out['marketTimezone'] = out['source_timestamp'], out['market_status'], out['market_timezone']
     out['retrievedAt'] = out['retrieved_at']
     out['validation_evidence'] = {'google_id': b['id'], 'yahoo_symbol': symbol,
         'google_timestamp': tb.isoformat(), 'yahoo_timestamp': ta.isoformat(),
         'google_price': b['price'], 'yahoo_price': a['regularMarketPrice'],
-        'max_timestamp_skew_seconds': 1200, 'price_relative_tolerance': Decimal('0.005')}
+        **out['quote_policy']}
     out['country'] = {'NMS': 'US', 'NGM': 'US', 'NCM': 'US', 'NYQ': 'US',
         'NSI': 'IN', 'NSE': 'IN', 'BSE': 'IN', 'HKG': 'HK', 'KSC': 'KR',
         'SHH': 'CN', 'SHZ': 'CN', 'NIM': 'US'}.get(a['exchange'])

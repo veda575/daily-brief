@@ -40,6 +40,54 @@ class IntegrityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'SOURCE_CONFLICT'):
             self.accept()
 
+    def fx_quotes(self):
+        a = dict(self.yahoo, symbol='INR=X', quoteType='CURRENCY', currency='INR',
+                 exchange='CCY', exchangeTimezoneName='Asia/Kolkata',
+                 regularMarketPrice=Decimal('94.4905'), quote_basis='midpoint')
+        b = dict(self.google, id='USD-INR', currency='INR', exchange='CCY',
+                 price=Decimal('94.4905'), quote_basis='midpoint')
+        return a, b
+
+    def test_usdinr_reported_discrepancy_rejected(self):
+        a, b = self.fx_quotes()
+        a['regularMarketPrice'] = Decimal('94.475')
+        with self.assertRaisesRegex(ValueError, 'SOURCE_CONFLICT'):
+            m.validate_pair({}, 'INR=X', a, b, self.now)
+
+    def test_fx_matching_basis_precision_and_policy(self):
+        a, b = self.fx_quotes()
+        out = m.accepted({'ticker': 'INR=X', 'name': 'USD/INR'}, 'INR=X', a, b, self.now)
+        self.assertEqual(out['field_metadata']['indexValue']['decimal'], '94.4905')
+        self.assertEqual(out['quote_policy']['max_quote_age_seconds'], 480)
+        self.assertEqual(out['validation_evidence']['price_relative_tolerance'], Decimal('0.0001'))
+        for basis in [None, 'bid']:
+            b['quote_basis'] = basis
+            with self.assertRaisesRegex(ValueError, 'FX_QUOTE_BASIS_UNCONFIRMED'):
+                m.validate_pair({}, 'INR=X', a, b, self.now)
+
+    def test_fx_close_timestamps_and_freshness_required(self):
+        a, b = self.fx_quotes()
+        b['timestamp'] = (self.now-timedelta(seconds=61)).isoformat()
+        with self.assertRaisesRegex(ValueError, 'INCOMPARABLE_SOURCE_TIMESTAMPS'):
+            m.validate_pair({}, 'INR=X', a, b, self.now)
+        old = self.now-timedelta(seconds=481)
+        a['regularMarketTime'] = int(old.timestamp())
+        b['timestamp'] = old.isoformat()
+        with self.assertRaisesRegex(ValueError, 'STALE_SOURCE_DATA'):
+            m.validate_pair({}, 'INR=X', a, b, self.now)
+
+    def test_independent_pair_identity_required(self):
+        a, b = self.fx_quotes()
+        b['id'] = 'EUR-INR'
+        with self.assertRaisesRegex(ValueError, 'INDEPENDENT_INSTRUMENT_ID_MISMATCH'):
+            m.validate_pair({}, 'INR=X', a, b, self.now)
+
+    def test_cap_only_allows_display_rounding_interval(self):
+        self.yahoo['marketCap'] = Decimal('1006000000')
+        self.assertIsNone(self.accept()['marketCap'])
+        self.yahoo['marketCap'] = Decimal('1004000000')
+        self.assertEqual(self.accept()['marketCap'], Decimal('1004000000'))
+
     def test_missing_or_nonfinite_never_zero(self):
         for value in [None, True, '', 'NaN', 'Infinity', '-Infinity']:
             with self.subTest(value=value), self.assertRaises(ValueError):

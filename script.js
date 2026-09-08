@@ -114,12 +114,13 @@ function quoteTime(iso) {
 }
 function quoteStatus(row) {
   const ts = row.source_timestamp;
-  if (!ts) return 'DATA UNAVAILABLE';
+  if (!ts) return 'DATA UNAVAILABLE' + (row.error?.reason ? ' · ' + row.error.reason.replaceAll('_', ' ') : '');
   const age = Date.now() - new Date(ts).getTime();
+  const maxAge = (row.quote_policy?.max_quote_age_seconds ?? (row.market_status === 'OPEN' ? 1800 : 7 * 86400)) * 1000;
   const stale = row.validation_status === 'STALE' || Object.values(row.field_metadata || {}).some(m => m.validation_status === 'STALE') ||
-    age > (row.market_status === 'OPEN' ? 1800000 : 7 * 86400000);
+    !Number.isFinite(age) || age < -120000 || age > maxAge;
   return (stale ? 'STALE · ' : '') + (row.market_status || 'UNKNOWN') + ' · Quote ' +
-    quoteTime(ts);
+    quoteTime(ts) + ' · ' + (row.source || 'Source unavailable') + (row.quote_basis ? ' · ' + row.quote_basis : '');
 }
 function fieldStatus(row, field) {
   const meta = row.field_metadata?.[field];
@@ -373,7 +374,7 @@ function updateDateTime() {
 
 function setUpdated(...sources) {
   const ts = sources.map(s => s?.updated).filter(Boolean).sort().pop();
-  const relative = ts ? ' · Updated ' + fmtRelative(ts) : '';
+  const relative = ts ? ' · Snapshot changed ' + fmtRelative(ts) : '';
   document.getElementById('updated').textContent = fmtCurrentDate() + relative;
 }
 

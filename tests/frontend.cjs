@@ -6,6 +6,15 @@ let src = fs.readFileSync('script.js', 'utf8').split('// ── Sidebar / hambur
 const ctx = vm.createContext({ Intl, Date, Number, URL, Set });
 vm.runInContext(src, ctx);
 assert.equal(vm.runInContext("formatDecimal('123.0000')", ctx), '123.0000');
+assert.equal(vm.runInContext("fmtFxValue(94.475, '94.475')", ctx), '94.475');
+assert.equal(vm.runInContext("fmtFxValue(94.4905, '94.4905')", ctx), '94.4905');
+ctx.fxRow = {source_timestamp: new Date(Date.now()-481000).toISOString(),
+  source:'Google Finance', market_status:'OPEN', validation_status:'VERIFIED',
+  quote_policy:{max_quote_age_seconds:480}, quote_basis:'midpoint'};
+assert(vm.runInContext('quoteStatus(fxRow)', ctx).startsWith('STALE'));
+assert(vm.runInContext('quoteStatus(fxRow)', ctx).includes('Google Finance'));
+ctx.fxRow.source_timestamp = new Date().toISOString();
+assert(!vm.runInContext('quoteStatus(fxRow)', ctx).startsWith('STALE'));
 assert.equal(vm.runInContext("formatDecimal('123456.123456789')", ctx), '123,456.123456789');
 assert.equal(vm.runInContext('fmtGainLossPercent(null)', ctx), 'DATA UNAVAILABLE');
 assert.equal(vm.runInContext("safeNewsUrl('javascript:alert(1)')", ctx), '#');
