@@ -502,6 +502,116 @@ def merge_stock_with_existing(stock: dict, existing_by_ticker: dict[str, dict]) 
     return stock
 
 
+# ── Source / timestamp / market-status metadata (data-integrity layer) ──
+
+def market_status_from_info(info: dict) -> str:
+    state = info.get("marketState")
+    return str(state).upper() if state else "UNKNOWN"
+
+
+def source_timestamp_from_info(info: dict, fast_info: dict) -> str | None:
+    epoch = info.get("regularMarketTime") or fast_info.get("regularMarketTime")
+    if epoch:
+        try:
+            return datetime.fromtimestamp(int(epoch), tz=timezone.utc).isoformat()
+        except (TypeError, ValueError, OSError):
+            pass
+    return None
+
+
+STALE_SOURCE_THRESHOLD_DAYS = 5  # a daily-traded instrument's quote should not be older than this
+
+
+def source_age_days(source_timestamp: str | None) -> float | None:
+    if not source_timestamp:
+        return None
+    try:
+        ts = datetime.fromisoformat(source_timestamp)
+    except ValueError:
+        return None
+    return (datetime.now(timezone.utc) - ts).total_seconds() / 86400
+
+
+def market_timezone_for(ticker: str) -> str:
+    t = ticker.upper()
+    if t.endswith(".NS") or t.endswith(".BO") or t == "^BSESN":
+        return "Asia/Kolkata"
+    if t.endswith(".HK") or t == "^HSI":
+        return "Asia/Hong_Kong"
+    if t.endswith(".SS") or t.endswith(".SZ"):
+        return "Asia/Shanghai"
+    if t.endswith(".KS"):
+        return "Asia/Seoul"
+    return "America/New_York"  # US-listed equities/ADRs, NYMEX/COMEX/CBOT futures, USD-quoted FX
+
+
+_FX_CACHE: dict | None = None  # populated once per run from an independent FX source
+
+
+def independent_fx_rates() -> dict:
+    """Best-effort secondary FX source (open.er-api.com, USD-base), independent of Yahoo
+    Finance, used to cross-check FX rates applied to USD conversions. Fetched once and
+    cached for the whole run rather than once per currency (avoid redundant requests)."""
+    global _FX_CACHE
+    if _FX_CACHE is not None:
+        return _FX_CACHE
+    try:
+        res = requests.get("https://open.er-api.com/v6/latest/USD", timeout=10)
+        res.raise_for_status()
+        payload = res.json()
+        _FX_CACHE = payload.get("rates") or {} if payload.get("result") == "success" else {}
+        if not _FX_CACHE:
+            print("[fx] independent FX source returned no usable rates")
+    except Exception as e:
+        print(f"[fx] independent FX source unavailable: {e}")
+        _FX_CACHE = {}
+    return _FX_CACHE
+
+
+def independent_fx_rate(currency: str) -> float | None:
+    """Return the independent rate normalized to the same convention Yahoo's `{CCY}=X`
+    tickers use: units of `currency` per 1 USD — except EUR/GBP, where our tickers
+    (EURUSD=X, GBPUSD=X) instead quote USD per 1 EUR/GBP, so those are inverted."""
+    rate = independent_fx_rates().get(currency)
+    try:
+        rate = float(rate) if rate else None
+    except (TypeError, ValueError):
+        return None
+    if rate is None:
+        return None
+    if currency in ("EUR", "GBP"):
+        return 1 / rate if rate else None
+    return rate
+
+
+def sanity_check_stock(stock: dict, previous: dict | None) -> dict:
+    """Outlier detection: flag (never silently reject) implausible jumps versus the last
+    verified value — likely causes are stale/bad quotes or decimal-place errors rather than
+    genuine market moves, but genuine large moves are still displayed, just flagged."""
+    stock.setdefault("validationStatus", "VERIFIED")
+    if not previous:
+        return stock
+    price = stock.get("indexValue")
+    prev_price = previous.get("indexValue")
+    if price is None or prev_price in (None, 0):
+        return stock
+    try:
+        ratio = float(price) / float(prev_price)
+    except (TypeError, ValueError, ZeroDivisionError):
+        return stock
+    if ratio <= 0:
+        stock["validationStatus"] = "VALIDATION_REQUIRED"
+        print(f"[stocks] {stock.get('ticker')}: non-positive price ratio ({prev_price} -> {price}); flagged")
+        return stock
+    # Plausible corporate-action ratios (splits/bonus issues) so we don't flag real ones.
+    plausible = (2, 3, 4, 5, 10, 20, 0.5, 1 / 3, 0.25, 0.2, 0.1, 0.05)
+    if (ratio > 1.5 or ratio < 0.67) and not any(abs(ratio - r) / r < 0.06 for r in plausible):
+        stock["validationStatus"] = "VALIDATION_REQUIRED"
+        print(f"[stocks] {stock.get('ticker')}: implausible move {prev_price} -> {price} "
+              f"(x{ratio:.3f}); flagged for review, value retained (not fabricated/discarded)")
+    return stock
+
+
 def fetch_stock(ticker: str, name: str, sector: str,
                 display_ticker: str | None = None,
                 sort_name: str | None = None) -> dict | None:
@@ -552,22 +662,57 @@ def fetch_stock(ticker: str, name: str, sector: str,
             if shares_outstanding is not None:
                 market_cap = price * shares_outstanding
 
+        display = display_ticker or ticker
+        source_ts = source_timestamp_from_info(info, fast_info)
         stock = {
-            "ticker": display_ticker or ticker,
+            "ticker": display,
             "name": name,
             "sector": sector,
             "currency": info.get("currency") or info.get("financialCurrency") or fast_info.get("currency") or "",
             "marketCap": market_cap,
             "changePercent": change_percent,
+            "source": "Yahoo Finance",
+            "sourceTimestamp": source_ts,
+            "retrievedAt": datetime.now(timezone.utc).isoformat(),
+            "marketStatus": market_status_from_info(info),
+            "marketTimezone": market_timezone_for(display),
         }
         if sort_name:
             stock["sortName"] = sort_name
         if price is not None:
             stock["indexValue"] = price
+        else:
+            stock["validationStatus"] = "PARTIAL"
+
+        age_days = source_age_days(source_ts)
+        if age_days is not None and age_days > STALE_SOURCE_THRESHOLD_DAYS:
+            stock["validationStatus"] = "STALE_SOURCE_DATA"
+            print(f"[stocks] {display}: source quote timestamp is {age_days:.1f} days old "
+                  f"({source_ts}); flagging as stale — likely delisted/inactive on Yahoo Finance, "
+                  f"not a live current value despite what changePercent may suggest")
         return stock
     except Exception as e:
         print(f"[stocks] {ticker} failed: {e}")
         return None
+
+
+def resilient_fetch(entry: tuple, existing_by_ticker: dict[str, dict]) -> dict | None:
+    """Fetch a stock; on total fetch failure, retain the last verified value (clearly
+    flagged) rather than dropping the instrument from the dashboard entirely."""
+    display_ticker = entry[0] if len(entry) <= 3 else (entry[3] or entry[0])
+    previous = existing_by_ticker.get(display_ticker)
+    stock = fetch_stock(*entry)
+    if stock is None:
+        if previous:
+            fallback = dict(previous)
+            fallback["retrievedAt"] = datetime.now(timezone.utc).isoformat()
+            fallback["validationStatus"] = "STALE_FETCH_FAILED"
+            print(f"[stocks] {display_ticker}: fetch failed, retaining last verified value "
+                  f"from {previous.get('sourceTimestamp') or previous.get('retrievedAt') or 'unknown time'}")
+            return fallback
+        print(f"[stocks] {display_ticker}: fetch failed and no previous verified data available — DATA UNAVAILABLE")
+        return None
+    return sanity_check_stock(stock, previous)
 
 
 def convert_market_cap_to_usd(stock: dict) -> dict:
@@ -576,22 +721,67 @@ def convert_market_cap_to_usd(stock: dict) -> dict:
     if not market_cap or currency in ("", "USD"):
         stock["currency"] = "USD"
         return stock
+    if stock.get("validationStatus") == "STALE_FETCH_FAILED":
+        return stock  # already USD from a prior successful conversion; avoid double-converting
 
+    primary_rate = None
     try:
         fx = yf.Ticker(f"{currency}=X")
-        rate = None
         try:
-            rate = (fx.fast_info or {}).get("last_price")
+            primary_rate = (fx.fast_info or {}).get("last_price")
         except Exception:
             pass
-        if not rate:
+        if not primary_rate:
             info = fx.info or {}
-            rate = info.get("regularMarketPrice") or info.get("currentPrice")
-        if rate:
-            stock["marketCap"] = market_cap / rate
-            stock["currency"] = "USD"
+            primary_rate = info.get("regularMarketPrice") or info.get("currentPrice")
     except Exception as e:
-        print(f"[stocks] {stock.get('ticker')} USD conversion failed: {e}")
+        print(f"[stocks] {stock.get('ticker')} FX fetch failed: {e}")
+
+    secondary_rate = independent_fx_rate(currency)
+    rate = None
+    if primary_rate and secondary_rate:
+        diff = abs(primary_rate - secondary_rate) / secondary_rate
+        rate = primary_rate
+        stock["fxValidation"] = "VERIFIED" if diff <= 0.015 else "VALIDATION_REQUIRED"
+        if diff > 0.015:
+            print(f"[stocks] {stock.get('ticker')}: FX mismatch for {currency} "
+                  f"(Yahoo {primary_rate} vs Stooq {secondary_rate}, {diff:.2%} apart); flagged, using Yahoo rate")
+    elif primary_rate:
+        rate = primary_rate
+        stock["fxValidation"] = "SOURCE_UNCONFIRMED"
+    elif secondary_rate:
+        rate = secondary_rate
+        stock["fxValidation"] = "SECONDARY_SOURCE_ONLY"
+
+    if rate:
+        stock["marketCap"] = market_cap / rate
+        stock["currency"] = "USD"
+        stock["fxRate"] = rate
+        stock["fxTimestamp"] = datetime.now(timezone.utc).isoformat()
+    else:
+        print(f"[stocks] {stock.get('ticker')}: no FX rate available for {currency}; leaving marketCap in {currency}")
+        stock["fxValidation"] = "DATA_UNAVAILABLE"
+    return stock
+
+
+def validate_fx_pair(stock: dict) -> dict:
+    """Cross-check a displayed FX pair (USD/INR, EUR/USD, ...) against an independent
+    secondary source; flags rather than silently trusting a single source."""
+    currency_key = {
+        "INR=X": "INR", "JPY=X": "JPY", "CNY=X": "CNY",
+        "EURUSD=X": "EUR", "GBPUSD=X": "GBP",
+    }.get(stock.get("ticker", ""))
+    if not currency_key:
+        return stock  # e.g. DX-Y.NYB (Dollar Index) has no single independent pair to check
+    price = stock.get("indexValue")
+    secondary = independent_fx_rate(currency_key)
+    if secondary and price:
+        diff = abs(float(price) - secondary) / secondary
+        stock["fxValidation"] = "VERIFIED" if diff <= 0.015 else "VALIDATION_REQUIRED"
+        if diff > 0.015:
+            print(f"[fx] {stock.get('ticker')}: Yahoo {price} vs Stooq {secondary} differ by {diff:.2%}; flagged")
+    else:
+        stock["fxValidation"] = "SOURCE_UNCONFIRMED"
     return stock
 
 
@@ -601,20 +791,25 @@ def fetch_all_stocks() -> dict:
     def sorted_region(stocks: list[dict]) -> list[dict]:
         return sorted(stocks, key=lambda s: (s.get("sortName") or s.get("name") or "").casefold())
 
-    asia = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker) for s in (fetch_stock(*x) for x in ASIA_STOCKS) if s]
-    indexes = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker) for s in (fetch_stock(*x) for x in INDEX_STOCKS) if s]
+    asia = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker)
+            for s in (resilient_fetch(x, existing_by_ticker) for x in ASIA_STOCKS) if s]
+    indexes = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker)
+               for s in (resilient_fetch(x, existing_by_ticker) for x in INDEX_STOCKS) if s]
     commodities = []
     for ticker, name, category, unit in COMMODITIES:
-        commodity = fetch_stock(ticker, name, category)
+        commodity = resilient_fetch((ticker, name, category), existing_by_ticker)
         if commodity:
             commodity["unit"] = unit
             commodities.append(merge_stock_with_existing(commodity, existing_by_ticker))
-    currency = [merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in CURRENCY_PAIRS) if s]
+    currency = [validate_fx_pair(merge_stock_with_existing(s, existing_by_ticker))
+                for s in (resilient_fetch(x, existing_by_ticker) for x in CURRENCY_PAIRS) if s]
 
     return {
-        "us":      sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in US_STOCKS)    if s]),
+        "us":      sorted_region([merge_stock_with_existing(s, existing_by_ticker)
+                                   for s in (resilient_fetch(x, existing_by_ticker) for x in US_STOCKS) if s]),
         "asia":    sorted_region(asia),
-        "india":   sorted_region([merge_stock_with_existing(s, existing_by_ticker) for s in (fetch_stock(*x) for x in INDIA_STOCKS) if s]),
+        "india":   sorted_region([merge_stock_with_existing(s, existing_by_ticker)
+                                   for s in (resilient_fetch(x, existing_by_ticker) for x in INDIA_STOCKS) if s]),
         "indexes": sorted_region(indexes),
         "commodities": sorted_region(commodities),
         "currency": currency,
