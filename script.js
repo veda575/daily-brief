@@ -107,6 +107,11 @@ function fmtIndexValue(n, exact) {
   return formatDecimal(exact || String(n));
 }
 const fmtFxValue = fmtIndexValue;
+function quoteTime(iso) {
+  const date = new Date(iso);
+  return Number.isNaN(date.getTime()) ? 'Unknown quote time' :
+    date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) + ' IST';
+}
 function quoteStatus(row) {
   const ts = row.source_timestamp;
   if (!ts) return 'DATA UNAVAILABLE';
@@ -114,12 +119,12 @@ function quoteStatus(row) {
   const stale = row.validation_status === 'STALE' || Object.values(row.field_metadata || {}).some(m => m.validation_status === 'STALE') ||
     age > (row.market_status === 'OPEN' ? 1800000 : 7 * 86400000);
   return (stale ? 'STALE · ' : '') + (row.market_status || 'UNKNOWN') + ' · Quote ' +
-    new Date(ts).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) + ' IST';
+    quoteTime(ts);
 }
 function fieldStatus(row, field) {
   const meta = row.field_metadata?.[field];
   if (meta?.validation_status !== 'STALE') return '';
-  return '<br><small>STALE · ' + escapeHtml(meta.source_timestamp || 'Unknown quote time') + '</small>';
+  return '<br><small>STALE · ' + escapeHtml(quoteTime(meta.source_timestamp)) + '</small>';
 }
 
 function fxHeroHtml(stocks) {

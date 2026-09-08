@@ -54,6 +54,8 @@ class IntegrityTests(unittest.TestCase):
             self.yahoo[key] = original
 
     def test_timestamps(self):
+        with self.assertRaisesRegex(ValueError, 'NAIVE_TIMESTAMP'):
+            m.timestamp('2026-09-08T15:00:00')
         for delta in [-1500, 200, -86400]:
             self.google['timestamp'] = (self.now+timedelta(seconds=delta)).isoformat()
             with self.subTest(delta=delta), self.assertRaises(ValueError):
