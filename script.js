@@ -142,7 +142,7 @@ function fxHeroHtml(stocks) {
     </div>`;
 }
 
-function commodityDisplay(row) {
+function commodityDisplay(row, usdInr) {
   const units = {
     'USD/metric ton': ['1 Ton', '1 metric ton (1,000 kg)', 'USD'],
     'USD/lb': ['1 Lb', '1 pound', 'USD'],
@@ -157,21 +157,26 @@ function commodityDisplay(row) {
   const available = canDisplay(row, 'indexValue');
   let rate = 'DATA UNAVAILABLE';
   let title = exact || 'DATA UNAVAILABLE';
-  if (available) {
-    if (goldGram) {
-      // The international troy ounce is exactly 31.1034768 grams.
-      const perGram = Number(exact) / 31.1034768;
-      rate = '≈ USD ' + new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 6 }).format(perGram);
-      title = 'Converted from USD ' + exact + ' per troy ounce ÷ 31.1034768 grams; rounded to 6 decimal places';
-    } else {
-      rate = currency + ' ' + fmtIndexValue(row.indexValue, exact);
-      title = currency + ' ' + exact + ' for ' + quantityTitle;
-    }
+  let note = '';
+  const fx = usdInr && canDisplay(usdInr, 'indexValue') ? Number(exactValue(usdInr, 'indexValue')) : NaN;
+  const fxValid = usdInr?.base_currency === 'USD' && usdInr?.quote_currency === 'INR' && Number.isFinite(fx) && fx > 0;
+  if (available && fxValid && ['USD', 'US¢'].includes(currency)) {
+    // Convert cents to dollars before applying USD/INR; gold is per gram.
+    const dollars = Number(exact) / (currency === 'US¢' ? 100 : 1) / (goldGram ? 31.1034768 : 1);
+    rate = '≈ ₹' + new Intl.NumberFormat('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(dollars * fx);
+    title = 'Source: ' + (row.source || 'Google Finance') + ' · ' + (row.google_instrument || row.ticker) + ' · ' + currency + ' ' + exact + ' · ' +
+      (goldGram ? '1 troy ounce = 31.1034768 grams · ' : '') +
+      'USD/INR ' + exactValue(usdInr, 'indexValue') + ' · FX quote ' + quoteTime(usdInr.source_timestamp) + ' · INR rounded to 2 decimals';
+    const fxAge = Date.now() - new Date(usdInr.source_timestamp).getTime();
+    const staleFx = usdInr.validation_status === 'STALE' || !Number.isFinite(fxAge) || fxAge > (usdInr.quote_policy?.max_quote_age_seconds || 480) * 1000;
+    note = 'Indicative INR conversion' + (staleFx ? ' · FX stale' : '');
+  } else if (available) {
+    title = 'USD/INR conversion rate unavailable';
   }
-  return {quantity, quantityTitle, rate, title};
+  return {quantity, quantityTitle, rate, title, note};
 }
 
-function renderStocksTable(stocks, region) {
+function renderStocksTable(stocks, region, usdInr = null) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
   }
@@ -183,7 +188,7 @@ function renderStocksTable(stocks, region) {
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
   const rows = sorted.map(s => {
-    const commodity = isCommodities ? commodityDisplay(s) : null;
+    const commodity = isCommodities ? commodityDisplay(s, usdInr) : null;
     const field = (isCurrency || isIndexes || isCommodities) ? 'indexValue' : 'marketCap';
     const value = isCommodities ? escapeHtml(commodity.rate) : !canDisplay(s, field) ? 'DATA UNAVAILABLE' : isCurrency
       ? fmtFxValue(s.indexValue, exactValue(s, 'indexValue'))
@@ -192,16 +197,16 @@ function renderStocksTable(stocks, region) {
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong></td>
-      <td class="muted">${escapeHtml(s.ticker)}<br><small>${escapeHtml(quoteStatus(s))}${s.google_instrument && isCommodities ? '<br>Google series: ' + escapeHtml(s.google_instrument) : ''}</small></td>
+      <td class="muted">${isCommodities ? escapeHtml(s.source_timestamp ? quoteTime(s.source_timestamp) : 'DATA UNAVAILABLE') : escapeHtml(s.ticker) + '<br><small>' + escapeHtml(quoteStatus(s)) + '</small>'}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${fieldStatus(s, field)}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && commodity.note ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}${fieldStatus(s, field)}</td>
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
   return `${hero}<table>
     <thead><tr>
-      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Symbol</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
+      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>${isCommodities ? 'Quote' : 'Symbol'}</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate (INR)' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
@@ -391,7 +396,7 @@ function showStockRegion(region) {
   document.querySelectorAll('.subtab').forEach(b => b.classList.toggle('active', b.dataset.region === region));
   const container = document.getElementById('stocks-content');
   const list = stocksData?.regions?.[region] || [];
-  container.innerHTML = renderStocksTable(list, region);
+  container.innerHTML = renderStocksTable(list, region, stocksData?.regions?.currency?.find(row => row.ticker === 'INR=X'));
 }
 
 document.querySelectorAll('.subtab').forEach(b => {

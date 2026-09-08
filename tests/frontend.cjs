@@ -38,11 +38,23 @@ assert(!html.includes('0.00%'));
 ctx.gold = {name:'Gold',ticker:'GC=F',unit:'USD/troy oz',indexValue:3110.34768,
   verification_version:1,validation_status:'INDICATIVE',
   field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'3110.34768'}}};
-const goldDisplay = vm.runInContext('commodityDisplay(gold)',ctx);
+ctx.inr = { ...ctx.indicative,base_currency:'USD',quote_currency:'INR',indexValue:94.49,
+  field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'94.49'}}};
+const goldDisplay = vm.runInContext('commodityDisplay(gold,inr)',ctx);
 assert.equal(goldDisplay.quantity,'1 Grm');
-assert.equal(goldDisplay.rate,'≈ USD 100.00');
+assert.equal(goldDisplay.rate,'≈ ₹9,449.00');
 assert(goldDisplay.title.includes('31.1034768'));
-const commodityHtml=vm.runInContext("renderStocksTable([gold], 'commodities')",ctx);
+const commodityHtml=vm.runInContext("renderStocksTable([gold], 'commodities', inr)",ctx);
+assert(commodityHtml.includes('<th>Quote</th>'));
+assert(commodityHtml.includes('Market Rate (INR)'));
+assert(!commodityHtml.includes('Google series:'));
+ctx.corn={...ctx.gold,ticker:'ZC=F',unit:'US¢/bushel',indexValue:500,
+  field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'500'}}};
+assert.equal(vm.runInContext('commodityDisplay(corn,inr).rate',ctx),'≈ ₹472.45');
+assert(vm.runInContext('commodityDisplay(corn,inr).note',ctx).includes('FX stale'));
+assert.equal(vm.runInContext('commodityDisplay(corn).rate',ctx),'DATA UNAVAILABLE');
+ctx.wrongFx={...ctx.inr,base_currency:'INR',quote_currency:'USD'};
+assert.equal(vm.runInContext('commodityDisplay(corn,wrongFx).rate',ctx),'DATA UNAVAILABLE');
 assert.equal((commodityHtml.match(/<th>/g)||[]).length,6);
 assert(commodityHtml.includes('<th>Quantity</th>'));
 assert.equal((html.match(/<th>/g)||[]).length,5);
