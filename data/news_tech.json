@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T05:05:51.102656+00:00",
+  "updated": "2026-09-08T07:32:01.676349+00:00",
   "items": [
     {
       "title": "Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch",
@@ -1683,6 +1683,23 @@
       "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
       "source_type": "PUBLISHER",
       "story_fingerprint": "2186349e6aee35672d020fe1"
+    },
+    {
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "source": "Google DeepMind",
+      "published": "2026-08-21T11:59:48+00:00",
+      "retrieved_at": "2026-09-08T07:31:56.752337+00:00",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://deepmind.google/blog/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "0628207ab8fe85034a5be986"
     }
   ],
   "unverified_history": [
