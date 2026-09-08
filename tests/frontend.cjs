@@ -25,7 +25,7 @@ assert(!fxHtml.includes('DATA UNAVAILABLE'));
 ctx.indicative.validation_status = 'STALE';
 assert(vm.runInContext('fxHeroHtml([indicative])',ctx).includes('STALE · INDICATIVE'));
 ctx.fieldRow = {field_metadata:{marketCap:{validation_status:'INDICATIVE',quality:'INDICATIVE',source:'Google Finance',source_timestamp:new Date().toISOString()}}};
-assert(vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('INDICATIVE'));
+assert(!vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('INDICATIVE'));
 assert(vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('Google Finance'));
 assert.equal(vm.runInContext("formatDecimal('123456.123456789')", ctx), '123,456.123456789');
 assert.equal(vm.runInContext('fmtGainLossPercent(null)', ctx), 'DATA UNAVAILABLE');

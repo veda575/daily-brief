@@ -125,7 +125,8 @@ function quoteStatus(row) {
 function fieldStatus(row, field) {
   const meta = row.field_metadata?.[field];
   if (!meta || !['STALE','INDICATIVE'].includes(meta.validation_status) && meta.quality !== 'INDICATIVE') return '';
-  const label = [meta.validation_status === 'STALE' ? 'STALE' : '', meta.quality === 'INDICATIVE' || meta.validation_status === 'INDICATIVE' ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(meta.source_timestamp)].filter(Boolean).join(' · ');
+  const showIndicative = !['marketCap', 'marketCapUSD'].includes(field) && (meta.quality === 'INDICATIVE' || meta.validation_status === 'INDICATIVE');
+  const label = [meta.validation_status === 'STALE' ? 'STALE' : '', showIndicative ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(meta.source_timestamp)].filter(Boolean).join(' · ');
   return '<br><small title="' + escapeHtml(meta.calculation || meta.timestamp_scope || '') + '">' + escapeHtml(label) + '</small>';
 }
 
