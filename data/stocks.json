@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T10:06:57.554666+00:00",
+  "updated": "2026-09-08T11:07:40.100293+00:00",
   "regions": {
     "us": [
       {
@@ -10454,41 +10454,6 @@
         "retrievedAt": "2026-09-08T10:06:33.614790+00:00",
         "marketStatus": "UNKNOWN",
         "marketTimezone": "UTC"
-      },
-      {
-        "ticker": "TIO=F",
-        "name": "Iron Ore",
-        "sector": "Metals",
-        "currency": "USD",
-        "marketCap": null,
-        "changePercent": null,
-        "indexValue": null,
-        "unit": "USD/metric ton",
-        "legacy_snapshot": {
-          "indexValue": 161.91,
-          "marketCap": null,
-          "changePercent": 20.99088
-        },
-        "absoluteChange": null,
-        "previousClose": null,
-        "dayHigh": null,
-        "dayLow": null,
-        "volume": null,
-        "marketCapUSD": null,
-        "validation_status": "DATA_UNAVAILABLE",
-        "source_timestamp": null,
-        "market_status": "TEMPORARILY_UNAVAILABLE",
-        "validationStatus": "DATA_UNAVAILABLE",
-        "error": {
-          "status": "VALIDATION_FAILED",
-          "reason": "INDEPENDENT_INSTRUMENT_MAPPING_UNAVAILABLE"
-        },
-        "quote_policy": {
-          "policy_version": 2,
-          "price_relative_tolerance": 0.005,
-          "max_timestamp_skew_seconds": 1200,
-          "max_quote_age_seconds": 604800
-        }
       },
       {
         "ticker": "NG=F",

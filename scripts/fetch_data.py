@@ -79,7 +79,6 @@ COMMODITIES = [
     ("GC=F",  "Gold",        "Metals",        "USD/troy oz"),
     ("SI=F",  "Silver",      "Metals",        "USD/troy oz"),
     ("HG=F",  "Copper",      "Metals",        "USD/lb"),
-    ("TIO=F", "Iron Ore",    "Metals",        "USD/metric ton"),
     ("ALI=F", "Aluminum",    "Metals",        "USD/metric ton"),
     ("ZC=F",  "Corn",        "Agricultural",  "US¢/bushel"),
     ("ZW=F",  "Wheat",       "Agricultural",  "US¢/bushel"),
