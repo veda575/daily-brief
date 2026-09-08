@@ -152,7 +152,8 @@ function commodityDisplay(row, usdInr) {
     'USD/MMBtu': ['1 MMBtu', '1 million British thermal units', 'USD'],
   };
   const goldGram = row.ticker === 'GC=F' && row.unit === 'USD/troy oz';
-  const [quantity, quantityTitle, currency] = goldGram ? ['1 Grm', '1 gram', 'USD'] : units[row.unit] || ['—', row.unit || '', row.currency || ''];
+  const silverKg = row.ticker === 'SI=F' && row.unit === 'USD/troy oz';
+  const [quantity, quantityTitle, currency] = goldGram ? ['1 Grm', '1 gram', 'USD'] : silverKg ? ['1 KG', '1 kilogram', 'USD'] : units[row.unit] || ['—', row.unit || '', row.currency || ''];
   const exact = exactValue(row, 'indexValue');
   const available = canDisplay(row, 'indexValue');
   let rate = 'DATA UNAVAILABLE';
@@ -161,11 +162,13 @@ function commodityDisplay(row, usdInr) {
   const fx = usdInr && canDisplay(usdInr, 'indexValue') ? Number(exactValue(usdInr, 'indexValue')) : NaN;
   const fxValid = usdInr?.base_currency === 'USD' && usdInr?.quote_currency === 'INR' && Number.isFinite(fx) && fx > 0;
   if (available && fxValid && ['USD', 'US¢'].includes(currency)) {
-    // Convert cents to dollars before applying USD/INR; gold is per gram.
-    const dollars = Number(exact) / (currency === 'US¢' ? 100 : 1) / (goldGram ? 31.1034768 : 1);
+    // Normalize the source quote to the displayed quantity before applying FX.
+    const quantityFactor = silverKg ? 1000 / 31.1034768 : goldGram ? 1 / 31.1034768 : 1;
+    const dollars = Number(exact) / (currency === 'US¢' ? 100 : 1) * quantityFactor;
     rate = '≈ ₹' + new Intl.NumberFormat('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(dollars * fx);
     title = 'Source: ' + (row.source || 'Google Finance') + ' · ' + (row.google_instrument || row.ticker) + ' · ' + currency + ' ' + exact + ' · ' +
-      (goldGram ? '1 troy ounce = 31.1034768 grams · ' : '') +
+      (goldGram || silverKg ? '1 troy ounce = 31.1034768 grams · ' : '') +
+      (silverKg ? '1 KG = 1,000 grams · ' : '') +
       'USD/INR ' + exactValue(usdInr, 'indexValue') + ' · FX quote ' + quoteTime(usdInr.source_timestamp) + ' · INR rounded to 2 decimals';
     const fxAge = Date.now() - new Date(usdInr.source_timestamp).getTime();
     const staleFx = usdInr.validation_status === 'STALE' || !Number.isFinite(fxAge) || fxAge > (usdInr.quote_policy?.max_quote_age_seconds || 480) * 1000;

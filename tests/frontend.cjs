@@ -44,6 +44,13 @@ const goldDisplay = vm.runInContext('commodityDisplay(gold,inr)',ctx);
 assert.equal(goldDisplay.quantity,'1 Grm');
 assert.equal(goldDisplay.rate,'≈ ₹9,449.00');
 assert(goldDisplay.title.includes('31.1034768'));
+ctx.silver={...ctx.gold,name:'Silver',ticker:'SI=F',indexValue:31.1034768,
+  field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'31.1034768'}}};
+const silverDisplay=vm.runInContext('commodityDisplay(silver,inr)',ctx);
+assert.equal(silverDisplay.quantity,'1 KG');
+assert.equal(silverDisplay.rate,'≈ ₹94,490.00');
+assert(silverDisplay.title.includes('1,000 grams'));
+assert.equal(vm.runInContext('commodityDisplay({...silver,indexValue:null},inr).rate',ctx),'DATA UNAVAILABLE');
 const commodityHtml=vm.runInContext("renderStocksTable([gold], 'commodities', inr)",ctx);
 assert(commodityHtml.includes('<th>Quote</th>'));
 assert(commodityHtml.includes('Market Rate (INR)'));
