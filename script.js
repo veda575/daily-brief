@@ -179,6 +179,19 @@ function commodityDisplay(row, usdInr) {
   return {quantity, quantityTitle, rate, title, note};
 }
 
+function marketReference(row, field, usdInr = null) {
+  const sources = [];
+  for (const key of [field, 'changePercent']) {
+    if (!canDisplay(row, key)) continue;
+    const meta = row.field_metadata?.[key];
+    sources.push(meta?.source || row.source, meta?.fx_source);
+  }
+  if (usdInr && canDisplay(row, field) && canDisplay(usdInr, 'indexValue')) {
+    sources.push(usdInr.field_metadata?.indexValue?.source || usdInr.source);
+  }
+  return [...new Set(sources.filter(Boolean))].join(' / ') || 'No available source';
+}
+
 function renderStocksTable(stocks, region, usdInr = null) {
   if (!stocks || !stocks.length) {
     return '<p class="muted" style="padding:20px;">No data — run the GitHub Action to populate this.</p>';
@@ -200,16 +213,16 @@ function renderStocksTable(stocks, region, usdInr = null) {
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong></td>
-      <td class="muted">${isCommodities ? escapeHtml(s.source_timestamp ? quoteTime(s.source_timestamp) : 'DATA UNAVAILABLE') : escapeHtml(s.ticker) + '<br><small>' + escapeHtml(quoteStatus(s)) + '</small>'}</td>
+      <td class="muted" title="${escapeHtml(quoteStatus(s))}">${escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && commodity.note ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}${fieldStatus(s, field)}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && commodity.note ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}${quoteStatus(s).startsWith('STALE') && s.field_metadata?.[field]?.validation_status !== 'STALE' ? '<br><small>STALE</small>' : ''}${fieldStatus(s, field)}</td>
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
   return `${hero}<table>
     <thead><tr>
-      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>${isCommodities ? 'Quote' : 'Symbol'}</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate (INR)' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
+      <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Reference</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate (INR)' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;

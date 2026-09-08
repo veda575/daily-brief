@@ -52,7 +52,14 @@ assert.equal(silverDisplay.rate,'≈ ₹94,490.00');
 assert(silverDisplay.title.includes('1,000 grams'));
 assert.equal(vm.runInContext('commodityDisplay({...silver,indexValue:null},inr).rate',ctx),'DATA UNAVAILABLE');
 const commodityHtml=vm.runInContext("renderStocksTable([gold], 'commodities', inr)",ctx);
-assert(commodityHtml.includes('<th>Quote</th>'));
+assert(commodityHtml.includes('<th>Reference</th>'));
+assert(html.includes('<th>Reference</th>'));
+assert(!html.includes('<th>Symbol</th>'));
+ctx.referenceRow={...ctx.gold,changePercent:1,field_metadata:{
+  indexValue:{validation_status:'INDICATIVE',decimal:'1',source:'Google Finance'},
+  changePercent:{validation_status:'VERIFIED',decimal:'1',source:'Yahoo Finance'}}};
+assert.equal(vm.runInContext("marketReference(referenceRow,'indexValue')",ctx),'Google Finance / Yahoo Finance');
+assert.equal(vm.runInContext("marketReference({},'marketCap')",ctx),'No available source');
 assert(commodityHtml.includes('Market Rate (INR)'));
 assert(!commodityHtml.includes('Google series:'));
 ctx.corn={...ctx.gold,ticker:'ZC=F',unit:'US¢/bushel',indexValue:500,
