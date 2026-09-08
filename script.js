@@ -57,7 +57,9 @@ function fmtCurrentDateTime() {
   return `${parts.day} ${parts.month} ${parts.year}, ${parts.hour}:${parts.minute} ${parts.dayPeriod.toUpperCase()} ${parts.timeZoneName}`;
 }
 
-function fmtGainLossPercent(n) {
+function fmtGainLossPercent(n, exact) {
+  if (n === null || n === undefined || n === '') return 'DATA UNAVAILABLE';
+  if (exact) return (Number(n) > 0 ? '+' : '') + formatDecimal(exact) + '%';
   const value = Number(n);
   if (!Number.isFinite(value)) return '—';
   return (value > 0 ? '+' : '') + value.toFixed(2) + '%';
@@ -69,33 +71,67 @@ function escapeHtml(s) {
 
 // ── Data loading ──────────────────────────────────────
 async function loadJSON(path) {
-  const res = await fetch(path + '?t=' + Date.now());
+  const res = await fetch(path + '?t=' + Date.now(), { signal: AbortSignal.timeout(15000), cache: 'no-store' });
   if (!res.ok) throw new Error('Failed: ' + path);
-  return res.json();
+  const data = await res.json();
+  if (path === 'data/stocks.json') {
+    const regions = data?.regions;
+    if (!regions || !['us', 'asia', 'india', 'indexes', 'commodities', 'currency'].every(k =>
+      Array.isArray(regions[k]) && regions[k].length && regions[k].every(r => typeof r?.ticker === 'string' && typeof r?.name === 'string'))) {
+      throw new Error('Invalid market snapshot');
+    }
+  } else if (!Array.isArray(data?.items) || !data.items.every(i => typeof i?.title === 'string' && typeof i?.url === 'string')) {
+    throw new Error('Invalid news snapshot');
+  }
+  return data;
 }
 
 // ── Stocks rendering ──────────────────────────────────
-const fmtIndexNum = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-function fmtIndexValue(n) {
-  if (n === null || n === undefined || !Number.isFinite(Number(n))) return '—';
-  return fmtIndexNum.format(Number(n));
+// Decimal strings are companion display metadata; numeric JSON fields remain compatible.
+function formatDecimal(value) {
+  const text = String(value);
+  if (!/^-?\d+(?:\.\d+)?$/.test(text)) return 'DATA UNAVAILABLE';
+  const [whole, fraction] = text.split('.');
+  return whole.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + (fraction === undefined ? '' : '.' + fraction);
 }
-
-const fmtFxNum = new Intl.NumberFormat('en-US', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
-function fmtFxValue(n) {
-  if (n === null || n === undefined || !Number.isFinite(Number(n))) return '—';
-  return fmtFxNum.format(Number(n));
+function exactValue(row, field) {
+  const meta = row.field_metadata?.[field];
+  return ['VERIFIED', 'STALE'].includes(meta?.validation_status) ? meta.decimal : null;
+}
+function canDisplay(row, field) {
+  return row.verification_version === 1 && ['VERIFIED', 'STALE'].includes(row.validation_status)
+    && row[field] !== null && row[field] !== undefined && !!exactValue(row, field);
+}
+function fmtIndexValue(n, exact) {
+  if (n === null || n === undefined || !Number.isFinite(Number(n))) return 'DATA UNAVAILABLE';
+  return formatDecimal(exact || String(n));
+}
+const fmtFxValue = fmtIndexValue;
+function quoteStatus(row) {
+  const ts = row.source_timestamp;
+  if (!ts) return 'DATA UNAVAILABLE';
+  const age = Date.now() - new Date(ts).getTime();
+  const stale = row.validation_status === 'STALE' || Object.values(row.field_metadata || {}).some(m => m.validation_status === 'STALE') ||
+    age > (row.market_status === 'OPEN' ? 1800000 : 7 * 86400000);
+  return (stale ? 'STALE · ' : '') + (row.market_status || 'UNKNOWN') + ' · Quote ' +
+    new Date(ts).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) + ' IST';
+}
+function fieldStatus(row, field) {
+  const meta = row.field_metadata?.[field];
+  if (meta?.validation_status !== 'STALE') return '';
+  return '<br><small>STALE · ' + escapeHtml(meta.source_timestamp || 'Unknown quote time') + '</small>';
 }
 
 function fxHeroHtml(stocks) {
   const usdInr = stocks.find(s => s.ticker === 'INR=X');
-  if (!usdInr || !Number.isFinite(Number(usdInr.indexValue))) return '';
+  if (!usdInr) return '';
+  const available = canDisplay(usdInr, 'indexValue');
   const dir = Number(usdInr.changePercent) < 0 ? 'down' : 'up';
   return `
     <div class="fx-hero">
       <div class="fx-hero-label">US Dollar → Indian Rupee, for easy comparison</div>
-      <div class="fx-hero-value">1 USD = ₹${Number(usdInr.indexValue).toFixed(2)}</div>
-      <div class="fx-hero-change ${dir}">${fmtGainLossPercent(usdInr.changePercent)} today</div>
+      <div class="fx-hero-value">${available ? '1 USD = ₹' + fmtFxValue(usdInr.indexValue, exactValue(usdInr, 'indexValue')) : 'DATA UNAVAILABLE'}</div>
+      <div class="fx-hero-change ${dir}">${canDisplay(usdInr, 'changePercent') ? fmtGainLossPercent(usdInr.changePercent, exactValue(usdInr, 'changePercent')) : 'DATA UNAVAILABLE'} · ${escapeHtml(quoteStatus(usdInr))}</div>
     </div>`;
 }
 
@@ -111,17 +147,18 @@ function renderStocksTable(stocks, region) {
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
   const rows = sorted.map(s => {
-    const value = isCurrency
-      ? fmtFxValue(s.indexValue)
+    const field = (isCurrency || isIndexes || isCommodities) ? 'indexValue' : 'marketCap';
+    const value = !canDisplay(s, field) ? 'DATA UNAVAILABLE' : isCurrency
+      ? fmtFxValue(s.indexValue, exactValue(s, 'indexValue'))
       : (isIndexes || isCommodities)
-        ? fmtIndexValue(s.indexValue) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '')
+        ? fmtIndexValue(s.indexValue, exactValue(s, 'indexValue')) + (isCommodities && s.unit ? ' ' + escapeHtml(s.unit) : '')
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(s.name)}</strong></td>
-      <td class="muted">${escapeHtml(s.ticker)}</td>
+      <td class="muted">${escapeHtml(s.ticker)}<br><small>${escapeHtml(quoteStatus(s))}</small></td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
-      <td class="num">${value}</td>
-      <td class="num">${fmtGainLossPercent(s.changePercent)}</td>
+      <td class="num" title="${escapeHtml(exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${fieldStatus(s, field)}</td>
+      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
   return `${hero}<table>
@@ -177,7 +214,7 @@ function rankWithin(items, section) {
 function sliceForWindow(items, win, isTech, section) {
   const inBand = (items || []).filter(i => {
     const age = ageDays(i.published);
-    return age > win.minDays && age <= win.maxDays;
+    return i.verification_status === 'SOURCE_CONFIRMED' && age >= 0 && age > win.minDays && age <= win.maxDays;
   });
   const ranked = rankWithin(inBand, section);
 
@@ -190,6 +227,12 @@ function sliceForWindow(items, win, isTech, section) {
   return rankWithin([...ai, ...other], section);
 }
 
+function safeNewsUrl(value) {
+  try {
+    const url = new URL(value);
+    return ['https:', 'http:'].includes(url.protocol) ? url.href : '#';
+  } catch { return '#'; }
+}
 function newsCardHtml(n) {
   const aiTag = n.isAI === false
     ? ' · <span class="tag-pill tag-tech">Tech</span>'
@@ -205,7 +248,7 @@ function newsCardHtml(n) {
       </div>
       <div class="news-body">
         <div>${escapeHtml(n.summary || 'No summary available.')}</div>
-        ${n.url ? `<a class="read-more" href="${n.url}" target="_blank" rel="noopener">Read full story →</a>` : ''}
+        ${n.url ? `<a class="read-more" href="${escapeHtml(safeNewsUrl(n.url))}" target="_blank" rel="noopener">Read full story →</a>` : ''}
       </div>
     </article>`;
 }
@@ -303,8 +346,10 @@ document.querySelectorAll('.nav-sub').forEach(s => {
 
 // ── Stock subtabs ─────────────────────────────────────
 let stocksData = null;
+let currentRegion = 'us';
 
 function showStockRegion(region) {
+  currentRegion = region;
   document.querySelectorAll('.subtab').forEach(b => b.classList.toggle('active', b.dataset.region === region));
   const container = document.getElementById('stocks-content');
   const list = stocksData?.regions?.[region] || [];
@@ -327,35 +372,38 @@ function setUpdated(...sources) {
   document.getElementById('updated').textContent = fmtCurrentDate() + relative;
 }
 
-(async () => {
+let refreshing = false;
+async function refreshData() {
+  if (refreshing) return;
+  refreshing = true;
   try {
-    updateDateTime();
-    setInterval(updateDateTime, 30000);
-
-    const [stocks, tech, india, global] = await Promise.all([
-      loadJSON('data/stocks.json').catch(() => ({ regions: {} })),
-      loadJSON('data/news_tech.json').catch(() => ({ items: [] })),
-      loadJSON('data/news_india.json').catch(() => ({ items: [] })),
-      loadJSON('data/news_global.json').catch(() => ({ items: [] })),
+    const results = await Promise.allSettled([
+      loadJSON('data/stocks.json'), loadJSON('data/news_tech.json'),
+      loadJSON('data/news_india.json'), loadJSON('data/news_global.json'),
     ]);
-    stocksData = stocks;
-    newsCache.tech   = tech.items   || [];
-    newsCache.india  = india.items  || [];
-    newsCache.global = global.items || [];
-
-    showStockRegion('us');
-    // Pre-render each section's default (24h) so switching is instant
-    ['tech', 'india', 'global'].forEach(s => {
-      const prevSection = currentSection, prevWin = currentWindow;
-      currentWindow = '24h';
-      renderNewsForCurrentWindow(s);
-      currentSection = prevSection; currentWindow = prevWin;
+    const expanded = new Set([...document.querySelectorAll('.news-card.expanded .read-more')].map(a => a.href));
+    if (results[0].status === 'fulfilled' && results[0].value?.regions) stocksData = results[0].value;
+    ['tech', 'india', 'global'].forEach((section, i) => {
+      const result = results[i + 1];
+      if (result.status === 'fulfilled' && Array.isArray(result.value?.items)) newsCache[section] = result.value.items;
+      renderNewsForCurrentWindow(section);
     });
-    setUpdated(stocks, tech, india, global);
-
-    if (window.innerWidth >= 820) body.classList.add('menu-open');
-  } catch (e) {
-    document.getElementById('updated').textContent = 'Error loading data.';
-    console.error(e);
-  }
-})();
+    showStockRegion(currentRegion);
+    document.querySelectorAll('.news-card .read-more').forEach(a => {
+      if (expanded.has(a.href)) a.closest('.news-card').classList.add('expanded');
+    });
+    // This timestamp belongs to the market snapshot, never to unrelated news.
+    setUpdated(stocksData);
+    if (results.some(r => r.status === 'rejected')) {
+      document.getElementById('updated').textContent += ' · Refresh failed; showing saved data';
+    }
+  } finally { refreshing = false; }
+}
+updateDateTime();
+setInterval(() => {
+  updateDateTime();
+  if (stocksData) showStockRegion(currentRegion);
+}, 30000);
+refreshData();
+setInterval(refreshData, 300000);
+if (window.innerWidth >= 820) body.classList.add('menu-open');

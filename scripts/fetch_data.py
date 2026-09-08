@@ -3,16 +3,19 @@ import html
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
 import requests
-import yfinance as yf
+from market_data import refresh_markets, read_json, atomic_write, now_iso
+from news_integrity import merge_news
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
+NEWS_ERRORS = []
 
 # ────────────────────────────────────────────────────────────────────
 # STOCK UNIVERSE
@@ -121,7 +124,7 @@ INDIA_STOCKS = [
 TECH_AI_FEEDS = [
     # AI-native publishers (all items definitionally AI)
     ("Anthropic",         "https://www.anthropic.com/news/rss.xml"),
-    ("OpenAI",            "https://openai.com/blog/rss.xml"),
+    ("OpenAI",            "https://openai.com/news/rss.xml"),
     ("Hugging Face",      "https://huggingface.co/blog/feed.xml"),
     ("Google AI",         "https://blog.google/technology/ai/rss/"),
     ("Google DeepMind",   "https://deepmind.google/blog/rss.xml"),
@@ -159,7 +162,7 @@ INDIA_POLITICAL_FEEDS = [
 ]
 
 GEOPOLITICAL_FEEDS = [
-    ("BBC World",       "http://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("BBC World",       "https://feeds.bbci.co.uk/news/world/rss.xml"),
     ("Al Jazeera",      "https://www.aljazeera.com/xml/rss/all.xml"),
     ("Foreign Policy",  "https://foreignpolicy.com/feed/"),
     ("The Diplomat",    "https://thediplomat.com/feed/"),
@@ -459,7 +462,8 @@ def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
                 "published": tweet.get("created_at", ""),
                 "summary": truncate(f"{display_name}: {text}", 400),
                 "xSignal": True,
-                "verifiedSource": verified or trusted,
+                "verifiedSource": False,  # a badge/engagement is not claim verification
+                "verification_status": "DISCOVERY_ONLY",
                 "xScore": x_engagement_score(metrics, verified, trusted),
             })
 
@@ -478,352 +482,27 @@ def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
 # STOCKS
 # ────────────────────────────────────────────────────────────────────
 
-def first_number(*values) -> float | None:
-    for value in values:
-        if value in (None, ""):
-            continue
-        try:
-            number = float(value)
-        except (TypeError, ValueError):
-            continue
-        if number == number:
-            return number
-    return None
+def fetch_all_stocks():
+    payload = read_json(DATA / "stocks.json")
+    updated, attempts = refresh_markets(payload)
+    atomic_write(DATA / "stocks.json", updated)
+    atomic_write(ROOT / "work" / "market-attempts.json", {
+        "execution_at": now_iso(), "attempts": attempts,
+    })
+    return updated["regions"]
 
 
-def merge_stock_with_existing(stock: dict, existing_by_ticker: dict[str, dict]) -> dict:
-    previous = existing_by_ticker.get(stock.get("ticker", ""))
-    if not previous:
-        return stock
-
-    for field in ("currency", "marketCap", "changePercent", "indexValue"):
-        if stock.get(field) in (None, "") and previous.get(field) not in (None, ""):
-            stock[field] = previous[field]
-    return stock
-
-
-# ── Source / timestamp / market-status metadata (data-integrity layer) ──
-
-def market_status_from_info(info: dict) -> str:
-    state = info.get("marketState")
-    return str(state).upper() if state else "UNKNOWN"
-
-
-def source_timestamp_from_info(info: dict, fast_info: dict) -> str | None:
-    epoch = info.get("regularMarketTime") or fast_info.get("regularMarketTime")
-    if epoch:
-        try:
-            return datetime.fromtimestamp(int(epoch), tz=timezone.utc).isoformat()
-        except (TypeError, ValueError, OSError):
-            pass
-    return None
-
-
-STALE_SOURCE_THRESHOLD_DAYS = 5  # a daily-traded instrument's quote should not be older than this
-
-
-def source_age_days(source_timestamp: str | None) -> float | None:
-    if not source_timestamp:
-        return None
-    try:
-        ts = datetime.fromisoformat(source_timestamp)
-    except ValueError:
-        return None
-    return (datetime.now(timezone.utc) - ts).total_seconds() / 86400
-
-
-def market_timezone_for(ticker: str) -> str:
-    t = ticker.upper()
-    if t.endswith(".NS") or t.endswith(".BO") or t == "^BSESN":
-        return "Asia/Kolkata"
-    if t.endswith(".HK") or t == "^HSI":
-        return "Asia/Hong_Kong"
-    if t.endswith(".SS") or t.endswith(".SZ"):
-        return "Asia/Shanghai"
-    if t.endswith(".KS"):
-        return "Asia/Seoul"
-    return "America/New_York"  # US-listed equities/ADRs, NYMEX/COMEX/CBOT futures, USD-quoted FX
-
-
-_FX_CACHE: dict | None = None  # populated once per run from an independent FX source
-
-
-def independent_fx_rates() -> dict:
-    """Best-effort secondary FX source (open.er-api.com, USD-base), independent of Yahoo
-    Finance, used to cross-check FX rates applied to USD conversions. Fetched once and
-    cached for the whole run rather than once per currency (avoid redundant requests)."""
-    global _FX_CACHE
-    if _FX_CACHE is not None:
-        return _FX_CACHE
-    try:
-        res = requests.get("https://open.er-api.com/v6/latest/USD", timeout=10)
-        res.raise_for_status()
-        payload = res.json()
-        _FX_CACHE = payload.get("rates") or {} if payload.get("result") == "success" else {}
-        if not _FX_CACHE:
-            print("[fx] independent FX source returned no usable rates")
-    except Exception as e:
-        print(f"[fx] independent FX source unavailable: {e}")
-        _FX_CACHE = {}
-    return _FX_CACHE
-
-
-def independent_fx_rate(currency: str) -> float | None:
-    """Return the independent rate normalized to the same convention Yahoo's `{CCY}=X`
-    tickers use: units of `currency` per 1 USD — except EUR/GBP, where our tickers
-    (EURUSD=X, GBPUSD=X) instead quote USD per 1 EUR/GBP, so those are inverted."""
-    rate = independent_fx_rates().get(currency)
-    try:
-        rate = float(rate) if rate else None
-    except (TypeError, ValueError):
-        return None
-    if rate is None:
-        return None
-    if currency in ("EUR", "GBP"):
-        return 1 / rate if rate else None
-    return rate
-
-
-def sanity_check_stock(stock: dict, previous: dict | None) -> dict:
-    """Outlier detection: flag (never silently reject) implausible jumps versus the last
-    verified value — likely causes are stale/bad quotes or decimal-place errors rather than
-    genuine market moves, but genuine large moves are still displayed, just flagged."""
-    stock.setdefault("validationStatus", "VERIFIED")
-    if not previous:
-        return stock
-    price = stock.get("indexValue")
-    prev_price = previous.get("indexValue")
-    if price is None or prev_price in (None, 0):
-        return stock
-    try:
-        ratio = float(price) / float(prev_price)
-    except (TypeError, ValueError, ZeroDivisionError):
-        return stock
-    if ratio <= 0:
-        stock["validationStatus"] = "VALIDATION_REQUIRED"
-        print(f"[stocks] {stock.get('ticker')}: non-positive price ratio ({prev_price} -> {price}); flagged")
-        return stock
-    # Plausible corporate-action ratios (splits/bonus issues) so we don't flag real ones.
-    plausible = (2, 3, 4, 5, 10, 20, 0.5, 1 / 3, 0.25, 0.2, 0.1, 0.05)
-    if (ratio > 1.5 or ratio < 0.67) and not any(abs(ratio - r) / r < 0.06 for r in plausible):
-        stock["validationStatus"] = "VALIDATION_REQUIRED"
-        print(f"[stocks] {stock.get('ticker')}: implausible move {prev_price} -> {price} "
-              f"(x{ratio:.3f}); flagged for review, value retained (not fabricated/discarded)")
-    return stock
-
-
-def fetch_stock(ticker: str, name: str, sector: str,
-                display_ticker: str | None = None,
-                sort_name: str | None = None) -> dict | None:
-    try:
-        t = yf.Ticker(ticker)
-        info = {}
-        fast_info = {}
-        try:
-            info = t.info or {}
-        except Exception:
-            pass
-        try:
-            fast_info = dict(t.fast_info or {})
-        except Exception:
-            pass
-
-        price = first_number(
-            info.get("regularMarketPrice"),
-            info.get("currentPrice"),
-            fast_info.get("lastPrice"),
-            fast_info.get("last_price"),
-            fast_info.get("regularMarketPrice"),
-        )
-        change_percent = info.get("regularMarketChangePercent")
-        if change_percent is None:
-            previous_close = first_number(
-                info.get("regularMarketPreviousClose"),
-                info.get("previousClose"),
-                fast_info.get("previousClose"),
-                fast_info.get("previous_close"),
-            )
-            if price and previous_close:
-                change_percent = ((price - previous_close) / previous_close) * 100
-
-        market_cap = first_number(
-            info.get("marketCap"),
-            fast_info.get("marketCap"),
-            fast_info.get("market_cap"),
-        )
-        if market_cap is None and price is not None:
-            shares_outstanding = first_number(
-                info.get("sharesOutstanding"),
-                info.get("impliedSharesOutstanding"),
-                fast_info.get("shares"),
-                fast_info.get("sharesOutstanding"),
-                fast_info.get("shares_outstanding"),
-            )
-            if shares_outstanding is not None:
-                market_cap = price * shares_outstanding
-
-        display = display_ticker or ticker
-        source_ts = source_timestamp_from_info(info, fast_info)
-        stock = {
-            "ticker": display,
-            "name": name,
-            "sector": sector,
-            "currency": info.get("currency") or info.get("financialCurrency") or fast_info.get("currency") or "",
-            "marketCap": market_cap,
-            "changePercent": change_percent,
-            "source": "Yahoo Finance",
-            "sourceTimestamp": source_ts,
-            "retrievedAt": datetime.now(timezone.utc).isoformat(),
-            "marketStatus": market_status_from_info(info),
-            "marketTimezone": market_timezone_for(display),
-        }
-        if sort_name:
-            stock["sortName"] = sort_name
-        if price is not None:
-            stock["indexValue"] = price
-        else:
-            stock["validationStatus"] = "PARTIAL"
-
-        age_days = source_age_days(source_ts)
-        if age_days is not None and age_days > STALE_SOURCE_THRESHOLD_DAYS:
-            stock["validationStatus"] = "STALE_SOURCE_DATA"
-            print(f"[stocks] {display}: source quote timestamp is {age_days:.1f} days old "
-                  f"({source_ts}); flagging as stale — likely delisted/inactive on Yahoo Finance, "
-                  f"not a live current value despite what changePercent may suggest")
-        return stock
-    except Exception as e:
-        print(f"[stocks] {ticker} failed: {e}")
-        return None
-
-
-def resilient_fetch(entry: tuple, existing_by_ticker: dict[str, dict]) -> dict | None:
-    """Fetch a stock; on total fetch failure, retain the last verified value (clearly
-    flagged) rather than dropping the instrument from the dashboard entirely."""
-    display_ticker = entry[0] if len(entry) <= 3 else (entry[3] or entry[0])
-    previous = existing_by_ticker.get(display_ticker)
-    stock = fetch_stock(*entry)
-    if stock is None:
-        if previous:
-            fallback = dict(previous)
-            fallback["retrievedAt"] = datetime.now(timezone.utc).isoformat()
-            fallback["validationStatus"] = "STALE_FETCH_FAILED"
-            print(f"[stocks] {display_ticker}: fetch failed, retaining last verified value "
-                  f"from {previous.get('sourceTimestamp') or previous.get('retrievedAt') or 'unknown time'}")
-            return fallback
-        print(f"[stocks] {display_ticker}: fetch failed and no previous verified data available — DATA UNAVAILABLE")
-        return None
-    return sanity_check_stock(stock, previous)
-
-
-def convert_market_cap_to_usd(stock: dict) -> dict:
-    currency = stock.get("currency")
-    market_cap = stock.get("marketCap")
-    if not market_cap or currency in ("", "USD"):
-        stock["currency"] = "USD"
-        return stock
-    if stock.get("validationStatus") == "STALE_FETCH_FAILED":
-        return stock  # already USD from a prior successful conversion; avoid double-converting
-
-    primary_rate = None
-    try:
-        fx = yf.Ticker(f"{currency}=X")
-        try:
-            primary_rate = (fx.fast_info or {}).get("last_price")
-        except Exception:
-            pass
-        if not primary_rate:
-            info = fx.info or {}
-            primary_rate = info.get("regularMarketPrice") or info.get("currentPrice")
-    except Exception as e:
-        print(f"[stocks] {stock.get('ticker')} FX fetch failed: {e}")
-
-    secondary_rate = independent_fx_rate(currency)
-    rate = None
-    if primary_rate and secondary_rate:
-        diff = abs(primary_rate - secondary_rate) / secondary_rate
-        rate = primary_rate
-        stock["fxValidation"] = "VERIFIED" if diff <= 0.015 else "VALIDATION_REQUIRED"
-        if diff > 0.015:
-            print(f"[stocks] {stock.get('ticker')}: FX mismatch for {currency} "
-                  f"(Yahoo {primary_rate} vs Stooq {secondary_rate}, {diff:.2%} apart); flagged, using Yahoo rate")
-    elif primary_rate:
-        rate = primary_rate
-        stock["fxValidation"] = "SOURCE_UNCONFIRMED"
-    elif secondary_rate:
-        rate = secondary_rate
-        stock["fxValidation"] = "SECONDARY_SOURCE_ONLY"
-
-    if rate:
-        stock["marketCap"] = market_cap / rate
-        stock["currency"] = "USD"
-        stock["fxRate"] = rate
-        stock["fxTimestamp"] = datetime.now(timezone.utc).isoformat()
-    else:
-        print(f"[stocks] {stock.get('ticker')}: no FX rate available for {currency}; leaving marketCap in {currency}")
-        stock["fxValidation"] = "DATA_UNAVAILABLE"
-    return stock
-
-
-def validate_fx_pair(stock: dict) -> dict:
-    """Cross-check a displayed FX pair (USD/INR, EUR/USD, ...) against an independent
-    secondary source; flags rather than silently trusting a single source."""
-    currency_key = {
-        "INR=X": "INR", "JPY=X": "JPY", "CNY=X": "CNY",
-        "EURUSD=X": "EUR", "GBPUSD=X": "GBP",
-    }.get(stock.get("ticker", ""))
-    if not currency_key:
-        return stock  # e.g. DX-Y.NYB (Dollar Index) has no single independent pair to check
-    price = stock.get("indexValue")
-    secondary = independent_fx_rate(currency_key)
-    if secondary and price:
-        diff = abs(float(price) - secondary) / secondary
-        stock["fxValidation"] = "VERIFIED" if diff <= 0.015 else "VALIDATION_REQUIRED"
-        if diff > 0.015:
-            print(f"[fx] {stock.get('ticker')}: Yahoo {price} vs Stooq {secondary} differ by {diff:.2%}; flagged")
-    else:
-        stock["fxValidation"] = "SOURCE_UNCONFIRMED"
-    return stock
-
-
-def fetch_all_stocks() -> dict:
-    existing_by_ticker = load_existing_stocks(DATA / "stocks.json")
-
-    def sorted_region(stocks: list[dict]) -> list[dict]:
-        return sorted(stocks, key=lambda s: (s.get("sortName") or s.get("name") or "").casefold())
-
-    asia = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker)
-            for s in (resilient_fetch(x, existing_by_ticker) for x in ASIA_STOCKS) if s]
-    indexes = [merge_stock_with_existing(convert_market_cap_to_usd(s), existing_by_ticker)
-               for s in (resilient_fetch(x, existing_by_ticker) for x in INDEX_STOCKS) if s]
-    commodities = []
-    for ticker, name, category, unit in COMMODITIES:
-        commodity = resilient_fetch((ticker, name, category), existing_by_ticker)
-        if commodity:
-            commodity["unit"] = unit
-            commodities.append(merge_stock_with_existing(commodity, existing_by_ticker))
-    currency = [validate_fx_pair(merge_stock_with_existing(s, existing_by_ticker))
-                for s in (resilient_fetch(x, existing_by_ticker) for x in CURRENCY_PAIRS) if s]
-
-    return {
-        "us":      sorted_region([merge_stock_with_existing(s, existing_by_ticker)
-                                   for s in (resilient_fetch(x, existing_by_ticker) for x in US_STOCKS) if s]),
-        "asia":    sorted_region(asia),
-        "india":   sorted_region([merge_stock_with_existing(s, existing_by_ticker)
-                                   for s in (resilient_fetch(x, existing_by_ticker) for x in INDIA_STOCKS) if s]),
-        "indexes": sorted_region(indexes),
-        "commodities": sorted_region(commodities),
-        "currency": currency,
-    }
-
-
-# ────────────────────────────────────────────────────────────────────
 # NEWS
 # ────────────────────────────────────────────────────────────────────
 
 def fetch_feed(source: str, url: str, limit: int = 10) -> list[dict]:
     items = []
     try:
-        parsed = feedparser.parse(url)
+        response = requests.get(url, timeout=(4, 10))
+        response.raise_for_status()
+        parsed = feedparser.parse(response.content)
+        if parsed.bozo and not parsed.entries:
+            raise ValueError("Malformed or empty feed")
         for entry in parsed.entries[:limit]:
             published = entry.get("published") or entry.get("updated") or ""
             summary = entry.get("summary") or entry.get("description") or ""
@@ -832,10 +511,13 @@ def fetch_feed(source: str, url: str, limit: int = 10) -> list[dict]:
                 "url":       entry.get("link", ""),
                 "source":    source,
                 "published": published,
+                "retrieved_at": now_iso(),
+                "feed_url": response.url,
                 "summary":   truncate(strip_html(summary), 400),
             })
     except Exception as e:
-        print(f"[rss] {source} failed: {e}")
+        print(f"[rss] {source} failed: {type(e).__name__}")
+        NEWS_ERRORS.append({"source": source, "status": "FETCH_FAILED", "reason": type(e).__name__, "retrieved_at": now_iso()})
     return items
 
 
@@ -844,13 +526,14 @@ def fetch_category(feeds: list[tuple[str, str]],
                    top_n: int = TOP_N,
                    x_items: list[dict] | None = None) -> list[dict]:
     all_items = list(x_items or [])
-    for src, url in feeds:
-        all_items.extend(fetch_feed(src, url, limit=20))
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for batch in pool.map(lambda feed: fetch_feed(*feed, limit=20), feeds):
+            all_items.extend(batch)
 
     relevant = [i for i in all_items if keep_item(i, topic_re)]
     cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
     fresh = [i for i in relevant if parse_date(i["published"]) >= cutoff]
-    pool = fresh if len(fresh) >= top_n else (relevant if relevant else all_items)
+    pool = [i for i in fresh if parse_date(i["published"]) <= datetime.now(timezone.utc)]
 
     pool.sort(key=lambda x: (news_quality_score(x), parse_date(x["published"])), reverse=True)
 
@@ -872,16 +555,20 @@ def fetch_tech_news() -> list[dict]:
         it["isAI"] = True
 
     # 1. AI-native publishers — always isAI=True
-    for src, url in TECH_AI_FEEDS:
-        for it in fetch_feed(src, url, limit=20):
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        ai_batches = list(pool.map(lambda feed: fetch_feed(*feed, limit=20), TECH_AI_FEEDS))
+    for batch in ai_batches:
+        for it in batch:
             if not keep_item(it, None):                  # only block sports/entertainment
                 continue
             it["isAI"] = True
             items.append(it)
 
     # 2. General tech feeds — tag isAI based on whether the title/summary mentions AI
-    for src, url in TECH_GENERAL_FEEDS:
-        for it in fetch_feed(src, url, limit=15):
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        general_batches = list(pool.map(lambda feed: fetch_feed(*feed, limit=15), TECH_GENERAL_FEEDS))
+    for batch in general_batches:
+        for it in batch:
             if not keep_item(it, TECH_BROAD_RE):         # must be tech-ish, not sports
                 continue
             text = (it["title"] + " " + it.get("summary", "")).lower()
@@ -906,45 +593,35 @@ def fetch_tech_news() -> list[dict]:
 # MAIN
 # ────────────────────────────────────────────────────────────────────
 
+def write_news(filename, new_items, category):
+    path = DATA / filename
+    existing = read_json(path) if path.exists() else {"items": []}
+    merged = merge_news(new_items, existing.get("items", []), parse_date, category)
+    output = dict(existing)
+    # Preserve unverified legacy records as evidence, never silently assert verification.
+    if any(i.get("verification_status") != "SOURCE_CONFIRMED" for i in existing.get("items", [])):
+        output.setdefault("unverified_history", existing["items"])
+    output["items"] = merged
+    if output != existing:
+        output["updated"] = now_iso()
+        atomic_write(path, output)
+    print(f"[news] {category}: {len(merged)} publisher-confirmed items")
+
+
 def main():
-    now = datetime.now(timezone.utc).isoformat()
-
-    print("Fetching stocks…")
+    started = now_iso()
+    print("Fetching and validating markets...")
     regions = fetch_all_stocks()
-    (DATA / "stocks.json").write_text(json.dumps(
-        {"updated": now, "regions": regions}, indent=2
-    ))
-    counts = {k: len(v) for k, v in regions.items()}
-    print(f"  stocks per region: {counts}")
-
-    print("Fetching tech / AI news…")
-    new_tech = fetch_tech_news()
-    existing_tech = load_existing_items(DATA / "news_tech.json")
-    # Retro-tag old items that pre-date the isAI field
-    for it in existing_tech:
-        if "isAI" not in it:
-            t = (it.get("title", "") + " " + it.get("summary", "")).lower()
-            it["isAI"] = bool(TECH_AI_RE.search(t))
-    tech_items = merge_with_history(new_tech, existing_tech)
-    (DATA / "news_tech.json").write_text(json.dumps(
-        {"updated": now, "items": tech_items}, indent=2
-    ))
-    ai_count = sum(1 for i in tech_items if i.get("isAI"))
-    print(f"  stored {len(tech_items)} tech items ({ai_count} AI, {len(tech_items)-ai_count} other) — was {len(existing_tech)} before merge")
-
+    print({k: len(v) for k, v in regions.items()})
+    print("Fetching and verifying publisher news...")
+    write_news("news_tech.json", fetch_tech_news(), "tech")
     global_x_items = fetch_x_posts(X_GEO_QUERIES, "global", GEOPOLITICS_RE)
-    for label, feeds, filter_re, filename, x_items in [
-        ("india political", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json", []),
-        ("geopolitical",    GEOPOLITICAL_FEEDS,    GEOPOLITICS_RE,    "news_global.json", global_x_items),
+    for category, feeds, pattern, filename, signals in [
+        ("india", INDIA_POLITICAL_FEEDS, INDIA_POLITICS_RE, "news_india.json", []),
+        ("global", GEOPOLITICAL_FEEDS, GEOPOLITICS_RE, "news_global.json", global_x_items),
     ]:
-        print(f"Fetching {label} news…")
-        new_items = fetch_category(feeds, filter_re, x_items=x_items)
-        existing  = load_existing_items(DATA / filename)
-        merged    = merge_with_history(new_items, existing)
-        (DATA / filename).write_text(json.dumps(
-            {"updated": now, "items": merged}, indent=2
-        ))
-        print(f"  stored {len(merged)} items in {filename} — was {len(existing)} before merge")
+        write_news(filename, fetch_category(feeds, pattern, x_items=signals), category)
+    atomic_write(ROOT / "work" / "execution.json", {"started_at": started, "completed_at": now_iso(), "news_errors": NEWS_ERRORS})
 
 
 if __name__ == "__main__":
