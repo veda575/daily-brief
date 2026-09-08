@@ -217,8 +217,8 @@ function renderStocksTable(stocks, region, usdInr = null) {
       <td class="muted" title="${escapeHtml(quoteStatus(s))}">${escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && commodity.note ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}${quoteStatus(s).startsWith('STALE') && s.field_metadata?.[field]?.validation_status !== 'STALE' ? '<br><small>STALE</small>' : ''}${fieldStatus(s, field)}</td>
-      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && commodity.note ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}${field !== 'marketCap' && quoteStatus(s).startsWith('STALE') && s.field_metadata?.[field]?.validation_status !== 'STALE' ? '<br><small>STALE</small>' : ''}${field === 'marketCap' ? '' : fieldStatus(s, field)}</td>
+      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}</td>
     </tr>`;
   }).join('');
   return `${hero}<table>
