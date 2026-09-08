@@ -124,8 +124,9 @@ function quoteStatus(row) {
 }
 function fieldStatus(row, field) {
   const meta = row.field_metadata?.[field];
-  if (meta?.validation_status !== 'STALE') return '';
-  return '<br><small>STALE · ' + escapeHtml(quoteTime(meta.source_timestamp)) + '</small>';
+  if (!meta || !['STALE','INDICATIVE'].includes(meta.validation_status) && meta.quality !== 'INDICATIVE') return '';
+  const label = [meta.validation_status === 'STALE' ? 'STALE' : '', meta.quality === 'INDICATIVE' || meta.validation_status === 'INDICATIVE' ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(meta.source_timestamp)].filter(Boolean).join(' · ');
+  return '<br><small title="' + escapeHtml(meta.calculation || meta.timestamp_scope || '') + '">' + escapeHtml(label) + '</small>';
 }
 
 function fxHeroHtml(stocks) {
@@ -161,7 +162,7 @@ function renderStocksTable(stocks, region) {
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(s.name)}</strong></td>
-      <td class="muted">${escapeHtml(s.ticker)}<br><small>${escapeHtml(quoteStatus(s))}</small></td>
+      <td class="muted">${escapeHtml(s.ticker)}<br><small>${escapeHtml(quoteStatus(s))}${s.google_instrument && isCommodities ? '<br>Google series: ' + escapeHtml(s.google_instrument) : ''}</small></td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       <td class="num" title="${escapeHtml(exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${fieldStatus(s, field)}</td>
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>

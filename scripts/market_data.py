@@ -2,7 +2,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
 from datetime import datetime, timezone
-from decimal import Decimal, InvalidOperation, localcontext
+from decimal import Decimal, InvalidOperation, localcontext, ROUND_HALF_UP
 from pathlib import Path
 from functools import lru_cache
 from urllib.parse import unquote, urlparse
@@ -24,6 +24,7 @@ FIELDS = ('indexValue', 'marketCap', 'changePercent', 'absoluteChange',
 EXCHANGES = {'NMS': 'NASDAQ', 'NGM': 'NASDAQ', 'NCM': 'NASDAQ', 'NYQ': 'NYSE',
              'ASE': 'NYSEAMERICAN', 'NSE': 'NSE', 'NSI': 'NSE', 'BSE': 'BOM', 'HKG': 'HKG',
              'KSC': 'KRX', 'SHH': 'SHA', 'SHZ': 'SHE'}
+EXCHANGES.update({value:value for value in list(EXCHANGES.values())})
 INDEX_IDS = {'^BSESN': 'SENSEX:INDEXBOM', '^IXIC': '.IXIC:INDEXNASDAQ',
              '^HSI': 'HSI:INDEXHANGSENG', '000001.SS': '000001:SHA',
              '399001.SZ': '399001:SHE', 'DX-Y.NYB': 'DXY:INDEXICE'}
@@ -31,6 +32,12 @@ PAIRS = {'INR=X': ('USD', 'INR'), 'JPY=X': ('USD', 'JPY'),
          'CNY=X': ('USD', 'CNY'), 'EURUSD=X': ('EUR', 'USD'),
          'GBPUSD=X': ('GBP', 'USD'), 'HKD=X': ('USD', 'HKD'),
          'KRW=X': ('USD', 'KRW')}
+# Google continuous series are displayed as indicative observations of these
+# commodity benchmarks, never claimed to match Yahoo's expiry/roll selection.
+GOOGLE_FUTURES = {'ALI=F':'ALIW00:COMEX', 'HG=F':'HGW00:COMEX',
+    'ZC=F':'ZCW00:CBOT', 'CL=F':'CLW00:NYMEX', 'GC=F':'GCW00:COMEX',
+    'NG=F':'NGW00:NYMEX', 'SI=F':'SIW00:COMEX', 'ZS=F':'ZSW00:CBOT',
+    'ZW=F':'ZWW00:CBOT'}
 # Explicit issuer aliases, never replacements for a different listed instrument.
 ALIASES = {'TSM': ['taiwan semiconductor', 'taiwan semicndctr mnufctrng'],
            'GE': ['general electric company'], 'TCS.NS': ['tata consultancy'],
@@ -191,8 +198,12 @@ def parse_google(body, identifier):
         result['currency'] = identifier.split('-')[1]
         result['exchange'] = 'CCY'
     shown = node.select_one('.YMlKec')
-    if shown and display_number(shown.get_text()) == result['price']:
-        result['price'] = display_number(shown.get_text())
+    if shown:
+        displayed = display_number(shown.get_text())
+        # Google embeds float artifacts for futures; use its displayed precision
+        # only when the raw value rounds to that exact displayed observation.
+        if result['price'].quantize(Decimal(1).scaleb(displayed.as_tuple().exponent), rounding=ROUND_HALF_UP) == displayed:
+            result['price'] = displayed
     for row in soup.select('.gyFHrc'):
         label, value = row.select_one('.mfs7Fc'), row.select_one('.P6K39c')
         if not label or not value:
@@ -328,7 +339,80 @@ def google_fx(row, symbol, quote, now):
         'decimal':format(price,'f'), 'currency':PAIRS[symbol][1], 'verification_sources':[]}
     out.update(sourceTimestamp=out['source_timestamp'], retrievedAt=out['retrieved_at'],
                marketStatus=out['market_status'], marketTimezone=out['market_timezone'])
+    return fill_google_fields(out, quote, now)
+
+
+def fill_google_fields(out, quote, now):
+    """Fill missing/stale fields from the same Google snapshot, explicitly labelled."""
+    age = (now-timestamp(quote['timestamp'])).total_seconds()
+    if age < -120:
+        raise ValueError('FUTURE_TIMESTAMP')
+    status = 'STALE' if age > out.get('quote_policy', {}).get('max_quote_age_seconds', 1800) else 'INDICATIVE'
+    values = {f:quote[f] for f in ['marketCap','previousClose','dayHigh','dayLow'] if quote.get(f) is not None}
+    prev = decimal(quote['previousClose']) if quote.get('previousClose') is not None else None
+    if prev is not None and prev > 0:
+        with localcontext() as ctx:
+            ctx.prec = 34
+            values['absoluteChange'] = decimal(quote['price']) - prev
+            values['changePercent'] = (values['absoluteChange']/prev*100).quantize(Decimal('0.000001'), rounding=ROUND_HALF_UP)
+    for field, value in values.items():
+        old = out['field_metadata'].get(field, {})
+        if out.get(field) is not None and old.get('validation_status') not in {'STALE','DATA_UNAVAILABLE'}:
+            continue
+        value = decimal(value)
+        if field not in {'absoluteChange','changePercent'} and value <= 0:
+            continue
+        out[field] = value
+        meta = {'validation_status':status, 'quality':'INDICATIVE', 'source':'Google Finance',
+            'source_timestamp':quote['timestamp'], 'retrieved_at':quote['retrieved_at'],
+            'decimal':format(value,'f'), 'currency':quote.get('currency'), 'verification_sources':[]}
+        if field in {'absoluteChange','changePercent'}:
+            meta.update(calculation='Google quote minus Google previous close' if field == 'absoluteChange' else '(Google quote / Google previous close - 1) * 100; rounded to 6 decimal places',
+                        input_price=quote['price'], input_previous_close=prev)
+        if field == 'marketCap':
+            meta.update(display_resolution=quote.get('cap_resolution'), timestamp_scope='quote snapshot; approximate Google displayed market cap')
+        out['field_metadata'][field] = meta
     return out
+
+
+def google_observation(row, symbol, quote, identity, now):
+    future = symbol in GOOGLE_FUTURES
+    expected = GOOGLE_FUTURES[symbol] if future else google_id(symbol, identity)
+    if quote.get('id') != expected or quote.get('exchange') != expected.split(':')[1]:
+        raise ValueError('INDEPENDENT_INSTRUMENT_ID_MISMATCH')
+    if symbol not in INDEX_IDS and not issuer_matches(row['name'], quote.get('name',''), symbol):
+        # Google calls the soybean series singular.
+        if not (symbol == 'ZS=F' and quote.get('name') == 'Soybean Continuous Contract'):
+            raise ValueError('ISSUER_IDENTITY_REQUIRES_REVIEW')
+    if future and 'Continuous Contract' not in quote.get('name',''):
+        raise ValueError('FUTURES_SERIES_MISMATCH')
+    expected_currency = identity.get('quote_currency') or identity.get('currency') or row.get('quote_currency') or row.get('currency')
+    if not quote.get('currency') or expected_currency and quote['currency'] != expected_currency:
+        raise ValueError('CURRENCY_MISMATCH')
+    price = decimal(quote['price'])
+    if price <= 0:
+        raise ValueError('NONPOSITIVE_PRICE')
+    age = (now-timestamp(quote['timestamp'])).total_seconds()
+    if age < -120:
+        raise ValueError('FUTURE_TIMESTAMP')
+    out = deepcopy(row)
+    for key in ['error','validation_evidence','field_conflicts','outlier_validation']:
+        out.pop(key, None)
+    out.update({f:None for f in FIELDS})
+    status = 'STALE' if age > 1800 else 'INDICATIVE'
+    out.update(indexValue=price, verification_version=1, validation_status=status, validationStatus=status,
+        quote_quality='INDICATIVE', source='Google Finance', source_timestamp=quote['timestamp'],
+        retrieved_at=quote['retrieved_at'], source_symbol=symbol, google_instrument=expected,
+        currency=quote['currency'], quote_currency=quote['currency'], exchange=quote['exchange'],
+        instrument_type='FUTURE' if future else 'INDEX' if symbol in INDEX_IDS else 'EQUITY',
+        market_status='UNKNOWN', market_timezone='UTC', quote_policy={'policy_version':3,'max_quote_age_seconds':1800},
+        validation_scope='Google continuous series; expiry/roll equivalence to Yahoo not established' if future else 'Google observation; not independently verified',
+        field_metadata={f:{'validation_status':'DATA_UNAVAILABLE'} for f in FIELDS})
+    out['field_metadata']['indexValue'] = {'validation_status':status,'quality':'INDICATIVE',
+        'source':'Google Finance','source_timestamp':quote['timestamp'],'retrieved_at':quote['retrieved_at'],
+        'decimal':format(price,'f'),'currency':quote['currency'],'verification_sources':[]}
+    out.update(sourceTimestamp=out['source_timestamp'],retrievedAt=out['retrieved_at'],marketStatus=out['market_status'],marketTimezone=out['market_timezone'])
+    return fill_google_fields(out, quote, now)
 
 
 def unavailable(row, reason):
@@ -354,6 +438,7 @@ def accepted(row, symbol, a, b, now):
     ta, tb = validate_pair(row, symbol, a, b, now)
     state, calendar_name = session_state(a, now)
     out = deepcopy(row)
+    out.pop('quote_quality', None)
     out.pop('error', None)
     out.pop('field_conflicts', None)
     for field in FIELDS:
@@ -447,14 +532,14 @@ def accepted(row, symbol, a, b, now):
 
 
 def convert_usd(row, fx):
-    if row.get('validation_status') != 'VERIFIED' or row.get('marketCap') is None:
+    if row.get('validation_status') not in {'VERIFIED','INDICATIVE','STALE'} or row.get('marketCap') is None:
         return row
     row['nativeMarketCap'] = row['marketCap']
     if row['quote_currency'] == 'USD':
         row['marketCapUSD'] = row['marketCap']
         row['field_metadata']['marketCapUSD'] = deepcopy(row['field_metadata']['marketCap'])
         return row
-    if not fx or fx.get('validation_status') != 'VERIFIED':
+    if not fx or fx.get('validation_status') not in {'VERIFIED','INDICATIVE','STALE'}:
         row['marketCap'] = None
         row['currency'] = 'USD'
         row['fxValidation'] = 'DATA_UNAVAILABLE'
@@ -462,17 +547,25 @@ def convert_usd(row, fx):
         return row
     if fx.get('base_currency') != 'USD' or fx.get('quote_currency') != row['quote_currency']:
         raise ValueError('FX_DIRECTION_MISMATCH')
+    rate = decimal(fx['indexValue'])
+    if rate <= 0:
+        raise ValueError('NONPOSITIVE_PRICE')
     with localcontext() as context:
         context.prec = 34
-        usd = decimal(row['nativeMarketCap']) / decimal(fx['indexValue'])
+        usd = decimal(row['nativeMarketCap']) / rate
+    cap_status = row['field_metadata']['marketCap']['validation_status']
+    conversion_status = 'STALE' if 'STALE' in {cap_status,fx['validation_status']} else 'VERIFIED' if cap_status == fx['validation_status'] == 'VERIFIED' else 'INDICATIVE'
     row.update(marketCap=usd, marketCapUSD=usd, currency='USD', fxRate=fx['indexValue'],
-               fxTimestamp=fx['source_timestamp'], fxValidation='VERIFIED')
+               fxTimestamp=fx['source_timestamp'], fxValidation=conversion_status)
     row['fx_metadata'] = {'base_currency': 'USD', 'quote_currency': row['quote_currency'],
         'source_timestamp': fx['source_timestamp'], 'source': fx['source'],
         'market_cap_source_timestamp': row['field_metadata']['marketCap']['source_timestamp'],
         'timestamp_skew_seconds': abs((timestamp(row['source_timestamp'])-timestamp(fx['source_timestamp'])).total_seconds()),
         'calculation': 'nativeMarketCap / units_of_native_currency_per_USD', 'decimal_precision': 34}
     row['field_metadata']['marketCap'].update(decimal=format(usd, 'f'), currency='USD', calculation='FX conversion')
+    row['field_metadata']['marketCap'].update(validation_status=conversion_status,
+        quality='INDICATIVE' if conversion_status != 'VERIFIED' else 'VERIFIED',
+        fx_source_timestamp=fx['source_timestamp'], fx_source=fx['source'])
     row['field_metadata']['marketCapUSD'] = deepcopy(row['field_metadata']['marketCap'])
     return row
 
@@ -482,6 +575,12 @@ def refresh_markets(payload):
     symbols = [r.get('source_symbol') or ('BHARTIARTL.NS' if r['ticker'] == 'BHARTIARTL' else r['ticker'])
                for rows in payload['regions'].values() for r in rows]
     symbols = list(dict.fromkeys(symbols + ['HKD=X', 'KRW=X']))
+    known = {r.get('source_symbol') or r['ticker']:r for rows in payload['regions'].values() for r in rows}
+    def identity(symbol):
+        if symbol in quotes:
+            return quotes[symbol]
+        old = known.get(symbol, {})
+        return dict(old, quoteType=old.get('instrument_type'))
     try:
         quotes = yahoo_quotes(symbols)
     except Exception as exc:
@@ -489,7 +588,7 @@ def refresh_markets(payload):
         print('[market] Yahoo batch unavailable: ' + type(exc).__name__)
     def get_secondary(symbol):
         try:
-            return symbol, fetch_google(google_id(symbol, quotes.get(symbol, {})))
+            return symbol, fetch_google(GOOGLE_FUTURES[symbol] if symbol in GOOGLE_FUTURES else google_id(symbol, identity(symbol)))
         except Exception as exc:
             return symbol, {'error': str(exc) if isinstance(exc, ValueError) else type(exc).__name__}
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -506,6 +605,9 @@ def refresh_markets(payload):
                 if symbol in PAIRS:
                     result = google_fx(row, symbol, b, datetime.now(timezone.utc))
                     break
+                if symbol in GOOGLE_FUTURES:
+                    result = google_observation(row, symbol, b, identity(symbol), datetime.now(timezone.utc))
+                    break
                 a = quotes[symbol]
                 result = accepted(row, symbol, a, b, datetime.now(timezone.utc))
                 if result.get('field_conflicts') and attempt == 0:
@@ -515,6 +617,7 @@ def refresh_markets(payload):
                         continue
                     except Exception:
                         pass  # Keep accepted fields, quarantine conflicting fields.
+                result = fill_google_fields(result, b, datetime.now(timezone.utc))
                 break
             except (ValueError, KeyError, TypeError, OverflowError) as exc:
                 reason = str(exc) if isinstance(exc, ValueError) else 'MISSING_SOURCE_FIELDS'
@@ -525,7 +628,13 @@ def refresh_markets(payload):
                         continue
                     except Exception:
                         pass
-                result = unavailable(row, reason)
+                try:
+                    b = secondary[symbol]
+                    if symbol in PAIRS or 'error' in b:
+                        raise ValueError(reason)
+                    result = google_observation(row, symbol, b, identity(symbol), datetime.now(timezone.utc))
+                except (ValueError,KeyError,TypeError,OverflowError):
+                    result = unavailable(row, reason)
                 break
         attempts.append({'ticker': row['ticker'], 'retrieved_at': now_iso(),
                          'validation_status': result['validation_status'], 'reason': result.get('error', {}).get('reason'),

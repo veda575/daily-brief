@@ -270,7 +270,8 @@ class IntegrityTests(unittest.TestCase):
             return dict(row, retrieved_at='2026-09-08T15:05:00+00:00')
         with patch.object(m, 'yahoo_quotes', return_value={'MSFT': self.yahoo}), \
              patch.object(m, 'fetch_google', return_value=self.google), \
-             patch.object(m, 'accepted', side_effect=accept_again):
+             patch.object(m, 'accepted', side_effect=accept_again), \
+             patch.object(m, 'fill_google_fields', side_effect=lambda row, *args: row):
             output, attempts = m.refresh_markets(payload)
         self.assertEqual(output, payload)
         self.assertEqual(len(attempts), 3)  # existing row + two internal FX dependencies
@@ -295,6 +296,44 @@ class IntegrityTests(unittest.TestCase):
     def test_futures_contract_not_substituted(self):
         with self.assertRaisesRegex(ValueError, 'MAPPING_UNAVAILABLE'):
             m.google_id('CL=F', {'quoteType': 'FUTURE'})
+
+    def test_google_missing_cap_and_calculated_change_are_indicative(self):
+        row = self.accept()
+        row['marketCap'] = None
+        row['changePercent'] = None
+        quote = dict(self.google, price=Decimal('101'),previousClose=Decimal('100'))
+        out = m.fill_google_fields(row, quote, self.now)
+        self.assertEqual(out['marketCap'], quote['marketCap'])
+        self.assertEqual(out['field_metadata']['marketCap']['quality'],'INDICATIVE')
+        self.assertEqual(out['changePercent'],Decimal('1.000000'))
+        self.assertIn('Google',out['field_metadata']['changePercent']['calculation'])
+
+    def test_google_futures_explicit_series_identity_and_units(self):
+        quote = dict(self.google,id='ZCW00:CBOT',name='Corn Continuous Contract',exchange='CBOT',currency='USX',price=Decimal('539.75'))
+        row = {'ticker':'ZC=F','name':'Corn','currency':'USX','unit':'cents/bushel'}
+        out = m.google_observation(row,'ZC=F',quote,{},self.now)
+        self.assertEqual(out['google_instrument'],'ZCW00:CBOT')
+        self.assertEqual(out['currency'],'USX')
+        self.assertEqual(out['validation_status'],'INDICATIVE')
+        with self.assertRaisesRegex(ValueError,'CURRENCY_MISMATCH'):
+            m.google_observation(row,'ZC=F',dict(quote,currency='USD'),{},self.now)
+        with self.assertRaisesRegex(ValueError,'INDEPENDENT_INSTRUMENT_ID_MISMATCH'):
+            m.google_observation(row,'ZC=F',dict(quote,id='ZSW00:CBOT'),{},self.now)
+
+    def test_stale_google_fx_conversion_is_not_verified(self):
+        row = self.accept(); row.update(quote_currency='HKD',currency='HKD',marketCap=Decimal('10'))
+        fx = dict(indexValue=Decimal('2'),base_currency='USD',quote_currency='HKD',
+                  validation_status='STALE',source='Google Finance',source_timestamp=self.now.isoformat())
+        out=m.convert_usd(row,fx)
+        self.assertEqual(out['marketCap'],Decimal('5'))
+        self.assertEqual(out['field_metadata']['marketCap']['validation_status'],'STALE')
+        self.assertEqual(out['field_metadata']['marketCap']['quality'],'INDICATIVE')
+
+    def test_google_float_artifact_uses_display_precision(self):
+        body = '''<link rel="canonical" href="https://www.google.com/finance/quote/GCW00:COMEX">
+        <div data-last-price="4448.10009765625" data-last-normal-market-timestamp="1788851396">
+        <div class="YMlKec">$4,448.10</div></div>'''
+        self.assertEqual(str(m.parse_google(body,'GCW00:COMEX')['price']),'4448.10')
 
 
 if __name__ == '__main__':
