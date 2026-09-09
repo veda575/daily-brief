@@ -24,8 +24,9 @@ assert(fxHtml.includes('INDICATIVE'));
 assert(!fxHtml.includes('DATA UNAVAILABLE'));
 ctx.indicative.validation_status = 'STALE';
 assert(vm.runInContext('fxHeroHtml([indicative])',ctx).includes('STALE · INDICATIVE'));
-ctx.fieldRow = {field_metadata:{marketCap:{validation_status:'INDICATIVE',quality:'INDICATIVE',source:'Google Finance',source_timestamp:new Date().toISOString()}}};
-assert(!vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('INDICATIVE'));
+ctx.fieldRow = {verification_version:1,validation_status:'VERIFIED',marketCap:100,
+  field_metadata:{marketCap:{decimal:'100',validation_status:'INDICATIVE',quality:'INDICATIVE',source:'Google Finance',source_timestamp:new Date().toISOString()}}};
+assert(vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('INDICATIVE'));
 assert(vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('Google Finance'));
 assert.equal(vm.runInContext("formatDecimal('123456.123456789')", ctx), '123,456.123456789');
 assert.equal(vm.runInContext('fmtGainLossPercent(null)', ctx), 'DATA UNAVAILABLE');
@@ -38,7 +39,7 @@ assert(!html.includes('0.00%'));
 ctx.gold = {name:'Gold',ticker:'GC=F',unit:'USD/troy oz',indexValue:3110.34768,
   verification_version:1,validation_status:'INDICATIVE',
   field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'3110.34768'}}};
-ctx.inr = { ...ctx.indicative,base_currency:'USD',quote_currency:'INR',indexValue:94.49,
+ctx.inr = { ...ctx.indicative,validation_status:'INDICATIVE',base_currency:'USD',quote_currency:'INR',indexValue:94.49,
   field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'94.49'}}};
 const goldDisplay = vm.runInContext('commodityDisplay(gold,inr)',ctx);
 assert.equal(goldDisplay.quantity,'1 Grm');
@@ -65,7 +66,18 @@ assert(!commodityHtml.includes('Google series:'));
 ctx.corn={...ctx.gold,ticker:'ZC=F',unit:'US¢/bushel',indexValue:500,
   field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'500'}}};
 assert.equal(vm.runInContext('commodityDisplay(corn,inr).rate',ctx),'≈ ₹472.45');
-assert(vm.runInContext('commodityDisplay(corn,inr).note',ctx).includes('FX stale'));
+ctx.staleInr={...ctx.inr,source_timestamp:new Date(Date.now()-481000).toISOString()};
+assert.equal(vm.runInContext('commodityDisplay(corn,staleInr).rate',ctx),'DATA UNAVAILABLE');
+assert(vm.runInContext("renderStocksTable([corn], 'commodities', staleInr)",ctx).includes('<small>USD/INR stale; conversion unavailable</small>'));
+ctx.staleInr={...ctx.inr,validation_status:'STALE'};
+assert.equal(vm.runInContext('commodityDisplay(corn,staleInr).rate',ctx),'DATA UNAVAILABLE');
+ctx.capRow={...ctx.fieldRow,name:'Estimated cap',ticker:'TEST'};
+assert(vm.runInContext("renderStocksTable([capRow], 'us')",ctx).includes('<small title="">INDICATIVE'));
+ctx.capRow.validation_status='STALE';
+assert(vm.runInContext("renderStocksTable([capRow], 'us')",ctx).includes('<small title="">STALE'));
+ctx.capRow.validation_status='VERIFIED';
+ctx.capRow.field_metadata.marketCap.fx_source_timestamp=new Date(Date.now()-481000).toISOString();
+assert(vm.runInContext("renderStocksTable([capRow], 'asia')",ctx).includes('<small title="">STALE'));
 assert.equal(vm.runInContext('commodityDisplay(corn).rate',ctx),'DATA UNAVAILABLE');
 ctx.wrongFx={...ctx.inr,base_currency:'INR',quote_currency:'USD'};
 assert.equal(vm.runInContext('commodityDisplay(corn,wrongFx).rate',ctx),'DATA UNAVAILABLE');

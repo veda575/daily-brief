@@ -124,9 +124,15 @@ function quoteStatus(row) {
 }
 function fieldStatus(row, field) {
   const meta = row.field_metadata?.[field];
-  if (!meta || !['STALE','INDICATIVE'].includes(meta.validation_status) && meta.quality !== 'INDICATIVE') return '';
-  const showIndicative = !['marketCap', 'marketCapUSD'].includes(field) && (meta.quality === 'INDICATIVE' || meta.validation_status === 'INDICATIVE');
-  const label = [meta.validation_status === 'STALE' ? 'STALE' : '', showIndicative ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(meta.source_timestamp)].filter(Boolean).join(' · ');
+  if (!meta || !canDisplay(row, field)) return '';
+  const ts = meta.source_timestamp || row.source_timestamp;
+  const age = Date.now() - new Date(ts).getTime();
+  const fxAge = meta.fx_source_timestamp ? Date.now() - new Date(meta.fx_source_timestamp).getTime() : null;
+  const stale = row.validation_status === 'STALE' || meta.validation_status === 'STALE' ||
+    !Number.isFinite(age) || age < -120000 || age > (row.quote_policy?.max_quote_age_seconds ?? 1800) * 1000 ||
+    fxAge !== null && (!Number.isFinite(fxAge) || fxAge < -120000 || fxAge > 480000);
+  const showIndicative = meta.quality === 'INDICATIVE' || meta.validation_status === 'INDICATIVE';
+  const label = [stale ? 'STALE' : '', showIndicative ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(ts)].filter(Boolean).join(' · ');
   return '<br><small title="' + escapeHtml(meta.calculation || meta.timestamp_scope || '') + '">' + escapeHtml(label) + '</small>';
 }
 
@@ -161,7 +167,10 @@ function commodityDisplay(row, usdInr) {
   let title = exact || 'DATA UNAVAILABLE';
   let note = '';
   const fx = usdInr && canDisplay(usdInr, 'indexValue') ? Number(exactValue(usdInr, 'indexValue')) : NaN;
-  const fxValid = usdInr?.base_currency === 'USD' && usdInr?.quote_currency === 'INR' && Number.isFinite(fx) && fx > 0;
+  const fxAge = Date.now() - new Date(usdInr?.field_metadata?.indexValue?.source_timestamp || usdInr?.source_timestamp).getTime();
+  const staleFx = usdInr?.validation_status === 'STALE' || usdInr?.field_metadata?.indexValue?.validation_status === 'STALE' ||
+    !Number.isFinite(fxAge) || fxAge < -120000 || fxAge > (usdInr?.quote_policy?.max_quote_age_seconds ?? 480) * 1000;
+  const fxValid = usdInr?.base_currency === 'USD' && usdInr?.quote_currency === 'INR' && Number.isFinite(fx) && fx > 0 && !staleFx;
   if (available && fxValid && ['USD', 'US¢'].includes(currency)) {
     // Normalize the source quote to the displayed quantity before applying FX.
     const quantityFactor = silverKg ? 1000 / 31.1034768 : goldGram ? 1 / 31.1034768 : 1;
@@ -171,11 +180,10 @@ function commodityDisplay(row, usdInr) {
       (goldGram || silverKg ? '1 troy ounce = 31.1034768 grams · ' : '') +
       (silverKg ? '1 KG = 1,000 grams · ' : '') +
       'USD/INR ' + exactValue(usdInr, 'indexValue') + ' · FX quote ' + quoteTime(usdInr.source_timestamp) + ' · INR rounded to 2 decimals';
-    const fxAge = Date.now() - new Date(usdInr.source_timestamp).getTime();
-    const staleFx = usdInr.validation_status === 'STALE' || !Number.isFinite(fxAge) || fxAge > (usdInr.quote_policy?.max_quote_age_seconds || 480) * 1000;
-    note = 'Indicative INR conversion' + (staleFx ? ' · FX stale' : '');
+    note = 'Indicative INR conversion';
   } else if (available) {
-    title = 'USD/INR conversion rate unavailable';
+    note = usdInr && staleFx ? 'USD/INR stale; conversion unavailable' : 'USD/INR conversion rate unavailable';
+    title = note;
   }
   return {quantity, quantityTitle, rate, title, note};
 }
@@ -217,8 +225,8 @@ function renderStocksTable(stocks, region, usdInr = null) {
       <td class="muted" title="${escapeHtml(quoteStatus(s))}">${escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}</td>
-      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${fieldStatus(s, field)}${isCommodities && commodity.note ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}</td>
+      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
   return `${hero}<table>
