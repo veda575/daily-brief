@@ -33,7 +33,41 @@ class IntegrityTests(unittest.TestCase):
     def test_precision_and_zero_change(self):
         result = self.accept()
         self.assertEqual(result['field_metadata']['indexValue']['decimal'], '100.000')
-        self.assertEqual(result['field_metadata']['changePercent']['decimal'], '0.0000')
+        self.assertEqual(result['field_metadata']['changePercent']['decimal'], '0.000000')
+
+    def test_change_uses_displayed_snapshot_not_earlier_yahoo_quote(self):
+        self.yahoo.update(regularMarketPrice=Decimal('100.4'),
+                          regularMarketChange=Decimal('0.4'), regularMarketChangePercent=Decimal('0.4'))
+        result = self.accept()
+        self.assertEqual(result['indexValue'], Decimal('100'))
+        self.assertEqual(result['changePercent'], Decimal('0'))
+        self.assertEqual(result['absoluteChange'], Decimal('0'))
+        self.assertEqual(result['field_metadata']['changePercent']['source'], 'Google Finance')
+
+    def test_missing_previous_close_does_not_reuse_yesterdays_change(self):
+        self.row = self.accept()
+        self.google.pop('previousClose')
+        self.yahoo.pop('regularMarketPreviousClose')
+        result = self.accept()
+        self.assertIsNone(result['previousClose'])
+        self.assertIsNone(result['changePercent'])
+        self.assertIsNone(result['absoluteChange'])
+
+    def test_failed_asian_refresh_never_converts_usd_twice(self):
+        for currency, rate in [('HKD', '7.8416'), ('KRW', '1300')]:
+            with self.subTest(currency=currency):
+                row = self.accept()
+                row.update(currency=currency, quote_currency=currency)
+                fx = dict(indexValue=Decimal(rate), base_currency='USD', quote_currency=currency,
+                          validation_status='INDICATIVE', source='Google Finance', source_timestamp=self.now.isoformat())
+                converted = m.convert_usd(row, fx)
+                cap, native = converted['marketCap'], converted['nativeMarketCap']
+                for _ in range(3):
+                    converted = m.convert_usd(m.unavailable(converted, 'SOURCE_UNAVAILABLE'), fx)
+                    self.assertEqual(converted['marketCap'], cap)
+                    self.assertEqual(converted['nativeMarketCap'], native)
+                    self.assertEqual(converted['field_metadata']['marketCap']['validation_status'], 'STALE')
+                self.assertEqual(m.convert_usd(converted, None)['marketCap'], cap)
 
     def test_conflict(self):
         self.google['price'] = Decimal('150')
@@ -219,11 +253,11 @@ class IntegrityTests(unittest.TestCase):
         result = m.convert_usd(row, fx)
         self.assertEqual(str(result['marketCap']), '3.333333333333333333333333333333333')
         self.assertEqual(result['nativeMarketCap'], Decimal('10'))
-        row = self.accept(); row['quote_currency'] = 'HKD'
+        row = self.accept(); row.update(quote_currency='HKD', currency='HKD')
         self.assertIsNone(m.convert_usd(row, None)['marketCap'])
 
     def test_fx_direction(self):
-        row = self.accept(); row['quote_currency'] = 'HKD'
+        row = self.accept(); row.update(quote_currency='HKD', currency='HKD')
         with self.assertRaisesRegex(ValueError, 'FX_DIRECTION'):
             m.convert_usd(row, {'validation_status': 'VERIFIED', 'base_currency': 'HKD', 'quote_currency': 'USD'})
 

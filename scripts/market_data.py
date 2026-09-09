@@ -419,8 +419,11 @@ def unavailable(row, reason):
     result = deepcopy(row)
     symbol = row.get('source_symbol') or row.get('ticker')
     result['quote_policy'] = quote_policy(symbol, row.get('market_status'))
-    if row.get('verification_version') == 1 and row.get('source_timestamp') and (row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') == 'VERIFIED' or row.get('quote_quality') == 'INDICATIVE' and row.get('indexValue') is not None):
+    if row.get('verification_version') == 1 and row.get('source_timestamp') and (row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') in {'VERIFIED', 'STALE'} or row.get('quote_quality') == 'INDICATIVE' and row.get('indexValue') is not None):
         result['validation_status'] = 'STALE'
+        for field, meta in result.get('field_metadata', {}).items():
+            if result.get(field) is not None:
+                meta.update(validation_status='STALE', reason=reason)
     else:
         # Preserve historical bytes as evidence, never reuse as verified history.
         result.setdefault('legacy_snapshot', {k: row[k] for k in FIELDS if k in row})
@@ -478,15 +481,20 @@ def accepted(row, symbol, a, b, now):
                 out.setdefault('field_conflicts', []).append(field)
     if out['dayLow'] and out['dayHigh'] and out['dayLow'] > out['dayHigh']:
         raise ValueError('INVALID_DAY_RANGE')
-    # Provider changes must reconcile with its own regular-session previous close.
+    # Derive both changes from the same Google snapshot used for the price.
+    # Yahoo may be an earlier intraday observation within the comparison window.
     if out['previousClose']:
-        prev, price = decimal(a['regularMarketPreviousClose']), decimal(a['regularMarketPrice'])
-        calculated = price-prev
-        pct = calculated/prev*100
-        for field, key, expected, tolerance in [('absoluteChange', 'regularMarketChange', calculated, Decimal('0.02')),
-                                               ('changePercent', 'regularMarketChangePercent', pct, Decimal('0.02'))]:
-            if a.get(key) is not None and abs(decimal(a[key])-expected) <= tolerance:
-                put(field, a[key], 'Yahoo Finance')
+        prev, price = decimal(b['previousClose']), decimal(b['price'])
+        with localcontext() as context:
+            context.prec = 34
+            changes = {'absoluteChange': price-prev,
+                       'changePercent': ((price-prev)/prev*100).quantize(Decimal('0.000001'), rounding=ROUND_HALF_UP)}
+        for field, value in changes.items():
+            put(field, value)
+            out['field_metadata'][field].update(
+                calculation='Google quote minus Google previous close' if field == 'absoluteChange' else '(Google quote / Google previous close - 1) * 100; rounded to 6 decimal places',
+                input_price=price, input_previous_close=prev,
+                verification_scope='Calculated from corroborated price and previous close')
     if a.get('marketCap') is not None and b.get('marketCap') is not None:
         cap = decimal(a['marketCap'])
         if cap > 0 and abs(cap-b['marketCap']) <= b['cap_resolution']/2:
@@ -519,7 +527,8 @@ def accepted(row, symbol, a, b, now):
         if out.get(field) is not None:
             continue
         old_meta = row.get('field_metadata', {}).get(field, {})
-        if (row.get('verification_version') == 1 and row.get('quote_currency') == out['quote_currency']
+        if (field not in {'previousClose', 'absoluteChange', 'changePercent'}
+                and row.get('verification_version') == 1 and row.get('quote_currency') == out['quote_currency']
                 and row.get('currency') == out['currency'] and row.get(field) is not None
                 and old_meta.get('validation_status') in {'VERIFIED', 'STALE'}):
             out[field] = row[field]
@@ -533,6 +542,10 @@ def accepted(row, symbol, a, b, now):
 
 def convert_usd(row, fx):
     if row.get('validation_status') not in {'VERIFIED','INDICATIVE','STALE'} or row.get('marketCap') is None:
+        return row
+    # A failed quote refresh returns the previous, already converted snapshot.
+    # Keep its cap and FX provenance together; never treat USD as native currency.
+    if row.get('currency') == 'USD' and row.get('quote_currency') != 'USD':
         return row
     row['nativeMarketCap'] = row['marketCap']
     if row['quote_currency'] == 'USD':
