@@ -1,6 +1,57 @@
 {
-  "updated": "2026-09-09T22:09:03.785589+00:00",
+  "updated": "2026-09-10T00:09:50.806395+00:00",
   "items": [
+    {
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T00:00:37+00:00",
+      "retrieved_at": "2026-09-10T00:09:47.049129+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "398e4b0646c7775cb271a1b2"
+    },
+    {
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T22:25:22+00:00",
+      "retrieved_at": "2026-09-10T00:09:47.049152+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "81154c43e08fa8a63595db8f"
+    },
+    {
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "url": "https://wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity",
+      "source": "Wired",
+      "published": "2026-09-09T22:11:55+00:00",
+      "retrieved_at": "2026-09-10T00:09:47.626632+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4fec7ec10742a13aa316e3d2"
+    },
     {
       "title": "Massachusetts hits data centers with new clean power rules",
       "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules",
@@ -34,6 +85,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "93a206b146ff93763566bf39"
+    },
+    {
+      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit",
+      "source": "Ars Technica",
+      "published": "2026-09-09T20:55:02+00:00",
+      "retrieved_at": "2026-09-10T00:09:47.583139+00:00",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "summary": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "7567183bde6408f647bb3860"
     },
     {
       "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
@@ -206,11 +274,11 @@
       "story_fingerprint": "bb3f823a066c26a9cc573375"
     },
     {
-      "title": "Apple has a new way prove your iPhone photos aren’t AI slop",
+      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
       "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop",
       "source": "TechCrunch AI",
       "published": "2026-09-09T18:08:35+00:00",
-      "retrieved_at": "2026-09-09T19:58:19.943760+00:00",
+      "retrieved_at": "2026-09-10T00:09:47.049256+00:00",
       "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "summary": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
       "isAI": true,
@@ -220,7 +288,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "670a33c7759c60e2dd0e2da3"
+      "story_fingerprint": "ffab20e65638de5f7b2b3daa"
     },
     {
       "title": "Apple shows off AirPods 5 with improved active noise cancellation",
@@ -459,6 +527,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "48490c4f3212bb9a6ceff6ad"
+    },
+    {
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "source": "OpenAI",
+      "published": "2026-09-09T13:00:00+00:00",
+      "retrieved_at": "2026-09-10T00:09:42.502689+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "ecf3638def76514e8e8410ea"
     },
     {
       "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
@@ -1804,23 +1889,6 @@
       "story_fingerprint": "0a0e39bcb140f88de41657f0"
     },
     {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "source": "OpenAI",
-      "published": "2026-09-03T12:00:00+00:00",
-      "retrieved_at": "2026-09-08T04:52:22.620464+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "4088f9c79bf58e291dc27488"
-    },
-    {
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "source": "OpenAI",
@@ -1836,6 +1904,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "ad0eb0fdcd41ffa745f40380"
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "source": "OpenAI",
+      "published": "2026-09-03T12:00:00+00:00",
+      "retrieved_at": "2026-09-08T04:52:22.620464+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "4088f9c79bf58e291dc27488"
     },
     {
       "title": "GPT-6 Astra: A new generation of intelligence",
