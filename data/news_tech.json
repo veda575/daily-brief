@@ -1,6 +1,40 @@
 {
-  "updated": "2026-09-11T14:36:40.494713+00:00",
+  "updated": "2026-09-11T17:52:57.927851+00:00",
   "items": [
+    {
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T16:46:25+00:00",
+      "retrieved_at": "2026-09-11T17:52:54.406937+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2b180cb613f5f0b9a0cd6b4a"
+    },
+    {
+      "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+      "url": "https://wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us",
+      "source": "Wired",
+      "published": "2026-09-11T15:00:00+00:00",
+      "retrieved_at": "2026-09-11T17:52:55.262338+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Timnit Gebru argues that AI companies are stoking fears of extinction to avoid discussing actual harms, like autonomous weapons.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "83af282100b20372bc231042"
+    },
     {
       "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
       "url": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider",
@@ -51,6 +85,23 @@
       "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
       "source_type": "PUBLISHER",
       "story_fingerprint": "14bab391abb45ba482118f67"
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "OpenAI",
+      "published": "2026-09-11T10:00:00+00:00",
+      "retrieved_at": "2026-09-11T17:52:55.008765+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "999dcba73c097537d7a19da3"
     },
     {
       "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
