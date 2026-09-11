@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-11T01:15:18.583172+00:00",
+  "updated": "2026-09-11T10:36:48.660654+00:00",
   "items": [
+    {
+      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "url": "https://wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone",
+      "source": "Wired",
+      "published": "2026-09-11T09:00:00+00:00",
+      "retrieved_at": "2026-09-11T10:36:46.167412+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "64b374b6a1a60abae6536d3b"
+    },
     {
       "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
       "url": "https://wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal",
@@ -57,9 +74,9 @@
       "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026",
       "source": "TechCrunch AI",
       "published": "2026-09-10T21:35:00+00:00",
-      "retrieved_at": "2026-09-10T21:49:29.471495+00:00",
+      "retrieved_at": "2026-09-11T10:36:45.171588+00:00",
       "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness and building businesses.",
+      "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.",
       "isAI": true,
       "category": "tech",
       "relevance": "AI",
@@ -512,23 +529,6 @@
       "story_fingerprint": "398e4b0646c7775cb271a1b2"
     },
     {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "source": "OpenAI",
-      "published": "2026-09-10T00:00:00+00:00",
-      "retrieved_at": "2026-09-10T21:49:29.983947+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "a0d303dada8bd41c1ca7da33"
-    },
-    {
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "source": "OpenAI",
@@ -544,6 +544,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "708eec0fe563e821f89edb0e"
+    },
+    {
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source": "OpenAI",
+      "published": "2026-09-10T00:00:00+00:00",
+      "retrieved_at": "2026-09-10T21:49:29.983947+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "a0d303dada8bd41c1ca7da33"
     },
     {
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
