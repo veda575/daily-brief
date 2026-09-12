@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-11T22:29:21.172425+00:00",
+  "updated": "2026-09-12T00:27:35.624477+00:00",
   "items": [
     {
-      "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data",
       "source": "TechCrunch AI",
-      "published": "2026-09-11T20:59:47+00:00",
-      "retrieved_at": "2026-09-11T22:29:17.180150+00:00",
+      "published": "2026-09-11T22:58:17+00:00",
+      "retrieved_at": "2026-09-12T00:27:30.408093+00:00",
       "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be \"a form of public good.\"",
+      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
       "isAI": true,
       "category": "tech",
       "relevance": "AI",
@@ -16,7 +16,24 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "abccd8c5327dbf9c20ad405f"
+      "story_fingerprint": "c18f20f229000b12e66dff34"
+    },
+    {
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T20:59:47+00:00",
+      "retrieved_at": "2026-09-12T00:27:30.408124+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "e3a705a152478db5514bc17b"
     },
     {
       "title": "OpenAI’s feud with mathematicians is only escalating",
@@ -204,6 +221,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "2b180cb613f5f0b9a0cd6b4a"
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "source": "OpenAI",
+      "published": "2026-09-11T16:00:00+00:00",
+      "retrieved_at": "2026-09-12T00:27:30.959901+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "da58ecc7d521f94e06187fc1"
     },
     {
       "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
