@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-12T21:37:32.390671+00:00",
+  "updated": "2026-09-12T23:17:18.102563+00:00",
   "items": [
+    {
+      "title": "Tens of thousands march across Germany to protest far-right party AfD",
+      "url": "https://aljazeera.com/news/2026/9/12/tens-of-thousands-march-across-germany-to-protest-far-right-party-afd",
+      "source": "Al Jazeera",
+      "published": "2026-09-12T22:37:03+00:00",
+      "retrieved_at": "2026-09-12T23:17:12.122401+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Protesters in about 20 cities, including Berlin, Hamburg and Munich, demand the banning of the Alternative for Germany.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "9c73f4136645f5cd474993a8"
+    },
+    {
+      "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
+      "url": "https://bbc.co.uk/news/articles/cwyzppd1d5lo",
+      "source": "BBC World",
+      "published": "2026-09-12T21:25:28+00:00",
+      "retrieved_at": "2026-09-12T23:17:12.222727+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "42be775b510add9fadb95476"
+    },
     {
       "title": "Israel bombs southern Lebanon as talks postponed",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/12/israel-bombs-southern-lebanon-as-talks-postponed",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "74904f43b13c769fb3a4c538"
-    },
-    {
-      "title": "US attacks 5 Iranian oil tankers, Iran retaliates with strikes on Jordan",
-      "url": "https://aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base",
-      "source": "Al Jazeera",
-      "published": "2026-09-09T00:08:37+00:00",
-      "retrieved_at": "2026-09-09T00:52:30.954743+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "US military says it struck the five Iranian tankers after IRGC targeted a US warship twice in two days.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "4790036c8f1e05fc65d99208"
-    },
-    {
-      "title": "Iran war live: US, Iran attack oil tankers; crude heads to $100",
-      "url": "https://aljazeera.com/news/liveblog/2026/9/9/iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-base-in-jordan",
-      "source": "Al Jazeera",
-      "published": "2026-09-09T00:00:00+00:00",
-      "retrieved_at": "2026-09-09T05:24:43.308481+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Iran's IRGC urges crews to leave tankers in Kuwait and Bahrain, warning it will target ships following US attack.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "eacba2748f6f1c5fe1f83acc"
     }
   ],
   "unverified_history": [
