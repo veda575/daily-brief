@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-12T12:25:48.960454+00:00",
+  "updated": "2026-09-12T17:49:25.456785+00:00",
   "items": [
+    {
+      "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+      "source": "TechCrunch AI",
+      "published": "2026-09-12T15:52:11+00:00",
+      "retrieved_at": "2026-09-12T17:49:20.734899+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "What would it actually look like to \"pace the frontier\"?",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "dee0150508784b60eee47577"
+    },
     {
       "title": "I spent $4,000 on a robot dog from China",
       "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china",
@@ -138,11 +155,11 @@
       "story_fingerprint": "f42b7b6a70869b703b858e14"
     },
     {
-      "title": "Roundtables: AI’s apocalypse crisis",
+      "title": "Roundtables: Could AI really kill us all?",
       "url": "https://technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all",
       "source": "MIT Tech Review",
       "published": "2026-09-11T20:05:06+00:00",
-      "retrieved_at": "2026-09-11T22:29:17.908902+00:00",
+      "retrieved_at": "2026-09-12T17:49:21.404492+00:00",
       "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
       "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction…",
       "isAI": true,
@@ -152,7 +169,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "a3733c4416a3397df2430840"
+      "story_fingerprint": "b3bcdf6b05e4d6d50842a1cf"
     },
     {
       "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
