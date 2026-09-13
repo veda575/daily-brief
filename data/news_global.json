@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-13T05:53:18.540302+00:00",
+  "updated": "2026-09-13T10:40:24.282249+00:00",
   "items": [
+    {
+      "title": "Voting under way in Sweden election that could see far right in government",
+      "url": "https://aljazeera.com/news/2026/9/13/voting-under-way-in-sweden-election-that-could-see-far-right-enter-govt",
+      "source": "Al Jazeera",
+      "published": "2026-09-13T08:39:49+00:00",
+      "retrieved_at": "2026-09-13T10:40:18.193997+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "The far-right Sweden Democrats party could enter government for the first time if right-wing bloc wins.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "81930288a4c344299d4a6d8b"
+    },
     {
       "title": "Iran’s Pezeshkian: ‘We are not at war with Saudi Arabia’",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/13/13-09-clip-pezeshkian-iran-not-at-war-with-saudis-ir",
@@ -34,20 +50,36 @@
       "story_fingerprint": "c579868baccd01eed203a626"
     },
     {
-      "title": "Iran war live: Tens of thousands displaced as Yemen fighting escalates",
+      "title": "Iran war live: Commercial ship attacked in Hormuz, killing 1, wounding 4",
       "url": "https://aljazeera.com/news/liveblog/2026/9/13/iran-war-live-saudi-arabia-and-houthis-trade-strikes-over-bab-al-mandeb",
       "source": "Al Jazeera",
       "published": "2026-09-13T00:00:40+00:00",
-      "retrieved_at": "2026-09-13T05:53:14.399474+00:00",
+      "retrieved_at": "2026-09-13T10:40:18.194401+00:00",
       "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Houthi forces and Yemen's internationally recognised government trade strikes as fighting intensifies.",
+      "summary": "Latest strike on cargo vessel comes as Iran leaders plan to meet Gulf officials to discuss control over key waterway.",
       "category": "global",
       "relevance": "global",
       "verification_status": "SOURCE_CONFIRMED",
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "8b24f28ce15264c550423a20"
+      "story_fingerprint": "69c44fa11fe3092c8b7d7973"
+    },
+    {
+      "title": "Russians seek answers over hundreds missing after Ukraine's 2024 incursion",
+      "url": "https://bbc.co.uk/news/articles/c62ene9kr71o",
+      "source": "BBC World",
+      "published": "2026-09-12T23:51:05+00:00",
+      "retrieved_at": "2026-09-13T10:40:18.087179+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Officials say more than 300 Russians remain missing after the 2024 Kursk offensive, but no-one really knows the true figure.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "5f211bbf89a3e4e2bf649a42"
     },
     {
       "title": "Tens of thousands march across Germany to protest far-right party AfD",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b78d6fb5c147ba2485754855"
-    },
-    {
-      "title": "Conflict over Taiwan would be disastrous, de facto US ambassador warns",
-      "url": "https://aljazeera.com/economy/2026/9/9/conflict-over-taiwan-would-be-disastrous-de-facto-us-ambassador-warns",
-      "source": "Al Jazeera",
-      "published": "2026-09-09T04:04:45+00:00",
-      "retrieved_at": "2026-09-09T05:24:43.308330+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "The United States remains Taiwan's main international backer and arms supplier despite lack of formal diplomatic ties.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2d07c38504f4a112e70300ea"
-    },
-    {
-      "title": "US reading scores hit near-25-year low in latest global assessment",
-      "url": "https://aljazeera.com/news/2026/9/9/us-reading-scores-hit-near-25-year-low-in-latest-global-assessment",
-      "source": "Al Jazeera",
-      "published": "2026-09-09T02:36:44+00:00",
-      "retrieved_at": "2026-09-09T05:24:43.308364+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Scores among US 15-year-olds dropped 14 points from 2022, as the Trump administration pushes for 'school choice'.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "7ce195561cc213efb7ae17e3"
     }
   ],
   "unverified_history": [
