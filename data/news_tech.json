@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-13T23:31:06.130305+00:00",
+  "updated": "2026-09-14T01:25:28.773963+00:00",
   "items": [
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI",
+      "published": "2026-09-14T00:00:00+00:00",
+      "retrieved_at": "2026-09-14T01:25:25.600632+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "b5e889eb42fdc6f7fe9c88d4"
+    },
     {
       "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
       "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic",
