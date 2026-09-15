@@ -1,6 +1,57 @@
 {
-  "updated": "2026-09-15T13:09:47.074258+00:00",
+  "updated": "2026-09-15T14:29:36.093977+00:00",
   "items": [
+    {
+      "title": "India ends free ride for larger transactions on its ubiquitous digital payments network",
+      "url": "https://techcrunch.com/2026/09/15/india-ends-free-ride-for-larger-transactions-on-its-ubiquitous-digital-payments-network",
+      "source": "TechCrunch",
+      "published": "2026-09-15T14:22:49+00:00",
+      "retrieved_at": "2026-09-15T14:29:33.162425+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "India will impose a 0.4% merchant fee on certain payments made through UPI starting October 15.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "f4061b15f563aeca3fe8aaa8"
+    },
+    {
+      "title": "4 days left to exhibit at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/15/4-days-left-to-exhibit-at-techcrunch-disrupt-2026",
+      "source": "TechCrunch",
+      "published": "2026-09-15T14:00:00+00:00",
+      "retrieved_at": "2026-09-15T14:29:33.162466+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "Last day to exhibit at Disrupt is Sept 18. 4 days left. Get your startup in front of 10,000+ founders, investors, operators and tech leaders October 13–15.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "c72c078edc3d2b639e66a831"
+    },
+    {
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T13:00:00+00:00",
+      "retrieved_at": "2026-09-15T14:29:32.166227+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "837a9f0ef24e857c7878c990"
+    },
     {
       "title": "New insights from Google’s AI & Economy ATLAS",
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026",
@@ -17,23 +68,6 @@
       "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "source_type": "PRIMARY",
       "story_fingerprint": "e73fdb32b67f8bcd8c5de43a"
-    },
-    {
-      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
-      "source": "TechCrunch AI",
-      "published": "2026-09-15T13:00:00+00:00",
-      "retrieved_at": "2026-09-15T13:09:43.351937+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A lound led by Ribbit Capital, with participation from First Harmonic.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "837a9f0ef24e857c7878c990"
     },
     {
       "title": "New Italian unicorn Exein rides the physical AI wave",
@@ -510,23 +544,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "eb9f4c4809ff337ec0164173"
-    },
-    {
-      "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days",
-      "source": "TechCrunch AI",
-      "published": "2026-09-14T14:00:00+00:00",
-      "retrieved_at": "2026-09-14T18:35:29.870190+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "256781d8919e75f96739f75c"
     },
     {
       "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "021e3e03b45a4216e02f8458"
-    },
-    {
-      "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-      "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says",
-      "source": "Ars Technica AI",
-      "published": "2026-08-27T20:52:31+00:00",
-      "retrieved_at": "2026-09-08T04:57:05.689741+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "xAI accused of training Grok on real and AI-generated child pornography.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "a8b6cab235af5f04740a2d97"
     }
   ],
   "unverified_history": [
