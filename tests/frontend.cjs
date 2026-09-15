@@ -41,6 +41,22 @@ ctx.gold = {name:'Gold',ticker:'GC=F',unit:'USD/troy oz',indexValue:3110.34768,
 ctx.inr = { ...ctx.indicative,base_currency:'USD',quote_currency:'INR',indexValue:94.49,
   field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'94.49'}}};
 const goldDisplay = vm.runInContext('commodityDisplay(gold,inr)',ctx);
+ctx.localGold = {name:'Gold (24 Carat, Hyderabad)',ticker:'GOLD_24K_HYDERABAD',unit:'INR/gram',
+  source:'Groww',source_date:'2026-09-15',source_timestamp:new Date().toISOString(),
+  indexValue:14742,verification_version:1,validation_status:'INDICATIVE',
+  field_metadata:{indexValue:{validation_status:'INDICATIVE',decimal:'14742',source:'Groww'}}};
+assert.equal(vm.runInContext('commodityDisplay(localGold).rate',ctx),'₹14,742');
+assert.equal(vm.runInContext('commodityDisplay(localGold,inr).rate',ctx),'₹14,742');
+assert.equal(vm.runInContext("marketReference(localGold,'indexValue',inr)",ctx),'Groww');
+const localGoldHtml = vm.runInContext("renderStocksTable([localGold], 'commodities')",ctx);
+assert(localGoldHtml.includes('Gold (24 Carat, Hyderabad)'));
+assert(localGoldHtml.includes('As of 2026-09-15'));
+assert(localGoldHtml.includes('Excludes GST'));
+assert(localGoldHtml.includes('https://groww.in/gold-rates/gold-rate-today-in-hyderabad'));
+ctx.localGold.validation_status = 'STALE';
+assert(vm.runInContext('commodityDisplay(localGold).note',ctx).includes('STALE'));
+ctx.localGold.indexValue = null;
+assert.equal(vm.runInContext('commodityDisplay(localGold,inr).rate',ctx),'DATA UNAVAILABLE');
 assert.equal(goldDisplay.quantity,'1 Grm');
 assert.equal(goldDisplay.rate,'≈ ₹9,449.00');
 assert(goldDisplay.title.includes('31.1034768'));

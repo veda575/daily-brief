@@ -12,6 +12,22 @@ from fetch_data import parse_date
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_gold_refresh_migrates_futures_to_local_retail(self):
+        from local_gold import GOLD_ID
+        gold = {'ticker': GOLD_ID, 'name': 'Gold (24 Carat, Hyderabad)',
+                'unit': 'INR/gram', 'indexValue': Decimal('14742'),
+                'validation_status': 'INDICATIVE'}
+        payload = {'regions': {'commodities': [{'ticker': 'GC=F', 'name': 'Gold'}]}}
+        with patch.object(m, 'yahoo_quotes', return_value={}) as yahoo, \
+             patch.object(m, 'fetch_google', side_effect=ValueError('UNAVAILABLE')) as google, \
+             patch.object(m, 'refresh_gold', return_value=gold) as local:
+            output, attempts = m.refresh_markets(payload)
+        self.assertEqual(output['regions']['commodities'], [gold])
+        local.assert_called_once_with(payload['regions']['commodities'][0])
+        self.assertNotIn('GC=F', yahoo.call_args.args[0])
+        self.assertFalse(any(c.args[0] == 'GCW00:COMEX' for c in google.call_args_list))
+        self.assertTrue(any(a['ticker'] == GOLD_ID for a in attempts))
+
     def setUp(self):
         self.now = datetime(2026, 9, 8, 15, tzinfo=timezone.utc)
         self.row = {'ticker': 'MSFT', 'name': 'Microsoft', 'sector': 'Cloud / AI'}

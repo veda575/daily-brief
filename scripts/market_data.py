@@ -18,6 +18,7 @@ from bs4 import BeautifulSoup
 import yfinance as yf
 import exchange_calendars as calendars
 import pandas as pd
+from local_gold import GOLD_ID, refresh_gold
 
 FIELDS = ('indexValue', 'marketCap', 'changePercent', 'absoluteChange',
           'previousClose', 'dayHigh', 'dayLow', 'volume', 'marketCapUSD')
@@ -574,7 +575,7 @@ def refresh_markets(payload):
     now = datetime.now(timezone.utc)
     symbols = [r.get('source_symbol') or ('BHARTIARTL.NS' if r['ticker'] == 'BHARTIARTL' else r['ticker'])
                for rows in payload['regions'].values() for r in rows]
-    symbols = list(dict.fromkeys(symbols + ['HKD=X', 'KRW=X']))
+    symbols = list(dict.fromkeys(s for s in symbols + ['HKD=X', 'KRW=X'] if s not in {'GC=F', GOLD_ID}))
     known = {r.get('source_symbol') or r['ticker']:r for rows in payload['regions'].values() for r in rows}
     def identity(symbol):
         if symbol in quotes:
@@ -596,6 +597,12 @@ def refresh_markets(payload):
     attempts = []
     def refresh(row):
         symbol = row.get('source_symbol') or ('BHARTIARTL.NS' if row['ticker'] == 'BHARTIARTL' else row['ticker'])
+        if symbol in {'GC=F', GOLD_ID}:
+            result = refresh_gold(row)
+            attempts.append({'ticker': result['ticker'], 'retrieved_at': now_iso(),
+                             'validation_status': result['validation_status'],
+                             'reason': result.get('error', {}).get('reason')})
+            return result
         reason = 'SOURCE_UNAVAILABLE'
         for attempt in range(2):
             try:

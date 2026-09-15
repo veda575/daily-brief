@@ -10435,125 +10435,49 @@
         "marketTimezone": "UTC"
       },
       {
-        "ticker": "GC=F",
-        "name": "Gold",
+        "ticker": "GOLD_24K_HYDERABAD",
+        "name": "Gold (24 Carat, Hyderabad)",
         "sector": "Metals",
-        "currency": "USD",
-        "marketCap": null,
-        "changePercent": -1.066201,
-        "indexValue": 4305.50,
-        "unit": "USD/troy oz",
-        "legacy_snapshot": {
-          "indexValue": 4468.4,
-          "marketCap": null,
-          "changePercent": -0.1831791
-        },
-        "absoluteChange": -46.40,
-        "previousClose": 4351.90,
-        "dayHigh": 4358.20,
-        "dayLow": 4301.60,
-        "volume": null,
-        "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
-        "source_timestamp": "2026-09-15T09:29:55+00:00",
-        "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
-        "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
-        },
-        "verification_version": 1,
+        "unit": "INR/gram",
+        "currency": "INR",
+        "quote_currency": "INR",
+        "city": "Hyderabad",
+        "purity": "24 Carat",
+        "source": "Groww",
+        "source_url": "https://groww.in/gold-rates/gold-rate-today-in-hyderabad",
+        "quote_basis": "Indicative retail rate; excludes GST and making charges",
         "quote_quality": "INDICATIVE",
-        "source": "Google Finance",
-        "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-        "source_symbol": "GC=F",
-        "google_instrument": "GCW00:COMEX",
-        "quote_currency": "USD",
-        "exchange": "COMEX",
-        "instrument_type": "FUTURE",
-        "market_timezone": "UTC",
-        "validation_scope": "Google continuous series; expiry/roll equivalence to Yahoo not established",
+        "verification_version": 1,
+        "quote_policy": {
+          "max_quote_age_seconds": 172800
+        },
         "field_metadata": {
           "indexValue": {
             "validation_status": "INDICATIVE",
             "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-15T09:29:55+00:00",
-            "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-            "decimal": "4305.50",
-            "currency": "USD",
-            "verification_sources": []
-          },
-          "marketCap": {
-            "validation_status": "DATA_UNAVAILABLE"
+            "decimal": "15317",
+            "source": "Groww",
+            "source_timestamp": "2026-09-15T00:00:00+05:30",
+            "timestamp_scope": "Source publishes date only",
+            "currency": "INR"
           },
           "changePercent": {
             "validation_status": "INDICATIVE",
             "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-15T09:29:55+00:00",
-            "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-            "decimal": "-1.066201",
-            "currency": "USD",
-            "verification_sources": [],
-            "calculation": "(Google quote / Google previous close - 1) * 100; rounded to 6 decimal places",
-            "input_price": 4305.50,
-            "input_previous_close": 4351.90
-          },
-          "absoluteChange": {
-            "validation_status": "INDICATIVE",
-            "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-15T09:29:55+00:00",
-            "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-            "decimal": "-46.40",
-            "currency": "USD",
-            "verification_sources": [],
-            "calculation": "Google quote minus Google previous close",
-            "input_price": 4305.50,
-            "input_previous_close": 4351.90
-          },
-          "previousClose": {
-            "validation_status": "INDICATIVE",
-            "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-15T09:29:55+00:00",
-            "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-            "decimal": "4351.90",
-            "currency": "USD",
-            "verification_sources": []
-          },
-          "dayHigh": {
-            "validation_status": "INDICATIVE",
-            "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-15T09:29:55+00:00",
-            "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-            "decimal": "4358.20",
-            "currency": "USD",
-            "verification_sources": []
-          },
-          "dayLow": {
-            "validation_status": "INDICATIVE",
-            "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-15T09:29:55+00:00",
-            "retrieved_at": "2026-09-15T09:43:14.933118+00:00",
-            "decimal": "4301.60",
-            "currency": "USD",
-            "verification_sources": []
-          },
-          "volume": {
-            "validation_status": "DATA_UNAVAILABLE"
-          },
-          "marketCapUSD": {
-            "validation_status": "DATA_UNAVAILABLE"
+            "decimal": "-0.60",
+            "source": "Groww",
+            "source_timestamp": "2026-09-15T00:00:00+05:30",
+            "timestamp_scope": "Source publishes date only",
+            "currency": null
           }
         },
-        "sourceTimestamp": "2026-09-15T09:29:55+00:00",
-        "retrievedAt": "2026-09-15T09:43:14.933118+00:00",
-        "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "indexValue": 15317,
+        "changePercent": -0.60,
+        "validation_status": "INDICATIVE",
+        "source_date": "2026-09-15",
+        "source_timestamp": "2026-09-15T00:00:00+05:30",
+        "timestamp_scope": "Source publishes date only",
+        "retrieved_at": "2026-09-15T12:42:35.821618+00:00"
       },
       {
         "ticker": "NG=F",

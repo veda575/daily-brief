@@ -75,7 +75,7 @@ CURRENCY_PAIRS = [
 COMMODITIES = [
     ("CL=F",  "Crude Oil",   "Energy",        "USD/bbl"),
     ("NG=F",  "Natural Gas", "Energy",        "USD/MMBtu"),
-    ("GC=F",  "Gold",        "Metals",        "USD/troy oz"),
+    ("GOLD_24K_HYDERABAD", "Gold (24 Carat, Hyderabad)", "Metals", "INR/gram"),
     ("SI=F",  "Silver",      "Metals",        "USD/troy oz"),
     ("HG=F",  "Copper",      "Metals",        "USD/lb"),
     ("ALI=F", "Aluminum",    "Metals",        "USD/metric ton"),

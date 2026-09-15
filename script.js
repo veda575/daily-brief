@@ -144,6 +144,13 @@ function fxHeroHtml(stocks) {
 }
 
 function commodityDisplay(row, usdInr) {
+  if (row.ticker === 'GOLD_24K_HYDERABAD' && row.unit === 'INR/gram') {
+    return {quantity: '1 Grm', quantityTitle: '1 gram of 24-carat gold in Hyderabad',
+      rate: canDisplay(row, 'indexValue') ? '₹' + new Intl.NumberFormat('en-IN', {maximumFractionDigits: 2}).format(Number(exactValue(row, 'indexValue'))) : 'DATA UNAVAILABLE',
+      title: (row.source || 'Groww') + ' · Hyderabad · 24 Carat · INR per gram',
+      note: (row.source_date ? 'As of ' + row.source_date + ' · ' : '') + 'Indicative · Excludes GST and making charges' +
+        (row.validation_status === 'STALE' || quoteStatus(row).startsWith('STALE') ? ' · STALE' : '')};
+  }
   const units = {
     'USD/metric ton': ['1 Ton', '1 metric ton (1,000 kg)', 'USD'],
     'USD/lb': ['1 Lb', '1 pound', 'USD'],
@@ -187,7 +194,7 @@ function marketReference(row, field, usdInr = null) {
     const meta = row.field_metadata?.[key];
     sources.push(meta?.source || row.source, meta?.fx_source);
   }
-  if (usdInr && canDisplay(row, field) && canDisplay(usdInr, 'indexValue')) {
+  if (usdInr && row.unit !== 'INR/gram' && canDisplay(row, field) && canDisplay(usdInr, 'indexValue')) {
     sources.push(usdInr.field_metadata?.indexValue?.source || usdInr.source);
   }
   return [...new Set(sources.filter(Boolean))].join(' / ') || 'No available source';
@@ -214,10 +221,10 @@ function renderStocksTable(stocks, region, usdInr = null) {
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
       <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong></td>
-      <td class="muted" title="${escapeHtml(quoteStatus(s))}">${escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
+      <td class="muted" title="${escapeHtml(quoteStatus(s))}">${s.ticker === 'GOLD_24K_HYDERABAD' ? '<a href="' + escapeHtml(s.source === 'Economic Times' ? 'https://economictimes.indiatimes.com/goldrate/city-hyderabad,msid-88971989.cms' : 'https://groww.in/gold-rates/gold-rate-today-in-hyderabad') + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(s.source || 'Groww') + '</a>' : escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && s.ticker === 'GOLD_24K_HYDERABAD' ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}</td>
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}</td>
     </tr>`;
   }).join('');
