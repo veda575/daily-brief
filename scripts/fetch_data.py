@@ -113,6 +113,7 @@ INDIA_STOCKS = [
     ("ADANIENT.NS",   "Adani Enterprises",       "Conglomerate"),
     ("SAILIFE.NS",    "Sai Life Sciences",       "Pharma CRDMO"),
     ("NEULANDLAB.NS", "Neuland Laboratories",    "Pharma CRDMO"),
+    ("TANLA.NS",      "Tanla Platforms Ltd",      "Cloud Communications / CPaaS"),
 ]
 
 # ────────────────────────────────────────────────────────────────────

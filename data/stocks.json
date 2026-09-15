@@ -8565,6 +8565,159 @@
         ]
       },
       {
+        "ticker": "TANLA.NS",
+        "source_symbol": "TANLA.NS",
+        "name": "Tanla Platforms Ltd",
+        "sector": "Cloud Communications / CPaaS",
+        "exchange": "NSI",
+        "instrument_type": "EQUITY",
+        "currency": "INR",
+        "quote_currency": "INR",
+        "indexValue": 490.00,
+        "marketCap": 64690000000.00,
+        "changePercent": -2.4363565,
+        "absoluteChange": -12.25,
+        "previousClose": 502.80,
+        "dayHigh": 516.00,
+        "dayLow": 488.00,
+        "volume": null,
+        "marketCapUSD": null,
+        "verification_version": 1,
+        "validation_status": "VERIFIED",
+        "validationStatus": "VERIFIED",
+        "validation_scope": "regular-session quote; other fields have independent field_metadata status",
+        "source": "Google Finance",
+        "source_timestamp": "2026-09-15T10:00:01+00:00",
+        "retrieved_at": "2026-09-15T13:32:09.895133+00:00",
+        "market_timezone": "Asia/Kolkata",
+        "quote_session": "REGULAR",
+        "market_status": "CLOSED",
+        "calendar": null,
+        "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
+        "provider_market_state": "POSTPOST",
+        "field_metadata": {
+          "indexValue": {
+            "validation_status": "VERIFIED",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:09.895133+00:00",
+            "decimal": "490.00",
+            "currency": "INR",
+            "verification_sources": [
+              "Google Finance",
+              "Yahoo Finance"
+            ]
+          },
+          "previousClose": {
+            "validation_status": "VERIFIED",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:09.895133+00:00",
+            "decimal": "502.80",
+            "currency": "INR",
+            "verification_sources": [
+              "Google Finance",
+              "Yahoo Finance"
+            ]
+          },
+          "dayHigh": {
+            "validation_status": "VERIFIED",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:09.895133+00:00",
+            "decimal": "516.00",
+            "currency": "INR",
+            "verification_sources": [
+              "Google Finance",
+              "Yahoo Finance"
+            ]
+          },
+          "dayLow": {
+            "validation_status": "VERIFIED",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:09.895133+00:00",
+            "decimal": "488.00",
+            "currency": "INR",
+            "verification_sources": [
+              "Google Finance",
+              "Yahoo Finance"
+            ]
+          },
+          "absoluteChange": {
+            "validation_status": "VERIFIED",
+            "source": "Yahoo Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:08.972594+00:00",
+            "decimal": "-12.25",
+            "currency": "INR",
+            "verification_sources": [
+              "Google Finance",
+              "Yahoo Finance"
+            ]
+          },
+          "changePercent": {
+            "validation_status": "VERIFIED",
+            "source": "Yahoo Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:08.972594+00:00",
+            "decimal": "-2.4363565",
+            "currency": "INR",
+            "verification_sources": [
+              "Google Finance",
+              "Yahoo Finance"
+            ]
+          },
+          "marketCap": {
+            "validation_status": "INDICATIVE",
+            "quality": "INDICATIVE",
+            "source": "Google Finance",
+            "source_timestamp": "2026-09-15T10:00:01+00:00",
+            "retrieved_at": "2026-09-15T13:32:09.895133+00:00",
+            "decimal": "64690000000.00",
+            "currency": "INR",
+            "verification_sources": [],
+            "display_resolution": 10000000.00,
+            "timestamp_scope": "quote snapshot; approximate Google displayed market cap"
+          },
+          "volume": {
+            "validation_status": "DATA_UNAVAILABLE",
+            "reason": "SOURCE_FIELD_UNCONFIRMED"
+          },
+          "marketCapUSD": {
+            "validation_status": "DATA_UNAVAILABLE",
+            "reason": "SOURCE_FIELD_UNCONFIRMED"
+          }
+        },
+        "quote_policy": {
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
+        },
+        "field_conflicts": [
+          "marketCap"
+        ],
+        "sourceTimestamp": "2026-09-15T10:00:01+00:00",
+        "marketStatus": "CLOSED",
+        "marketTimezone": "Asia/Kolkata",
+        "retrievedAt": "2026-09-15T13:32:09.895133+00:00",
+        "validation_evidence": {
+          "google_id": "TANLA:NSE",
+          "yahoo_symbol": "TANLA.NS",
+          "google_timestamp": "2026-09-15T10:00:01+00:00",
+          "yahoo_timestamp": "2026-09-15T10:00:01+00:00",
+          "google_price": 490.00,
+          "yahoo_price": 490.55,
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
+        },
+        "country": "IN",
+        "country_basis": "listing exchange; not issuer domicile"
+      },
+      {
         "ticker": "TCS.NS",
         "name": "TCS",
         "sector": "IT demand",
