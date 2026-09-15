@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-15T04:57:45.372379+00:00",
+  "updated": "2026-09-15T09:43:46.561729+00:00",
   "items": [
+    {
+      "title": "System 76 Pangolin Pro Review (2026): Powerhouse Linux Laptop",
+      "url": "https://wired.com/review/system76-pangolin-pro-linux-laptop",
+      "source": "Wired",
+      "published": "2026-09-15T09:00:00+00:00",
+      "retrieved_at": "2026-09-15T09:43:42.326680+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The System76 Pangolin Pro Linux Laptop wraps a speedy processor, plenty of ports, and a great operating system in a svelte, 16-inch package.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "148ac8126ddba60766603f89"
+    },
     {
       "title": "Jensen Huang took a call from Trump, and showed off something else, too",
       "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "c7bfe6b8879f400181bbe778"
-    },
-    {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "OpenAI",
-      "published": "2026-08-27T03:00:00+00:00",
-      "retrieved_at": "2026-09-08T04:57:03.828463+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "80a474a97e82bd4c3a0b30e6"
     }
   ],
   "unverified_history": [
