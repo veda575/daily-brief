@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T19:36:13.599064+00:00",
+  "updated": "2026-09-16T22:17:18.893743+00:00",
   "regions": {
     "us": [
       {
@@ -17,8 +17,8 @@
         "volume": null,
         "marketCapUSD": 118349594624,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:32:53+00:00",
         "retrieved_at": "2026-09-16T19:35:38.329245+00:00",
@@ -166,7 +166,11 @@
         "field_conflicts": [
           "previousClose",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "AMD",
@@ -184,8 +188,8 @@
         "volume": null,
         "marketCapUSD": 823093886976,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:35:05+00:00",
         "retrieved_at": "2026-09-16T19:35:38.963978+00:00",
@@ -331,7 +335,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GOOGL",
@@ -348,8 +356,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:31:44+00:00",
         "retrieved_at": "2026-09-16T19:35:39.675455+00:00",
@@ -485,7 +493,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "AMZN",
@@ -502,8 +514,8 @@
         "volume": null,
         "marketCapUSD": 2679535828992,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:45+00:00",
         "retrieved_at": "2026-09-16T19:35:40.371171+00:00",
@@ -650,7 +662,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "AAPL",
@@ -667,8 +683,8 @@
         "volume": null,
         "marketCapUSD": 4855702749184,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:34:56+00:00",
         "retrieved_at": "2026-09-16T19:35:40.948308+00:00",
@@ -815,7 +831,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "AMAT",
@@ -832,8 +852,8 @@
         "volume": null,
         "marketCapUSD": 334239432704,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:32:14+00:00",
         "retrieved_at": "2026-09-16T19:35:41.427551+00:00",
@@ -980,7 +1000,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "TEAM",
@@ -997,8 +1021,8 @@
         "volume": null,
         "marketCapUSD": 48048279552,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:41+00:00",
         "retrieved_at": "2026-09-16T19:35:41.967707+00:00",
@@ -1145,7 +1169,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "AVGO",
@@ -1162,8 +1190,8 @@
         "volume": null,
         "marketCapUSD": 1610765959168,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:30:39+00:00",
         "retrieved_at": "2026-09-16T19:35:27.992385+00:00",
@@ -1308,6 +1336,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 1800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -1325,8 +1357,8 @@
         "volume": null,
         "marketCapUSD": 433960550400,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:55+00:00",
         "retrieved_at": "2026-09-16T19:35:42.583230+00:00",
@@ -1473,7 +1505,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GE",
@@ -1494,10 +1530,10 @@
         "dayLow": 308.68,
         "volume": null,
         "marketCapUSD": 318583537664,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:30:08+00:00",
         "market_status": "OPEN",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:43.104649+00:00",
@@ -1643,7 +1679,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GM",
@@ -1660,8 +1700,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:34:38+00:00",
         "retrieved_at": "2026-09-16T19:35:43.720862+00:00",
@@ -1797,7 +1837,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "INTC",
@@ -1814,8 +1858,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:55+00:00",
         "retrieved_at": "2026-09-16T19:35:44.334955+00:00",
@@ -1951,7 +1995,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "META",
@@ -1968,8 +2016,8 @@
         "volume": null,
         "marketCapUSD": 1718127296512,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:30:09+00:00",
         "retrieved_at": "2026-09-16T19:35:28.512431+00:00",
@@ -2113,6 +2161,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 1800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -2130,8 +2182,8 @@
         "volume": null,
         "marketCapUSD": 1045885812736,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:25+00:00",
         "retrieved_at": "2026-09-16T19:35:28.799060+00:00",
@@ -2276,6 +2328,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 1800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -2293,8 +2349,8 @@
         "volume": null,
         "marketCapUSD": 3628270092288,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:32:26+00:00",
         "retrieved_at": "2026-09-16T19:35:28.924547+00:00",
@@ -2439,6 +2495,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 1800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -2456,8 +2516,8 @@
         "volume": null,
         "marketCapUSD": 5314030075904,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:34:14+00:00",
         "retrieved_at": "2026-09-16T19:35:44.873047+00:00",
@@ -2603,7 +2663,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "ORCL",
@@ -2620,8 +2684,8 @@
         "volume": null,
         "marketCapUSD": 424381382656,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:32:06+00:00",
         "retrieved_at": "2026-09-16T19:35:45.470333+00:00",
@@ -2768,7 +2832,11 @@
         "field_conflicts": [
           "previousClose",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "CRM",
@@ -2785,8 +2853,8 @@
         "volume": null,
         "marketCapUSD": 210399952896,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:29:44+00:00",
         "retrieved_at": "2026-09-16T19:35:46.265128+00:00",
@@ -2934,7 +3002,11 @@
         "field_conflicts": [
           "previousClose",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SNDK",
@@ -2951,8 +3023,8 @@
         "volume": null,
         "marketCapUSD": 224152862720,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:30:09+00:00",
         "retrieved_at": "2026-09-16T19:35:46.796833+00:00",
@@ -3099,7 +3171,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SAP",
@@ -3116,8 +3192,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:32:04+00:00",
         "retrieved_at": "2026-09-16T19:35:47.669266+00:00",
@@ -3254,7 +3330,11 @@
         "field_conflicts": [
           "previousClose",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SHOP",
@@ -3271,8 +3351,8 @@
         "volume": null,
         "marketCapUSD": 167083589632,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:07+00:00",
         "retrieved_at": "2026-09-16T19:35:48.292032+00:00",
@@ -3419,7 +3499,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SIFY",
@@ -3436,8 +3520,8 @@
         "volume": null,
         "marketCapUSD": 961931712,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:20:01+00:00",
         "retrieved_at": "2026-09-16T19:35:48.903372+00:00",
@@ -3583,7 +3667,11 @@
         },
         "field_conflicts": [
           "dayHigh"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SNOW",
@@ -3600,8 +3688,8 @@
         "volume": null,
         "marketCapUSD": 113947344896,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:33:40+00:00",
         "retrieved_at": "2026-09-16T19:35:49.476374+00:00",
@@ -3749,7 +3837,11 @@
         "field_conflicts": [
           "previousClose",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SPCX",
@@ -3766,8 +3858,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:34:50+00:00",
         "retrieved_at": "2026-09-16T19:35:50.003601+00:00",
@@ -3902,7 +3994,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "TSLA",
@@ -3919,8 +4015,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:32:56+00:00",
         "retrieved_at": "2026-09-16T19:35:50.747883+00:00",
@@ -4056,7 +4152,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       }
     ],
     "asia": [
@@ -4075,8 +4175,8 @@
         "volume": null,
         "marketCapUSD": 265560000000.00,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T19:31:24+00:00",
         "retrieved_at": "2026-09-16T19:35:51.314804+00:00",
@@ -4220,14 +4320,18 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "005930.KS",
         "name": "Samsung Electronics",
         "sector": "Memory chips",
         "currency": "USD",
-        "marketCap": 1185554348823.458000165208235390786,
+        "marketCap": null,
         "changePercent": 2.0120726,
         "indexValue": 253500.00,
         "legacy_snapshot": {
@@ -4241,10 +4345,10 @@
         "dayLow": 247500.00,
         "volume": null,
         "marketCapUSD": 1185554348823.458000165208235390786,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T06:30:28+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:54.549898+00:00",
@@ -4304,21 +4408,6 @@
               "Yahoo Finance"
             ]
           },
-          "marketCap": {
-            "validation_status": "INDICATIVE",
-            "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-16T06:30:28+00:00",
-            "retrieved_at": "2026-09-16T19:35:54.549898+00:00",
-            "decimal": "1185554348823.458000165208235390786",
-            "currency": "USD",
-            "verification_sources": [],
-            "display_resolution": 10000000000.00,
-            "timestamp_scope": "quote snapshot; approximate Google displayed market cap",
-            "calculation": "FX conversion",
-            "fx_source_timestamp": "2026-09-16T19:29:19+00:00",
-            "fx_source": "Google Finance"
-          },
           "dayHigh": {
             "validation_status": "INDICATIVE",
             "quality": "INDICATIVE",
@@ -4374,10 +4463,10 @@
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
         },
-        "nativeMarketCap": 1631850000000000.00,
+        "nativeMarketCap": 1185554348823.458000165208235390786,
         "fxRate": 1376.4447,
         "fxTimestamp": "2026-09-16T19:29:19+00:00",
-        "fxValidation": "INDICATIVE",
+        "fxValidation": "DATA_UNAVAILABLE",
         "fx_metadata": {
           "base_currency": "USD",
           "quote_currency": "KRW",
@@ -4415,14 +4504,18 @@
           "dayHigh",
           "dayLow",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "0700.HK",
         "name": "Tencent",
         "sector": "Gaming / AI",
         "currency": "USD",
-        "marketCap": 58217973231.35755258126195028680688,
+        "marketCap": null,
         "changePercent": -1.2306277,
         "indexValue": 433.40,
         "legacy_snapshot": {
@@ -4436,10 +4529,10 @@
         "dayLow": 432.60,
         "volume": null,
         "marketCapUSD": 58217973231.35755258126195028680688,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T08:08:44+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:55.390884+00:00",
@@ -4525,21 +4618,6 @@
               "Yahoo Finance"
             ]
           },
-          "marketCap": {
-            "validation_status": "INDICATIVE",
-            "quality": "INDICATIVE",
-            "source": "Google Finance",
-            "source_timestamp": "2026-09-16T08:08:44+00:00",
-            "retrieved_at": "2026-09-16T19:35:55.390884+00:00",
-            "decimal": "58217973231.35755258126195028680688",
-            "currency": "USD",
-            "verification_sources": [],
-            "display_resolution": 10000000.00,
-            "timestamp_scope": "quote snapshot; approximate Google displayed market cap",
-            "calculation": "FX conversion",
-            "fx_source_timestamp": "2026-09-16T19:34:19+00:00",
-            "fx_source": "Google Finance"
-          },
           "volume": {
             "validation_status": "DATA_UNAVAILABLE",
             "reason": "SOURCE_FIELD_UNCONFIRMED"
@@ -4573,10 +4651,10 @@
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
         },
-        "nativeMarketCap": 456720000000.00,
+        "nativeMarketCap": 58217973231.35755258126195028680688,
         "fxRate": 7.8450,
         "fxTimestamp": "2026-09-16T19:34:19+00:00",
-        "fxValidation": "INDICATIVE",
+        "fxValidation": "DATA_UNAVAILABLE",
         "fx_metadata": {
           "base_currency": "USD",
           "quote_currency": "HKD",
@@ -4612,7 +4690,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "TSM",
@@ -4633,10 +4715,10 @@
         "dayLow": 413.88,
         "volume": null,
         "marketCapUSD": 1940000000000.00,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:35:26+00:00",
         "market_status": "OPEN",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:56.039143+00:00",
@@ -4781,7 +4863,11 @@
         "field_conflicts": [
           "previousClose",
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       }
     ],
     "india": [
@@ -4804,10 +4890,10 @@
         "dayLow": 2914.30,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:56.731372+00:00",
@@ -4942,7 +5028,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "APOLLOHOSP.NS",
@@ -4963,10 +5053,10 @@
         "dayLow": 8672.50,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:31.032882+00:00",
@@ -5100,6 +5190,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -5121,10 +5215,10 @@
         "dayLow": 729.05,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:57.256802+00:00",
@@ -5259,7 +5353,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "AUROPHARMA.NS",
@@ -5390,11 +5488,17 @@
         "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "AUROPHARMA:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "BHARTIARTL",
@@ -5415,10 +5519,10 @@
         "dayLow": 1818.60,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:59.036259+00:00",
@@ -5553,7 +5657,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "DIVISLAB.NS",
@@ -5574,10 +5682,10 @@
         "dayLow": 8923.00,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:59.562836+00:00",
@@ -5712,7 +5820,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "DRREDDY.NS",
@@ -5733,10 +5845,10 @@
         "dayLow": 1133.90,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:00.077596+00:00",
@@ -5871,7 +5983,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GLAND.NS",
@@ -6002,11 +6118,17 @@
         "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "GLAND:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GLENMARK.NS",
@@ -6137,11 +6259,17 @@
         "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "GLENMARK:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "HCLTECH.NS",
@@ -6272,11 +6400,17 @@
         "country_basis": "listing exchange; not issuer domicile",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "HCLTECH:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "HDFCBANK.NS",
@@ -6297,10 +6431,10 @@
         "dayLow": 710.85,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:02.645887+00:00",
@@ -6435,7 +6569,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "HEROMOTOCO.NS",
@@ -6456,10 +6594,10 @@
         "dayLow": 5186.50,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:32.466169+00:00",
@@ -6593,6 +6731,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -6614,10 +6756,10 @@
         "dayLow": 1053.50,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:03.270799+00:00",
@@ -6752,7 +6894,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "INDIGO.NS",
@@ -6773,10 +6919,10 @@
         "dayLow": 4701.50,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:32.918702+00:00",
@@ -6910,6 +7056,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -7041,11 +7191,17 @@
         "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "KERNEX:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "KIMS.NS",
@@ -7066,10 +7222,10 @@
         "dayLow": 758.50,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:04.633742+00:00",
@@ -7204,7 +7360,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "MARUTI.NS",
@@ -7225,10 +7385,10 @@
         "dayLow": 12159.00,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:33.158534+00:00",
@@ -7362,6 +7522,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -7383,10 +7547,10 @@
         "dayLow": 133.78,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:05.143834+00:00",
@@ -7521,7 +7685,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "NEULANDLAB.NS",
@@ -7542,10 +7710,10 @@
         "dayLow": 21855.00,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:05.766739+00:00",
@@ -7680,7 +7848,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "RELIANCE.NS",
@@ -7811,11 +7983,17 @@
         "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "RELIANCE:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SAILIFE.NS",
@@ -7836,10 +8014,10 @@
         "dayLow": 1494.40,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:02+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:06.990421+00:00",
@@ -7974,7 +8152,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SIGMAADV.NS",
@@ -7995,10 +8177,10 @@
         "dayLow": 758.00,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:01+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:07.577107+00:00",
@@ -8133,7 +8315,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SBIN.NS",
@@ -8154,10 +8340,10 @@
         "dayLow": 973.20,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:34.071387+00:00",
@@ -8291,6 +8477,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -8312,10 +8502,10 @@
         "dayLow": 269.45,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:08.148304+00:00",
@@ -8450,7 +8640,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "TANLA.NS",
@@ -8471,8 +8665,8 @@
         "volume": null,
         "marketCapUSD": null,
         "verification_version": 1,
-        "validation_status": "VERIFIED",
-        "validationStatus": "VERIFIED",
+        "validation_status": "STALE",
+        "validationStatus": "STALE",
         "validation_scope": "regular-session quote; other fields have independent field_metadata status",
         "source": "Google Finance",
         "source_timestamp": "2026-09-16T10:00:02+00:00",
@@ -8603,7 +8797,11 @@
         "country_basis": "listing exchange; not issuer domicile",
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "TCS.NS",
@@ -8624,10 +8822,10 @@
         "dayLow": 2172.00,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:34.626563+00:00",
@@ -8759,6 +8957,10 @@
           "price_relative_tolerance": 0.005,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 604800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -8890,11 +9092,17 @@
         "market_status_basis": "Yahoo Finance; holiday calendar unavailable",
         "validation_scope": "Google observation; not independently verified",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "google_instrument": "TECHM:NSE",
-        "quote_quality": "INDICATIVE"
+        "quote_quality": "INDICATIVE",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "WIPRO.NS",
@@ -8915,10 +9123,10 @@
         "dayLow": 166.11,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:09.891903+00:00",
@@ -9053,7 +9261,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "ETERNAL.NS",
@@ -9074,10 +9286,10 @@
         "dayLow": 310.80,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:00:00+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:10.482341+00:00",
@@ -9212,7 +9424,11 @@
         },
         "field_conflicts": [
           "marketCap"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       }
     ],
     "indexes": [
@@ -9235,10 +9451,10 @@
         "dayLow": 73981.33,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T10:02:28+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:11.092529+00:00",
@@ -9365,7 +9581,11 @@
         },
         "field_conflicts": [
           "previousClose"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "^HSI",
@@ -9386,10 +9606,10 @@
         "dayLow": 24574.75,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T08:09:08+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:11.694364+00:00",
@@ -9516,7 +9736,11 @@
         },
         "field_conflicts": [
           "previousClose"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "^IXIC",
@@ -9537,10 +9761,10 @@
         "dayLow": 25802.96,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:33:38+00:00",
         "market_status": "OPEN",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:35:35.337395+00:00",
@@ -9664,6 +9888,10 @@
           "price_relative_tolerance": 0.001,
           "max_timestamp_skew_seconds": 1200,
           "max_quote_age_seconds": 1800
+        },
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
         }
       },
       {
@@ -9685,10 +9913,10 @@
         "dayLow": 3842.72,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T07:00:25+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:12.392751+00:00",
@@ -9815,7 +10043,11 @@
         },
         "field_conflicts": [
           "previousClose"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "399001.SZ",
@@ -9836,10 +10068,10 @@
         "dayLow": 13185.83,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "VERIFIED",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T08:29:28+00:00",
         "market_status": "CLOSED",
-        "validationStatus": "VERIFIED",
+        "validationStatus": "STALE",
         "verification_version": 1,
         "source": "Google Finance",
         "retrieved_at": "2026-09-16T19:36:12.916781+00:00",
@@ -9966,7 +10198,11 @@
         "validation_scope": "regular-session quote; other fields have independent field_metadata status",
         "field_conflicts": [
           "previousClose"
-        ]
+        ],
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       }
     ],
     "commodities": [
@@ -9990,13 +10226,15 @@
         "dayLow": 3406.25,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:17:27+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10089,7 +10327,11 @@
         "sourceTimestamp": "2026-09-16T19:17:27+00:00",
         "retrievedAt": "2026-09-16T19:35:35.520976+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "HG=F",
@@ -10111,13 +10353,15 @@
         "dayLow": 6.43,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:20:33+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10210,7 +10454,11 @@
         "sourceTimestamp": "2026-09-16T19:20:33+00:00",
         "retrievedAt": "2026-09-16T19:35:35.772703+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "ZC=F",
@@ -10237,8 +10485,10 @@
         "market_status": "UNKNOWN",
         "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10331,7 +10581,11 @@
         "sourceTimestamp": "2026-09-16T18:30:00+00:00",
         "retrievedAt": "2026-09-16T19:35:36.130190+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "CL=F",
@@ -10353,13 +10607,15 @@
         "dayLow": 96.06,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:22:44+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10452,7 +10708,11 @@
         "sourceTimestamp": "2026-09-16T19:22:44+00:00",
         "retrievedAt": "2026-09-16T19:35:35.950851+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GOLD_24K_HYDERABAD",
@@ -10497,7 +10757,7 @@
         "source_date": "2026-09-17",
         "source_timestamp": "2026-09-17T00:00:00+05:30",
         "timestamp_scope": "Source publishes date only",
-        "retrieved_at": "2026-09-16T19:36:12.930230+00:00"
+        "retrieved_at": "2026-09-16T22:17:18.168191+00:00"
       },
       {
         "ticker": "NG=F",
@@ -10519,13 +10779,15 @@
         "dayLow": 3.00,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:19:09+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10618,7 +10880,11 @@
         "sourceTimestamp": "2026-09-16T19:19:09+00:00",
         "retrievedAt": "2026-09-16T19:35:36.046900+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "SI=F",
@@ -10640,13 +10906,15 @@
         "dayLow": 62.88,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:24:54+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10739,7 +11007,11 @@
         "sourceTimestamp": "2026-09-16T19:24:54+00:00",
         "retrievedAt": "2026-09-16T19:35:36.259849+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "ZS=F",
@@ -10766,8 +11038,10 @@
         "market_status": "UNKNOWN",
         "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10860,7 +11134,11 @@
         "sourceTimestamp": "2026-09-16T18:30:00+00:00",
         "retrievedAt": "2026-09-16T19:35:36.367157+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "ZW=F",
@@ -10887,8 +11165,10 @@
         "market_status": "UNKNOWN",
         "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
-          "max_quote_age_seconds": 1800
+          "policy_version": 2,
+          "price_relative_tolerance": 0.005,
+          "max_timestamp_skew_seconds": 1200,
+          "max_quote_age_seconds": 604800
         },
         "verification_version": 1,
         "quote_quality": "INDICATIVE",
@@ -10981,7 +11261,11 @@
         "sourceTimestamp": "2026-09-16T18:30:00+00:00",
         "retrievedAt": "2026-09-16T19:35:36.468890+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       }
     ],
     "currency": [
@@ -11004,12 +11288,14 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:33:19+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
+          "policy_version": 2,
+          "price_relative_tolerance": 0.0001,
+          "max_timestamp_skew_seconds": 60,
           "max_quote_age_seconds": 480
         },
         "verification_version": 1,
@@ -11090,7 +11376,11 @@
         "sourceTimestamp": "2026-09-16T19:33:19+00:00",
         "retrievedAt": "2026-09-16T19:35:36.548153+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "EURUSD=X",
@@ -11111,12 +11401,14 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:33:19+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
+          "policy_version": 2,
+          "price_relative_tolerance": 0.0001,
+          "max_timestamp_skew_seconds": 60,
           "max_quote_age_seconds": 480
         },
         "verification_version": 1,
@@ -11197,7 +11489,11 @@
         "sourceTimestamp": "2026-09-16T19:33:19+00:00",
         "retrievedAt": "2026-09-16T19:35:36.692104+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "GBPUSD=X",
@@ -11218,12 +11514,14 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:33:19+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
+          "policy_version": 2,
+          "price_relative_tolerance": 0.0001,
+          "max_timestamp_skew_seconds": 60,
           "max_quote_age_seconds": 480
         },
         "verification_version": 1,
@@ -11304,7 +11602,11 @@
         "sourceTimestamp": "2026-09-16T19:33:19+00:00",
         "retrievedAt": "2026-09-16T19:35:36.767562+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "JPY=X",
@@ -11325,12 +11627,14 @@
         "dayLow": null,
         "volume": null,
         "marketCapUSD": null,
-        "validation_status": "INDICATIVE",
+        "validation_status": "STALE",
         "source_timestamp": "2026-09-16T19:34:19+00:00",
         "market_status": "UNKNOWN",
-        "validationStatus": "INDICATIVE",
+        "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
+          "policy_version": 2,
+          "price_relative_tolerance": 0.0001,
+          "max_timestamp_skew_seconds": 60,
           "max_quote_age_seconds": 480
         },
         "verification_version": 1,
@@ -11411,7 +11715,11 @@
         "sourceTimestamp": "2026-09-16T19:34:19+00:00",
         "retrievedAt": "2026-09-16T19:35:36.866144+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       },
       {
         "ticker": "CNY=X",
@@ -11437,7 +11745,9 @@
         "market_status": "UNKNOWN",
         "validationStatus": "STALE",
         "quote_policy": {
-          "policy_version": 3,
+          "policy_version": 2,
+          "price_relative_tolerance": 0.0001,
+          "max_timestamp_skew_seconds": 60,
           "max_quote_age_seconds": 480
         },
         "verification_version": 1,
@@ -11518,7 +11828,11 @@
         "sourceTimestamp": "2026-09-16T19:21:19+00:00",
         "retrievedAt": "2026-09-16T19:35:36.981442+00:00",
         "marketStatus": "UNKNOWN",
-        "marketTimezone": "UTC"
+        "marketTimezone": "UTC",
+        "error": {
+          "status": "VALIDATION_FAILED",
+          "reason": "GOOGLE_IDENTITY_MISMATCH"
+        }
       }
     ]
   }
