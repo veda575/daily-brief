@@ -184,6 +184,8 @@ def parse_google(body, identifier):
     if not canonical or unquote(urlparse(canonical.get('href', '')).path).split('/')[-1] != identifier:
         raise ValueError('GOOGLE_IDENTITY_MISMATCH')
     nodes = soup.select('[data-last-price][data-last-normal-market-timestamp]')
+    if not nodes:
+        return parse_google_beta(soup, identifier)
     if len(nodes) != 1:
         raise ValueError('GOOGLE_QUOTE_SCHEMA_CHANGED')
     node = nodes[0]
@@ -229,8 +231,86 @@ def parse_google(body, identifier):
     return result
 
 
+def parse_google_beta(soup, identifier):
+    """Read the beta page's JSON quote, never execute its JavaScript.
+
+    Match the instrument inside the payload as well as the canonical URL.
+    Slot 17 is the regular-session time; slots 11/18 are not substitutes.
+    Market cap uses the displayed precision, not an embedded float artifact.
+    """
+    matches = []
+    def visit(value):
+        if not isinstance(value, list):
+            return
+        if len(value) > 21 and value[21] == identifier:
+            if isinstance(value[5], list) and len(value[5]) >= 4:
+                matches.append(value)
+                return
+        for child in value:
+            visit(child)
+    # ds:2 is the main quote header. Other datasets contain watchlists,
+    # comparisons and separately cached copies with different timestamps.
+    for script in soup.select('script'):
+        raw = script.string or ''
+        if not raw.startswith('AF_initDataCallback(') or not re.search(r"key:\s*'ds:2'", raw):
+            continue
+        match = re.search(r'\bdata\s*:', raw)
+        if match:
+            try:
+                payload, _ = json.JSONDecoder(parse_float=Decimal).raw_decode(raw[match.end():].lstrip())
+                visit(payload)
+            except (ValueError, TypeError):
+                continue
+    if not matches:
+        raise ValueError('GOOGLE_QUOTE_SCHEMA_CHANGED')
+    quote = matches[0]
+    if any(q[:19] != quote[:19] for q in matches):
+        raise ValueError('GOOGLE_CONFLICTING_QUOTE_SNAPSHOTS')
+    fx = identifier in {'-'.join(pair) for pair in PAIRS.values()}
+    if fx:
+        if not isinstance(quote[15], list) or quote[15][:2] != identifier.split('-'):
+            raise ValueError('GOOGLE_IDENTITY_MISMATCH')
+        currency, exchange = identifier.split('-')[1], 'CCY'
+    else:
+        if quote[1] != identifier.split(':'):
+            raise ValueError('GOOGLE_IDENTITY_MISMATCH')
+        currency, exchange = quote[4], quote[1][1]
+    if not isinstance(quote[17], list) or not quote[17] or not isinstance(quote[17][0], int):
+        raise ValueError('GOOGLE_QUOTE_TIMESTAMP_UNAVAILABLE')
+    precision = quote[5][3]
+    if not isinstance(precision, int) or not 0 <= precision <= 12:
+        raise ValueError('GOOGLE_QUOTE_SCHEMA_CHANGED')
+    price = decimal(quote[5][0]).quantize(Decimal(1).scaleb(-precision), rounding=ROUND_HALF_UP)
+    result = {'source': 'Google Finance', 'id': identifier, 'name': quote[2],
+              'currency': currency, 'exchange': exchange, 'price': price,
+              'timestamp': timestamp(quote[17][0]).isoformat(),
+              'retrieved_at': now_iso(), 'session': 'REGULAR'}
+    if quote[7] is not None:
+        result['previousClose'] = decimal(quote[7])
+    # These are the primary quote's Overview stats, repeated for desktop/mobile.
+    stats = {}
+    for row in soup.select('.KxsRFb'):
+        label, value = row.select_one('.SwQK7'), row.select_one('.dO6ijd')
+        if label and value:
+            key, raw = label.get_text(strip=True), value.get_text(' ', strip=True)
+            if key in stats and stats[key] != raw:
+                raise ValueError('GOOGLE_CONFLICTING_QUOTE_SNAPSHOTS')
+            stats[key] = raw
+    for label, field in [('High', 'dayHigh'), ('Low', 'dayLow')]:
+        if label in stats and re.search(r'\d', stats[label]):
+            result[field] = display_number(stats[label])
+    cap = re.fullmatch(r'([\d.,]+)\s*([TBMK]?)', stats.get('Mkt. cap', ''))
+    if cap:
+        base = decimal(cap[1].replace(',', ''))
+        scale = Decimal(10) ** {'T': 12, 'B': 9, 'M': 6, 'K': 3, '': 0}[cap[2]]
+        result.update(marketCap=base * scale,
+                      cap_resolution=Decimal(10) ** base.as_tuple().exponent * scale)
+    return result
+
+
 def fetch_google(identifier):
     response = requests.get('https://www.google.com/finance/quote/' + identifier,
+                            headers={'User-Agent': 'Mozilla/5.0'},
                             params={'hl': 'en'}, timeout=(4, 10))
     response.raise_for_status()
     return parse_google(response.text, identifier)
@@ -373,6 +453,9 @@ def fill_google_fields(out, quote, now):
         if field == 'marketCap':
             meta.update(display_resolution=quote.get('cap_resolution'), timestamp_scope='quote snapshot; approximate Google displayed market cap')
         out['field_metadata'][field] = meta
+    if out.get('currency') == 'USD' and out.get('marketCap') is not None:
+        out['marketCapUSD'] = out['marketCap']
+        out['field_metadata']['marketCapUSD'] = deepcopy(out['field_metadata']['marketCap'])
     return out
 
 
@@ -420,8 +503,11 @@ def unavailable(row, reason):
     result = deepcopy(row)
     symbol = row.get('source_symbol') or row.get('ticker')
     result['quote_policy'] = quote_policy(symbol, row.get('market_status'))
-    if row.get('verification_version') == 1 and row.get('source_timestamp') and (row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') == 'VERIFIED' or row.get('quote_quality') == 'INDICATIVE' and row.get('indexValue') is not None):
+    if row.get('verification_version') == 1 and row.get('source_timestamp') and (row.get('field_metadata', {}).get('indexValue', {}).get('validation_status') in {'VERIFIED', 'STALE'} or row.get('quote_quality') == 'INDICATIVE' and row.get('indexValue') is not None):
         result['validation_status'] = 'STALE'
+        for meta in result.get('field_metadata', {}).values():
+            if meta.get('validation_status') in {'VERIFIED', 'INDICATIVE'}:
+                meta.update(validation_status='STALE', reason=reason)
     else:
         # Preserve historical bytes as evidence, never reuse as verified history.
         result.setdefault('legacy_snapshot', {k: row[k] for k in FIELDS if k in row})
@@ -535,16 +621,25 @@ def accepted(row, symbol, a, b, now):
 def convert_usd(row, fx):
     if row.get('validation_status') not in {'VERIFIED','INDICATIVE','STALE'} or row.get('marketCap') is None:
         return row
-    row['nativeMarketCap'] = row['marketCap']
     if row['quote_currency'] == 'USD':
         row['marketCapUSD'] = row['marketCap']
         row['field_metadata']['marketCapUSD'] = deepcopy(row['field_metadata']['marketCap'])
         return row
+    # Failed refreshes can return a previous USD-converted snapshot. Never
+    # reinterpret those dollars as KRW/HKD and divide them a second time.
+    if row.get('currency') == 'USD':
+        return row
+    if row.get('currency') != row['quote_currency']:
+        raise ValueError('CURRENCY_MISMATCH')
+    row['nativeMarketCap'] = row['marketCap']
+    row['native_market_cap_metadata'] = deepcopy(row['field_metadata']['marketCap'])
     if not fx or fx.get('validation_status') not in {'VERIFIED','INDICATIVE','STALE'}:
-        row['marketCap'] = None
-        row['currency'] = 'USD'
+        # The native quote is still useful when only the FX feed is down.
+        row['marketCapUSD'] = None
         row['fxValidation'] = 'DATA_UNAVAILABLE'
-        row['field_metadata'].pop('marketCap', None)
+        row['field_metadata']['marketCapUSD'] = {'validation_status': 'DATA_UNAVAILABLE', 'reason': 'FX_UNAVAILABLE'}
+        for key in ['fxRate', 'fxTimestamp', 'fx_metadata']:
+            row.pop(key, None)
         return row
     if fx.get('base_currency') != 'USD' or fx.get('quote_currency') != row['quote_currency']:
         raise ValueError('FX_DIRECTION_MISMATCH')

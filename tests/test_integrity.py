@@ -235,11 +235,14 @@ class IntegrityTests(unittest.TestCase):
         result = m.convert_usd(row, fx)
         self.assertEqual(str(result['marketCap']), '3.333333333333333333333333333333333')
         self.assertEqual(result['nativeMarketCap'], Decimal('10'))
-        row = self.accept(); row['quote_currency'] = 'HKD'
-        self.assertIsNone(m.convert_usd(row, None)['marketCap'])
+        row = self.accept(); row.update(quote_currency='HKD', currency='HKD')
+        result = m.convert_usd(row, None)
+        self.assertEqual(result['marketCap'], Decimal('1000000000'))
+        self.assertEqual(result['currency'], 'HKD')
+        self.assertIsNone(result['marketCapUSD'])
 
     def test_fx_direction(self):
-        row = self.accept(); row['quote_currency'] = 'HKD'
+        row = self.accept(); row.update(quote_currency='HKD', currency='HKD')
         with self.assertRaisesRegex(ValueError, 'FX_DIRECTION'):
             m.convert_usd(row, {'validation_status': 'VERIFIED', 'base_currency': 'HKD', 'quote_currency': 'USD'})
 
