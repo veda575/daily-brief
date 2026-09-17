@@ -2,8 +2,11 @@ name: Five-minute verified data refresh
 
 on:
   schedule:
-    # UTC target; GitHub may delay or drop scheduled runs under load.
-    - cron: "*/5 * * * *"
+    # Every five minutes at :02, :07, ... :57 UTC, avoiding the hour boundary.
+    # GitHub recommends off-hour scheduling to reduce contention, but can
+    # still delay/drop scheduled runs. workflow_dispatch allows an external
+    # scheduler to trigger this same fetch without using GitHub's cron queue.
+    - cron: "2-59/5 * * * *"
   workflow_dispatch:
   pull_request:
     paths:
