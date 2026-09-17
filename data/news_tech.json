@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-17T05:12:59.374168+00:00",
+  "updated": "2026-09-17T10:14:24.534423+00:00",
   "items": [
+    {
+      "title": "The EU Wants to Break Up Kids and Their Chatbots",
+      "url": "https://wired.com/story/the-eu-wants-to-break-up-kids-and-their-chatbots",
+      "source": "Wired",
+      "published": "2026-09-17T10:06:50+00:00",
+      "retrieved_at": "2026-09-17T10:14:20.781902+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "ChatGPT, Character.ai and Snapchat My AI will all be in the crosshairs as the AI Kids Act aims to strip minor-facing chatbots of all the things that make people love them.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "460c7aa1321afaeef1990317"
+    },
     {
       "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
       "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "aae39cc9423f86989c0a6751"
-    },
-    {
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch AI",
-      "published": "2026-09-05T18:05:27+00:00",
-      "retrieved_at": "2026-09-08T04:52:26.193133+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "4c525b7498fc6c2f87d9bb0c"
     }
   ],
   "unverified_history": [
