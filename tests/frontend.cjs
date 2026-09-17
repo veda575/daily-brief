@@ -5,6 +5,20 @@ const assert = require('assert/strict');
 let src = fs.readFileSync('script.js', 'utf8').split('// ── Sidebar / hamburger / routing')[0];
 const ctx = vm.createContext({ Intl, Date, Number, URL, Set });
 vm.runInContext(src, ctx);
+for (const [zone, instant, expected] of [
+  ['Asia/Kolkata', '2026-01-15T20:00:00Z', '16 Jan 2026, 01:30:00 IST'],
+  ['Asia/Singapore', '2026-01-15T20:00:00Z', '16 Jan 2026, 04:00:00 GMT+8'],
+  ['America/New_York', '2026-01-15T20:00:00Z', '15 Jan 2026, 15:00:00 EST'],
+  ['America/New_York', '2026-07-15T20:00:00Z', '15 Jul 2026, 16:00:00 EDT'],
+  ['America/New_York', '2026-03-08T07:00:00Z', '08 Mar 2026, 03:00:00 EDT'],
+]) assert.equal(ctx.quoteTime(instant, zone), expected);
+assert.equal(ctx.quoteTime(null), 'Unknown quote time');
+assert.equal(ctx.quoteTime('invalid'), 'Unknown quote time');
+for (const [region, suffix] of [['us','EST'], ['india','IST'], ['asia','GMT+8']]) {
+  const markup = ctx.renderStocksTable([{name:'Regional',ticker:'X',source_timestamp:'2026-01-15T20:00:00Z'}], region);
+  assert(markup.includes(suffix));
+  assert(markup.includes('Refresh every 5 minutes'));
+}
 assert.equal(vm.runInContext("formatDecimal('123.0000')", ctx), '123.0000');
 assert.equal(vm.runInContext("fmtFxValue(94.475, '94.475')", ctx), '94.475');
 assert.equal(vm.runInContext("fmtFxValue(94.4905, '94.4905')", ctx), '94.4905');

@@ -285,6 +285,7 @@ class IntegrityTests(unittest.TestCase):
     def test_noop_refresh_ignores_retrieval_clock(self):
         original = self.accept()
         payload = {'updated': self.now.isoformat(), 'regions': {'us': [original]}}
+        m.apply_region_timezones(payload)  # A snapshot already migrated to regional time metadata.
         def accept_again(row, symbol, a, b, now):
             return dict(row, retrieved_at='2026-09-08T15:05:00+00:00')
         with patch.object(m, 'yahoo_quotes', return_value={'MSFT': self.yahoo}), \

@@ -107,10 +107,19 @@ function fmtIndexValue(n, exact) {
   return formatDecimal(exact || String(n));
 }
 const fmtFxValue = fmtIndexValue;
-function quoteTime(iso) {
+const REGION_TIMEZONES = { india: 'Asia/Kolkata', us: 'America/New_York', asia: 'Asia/Singapore' };
+function quoteTime(iso, timeZone = 'Asia/Kolkata') {
+  if (!iso) return 'Unknown quote time';
   const date = new Date(iso);
-  return Number.isNaN(date.getTime()) ? 'Unknown quote time' :
-    date.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) + ' IST';
+  if (Number.isNaN(date.getTime())) return 'Unknown quote time';
+  try {
+    const text = date.toLocaleString('en-GB', { timeZone, day: '2-digit', month: 'short',
+      year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+    const label = timeZone === 'Asia/Kolkata' ? 'IST' : timeZone === 'Asia/Singapore' ? 'GMT+8' :
+      new Intl.DateTimeFormat('en-US', {timeZone, timeZoneName: 'short'}).formatToParts(date)
+        .find(part => part.type === 'timeZoneName').value;
+    return text + ' ' + label;
+  } catch { return 'Unknown quote time'; }
 }
 function quoteStatus(row) {
   const ts = row.source_timestamp;
@@ -120,13 +129,13 @@ function quoteStatus(row) {
   const stale = row.validation_status === 'STALE' || Object.values(row.field_metadata || {}).some(m => m.validation_status === 'STALE') ||
     !Number.isFinite(age) || age < -120000 || age > maxAge;
   return (stale ? 'STALE · ' : '') + (row.quote_quality === 'INDICATIVE' ? 'INDICATIVE' : row.market_status || 'UNKNOWN') + ' · Quote ' +
-    quoteTime(ts) + ' · ' + (row.source || 'Source unavailable') + (row.quote_basis ? ' · ' + row.quote_basis : '');
+    quoteTime(ts, row.display_timezone) + ' · ' + (row.source || 'Source unavailable') + (row.quote_basis ? ' · ' + row.quote_basis : '');
 }
 function fieldStatus(row, field) {
   const meta = row.field_metadata?.[field];
   if (!meta || !['STALE','INDICATIVE'].includes(meta.validation_status) && meta.quality !== 'INDICATIVE') return '';
   const showIndicative = meta.quality === 'INDICATIVE' || meta.validation_status === 'INDICATIVE';
-  const label = [meta.validation_status === 'STALE' ? 'STALE' : '', showIndicative ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(meta.source_timestamp)].filter(Boolean).join(' · ');
+  const label = [meta.validation_status === 'STALE' ? 'STALE' : '', showIndicative ? 'INDICATIVE' : '', meta.calculation ? 'Calculated' : '', meta.source || '', quoteTime(meta.source_timestamp, row.display_timezone)].filter(Boolean).join(' · ');
   return '<br><small title="' + escapeHtml(meta.calculation || meta.timestamp_scope || '') + '">' + escapeHtml(label) + '</small>';
 }
 
@@ -212,6 +221,7 @@ function renderStocksTable(stocks, region, usdInr = null) {
     (a.sortName || a.name || '').localeCompare(b.sortName || b.name || '', undefined, { sensitivity: 'base' })
   );
   const rows = sorted.map(s => {
+    s = {...s, display_timezone: s.display_timezone || REGION_TIMEZONES[region]};
     const commodity = isCommodities ? commodityDisplay(s, usdInr) : null;
     const field = (isCurrency || isIndexes || isCommodities) ? 'indexValue' : 'marketCap';
     const value = isCommodities ? escapeHtml(commodity.rate) : !canDisplay(s, field) ? 'DATA UNAVAILABLE' : isCurrency
@@ -220,7 +230,7 @@ function renderStocksTable(stocks, region, usdInr = null) {
         ? fmtIndexValue(s.indexValue, exactValue(s, 'indexValue'))
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
-      <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong></td>
+      <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong>${REGION_TIMEZONES[region] ? '<br><small>' + escapeHtml(quoteStatus(s)) + '</small>' : ''}</td>
       <td class="muted" title="${escapeHtml(quoteStatus(s))}">${s.ticker === 'GOLD_24K_HYDERABAD' ? '<a href="' + escapeHtml(s.source === 'Economic Times' ? 'https://economictimes.indiatimes.com/goldrate/city-hyderabad,msid-88971989.cms' : 'https://groww.in/gold-rates/gold-rate-today-in-hyderabad') + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(s.source || 'Groww') + '</a>' : escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
@@ -228,7 +238,10 @@ function renderStocksTable(stocks, region, usdInr = null) {
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}</td>
     </tr>`;
   }).join('');
-  return `${hero}<table>
+  const regionalClock = REGION_TIMEZONES[region] ? '<p class="muted">' +
+    escapeHtml(quoteTime(new Date().toISOString(), REGION_TIMEZONES[region])) +
+    ' · Refresh every 5 minutes · Quotes may be delayed</p>' : '';
+  return `${hero}${regionalClock}<table>
     <thead><tr>
       <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Reference</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate (INR)' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
     </tr></thead>

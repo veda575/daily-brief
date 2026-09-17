@@ -19,6 +19,7 @@ import yfinance as yf
 import exchange_calendars as calendars
 import pandas as pd
 from local_gold import GOLD_ID, refresh_gold
+from market_timezones import apply_region_timezones
 
 FIELDS = ('indexValue', 'marketCap', 'changePercent', 'absoluteChange',
           'previousClose', 'dayHigh', 'dayLow', 'volume', 'marketCapUSD')
@@ -758,6 +759,7 @@ def refresh_markets(payload):
                     current['currency'] = 'USD'
                     current['field_metadata']['marketCap'] = dict(old, validation_status='STALE', reason='NEW_FX_OR_CAP_UNCONFIRMED')
                     current['last_verified_fx_metadata'] = previous.get('fx_metadata')
+    apply_region_timezones(output)
     # Retrieval times are execution evidence, not a reason for a Git commit.
     def stable(value):
         if isinstance(value, dict):
