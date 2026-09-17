@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T22:17:18.893743+00:00",
+  "updated": "2026-09-17T00:34:40.192688+00:00",
   "regions": {
     "us": [
       {
@@ -10735,7 +10735,7 @@
           "indexValue": {
             "validation_status": "INDICATIVE",
             "quality": "INDICATIVE",
-            "decimal": "15344",
+            "decimal": "15345",
             "source": "Groww",
             "source_timestamp": "2026-09-17T00:00:00+05:30",
             "timestamp_scope": "Source publishes date only",
@@ -10744,20 +10744,20 @@
           "changePercent": {
             "validation_status": "INDICATIVE",
             "quality": "INDICATIVE",
-            "decimal": "0.18",
+            "decimal": "0.01",
             "source": "Groww",
             "source_timestamp": "2026-09-17T00:00:00+05:30",
             "timestamp_scope": "Source publishes date only",
             "currency": null
           }
         },
-        "indexValue": 15344,
-        "changePercent": 0.18,
+        "indexValue": 15345,
+        "changePercent": 0.01,
         "validation_status": "INDICATIVE",
         "source_date": "2026-09-17",
         "source_timestamp": "2026-09-17T00:00:00+05:30",
         "timestamp_scope": "Source publishes date only",
-        "retrieved_at": "2026-09-16T22:17:18.168191+00:00"
+        "retrieved_at": "2026-09-17T00:34:39.375446+00:00"
       },
       {
         "ticker": "NG=F",
