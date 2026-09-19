@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-19T04:41:59.676355+00:00",
+  "updated": "2026-09-19T09:01:12.403641+00:00",
   "items": [
+    {
+      "title": "B&H Photo Promo Codes and Deals This September 2026",
+      "url": "https://wired.com/story/bh-photo-coupon",
+      "source": "Wired",
+      "published": "2026-09-19T05:00:00+00:00",
+      "retrieved_at": "2026-09-19T09:01:05.758901+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "c04cf559d4815b050287b82b"
+    },
     {
       "title": "India forces caller-ID apps to feed spam reports to telcos",
       "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos",
@@ -527,6 +544,23 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b2e6fe29364e0184ca931ec1"
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI",
+      "published": "2026-09-18T12:00:00+00:00",
+      "retrieved_at": "2026-09-19T09:01:05.360660+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "772c6a90d95275b5bf48c3e9"
     },
     {
       "title": "Could AI really kill us all? Your questions, answered.",
@@ -3963,23 +3997,6 @@
       "story_fingerprint": "398e4b0646c7775cb271a1b2"
     },
     {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "source": "OpenAI",
-      "published": "2026-09-10T00:00:00+00:00",
-      "retrieved_at": "2026-09-10T21:49:29.983947+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "a0d303dada8bd41c1ca7da33"
-    },
-    {
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "source": "OpenAI",
@@ -3995,6 +4012,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "708eec0fe563e821f89edb0e"
+    },
+    {
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source": "OpenAI",
+      "published": "2026-09-10T00:00:00+00:00",
+      "retrieved_at": "2026-09-10T21:49:29.983947+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "a0d303dada8bd41c1ca7da33"
     },
     {
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
@@ -4216,40 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b653fba0aa50d1a5aba52353"
-    },
-    {
-      "title": "Harvey hits $15.5B valuation, months after reaching $11B",
-      "url": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b",
-      "source": "TechCrunch",
-      "published": "2026-09-09T18:34:24+00:00",
-      "retrieved_at": "2026-09-09T19:58:20.631749+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "The legal AI startup and VC darling has nearly doubled its valuation in nine months.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "66efed61b2bd5d8e7098aed3"
-    },
-    {
-      "title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
-      "url": "https://wired.com/story/i-used-ai-to-hack-my-home-network",
-      "source": "Wired",
-      "published": "2026-09-09T18:30:00+00:00",
-      "retrieved_at": "2026-09-09T19:58:20.738399+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC. But it also told me how to make everything a lot more secure.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6db6109c2647d649a45729f8"
     }
   ],
   "unverified_history": [
