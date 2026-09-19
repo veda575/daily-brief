@@ -1,6 +1,40 @@
 {
-  "updated": "2026-09-19T18:49:18.359367+00:00",
+  "updated": "2026-09-19T21:10:28.034211+00:00",
   "items": [
+    {
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T20:39:13+00:00",
+      "retrieved_at": "2026-09-19T21:10:19.078972+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "ebb95e29f69656b8ebc84724"
+    },
+    {
+      "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+      "source": "TechCrunch AI",
+      "published": "2026-09-19T19:57:47+00:00",
+      "retrieved_at": "2026-09-19T21:10:19.079003+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "17a783ff3b844706e810e814"
+    },
     {
       "title": "Google’s Gemini is the latest AI model to hack other companies",
       "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
@@ -19,11 +53,11 @@
       "story_fingerprint": "7dda90b38a3c5a40b862fdd2"
     },
     {
-      "title": "Even mid-sprint to a secret flight, the Navy’s tech chief has a pitch for investors",
+      "title": "The US Navy just told us what’s on its tech wish list for the next several years",
       "url": "https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors",
       "source": "TechCrunch",
       "published": "2026-09-19T17:00:00+00:00",
-      "retrieved_at": "2026-09-19T18:49:15.386818+00:00",
+      "retrieved_at": "2026-09-19T21:10:19.966688+00:00",
       "feed_url": "https://techcrunch.com/feed/",
       "summary": "Navy CTO Justin Fanelli talks co-investing alongside VCs instead of funding early research himself, recent buys like a $562 million autonomous refueling deal, and the Navy's updated wish list — from AI to quantum — for where founders should be building next.",
       "isAI": true,
@@ -33,7 +67,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "14706e7226c2ccb7d42ebf05"
+      "story_fingerprint": "16211bbadf9157aba1f91967"
     },
     {
       "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
@@ -4216,40 +4250,6 @@
       "evidence_url": "https://huggingface.co/blog/feed.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "e821563e5092734521bfa426"
-    },
-    {
-      "title": "OpenAI adds a prominent AI doomer to its board of directors",
-      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
-      "source": "TechCrunch AI",
-      "published": "2026-09-09T22:25:22+00:00",
-      "retrieved_at": "2026-09-10T00:09:47.049152+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "81154c43e08fa8a63595db8f"
-    },
-    {
-      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
-      "url": "https://wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity",
-      "source": "Wired",
-      "published": "2026-09-09T22:11:55+00:00",
-      "retrieved_at": "2026-09-10T00:09:47.626632+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "4fec7ec10742a13aa316e3d2"
     }
   ],
   "unverified_history": [
