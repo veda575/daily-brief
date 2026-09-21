@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T06:57:14.775261+00:00",
+  "updated": "2026-09-21T07:17:17.326022+00:00",
   "items": [
     {
       "title": "Meloni promises to ban burqas, niqabs in Italy’s schools",
@@ -16,6 +16,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0646dcc1078b85cb76e7829a"
+    },
+    {
+      "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
+      "url": "https://bbc.co.uk/news/articles/c8vgyzn2d31yo",
+      "source": "BBC World",
+      "published": "2026-09-21T05:50:56+00:00",
+      "retrieved_at": "2026-09-21T07:17:12.054763+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "ee9f23840d33fa8dc0ac1758"
     },
     {
       "title": "Iran’s military says US preparing to resume strikes",
@@ -96,6 +112,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "1a58191187fbd3d9c8958f07"
+    },
+    {
+      "title": "Russia's elections had few surprises - but how the Kremlin uses the results will be crucial",
+      "url": "https://bbc.co.uk/news/articles/cx4gqv239043o",
+      "source": "BBC World",
+      "published": "2026-09-21T00:05:11+00:00",
+      "retrieved_at": "2026-09-21T07:17:12.054730+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Vladimir Putin will likely use the result to claim most Russians back the so-called special military operation in Ukraine, writes the BBC's Steve Rosenberg.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "e63b384860c1806969e5553c"
     },
     {
       "title": "Iran war live: Tehran says world will be ‘astonished’ by its new weapons",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "9262a34adb957a0f244ca11a"
-    },
-    {
-      "title": "China willing to ‘safeguard Iran’s legitimate rights’, official says",
-      "url": "https://aljazeera.com/news/2026/9/16/china-willing-to-safeguard-irans-legitimate-rights-official-says",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T13:09:51+00:00",
-      "retrieved_at": "2026-09-16T16:19:54.582806+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "China says the US-Israel war on Iran highlights flaws in the Middle East's 'existing security architecture'.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6a0aa4fa7419836b67885fdc"
-    },
-    {
-      "title": "Duterte in person at ICC for first time over ‘war on drugs’ killings",
-      "url": "https://aljazeera.com/news/2026/9/16/duterte-in-person-at-icc-for-first-time-over-war-on-drugs-killings",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T13:01:13+00:00",
-      "retrieved_at": "2026-09-16T16:19:54.582849+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Former Philippine president accused of setting up death squads faces trial starting on November 30.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "07fb7892eeee2be21b46fcec"
     }
   ],
   "unverified_history": [
