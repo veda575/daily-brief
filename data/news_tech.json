@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-21T20:18:51.405495+00:00",
+  "updated": "2026-09-21T22:29:57.184048+00:00",
   "items": [
+    {
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+      "source": "Ars Technica AI",
+      "published": "2026-09-21T22:24:38+00:00",
+      "retrieved_at": "2026-09-21T22:29:51.488699+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "e72d884d48848f661e35bb17"
+    },
     {
       "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
       "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "2b180cb613f5f0b9a0cd6b4a"
-    },
-    {
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "source": "OpenAI",
-      "published": "2026-09-11T16:00:00+00:00",
-      "retrieved_at": "2026-09-12T00:27:30.959901+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "da58ecc7d521f94e06187fc1"
     }
   ],
   "unverified_history": [
