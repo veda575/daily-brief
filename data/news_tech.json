@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T13:58:01.755771+00:00",
+  "updated": "2026-09-21T14:03:02.848979+00:00",
   "items": [
     {
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
@@ -221,6 +221,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "e26d0db90f39278dd3098408"
+    },
+    {
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": "Hugging Face",
+      "published": "2026-09-21T00:00:00+00:00",
+      "retrieved_at": "2026-09-21T14:02:58.288656+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "9c8ccd1cde6976be0a412aa4"
     },
     {
       "title": "How V7 gives AI agents institutional memory",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
       "source_type": "PUBLISHER",
       "story_fingerprint": "3b7cbcae6aef6131ce01473a"
-    },
-    {
-      "title": "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers",
-      "url": "https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers",
-      "source": "TechCrunch",
-      "published": "2026-09-10T18:38:00+00:00",
-      "retrieved_at": "2026-09-10T19:35:22.845182+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "Proxima Fusion said Wednesday it plans to build a €140 million ($162.6 million) factory to produce fusion-grade high-temperature superconducting (HTS) tape, which will provide the startup with key component to its reactor design.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "58f73e4d1229d30e7009a6b2"
     }
   ],
   "unverified_history": [
