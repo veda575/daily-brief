@@ -138,7 +138,7 @@ ctx.window = {location: {hostname: 'veda575.github.io'}};
 assert.equal(ctx.dataURL('data/stocks.json'), 'https://raw.githubusercontent.com/veda575/daily-brief/main/data/stocks.json');
 ctx.window.location.hostname = 'localhost';
 assert.equal(ctx.dataURL('data/stocks.json'), 'data/stocks.json');
-// Stale commodities and indicative market caps must be visible without hovering.
+// Commodity status stays visible; market-cap cells display only their value.
 ctx.staleCommodity = {...ctx.gold, validation_status:'STALE', source_timestamp:'2026-09-17T00:00:00Z'};
 assert(vm.runInContext("renderStocksTable([staleCommodity], 'commodities', inr)",ctx).includes('<small>STALE'));
-assert(vm.runInContext("renderStocksTable([fieldRow], 'us')",ctx).includes('INDICATIVE'));
+assert(!vm.runInContext("renderStocksTable([fieldRow], 'us')",ctx).includes('INDICATIVE'));

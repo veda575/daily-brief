@@ -252,7 +252,7 @@ function renderStocksTable(stocks, region, usdInr = null) {
       <td class="muted" title="${escapeHtml(quoteStatus(s))}">${s.ticker === 'GOLD_24K_HYDERABAD' ? '<a href="' + escapeHtml(s.source === 'Economic Times' ? 'https://economictimes.indiatimes.com/goldrate/city-hyderabad,msid-88971989.cms' : 'https://groww.in/gold-rates/gold-rate-today-in-hyderabad') + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(s.source || 'Groww') + '</a>' : escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : fieldStatus(s, field)}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : field === 'marketCap' ? '' : fieldStatus(s, field)}</td>
       <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
