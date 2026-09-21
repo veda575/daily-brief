@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T14:03:02.848979+00:00",
+  "updated": "2026-09-21T14:08:05.678731+00:00",
   "items": [
     {
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
@@ -223,23 +223,6 @@
       "story_fingerprint": "e26d0db90f39278dd3098408"
     },
     {
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "source": "Hugging Face",
-      "published": "2026-09-21T00:00:00+00:00",
-      "retrieved_at": "2026-09-21T14:02:58.288656+00:00",
-      "feed_url": "https://huggingface.co/blog/feed.xml",
-      "summary": "",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://huggingface.co/blog/feed.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "9c8ccd1cde6976be0a412aa4"
-    },
-    {
       "title": "How V7 gives AI agents institutional memory",
       "url": "https://openai.com/index/v7",
       "source": "OpenAI",
@@ -255,6 +238,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "98244cb3603be1c82be93783"
+    },
+    {
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": "Hugging Face",
+      "published": "2026-09-21T00:00:00+00:00",
+      "retrieved_at": "2026-09-21T14:02:58.288656+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "9c8ccd1cde6976be0a412aa4"
     },
     {
       "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
