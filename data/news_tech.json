@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-21T16:38:57.027815+00:00",
+  "updated": "2026-09-21T16:43:57.867058+00:00",
   "items": [
+    {
+      "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+      "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T16:38:51+00:00",
+      "retrieved_at": "2026-09-21T16:43:52.869970+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "1cecd99c467e3a5b3efffa62"
+    },
     {
       "title": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
       "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead",
@@ -257,23 +274,6 @@
       "story_fingerprint": "35c59ade0fe31cc6b2b6a6db"
     },
     {
-      "title": "Women Still Face Too Much Bullshit—in Silicon Valley and Beyond",
-      "url": "https://wired.com/story/wired-women-editors-letter",
-      "source": "Wired",
-      "published": "2026-09-21T10:00:00+00:00",
-      "retrieved_at": "2026-09-21T10:06:58.291557+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "WIRED dedicating an entire issue to women in 2026 might seem regressive, or obvious, or even unnecessary. We disagree.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2a21838c6e89f6586276c1c3"
-    },
-    {
       "title": "The Search for Silicon Valley’s Most Powerful Woman",
       "url": "https://wired.com/story/searching-for-powerful-women-silicon-valley",
       "source": "Wired",
@@ -289,6 +289,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "99823cfe235451682186339f"
+    },
+    {
+      "title": "Women Still Face Too Much Bullshit—in Silicon Valley and Beyond",
+      "url": "https://wired.com/story/wired-women-editors-letter",
+      "source": "Wired",
+      "published": "2026-09-21T10:00:00+00:00",
+      "retrieved_at": "2026-09-21T10:06:58.291557+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "WIRED dedicating an entire issue to women in 2026 might seem regressive, or obvious, or even unnecessary. We disagree.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2a21838c6e89f6586276c1c3"
     },
     {
       "title": "We Surveyed 634 Women Who Work in Tech. They Let Loose",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "1ac25d7e00938adf79ffd97b"
-    },
-    {
-      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
-      "source": "TechCrunch AI",
-      "published": "2026-09-10T20:59:51+00:00",
-      "retrieved_at": "2026-09-10T21:49:29.471521+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "a16c8d8d9347b2a9b7187209"
     }
   ],
   "unverified_history": [
