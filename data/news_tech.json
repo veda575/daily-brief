@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-21T20:08:53.374043+00:00",
+  "updated": "2026-09-21T20:18:51.405495+00:00",
   "items": [
+    {
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T20:15:58+00:00",
+      "retrieved_at": "2026-09-21T20:18:46.117558+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "dd80868701213ea3394a8fbd"
+    },
     {
       "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
       "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "da58ecc7d521f94e06187fc1"
-    },
-    {
-      "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
-      "url": "https://wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us",
-      "source": "Wired",
-      "published": "2026-09-11T15:00:00+00:00",
-      "retrieved_at": "2026-09-11T17:52:55.262338+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Timnit Gebru argues that AI companies are stoking fears of extinction to avoid discussing actual harms, like autonomous weapons.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "83af282100b20372bc231042"
     }
   ],
   "unverified_history": [
