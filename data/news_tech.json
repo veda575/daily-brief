@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T19:38:54.999748+00:00",
+  "updated": "2026-09-21T20:03:52.755553+00:00",
   "items": [
     {
       "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
@@ -255,6 +255,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d913b723cf11507ca3cf8605"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI",
+      "published": "2026-09-21T12:00:00+00:00",
+      "retrieved_at": "2026-09-21T20:03:48.277134+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "35ce6655ace530f7073d0a86"
     },
     {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "83af282100b20372bc231042"
-    },
-    {
-      "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
-      "url": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider",
-      "source": "TechCrunch",
-      "published": "2026-09-11T13:32:54+00:00",
-      "retrieved_at": "2026-09-11T14:36:37.897817+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "This is the second data breach affecting a company that hardware crypto wallet maker Trezor relies on.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "9cc9caa9d94ba41b53d22a8a"
     }
   ],
   "unverified_history": [
