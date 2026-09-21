@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-21T14:33:02.630636+00:00",
+  "updated": "2026-09-21T14:43:07.114210+00:00",
   "items": [
+    {
+      "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+      "source": "TechCrunch AI",
+      "published": "2026-09-21T14:39:22+00:00",
+      "retrieved_at": "2026-09-21T14:43:00.235115+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "aee2a3a394390fbdc2ad8785"
+    },
     {
       "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
       "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026",
@@ -206,23 +223,6 @@
       "story_fingerprint": "35c59ade0fe31cc6b2b6a6db"
     },
     {
-      "title": "Women Still Face Too Much Bullshit—in Silicon Valley and Beyond",
-      "url": "https://wired.com/story/wired-women-editors-letter",
-      "source": "Wired",
-      "published": "2026-09-21T10:00:00+00:00",
-      "retrieved_at": "2026-09-21T10:06:58.291557+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "WIRED dedicating an entire issue to women in 2026 might seem regressive, or obvious, or even unnecessary. We disagree.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2a21838c6e89f6586276c1c3"
-    },
-    {
       "title": "The Search for Silicon Valley’s Most Powerful Woman",
       "url": "https://wired.com/story/searching-for-powerful-women-silicon-valley",
       "source": "Wired",
@@ -238,6 +238,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "99823cfe235451682186339f"
+    },
+    {
+      "title": "Women Still Face Too Much Bullshit—in Silicon Valley and Beyond",
+      "url": "https://wired.com/story/wired-women-editors-letter",
+      "source": "Wired",
+      "published": "2026-09-21T10:00:00+00:00",
+      "retrieved_at": "2026-09-21T10:06:58.291557+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "WIRED dedicating an entire issue to women in 2026 might seem regressive, or obvious, or even unnecessary. We disagree.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2a21838c6e89f6586276c1c3"
     },
     {
       "title": "We Surveyed 634 Women Who Work in Tech. They Let Loose",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "98de0cbb97ffe5e7c77d4963"
-    },
-    {
-      "title": "Is AI Actually Going to Kill Us All?",
-      "url": "https://wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all",
-      "source": "Wired",
-      "published": "2026-09-10T20:30:37+00:00",
-      "retrieved_at": "2026-09-10T21:49:30.485945+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "This week on “Uncanny Valley,” we dig into a former Anthropic researcher’s AI doomsday warning, the latest upgrades from Apple’s event, and the census report that claimed Trump won the 2020 election.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6e30b78c97ff588158fa4237"
     }
   ],
   "unverified_history": [

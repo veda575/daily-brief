@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-21T14:33:09.994915+00:00",
+  "updated": "2026-09-21T14:43:14.804918+00:00",
   "items": [
     {
       "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
       "url": "https://bbc.co.uk/news/articles/cm0e32rwvrryo",
       "source": "BBC World",
       "published": "2026-09-21T14:30:38+00:00",
-      "retrieved_at": "2026-09-21T14:33:04.980023+00:00",
+      "retrieved_at": "2026-09-21T14:43:09.811778+00:00",
       "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Major US networks later announced they would suspend their White House television coverage of Trump as he heads to New York for the UN summit.",
+      "summary": "Major US networks later suspended White House TV coverage of Trump as he heads to New York for the UN summit.",
       "category": "global",
       "relevance": "global",
       "verification_status": "SOURCE_CONFIRMED",
@@ -16,6 +16,22 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "461c28362ae198aae2b0ea78"
+    },
+    {
+      "title": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine?",
+      "url": "https://aljazeera.com/news/2026/9/21/is-it-a-missile-is-it-a-drone-whats-the-pelican-used-by-ukraine",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T14:19:46+00:00",
+      "retrieved_at": "2026-09-21T14:43:09.796218+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "The use of the Pelican has provoked interest among military analysts as to whether it is a tactical ballistic missile.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "944be80b6b6dc1634857adf6"
     },
     {
       "title": "Nuclear power is back on Southeast Asia's energy agenda",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0f4bdd07db15d97f66624a19"
-    },
-    {
-      "title": "UK trade unions back motion to boycott and sanction Israel",
-      "url": "https://aljazeera.com/news/2026/9/16/uk-trade-unions-back-motion-to-boycott-and-sanction-israel",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T17:42:00+00:00",
-      "retrieved_at": "2026-09-16T19:36:21.488736+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Motion demands taking action to oppose the 'catastrophic destruction of Gaza' and Israeli settler violence.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "f9b092fa71352a4e9a0a153b"
     }
   ],
   "unverified_history": [
