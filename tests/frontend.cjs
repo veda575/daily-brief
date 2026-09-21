@@ -128,6 +128,8 @@ ctx.AbortSignal = AbortSignal;
   assert.equal(saved.updated, '2026-09-18T00:00:00Z');
   assert.equal(requested.length, 2);
   assert(requested[1].startsWith('data/news_tech.json?'));
+  ctx.fetch = async url => ({ok:true,json:async()=>({items:[],updated:url.startsWith('https:') ? '2026-09-18T00:00:00Z' : '2026-09-21T00:00:00Z'})});
+  assert.equal((await ctx.loadJSON('data/news_tech.json')).updated, '2026-09-21T00:00:00Z');
   console.log('Malformed market/news responses and HTTP failure checks passed.');
 })().catch(e => { console.error(e); process.exitCode = 1; });
 

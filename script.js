@@ -75,21 +75,7 @@ function dataURL(path) {
   return typeof window !== 'undefined' && window.location?.hostname === 'veda575.github.io'
     ? 'https://raw.githubusercontent.com/veda575/daily-brief/main/' + path : path;
 }
-async function loadJSON(path) {
-  async function read(url) {
-    const res = await fetch(url + '?t=' + Date.now(), { signal: AbortSignal.timeout(15000), cache: 'no-store' });
-    if (!res.ok) throw new Error('Failed: ' + path);
-    return res.json();
-  }
-  const url = dataURL(path);
-  let data;
-  try { data = await read(url); }
-  catch (error) {
-    if (url === path) throw error;
-    // Corporate filters can block raw.githubusercontent.com. Keep the last
-    // published snapshot available, with its original timestamp/stale warning.
-    data = await read(path);
-  }
+function validateSnapshot(data, path) {
   if (path === 'data/stocks.json') {
     const regions = data?.regions;
     if (!regions || !['us', 'asia', 'india', 'indexes', 'commodities', 'currency'].every(k =>
@@ -100,6 +86,22 @@ async function loadJSON(path) {
     throw new Error('Invalid news snapshot');
   }
   return data;
+}
+async function loadJSON(path) {
+  async function read(url) {
+    const res = await fetch(url + '?t=' + Date.now(), { signal: AbortSignal.timeout(15000), cache: 'no-store' });
+    if (!res.ok) throw new Error('Failed: ' + path);
+    return validateSnapshot(await res.json(), path);
+  }
+  const url = dataURL(path);
+  if (url === path) return read(path);
+  // Either CDN can lag or be blocked. Compare both validated snapshots instead
+  // of accepting a successful but older response from the preferred endpoint.
+  const results = await Promise.allSettled([read(url), read(path)]);
+  const snapshots = results.filter(r => r.status === 'fulfilled').map(r => r.value);
+  if (!snapshots.length) throw results[0].reason;
+  const time = data => Date.parse(data.refresh?.completed_at || data.updated || '') || 0;
+  return snapshots.sort((a, b) => time(b) - time(a))[0];
 }
 
 // ── Stocks rendering ──────────────────────────────────
