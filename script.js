@@ -70,8 +70,13 @@ function escapeHtml(s) {
 }
 
 // ── Data loading ──────────────────────────────────────
+function dataURL(path) {
+  // Read commits directly in production: data updates do not wait for Pages builds.
+  return typeof window !== 'undefined' && window.location?.hostname === 'veda575.github.io'
+    ? 'https://raw.githubusercontent.com/veda575/daily-brief/main/' + path : path;
+}
 async function loadJSON(path) {
-  const res = await fetch(path + '?t=' + Date.now(), { signal: AbortSignal.timeout(15000), cache: 'no-store' });
+  const res = await fetch(dataURL(path) + '?t=' + Date.now(), { signal: AbortSignal.timeout(15000), cache: 'no-store' });
   if (!res.ok) throw new Error('Failed: ' + path);
   const data = await res.json();
   if (path === 'data/stocks.json') {
@@ -230,17 +235,17 @@ function renderStocksTable(stocks, region, usdInr = null) {
         ? fmtIndexValue(s.indexValue, exactValue(s, 'indexValue'))
         : fmtMarketCap(s.marketCap, s.currency);
     return `<tr>
-      <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong>${REGION_TIMEZONES[region] ? '<br><small>' + escapeHtml(quoteStatus(s)) + '</small>' : ''}</td>
+      <td><strong>${escapeHtml(isCommodities && s.ticker === 'ZS=F' ? 'Soyabeans' : s.name)}</strong>${'<br><small>' + escapeHtml(quoteStatus(s)) + '</small>'}</td>
       <td class="muted" title="${escapeHtml(quoteStatus(s))}">${s.ticker === 'GOLD_24K_HYDERABAD' ? '<a href="' + escapeHtml(s.source === 'Economic Times' ? 'https://economictimes.indiatimes.com/goldrate/city-hyderabad,msid-88971989.cms' : 'https://groww.in/gold-rates/gold-rate-today-in-hyderabad') + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(s.source || 'Groww') + '</a>' : escapeHtml(marketReference(s, field, isCommodities ? usdInr : null))}</td>
       <td class="muted">${escapeHtml(s.sector || '')}</td>
       ${isCommodities ? '<td title="' + escapeHtml(commodity.quantityTitle) + '">' + escapeHtml(commodity.quantity) + '</td>' : ''}
-      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities && s.ticker === 'GOLD_24K_HYDERABAD' ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : ''}</td>
-      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}</td>
+      <td class="num" title="${escapeHtml(isCommodities ? commodity.title + ' · ' + commodity.note : exactValue(s, field) || 'DATA UNAVAILABLE')}">${value}${isCommodities ? '<br><small>' + escapeHtml(commodity.note) + '</small>' : fieldStatus(s, field)}</td>
+      <td class="num">${canDisplay(s, 'changePercent') ? fmtGainLossPercent(s.changePercent, exactValue(s, 'changePercent')) : 'DATA UNAVAILABLE'}${fieldStatus(s, 'changePercent')}</td>
     </tr>`;
   }).join('');
   const regionalClock = REGION_TIMEZONES[region] ? '<p class="muted">' +
     escapeHtml(quoteTime(new Date().toISOString(), REGION_TIMEZONES[region])) +
-    ' · Refresh every 5 minutes · Quotes may be delayed</p>' : '';
+    ' · Source refresh target: 5 minutes · Dashboard checks every minute · Quotes may be delayed</p>' : '';
   return `${hero}${regionalClock}<table>
     <thead><tr>
       <th>${isCommodities ? 'Commodity' : isCurrency ? 'Currency Pair' : 'Company'}</th><th>Reference</th><th>${isCommodities ? 'Category' : isCurrency ? 'Conversion' : 'Sector'}</th>${isCommodities ? '<th>Quantity</th>' : ''}<th>${isCurrency ? 'Exchange Rate' : isCommodities ? 'Market Rate (INR)' : isIndexes ? 'Index Value' : 'Mkt Cap'}</th><th>Gain / Loss %</th>
@@ -446,10 +451,17 @@ function updateDateTime() {
   if (el) el.textContent = fmtCurrentDateTime();
 }
 
-function setUpdated(...sources) {
-  const ts = sources.map(s => s?.updated).filter(Boolean).sort().pop();
-  const relative = ts ? ' · Snapshot changed ' + fmtRelative(ts) : '';
-  document.getElementById('updated').textContent = fmtCurrentDate() + relative;
+function refreshStatus(data) {
+  const ts = data?.refresh?.completed_at || data?.updated;
+  if (!ts) return 'Waiting for market data';
+  const age = Date.now() - new Date(ts).getTime();
+  const delayed = !Number.isFinite(age) || age > 600000;
+  const counts = data?.refresh;
+  return (delayed ? 'UPDATE DELAYED · ' : '') + 'Sources checked ' + quoteTime(ts) +
+    (counts ? ' · ' + counts.stale_count + ' stale / ' + counts.unavailable_count + ' unavailable' : '');
+}
+function setUpdated(data) {
+  document.getElementById('updated').textContent = refreshStatus(data);
 }
 
 let refreshing = false;
@@ -482,8 +494,11 @@ async function refreshData() {
 updateDateTime();
 setInterval(() => {
   updateDateTime();
-  if (stocksData) showStockRegion(currentRegion);
+  if (stocksData) { showStockRegion(currentRegion); setUpdated(stocksData); }
 }, 30000);
 refreshData();
-setInterval(refreshData, 300000);
+setInterval(refreshData, 60000);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) refreshData();
+});
 if (window.innerWidth >= 820) body.classList.add('menu-open');

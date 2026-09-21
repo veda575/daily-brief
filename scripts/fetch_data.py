@@ -484,6 +484,13 @@ def fetch_x_posts(queries: list[str], section: str, topic_re: re.Pattern,
 def fetch_all_stocks():
     payload = read_json(DATA / "stocks.json")
     updated, attempts = refresh_markets(payload)
+    updated['refresh'] = {
+        'completed_at': now_iso(), 'interval_seconds': 300,
+        'stale_count': sum(row.get('validation_status') == 'STALE'
+                           for rows in updated['regions'].values() for row in rows),
+        'unavailable_count': sum(row.get('validation_status') == 'DATA_UNAVAILABLE'
+                                 for rows in updated['regions'].values() for row in rows),
+    }
     atomic_write(DATA / "stocks.json", updated)
     atomic_write(ROOT / "work" / "market-attempts.json", {
         "execution_at": now_iso(), "attempts": attempts,

@@ -310,11 +310,29 @@ def parse_google_beta(soup, identifier):
 
 
 def fetch_google(identifier):
-    response = requests.get('https://www.google.com/finance/quote/' + identifier,
-                            headers={'User-Agent': 'Mozilla/5.0'},
-                            params={'hl': 'en'}, timeout=(4, 10))
-    response.raise_for_status()
-    return parse_google(response.text, identifier)
+    # Google serves both legacy and beta pages during its rollout. Retry a
+    # failed identity/schema check on the direct beta route, without weakening
+    # canonical URL, payload identity or currency-direction validation.
+    best, error = None, None
+    for route in ('quote/', 'beta/quote/'):
+        try:
+            response = requests.get('https://www.google.com/finance/' + route + identifier,
+                                    headers={'User-Agent': 'Mozilla/5.0', 'Cache-Control': 'no-cache'},
+                                    params={'hl': 'en'}, timeout=(4, 10))
+            response.raise_for_status()
+            quote = parse_google(response.text, identifier)
+            if best is None or timestamp(quote['timestamp']) > timestamp(best['timestamp']):
+                best = quote
+            # Retry old FX observations too; never replace a valid newer quote
+            # with an older response or turn its retrieval time into quote time.
+            fx = identifier in {'-'.join(pair) for pair in PAIRS.values()}
+            if not fx or (datetime.now(timezone.utc)-timestamp(best['timestamp'])).total_seconds() <= 480:
+                return best
+        except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+            error = exc
+    if best is not None:
+        return best
+    raise error
 
 
 def issuer_matches(name, candidate, symbol):
@@ -388,7 +406,7 @@ def quote_policy(symbol, state):
             'max_quote_age_seconds': 480 if fx else 1800 if state == 'OPEN' else 7200 if state == 'BREAK' else 7 * 86400}
 
 
-def google_fx(row, symbol, quote, now):
+def google_fx(row, symbol, quote, now, source='Google Finance'):
     """Display a directly sourced FX observation without claiming corroboration."""
     if symbol not in PAIRS or quote.get('id') != '-'.join(PAIRS[symbol]):
         raise ValueError('FX_DIRECTION_MISMATCH')
@@ -408,23 +426,51 @@ def google_fx(row, symbol, quote, now):
     for field in FIELDS:
         out[field] = None
     out.update(verification_version=1, validation_status=status, validationStatus=status,
-        quote_quality='INDICATIVE', validation_scope='Google Finance observation; not independently verified',
-        source='Google Finance', source_timestamp=quote['timestamp'], retrieved_at=quote['retrieved_at'],
+        quote_quality='INDICATIVE', validation_scope=source + ' observation; not independently verified',
+        source=source, source_timestamp=quote['timestamp'], retrieved_at=quote['retrieved_at'],
         source_symbol=symbol, currency=PAIRS[symbol][1], base_currency=PAIRS[symbol][0],
         quote_currency=PAIRS[symbol][1], instrument_type='CURRENCY', exchange='CCY',
         quote_basis='unspecified', market_status='UNKNOWN', market_timezone='UTC',
-        market_status_basis='Google FX page does not establish current market session',
+        market_status_basis='Source quote does not establish current market session',
         quote_policy={'policy_version':3, 'max_quote_age_seconds':480}, indexValue=price,
         field_metadata={field: {'validation_status':'DATA_UNAVAILABLE'} for field in FIELDS})
-    out['field_metadata']['indexValue'] = {'validation_status':status, 'source':'Google Finance',
+    out['field_metadata']['indexValue'] = {'validation_status':status, 'source':source,
         'source_timestamp':quote['timestamp'], 'retrieved_at':quote['retrieved_at'],
         'decimal':format(price,'f'), 'currency':PAIRS[symbol][1], 'verification_sources':[]}
     out.update(sourceTimestamp=out['source_timestamp'], retrievedAt=out['retrieved_at'],
                marketStatus=out['market_status'], marketTimezone=out['market_timezone'])
-    return fill_google_fields(out, quote, now)
+    return fill_google_fields(out, quote, now, source=source)
 
 
-def fill_google_fields(out, quote, now):
+def freshest_fx(row, symbol, google, yahoo, now):
+    """Choose one complete provider snapshot; never mix FX prices and closes."""
+    candidates, errors = [], []
+    try:
+        if 'error' in google:
+            raise ValueError(google['error'])
+        candidates.append(google_fx(row, symbol, google, now))
+    except (ValueError, KeyError, TypeError) as exc:
+        errors.append(str(exc))
+    try:
+        if yahoo.get('symbol') != symbol or yahoo.get('quoteType') != 'CURRENCY':
+            raise ValueError('FX_IDENTITY_MISMATCH')
+        if yahoo.get('currency') != PAIRS[symbol][1]:
+            raise ValueError('FX_DIRECTION_MISMATCH')
+        quote = {'id': '-'.join(PAIRS[symbol]), 'currency': yahoo['currency'],
+                 'price': yahoo['regularMarketPrice'],
+                 'timestamp': timestamp(yahoo['regularMarketTime']).isoformat(),
+                 'retrieved_at': yahoo['_retrieved_at']}
+        if yahoo.get('regularMarketPreviousClose') is not None:
+            quote['previousClose'] = yahoo['regularMarketPreviousClose']
+        candidates.append(google_fx(row, symbol, quote, now, source='Yahoo Finance'))
+    except (ValueError, KeyError, TypeError, OverflowError) as exc:
+        errors.append(str(exc))
+    if not candidates:
+        raise ValueError(errors[0] or 'FX_SOURCE_UNAVAILABLE')
+    return max(candidates, key=lambda item: timestamp(item['source_timestamp']))
+
+
+def fill_google_fields(out, quote, now, source='Google Finance'):
     """Fill missing/stale fields from the same Google snapshot, explicitly labelled."""
     age = (now-timestamp(quote['timestamp'])).total_seconds()
     if age < -120:
@@ -445,14 +491,14 @@ def fill_google_fields(out, quote, now):
         if field not in {'absoluteChange','changePercent'} and value <= 0:
             continue
         out[field] = value
-        meta = {'validation_status':status, 'quality':'INDICATIVE', 'source':'Google Finance',
+        meta = {'validation_status':status, 'quality':'INDICATIVE', 'source':source,
             'source_timestamp':quote['timestamp'], 'retrieved_at':quote['retrieved_at'],
             'decimal':format(value,'f'), 'currency':quote.get('currency'), 'verification_sources':[]}
         if field in {'absoluteChange','changePercent'}:
-            meta.update(calculation='Google quote minus Google previous close' if field == 'absoluteChange' else '(Google quote / Google previous close - 1) * 100; rounded to 6 decimal places',
+            meta.update(calculation=source + ' quote minus same-source previous close' if field == 'absoluteChange' else '(' + source + ' quote / same-source previous close - 1) * 100; rounded to 6 decimal places',
                         input_price=quote['price'], input_previous_close=prev)
         if field == 'marketCap':
-            meta.update(display_resolution=quote.get('cap_resolution'), timestamp_scope='quote snapshot; approximate Google displayed market cap')
+            meta.update(display_resolution=quote.get('cap_resolution'), timestamp_scope='quote snapshot; provider market cap, not independently verified')
         out['field_metadata'][field] = meta
     if out.get('currency') == 'USD' and out.get('marketCap') is not None:
         out['marketCapUSD'] = out['marketCap']
@@ -469,8 +515,9 @@ def google_observation(row, symbol, quote, identity, now):
         # Google calls the soybean series singular.
         if not (symbol == 'ZS=F' and quote.get('name') == 'Soybean Continuous Contract'):
             raise ValueError('ISSUER_IDENTITY_REQUIRES_REVIEW')
-    if future and 'Continuous Contract' not in quote.get('name',''):
-        raise ValueError('FUTURES_SERIES_MISMATCH')
+    # The canonical W00 instrument ID and exchange identify Google's continuous
+    # series. Beta pages shorten the heading to e.g. "Crude Oil"; that heading
+    # is not an expiry identifier. Keep the exact instrument and issuer checks.
     expected_currency = identity.get('quote_currency') or identity.get('currency') or row.get('quote_currency') or row.get('currency')
     if not quote.get('currency') or expected_currency and quote['currency'] != expected_currency:
         raise ValueError('CURRENCY_MISMATCH')
@@ -520,6 +567,51 @@ def unavailable(row, reason):
     result['validationStatus'] = result['validation_status']
     result['error'] = {'status': 'VALIDATION_FAILED', 'reason': reason}
     return result
+
+
+def yahoo_observation(row, symbol, quote, now):
+    """Explicit single-source fallback for equities/indexes, never futures."""
+    expected = 'INDEX' if symbol in INDEX_IDS else 'EQUITY'
+    if symbol in PAIRS or symbol in GOOGLE_FUTURES or quote.get('symbol') != symbol or quote.get('quoteType') != expected:
+        raise ValueError('SECURITY_IDENTITY_MISMATCH')
+    if expected == 'EQUITY' and not issuer_matches(row['name'], quote.get('longName') or quote.get('shortName', ''), symbol):
+        raise ValueError('ISSUER_IDENTITY_REQUIRES_REVIEW')
+    expected_currency = row.get('quote_currency') or row.get('currency')
+    if not quote.get('currency') or expected_currency and quote['currency'] != expected_currency:
+        raise ValueError('CURRENCY_MISMATCH')
+    if row.get('exchange') and EXCHANGES.get(row['exchange'], row['exchange']) != EXCHANGES.get(quote.get('exchange'), quote.get('exchange')):
+        raise ValueError('EXCHANGE_MISMATCH')
+    state, calendar = session_state(quote, now)
+    ts = timestamp(quote['regularMarketTime'])
+    age = (now-ts).total_seconds()
+    if age < -120 or decimal(quote['regularMarketPrice']) <= 0:
+        raise ValueError('INVALID_SOURCE_QUOTE')
+    policy = quote_policy(symbol, state)
+    status = 'STALE' if age > policy['max_quote_age_seconds'] else 'INDICATIVE'
+    out = deepcopy(row)
+    for key in ['error', 'validation_evidence', 'field_conflicts', 'google_instrument']:
+        out.pop(key, None)
+    out.update({field: None for field in FIELDS})
+    price = decimal(quote['regularMarketPrice'])
+    out.update(indexValue=price, verification_version=1, validation_status=status, validationStatus=status,
+        quote_quality='INDICATIVE', source='Yahoo Finance', source_timestamp=ts.isoformat(),
+        retrieved_at=quote['_retrieved_at'], currency=quote['currency'], quote_currency=quote['currency'],
+        source_symbol=symbol, instrument_type=expected, exchange=quote['exchange'],
+        market_status=state, market_timezone=quote['exchangeTimezoneName'], calendar=calendar,
+        market_status_basis='Yahoo Finance', quote_policy=policy,
+        validation_scope='Yahoo Finance observation; not independently verified',
+        field_metadata={field: {'validation_status':'DATA_UNAVAILABLE'} for field in FIELDS})
+    out['field_metadata']['indexValue'] = dict(validation_status=status, quality='INDICATIVE',
+        source='Yahoo Finance', source_timestamp=ts.isoformat(), retrieved_at=quote['_retrieved_at'],
+        decimal=format(price, 'f'), currency=quote['currency'], verification_sources=[])
+    fields = dict(price=price, timestamp=ts.isoformat(), retrieved_at=quote['_retrieved_at'], currency=quote['currency'])
+    for target, key in [('previousClose','regularMarketPreviousClose'), ('marketCap','marketCap'),
+                        ('dayHigh','regularMarketDayHigh'), ('dayLow','regularMarketDayLow')]:
+        if quote.get(key) is not None:
+            fields[target] = quote[key]
+    out.update(sourceTimestamp=out['source_timestamp'], retrievedAt=out['retrieved_at'],
+               marketStatus=state, marketTimezone=out['market_timezone'])
+    return fill_google_fields(out, fields, now, source='Yahoo Finance')
 
 
 def accepted(row, symbol, a, b, now):
@@ -703,11 +795,11 @@ def refresh_markets(payload):
         for attempt in range(2):
             try:
                 b = secondary[symbol]
+                if symbol in PAIRS:
+                    result = freshest_fx(row, symbol, b, quotes.get(symbol, {}), datetime.now(timezone.utc))
+                    break
                 if 'error' in b:
                     raise ValueError(b['error'])
-                if symbol in PAIRS:
-                    result = google_fx(row, symbol, b, datetime.now(timezone.utc))
-                    break
                 if symbol in GOOGLE_FUTURES:
                     result = google_observation(row, symbol, b, identity(symbol), datetime.now(timezone.utc))
                     break
@@ -731,13 +823,17 @@ def refresh_markets(payload):
                         continue
                     except Exception:
                         pass
-                try:
-                    b = secondary[symbol]
-                    if symbol in PAIRS or 'error' in b:
-                        raise ValueError(reason)
-                    result = google_observation(row, symbol, b, identity(symbol), datetime.now(timezone.utc))
-                except (ValueError,KeyError,TypeError,OverflowError):
-                    result = unavailable(row, reason)
+                candidates = []
+                if symbol not in PAIRS:
+                    try:
+                        candidates.append(google_observation(row, symbol, secondary[symbol], identity(symbol), datetime.now(timezone.utc)))
+                    except (ValueError,KeyError,TypeError,OverflowError):
+                        pass
+                    try:
+                        candidates.append(yahoo_observation(row, symbol, quotes.get(symbol, {}), datetime.now(timezone.utc)))
+                    except (ValueError,KeyError,TypeError,OverflowError):
+                        pass
+                result = max(candidates, key=lambda item: timestamp(item['source_timestamp'])) if candidates else unavailable(row, reason)
                 break
         attempts.append({'ticker': row['ticker'], 'retrieved_at': now_iso(),
                          'validation_status': result['validation_status'], 'reason': result.get('error', {}).get('reason'),

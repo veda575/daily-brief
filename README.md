@@ -15,11 +15,23 @@ common display zone for the Asia tab: Samsung trades in Korea (UTC+9), while
 the BABA and TSM symbols are US-listed ADRs; their sessions retain their actual
 exchange zones. Failed fetches retain their original quote time and stale status.
 
-The existing GitHub Actions workflow fetches data every five minutes at
-:02, :07, ..., :57 UTC, around the clock, so no DST-dependent cron conversion
-is needed. The browser fetches the published snapshot every 300 seconds.
-GitHub scheduled runs and Pages publication can be delayed; this is not a
-guaranteed real-time feed. For a strict five-minute deadline, use an external
-scheduler and a continuously available backend instead of Actions/Pages.
+The production Actions worker refreshes and commits sources every 300 seconds
+for five hours, then dispatches a successor. Scheduled runs at :02, :07, ... :57
+UTC are a recovery trigger. Production workers cannot overlap; PR checks use a
+separate concurrency group. To stop the automation, disable the workflow and
+cancel its running/pending runs in Actions.
+
+The hosted dashboard checks the public GitHub raw data every 60 seconds and
+when a hidden tab becomes visible. It does not wait for a Pages build for each
+data commit. Pages still publishes changes to the dashboard code. Local copies
+read their local data files.
+
+The header shows the actual completed source-check time and warns after ten
+minutes without a refresh. Every tab displays quote timestamps and stale status;
+individual indicative/stale fields remain labelled. Source delays, market closures,
+GitHub runner handoffs and outages can still delay quotes; five minutes is a
+refresh target, not a real-time market-data guarantee. The worker uses standard
+GitHub-hosted runners in this public repository. Review Actions billing before
+making the repository private.
 
 Checks: `python -m unittest discover -s tests -v` and `node tests/frontend.cjs`.

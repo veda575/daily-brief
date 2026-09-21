@@ -17,7 +17,7 @@ assert.equal(ctx.quoteTime('invalid'), 'Unknown quote time');
 for (const [region, suffix] of [['us','EST'], ['india','IST'], ['asia','GMT+8']]) {
   const markup = ctx.renderStocksTable([{name:'Regional',ticker:'X',source_timestamp:'2026-01-15T20:00:00Z'}], region);
   assert(markup.includes(suffix));
-  assert(markup.includes('Refresh every 5 minutes'));
+  assert(markup.includes('Source refresh target: 5 minutes'));
 }
 assert.equal(vm.runInContext("formatDecimal('123.0000')", ctx), '123.0000');
 assert.equal(vm.runInContext("fmtFxValue(94.475, '94.475')", ctx), '94.475');
@@ -107,7 +107,7 @@ assert.equal(vm.runInContext('commodityDisplay(gold).rate',ctx),'DATA UNAVAILABL
 assert.equal(vm.runInContext("commodityDisplay({unit:'USD/bbl'}).quantity",ctx),'1 Barrel');
 assert.equal(vm.runInContext("commodityDisplay({unit:'USD/metric ton'}).quantity",ctx),'1 Ton');
 assert(src.includes('verification_status'));
-assert(fs.readFileSync('script.js','utf8').includes('setInterval(refreshData, 300000)'));
+assert(fs.readFileSync('script.js','utf8').includes('setInterval(refreshData, 60000)'));
 console.log('Frontend precision, missing data, row retention, safe URLs and refresh checks passed.');
 ctx.AbortSignal = AbortSignal;
 (async () => {
@@ -119,3 +119,13 @@ ctx.AbortSignal = AbortSignal;
   await assert.rejects(ctx.loadJSON('data/stocks.json'), /Failed/);
   console.log('Malformed market/news responses and HTTP failure checks passed.');
 })().catch(e => { console.error(e); process.exitCode = 1; });
+
+// Production data bypasses Pages publication delay.
+ctx.window = {location: {hostname: 'veda575.github.io'}};
+assert.equal(ctx.dataURL('data/stocks.json'), 'https://raw.githubusercontent.com/veda575/daily-brief/main/data/stocks.json');
+ctx.window.location.hostname = 'localhost';
+assert.equal(ctx.dataURL('data/stocks.json'), 'data/stocks.json');
+// Stale commodities and indicative market caps must be visible without hovering.
+ctx.staleCommodity = {...ctx.gold, validation_status:'STALE', source_timestamp:'2026-09-17T00:00:00Z'};
+assert(vm.runInContext("renderStocksTable([staleCommodity], 'commodities', inr)",ctx).includes('<small>STALE'));
+assert(vm.runInContext("renderStocksTable([fieldRow], 'us')",ctx).includes('INDICATIVE'));

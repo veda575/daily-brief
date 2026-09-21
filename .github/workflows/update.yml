@@ -2,12 +2,18 @@ name: Five-minute verified data refresh
 
 on:
   schedule:
-    # Every five minutes at :02, :07, ... :57 UTC, avoiding the hour boundary.
-    # GitHub recommends off-hour scheduling to reduce contention, but can
-    # still delay/drop scheduled runs. workflow_dispatch allows an external
-    # scheduler to trigger this same fetch without using GitHub's cron queue.
+    # Recovery trigger; the worker supplies the five-minute cadence.
     - cron: "2-59/5 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'script.js'
+      - 'index.html'
+      - 'requirements.txt'
+      - '.github/workflows/update.yml'
   pull_request:
     paths:
       - 'scripts/**'
@@ -16,42 +22,64 @@ on:
       - 'requirements.txt'
       - '.github/workflows/update.yml'
 
-# Only one update at a time. Newer runs queue; in-progress runs finish first.
 concurrency:
-  group: market-hours-data-refresh
+  group: market-refresh-${{ github.event.pull_request.number || 'production' }}
   cancel-in-progress: false
 
 permissions:
-  contents: write
-  pages: write
+  contents: read
 
 jobs:
-  update:
+  checks:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: node tests/frontend.cjs
+
+  update:
+    needs: checks
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    permissions:
+      contents: write
+      pages: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.event.repository.default_branch }}
-
+          ref: ${{ github.event.repository.default_branch }}
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
           cache: pip
-
       - run: pip install -r requirements.txt
-
-      - run: python -m unittest discover -s tests -v
-
-      - run: node tests/frontend.cjs
-
-      - run: python scripts/fetch_data.py
-        if: github.event_name != 'pull_request'
+      - name: Publish dashboard code
         env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - name: Refresh sources and commit every five minutes for five hours
+        id: worker
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-
-      - name: Save actual execution and validation attempts
-        if: always() && github.event_name != 'pull_request'
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/refresh_loop.py
+      - name: Start successor without waiting for cron
+        if: success() && steps.worker.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: gh workflow run update.yml --ref "$DEFAULT_BRANCH"
+      - name: Save execution evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: validation-${{ github.run_id }}-${{ github.run_attempt }}
@@ -59,27 +87,3 @@ jobs:
             work/market-attempts.json
             work/execution.json
           retention-days: 7
-
-      - name: Commit data if changed
-        if: github.event_name != 'pull_request'
-        run: |
-          set -e
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A data
-          if git diff --cached --quiet; then
-            echo "No data changes to commit."
-            exit 0
-          fi
-          git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M') UTC"
-
-          # Never resolve a data conflict with ours: a newer snapshot must win.
-          # A rejected push fails visibly; the next run fetches the latest branch.
-          git push
-
-      # Commits made with GITHUB_TOKEN do not automatically rebuild Pages.
-      - name: Request publication of refreshed data
-        if: github.event_name != 'pull_request'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
