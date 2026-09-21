@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T14:43:14.804918+00:00",
+  "updated": "2026-09-21T14:48:11.813565+00:00",
   "items": [
     {
       "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
@@ -146,11 +146,11 @@
       "story_fingerprint": "e4f5885909236069b1abb8fd"
     },
     {
-      "title": "Israeli attacks on Gaza kill three, including a child",
+      "title": "Child among four Palestinians killed in Israeli attacks on Gaza",
       "url": "https://aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child",
       "source": "Al Jazeera",
       "published": "2026-09-21T12:32:43+00:00",
-      "retrieved_at": "2026-09-21T12:53:11.092820+00:00",
+      "retrieved_at": "2026-09-21T14:48:06.950654+00:00",
       "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "summary": "Israeli attacks on Palestinians continue in Gaza despite a 'ceasefire' signed in October.",
       "category": "global",
@@ -159,7 +159,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "3357741288460bf1da772011"
+      "story_fingerprint": "0c0d171f881c14e03292a336"
     },
     {
       "title": "US strikes on alleged drug boats could be crimes against humanity, says UN",
@@ -1488,22 +1488,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0a15d243f7a256ac26f062cf"
-    },
-    {
-      "title": "Child among four Palestinians killed in Israeli attacks across Gaza",
-      "url": "https://aljazeera.com/news/2026/9/19/three-palestinians-killed-in-israeli-strikes-across-gaza",
-      "source": "Al Jazeera",
-      "published": "2026-09-19T12:59:31+00:00",
-      "retrieved_at": "2026-09-19T18:49:20.725020+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Gaza’s Health Ministry says the son of its director general, Munir al-Bursh, is among those killed.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "f414024124af6dadf79c1f33"
     },
     {
       "title": "What’s behind reports that the Israeli army is low on troops, equipment?",
@@ -4000,6 +3984,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0f4bdd07db15d97f66624a19"
+    },
+    {
+      "title": "Would NATO Membership for Ukraine Undermine Article 5 Itself?",
+      "url": "https://warontherocks.com/would-nato-membership-for-ukraine-undermine-article-5-itself",
+      "source": "War on the Rocks",
+      "published": "2026-09-16T17:30:17+00:00",
+      "retrieved_at": "2026-09-21T14:48:07.136560+00:00",
+      "feed_url": "https://warontherocks.com/feed/",
+      "summary": "In 2025, Jennifer Kavanaugh and Christopher McCallion wrote, “Armed Neutrality for Ukraine Is NATO’s Least Poor Option,” where they made the case for armed neutrality over full NATO membership as the wiser course for both Ukraine and NATO. A year later, we asked them to revisit their arguments. Image: MidjourneyIn your 2025 article, you argued that NATO membership and binding U.S. or European…",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://warontherocks.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "e5b7cf428ad7718d8b540dc4"
     }
   ],
   "unverified_history": [
