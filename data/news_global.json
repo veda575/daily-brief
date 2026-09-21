@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-21T11:17:57.485599+00:00",
+  "updated": "2026-09-21T11:22:53.729346+00:00",
   "items": [
+    {
+      "title": "Why is the US trying ‘regime change’ again?",
+      "url": "https://aljazeera.com/video/project-force-2/2026/9/21/why-is-the-us-trying-regime-change-again",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T11:00:49+00:00",
+      "retrieved_at": "2026-09-21T11:22:48.970983+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "The US invasions after 9/11 were disasters -- but the US is trying again in Iran anyway",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "76e2a6483460e9d6976e4a20"
+    },
     {
       "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
       "url": "https://bbc.co.uk/news/articles/cm0e32rwvrryo",
@@ -48,6 +64,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b9fc3654617982d33616264b"
+    },
+    {
+      "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
+      "url": "https://bbc.co.uk/news/videos/c6z0z2nne11vo",
+      "source": "BBC World",
+      "published": "2026-09-21T10:00:31+00:00",
+      "retrieved_at": "2026-09-21T11:22:48.735664+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "a1edb6e6e2fd30ffcb919da9"
     },
     {
       "title": "Do Israelis feel any safer now than they did on October 6, 2023?",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d06eb6b58134ea713b3672b4"
-    },
-    {
-      "title": "Sweden expels Iran embassy employee, citing security concerns",
-      "url": "https://aljazeera.com/news/2026/9/16/sweden-expels-iran-embassy-employee-citing-security-concerns",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T15:53:38+00:00",
-      "retrieved_at": "2026-09-16T19:36:21.488944+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Stockholm says Iran-backed groups are plotting against 'Jewish and Israeli interests' in the country.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "fc73a1394e29f1241bd30475"
-    },
-    {
-      "title": "BRICS 2026: A Forum, Not a Front",
-      "url": "https://thediplomat.com/2026/09/brics-2026-a-forum-not-a-front",
-      "source": "The Diplomat",
-      "published": "2026-09-16T15:36:00+00:00",
-      "retrieved_at": "2026-09-17T05:13:01.671496+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "Xi and Putin in Delhi made the headlines. The declaration tells the real story of India's multi-alignment and why Europe should welcome it.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "fc4f363bad45b68b9df37a19"
     }
   ],
   "unverified_history": [
