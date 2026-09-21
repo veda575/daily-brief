@@ -117,6 +117,17 @@ ctx.AbortSignal = AbortSignal;
   await assert.rejects(ctx.loadJSON('data/news_tech.json'), /Invalid news snapshot/);
   ctx.fetch = async () => ({ ok: false });
   await assert.rejects(ctx.loadJSON('data/stocks.json'), /Failed/);
+  ctx.window.location.hostname = 'veda575.github.io';
+  const requested = [];
+  ctx.fetch = async url => {
+    requested.push(url);
+    if (url.startsWith('https://raw.githubusercontent.com/')) throw new Error('Network unavailable');
+    return {ok:true, json:async()=>({items:[],updated:'2026-09-18T00:00:00Z'})};
+  };
+  const saved = await ctx.loadJSON('data/news_tech.json');
+  assert.equal(saved.updated, '2026-09-18T00:00:00Z');
+  assert.equal(requested.length, 2);
+  assert(requested[1].startsWith('data/news_tech.json?'));
   console.log('Malformed market/news responses and HTTP failure checks passed.');
 })().catch(e => { console.error(e); process.exitCode = 1; });
 
