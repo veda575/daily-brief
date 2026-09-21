@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T17:19:00.875708+00:00",
+  "updated": "2026-09-21T17:23:59.154752+00:00",
   "items": [
     {
       "title": "Google confirms Gemini models hacked three companies in May 2026",
@@ -274,6 +274,23 @@
       "story_fingerprint": "2ff786a32c2bf9d1888dc3e2"
     },
     {
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI",
+      "published": "2026-09-21T10:00:00+00:00",
+      "retrieved_at": "2026-09-21T17:23:54.396018+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "741c9ecef24526f5c16ed821"
+    },
+    {
       "title": "Justice for CSS",
       "url": "https://wired.com/story/justice-for-css",
       "source": "Wired",
@@ -340,6 +357,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "e26d0db90f39278dd3098408"
+    },
+    {
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI",
+      "published": "2026-09-21T07:00:00+00:00",
+      "retrieved_at": "2026-09-21T17:23:54.396042+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "32fbb96e0623cd03d4738492"
     },
     {
       "title": "How V7 gives AI agents institutional memory",
@@ -4216,40 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "a037af3b4ab017e4dab8147c"
-    },
-    {
-      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
-      "url": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day",
-      "source": "Ars Technica",
-      "published": "2026-09-10T22:16:05+00:00",
-      "retrieved_at": "2026-09-10T23:26:30.060552+00:00",
-      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
-      "summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "38205ba284c0f4531ec5e3a2"
-    },
-    {
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year",
-      "source": "TechCrunch AI",
-      "published": "2026-09-10T21:51:59+00:00",
-      "retrieved_at": "2026-09-10T23:26:29.141810+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "cef19c5f84c0e5e89b149e7a"
     }
   ],
   "unverified_history": [
