@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T08:37:17.310390+00:00",
+  "updated": "2026-09-21T08:47:19.916232+00:00",
   "items": [
     {
       "title": "Washington’s Foreign Equity Bets Need Better Governance",
@@ -256,6 +256,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "e52c7609323f628db3f8035c"
+    },
+    {
+      "title": "Workers came across human remains – and unearthed a mass grave of 572 people",
+      "url": "https://bbc.co.uk/news/articles/cm1j4kl80z56o",
+      "source": "BBC World",
+      "published": "2026-09-20T22:28:15+00:00",
+      "retrieved_at": "2026-09-21T08:47:14.768243+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Workers in northern Sri Lanka accidentally uncovered the country's largest mass grave – and reopened wounds from its civil war.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "a40145549652023057cad014"
     },
     {
       "title": "France to summon Iran envoy after language centre closure in Tehran",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://thediplomat.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d6c3b6529d724fc7bdce1842"
-    },
-    {
-      "title": "Egypt’s el-Sisi rejects displacement of Palestinians from Gaza",
-      "url": "https://aljazeera.com/news/2026/9/16/egypts-el-sisi-rejects-displacement-of-palestinians-from-gaza",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T14:31:14+00:00",
-      "retrieved_at": "2026-09-16T16:19:54.582676+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Israel’s defence minister has pledged to remove Palestinians from the besieged Strip.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "57d8959bf184058463e2ad61"
     }
   ],
   "unverified_history": [
