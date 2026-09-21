@@ -1,6 +1,70 @@
 {
-  "updated": "2026-09-21T00:35:09.247189+00:00",
+  "updated": "2026-09-21T05:28:46.742479+00:00",
   "items": [
+    {
+      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+      "url": "https://bbc.co.uk/news/articles/cvwyz29n0nn2o",
+      "source": "BBC World",
+      "published": "2026-09-21T03:22:44+00:00",
+      "retrieved_at": "2026-09-21T05:28:41.588784+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Exit polls show damaging losses for Merz's centre-right CDU party in the state of Mecklenburg-Vorpommern and Berlin.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "1be5402b8e88a516a04583b5"
+    },
+    {
+      "title": "Trump administration readies sweeping sanctions against ICC, reports say",
+      "url": "https://aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T01:19:42+00:00",
+      "retrieved_at": "2026-09-21T05:28:41.578961+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Measures targeting the court itself could disrupt payments, IT services and investigations.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "03e3afee55f3fb65824825fc"
+    },
+    {
+      "title": "The Sahel and the UN: a smaller footprint, a different role",
+      "url": "https://aljazeera.com/news/2026/9/21/the-sahel-and-the-un-a-smaller-footprint-a-different-role",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T00:53:15+00:00",
+      "retrieved_at": "2026-09-21T05:28:41.578973+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "As UNGA 81 begins, the UN faces a changing Sahel demanding greater sovereignty.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4342839beec61795471c6f3e"
+    },
+    {
+      "title": "Ethiopian armed groups forge alliance against government",
+      "url": "https://aljazeera.com/news/2026/9/21/ethiopian-armed-groups-forge-alliance-against-government",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T00:34:30+00:00",
+      "retrieved_at": "2026-09-21T05:28:41.578984+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Former adversaries say they will settle differences as fears grow of expanding war in Ethiopia.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "1a58191187fbd3d9c8958f07"
+    },
     {
       "title": "Iran war live: Tehran warns US against new strikes; fighting rages in Yemen",
       "url": "https://aljazeera.com/news/liveblog/2026/9/21/iran-war-live-tehran-warns-us-against-new-strikes-fighting-rages-in-yemen",
@@ -18,20 +82,20 @@
       "story_fingerprint": "98279a4768fd794d55b35bc0"
     },
     {
-      "title": "Polls close in Russian wartime election with ruling party set to dominate",
+      "title": "Ruling party dominates early results in Russia’s wartime parliamentary vote",
       "url": "https://aljazeera.com/news/2026/9/20/polls-close-in-russian-wartime-election-with-ruling-party-set-to-dominate",
       "source": "Al Jazeera",
       "published": "2026-09-20T22:54:00+00:00",
-      "retrieved_at": "2026-09-21T00:35:05.328702+00:00",
+      "retrieved_at": "2026-09-21T05:28:41.579072+00:00",
       "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Russian President Vladimir Putin has cast the vote as a test of support for his ongoing war in Ukraine.",
+      "summary": "The Kremlin wants the elections to showcase popular support for the war in Ukraine and legitimise its action.",
       "category": "global",
       "relevance": "global",
       "verification_status": "SOURCE_CONFIRMED",
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "096161b9ebb4cf5b460e6ae1"
+      "story_fingerprint": "e52c7609323f628db3f8035c"
     },
     {
       "title": "France to summon Iran envoy after language centre closure in Tehran",
@@ -82,11 +146,11 @@
       "story_fingerprint": "bdd693a2418f41e3ad762359"
     },
     {
-      "title": "US, China open high-level talks ahead of Trump-Xi summit",
+      "title": "US proposes AI safety notification mechanism in talks with China",
       "url": "https://aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
       "source": "Al Jazeera",
       "published": "2026-09-20T19:42:13+00:00",
-      "retrieved_at": "2026-09-20T20:46:39.998421+00:00",
+      "retrieved_at": "2026-09-21T05:28:41.579186+00:00",
       "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "summary": "Scott Bessent and He Lifeng meet in New York for US-China talks ahead of the Trump-Xi meeting later this week.",
       "category": "global",
@@ -95,7 +159,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "50748a95257c23120a3bf3ef"
+      "story_fingerprint": "8e659f886916f39086a90f03"
     },
     {
       "title": "Qatar says it is working to revive Iran-US talks",
@@ -160,22 +224,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c4b953468e3c6a275590a84c"
-    },
-    {
-      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-      "url": "https://bbc.co.uk/news/articles/cvwyz29n0nn2o",
-      "source": "BBC World",
-      "published": "2026-09-20T17:46:57+00:00",
-      "retrieved_at": "2026-09-20T18:04:08.734907+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Exit polls show damaging losses for Merz's centre-right CDU party in the states of Berlin and Mecklenburg-Vorpommern.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "1be5402b8e88a516a04583b5"
     },
     {
       "title": "Trump tariffs hit Canada’s dairy farmers as US sales stall",
@@ -3952,54 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c834cf696e3bffbf9c09ecfc"
-    },
-    {
-      "title": "US accuses Russia of trying to kill Ukrainian allies overseas",
-      "url": "https://bbc.co.uk/news/articles/cjp3077led9qo",
-      "source": "BBC World",
-      "published": "2026-09-16T12:26:00+00:00",
-      "retrieved_at": "2026-09-16T16:19:54.573929+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "The FBI says five men \"conspired to intimidate, threaten, or murder people on US soil and around the world\".",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "f3187bb7de5ac02eac40bd92"
-    },
-    {
-      "title": "Poland reaffirms support for Ukraine after drone strikes",
-      "url": "https://dw.com/en/poland-reaffirms-support-for-ukraine-after-drone-strikes/a-79291144",
-      "source": "DW",
-      "published": "2026-09-16T12:04:00+00:00",
-      "retrieved_at": "2026-09-16T16:19:55.354900+00:00",
-      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
-      "summary": "After Russia's recent drone attacks on targets close to the Ukraine-Poland border, Warsaw has doubled down on its support for Kyiv and pledged a \"nonprovocative but serious response\" to Moscow.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "b4a05285eaa43e31597783af"
-    },
-    {
-      "title": "Philippines' Duterte seen in person at International Criminal Court for first time",
-      "url": "https://bbc.co.uk/news/articles/cq986j7x1nd3o",
-      "source": "BBC World",
-      "published": "2026-09-16T11:50:09+00:00",
-      "retrieved_at": "2026-09-16T12:01:27.451301+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "He is due to be tried for crimes against humanity over thousands of deaths linked to his war on drugs.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "3e97b0dbf384617385c22b6f"
     }
   ],
   "unverified_history": [
