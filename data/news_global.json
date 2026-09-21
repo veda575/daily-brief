@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-21T09:57:09.253576+00:00",
+  "updated": "2026-09-21T10:32:10.479669+00:00",
   "items": [
+    {
+      "title": "A simple guide to the Yemen conflict",
+      "url": "https://aljazeera.com/news/2026/9/21/a-brief-history-of-the-yemen-conflict",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T10:01:30+00:00",
+      "retrieved_at": "2026-09-21T10:32:05.495348+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Here’s a brief history of Yemen’s war - from the Houthi takeover in 2014 to the latest escalation.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "b9fc3654617982d33616264b"
+    },
+    {
+      "title": "Do Israelis feel any safer now than they did on October 6, 2023?",
+      "url": "https://aljazeera.com/news/2026/9/21/do-israelis-feel-any-safer-now-than-they-did-on-october-6-2023",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T09:54:05+00:00",
+      "retrieved_at": "2026-09-21T10:32:05.495370+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Despite having rarely been more secure, public concerns about security continue to dominate the election.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "5c85cb8fd3c12789fe36809b"
+    },
     {
       "title": "Can the US win the AI cold war with China?",
       "url": "https://aljazeera.com/opinions/2026/9/21/can-the-us-win-the-ai-cold-war-with-china",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://thediplomat.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d108840d5ed4942319850792"
-    },
-    {
-      "title": "Underwater Autonomy in the China-US Naval Race",
-      "url": "https://thediplomat.com/2026/09/underwater-autonomy-in-the-china-us-naval-race",
-      "source": "The Diplomat",
-      "published": "2026-09-16T15:07:00+00:00",
-      "retrieved_at": "2026-09-16T19:36:21.477932+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "Insights from Verineia Codrean.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "cea0f048896f0bf82e3e8041"
-    },
-    {
-      "title": "Israeli ‘double-tap’ air strike responsible for killing schoolboy in Gaza",
-      "url": "https://aljazeera.com/news/2026/9/16/israeli-double-tap-air-strike-responsible-for-killing-schoolboy-in-gaza",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T15:00:20+00:00",
-      "retrieved_at": "2026-09-16T16:19:54.582642+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Two people were killed in the assault on Gaza City - a paramedic and a 15-year-old boy returning from school.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "dc3dc5ec9fad7749cf9979ca"
     }
   ],
   "unverified_history": [
