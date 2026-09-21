@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T11:02:12.973778+00:00",
+  "updated": "2026-09-21T11:17:57.485599+00:00",
   "items": [
     {
       "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
@@ -16,6 +16,22 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "461c28362ae198aae2b0ea78"
+    },
+    {
+      "title": "How oil, gas losses have shrunk Iran’s GDP by 10 percent during war",
+      "url": "https://aljazeera.com/news/2026/9/21/how-oil-gas-losses-have-shrunk-irans-gdp-by-10-percent-during-war",
+      "source": "Al Jazeera",
+      "published": "2026-09-21T10:38:41+00:00",
+      "retrieved_at": "2026-09-21T11:17:52.613445+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "The oil and gas sector shrank 26 percent, new official data shows, pointing to the costs of the US-Israel war on Iran.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "c0e1120ffbf94f1e36c49abd"
     },
     {
       "title": "A simple guide to the Yemen conflict",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://thediplomat.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "fc4f363bad45b68b9df37a19"
-    },
-    {
-      "title": "Ex-Trump ally Marjorie Taylor Greene says war on Iran must ‘stop’",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/16/ex-trump-ally-marjorie-taylor-greene-says-war-on-iran-must",
-      "source": "Al Jazeera",
-      "published": "2026-09-16T15:23:51+00:00",
-      "retrieved_at": "2026-09-16T16:19:54.582605+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Former Republican Congresswoman Marjorie Taylor Greene slammed US President Donald Trump’s war on Iran.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8346d82c445534f2a00015e2"
     }
   ],
   "unverified_history": [
