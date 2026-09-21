@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-21T18:33:56.132948+00:00",
+  "updated": "2026-09-21T18:39:00.253103+00:00",
   "items": [
+    {
+      "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
+      "url": "https://wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping",
+      "source": "Wired",
+      "published": "2026-09-21T18:33:02+00:00",
+      "retrieved_at": "2026-09-21T18:38:53.993306+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips in negotiations.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "9846a4c3c465df051d097571"
+    },
     {
       "title": "Meta’s AI agent has been blocked from using Amazon.com",
       "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "38df1038dfa8a6bc2b886fcc"
-    },
-    {
-      "title": "What happens when quantum mechanics and relativity meet?",
-      "url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet",
-      "source": "Ars Technica",
-      "published": "2026-09-11T11:20:02+00:00",
-      "retrieved_at": "2026-09-11T14:36:37.925236+00:00",
-      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
-      "summary": "Experiment put atoms in a superposition of trajectories to find out.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "14bab391abb45ba482118f67"
     }
   ],
   "unverified_history": [
