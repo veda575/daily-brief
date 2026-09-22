@@ -35,3 +35,11 @@ GitHub-hosted runners in this public repository. Review Actions billing before
 making the repository private.
 
 Checks: `python -m unittest discover -s tests -v` and `node tests/frontend.cjs`.
+
+Free-source additions: Shenzhen Component (399001.SZ) uses Eastmoney when its
+identity/scale-validated quote is newer and under 30 minutes old. It is labelled
+indicative. TSM remains the US-listed ADR: its Yahoo market cap is corroborated
+against Nasdaq with matching regular-session date/price and 0.01% cap tolerance.
+Nasdaq supplies no separate cap timestamp. Failures preserve existing fallbacks;
+per-run artifacts record free-source errors. Public endpoint availability is not
+a guarantee of real-time data. Market-cap cells retain their numeric formatting.

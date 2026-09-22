@@ -20,6 +20,7 @@ import exchange_calendars as calendars
 import pandas as pd
 from local_gold import GOLD_ID, refresh_gold
 from market_timezones import apply_region_timezones
+from free_sources import fetch_shenzhen, fetch_tsm
 
 FIELDS = ('indexValue', 'marketCap', 'changePercent', 'absoluteChange',
           'previousClose', 'dayHigh', 'dayLow', 'volume', 'marketCapUSD')
@@ -759,6 +760,65 @@ def convert_usd(row, fx):
     return row
 
 
+def apply_free_source(row, symbol, extra, yahoo, now):
+    """Use fresher index quotes or corroborate caps, preserving honest provenance."""
+    if symbol == '399001.SZ':
+        ts = timestamp(extra['timestamp'])
+        age = (now-ts).total_seconds()
+        if age < -120 or age > 1800:
+            raise ValueError('EASTMONEY_QUOTE_NOT_CURRENT')
+        if row.get('source_timestamp') and ts <= timestamp(row['source_timestamp']):
+            return row
+        out = deepcopy(row)
+        for key in ['error', 'field_conflicts', 'validation_evidence', 'google_instrument']:
+            out.pop(key, None)
+        out.update({field: None for field in FIELDS})
+        out.update(indexValue=extra['price'], previousClose=extra['previousClose'],
+                   absoluteChange=extra['price']-extra['previousClose'], changePercent=extra['changePercent'],
+                   verification_version=1, validation_status='INDICATIVE', validationStatus='INDICATIVE',
+                   source='Eastmoney', source_timestamp=extra['timestamp'], retrieved_at=extra['retrieved_at'],
+                   sourceTimestamp=extra['timestamp'], retrievedAt=extra['retrieved_at'],
+                   quote_quality='INDICATIVE', market_status='UNKNOWN', marketStatus='UNKNOWN',
+                   market_timezone='Asia/Shanghai', marketTimezone='Asia/Shanghai',
+                   market_status_basis='Source provides quote time, not current session state',
+                   value_unit='index points', quote_policy={'max_quote_age_seconds':1800},
+                   validation_scope='Eastmoney observation; not independently verified',
+                   field_metadata={field:{'validation_status':'DATA_UNAVAILABLE'} for field in FIELDS})
+        for field in ['indexValue','previousClose','absoluteChange','changePercent']:
+            out['field_metadata'][field] = dict(validation_status='INDICATIVE', quality='INDICATIVE',
+                source='Eastmoney', source_timestamp=extra['timestamp'], retrieved_at=extra['retrieved_at'],
+                decimal=format(out[field], 'f'), currency=None, verification_sources=[])
+        return out
+    if symbol == 'TSM':
+        if (yahoo.get('symbol') != 'TSM' or yahoo.get('quoteType') != 'EQUITY'
+                or yahoo.get('currency') != 'USD' or EXCHANGES.get(yahoo.get('exchange')) != 'NYSE'
+                or not issuer_matches('TSMC', yahoo.get('longName') or yahoo.get('shortName', ''), 'TSM')):
+            raise ValueError('YAHOO_TSM_IDENTITY_MISMATCH')
+        ts = timestamp(yahoo['regularMarketTime'])
+        state, _ = session_state(yahoo, now)
+        if (ts.astimezone(ZoneInfo('America/New_York')).date().isoformat() != extra['source_date']
+                or (now-ts).total_seconds() < -120
+                or (now-ts).total_seconds() > quote_policy(symbol,state)['max_quote_age_seconds']):
+            raise ValueError('NASDAQ_YAHOO_DATE_MISMATCH')
+        cap, price = decimal(yahoo['marketCap']), decimal(yahoo['regularMarketPrice'])
+        if (cap <= 0 or abs(cap-extra['marketCap']) / cap > Decimal('0.0001')
+                or abs(price-extra['price']) / price > Decimal('0.001')):
+            raise ValueError('NASDAQ_YAHOO_CAP_CONFLICT')
+        out = deepcopy(row)
+        out.update(marketCap=cap, marketCapUSD=cap, currency='USD')
+        out['field_metadata']['marketCap'] = dict(validation_status='VERIFIED', source='Yahoo Finance',
+            source_timestamp=ts.isoformat(), retrieved_at=yahoo['_retrieved_at'], decimal=format(cap,'f'),
+            currency='USD', verification_sources=['Yahoo Finance','Nasdaq'],
+            timestamp_scope='Yahoo quote time; neither provider gives a market-cap-specific timestamp',
+            corroboration={'source':'Nasdaq', 'marketCap':extra['marketCap'],
+                'source_date':extra['source_date'], 'retrieved_at':extra['retrieved_at'],
+                'relative_tolerance':Decimal('0.0001')})
+        out['field_metadata']['marketCapUSD'] = deepcopy(out['field_metadata']['marketCap'])
+        # Preserve Google's disagreement as evidence, not as a failed Nasdaq check.
+        return out
+    return row
+
+
 def refresh_markets(payload):
     now = datetime.now(timezone.utc)
     symbols = [r.get('source_symbol') or ('BHARTIARTL.NS' if r['ticker'] == 'BHARTIARTL' else r['ticker'])
@@ -782,6 +842,15 @@ def refresh_markets(payload):
             return symbol, {'error': str(exc) if isinstance(exc, ValueError) else type(exc).__name__}
     with ThreadPoolExecutor(max_workers=6) as pool:
         secondary = dict(pool.map(get_secondary, symbols))
+    extras, extra_errors = {}, {}
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        tasks = {s:pool.submit(fetcher) for s,fetcher in
+                 [('399001.SZ',fetch_shenzhen), ('TSM',fetch_tsm)] if s in symbols}
+        for symbol, task in tasks.items():
+            try:
+                extras[symbol] = task.result()
+            except Exception as exc:
+                extra_errors[symbol] = type(exc).__name__
     attempts = []
     def refresh(row):
         symbol = row.get('source_symbol') or ('BHARTIARTL.NS' if row['ticker'] == 'BHARTIARTL' else row['ticker'])
@@ -835,8 +904,14 @@ def refresh_markets(payload):
                         pass
                 result = max(candidates, key=lambda item: timestamp(item['source_timestamp'])) if candidates else unavailable(row, reason)
                 break
+        if symbol in extras:
+            try:
+                result = apply_free_source(result, symbol, extras[symbol], quotes.get(symbol, {}), datetime.now(timezone.utc))
+            except (ValueError, KeyError, TypeError, OverflowError, ZeroDivisionError) as exc:
+                extra_errors[symbol] = str(exc) if isinstance(exc, ValueError) else type(exc).__name__
         attempts.append({'ticker': row['ticker'], 'retrieved_at': now_iso(),
                          'validation_status': result['validation_status'], 'reason': result.get('error', {}).get('reason'),
+                         'free_source_error':extra_errors.get(symbol),
                          'field_conflicts': result.get('field_conflicts', [])})
         return result
     fx = {ccy: refresh({'ticker': ccy + '=X', 'name': 'USD/' + ccy}) for ccy in ['HKD', 'KRW']}

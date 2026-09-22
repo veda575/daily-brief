@@ -219,7 +219,7 @@ function marketReference(row, field, usdInr = null) {
   for (const key of [field, 'changePercent']) {
     if (!canDisplay(row, key)) continue;
     const meta = row.field_metadata?.[key];
-    sources.push(meta?.source || row.source, meta?.fx_source);
+    sources.push(meta?.source || row.source, meta?.fx_source, meta?.corroboration?.source);
   }
   if (usdInr && row.unit !== 'INR/gram' && canDisplay(row, field) && canDisplay(usdInr, 'indexValue')) {
     sources.push(usdInr.field_metadata?.indexValue?.source || usdInr.source);
