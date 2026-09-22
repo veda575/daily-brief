@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T19:39:32.333828+00:00",
+  "updated": "2026-09-22T19:54:30.900446+00:00",
   "items": [
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
+      "source": "Ars Technica AI",
+      "published": "2026-09-22T19:45:47+00:00",
+      "retrieved_at": "2026-09-22T19:54:26.751344+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "49ce40e377df9ceb5dcc82a6"
+    },
     {
       "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
       "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
       "source_type": "PUBLISHER",
       "story_fingerprint": "e5c2d02981102bcf24f095f3"
-    },
-    {
-      "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
-      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
-      "source": "TechCrunch AI",
-      "published": "2026-09-14T16:27:53+00:00",
-      "retrieved_at": "2026-09-14T18:35:29.870123+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "a45a3d710dda6ff763589838"
     }
   ],
   "unverified_history": [
