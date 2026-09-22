@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T16:03:32.023535+00:00",
+  "updated": "2026-09-22T16:33:31.176361+00:00",
   "items": [
+    {
+      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance",
+      "source": "TechCrunch AI",
+      "published": "2026-09-22T16:30:07+00:00",
+      "retrieved_at": "2026-09-22T16:33:25.770835+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Anthropic called it \"the strongest-performing model we've tested to date.\"",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "24362e5fd3dac4324239b15d"
+    },
     {
       "title": "Rabbit Is Back, This Time With an AI Agent App",
       "url": "https://wired.com/story/rabbit-r1-os3-jesse-lyu",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "f267891f7236520fb1093c02"
-    },
-    {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "source": "OpenAI",
-      "published": "2026-09-14T00:00:00+00:00",
-      "retrieved_at": "2026-09-14T01:25:25.600632+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "b5e889eb42fdc6f7fe9c88d4"
     }
   ],
   "unverified_history": [
