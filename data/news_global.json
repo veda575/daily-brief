@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-22T12:27:28.703902+00:00",
+  "updated": "2026-09-22T12:32:26.731283+00:00",
   "items": [
+    {
+      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+      "url": "https://bbc.co.uk/news/articles/cqy7z275yx65o",
+      "source": "BBC World",
+      "published": "2026-09-22T12:29:25+00:00",
+      "retrieved_at": "2026-09-22T12:32:23.925517+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The 2019 attacks were the deadliest the country had seen since the end of its civil war.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "bedd9cff5e37f9481be8e694"
+    },
     {
       "title": "UN General Assembly live: Trump, Qatar emir to speak as Iran war dominates",
       "url": "https://aljazeera.com/news/liveblog/2026/9/22/un-general-assembly-live-trump-qatar-emir-to-speak-as-iran-war-dominates",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "4aff1bb5616d8f2f8620e480"
-    },
-    {
-      "title": "Ghalibaf’s maths missile at Trump decoded: Is Iran fixing US interest rates?",
-      "url": "https://aljazeera.com/news/2026/9/17/ghalibafs-maths-missile-at-trump-decoded-is-iran-fixing-us-interest-rates",
-      "source": "Al Jazeera",
-      "published": "2026-09-17T14:10:41+00:00",
-      "retrieved_at": "2026-09-17T14:59:31.768325+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Iran's speaker mocks US interest rates, citing the Taylor equation amidst rising global oil prices and inflation.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "415d6945d97cc8ab1a7ea153"
     }
   ],
   "unverified_history": [
