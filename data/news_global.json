@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-22T18:43:40.554925+00:00",
+  "updated": "2026-09-22T18:53:39.170731+00:00",
   "items": [
+    {
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "url": "https://bbc.co.uk/news/articles/c9dr74g32g8go",
+      "source": "BBC World",
+      "published": "2026-09-22T18:43:29+00:00",
+      "retrieved_at": "2026-09-22T18:53:34.336149+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "23ec4c49416850ec7e7218fa"
+    },
     {
       "title": "Trump says US officials met for three hours with Iranian delegation",
       "url": "https://aljazeera.com/news/2026/9/22/trump-says-us-officials-met-with-iranian-delegation-for-three-hours-2",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "649f14e43cd0c6bf5005cd62"
-    },
-    {
-      "title": "Iran expels Swedish diplomat in retaliatory move",
-      "url": "https://aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T00:09:32+00:00",
-      "retrieved_at": "2026-09-18T04:53:45.235348+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Tehran gives Swedish official 48 hours to leave as Iran says Stockholm is bowing down to outside pressure.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "69dc3fcd76cec4d44762a753"
     }
   ],
   "unverified_history": [
