@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-22T18:03:47.730278+00:00",
+  "updated": "2026-09-22T18:43:40.554925+00:00",
   "items": [
+    {
+      "title": "Trump says US officials met for three hours with Iranian delegation",
+      "url": "https://aljazeera.com/news/2026/9/22/trump-says-us-officials-met-with-iranian-delegation-for-three-hours-2",
+      "source": "Al Jazeera",
+      "published": "2026-09-22T18:14:12+00:00",
+      "retrieved_at": "2026-09-22T18:43:35.474865+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "This is a breaking news story.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "a2feb270a681be47ea095b83"
+    },
     {
       "title": "Lula warns against foreign interference, defends Brazil’s sovereignty at UN",
       "url": "https://aljazeera.com/news/2026/9/22/lula-warns-against-foreign-interference-defends-brazils-sovereignty-at-un",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "69dc3fcd76cec4d44762a753"
-    },
-    {
-      "title": "Iran war live: Trump weighs ‘big decision’ on Iran, tanker hit in Hormuz",
-      "url": "https://aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T00:00:00+00:00",
-      "retrieved_at": "2026-09-18T00:14:37.260520+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Trump says he faces a 'big decision' on whether to 'annihilate' his Iranian foes, adding that 'anything could happen'.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "ef5805e3f8e2bfc58e1ab6ac"
     }
   ],
   "unverified_history": [
