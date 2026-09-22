@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T15:28:28.366552+00:00",
+  "updated": "2026-09-22T16:03:32.023535+00:00",
   "items": [
+    {
+      "title": "Rabbit Is Back, This Time With an AI Agent App",
+      "url": "https://wired.com/story/rabbit-r1-os3-jesse-lyu",
+      "source": "Wired",
+      "published": "2026-09-22T16:00:00+00:00",
+      "retrieved_at": "2026-09-22T16:03:27.256457+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Two years after trying to sidestep mobile apps with dedicated AI hardware, Rabbit is launching OS3, a cross-platform agent that lives on the screens you already use.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8cae71d3498803d9a7156aa6"
+    },
     {
       "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
       "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "b5e889eb42fdc6f7fe9c88d4"
-    },
-    {
-      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-      "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic",
-      "source": "TechCrunch",
-      "published": "2026-09-13T21:30:00+00:00",
-      "retrieved_at": "2026-09-13T23:31:02.152028+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "ac7c8d58669cabf9c7c0915c"
     }
   ],
   "unverified_history": [
