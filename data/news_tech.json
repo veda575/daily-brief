@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T19:34:37.974545+00:00",
+  "updated": "2026-09-22T19:39:32.333828+00:00",
   "items": [
     {
       "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
@@ -51,6 +51,23 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "344b96bb4d630e1e50383698"
+    },
+    {
+      "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+      "url": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free",
+      "source": "Ars Technica",
+      "published": "2026-09-22T19:08:58+00:00",
+      "retrieved_at": "2026-09-22T19:39:28.645757+00:00",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "summary": "You don't even need a Creative Cloud login to edit clips, but AI features cost extra.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "a18e4c73b9db840935354c9d"
     },
     {
       "title": "a16z is challenging Silicon Valley’s love for drop-outs by launching a school",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "a45a3d710dda6ff763589838"
-    },
-    {
-      "title": "DevFest is back",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
-      "source": "Google AI",
-      "published": "2026-09-14T16:00:00+00:00",
-      "retrieved_at": "2026-09-14T18:35:30.217161+00:00",
-      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "9b0c71d3ec1d8a5baa7e0ef9"
     }
   ],
   "unverified_history": [
