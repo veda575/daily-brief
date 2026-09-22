@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T19:54:30.900446+00:00",
+  "updated": "2026-09-22T20:04:27.519804+00:00",
   "items": [
+    {
+      "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai",
+      "source": "TechCrunch",
+      "published": "2026-09-22T20:00:00+00:00",
+      "retrieved_at": "2026-09-22T20:04:21.530933+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8d2855534b30137b6586573e"
+    },
     {
       "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
       "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "91051d0fc88404a32d5c2aa8"
-    },
-    {
-      "title": "Steam Frame: The Ars Technica review",
-      "url": "https://arstechnica.com/gaming/2026/09/steam-frame-the-ars-technica-review",
-      "source": "Ars Technica",
-      "published": "2026-09-14T17:00:07+00:00",
-      "retrieved_at": "2026-09-14T21:59:49.450918+00:00",
-      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
-      "summary": "Valve's new $1,059 VR hardware tries to revive an abandoned VR \"revolution.\"",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "e5c2d02981102bcf24f095f3"
     }
   ],
   "unverified_history": [
