@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T13:22:30.810479+00:00",
+  "updated": "2026-09-22T13:37:28.715048+00:00",
   "items": [
+    {
+      "title": "Its $500 toothbrush disappeared from stores. Dyson won’t fully explain why",
+      "url": "https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why",
+      "source": "Ars Technica AI",
+      "published": "2026-09-22T13:33:16+00:00",
+      "retrieved_at": "2026-09-22T13:37:25.622727+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "Dyson admits a component issue but won't say what's failing in its $500 toothbrush.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "f1c057fb6ba5f5c75cb71443"
+    },
     {
       "title": "Singapore’s Nexstrom wants to bring 2D semiconductors to chip fabs",
       "url": "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs",
@@ -138,23 +155,6 @@
       "story_fingerprint": "db859cead4d99ca9681510e2"
     },
     {
-      "title": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
-      "url": "https://wired.com/story/big-interview-patti-harrison",
-      "source": "Wired",
-      "published": "2026-09-22T10:00:00+00:00",
-      "retrieved_at": "2026-09-22T10:07:19.376077+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "0db4c93e07d58c30fd2ae024"
-    },
-    {
       "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
       "url": "https://wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
       "source": "Wired",
@@ -170,6 +170,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "6addfc4ae9d7cdb610b97e8c"
+    },
+    {
+      "title": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
+      "url": "https://wired.com/story/big-interview-patti-harrison",
+      "source": "Wired",
+      "published": "2026-09-22T10:00:00+00:00",
+      "retrieved_at": "2026-09-22T10:07:19.376077+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "0db4c93e07d58c30fd2ae024"
     },
     {
       "title": "How to Use AI With Your Privacy Intact",
@@ -529,23 +546,6 @@
       "story_fingerprint": "18508cafd192c17af1d3feb3"
     },
     {
-      "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
-      "url": "https://wired.com/story/google-launches-googlebook-laptops",
-      "source": "Wired",
-      "published": "2026-09-21T13:00:00+00:00",
-      "retrieved_at": "2026-09-21T13:08:02.485548+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "ca11b4e505a21d4f4cfa65a4"
-    },
-    {
       "title": "Apple Mac Mini (M6) Review: For the AI Curious",
       "url": "https://wired.com/review/apple-mac-mini-m6",
       "source": "Wired",
@@ -561,6 +561,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d913b723cf11507ca3cf8605"
+    },
+    {
+      "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+      "url": "https://wired.com/story/google-launches-googlebook-laptops",
+      "source": "Wired",
+      "published": "2026-09-21T13:00:00+00:00",
+      "retrieved_at": "2026-09-21T13:08:02.485548+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "ca11b4e505a21d4f4cfa65a4"
     },
     {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
@@ -699,6 +716,23 @@
       "story_fingerprint": "741c9ecef24526f5c16ed821"
     },
     {
+      "title": "We Surveyed 634 Women Who Work in Tech. They Let Loose",
+      "url": "https://wired.com/story/women-in-tech-survey",
+      "source": "Wired",
+      "published": "2026-09-21T10:00:00+00:00",
+      "retrieved_at": "2026-09-21T10:06:58.291575+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Executives happily automating their days with AI. New hires confronting bro culture. Women in tech have a lot to say—and they told it all to WIRED.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "e26d0db90f39278dd3098408"
+    },
+    {
       "title": "Women Still Face Too Much Bullshit—in Silicon Valley and Beyond",
       "url": "https://wired.com/story/wired-women-editors-letter",
       "source": "Wired",
@@ -748,23 +782,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "99823cfe235451682186339f"
-    },
-    {
-      "title": "We Surveyed 634 Women Who Work in Tech. They Let Loose",
-      "url": "https://wired.com/story/women-in-tech-survey",
-      "source": "Wired",
-      "published": "2026-09-21T10:00:00+00:00",
-      "retrieved_at": "2026-09-21T10:06:58.291575+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Executives happily automating their days with AI. New hires confronting bro culture. Women in tech have a lot to say—and they told it all to WIRED.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "e26d0db90f39278dd3098408"
     },
     {
       "title": "Expanding OpenAI Academy with new learning paths",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "2f5da526862f5ef32518b00d"
-    },
-    {
-      "title": "Anthropic CEO outlines plan to slow AI development",
-      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
-      "source": "TechCrunch AI",
-      "published": "2026-09-12T19:34:44+00:00",
-      "retrieved_at": "2026-09-12T19:39:42.839822+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "b92ce197b6ba72f8e9d906f4"
     }
   ],
   "unverified_history": [
