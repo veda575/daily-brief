@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T00:55:04.289445+00:00",
+  "updated": "2026-09-22T01:34:58.825677+00:00",
   "items": [
     {
       "title": "Trump returns to the UN, what will he say?",
@@ -16,6 +16,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "4ca190c66b9288bc7d904865"
+    },
+    {
+      "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+      "url": "https://bbc.co.uk/news/articles/cm0e32rwvrryo",
+      "source": "BBC World",
+      "published": "2026-09-22T00:16:06+00:00",
+      "retrieved_at": "2026-09-22T01:34:55.261560+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Major US networks later suspended White House TV coverage of Trump as he headed to New York for a UN summit.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "f0407a0d2fa3c68f8aaf1ff9"
     },
     {
       "title": "Morocco’s youth take Gen Z protest demands to the polls",
@@ -240,22 +256,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "2a0d978b2b460138620b5f17"
-    },
-    {
-      "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
-      "url": "https://bbc.co.uk/news/articles/cm0e32rwvrryo",
-      "source": "BBC World",
-      "published": "2026-09-21T15:58:53+00:00",
-      "retrieved_at": "2026-09-21T21:20:03.939453+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Major US networks later suspended White House TV coverage of Trump as he heads to New York for the UN summit.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "f0407a0d2fa3c68f8aaf1ff9"
     },
     {
       "title": "Why Bangladesh Skipped the Delhi BRICS Summit",
