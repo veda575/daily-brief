@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T13:02:35.699031+00:00",
+  "updated": "2026-09-22T13:07:37.566304+00:00",
   "items": [
     {
       "title": "White House launches ‘Trump TV’ after press bans",
@@ -400,6 +400,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "60368d90da97d6907141d922"
+    },
+    {
+      "title": "What to expect as world leaders descend on New York - and who won't be there",
+      "url": "https://bbc.co.uk/news/videos/cxe87p9d4198o",
+      "source": "BBC World",
+      "published": "2026-09-22T04:05:58+00:00",
+      "retrieved_at": "2026-09-22T13:07:34.725103+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The BBC’s Sarah Smith outlines which world leaders Trump is set to meet and the key topics expected on the agenda.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "342fabdf0ee165e586cd2e84"
     },
     {
       "title": "US strikes on alleged drug boats may be ‘crimes against humanity’, UN says",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "cf1cff3a1af6a78f3e49fcb6"
-    },
-    {
-      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-      "url": "https://bbc.co.uk/news/articles/cm9w4n5nverdo",
-      "source": "BBC World",
-      "published": "2026-09-17T15:07:47+00:00",
-      "retrieved_at": "2026-09-17T18:58:34.810658+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "9733ff1514d7e22ae7534276"
     }
   ],
   "unverified_history": [
