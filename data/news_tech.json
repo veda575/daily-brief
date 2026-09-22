@@ -1,6 +1,40 @@
 {
-  "updated": "2026-09-22T09:32:22.747314+00:00",
+  "updated": "2026-09-22T10:07:21.654964+00:00",
   "items": [
+    {
+      "title": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
+      "url": "https://wired.com/story/big-interview-patti-harrison",
+      "source": "Wired",
+      "published": "2026-09-22T10:00:00+00:00",
+      "retrieved_at": "2026-09-22T10:07:19.376077+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "0db4c93e07d58c30fd2ae024"
+    },
+    {
+      "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+      "url": "https://wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+      "source": "Wired",
+      "published": "2026-09-22T10:00:00+00:00",
+      "retrieved_at": "2026-09-22T10:07:19.376098+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "6addfc4ae9d7cdb610b97e8c"
+    },
     {
       "title": "How to Use AI With Your Privacy Intact",
       "url": "https://wired.com/story/how-to-use-ai-with-your-privacy-intact",
@@ -4216,40 +4250,6 @@
       "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b3bcdf6b05e4d6d50842a1cf"
-    },
-    {
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue",
-      "source": "TechCrunch AI",
-      "published": "2026-09-11T19:35:54+00:00",
-      "retrieved_at": "2026-09-11T22:29:17.180241+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "785917d3302cfd14cc12f53e"
-    },
-    {
-      "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
-      "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses",
-      "source": "Ars Technica AI",
-      "published": "2026-09-11T19:34:09+00:00",
-      "retrieved_at": "2026-09-11T20:05:46.051396+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "5135d4ca0987a53a1a7aef73"
     }
   ],
   "unverified_history": [
