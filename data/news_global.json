@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-22T14:22:58.822552+00:00",
+  "updated": "2026-09-22T14:53:44.217289+00:00",
   "items": [
+    {
+      "title": "Jerusalem Daily: Israel besieges Palestinian town",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/22/jerusalem-daily-israel-besieges-palestinian-town",
+      "source": "Al Jazeera",
+      "published": "2026-09-22T14:30:51+00:00",
+      "retrieved_at": "2026-09-22T14:53:39.335806+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Israeli forces have effectively turned the Palestinian town of Biddu into military barracks.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "aacc881a14d2c67ac8970cd4"
+    },
     {
       "title": "US-China AI race: Does Trump want to regulate AI by forming a new task force and a special envoy for artificial intelligence in the US?",
       "url": "https://dw.com/en/us-china-ai-race-does-trump-want-to-regulate-ai-by-forming-a-new-task-force-and-a-special-envoy-for-artificial-intelligence-in-the-us/a-79372591",
@@ -146,11 +162,11 @@
       "story_fingerprint": "3b3c693d6bd16e2cf7b43d79"
     },
     {
-      "title": "UN General Assembly live: Trump, Qatar emir to speak as Iran war dominates",
+      "title": "UN General Assembly live: Trump, Qatar among speakers as Iran war dominates",
       "url": "https://aljazeera.com/news/liveblog/2026/9/22/un-general-assembly-live-trump-qatar-emir-to-speak-as-iran-war-dominates",
       "source": "Al Jazeera",
       "published": "2026-09-22T12:00:00+00:00",
-      "retrieved_at": "2026-09-22T12:27:25.811131+00:00",
+      "retrieved_at": "2026-09-22T14:53:39.336155+00:00",
       "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "summary": "First day of high-level meeting to kick off with speeches from world leaders, including from Brazil, US, Turkiye, Qatar.",
       "category": "global",
@@ -159,7 +175,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "72d2456fdb1778400b06e846"
+      "story_fingerprint": "292af6e02cef2d38d595e7f6"
     },
     {
       "title": "Who actually has power at the United Nations?",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "a1f8d38026d2e4b8c8866c14"
-    },
-    {
-      "title": "A Body Blow? The War on Iran and U.S. Military Readiness",
-      "url": "https://warontherocks.com/a-body-blow-the-war-on-iran-and-u-s-military-readiness",
-      "source": "War on the Rocks",
-      "published": "2026-09-17T17:14:36+00:00",
-      "retrieved_at": "2026-09-17T18:58:35.008738+00:00",
-      "feed_url": "https://warontherocks.com/feed/",
-      "summary": "The war against Iran is putting new strains on U.S. military readiness by consuming munitions and missile defense interceptors, as well as through extended deployments, sustained operational demands, and the diversion of forces and attention from other theaters. Mark Cancian (Center for Strategic and International Studies), Stacie Pettyjohn (Center for a New American Security), and Michael…",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://warontherocks.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "0b7cde2c9a227708927c917b"
     }
   ],
   "unverified_history": [
