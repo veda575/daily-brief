@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T13:37:28.715048+00:00",
+  "updated": "2026-09-22T13:42:40.892344+00:00",
   "items": [
     {
       "title": "Its $500 toothbrush disappeared from stores. Dyson won’t fully explain why",
@@ -155,23 +155,6 @@
       "story_fingerprint": "db859cead4d99ca9681510e2"
     },
     {
-      "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
-      "url": "https://wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
-      "source": "Wired",
-      "published": "2026-09-22T10:00:00+00:00",
-      "retrieved_at": "2026-09-22T10:07:19.376098+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6addfc4ae9d7cdb610b97e8c"
-    },
-    {
       "title": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
       "url": "https://wired.com/story/big-interview-patti-harrison",
       "source": "Wired",
@@ -187,6 +170,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0db4c93e07d58c30fd2ae024"
+    },
+    {
+      "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+      "url": "https://wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+      "source": "Wired",
+      "published": "2026-09-22T10:00:00+00:00",
+      "retrieved_at": "2026-09-22T10:07:19.376098+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "6addfc4ae9d7cdb610b97e8c"
     },
     {
       "title": "How to Use AI With Your Privacy Intact",
@@ -210,9 +210,9 @@
       "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t",
       "source": "TechCrunch",
       "published": "2026-09-22T06:00:00+00:00",
-      "retrieved_at": "2026-09-22T06:00:49.528391+00:00",
+      "retrieved_at": "2026-09-22T13:42:34.752573+00:00",
       "feed_url": "https://techcrunch.com/feed/",
-      "summary": "Deeptech company Morphotonics raises €40M from investors including 3M Ventures, Innovation Industries, BOM, and Invest-NL.",
+      "summary": "Deep tech company Morphotonics raises €40M from investors including 3M Ventures, Innovation Industries, BOM, and Invest-NL.",
       "isAI": false,
       "category": "tech",
       "relevance": "tech",
