@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T19:18:41.695505+00:00",
+  "updated": "2026-09-22T19:28:49.774656+00:00",
   "items": [
     {
       "title": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
@@ -16,6 +16,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c077d9b6b2a238b45d1fa8d3"
+    },
+    {
+      "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
+      "url": "https://bbc.co.uk/news/articles/c6dj4k98107do",
+      "source": "BBC World",
+      "published": "2026-09-22T19:06:06+00:00",
+      "retrieved_at": "2026-09-22T19:28:44.753515+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Alisher Usmanov and Mikhail Fridman both have close ties to President Putin, and Kyiv said the move sent Moscow the wrong signals.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4855c44e2c431b16b48896ac"
     },
     {
       "title": "Is Ethiopia heading towards renewed civil war?",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "8f957e8b8e63417b5ed1fe59"
-    },
-    {
-      "title": "UN mission alleges crimes against humanity in Iranian protest crackdown",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T05:26:51+00:00",
-      "retrieved_at": "2026-09-18T09:25:14.946921+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "A UN fact-finding mission has concluded Iranian forces committed crimes against humanity.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "d2070545e934af7dfbc4e232"
     }
   ],
   "unverified_history": [
