@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T20:04:27.519804+00:00",
+  "updated": "2026-09-22T20:19:27.837026+00:00",
   "items": [
     {
       "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
@@ -19,11 +19,11 @@
       "story_fingerprint": "8d2855534b30137b6586573e"
     },
     {
-      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
       "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
       "source": "Ars Technica AI",
       "published": "2026-09-22T19:45:47+00:00",
-      "retrieved_at": "2026-09-22T19:54:26.751344+00:00",
+      "retrieved_at": "2026-09-22T20:19:23.964737+00:00",
       "feed_url": "https://arstechnica.com/ai/feed/",
       "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
       "isAI": true,
@@ -33,7 +33,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "49ce40e377df9ceb5dcc82a6"
+      "story_fingerprint": "2b9d20476b3deb3aa7ff0738"
     },
     {
       "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
@@ -920,23 +920,6 @@
       "story_fingerprint": "ca11b4e505a21d4f4cfa65a4"
     },
     {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "source": "OpenAI",
-      "published": "2026-09-21T12:00:00+00:00",
-      "retrieved_at": "2026-09-21T20:03:48.277134+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "35ce6655ace530f7073d0a86"
-    },
-    {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "source": "OpenAI",
@@ -952,6 +935,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "fccfc443d0a25d72db974a4f"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI",
+      "published": "2026-09-21T12:00:00+00:00",
+      "retrieved_at": "2026-09-21T20:03:48.277134+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "35ce6655ace530f7073d0a86"
     },
     {
       "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
