@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-22T11:37:30.808591+00:00",
+  "updated": "2026-09-22T11:52:24.830756+00:00",
   "items": [
+    {
+      "title": "What is the White House press pool and why is it in a row with Trump?",
+      "url": "https://bbc.co.uk/news/articles/c8dx5dy5rzz2o",
+      "source": "BBC World",
+      "published": "2026-09-22T11:41:39+00:00",
+      "retrieved_at": "2026-09-22T11:52:22.016300+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The White House press pool is at the centre of a major row between President Donald Trump and TV networks. What is it?",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "eccf403d8d0fb02ca9d7d44a"
+    },
+    {
+      "title": "Trump-GCC Summit in New York: What does each side want?",
+      "url": "https://aljazeera.com/news/2026/9/22/trump-gcc-summit-in-new-york-what-does-each-side-want",
+      "source": "Al Jazeera",
+      "published": "2026-09-22T11:33:56+00:00",
+      "retrieved_at": "2026-09-22T11:52:22.101781+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Trump will meet with leaders from Saudi Arabia, the UAE, Qatar, Bahrain, Kuwait and Oman on the sidelines of UNGA.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "94b5bb17db9a2c3203b9192b"
+    },
     {
       "title": "Why the world should care about the far right’s rise in Germany",
       "url": "https://aljazeera.com/news/2026/9/22/why-the-world-should-care-about-the-far-rights-rise-in-germany",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "3238c6796c249983b15ad41f"
-    },
-    {
-      "title": "US tariffs against Russian oil buyers pass: What it means for China, India",
-      "url": "https://aljazeera.com/features/2026/9/17/us-tariffs-against-russian-oil-buyers-pass-what-it-means-for-china",
-      "source": "Al Jazeera",
-      "published": "2026-09-17T12:59:36+00:00",
-      "retrieved_at": "2026-09-17T14:59:31.768404+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "US sanctions aim to weaken Russian oil exports, heavily targeting China and India as Moscow's largest energy buyers.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "d03c085842aaccca8bee863d"
-    },
-    {
-      "title": "Will Taiwan Fight? We Need Better Evidence.",
-      "url": "https://thediplomat.com/2026/09/will-taiwan-fight-we-need-better-evidence",
-      "source": "The Diplomat",
-      "published": "2026-09-17T12:54:00+00:00",
-      "retrieved_at": "2026-09-17T18:58:34.792842+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "Both those making pessimistic predictions and those confidently rejecting them often rely on thin evidence.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "80e1850d43628afdae3d243c"
     }
   ],
   "unverified_history": [
