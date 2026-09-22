@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T16:53:28.682807+00:00",
+  "updated": "2026-09-22T17:03:29.979698+00:00",
   "items": [
     {
       "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
@@ -374,6 +374,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "bdc790496e3bc86491599d6e"
+    },
+    {
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source": "Hugging Face",
+      "published": "2026-09-22T00:00:00+00:00",
+      "retrieved_at": "2026-09-22T17:03:25.458536+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "9e7f03ffb4f46c13b8f751c6"
     },
     {
       "title": "Transformers now runs llama.cpp quants",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "054c75f9b7c1418a49d6cf10"
-    },
-    {
-      "title": "‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction",
-      "url": "https://wired.com/story/chatbot-generated-fiction-i-like-my-big-rat-wife",
-      "source": "Wired",
-      "published": "2026-09-14T09:00:00+00:00",
-      "retrieved_at": "2026-09-14T13:10:29.949603+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "While the publishing industry frets over how authors are using AI, many readers are taking things into their own hands.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "f267891f7236520fb1093c02"
     }
   ],
   "unverified_history": [
