@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T16:48:34.718360+00:00",
+  "updated": "2026-09-22T16:53:28.682807+00:00",
   "items": [
     {
       "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
@@ -36,23 +36,6 @@
       "story_fingerprint": "8cae71d3498803d9a7156aa6"
     },
     {
-      "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda",
-      "source": "TechCrunch AI",
-      "published": "2026-09-22T15:00:00+00:00",
-      "retrieved_at": "2026-09-22T16:48:29.491974+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "d03d9906d86668023c3681d9"
-    },
-    {
       "title": "AstroForge is putting AI in command of its next spacecraft",
       "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft",
       "source": "TechCrunch",
@@ -68,6 +51,23 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "503d70d6346f832f9b143fcc"
+    },
+    {
+      "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda",
+      "source": "TechCrunch AI",
+      "published": "2026-09-22T15:00:00+00:00",
+      "retrieved_at": "2026-09-22T16:48:29.491974+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "d03d9906d86668023c3681d9"
     },
     {
       "title": "Noble Carbon will show how it’s making EV charger installs painless at TechCrunch Disrupt",
