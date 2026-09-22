@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T06:00:54.880626+00:00",
+  "updated": "2026-09-22T06:50:57.839668+00:00",
   "items": [
     {
       "title": "Morphotonics raises €40M to expand its display tech into data centers",
@@ -34,6 +34,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "bdc790496e3bc86491599d6e"
+    },
+    {
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "source": "Hugging Face",
+      "published": "2026-09-22T00:00:00+00:00",
+      "retrieved_at": "2026-09-22T06:50:50.379311+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "4ae2638ac96c5493b9652522"
     },
     {
       "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "7d3bb2b55d8e98a69f9c0643"
-    },
-    {
-      "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
-      "url": "https://wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems",
-      "source": "Wired",
-      "published": "2026-09-11T18:59:25+00:00",
-      "retrieved_at": "2026-09-11T20:05:46.449263+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The proposed class action alleges Meta illegally harvested people’s Facebook and Instagram photos to train its AI image-generation models and to build its unreleased “NameTag” face recognition feature.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "c36f407b43fef33ae2beafa6"
     }
   ],
   "unverified_history": [
