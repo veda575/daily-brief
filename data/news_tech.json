@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T14:02:31.345252+00:00",
+  "updated": "2026-09-22T14:07:34.137739+00:00",
   "items": [
     {
       "title": "TikTok’s US arm joins Lantern, a cross-platform child safety initiative",
@@ -17,6 +17,23 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "8e5e4b0868a69ed09ce0a41a"
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall",
+      "source": "MIT Tech Review",
+      "published": "2026-09-22T13:42:05+00:00",
+      "retrieved_at": "2026-09-22T14:07:28.914015+00:00",
+      "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented hundreds of people who moved through areas watched by these towers without…",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "91a01124f08384895978c391"
     },
     {
       "title": "Dyson’s most overengineered gadget may have a waterproofing problem",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "54bd765f1044f173ec73aaeb"
-    },
-    {
-      "title": "AI Agents Are Thirsty for Power",
-      "url": "https://wired.com/story/ai-agents-are-thirsty-for-power",
-      "source": "Wired",
-      "published": "2026-09-13T10:00:00+00:00",
-      "retrieved_at": "2026-09-13T10:40:11.403514+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "ad59377b395388d7fd790396"
     }
   ],
   "unverified_history": [
