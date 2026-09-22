@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-22T09:32:28.808820+00:00",
+  "updated": "2026-09-22T09:52:22.995240+00:00",
   "items": [
+    {
+      "title": "British man missing after diving into Lake Como to rescue teenager",
+      "url": "https://bbc.co.uk/news/articles/cx8d38djqm25o",
+      "source": "BBC World",
+      "published": "2026-09-22T09:35:43+00:00",
+      "retrieved_at": "2026-09-22T09:52:19.949152+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The UK Foreign Office says it is supporting the man's family and working with local authorities.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "ab59f7cb9a4696d22f2f6085"
+    },
     {
       "title": "Major US outlets boycott shared Trump coverage in protest at media ban",
       "url": "https://bbc.co.uk/news/articles/cje3rezd92y3o",
@@ -448,6 +464,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "ded4e2b5ef075e68c09d736f"
+    },
+    {
+      "title": "As Trump-Xi summit nears, Europe is caught in middle of US-China rivalry",
+      "url": "https://dw.com/en/as-trump-xi-summit-nears-europe-is-caught-in-middle-of-us-china-rivalry/a-79356540",
+      "source": "DW",
+      "published": "2026-09-21T18:40:00+00:00",
+      "retrieved_at": "2026-09-22T09:52:20.744767+00:00",
+      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
+      "summary": "China's Xi Jinping is traveling to Washington this week. Regardless of what comes from his talks with US President Trump, the EU will likely remain stuck between erratic US trade policy and Beijing's export machine.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "3e9e182332ce60b4b133e003"
     },
     {
       "title": "Zelensky’s Perception Problem: Are New Partnerships a Solution?",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "5f8b30a8f37b426904382cb3"
-    },
-    {
-      "title": "China Is Building a Global Infrastructure for Its Cultural Industries",
-      "url": "https://thediplomat.com/2026/09/china-is-building-a-global-infrastructure-for-its-cultural-industries",
-      "source": "The Diplomat",
-      "published": "2026-09-17T12:16:00+00:00",
-      "retrieved_at": "2026-09-17T18:58:34.792884+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "When a cultural industry expands overseas, that usually means exporting content. China is increasingly exporting the infrastructure behind entertainment products.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "3499146e0055f9cc9edeb7be"
-    },
-    {
-      "title": "Serbian President Vucic criticizes Kosovo war crimes verdict",
-      "url": "https://dw.com/en/serbian-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654",
-      "source": "DW",
-      "published": "2026-09-17T11:24:00+00:00",
-      "retrieved_at": "2026-09-17T18:58:35.072978+00:00",
-      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
-      "summary": "The conviction of four former Kosovo Liberation Army leaders has drawn sharply different reactions across the Balkans. Serbia has accused the court of failing to fully address crimes against Serbs.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "66c53806098109885c33cbb5"
     }
   ],
   "unverified_history": [
