@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T20:59:23.069767+00:00",
+  "updated": "2026-09-22T21:34:23.352158+00:00",
   "items": [
+    {
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money",
+      "source": "Ars Technica AI",
+      "published": "2026-09-22T21:25:18+00:00",
+      "retrieved_at": "2026-09-22T21:34:19.491831+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "The frontier AI model race has entered its comparison shopping phase.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "18e2128bb8727e9aca6a9264"
+    },
     {
       "title": "Better prompt caching for GPT-6",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "3048eade252d96b50172310e"
-    },
-    {
-      "title": "With iOS 27, I’m actually using Siri again",
-      "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again",
-      "source": "TechCrunch AI",
-      "published": "2026-09-14T17:10:30+00:00",
-      "retrieved_at": "2026-09-14T18:35:29.870060+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "e4eb28bf216f9c7b8b97a557"
     }
   ],
   "unverified_history": [
