@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T06:50:57.839668+00:00",
+  "updated": "2026-09-22T09:32:22.747314+00:00",
   "items": [
+    {
+      "title": "How to Use AI With Your Privacy Intact",
+      "url": "https://wired.com/story/how-to-use-ai-with-your-privacy-intact",
+      "source": "Wired",
+      "published": "2026-09-22T09:00:00+00:00",
+      "retrieved_at": "2026-09-22T09:32:20.340864+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance. Here’s how you can protect yourself.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "260c3df6e54f42704129906b"
+    },
     {
       "title": "Morphotonics raises €40M to expand its display tech into data centers",
       "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "5135d4ca0987a53a1a7aef73"
-    },
-    {
-      "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
-      "url": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox",
-      "source": "TechCrunch",
-      "published": "2026-09-11T19:00:00+00:00",
-      "retrieved_at": "2026-09-11T20:05:46.372206+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "At its annual Roblox Developer Conference (RDC), the company announced several new features, including new game-creation tools, expanded NPC capabilities, and the ability to make games available across platforms, including the web.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "7d3bb2b55d8e98a69f9c0643"
     }
   ],
   "unverified_history": [

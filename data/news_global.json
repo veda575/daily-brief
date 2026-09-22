@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-22T07:51:52.477744+00:00",
+  "updated": "2026-09-22T09:32:28.808820+00:00",
   "items": [
+    {
+      "title": "Major US outlets boycott shared Trump coverage in protest at media ban",
+      "url": "https://bbc.co.uk/news/articles/cje3rezd92y3o",
+      "source": "BBC World",
+      "published": "2026-09-22T08:17:15+00:00",
+      "retrieved_at": "2026-09-22T09:32:25.996463+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Regular coverage of the president has been disrupted after he banned CNN, MS NOW and Politico from the White House.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "fd6c052a55ebcf7ed485345f"
+    },
+    {
+      "title": "Russian strikes on Ukraine kill three as Zelenskyy in US for UN summit",
+      "url": "https://aljazeera.com/news/2026/9/22/russian-strikes-on-ukraine-kill-three-as-zelenskyy-in-us-for-un-summit",
+      "source": "Al Jazeera",
+      "published": "2026-09-22T08:07:13+00:00",
+      "retrieved_at": "2026-09-22T09:32:26.049269+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Overnight missile and drone attacks hit several Ukrainian regions as world leaders gather in New York, US.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "c6b854f1e3b7bd968d1d203c"
+    },
     {
       "title": "Undermining the UN is not a new US policy",
       "url": "https://aljazeera.com/opinions/2026/9/22/undermining-the-un-is-not-a-new-us-policy",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
       "source_type": "PUBLISHER",
       "story_fingerprint": "66c53806098109885c33cbb5"
-    },
-    {
-      "title": "Gaza repairman helps journalists to keep documenting genocide",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/17/gaza-repairman-helps-journalists-to-keep-documenting-genocide",
-      "source": "Al Jazeera",
-      "published": "2026-09-17T11:01:03+00:00",
-      "retrieved_at": "2026-09-17T14:59:31.768502+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "As journalists in Gaza continue documenting the war, camera repairman Mohammed Radwan keeps damaged equipment in use.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "977a5943539f786581627c37"
-    },
-    {
-      "title": "Trump claims direct talks with Iran: Is diplomacy picking up again?",
-      "url": "https://aljazeera.com/news/2026/9/17/trump-claims-direct-talks-with-iran-is-diplomacy-picking-up-again",
-      "source": "Al Jazeera",
-      "published": "2026-09-17T10:32:46+00:00",
-      "retrieved_at": "2026-09-17T14:59:31.768521+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "The US president says Washington is 'hopefully toward the end' of Iran war, as global energy prices remain high.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2383549c753ef0f4d87cbb61"
     }
   ],
   "unverified_history": [
