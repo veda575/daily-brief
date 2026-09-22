@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-22T20:29:28.731376+00:00",
+  "updated": "2026-09-22T20:59:23.069767+00:00",
   "items": [
+    {
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI",
+      "published": "2026-09-22T21:00:00+00:00",
+      "retrieved_at": "2026-09-22T20:59:18.987821+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "ed777bc50a956e4a4e129c1a"
+    },
     {
       "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
       "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "e4eb28bf216f9c7b8b97a557"
-    },
-    {
-      "title": "macOS 27: new Siri takes on AI productivity apps",
-      "url": "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps",
-      "source": "TechCrunch",
-      "published": "2026-09-14T17:10:09+00:00",
-      "retrieved_at": "2026-09-14T18:35:30.645524+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "The two most noticeable things about macOS 27 Golden Gate are the newly updated Siri AI and the design changes that make windows and icons more consistent.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "91051d0fc88404a32d5c2aa8"
     }
   ],
   "unverified_history": [
