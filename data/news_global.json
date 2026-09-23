@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T21:18:50.530599+00:00",
+  "updated": "2026-09-23T21:23:52.714025+00:00",
   "items": [
     {
       "title": "US aviation sanctions disrupt Iran flights, push travellers overland",
@@ -864,6 +864,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "742848859591a3d8b17da192"
+    },
+    {
+      "title": "Watch: Trump and Xi are meeting on US soil - what's at stake?",
+      "url": "https://bbc.co.uk/news/videos/c38xk275jd21o",
+      "source": "BBC World",
+      "published": "2026-09-23T11:00:09+00:00",
+      "retrieved_at": "2026-09-23T21:23:46.207063+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The BBC’s China correspondent and US editor explain everything you need to know ahead of the Trump-Xi meeting in Washington DC.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "cd570e169f90f828e7b83148"
     },
     {
       "title": "China’s swimming prodigy Yu Zidi bags third gold in Asian Games record",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "92c8a59437ebba1d7022d170"
-    },
-    {
-      "title": "Echoicide: Who decides which truths survive in Gaza?",
-      "url": "https://aljazeera.com/news-analysis/2026/9/20/echoicide-who-decides-which-truths-survive-in-gaza",
-      "source": "Al Jazeera",
-      "published": "2026-09-20T08:32:45+00:00",
-      "retrieved_at": "2026-09-20T11:41:24.379358+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "From Gaza to the digital age, visibility has become one of the central political struggles of modern conflicts.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2353c7a66945add72bec1ff3"
     }
   ],
   "unverified_history": [
