@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T06:01:03.214140+00:00",
+  "updated": "2026-09-23T06:31:06.852181+00:00",
   "items": [
+    {
+      "title": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+      "url": "https://bbc.co.uk/news/articles/ck62m1631d7po",
+      "source": "BBC World",
+      "published": "2026-09-23T06:12:56+00:00",
+      "retrieved_at": "2026-09-23T06:31:01.599717+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The talks are the first since a ceasefire collapsed in June, with the sides exchanging fire intermittently.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4efa437200b9b945b6a96c67"
+    },
     {
       "title": "Trump rallies Shield of the Americas coalition against drug cartels",
       "url": "https://aljazeera.com/news/2026/9/23/trump-rallies-shield-of-the-americas-coalition-against-drug-cartels",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d2aac9b94d0b26505164eaff"
-    },
-    {
-      "title": "Iranians rally in biggest show of defiance against US since war began",
-      "url": "https://aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T17:23:23+00:00",
-      "retrieved_at": "2026-09-18T19:46:32.572096+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Volunteers rallied through downtown Tehran to join campaign highlighting 'self-sacrifice' for Iran.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "eaa0f42ff32196c788c6181d"
     }
   ],
   "unverified_history": [
