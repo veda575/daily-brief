@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T11:06:49.162608+00:00",
+  "updated": "2026-09-23T11:11:46.961909+00:00",
   "items": [
     {
       "title": "A Startup Wants to Power Data Centers With ‘Supercritical’ Carbon Dioxide",
@@ -85,6 +85,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "4dc4ea4be271d76abcfa6616"
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "OpenAI",
+      "published": "2026-09-23T00:00:00+00:00",
+      "retrieved_at": "2026-09-23T11:11:42.639065+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "ed8865db5664d4345c9eb42c"
     },
     {
       "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "89558c046664114004f4e9e6"
-    },
-    {
-      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
-      "source": "TechCrunch AI",
-      "published": "2026-09-14T20:44:14+00:00",
-      "retrieved_at": "2026-09-14T21:59:48.504587+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "075f45df978105a9f975089d"
     }
   ],
   "unverified_history": [
