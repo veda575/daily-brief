@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T20:58:41.024168+00:00",
+  "updated": "2026-09-23T21:03:42.265630+00:00",
   "items": [
+    {
+      "title": "A US-China AI Hotline Won't Be Ready For a While",
+      "url": "https://wired.com/story/a-us-china-ai-hotline-wont-be-ready-for-a-while",
+      "source": "Wired",
+      "published": "2026-09-23T21:00:00+00:00",
+      "retrieved_at": "2026-09-23T21:03:36.462516+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "As the US and China race to become the dominant power in the AI industry, the countries also appear to be figuring out ways to communicate on national security issues.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "328f26cfece1c0d42c962078"
+    },
     {
       "title": "China silent as US touts plan for AI safety alerts that omits tech experts",
       "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "778d2191ca0a62f8005fcef4"
-    },
-    {
-      "title": "Introducing the WIRED App",
-      "url": "https://wired.com/story/introducing-the-wired-app",
-      "source": "Wired",
-      "published": "2026-09-16T10:30:00+00:00",
-      "retrieved_at": "2026-09-16T12:01:17.557752+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The app is the best way to read, watch, and listen to WIRED’s journalism.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "51c13702c97b2de5f40e6b7b"
     }
   ],
   "unverified_history": [
