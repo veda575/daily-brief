@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T09:26:07.227962+00:00",
+  "updated": "2026-09-23T09:31:04.732332+00:00",
   "items": [
     {
       "title": "UN General Assembly quiz: Who said these 10 famous quotes?",
@@ -242,6 +242,22 @@
       "story_fingerprint": "30dc84f0b2bd6626c1a58ccd"
     },
     {
+      "title": "Reports of violence against women in Gaza surge, UN agency finds",
+      "url": "https://bbc.co.uk/news/articles/c94gm7dp40y0o",
+      "source": "BBC World",
+      "published": "2026-09-23T05:02:26+00:00",
+      "retrieved_at": "2026-09-23T09:30:59.506559+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "862cd09a0ecf48565fc2f65c"
+    },
+    {
       "title": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz",
       "url": "https://aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz",
       "source": "Al Jazeera",
@@ -464,6 +480,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "7464887261f4ddc47ad29d97"
+    },
+    {
+      "title": "A new skyline of data centres is rising in rural China",
+      "url": "https://bbc.co.uk/news/articles/cm5ydz4kl65ro",
+      "source": "BBC World",
+      "published": "2026-09-22T22:04:31+00:00",
+      "retrieved_at": "2026-09-23T09:30:59.506770+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The BBC visits Inner Mongolia, where Beijing's AI infrastructure is progressing at \"China speed\", says one worker.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "e80642a5c7c3f099ae37c235"
     },
     {
       "title": "Palestinian Americans meet US lawmakers as Trump seeks $2.8bn for Israel",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "7f0dc0a459c95b996f54faf8"
-    },
-    {
-      "title": "Trump says he is banning CNN and Politico from White House",
-      "url": "https://bbc.co.uk/news/articles/c6e30580jqjpo",
-      "source": "BBC World",
-      "published": "2026-09-18T21:45:19+00:00",
-      "retrieved_at": "2026-09-18T21:58:31.784464+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "The US president has had a tense and fiery relationship with the US media throughout his political career.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "b62343ad5785e11cc770479f"
-    },
-    {
-      "title": "Germany receives first F-35 jet from US as NATO boosts military spending",
-      "url": "https://aljazeera.com/news/2026/9/18/germany-receives-first-f-35-jet-from-us-as-nato-boosts-military-spending",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T21:06:14+00:00",
-      "retrieved_at": "2026-09-18T21:58:31.931549+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Germany received the first of nearly three dozen F-35 stealth warplanes it ordered four years ago from Lockheed Martin.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "00e73c5c32ccd207731c08aa"
     }
   ],
   "unverified_history": [
