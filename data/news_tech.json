@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T18:22:47.331485+00:00",
+  "updated": "2026-09-23T18:38:21.063303+00:00",
   "items": [
+    {
+      "title": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
+      "url": "https://wired.com/story/ai-agent-collusion-card-counting-secrets",
+      "source": "Wired",
+      "published": "2026-09-23T18:30:00+00:00",
+      "retrieved_at": "2026-09-23T18:38:18.656903+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "A clandestine card-counting operation suggests we may need new ways to spot agent-to-agent deception.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "fdf81cd39d4b7523e902589e"
+    },
     {
       "title": "Bentley Wants Its Torcal SUV to Break the Curse of the Luxury EV",
       "url": "https://wired.com/story/bentley-wants-its-torcal-suv-to-break-the-curse-of-the-luxury-ev",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b3bcdf6b05e4d6d50842a1cf"
-    },
-    {
-      "title": "AI agents now have a place to snitch",
-      "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch",
-      "source": "TechCrunch AI",
-      "published": "2026-09-15T17:42:59+00:00",
-      "retrieved_at": "2026-09-15T18:23:01.001124+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "16c9852335513f7fcc583cb0"
     }
   ],
   "unverified_history": [
