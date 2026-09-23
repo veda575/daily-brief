@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T20:38:46.441401+00:00",
+  "updated": "2026-09-23T20:48:40.665740+00:00",
   "items": [
     {
       "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI",
@@ -731,6 +731,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "4dc4ea4be271d76abcfa6616"
+    },
+    {
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "source": "OpenAI",
+      "published": "2026-09-23T01:00:00+00:00",
+      "retrieved_at": "2026-09-23T20:48:35.421865+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "a1ba7635031d00fe7db2a72d"
     },
     {
       "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
@@ -1753,23 +1770,6 @@
       "story_fingerprint": "ca11b4e505a21d4f4cfa65a4"
     },
     {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "source": "OpenAI",
-      "published": "2026-09-21T12:00:00+00:00",
-      "retrieved_at": "2026-09-21T20:03:48.277134+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "35ce6655ace530f7073d0a86"
-    },
-    {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "source": "OpenAI",
@@ -1785,6 +1785,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "fccfc443d0a25d72db974a4f"
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI",
+      "published": "2026-09-21T12:00:00+00:00",
+      "retrieved_at": "2026-09-21T20:03:48.277134+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "35ce6655ace530f7073d0a86"
     },
     {
       "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "a7d5e33fd25cd09c9541b15d"
-    },
-    {
-      "title": "Best Robot Vacuum of 2026: Shark, Eufy, Roborock",
-      "url": "https://wired.com/story/best-robot-vacuum",
-      "source": "Wired",
-      "published": "2026-09-16T10:06:00+00:00",
-      "retrieved_at": "2026-09-16T12:01:17.557806+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "My hands-on tests reveal which models can scrub stains, reach difficult corners, and navigate a chaotic home.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "a500e50c031d6abbd7c76a2f"
     }
   ],
   "unverified_history": [
