@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T21:03:42.265630+00:00",
+  "updated": "2026-09-23T21:08:41.611768+00:00",
   "items": [
     {
       "title": "A US-China AI Hotline Won't Be Ready For a While",
@@ -19,11 +19,11 @@
       "story_fingerprint": "328f26cfece1c0d42c962078"
     },
     {
-      "title": "China silent as US touts plan for AI safety alerts that omits tech experts",
+      "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
       "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
       "source": "Ars Technica AI",
       "published": "2026-09-23T20:52:28+00:00",
-      "retrieved_at": "2026-09-23T20:58:35.991141+00:00",
+      "retrieved_at": "2026-09-23T21:08:36.240543+00:00",
       "feed_url": "https://arstechnica.com/ai/feed/",
       "summary": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
       "isAI": true,
@@ -33,7 +33,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "36c2bba900cf1eecf7e28860"
+      "story_fingerprint": "8e03c833fa03540615c9813a"
     },
     {
       "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI",
@@ -561,6 +561,23 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "f938581df2ed48034af42621"
+    },
+    {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": "OpenAI",
+      "published": "2026-09-23T12:00:00+00:00",
+      "retrieved_at": "2026-09-23T21:08:35.979761+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "95ae031281fbdcbf872d5482"
     },
     {
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
@@ -1804,23 +1821,6 @@
       "story_fingerprint": "ca11b4e505a21d4f4cfa65a4"
     },
     {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "source": "OpenAI",
-      "published": "2026-09-21T12:00:00+00:00",
-      "retrieved_at": "2026-09-21T17:53:52.249561+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "fccfc443d0a25d72db974a4f"
-    },
-    {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "source": "OpenAI",
@@ -1836,6 +1836,23 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "35ce6655ace530f7073d0a86"
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI",
+      "published": "2026-09-21T12:00:00+00:00",
+      "retrieved_at": "2026-09-21T17:53:52.249561+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "fccfc443d0a25d72db974a4f"
     },
     {
       "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "b52b02567b983ba850cecb2c"
-    },
-    {
-      "title": "Amazon launches Alexa+ in India with Hindi support",
-      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support",
-      "source": "TechCrunch AI",
-      "published": "2026-09-16T10:34:47+00:00",
-      "retrieved_at": "2026-09-16T16:19:48.304409+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Amazon is letting all customers use Alexa+ assistant in early access period.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "778d2191ca0a62f8005fcef4"
     }
   ],
   "unverified_history": [
