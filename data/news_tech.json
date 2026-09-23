@@ -1,23 +1,6 @@
 {
-  "updated": "2026-09-23T14:32:02.011197+00:00",
+  "updated": "2026-09-23T14:42:00.550185+00:00",
   "items": [
-    {
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
-      "source": "TechCrunch AI",
-      "published": "2026-09-23T14:30:00+00:00",
-      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
-    },
     {
       "title": "YouTube will let you build your own algorithm with AI",
       "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai",
@@ -36,23 +19,6 @@
       "story_fingerprint": "a8660042bcb1ddae6e914b23"
     },
     {
-      "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
-      "url": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing",
-      "source": "TechCrunch",
-      "published": "2026-09-23T14:30:00+00:00",
-      "retrieved_at": "2026-09-23T14:31:56.893541+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "Many of these tools hinge on using generative AI to try out a variety of different tactics on a video to find what works best.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "fdd8039fac1c552d74783952"
-    },
-    {
       "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
       "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
       "source": "TechCrunch",
@@ -68,6 +34,40 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "be393f20ccbf4a2f1c43508b"
+    },
+    {
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00+00:00",
+      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
+    },
+    {
+      "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
+      "url": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing",
+      "source": "TechCrunch",
+      "published": "2026-09-23T14:30:00+00:00",
+      "retrieved_at": "2026-09-23T14:31:56.893541+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "Many of these tools hinge on using generative AI to try out a variety of different tactics on a video to find what works best.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "fdd8039fac1c552d74783952"
     },
     {
       "title": "YouTube doubles down on video shopping with AI-powered ‘Ask YouTube’ feature",
