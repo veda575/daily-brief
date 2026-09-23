@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T12:11:59.883724+00:00",
+  "updated": "2026-09-23T12:26:58.230619+00:00",
   "items": [
+    {
+      "title": "As Xi meets Trump, who’s winning their trade war?",
+      "url": "https://aljazeera.com/features/2026/9/23/as-xi-meets-trump-whos-winning-their-trade-war",
+      "source": "Al Jazeera",
+      "published": "2026-09-23T12:20:40+00:00",
+      "retrieved_at": "2026-09-23T12:26:52.985813+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Trade war has been central to Trump's presidency, but it didn't slash US deficits. Meanwhile, China recorded a surplus.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4a1479b23d018df87a55053f"
+    },
     {
       "title": "UN General Assembly live: Iran’s Pezeshkian, Ukraine’s Zelenskyy to speak",
       "url": "https://aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "ed96d5e6d04581dd88bdcf62"
-    },
-    {
-      "title": "US court blocks Trump plan to deport migrants to third countries",
-      "url": "https://aljazeera.com/news/2026/9/19/us-court-blocks-trump-plan-to-deport-migrants-to-third-countries",
-      "source": "Al Jazeera",
-      "published": "2026-09-19T02:16:45+00:00",
-      "retrieved_at": "2026-09-19T04:42:02.946930+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "US judges affirm migrants must have opportunities to voice safety concerns before deportation to unfamiliar nations.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "50fa555105784fd9896d37a5"
     }
   ],
   "unverified_history": [
