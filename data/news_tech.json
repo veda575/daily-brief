@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T18:38:21.063303+00:00",
+  "updated": "2026-09-23T18:43:03.086907+00:00",
   "items": [
+    {
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face",
+      "published": "2026-09-23T18:41:40+00:00",
+      "retrieved_at": "2026-09-23T18:43:00.282646+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "0dcd46abde2510c16249c1e4"
+    },
     {
       "title": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
       "url": "https://wired.com/story/ai-agent-collusion-card-counting-secrets",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
       "source_type": "PUBLISHER",
       "story_fingerprint": "17a3911524e5f0225e180b0f"
-    },
-    {
-      "title": "Roundtables: Could AI really kill us all?",
-      "url": "https://technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all",
-      "source": "MIT Tech Review",
-      "published": "2026-09-15T17:47:51+00:00",
-      "retrieved_at": "2026-09-15T18:23:01.704898+00:00",
-      "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-      "summary": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,…",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "b3bcdf6b05e4d6d50842a1cf"
     }
   ],
   "unverified_history": [
