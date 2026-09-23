@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T21:08:41.611768+00:00",
+  "updated": "2026-09-23T22:18:49.287714+00:00",
   "items": [
+    {
+      "title": "Anthropic says its biology lab has already found something big",
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T22:17:39+00:00",
+      "retrieved_at": "2026-09-23T22:18:43.183699+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run lose in its biology lab. Humans are still, so far, in the loop.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "457b5fc40496335f1838b43f"
+    },
     {
       "title": "A US-China AI Hotline Won't Be Ready For a While",
       "url": "https://wired.com/story/a-us-china-ai-hotline-wont-be-ready-for-a-while",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "829a167902bb736885ee658e"
-    },
-    {
-      "title": "How to connect AI usage to business value",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "source": "OpenAI",
-      "published": "2026-09-16T12:00:00+00:00",
-      "retrieved_at": "2026-09-16T22:17:19.536236+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "b52b02567b983ba850cecb2c"
     }
   ],
   "unverified_history": [
