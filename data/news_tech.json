@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T19:02:56.047397+00:00",
+  "updated": "2026-09-23T19:08:00.295097+00:00",
   "items": [
+    {
+      "title": "Modal Motors is trying to cut China out of electric motors entirely",
+      "url": "https://techcrunch.com/2026/09/23/modal-motors-is-trying-to-cut-china-out-of-electric-motors-entirely",
+      "source": "TechCrunch",
+      "published": "2026-09-23T19:05:00+00:00",
+      "retrieved_at": "2026-09-23T19:07:55.886790+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "The startup is working on small, light motors with no rare earth magnets that are suited for drones, fans, and robots.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "81402d08b703f28e7623499f"
+    },
     {
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
       "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "55a41e3ff92b72302ed23b5c"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
-      "source": "TechCrunch AI",
-      "published": "2026-09-15T19:00:00+00:00",
-      "retrieved_at": "2026-09-15T21:30:26.159899+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8316e142267b1aef5e8a32ea"
     }
   ],
   "unverified_history": [
