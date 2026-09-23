@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T20:43:51.232254+00:00",
+  "updated": "2026-09-23T20:53:51.772343+00:00",
   "items": [
+    {
+      "title": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
+      "url": "https://bbc.co.uk/news/articles/cwlyke0mm0x3o",
+      "source": "BBC World",
+      "published": "2026-09-23T20:28:16+00:00",
+      "retrieved_at": "2026-09-23T20:53:45.572855+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "d9bc154b9cb270f022a34a85"
+    },
     {
       "title": "Trump administration invites Putin to attend G20 summit in Miami",
       "url": "https://aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
       "source_type": "PUBLISHER",
       "story_fingerprint": "a21df2fc0c233b7a2f868a7a"
-    },
-    {
-      "title": "Journalists locked out of the White House after Trump ban",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/20/journalists-locked-out-of-the-white-house-after-trump-ban",
-      "source": "Al Jazeera",
-      "published": "2026-09-20T05:43:01+00:00",
-      "retrieved_at": "2026-09-20T06:22:11.461588+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Reporters from CNN, MS NOW and Politico have been denied White House access after Donald Trump banned the three outlets.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "e5f6b5cda172938c39c81506"
     }
   ],
   "unverified_history": [
