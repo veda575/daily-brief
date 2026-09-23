@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T15:27:01.907144+00:00",
+  "updated": "2026-09-23T15:47:44.216062+00:00",
   "items": [
+    {
+      "title": "YouTube’s conversational video editing tool lets creators make edits in natural language",
+      "url": "https://techcrunch.com/2026/09/23/youtubes-conversational-video-editing-tool-lets-creators-make-edits-in-natural-language",
+      "source": "TechCrunch",
+      "published": "2026-09-23T15:46:57+00:00",
+      "retrieved_at": "2026-09-23T15:47:41.864665+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "Creators will be able to use AI in a conversational chat interface to help them edit videos.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "b468a6d3d4a19a2304460cf8"
+    },
     {
       "title": "Gemini 3.8 text-to-speech says hello",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "6e59272965fa9d7ea0327518"
-    },
-    {
-      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round",
-      "source": "TechCrunch AI",
-      "published": "2026-09-15T15:22:48+00:00",
-      "retrieved_at": "2026-09-15T18:23:01.001195+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "dc08af46d2784c7de72131b2"
     }
   ],
   "unverified_history": [

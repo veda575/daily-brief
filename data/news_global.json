@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T15:37:56.053793+00:00",
+  "updated": "2026-09-23T15:47:49.523302+00:00",
   "items": [
+    {
+      "title": "Poland accuses Russian military helicopter of violating its airspace",
+      "url": "https://bbc.co.uk/news/articles/c699d2dn9z0mo",
+      "source": "BBC World",
+      "published": "2026-09-23T15:37:20+00:00",
+      "retrieved_at": "2026-09-23T15:47:46.385689+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Poland says the aircraft stayed in its skies for 42 seconds, forcing the Nato member to scramble its fighter jets.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "a99054a7d84869649f83b67e"
+    },
     {
       "title": "Iran: Strait of Hormuz won’t be used to ‘impose insecurity on us’",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/23/iran-strait-of-hormuz-wont-be-used-to-impose-insecurity-on",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "9f6bcce9feea81e34a9376b0"
-    },
-    {
-      "title": "Iran stages show of force during mobilisation campaign in Tehran",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/19/09-19-progovrally-tehran-sv-mp4",
-      "source": "Al Jazeera",
-      "published": "2026-09-19T10:56:00+00:00",
-      "retrieved_at": "2026-09-19T13:05:53.679760+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Armed women, anti-aircraft guns and Shaheed drones were seen in Tehran as hundreds of thousands marched in the capital.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2fc2f53c7cb179e7039f69c8"
     }
   ],
   "unverified_history": [
