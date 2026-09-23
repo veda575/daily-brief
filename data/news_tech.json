@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T10:41:47.427582+00:00",
+  "updated": "2026-09-23T10:51:48.735636+00:00",
   "items": [
+    {
+      "title": "This App Makes Your Laptop Screen Look Like Paper",
+      "url": "https://wired.com/story/paperman-makes-your-laptop-screen-look-like-paper",
+      "source": "Wired",
+      "published": "2026-09-23T10:45:00+00:00",
+      "retrieved_at": "2026-09-23T10:51:43.794937+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The app Paperman gives your screen some added texture in an effort to make it easier on your eyes. It works best for reading, writing, or otherwise working with text.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4adb785026213acb63dd5546"
+    },
     {
       "title": "SmartLabels QR Code Organizing System Review (2026): AI Made Sense of My Junk Drawer",
       "url": "https://wired.com/review/smartlabels-qr-code-organizing-system",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c42c42da79bd4c10790f8cc3"
-    },
-    {
-      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
-      "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai",
-      "source": "Ars Technica AI",
-      "published": "2026-09-14T19:45:13+00:00",
-      "retrieved_at": "2026-09-14T21:59:49.328047+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "4b60a7ee6954c822cbba8c7f"
     }
   ],
   "unverified_history": [
