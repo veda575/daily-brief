@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T20:17:48.587209+00:00",
+  "updated": "2026-09-23T20:32:46.898146+00:00",
   "items": [
+    {
+      "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+      "url": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them",
+      "source": "Ars Technica AI",
+      "published": "2026-09-23T20:28:42+00:00",
+      "retrieved_at": "2026-09-23T20:32:44.081701+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "$11M competition showed wildfire detection is still easier than stopping fires.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8b50e9bca43197f341f14b93"
+    },
     {
       "title": "YouTube promises custom feeds and a lot more AI later this year",
       "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "553e0590ceedc1c858692cd8"
-    },
-    {
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "source": "OpenAI",
-      "published": "2026-09-16T09:00:00+00:00",
-      "retrieved_at": "2026-09-16T19:36:14.401710+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "77f80e74932d4444c352404b"
     }
   ],
   "unverified_history": [
