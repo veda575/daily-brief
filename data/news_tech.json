@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T11:11:46.961909+00:00",
+  "updated": "2026-09-23T11:31:53.313258+00:00",
   "items": [
+    {
+      "title": "The Best Samsung Phones of 2026: Ultra, Fold, Budget",
+      "url": "https://wired.com/gallery/best-samsung-phones",
+      "source": "Wired",
+      "published": "2026-09-23T11:30:00+00:00",
+      "retrieved_at": "2026-09-23T11:31:45.470498+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "From flagship and budget to flipping and folding, Samsung’s Galaxy range spans the breadth of the smartphone cosmos. WIRED’s here to help you make your choice.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "044053a5fbaea2c2a70158d7"
+    },
     {
       "title": "A Startup Wants to Power Data Centers With ‘Supercritical’ Carbon Dioxide",
       "url": "https://wired.com/story/startup-power-data-centers-supercritical-co2",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "7356e3489655cd86ccc2950b"
-    },
-    {
-      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam",
-      "source": "Ars Technica AI",
-      "published": "2026-09-14T21:04:32+00:00",
-      "retrieved_at": "2026-09-14T21:59:49.328022+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "89558c046664114004f4e9e6"
     }
   ],
   "unverified_history": [
