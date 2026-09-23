@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T18:12:45.875484+00:00",
+  "updated": "2026-09-23T18:22:47.331485+00:00",
   "items": [
+    {
+      "title": "Bentley Wants Its Torcal SUV to Break the Curse of the Luxury EV",
+      "url": "https://wired.com/story/bentley-wants-its-torcal-suv-to-break-the-curse-of-the-luxury-ev",
+      "source": "Wired",
+      "published": "2026-09-23T18:15:00+00:00",
+      "retrieved_at": "2026-09-23T18:22:41.778124+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The British high-end auto company reveals its first-ever full EV: 330 miles of range, 0 to 60 mph in under 3 seconds, and an orchestra under the hood. Will it be enough to lure high-rollers?",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "5c72fb505988950455b49712"
+    },
     {
       "title": "The Pope’s AI Guy Is Worried About ‘Cartel’ Behavior Among Big Labs",
       "url": "https://wired.com/story/popes-ai-advisor-warns-of-cartel-behavior-big-labs",
@@ -20,10 +37,10 @@
     },
     {
       "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-expansion",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
       "source": "Google AI",
       "published": "2026-09-23T18:00:00+00:00",
-      "retrieved_at": "2026-09-23T18:07:42.968287+00:00",
+      "retrieved_at": "2026-09-23T18:22:41.368722+00:00",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "summary": "Google Beam promotional animation",
       "isAI": true,
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "16c9852335513f7fcc583cb0"
-    },
-    {
-      "title": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
-      "url": "https://wired.com/story/zuckoff-app-sees-meta-glasses-before-they-see-you",
-      "source": "Wired",
-      "published": "2026-09-15T17:16:01+00:00",
-      "retrieved_at": "2026-09-15T18:23:01.978642+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "You can’t always tell if someone is recording you with their smart glasses, but your phone can help.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "c9953028703cff059e2ab90b"
     }
   ],
   "unverified_history": [
