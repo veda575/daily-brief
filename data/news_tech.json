@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T18:07:46.479136+00:00",
+  "updated": "2026-09-23T18:12:45.875484+00:00",
   "items": [
+    {
+      "title": "The Pope’s AI Guy Is Worried About ‘Cartel’ Behavior Among Big Labs",
+      "url": "https://wired.com/story/popes-ai-advisor-warns-of-cartel-behavior-big-labs",
+      "source": "Wired",
+      "published": "2026-09-23T18:03:00+00:00",
+      "retrieved_at": "2026-09-23T18:12:42.676587+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Paolo Benanti tells WIRED that hysteria over whether godlike AI could destroy humanity is distracting from the need for public debate about how to govern the technology.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "b89e75db83291e21f2791a4c"
+    },
     {
       "title": "Google Beam expands with new regions, partners, and customers",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-expansion",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c9953028703cff059e2ab90b"
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-      "source": "Google DeepMind",
-      "published": "2026-09-15T17:05:57+00:00",
-      "retrieved_at": "2026-09-15T18:23:01.669328+00:00",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "summary": "",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://deepmind.google/blog/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "82aa48b21e26b5f93884b48c"
     }
   ],
   "unverified_history": [
