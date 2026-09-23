@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T16:02:49.142053+00:00",
+  "updated": "2026-09-23T16:07:51.689929+00:00",
   "items": [
     {
       "title": "Advancing Private AI Compute with secure, server-side memory",
@@ -4218,6 +4218,23 @@
       "story_fingerprint": "a315105f1acb8cea724fa119"
     },
     {
+      "title": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
+      "source": "Google AI",
+      "published": "2026-09-15T16:00:00+00:00",
+      "retrieved_at": "2026-09-23T16:07:45.331141+00:00",
+      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "summary": "Animation of several words in different languages slowly zooming past",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "13a21795bcac118cceafdc8e"
+    },
+    {
       "title": "AI for Societal Impact",
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact",
       "source": "Google AI",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "source_type": "PRIMARY",
       "story_fingerprint": "46c0acfa93bbd213e81b0a39"
-    },
-    {
-      "title": "Building AI to accelerate science and improve lives",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people",
-      "source": "Google AI",
-      "published": "2026-09-15T16:00:00+00:00",
-      "retrieved_at": "2026-09-15T18:23:01.245783+00:00",
-      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "summary": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "5294cfc515ccc8d51f161053"
     }
   ],
   "unverified_history": [
