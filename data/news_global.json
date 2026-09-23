@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-23T01:05:20.021976+00:00",
+  "updated": "2026-09-23T01:15:24.265359+00:00",
   "items": [
     {
       "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
       "url": "https://bbc.co.uk/news/articles/c52e0ywl9pr7o",
       "source": "BBC World",
-      "published": "2026-09-23T01:00:09+00:00",
-      "retrieved_at": "2026-09-23T01:05:14.777081+00:00",
+      "published": "2026-09-23T01:09:54+00:00",
+      "retrieved_at": "2026-09-23T01:15:19.434756+00:00",
       "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "In his speech, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
+      "summary": "In his address, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
       "category": "global",
       "relevance": "global",
       "verification_status": "SOURCE_CONFIRMED",
@@ -16,6 +16,22 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b026dfa03da16f55c0b4221e"
+    },
+    {
+      "title": "UK PM Burnham condemns ‘repulsive’ Russian electoral interference",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/23/uk-pm-burnham-condemns-repulsive-russian-electoral-interference",
+      "source": "Al Jazeera",
+      "published": "2026-09-23T01:01:17+00:00",
+      "retrieved_at": "2026-09-23T01:15:19.423083+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "UK Prime Minister Andy Burnham addressed the UN General Assembly, accusing Russia of information warfare.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2a327e0bf68087fc18891ec6"
     },
     {
       "title": "Iran war live: Trump confirms ‘very good’ meeting with Iran at UN",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "bb37d5826433c5738a821293"
-    },
-    {
-      "title": "As Houthis grab Bab al-Mandeb, US appears willing to watch from sidelines",
-      "url": "https://aljazeera.com/news/2026/9/18/as-houthis-grab-bab-al-mandeb-us-appears-willing-to-watch-from-sidelines",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T12:52:29+00:00",
-      "retrieved_at": "2026-09-18T13:46:02.502960+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Stretched by its war with Iran, Washington may have little choice but to trust Houthi assurances on shipping.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "5d79583ffcd466e36656a603"
     }
   ],
   "unverified_history": [
