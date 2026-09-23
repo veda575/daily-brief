@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T16:27:51.763779+00:00",
+  "updated": "2026-09-23T16:32:55.335643+00:00",
   "items": [
     {
       "title": "Advancing Private AI Compute with secure, server-side memory",
@@ -74,9 +74,9 @@
       "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features",
       "source": "TechCrunch AI",
       "published": "2026-09-23T15:19:30+00:00",
-      "retrieved_at": "2026-09-23T15:21:54.559401+00:00",
+      "retrieved_at": "2026-09-23T16:32:49.509766+00:00",
       "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podcasts, and “Your Podcast Lineup,” a personalized […]",
+      "summary": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
       "isAI": true,
       "category": "tech",
       "relevance": "AI",
@@ -85,23 +85,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "346c0d8ba607a1b6c859646d"
-    },
-    {
-      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
-      "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
-      "source": "TechCrunch",
-      "published": "2026-09-23T14:30:00+00:00",
-      "retrieved_at": "2026-09-23T14:31:56.893557+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join this exclusive session. Save $200 before September 25, 11:59 p.m. PT.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "be393f20ccbf4a2f1c43508b"
     },
     {
       "title": "YouTube will let you build your own algorithm with AI",
@@ -136,6 +119,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
+    },
+    {
+      "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+      "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
+      "source": "TechCrunch",
+      "published": "2026-09-23T14:30:00+00:00",
+      "retrieved_at": "2026-09-23T14:31:56.893557+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join this exclusive session. Save $200 before September 25, 11:59 p.m. PT.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "be393f20ccbf4a2f1c43508b"
     },
     {
       "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
@@ -4218,13 +4218,13 @@
       "story_fingerprint": "a315105f1acb8cea724fa119"
     },
     {
-      "title": "AI for everyone in every language",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
+      "title": "Building AI to accelerate science and improve lives",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people",
       "source": "Google AI",
       "published": "2026-09-15T16:00:00+00:00",
-      "retrieved_at": "2026-09-23T16:27:46.078911+00:00",
+      "retrieved_at": "2026-09-23T16:32:49.813702+00:00",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "summary": "Animation of several words in different languages slowly zooming past",
+      "summary": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
       "isAI": true,
       "category": "tech",
       "relevance": "AI",
@@ -4232,7 +4232,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "source_type": "PRIMARY",
-      "story_fingerprint": "13a21795bcac118cceafdc8e"
+      "story_fingerprint": "5294cfc515ccc8d51f161053"
     },
     {
       "title": "AI for Societal Impact",
