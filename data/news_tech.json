@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T10:51:48.735636+00:00",
+  "updated": "2026-09-23T11:06:49.162608+00:00",
   "items": [
+    {
+      "title": "A Startup Wants to Power Data Centers With ‘Supercritical’ Carbon Dioxide",
+      "url": "https://wired.com/story/startup-power-data-centers-supercritical-co2",
+      "source": "Wired",
+      "published": "2026-09-23T11:00:00+00:00",
+      "retrieved_at": "2026-09-23T11:06:44.057244+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The technology could strap onto existing gas turbines and make them more efficient—but it wouldn’t do away with their emissions entirely.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "f8807f5116c393aa5f9f3cb6"
+    },
     {
       "title": "This App Makes Your Laptop Screen Look Like Paper",
       "url": "https://wired.com/story/paperman-makes-your-laptop-screen-look-like-paper",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "075f45df978105a9f975089d"
-    },
-    {
-      "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
-      "url": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance",
-      "source": "TechCrunch",
-      "published": "2026-09-14T20:07:37+00:00",
-      "retrieved_at": "2026-09-14T21:59:49.409202+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "The company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "c42c42da79bd4c10790f8cc3"
     }
   ],
   "unverified_history": [
