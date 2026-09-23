@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T21:48:51.220723+00:00",
+  "updated": "2026-09-23T21:59:04.294791+00:00",
   "items": [
+    {
+      "title": "Federal judge delays ruling on White House media ban",
+      "url": "https://bbc.co.uk/news/articles/c6790yrgzq25o",
+      "source": "BBC World",
+      "published": "2026-09-23T21:53:38+00:00",
+      "retrieved_at": "2026-09-23T21:58:58.123016+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "During a roughly 45-minute hearing, a lawyer for CNN, Politico and MS NOW disputed Trump administration arguments that the ban was over national security concerns.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "30251fd392608234d21f8c9c"
+    },
     {
       "title": "US aviation sanctions disrupt Iran flights, push travellers overland",
       "url": "https://aljazeera.com/news/2026/9/23/us-aviation-sanctions-disrupt-iran-flights-push-travellers-overland",
@@ -1136,22 +1152,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "3bf4c72cb2b85a7915aaaf67"
-    },
-    {
-      "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
-      "url": "https://bbc.co.uk/news/articles/c6790yrgzq25o",
-      "source": "BBC World",
-      "published": "2026-09-23T06:47:49+00:00",
-      "retrieved_at": "2026-09-23T07:11:01.520104+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "The US Justice Department's response to a lawsuit filed by CNN, Politico and MS NOW also cites national security.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "1dfba2c5b9f13185404aa631"
     },
     {
       "title": "Is Syria's 'new' economy for the rich only?",
