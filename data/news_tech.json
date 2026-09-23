@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T11:31:53.313258+00:00",
+  "updated": "2026-09-23T12:01:53.449229+00:00",
   "items": [
+    {
+      "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services",
+      "source": "TechCrunch",
+      "published": "2026-09-23T12:00:00+00:00",
+      "retrieved_at": "2026-09-23T12:01:45.330005+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "666c12f92fc7ef1ec5b92901"
+    },
     {
       "title": "The Best Samsung Phones of 2026: Ultra, Fold, Budget",
       "url": "https://wired.com/gallery/best-samsung-phones",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "f8f7a95c51e4dd1bd60b0206"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
-      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen",
-      "source": "TechCrunch AI",
-      "published": "2026-09-14T21:51:02+00:00",
-      "retrieved_at": "2026-09-14T21:59:48.504560+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "7356e3489655cd86ccc2950b"
     }
   ],
   "unverified_history": [
