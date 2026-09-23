@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T05:10:02.140763+00:00",
+  "updated": "2026-09-23T10:06:00.676247+00:00",
   "items": [
+    {
+      "title": "She’s 28, Loves God and Her Family, and Might Be the Reason You Can’t Have Kids",
+      "url": "https://wired.com/story/emma-waters-fertility-tech",
+      "source": "Wired",
+      "published": "2026-09-23T10:00:00+00:00",
+      "retrieved_at": "2026-09-23T10:05:52.804303+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "No IVF. No surrogacy. No polygenic tests. Emma Waters is leading a national fight against fertility tech—with her hot husband’s permission, of course.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "41ccca8a86ed068fa8eb583d"
+    },
     {
       "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
       "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "aa7e7c0ec086d2eae960bcb8"
-    },
-    {
-      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
-      "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements",
-      "source": "Ars Technica AI",
-      "published": "2026-09-14T19:28:42+00:00",
-      "retrieved_at": "2026-09-14T21:59:49.328078+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "This is also the last version of macOS to support Rosetta for Intel apps.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "ad682df0af47fe6b887f530f"
     }
   ],
   "unverified_history": [
