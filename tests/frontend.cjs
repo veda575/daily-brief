@@ -44,7 +44,7 @@ assert(vm.runInContext("fieldStatus(fieldRow,'marketCap')",ctx).includes('Google
 assert.equal(vm.runInContext("formatDecimal('123456.123456789')", ctx), '123,456.123456789');
 assert.equal(vm.runInContext('fmtGainLossPercent(null)', ctx), 'DATA UNAVAILABLE');
 assert.equal(vm.runInContext("safeNewsUrl('javascript:alert(1)')", ctx), '#');
-assert.equal(vm.runInContext("fmtGainLossPercent(0, '0.0000')", ctx), '0.0000%');
+assert.equal(vm.runInContext("fmtGainLossPercent(0, '0.0000')", ctx), '0.00%');
 const html = vm.runInContext("renderStocksTable([{name:'Legacy',ticker:'X',marketCap:123,indexValue:1,changePercent:null}], 'us')", ctx);
 assert(html.includes('Legacy'));
 assert(html.includes('DATA UNAVAILABLE'));

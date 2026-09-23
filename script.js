@@ -59,10 +59,13 @@ function fmtCurrentDateTime() {
 
 function fmtGainLossPercent(n, exact) {
   if (n === null || n === undefined || n === '') return 'DATA UNAVAILABLE';
-  if (exact) return (Number(n) > 0 ? '+' : '') + formatDecimal(exact) + '%';
   const value = Number(n);
   if (!Number.isFinite(value)) return '—';
-  return (value > 0 ? '+' : '') + value.toFixed(2) + '%';
+  // Trim source decimals without rounding or changing the underlying value.
+  const decimal = exact && /^-?\d+(\.\d+)?$/.test(String(exact))
+    ? String(exact) : value.toLocaleString('en-US', { useGrouping: false, maximumFractionDigits: 20 });
+  const [whole, fraction = ''] = decimal.split('.');
+  return (value > 0 ? '+' : '') + formatDecimal(whole + '.' + fraction.padEnd(2, '0').slice(0, 2)) + '%';
 }
 
 function escapeHtml(s) {
