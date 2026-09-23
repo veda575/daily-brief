@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-23T07:06:01.944190+00:00",
+  "updated": "2026-09-23T07:11:06.854410+00:00",
   "items": [
+    {
+      "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
+      "url": "https://bbc.co.uk/news/articles/c6790yrgzq25o",
+      "source": "BBC World",
+      "published": "2026-09-23T06:47:49+00:00",
+      "retrieved_at": "2026-09-23T07:11:01.520104+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The US Justice Department's response to a lawsuit filed by CNN, Politico and MS NOW also cites national security.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "1dfba2c5b9f13185404aa631"
+    },
     {
       "title": "Is Syria's 'new' economy for the rich only?",
       "url": "https://dw.com/en/is-syria-s-new-economy-for-the-rich-only/a-79378442",
@@ -34,20 +50,20 @@
       "story_fingerprint": "4efa437200b9b945b6a96c67"
     },
     {
-      "title": "Trump rallies Shield of the Americas coalition against drug cartels",
+      "title": "Trump rallies Latin American allies against drug cartels",
       "url": "https://aljazeera.com/news/2026/9/23/trump-rallies-shield-of-the-americas-coalition-against-drug-cartels",
       "source": "Al Jazeera",
       "published": "2026-09-23T05:34:40+00:00",
-      "retrieved_at": "2026-09-23T06:00:58.113472+00:00",
+      "retrieved_at": "2026-09-23T07:11:01.621464+00:00",
       "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "US-led anti-cartel alliance backs sanctions against crime groups after Trump urges stronger action.",
+      "summary": "US-led Shield of the Americas coalition backs sanctions against crime groups after Trump urges stronger action.",
       "category": "global",
       "relevance": "global",
       "verification_status": "SOURCE_CONFIRMED",
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "e0d12a14e1ef119745126a28"
+      "story_fingerprint": "ebdb68c388dc6e7e01082a1a"
     },
     {
       "title": "Cooperation is the goal at the UNGA, but is it possible?",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "e32a8123874e91ab234ede50"
-    },
-    {
-      "title": "Early in-person voting begins in the 2026 US midterm elections in Virginia",
-      "url": "https://aljazeera.com/news/2026/9/18/early-in-person-voting-begins-in-the-2026-us-midterm-elections-in-virginia",
-      "source": "Al Jazeera",
-      "published": "2026-09-18T18:15:32+00:00",
-      "retrieved_at": "2026-09-18T19:46:32.572060+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Virginia leads the way for in-person voting, reflecting a nationwide trend towards casting ballots before Election Day.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "4afddf79b78d76cba1869cd8"
     }
   ],
   "unverified_history": [
