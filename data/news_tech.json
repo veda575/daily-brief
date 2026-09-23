@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-23T13:12:03.606415+00:00",
+  "updated": "2026-09-23T13:22:06.985906+00:00",
   "items": [
+    {
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "source": "Hugging Face",
+      "published": "2026-09-23T13:17:01+00:00",
+      "retrieved_at": "2026-09-23T13:21:58.336384+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "aec0ca4d4f1bbf40f2b088e0"
+    },
     {
       "title": "OpenAI extends cyber access to Ukraine for civilian defense",
       "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "fc9fe59e63e25e0a0fd06039"
-    },
-    {
-      "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
-      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
-      "source": "TechCrunch AI",
-      "published": "2026-09-15T12:00:00+00:00",
-      "retrieved_at": "2026-09-15T13:09:43.351967+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2a11f34fa67ea5f2c22acb3b"
     }
   ],
   "unverified_history": [
