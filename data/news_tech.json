@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T14:21:23.743465+00:00",
+  "updated": "2026-09-24T14:31:37.946481+00:00",
   "items": [
+    {
+      "title": "TechCrunch Disrupt 2026: Cal AI’s Zach Yadegari on how to create viral growth and capitalize on it",
+      "url": "https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it",
+      "source": "TechCrunch AI",
+      "published": "2026-09-24T14:30:00+00:00",
+      "retrieved_at": "2026-09-24T14:31:31.687541+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Zach Yadegari joins the Builders Stage at TechCrunch Disrupt 2026 to share how he capitalized on viral growth. Save up to $200 before September 25. Save 50% on a second pass.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "9ed173dd260903182172cf9e"
+    },
     {
       "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
@@ -563,23 +580,6 @@
       "story_fingerprint": "a8660042bcb1ddae6e914b23"
     },
     {
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
-      "source": "TechCrunch AI",
-      "published": "2026-09-23T14:30:00+00:00",
-      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
-    },
-    {
       "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
       "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
       "source": "TechCrunch AI",
@@ -595,6 +595,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "be393f20ccbf4a2f1c43508b"
+    },
+    {
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00+00:00",
+      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
     },
     {
       "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "11b56555c3b9a283ba69aa69"
-    },
-    {
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "source": "OpenAI",
-      "published": "2026-09-16T16:00:00+00:00",
-      "retrieved_at": "2026-09-16T16:19:48.648580+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "505e1e04143693a6148f8ee3"
     }
   ],
   "unverified_history": [
