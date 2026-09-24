@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T16:47:37.589087+00:00",
+  "updated": "2026-09-24T16:57:40.181545+00:00",
   "items": [
     {
       "title": "TechCrunch Founder Summit 2026: Everything you need to know",
@@ -19,11 +19,11 @@
       "story_fingerprint": "5a6339a0e5690773ee3f7f93"
     },
     {
-      "title": "Twenty minutes with the CEO of ElevenLabs, now reportedly valued at $22 billion",
+      "title": "20 minutes with the CEO of ElevenLabs, now reportedly valued at $22B",
       "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion",
       "source": "TechCrunch AI",
       "published": "2026-09-24T16:35:13+00:00",
-      "retrieved_at": "2026-09-24T16:36:37.459144+00:00",
+      "retrieved_at": "2026-09-24T16:57:23.318516+00:00",
       "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "summary": "ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that businesses should probably tell you that — at least until getting a machine is what everyone expects anyway.",
       "isAI": true,
@@ -33,7 +33,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "54fe94ca719531766d9b9542"
+      "story_fingerprint": "84dcdcda8759634acaac0e39"
     },
     {
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
@@ -733,23 +733,6 @@
       "story_fingerprint": "a8660042bcb1ddae6e914b23"
     },
     {
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
-      "source": "TechCrunch AI",
-      "published": "2026-09-23T14:30:00+00:00",
-      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
-    },
-    {
       "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
       "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
       "source": "TechCrunch AI",
@@ -765,6 +748,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "be393f20ccbf4a2f1c43508b"
+    },
+    {
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00+00:00",
+      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
     },
     {
       "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
