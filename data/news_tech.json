@@ -1,6 +1,40 @@
 {
-  "updated": "2026-09-24T16:11:45.152138+00:00",
+  "updated": "2026-09-24T16:21:34.830475+00:00",
   "items": [
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "source": "Google DeepMind",
+      "published": "2026-09-24T16:20:39+00:00",
+      "retrieved_at": "2026-09-24T16:21:28.177200+00:00",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://deepmind.google/blog/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "8cfeddfa116322b89fdef282"
+    },
+    {
+      "title": "Google's first Suncatcher orbital data center test launches October 1",
+      "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1",
+      "source": "Ars Technica AI",
+      "published": "2026-09-24T16:16:34+00:00",
+      "retrieved_at": "2026-09-24T16:21:28.217843+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "Google's experimental orbital data center will have four TPUs and only run for 15 minutes at a time.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "3a7fd20abe10b5ce21a1e950"
+    },
     {
       "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
       "url": "https://techcrunch.com/2026/09/24/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026",
@@ -4216,40 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "5772745cc85f7c2ae473bbb9"
-    },
-    {
-      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first",
-      "source": "TechCrunch AI",
-      "published": "2026-09-16T18:25:25+00:00",
-      "retrieved_at": "2026-09-16T19:36:13.793624+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "9796ec45903cf17d880e1ccb"
-    },
-    {
-      "title": "The Best Movies to Stream This Month (September 2026)",
-      "url": "https://wired.com/story/the-8-best-movies-to-stream-right-now",
-      "source": "Wired",
-      "published": "2026-09-16T18:23:37+00:00",
-      "retrieved_at": "2026-09-16T19:36:14.688753+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The Mandalorian and Grogu, The Wild Robot, and Obsession are among the must-watch films arriving this month.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "0d91b073c3084f93c5102752"
     }
   ],
   "unverified_history": [
