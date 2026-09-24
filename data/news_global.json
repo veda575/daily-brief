@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-24T16:06:44.836386+00:00",
+  "updated": "2026-09-24T16:31:42.309094+00:00",
   "items": [
+    {
+      "title": "White House restores access to media outlets banned by Trump after judge's order",
+      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
+      "source": "BBC World",
+      "published": "2026-09-24T16:29:17+00:00",
+      "retrieved_at": "2026-09-24T16:31:35.761001+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "CNN and MS NOW were allowed back into the White House after some of their staff were earlier turned away.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "0aa47cf17db0330384b6fb63"
+    },
     {
       "title": "Trump welcomes China’s Xi Jinping to White House",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/24/trump-welcomes-chinas-xi-jinping-to-white-house",
@@ -16,22 +32,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "aa688a67b131d0692a2578f0"
-    },
-    {
-      "title": "Some reporters denied White House access despite judge overturning Trump media ban",
-      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
-      "source": "BBC World",
-      "published": "2026-09-24T14:21:41+00:00",
-      "retrieved_at": "2026-09-24T14:51:53.682195+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Lawyers for CNN, Politico and MS Now are seeking an emergency court hearing, saying the White House \"repeatedly violated\" the order.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "99ae09b1f534456d0253d952"
     },
     {
       "title": "Rubio warns of Iraq ‘Balkanisation’: Is that a real threat?",
