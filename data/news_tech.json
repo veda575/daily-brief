@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T19:02:14.296731+00:00",
+  "updated": "2026-09-24T19:42:36.926493+00:00",
   "items": [
+    {
+      "title": "I Think I Found an AI Agent Worth the Risk",
+      "url": "https://wired.com/story/i-finally-found-an-ai-agent-worth-the-risk",
+      "source": "Wired",
+      "published": "2026-09-24T19:36:35+00:00",
+      "retrieved_at": "2026-09-24T19:42:31.534734+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Instinct saved me $550, booked my restaurant reservations, and warned me about a phishing scam. It also wasted $64 and might be a security nightmare.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "9b2b1fb38d91794bf9f03e36"
+    },
     {
       "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
       "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d009c164c1a0d1d07d57be30"
-    },
-    {
-      "title": "Here’s What Snap’s Expensive Specs Can Actually Do",
-      "url": "https://wired.com/story/what-snap-expensive-specs-can-actually-do",
-      "source": "Wired",
-      "published": "2026-09-16T23:40:00+00:00",
-      "retrieved_at": "2026-09-17T00:34:41.466255+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Snap thinks its chunky, pricey smart glasses are the future of human computing, powered by a new AI app and features that do everything from translating languages to improving your golf swing.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "07b5142e15b812dfb685490a"
     }
   ],
   "unverified_history": [
