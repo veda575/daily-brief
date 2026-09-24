@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-24T16:52:33.224640+00:00",
+  "updated": "2026-09-24T17:07:29.240937+00:00",
   "items": [
+    {
+      "title": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
+      "url": "https://aljazeera.com/news-analysis/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension",
+      "source": "Al Jazeera",
+      "published": "2026-09-24T16:53:29+00:00",
+      "retrieved_at": "2026-09-24T17:07:23.136704+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Some analysts say extending the truce is pure optics - others say it's a useful step towards a more durable deal.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "788179ce36adf9d6ea3d9b2a"
+    },
     {
       "title": "White House restores access to media outlets banned by Trump after judge's order",
       "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
@@ -16,6 +32,22 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0aa47cf17db0330384b6fb63"
+    },
+    {
+      "title": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/24/mahmoud-abbas-what-will-it-take-to-protect-palestine",
+      "source": "Al Jazeera",
+      "published": "2026-09-24T16:35:16+00:00",
+      "retrieved_at": "2026-09-24T17:07:23.136795+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Palestinian President Mahmoud Abbas questioned how long the world would “remain silent” on Israel's actions.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "184bf606e41ceb970160b097"
     },
     {
       "title": "Trump invites Putin to Miami G20: Why that matters",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
       "source_type": "PUBLISHER",
       "story_fingerprint": "88d994daa73fa2d8d6fe7e9b"
-    },
-    {
-      "title": "As US and China talk, middle powers jostle for position",
-      "url": "https://dw.com/en/as-us-and-china-talk-middle-powers-jostle-for-position/a-79356540",
-      "source": "DW",
-      "published": "2026-09-21T12:58:00+00:00",
-      "retrieved_at": "2026-09-21T14:23:05.690264+00:00",
-      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
-      "summary": "China's Xi Jinping is traveling to Washington this week. Regardless of what comes from his talks with US President Trump, the EU will likely remain stuck between erratic US trade policy and Beijing's export machine.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "c70e8470d8252a226561a62b"
-    },
-    {
-      "title": "Tajikistan Eyes ICC Exit",
-      "url": "https://thediplomat.com/2026/09/tajikistan-eyes-icc-exit",
-      "source": "The Diplomat",
-      "published": "2026-09-21T12:53:00+00:00",
-      "retrieved_at": "2026-09-21T16:38:59.539598+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "The move comes a year after Tajikistan’s refusal to arrest Russian President Vladimir Putin brought a formal rebuke from The Hague.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "b9ce2d343204ee3f86cb426f"
     }
   ],
   "unverified_history": [
