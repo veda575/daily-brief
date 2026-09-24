@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T20:47:11.349033+00:00",
+  "updated": "2026-09-24T20:57:25.469611+00:00",
   "items": [
+    {
+      "title": "Inside the Network of Anonymous Men Destroying Young Women’s Lives",
+      "url": "https://wired.com/story/uncanny-valley-podcast-anonymous-men-turned-cyberharassment-into-group-sport-heres-one-womans-side",
+      "source": "Wired",
+      "published": "2026-09-24T20:50:33+00:00",
+      "retrieved_at": "2026-09-24T20:57:21.034146+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "This week on Uncanny Valley, we look into the reporting behind our feature on the women still struggling after being targeted by the burnerverse.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "dde9b46976a8cb02cbb726ab"
+    },
     {
       "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
       "url": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c16263697b4098c96ac0ec3f"
-    },
-    {
-      "title": "Introducing Astra for Law",
-      "url": "https://openai.com/index/astra-for-law",
-      "source": "OpenAI",
-      "published": "2026-09-17T00:00:00+00:00",
-      "retrieved_at": "2026-09-17T22:05:07.027884+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "ad657a34b8b76e812f4201c8"
     }
   ],
   "unverified_history": [
