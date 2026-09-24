@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T14:01:41.259573+00:00",
+  "updated": "2026-09-24T14:06:28.022875+00:00",
   "items": [
+    {
+      "title": "Meta puts its AI assistant on a keychain",
+      "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
+      "source": "Ars Technica AI",
+      "published": "2026-09-24T14:03:38+00:00",
+      "retrieved_at": "2026-09-24T14:06:23.443512+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "Meta says the keychain-sized Muse Charm will ship in December.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "a6291a749d6d4d55e4cee663"
+    },
     {
       "title": "Australia to investigate if OpenAI hack of government health website broke the law",
       "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
@@ -40,9 +57,9 @@
       "url": "https://wired.com/story/tech-bros-dating-palantir-tesla",
       "source": "Wired",
       "published": "2026-09-24T10:00:00+00:00",
-      "retrieved_at": "2026-09-24T10:05:20.113324+00:00",
+      "retrieved_at": "2026-09-24T14:06:23.702772+00:00",
       "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "Once seen as nerdy but harmless innovators, men in tech are now widely regarded as red-pilled Elon Musk wannabes. It’s made getting laid a whole lot harder.",
+      "summary": "Once seen as nerdy but harmless innovators, men in tech are now widely regarded as red pilled Elon Musk wannabes. It’s made getting laid a whole lot harder.",
       "isAI": false,
       "category": "tech",
       "relevance": "tech",
@@ -529,23 +546,6 @@
       "story_fingerprint": "a8660042bcb1ddae6e914b23"
     },
     {
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
-      "source": "TechCrunch AI",
-      "published": "2026-09-23T14:30:00+00:00",
-      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
-    },
-    {
       "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
       "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital",
       "source": "TechCrunch AI",
@@ -561,6 +561,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "be393f20ccbf4a2f1c43508b"
+    },
+    {
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00+00:00",
+      "retrieved_at": "2026-09-23T14:31:56.022082+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "8245bf81ad0d0a40db0a1aa2"
     },
     {
       "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "cf19bab3ade5ef524cfd3809"
-    },
-    {
-      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
-      "source": "TechCrunch AI",
-      "published": "2026-09-16T15:00:00+00:00",
-      "retrieved_at": "2026-09-16T16:19:48.303968+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "dffe647eacc86c1405fb498b"
     }
   ],
   "unverified_history": [
