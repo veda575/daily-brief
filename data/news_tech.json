@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T18:57:14.611480+00:00",
+  "updated": "2026-09-24T19:02:14.296731+00:00",
   "items": [
+    {
+      "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
+      "source": "TechCrunch AI",
+      "published": "2026-09-24T19:00:42+00:00",
+      "retrieved_at": "2026-09-24T19:02:09.157078+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "c7e2307f778a97529ea03c06"
+    },
     {
       "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
       "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "07b5142e15b812dfb685490a"
-    },
-    {
-      "title": "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
-      "url": "https://wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment",
-      "source": "Wired",
-      "published": "2026-09-16T22:07:24+00:00",
-      "retrieved_at": "2026-09-16T22:17:19.719854+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "73a713f98a3b6c3c48d75086"
     }
   ],
   "unverified_history": [
