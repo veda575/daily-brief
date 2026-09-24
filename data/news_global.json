@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T21:22:25.145469+00:00",
+  "updated": "2026-09-24T21:27:22.115298+00:00",
   "items": [
     {
       "title": "Netanyahu defends Israeli military actions in Middle East in UN speech",
@@ -16,6 +16,38 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "36296db9e5e434c9fefdc166"
+    },
+    {
+      "title": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga",
+      "source": "Al Jazeera",
+      "published": "2026-09-24T21:15:56+00:00",
+      "retrieved_at": "2026-09-24T21:27:16.089523+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Susan Sarandon and Hannah Einbinder were among about 100 protesters arrested outside the UN ahead of Netanyahu’s speech.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "33e3b0f0aaeaeeddab67ca09"
+    },
+    {
+      "title": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/24/dutch-pms-contrasting-stance-on-icc-wanted-putin-netanyahu",
+      "source": "Al Jazeera",
+      "published": "2026-09-24T21:08:30+00:00",
+      "retrieved_at": "2026-09-24T21:27:16.089548+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Dutch PM Rob Jetten says Israeli Prime Minister Benjamin Netanyahu should be at the UNGA despite an ICC arrest warrant.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "f0a3a23238a4372a52fe9839"
     },
     {
       "title": "Israel moves to ban main Palestinian-led lists from election",
@@ -3968,38 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "576747a020d673c249995833"
-    },
-    {
-      "title": "China expels two top ‘disloyal’ military leaders from Communist Party",
-      "url": "https://aljazeera.com/news/2026/9/21/china-expels-two-top-disloyal-military-leaders-from-communist-party",
-      "source": "Al Jazeera",
-      "published": "2026-09-21T16:56:30+00:00",
-      "retrieved_at": "2026-09-21T17:19:03.607017+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "China removes two top generals over corruption, disloyalty as part of an ongoing anti-corruption crackdown.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "afab387a8e15ef4378494c41"
-    },
-    {
-      "title": "State of world getting worse as UN Security Council paralysed: Guterres",
-      "url": "https://aljazeera.com/news/2026/9/21/state-of-world-getting-worse-as-un-security-council-paralysed-guterres",
-      "source": "Al Jazeera",
-      "published": "2026-09-21T16:46:36+00:00",
-      "retrieved_at": "2026-09-21T17:04:02.271214+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "The UN chief's mandate ends on December 31 this year, with a successor yet to be named.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2a0d978b2b460138620b5f17"
     }
   ],
   "unverified_history": [
