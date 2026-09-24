@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T09:55:21.676894+00:00",
+  "updated": "2026-09-24T10:05:25.120130+00:00",
   "items": [
+    {
+      "title": "Why No One Wants to Date Tech Bros",
+      "url": "https://wired.com/story/tech-bros-dating-palantir-tesla",
+      "source": "Wired",
+      "published": "2026-09-24T10:00:00+00:00",
+      "retrieved_at": "2026-09-24T10:05:20.113324+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "Once seen as nerdy but harmless innovators, men in tech are now widely regarded as red-pilled Elon Musk wannabes. It’s made getting laid a whole lot harder.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "c403de669a113255ed4f0457"
+    },
     {
       "title": "The Best Early Prime Day Robot Vacuum Sales Are From Roborock (2026)",
       "url": "https://wired.com/story/roborock-early-prime-day-deal-sept-2026",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "567b28b01310029564be5f51"
-    },
-    {
-      "title": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026",
-      "source": "TechCrunch AI",
-      "published": "2026-09-16T14:00:00+00:00",
-      "retrieved_at": "2026-09-16T16:19:48.304353+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "dba2fa33871478315669a247"
     }
   ],
   "unverified_history": [
