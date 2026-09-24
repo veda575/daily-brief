@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T18:47:31.466609+00:00",
+  "updated": "2026-09-24T18:57:14.611480+00:00",
   "items": [
+    {
+      "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
+      "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers",
+      "source": "TechCrunch",
+      "published": "2026-09-24T18:52:38+00:00",
+      "retrieved_at": "2026-09-24T18:57:10.396408+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "Feather is betting on a customizable, $30,000 platform built for software developers.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "72f4b5a6089141cf36f35ddf"
+    },
     {
       "title": "New Jersey fines data center $1.1M after drone pics expose 62 gas generators",
       "url": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "73a713f98a3b6c3c48d75086"
-    },
-    {
-      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
-      "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai",
-      "source": "Ars Technica AI",
-      "published": "2026-09-16T22:02:46+00:00",
-      "retrieved_at": "2026-09-16T22:17:19.495762+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "e7b21fb8fd2f67d1202863c2"
     }
   ],
   "unverified_history": [
