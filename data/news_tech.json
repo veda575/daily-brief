@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T14:31:37.946481+00:00",
+  "updated": "2026-09-24T14:36:26.793867+00:00",
   "items": [
+    {
+      "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together",
+      "source": "TechCrunch AI",
+      "published": "2026-09-24T14:31:00+00:00",
+      "retrieved_at": "2026-09-24T14:36:21.643197+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Ando has raised $20 million in pre-seed and seed funding from investors including Accel, Index Ventures and Emergence.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "690b64b6a4cf02b01dd2de69"
+    },
     {
       "title": "TechCrunch Disrupt 2026: Cal AI’s Zach Yadegari on how to create viral growth and capitalize on it",
       "url": "https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it",
@@ -36,11 +53,11 @@
       "story_fingerprint": "afdd934b9fd1692dc263ee19"
     },
     {
-      "title": "Muse Charm is Meta’s latest attempt to own the next computing platform",
+      "title": "Meta puts its AI assistant on a keychain",
       "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
       "source": "Ars Technica AI",
       "published": "2026-09-24T14:03:38+00:00",
-      "retrieved_at": "2026-09-24T14:16:27.893779+00:00",
+      "retrieved_at": "2026-09-24T14:36:22.030276+00:00",
       "feed_url": "https://arstechnica.com/ai/feed/",
       "summary": "Meta says the keychain-sized Muse Charm will ship in December.",
       "isAI": true,
@@ -50,7 +67,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "7730457bc14b6212ce8a8d5b"
+      "story_fingerprint": "a6291a749d6d4d55e4cee663"
     },
     {
       "title": "Australia to investigate if OpenAI hack of government health website broke the law",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "29b6177af30a30fa9f80c279"
-    },
-    {
-      "title": "Chipotle Is Working With Palantir to Track Food Safety Risks",
-      "url": "https://wired.com/story/chipotle-is-working-with-palantir-on-food-safety",
-      "source": "Wired",
-      "published": "2026-09-16T16:05:14+00:00",
-      "retrieved_at": "2026-09-16T16:19:49.068378+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The burrito chain has enlisted Palantir for a platform that monitors pest incidents, employee illnesses, and other factors. The partnership comes after a nightmare summer for food safety across the US.",
-      "isAI": false,
-      "category": "tech",
-      "relevance": "tech",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "11b56555c3b9a283ba69aa69"
     }
   ],
   "unverified_history": [
