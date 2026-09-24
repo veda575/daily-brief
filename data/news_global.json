@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-24T22:03:18.465987+00:00",
+  "updated": "2026-09-24T22:43:08.403880+00:00",
   "items": [
+    {
+      "title": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
+      "url": "https://aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech",
+      "source": "Al Jazeera",
+      "published": "2026-09-24T22:32:39+00:00",
+      "retrieved_at": "2026-09-24T22:43:04.757139+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Israeli prime minister denounces Iran, NYC Mayor Mamdani and critics accusing Israel of crimes against Palestinians.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "19495506c3640aebbbe9c5c5"
+    },
     {
       "title": "Trump and Xi hold critical talks at White House summit",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://warontherocks.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "f543517d7ef80ba22f69ea14"
-    },
-    {
-      "title": "Protesters march on Islamabad over soaring fuel prices",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/21/protesters-march-on-islamabad-over-soaring-fuel-prices",
-      "source": "Al Jazeera",
-      "published": "2026-09-21T17:48:51+00:00",
-      "retrieved_at": "2026-09-21T18:14:02.793799+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Pakistan’s Jamaat-e-Islami party has launched a protest march towards Islamabad over soaring fuel prices.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "35773e256d22eb3c2131a590"
     }
   ],
   "unverified_history": [
