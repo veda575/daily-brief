@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T09:15:35.215218+00:00",
+  "updated": "2026-09-24T09:20:33.444963+00:00",
   "items": [
     {
       "title": "US judge blocks Trump’s White House ban on CNN, MS NOW, and Politico",
@@ -224,6 +224,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c40cf585cf786cf7fb5269e2"
+    },
+    {
+      "title": "Trump offers warm welcome as China's Xi arrives for US visit",
+      "url": "https://bbc.co.uk/news/articles/cqgmrk7187lzo",
+      "source": "BBC World",
+      "published": "2026-09-24T03:52:21+00:00",
+      "retrieved_at": "2026-09-24T09:20:26.767238+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The US treasury secretary said that the US and China had reached an agreement to extend a trade truce as Xi began his visit.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2180231251d2b03d65baed0a"
     },
     {
       "title": "‘They uprooted it all’: Israel bulldozes Palestinian-owned olive groves",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d468a9f2c7ec3d54f7fce5cd"
-    },
-    {
-      "title": "Ruling party dominates early results in Russia’s wartime parliamentary vote",
-      "url": "https://aljazeera.com/news/2026/9/20/polls-close-in-russian-wartime-election-with-ruling-party-set-to-dominate",
-      "source": "Al Jazeera",
-      "published": "2026-09-20T22:54:00+00:00",
-      "retrieved_at": "2026-09-21T05:28:41.579072+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "The Kremlin wants the elections to showcase popular support for the war in Ukraine and legitimise its action.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "e52c7609323f628db3f8035c"
     }
   ],
   "unverified_history": [
