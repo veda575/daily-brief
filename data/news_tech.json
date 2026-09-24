@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-24T14:06:28.022875+00:00",
+  "updated": "2026-09-24T14:11:22.240227+00:00",
   "items": [
+    {
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face",
+      "published": "2026-09-24T14:08:57+00:00",
+      "retrieved_at": "2026-09-24T14:11:17.399663+00:00",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "summary": "",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://huggingface.co/blog/feed.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "afdd934b9fd1692dc263ee19"
+    },
     {
       "title": "Meta puts its AI assistant on a keychain",
       "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "505e1e04143693a6148f8ee3"
-    },
-    {
-      "title": "How Fortell is using AI (and $163M) to crack a hearing aid monopoly",
-      "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly",
-      "source": "TechCrunch",
-      "published": "2026-09-16T16:00:00+00:00",
-      "retrieved_at": "2026-09-16T19:36:14.586972+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "“Why do I have to beg my grandparents to put on their hearing aids, but no one has ever needed to ask me to put on my glasses?” That’s the question that drove Matthew de Jonge to spend six years building Fortell, an AI hearing aid startup that recently raised $163 million from the likes of Founders Fund, Thrive Capital, and Valor Equity […]",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "cf19bab3ade5ef524cfd3809"
     }
   ],
   "unverified_history": [
