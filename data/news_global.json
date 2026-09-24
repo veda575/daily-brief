@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-24T14:31:47.541274+00:00",
+  "updated": "2026-09-24T14:52:00.440336+00:00",
   "items": [
+    {
+      "title": "Some reporters denied White House access despite judge overturning Trump media ban",
+      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
+      "source": "BBC World",
+      "published": "2026-09-24T14:21:41+00:00",
+      "retrieved_at": "2026-09-24T14:51:53.682195+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Lawyers for CNN, Politico and MS Now are seeking an emergency court hearing, saying the White House \"repeatedly violated\" the order.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "99ae09b1f534456d0253d952"
+    },
     {
       "title": "Rubio warns of Iraq ‘Balkanisation’: Is that a real threat?",
       "url": "https://aljazeera.com/news/2026/9/24/rubio-warns-of-iraq-balkanisation-is-that-a-real-threat",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b9fc3654617982d33616264b"
-    },
-    {
-      "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
-      "url": "https://bbc.co.uk/news/videos/c6z0z2nne11vo",
-      "source": "BBC World",
-      "published": "2026-09-21T10:00:31+00:00",
-      "retrieved_at": "2026-09-21T11:22:48.735664+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "a1edb6e6e2fd30ffcb919da9"
     }
   ],
   "unverified_history": [
