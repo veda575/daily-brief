@@ -1,6 +1,40 @@
 {
-  "updated": "2026-09-25T19:46:23.645472+00:00",
+  "updated": "2026-09-25T20:36:23.288441+00:00",
   "items": [
+    {
+      "title": "Meta opens early access program for new Muse features",
+      "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T20:34:53+00:00",
+      "retrieved_at": "2026-09-25T20:36:10.696923+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "Anyone interested in joining has to ask Muse to put them on the list.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "69b3bf9a22f9fd9f04717d21"
+    },
+    {
+      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+      "url": "https://wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand",
+      "source": "Wired",
+      "published": "2026-09-25T20:30:40+00:00",
+      "retrieved_at": "2026-09-25T20:36:18.060110+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "They wanted the silicon. They got the sand.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "08cb8df98593a5e221204455"
+    },
     {
       "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
       "url": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally",
@@ -4216,40 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "8554d1aab843b4f27cb756e2"
-    },
-    {
-      "title": "PrismML hopes its tiny LLM will change how we all use AI",
-      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai",
-      "source": "TechCrunch AI",
-      "published": "2026-09-17T22:34:09+00:00",
-      "retrieved_at": "2026-09-18T00:14:29.185440+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "003ea9acf364afefb4430679"
-    },
-    {
-      "title": "Here’s What the AI Apocalypse Could Look Like",
-      "url": "https://wired.com/story/uncanny-valley-podcast-heres-what-the-ai-apocalypse-could-look-like",
-      "source": "Wired",
-      "published": "2026-09-17T22:20:21+00:00",
-      "retrieved_at": "2026-09-18T00:14:30.091078+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "This week on “Uncanny Valley,” we discuss three possible AI doomsday scenarios, AI safety, and the unexpected bipartisan alliance forming against AI.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6ffe3a59d27ca64555d4cf58"
     }
   ],
   "unverified_history": [
