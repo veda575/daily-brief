@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T17:35:16.956727+00:00",
+  "updated": "2026-09-25T17:45:20.487040+00:00",
   "items": [
+    {
+      "title": "Al Jazeera rejects Netanyahu’s attack on journalists in UN speech",
+      "url": "https://aljazeera.com/news/2026/9/25/al-jazeera-rejects-netanyahus-attack-on-journalists-in-un-speech",
+      "source": "Al Jazeera",
+      "published": "2026-09-25T17:34:16+00:00",
+      "retrieved_at": "2026-09-25T17:45:15.474342+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Israeli PM's criticism of Al Jazeera during UNGA address threatens safety of journalists, the media network says.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "1504ca761935e0064f810673"
+    },
     {
       "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
       "url": "https://bbc.co.uk/news/articles/ck05rrj3jeylo",
@@ -16,6 +32,38 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "787178cea290e2bdb8bf624a"
+    },
+    {
+      "title": "US court upholds Pentagon’s blacklisting of Anthropic",
+      "url": "https://aljazeera.com/economy/2026/9/25/us-court-upholds-pentagons-blacklisting-of-anthropic",
+      "source": "Al Jazeera",
+      "published": "2026-09-25T17:03:52+00:00",
+      "retrieved_at": "2026-09-25T17:45:15.474389+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Conflict began in February when Anthropic refused to remove restrictions on use of Claude for fully autonomous weapons.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "5d3637584e0669c375798786"
+    },
+    {
+      "title": "Netanyahu’s UN belligerence wins cheers at home as world walks out",
+      "url": "https://aljazeera.com/news-analysis/2026/9/25/netanyahus-un-belligerence-wins-cheers-at-home-as-world-walks-out",
+      "source": "Al Jazeera",
+      "published": "2026-09-25T17:03:03+00:00",
+      "retrieved_at": "2026-09-25T17:45:15.474401+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Israeli PM's defiant UN speech alienated critics abroad but delighted his base as elections draw near.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2e03bf2b599df3846a4694db"
     },
     {
       "title": "Israeli shelling continues as Lebanon’s PM demands withdrawal in UN speech",
@@ -3952,54 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "ae0e42c241e79925618b735d"
-    },
-    {
-      "title": "A Debate Is Raging in China Over English Education",
-      "url": "https://thediplomat.com/2026/09/a-debate-is-raging-in-china-over-english-education",
-      "source": "The Diplomat",
-      "published": "2026-09-22T15:29:00+00:00",
-      "retrieved_at": "2026-09-23T00:35:14.689223+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "Rising youth unemployment, the advent of AI translation, and growing anger against everything foreign are fueling public anger against English education in China.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "b5345aa3dd13306fb353a864"
-    },
-    {
-      "title": "Rubio defends Trump’s White House ban on CNN, MS NOW and Politico",
-      "url": "https://aljazeera.com/news/2026/9/22/rubio-defends-trumps-white-house-ban-on-cnn-ms-now-and-politico",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T15:27:49+00:00",
-      "retrieved_at": "2026-09-22T15:43:34.445000+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "The White House launched 'Trump TV' as major networks suspended the television pool covering the US president.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "89f67d3b951c991d76237e3e"
-    },
-    {
-      "title": "Trump to UN: do I ‘annihilate’ Iran or ‘make a deal?’",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/22/trump-to-un-do-i-annihilate-iran-or-make-a",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T15:19:19+00:00",
-      "retrieved_at": "2026-09-22T15:43:34.445041+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "US President Donald Trump told the UN General Assembly that he has a ‘big decision to make’ on Iran.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "45ddb1ccbe9bcd048bc118e9"
     }
   ],
   "unverified_history": [
