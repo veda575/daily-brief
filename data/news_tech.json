@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T17:50:10.195754+00:00",
+  "updated": "2026-09-25T18:00:12.993869+00:00",
   "items": [
+    {
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "url": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T17:57:37+00:00",
+      "retrieved_at": "2026-09-25T18:00:04.713822+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "Microsoft's new Surface laptops forego Copilot+ PC branding.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "ee9d5beaf84e35a3b4c8a83e"
+    },
     {
       "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
       "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c6e3a13f9ab8512bf7fd4eb0"
-    },
-    {
-      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch AI",
-      "published": "2026-09-17T19:46:08+00:00",
-      "retrieved_at": "2026-09-17T22:05:06.508398+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "357c0cb6661d80d10ea5a98b"
     }
   ],
   "unverified_history": [
