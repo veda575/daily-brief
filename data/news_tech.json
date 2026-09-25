@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T20:36:23.288441+00:00",
+  "updated": "2026-09-25T21:16:17.368660+00:00",
   "items": [
+    {
+      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+      "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T21:10:51+00:00",
+      "retrieved_at": "2026-09-25T21:16:12.479651+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "6534a32dc9d37ac85fa18f48"
+    },
     {
       "title": "Meta opens early access program for new Muse features",
       "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "131bec8c69adfeb5aae9452c"
-    },
-    {
-      "title": "Google DeepMind launches institute to widen the AGI debate",
-      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
-      "source": "TechCrunch AI",
-      "published": "2026-09-17T23:21:17+00:00",
-      "retrieved_at": "2026-09-18T04:53:38.008896+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8554d1aab843b4f27cb756e2"
     }
   ],
   "unverified_history": [
