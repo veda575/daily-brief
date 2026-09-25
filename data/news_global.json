@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T13:19:40.009981+00:00",
+  "updated": "2026-09-25T14:14:35.127091+00:00",
   "items": [
+    {
+      "title": "Man shot during 2024 Trump campaign rally in Butler dies",
+      "url": "https://bbc.co.uk/news/articles/c5dj401d88l3o",
+      "source": "BBC World",
+      "published": "2026-09-25T13:23:33+00:00",
+      "retrieved_at": "2026-09-25T14:14:28.541022+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "A gunman shot Jim Copenhaver twice while also killing another man and grazing Trump's ear with a bullet.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "13d7fc72562aa53af0ef5c8b"
+    },
     {
       "title": "India’s ‘cockroach’ movement demands election chief’s resignation",
       "url": "https://aljazeera.com/news/2026/9/25/indias-cockroach-movement-demands-election-chiefs-resignation",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "94b5bb17db9a2c3203b9192b"
-    },
-    {
-      "title": "Iran war spreads through region as Trump seeks way out",
-      "url": "https://dw.com/en/iran-war-spreads-through-region-as-trump-seeks-way-out/a-79370506",
-      "source": "DW",
-      "published": "2026-09-22T11:29:00+00:00",
-      "retrieved_at": "2026-09-23T05:25:12.847339+00:00",
-      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
-      "summary": "The US, Iran and the Gulf states continue to pursue different objectives while searching for a way to end the Iran war.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "d623c74c0faa26d5d4baf0a9"
     }
   ],
   "unverified_history": [
