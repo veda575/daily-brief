@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T18:55:12.996957+00:00",
+  "updated": "2026-09-25T19:00:12.537799+00:00",
   "items": [
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": "OpenAI",
+      "published": "2026-09-25T19:00:00+00:00",
+      "retrieved_at": "2026-09-25T19:00:05.162726+00:00",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://openai.com/news/rss.xml",
+      "source_type": "PRIMARY",
+      "story_fingerprint": "7d56b18456a3ad0472ce1e36"
+    },
     {
       "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
       "url": "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "87ddcd778965db9444f97112"
-    },
-    {
-      "title": "Is the AI safety debate about safety or control?",
-      "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control",
-      "source": "TechCrunch AI",
-      "published": "2026-09-17T20:19:37+00:00",
-      "retrieved_at": "2026-09-17T22:05:06.508367+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "3eafdf9a4a0d555c0cc93aac"
     }
   ],
   "unverified_history": [
