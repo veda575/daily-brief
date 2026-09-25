@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T18:40:21.253030+00:00",
+  "updated": "2026-09-25T18:45:19.302706+00:00",
   "items": [
     {
       "title": "Media outlets banned by Trump resume White House coverage after judge's order",
@@ -16,6 +16,54 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "935145d1493e1c5d9fd1ec2c"
+    },
+    {
+      "title": "Iraqi airports halt Iranian flights after new US aviation sanctions",
+      "url": "https://aljazeera.com/news/2026/9/25/iraqi-airports-halt-iranian-flights-after-new-us-aviation-sanctions",
+      "source": "Al Jazeera",
+      "published": "2026-09-25T18:30:20+00:00",
+      "retrieved_at": "2026-09-25T18:45:14.512474+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Baghdad, Najaf, Erbil and Sulaimaniyah airports suspend flights as US ramps up pressure on Iran's aviation sector.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "be32a09233fa4d5a142fde70"
+    },
+    {
+      "title": "India’s Cockroach movement joins opposition push to oust election chief",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/25/09-25-india-election-chief-protests-sv",
+      "source": "Al Jazeera",
+      "published": "2026-09-25T18:16:47+00:00",
+      "retrieved_at": "2026-09-25T18:45:14.512498+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "India’s youth-led Cockroach Janta Party has joined opposition calls for election chief Gyanesh Kumar to resign.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "f880b9ab763955c2206d2bd5"
+    },
+    {
+      "title": "Families fleeing Yemen’s war face displacement, hunger and water shortages",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/25/families-fleeing-yemens-war-face-displacement-hunger-and-water-shortages",
+      "source": "Al Jazeera",
+      "published": "2026-09-25T18:15:43+00:00",
+      "retrieved_at": "2026-09-25T18:45:14.512512+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "Fighting between Houthi and government-aligned forces forces families out of their homes in Yemen.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "3b2958d10397f6a56ba5c6c1"
     },
     {
       "title": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
@@ -3952,54 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "ac217bc143c553b5a954b890"
-    },
-    {
-      "title": "Erdogan slams Israel’s ‘genocidal mindset’ in blistering UN address",
-      "url": "https://aljazeera.com/news/2026/9/22/erdogan-slams-israels-genocidal-mindset-in-blistering-un-address",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T16:55:39+00:00",
-      "retrieved_at": "2026-09-22T17:03:33.419910+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Turkish leader says UN has been forced into 'dysfunction' and was 'bleeding out' in Palestine, Lebanon, Sudan.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "4bf6935995d2a91e5ceb2529"
-    },
-    {
-      "title": "‘War crime’: Jordan’s king slams Israeli West Bank expansion",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/22/war-crime-jordans-king-slams-israeli-west-bank-expansion",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T16:35:14+00:00",
-      "retrieved_at": "2026-09-22T17:03:33.419949+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Jordan's King Abdullah II decried Israeli settlements in the occupied West Bank as a strategy of ‘forced displacement.'",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8f6071016fbc10d6b2dcae63"
-    },
-    {
-      "title": "Fifteen guilty in 2019 Sri Lanka Easter bombings: What the verdict says",
-      "url": "https://aljazeera.com/features/2026/9/22/fifteen-guilty-in-2019-sri-lanka-easter-bombings-what-the-verdict-says",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T16:31:58+00:00",
-      "retrieved_at": "2026-09-22T17:03:33.419977+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "The suicide bombings were the deadliest attacks in the country since the end of its civil war in 2009.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "d825b974e6b20a5b62ba6803"
     }
   ],
   "unverified_history": [
