@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-25T20:11:28.470410+00:00",
+  "updated": "2026-09-25T20:51:24.663247+00:00",
   "items": [
     {
-      "title": "Russia targeting 'ordinary life' with attacks on data centres, Zelensky says",
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
       "url": "https://bbc.co.uk/news/articles/c84gkwgk7d06o",
       "source": "BBC World",
-      "published": "2026-09-25T20:07:43+00:00",
-      "retrieved_at": "2026-09-25T20:11:22.435841+00:00",
+      "published": "2026-09-25T20:47:49+00:00",
+      "retrieved_at": "2026-09-25T20:51:18.464085+00:00",
       "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
       "category": "global",
@@ -15,7 +15,23 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "97474d683c14a1da60dc2f9e"
+      "story_fingerprint": "bc96c260595d798a10d6744b"
+    },
+    {
+      "title": "Lula or Bolsonaro as president? Brazil gears up to vote",
+      "url": "https://dw.com/en/lula-or-bolsonaro-as-president-brazil-gears-up-to-vote/a-79437276",
+      "source": "DW",
+      "published": "2026-09-25T20:15:00+00:00",
+      "retrieved_at": "2026-09-25T20:51:18.659589+00:00",
+      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
+      "summary": "Brazilians go to the polls on October 4. The front-runners are multilateralist incumbent Lula da Silva and former President Jair Bolsonaro's son, Flavio, who wants to bring Brazil closer to the US and away from China.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "abc0311fa3f6ab54605a8020"
     },
     {
       "title": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "1bc9ca1246876f38d53d16cc"
-    },
-    {
-      "title": "US to build two military bases in Greenland under new deal with Denmark",
-      "url": "https://bbc.co.uk/news/articles/c9dr74g32g8go",
-      "source": "BBC World",
-      "published": "2026-09-22T18:43:29+00:00",
-      "retrieved_at": "2026-09-22T18:53:34.336149+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "23ec4c49416850ec7e7218fa"
     }
   ],
   "unverified_history": [
