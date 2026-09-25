@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T19:36:23.963264+00:00",
+  "updated": "2026-09-25T19:41:19.091298+00:00",
   "items": [
+    {
+      "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
+      "url": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally",
+      "source": "Ars Technica",
+      "published": "2026-09-25T19:34:42+00:00",
+      "retrieved_at": "2026-09-25T19:41:14.453415+00:00",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "summary": "Better thermals and battery life make this iterative update nicer to use.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "720d467aaab6deaed7b1ecb6"
+    },
     {
       "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
       "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal",
@@ -257,6 +274,23 @@
       "story_fingerprint": "cacd9eb24241324cd08a78e5"
     },
     {
+      "title": "US being left behind in EV charging speeds as China goes sub-5 min to 70%",
+      "url": "https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70",
+      "source": "Ars Technica",
+      "published": "2026-09-25T15:21:55+00:00",
+      "retrieved_at": "2026-09-25T19:41:14.453506+00:00",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "summary": "The new LFP battery charges from 10 to 70% in 4.5 minutes at just 65˚C.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "bf03c50cb641e4cc3295296a"
+    },
+    {
       "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
       "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
       "source": "TechCrunch AI",
@@ -357,6 +391,23 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "81a2126d4cc69bd75cb18936"
+    },
+    {
+      "title": "Trump administration takes Musk’s side in fight over EU tech rules",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-administration-takes-musks-side-in-fight-over-eu-tech-rules",
+      "source": "Ars Technica",
+      "published": "2026-09-25T13:45:49+00:00",
+      "retrieved_at": "2026-09-25T19:41:14.453535+00:00",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "summary": "Washington says Brussels overreached when it fined X €120 million under the DSA.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "05771a3a760563a7a241a816"
     },
     {
       "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
@@ -4199,57 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "6ffe3a59d27ca64555d4cf58"
-    },
-    {
-      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
-      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
-      "source": "TechCrunch AI",
-      "published": "2026-09-17T22:14:59+00:00",
-      "retrieved_at": "2026-09-18T00:14:29.185452+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "9d44b2b8507e17e70fa99a33"
-    },
-    {
-      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
-      "url": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions",
-      "source": "Ars Technica AI",
-      "published": "2026-09-17T22:12:58+00:00",
-      "retrieved_at": "2026-09-18T00:14:29.609916+00:00",
-      "feed_url": "https://arstechnica.com/ai/feed/",
-      "summary": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://arstechnica.com/ai/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "fb27a41c7a3a4fc6c5fae2fb"
-    },
-    {
-      "title": "The fix for rogue AI agents could be more AI",
-      "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
-      "source": "TechCrunch AI",
-      "published": "2026-09-17T20:34:47+00:00",
-      "retrieved_at": "2026-09-17T22:05:06.508321+00:00",
-      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "9229b208b4e0201e5f9c8636"
     }
   ],
   "unverified_history": [
