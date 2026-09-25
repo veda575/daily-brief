@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T17:25:11.852348+00:00",
+  "updated": "2026-09-25T17:30:13.284264+00:00",
   "items": [
+    {
+      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+      "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T17:29:46+00:00",
+      "retrieved_at": "2026-09-25T17:30:05.484747+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users' data when not configured or secured properly.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "0eed3e6b22c6aa091d6279a1"
+    },
     {
       "title": "Astra and Opus just passed Turing’s other test",
       "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test",
@@ -19,11 +36,11 @@
       "story_fingerprint": "50ff123573770bc1992d137f"
     },
     {
-      "title": "Appeals Court Lets the Pentagon Designate Anthropic a Supply Chain Risk",
+      "title": "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk",
       "url": "https://wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk",
       "source": "Wired",
       "published": "2026-09-25T16:58:20+00:00",
-      "retrieved_at": "2026-09-25T17:05:05.421012+00:00",
+      "retrieved_at": "2026-09-25T17:30:06.343835+00:00",
       "feed_url": "https://www.wired.com/feed/rss",
       "summary": "The AI lab had argued multiple violations of its rights, but a divided panel of judges sided with the Trump administration.",
       "isAI": true,
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "357c0cb6661d80d10ea5a98b"
-    },
-    {
-      "title": "The AI Slowdown Debate Crashed Salesforce’s Party",
-      "url": "https://wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem",
-      "source": "Wired",
-      "published": "2026-09-17T18:42:25+00:00",
-      "retrieved_at": "2026-09-17T22:05:07.449842+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The Dreamforce conference became an unlikely battleground for the CEOs of OpenAI, Anthropic, and Nvidia to debate whether AI development should slow down.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "dc68ac82a44605bd3b8a0fc9"
     }
   ],
   "unverified_history": [
