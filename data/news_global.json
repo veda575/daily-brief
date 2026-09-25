@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T18:35:18.872514+00:00",
+  "updated": "2026-09-25T18:40:21.253030+00:00",
   "items": [
+    {
+      "title": "Media outlets banned by Trump resume White House coverage after judge's order",
+      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
+      "source": "BBC World",
+      "published": "2026-09-25T18:36:30+00:00",
+      "retrieved_at": "2026-09-25T18:40:16.764038+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "US TV news coverage of the White House returns to normal after a judge lifted Trump's ban of three news outlets.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "935145d1493e1c5d9fd1ec2c"
+    },
     {
       "title": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
       "url": "https://aljazeera.com/news/2026/9/25/poland-boosts-air-defence-after-russian-provocations-amid-ukraine-war",
@@ -928,22 +944,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "c60c98b8ee70f56586153269"
-    },
-    {
-      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
-      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
-      "source": "BBC World",
-      "published": "2026-09-25T01:10:35+00:00",
-      "retrieved_at": "2026-09-25T05:48:44.160948+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "CNN and MS NOW reporters say they were barred from covering a state dinner after a judge ruled their passes should be restored.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "38e050bbdbbb8b7d5835dd81"
     },
     {
       "title": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
