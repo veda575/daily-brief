@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T00:38:09.750022+00:00",
+  "updated": "2026-09-25T01:13:06.354884+00:00",
   "items": [
+    {
+      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
+      "source": "BBC World",
+      "published": "2026-09-25T01:10:35+00:00",
+      "retrieved_at": "2026-09-25T01:13:02.634501+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "CNN and MS NOW said reporters were denied access to covering White House arrivals for a state dinner, despite a judge ruling their passes must be restored.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "38e050bbdbbb8b7d5835dd81"
+    },
     {
       "title": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
       "url": "https://aljazeera.com/economy/2026/9/25/uae-bars-iranian-airlines-as-us-sanctions-squeeze-irans-aviation-sector",
@@ -384,22 +400,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "788179ce36adf9d6ea3d9b2a"
-    },
-    {
-      "title": "White House restores access to media outlets banned by Trump after judge's order",
-      "url": "https://bbc.co.uk/news/articles/cqe8ek7608mlo",
-      "source": "BBC World",
-      "published": "2026-09-24T16:42:56+00:00",
-      "retrieved_at": "2026-09-24T16:47:40.676490+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "CNN, Politico and MS NOW were allowed back into the White House after some of their staff were earlier turned away.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "0aa47cf17db0330384b6fb63"
     },
     {
       "title": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
