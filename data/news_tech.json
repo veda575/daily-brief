@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T21:41:13.841720+00:00",
+  "updated": "2026-09-25T22:21:13.255379+00:00",
   "items": [
+    {
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T22:20:47+00:00",
+      "retrieved_at": "2026-09-25T22:21:07.803542+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "cda6595130900b5c77e9fc3d"
+    },
     {
       "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
       "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "3354810cd05bcbe80133b9d9"
-    },
-    {
-      "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
-      "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal",
-      "source": "TechCrunch",
-      "published": "2026-09-18T00:02:36+00:00",
-      "retrieved_at": "2026-09-18T13:45:55.200062+00:00",
-      "feed_url": "https://techcrunch.com/feed/",
-      "summary": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://techcrunch.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "535286f291baec4276c66478"
     }
   ],
   "unverified_history": [
