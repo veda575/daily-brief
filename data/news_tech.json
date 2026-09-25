@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T18:30:15.020535+00:00",
+  "updated": "2026-09-25T18:35:11.368271+00:00",
   "items": [
+    {
+      "title": "Ahead of U.S. IPO, British AI neocloud Nscale secures $3.36B in convertible finacing",
+      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing",
+      "source": "TechCrunch AI",
+      "published": "2026-09-25T18:33:59+00:00",
+      "retrieved_at": "2026-09-25T18:35:05.838358+00:00",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "summary": "The funding, which comes from Third Point, Nvidia and others, will fuel the company's massive AI data center buildout.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "9223328d6501741773595e5a"
+    },
     {
       "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
       "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic",
@@ -104,11 +121,11 @@
       "story_fingerprint": "5d35e5ade34f5051651a6dcd"
     },
     {
-      "title": "Will Meta’s AI Tamagotchi bet is…working?",
+      "title": "Meta’s AI Tamagotchi bet is…working?",
       "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking",
       "source": "TechCrunch AI",
       "published": "2026-09-25T16:00:00+00:00",
-      "retrieved_at": "2026-09-25T18:30:07.215453+00:00",
+      "retrieved_at": "2026-09-25T18:35:05.838475+00:00",
       "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the spotlight was Meta, whose personal AI agent Muse is reportedly outpacing ChatGPT’s…",
       "isAI": true,
@@ -118,7 +135,7 @@
       "verification_method": "Publisher feed headline and attributed summary",
       "evidence_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "source_type": "PUBLISHER",
-      "story_fingerprint": "7603ab1908b91adcb0768c05"
+      "story_fingerprint": "f82e64f28fa3d7828752b7a9"
     },
     {
       "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://arstechnica.com/ai/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "de24021ee3a2e4cc2fa4c39a"
-    },
-    {
-      "title": "Making global data easier to explore",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
-      "source": "Google AI",
-      "published": "2026-09-17T20:00:00+00:00",
-      "retrieved_at": "2026-09-17T22:05:06.996152+00:00",
-      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "summary": "UN System Data Commons Data webpage",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "36731fc2adde2b8afc35aab7"
     }
   ],
   "unverified_history": [
