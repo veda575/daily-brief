@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T19:51:28.486037+00:00",
+  "updated": "2026-09-25T20:11:28.470410+00:00",
   "items": [
+    {
+      "title": "Russia targeting 'ordinary life' with attacks on data centres, Zelensky says",
+      "url": "https://bbc.co.uk/news/articles/c84gkwgk7d06o",
+      "source": "BBC World",
+      "published": "2026-09-25T20:07:43+00:00",
+      "retrieved_at": "2026-09-25T20:11:22.435841+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "97474d683c14a1da60dc2f9e"
+    },
     {
       "title": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
       "url": "https://aljazeera.com/features/2026/9/25/how-israels-blue-line-team-seizes-palestinian-land-in-the-west-bank",
@@ -144,22 +160,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "9bf7b20f564cd3db90c72420"
-    },
-    {
-      "title": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
-      "url": "https://bbc.co.uk/news/articles/c84gkwgk7d06o",
-      "source": "BBC World",
-      "published": "2026-09-25T18:02:55+00:00",
-      "retrieved_at": "2026-09-25T19:31:25.764273+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "3de2c30da51365b76f66c419"
     },
     {
       "title": "US top court allows Trump to use controversial voter verification system",
