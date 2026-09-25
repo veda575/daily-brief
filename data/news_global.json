@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T17:10:17.950850+00:00",
+  "updated": "2026-09-25T17:35:16.956727+00:00",
   "items": [
+    {
+      "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
+      "url": "https://bbc.co.uk/news/articles/ck05rrj3jeylo",
+      "source": "BBC World",
+      "published": "2026-09-25T17:32:15+00:00",
+      "retrieved_at": "2026-09-25T17:35:12.301046+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "787178cea290e2bdb8bf624a"
+    },
     {
       "title": "Israeli shelling continues as Lebanon’s PM demands withdrawal in UN speech",
       "url": "https://aljazeera.com/news/2026/9/25/israeli-shelling-continues-as-lebanons-pm-demands-withdrawal-in-un-speech",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "45ddb1ccbe9bcd048bc118e9"
-    },
-    {
-      "title": "UN Chief condemns Gaza destruction, West Bank settlements",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/22/un-chief-condemns-gaza-destruction-west-bank-settlements",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T14:37:24+00:00",
-      "retrieved_at": "2026-09-22T14:58:34.914008+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "In his final UN General Assembly address as secretary-general, Antonio Guterres condemned the killing in Gaza.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "c0ad6e52c15a46ae3d3d6930"
     }
   ],
   "unverified_history": [
