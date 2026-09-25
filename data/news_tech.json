@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T10:09:20.358824+00:00",
+  "updated": "2026-09-25T11:04:23.025849+00:00",
   "items": [
+    {
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+      "source": "Ars Technica AI",
+      "published": "2026-09-25T11:00:28+00:00",
+      "retrieved_at": "2026-09-25T11:04:16.508094+00:00",
+      "feed_url": "https://arstechnica.com/ai/feed/",
+      "summary": "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\"",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://arstechnica.com/ai/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "819782450a11950395455b76"
+    },
     {
       "title": "Who Killed Paulina Borsook’s Career?",
       "url": "https://wired.com/story/paulina-borsook-profile",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "25cbdc4bf3230cc3d863d00c"
-    },
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "source": "OpenAI",
-      "published": "2026-09-17T12:00:00+00:00",
-      "retrieved_at": "2026-09-18T00:14:29.560855+00:00",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://openai.com/news/rss.xml",
-      "source_type": "PRIMARY",
-      "story_fingerprint": "e7b697b939306d5c76788515"
     }
   ],
   "unverified_history": [
