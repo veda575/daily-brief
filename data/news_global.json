@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T15:05:19.200425+00:00",
+  "updated": "2026-09-25T15:25:16.007765+00:00",
   "items": [
     {
       "title": "China swimmer makes Asian Games history as Thai sprinter wins track 100m",
@@ -16,6 +16,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "0119ff731ee561fb1a958655"
+    },
+    {
+      "title": "'Lithuanian skies are NATO skies': DW speaks with Lithuanian premier Mindaugas Sinkevicius",
+      "url": "https://dw.com/en/lithuanian-skies-are-nato-skies-dw-speaks-with-lithuanian-premier-mindaugas-sinkevicius/a-79432394",
+      "source": "DW",
+      "published": "2026-09-25T14:34:00+00:00",
+      "retrieved_at": "2026-09-25T15:25:11.278234+00:00",
+      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
+      "summary": "In a DW interview, Prime Minister Mindaugas Sinkevicius discussed threats to Lithuania from Russia and Belarus, NATO's need for stronger air defense and why military spending alone cannot ensure security.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "cbe58946000c13997457a375"
     },
     {
       "title": "Why Canada is not ruling out a possible war with the US",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://thediplomat.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "374db403123a4221028c59bc"
-    },
-    {
-      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-      "url": "https://bbc.co.uk/news/articles/cqy7z275yx65o",
-      "source": "BBC World",
-      "published": "2026-09-22T12:29:25+00:00",
-      "retrieved_at": "2026-09-22T12:32:23.925517+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "The 2019 attacks were the deadliest the country had seen since the end of its civil war.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "bedd9cff5e37f9481be8e694"
     }
   ],
   "unverified_history": [
