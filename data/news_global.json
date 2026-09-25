@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:21:30.829946+00:00",
+  "updated": "2026-09-25T19:31:32.071851+00:00",
   "items": [
     {
       "title": "Iran threatens widespread disruption as Iraq halts Iran flights",
@@ -96,6 +96,22 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "9bf7b20f564cd3db90c72420"
+    },
+    {
+      "title": "Zelensky says Russia has widened attacks to hit Ukraine's data centres",
+      "url": "https://bbc.co.uk/news/articles/c84gkwgk7d06o",
+      "source": "BBC World",
+      "published": "2026-09-25T18:02:55+00:00",
+      "retrieved_at": "2026-09-25T19:31:25.764273+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "3de2c30da51365b76f66c419"
     },
     {
       "title": "US top court allows Trump to use controversial voter verification system",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "2a65b6110eb05adddbb67462"
-    },
-    {
-      "title": "Sudan’s historical famine echoes through latest hunger crisis",
-      "url": "https://aljazeera.com/news/2026/9/22/sudans-historical-famine-echoes-through-latest-hunger-crisis",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T17:45:55+00:00",
-      "retrieved_at": "2026-09-22T17:58:33.925147+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Sudan’s war-driven famine revives memories of past famines as war drives displacement and food shortages.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6a60e1945b7a35f12c70b0cc"
     }
   ],
   "unverified_history": [
