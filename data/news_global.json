@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-25T12:44:38.907257+00:00",
+  "updated": "2026-09-25T12:49:36.638327+00:00",
   "items": [
+    {
+      "title": "Internet restricted after fighting breaks out in Ethiopia's Tigray region",
+      "url": "https://bbc.co.uk/news/articles/cqp8dxxg325no",
+      "source": "BBC World",
+      "published": "2026-09-25T12:34:31+00:00",
+      "retrieved_at": "2026-09-25T12:49:30.235497+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "During the two-year civil war in Tigray, the region was totally cut off from the outside world.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "b5b6f90f9023319db1b1a4bd"
+    },
     {
       "title": "Fighting in northern Ethiopia spurs fears of blackout and blockade",
       "url": "https://aljazeera.com/news/2026/9/25/fighting-in-northern-ethiopia-spurs-fears-of-blackout-and-blockade",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b78f1913ff87688137cad293"
-    },
-    {
-      "title": "What Syrians want from al-Sharaa’s proposal of a ‘new Syria’ at UNGA",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/22/what-syrians-want-from-al-sharaas-proposal-of-a-new-syria-at-unga",
-      "source": "Al Jazeera",
-      "published": "2026-09-22T10:29:51+00:00",
-      "retrieved_at": "2026-09-22T10:47:24.561374+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "As President al-Sharaa is set to present a ‘new Syria’ at UNGA, Syrians at home demand safety and justice.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8e72ae9af5cc64e92cef9754"
     }
   ],
   "unverified_history": [
