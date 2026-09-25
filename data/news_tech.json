@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-25T07:49:23.132216+00:00",
+  "updated": "2026-09-25T09:29:17.129423+00:00",
   "items": [
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+      "source": "MIT Tech Review",
+      "published": "2026-09-25T09:16:25+00:00",
+      "retrieved_at": "2026-09-25T09:29:11.331776+00:00",
+      "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called “Polygraph+” or “Polygraph Next”, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing”, which…",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "fd07ef5aa1ad2688cb03df26"
+    },
     {
       "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
       "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://techcrunch.com/feed/",
       "source_type": "PUBLISHER",
       "story_fingerprint": "5e4a768f073167f87a977a29"
-    },
-    {
-      "title": "The EU Wants to Break Up Kids and Their Chatbots",
-      "url": "https://wired.com/story/the-eu-wants-to-break-up-kids-and-their-chatbots",
-      "source": "Wired",
-      "published": "2026-09-17T10:06:50+00:00",
-      "retrieved_at": "2026-09-17T18:58:27.470800+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "ChatGPT, Character.ai, and Snapchat’s My AI will all be in the crosshairs as the EU Kids Act aims to strip minor-facing chatbots of all the things that make people love them.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "460c7aa1321afaeef1990317"
     }
   ],
   "unverified_history": [
