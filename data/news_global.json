@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-26T15:39:32.530187+00:00",
+  "updated": "2026-09-26T15:49:36.410807+00:00",
   "items": [
+    {
+      "title": "Russia expected to intensify hybrid war on Europe",
+      "url": "https://dw.com/en/russia-expected-to-intensify-hybrid-war-on-europe/a-79444596",
+      "source": "DW",
+      "published": "2026-09-26T15:39:00+00:00",
+      "retrieved_at": "2026-09-26T15:49:31.918813+00:00",
+      "feed_url": "https://rss.dw.com/rdf/rss-en-world",
+      "summary": "Drone explosions, airspace violations, arson attacks: Poland, Romania, and Moldova are now regularly targeted in Russian attacks against Ukraine. More governments are calling these attacks deliberate acts of aggression.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://rss.dw.com/rdf/rss-en-world",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "1d8839968ab87c295ad500d5"
+    },
     {
       "title": "Thousands of students protest German military conscription",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/26/thousands-of-students-protest-german-military-conscription",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "8d66bf9360f67cd9415967b5"
-    },
-    {
-      "title": "‘Annihilate’ vs ‘crushing’ attacks: Why Iran, US up rhetoric amid talks",
-      "url": "https://aljazeera.com/news/2026/9/23/annihilate-vs-crushing-attacks-why-iran-us-up-rhetoric-amid-talks",
-      "source": "Al Jazeera",
-      "published": "2026-09-23T09:40:20+00:00",
-      "retrieved_at": "2026-09-23T10:21:01.013481+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "Trump threatens to 'annihilate' Iran and then brags about diplomacy, provoking Tehran to warn of a response.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "f3dd7de409376a1fbcf3d5c1"
     }
   ],
   "unverified_history": [
