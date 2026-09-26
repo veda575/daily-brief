@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T14:03:46.260677+00:00",
+  "updated": "2026-09-26T18:04:23.040788+00:00",
   "items": [
     {
       "title": "I created an interactive digital avatar of myself — and you can talk to it",
@@ -631,23 +631,6 @@
       "story_fingerprint": "819782450a11950395455b76"
     },
     {
-      "title": "Who Killed Paulina Borsook’s Career?",
-      "url": "https://wired.com/story/paulina-borsook-profile",
-      "source": "Wired",
-      "published": "2026-09-25T10:00:00+00:00",
-      "retrieved_at": "2026-09-25T10:09:15.949729+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "A quarter-century ago, Borsook published a wildly prophetic, penetrating book about Silicon Valley called Cyberselfish. Then she disappeared.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2a1090fc207f6dc57d6f8052"
-    },
-    {
       "title": "16 Products From Women Designers You Need to Know",
       "url": "https://wired.com/story/16-womens-products-you-need-to-know",
       "source": "Wired",
@@ -663,6 +646,23 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "637734601b75aaebdbfc4214"
+    },
+    {
+      "title": "Who Killed Paulina Borsook’s Career?",
+      "url": "https://wired.com/story/paulina-borsook-profile",
+      "source": "Wired",
+      "published": "2026-09-25T10:00:00+00:00",
+      "retrieved_at": "2026-09-25T10:09:15.949729+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "A quarter-century ago, Borsook published a wildly prophetic, penetrating book about Silicon Valley called Cyberselfish. Then she disappeared.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "2a1090fc207f6dc57d6f8052"
     },
     {
       "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
