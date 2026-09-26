@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-26T05:02:07.155967+00:00",
+  "updated": "2026-09-26T05:17:07.678391+00:00",
   "items": [
+    {
+      "title": "White House bars CNN from travelling with Trump on Air Force One",
+      "url": "https://bbc.co.uk/news/articles/cxq633770y16o",
+      "source": "BBC World",
+      "published": "2026-09-26T05:09:09+00:00",
+      "retrieved_at": "2026-09-26T05:17:03.005429+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "da344afbb7375b9f8e3f544f"
+    },
     {
       "title": "US official claims Trump holds all the cards in Iran talks",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/26/us-official-claims-trump-holds-all-the-cards-in-iran-talks",
@@ -3984,22 +4000,6 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "b026dfa03da16f55c0b4221e"
-    },
-    {
-      "title": "UK PM Burnham condemns ‘repulsive’ Russian electoral interference",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/23/uk-pm-burnham-condemns-repulsive-russian-electoral-interference",
-      "source": "Al Jazeera",
-      "published": "2026-09-23T01:01:17+00:00",
-      "retrieved_at": "2026-09-23T01:15:19.423083+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "UK Prime Minister Andy Burnham addressed the UN General Assembly, accusing Russia of information warfare.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "2a327e0bf68087fc18891ec6"
     }
   ],
   "unverified_history": [
