@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-26T16:19:34.280519+00:00",
+  "updated": "2026-09-26T16:39:35.992900+00:00",
   "items": [
+    {
+      "title": "Women take up arms as sexual violence ravages eastern DRC",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/26/09-26-drc-women-fighters-sv-mp4",
+      "source": "Al Jazeera",
+      "published": "2026-09-26T16:24:51+00:00",
+      "retrieved_at": "2026-09-26T16:39:31.217993+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "As war and sexual violence rage in eastern DRC, women are joining pro-government Wazalendo fighters to defend themselves",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "74b2472bd9b40486407141bc"
+    },
+    {
+      "title": "At least 10 people killed in Russian and Ukrainian attacks",
+      "url": "https://aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks",
+      "source": "Al Jazeera",
+      "published": "2026-09-26T16:16:49+00:00",
+      "retrieved_at": "2026-09-26T16:39:31.218014+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "New strikes come after the US proposes a fresh round of Russia-Ukraine ceasefire talks in the UAE.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4f8934cbf731fea4a67d316f"
+    },
     {
       "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
       "url": "https://bbc.co.uk/news/articles/cqgmrr9ekr7ko",
@@ -16,6 +48,22 @@
       "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "d082d0e8e9d8122fdc386a67"
+    },
+    {
+      "title": "Jerusalem Daily: violence continues as the world watches the UNGA",
+      "url": "https://aljazeera.com/video/newsfeed/2026/9/26/jerusalem-daily-violence-continues-as-the-world-watches-the-unga",
+      "source": "Al Jazeera",
+      "published": "2026-09-26T16:14:35+00:00",
+      "retrieved_at": "2026-09-26T16:39:31.218027+00:00",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "summary": "As the UN General Assembly enters its fifth day, with world leaders denouncing Israeli violence against Palestinians.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "27a60949d9e6444b9a1feaa8"
     },
     {
       "title": "Russia expected to intensify hybrid war on Europe",
@@ -3952,54 +4000,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "492af197e0a91c725e8127fa"
-    },
-    {
-      "title": "World leaders say UN Security Council failing to function",
-      "url": "https://aljazeera.com/video/newsfeed/2026/9/23/world-leaders-say-un-security-council-failing-to-function",
-      "source": "Al Jazeera",
-      "published": "2026-09-23T10:04:35+00:00",
-      "retrieved_at": "2026-09-23T10:21:01.013429+00:00",
-      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "summary": "World leaders say UN Security Council failing to function",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "cd61ef5425c213a5f7e61e16"
-    },
-    {
-      "title": "ASEAN: From ‘Circumvention Export Hub’ to ‘Value Creation Hub’",
-      "url": "https://thediplomat.com/2026/09/asean-from-circumvention-export-hub-to-value-creation-hub",
-      "source": "The Diplomat",
-      "published": "2026-09-23T09:54:00+00:00",
-      "retrieved_at": "2026-09-23T16:37:45.959779+00:00",
-      "feed_url": "https://thediplomat.com/feed/",
-      "summary": "As the U.S.-China rivalry hollows out the WTO, Japan and ASEAN have a chance to build something new.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://thediplomat.com/feed/",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "9a6f989f360ee29cf087101f"
-    },
-    {
-      "title": "Trump meets US-backed Venezuelan president for first time since Maduro seized",
-      "url": "https://bbc.co.uk/news/articles/cj207y30wp0lo",
-      "source": "BBC World",
-      "published": "2026-09-23T09:48:50+00:00",
-      "retrieved_at": "2026-09-23T10:06:03.927080+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Rodriguez was handpicked by Trump as leader of Venezuela was arrested and taken to the US",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "8d66bf9360f67cd9415967b5"
     }
   ],
   "unverified_history": [
