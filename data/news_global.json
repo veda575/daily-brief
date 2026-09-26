@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T13:53:51.754904+00:00",
+  "updated": "2026-09-26T13:58:50.725117+00:00",
   "items": [
     {
       "title": "The intelligence war is turning against the Houthis",
@@ -562,6 +562,22 @@
       "story_fingerprint": "6dc201e90b80a93a87897c83"
     },
     {
+      "title": "US Supreme Court allows Trump to use controversial database to check voter citizenship",
+      "url": "https://bbc.co.uk/news/articles/ck05rrj3jeylo",
+      "source": "BBC World",
+      "published": "2026-09-25T19:13:35+00:00",
+      "retrieved_at": "2026-09-26T13:58:44.305785+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "d61537ad27670fc3dba5b7bc"
+    },
+    {
       "title": "Iran threatens widespread disruption as Iraq halts Iran flights",
       "url": "https://aljazeera.com/video/newsfeed/2026/9/25/iran-threatens-widespread-disruption-as-iraq-halts-iran-flights",
       "source": "Al Jazeera",
@@ -736,22 +752,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "1504ca761935e0064f810673"
-    },
-    {
-      "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
-      "url": "https://bbc.co.uk/news/articles/ck05rrj3jeylo",
-      "source": "BBC World",
-      "published": "2026-09-25T17:32:15+00:00",
-      "retrieved_at": "2026-09-25T17:35:12.301046+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "787178cea290e2bdb8bf624a"
     },
     {
       "title": "US court upholds Pentagon’s blacklisting of Anthropic",
