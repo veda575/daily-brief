@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-26T12:08:46.691333+00:00",
+  "updated": "2026-09-26T14:03:46.260677+00:00",
   "items": [
+    {
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it",
+      "source": "TechCrunch",
+      "published": "2026-09-26T14:00:00+00:00",
+      "retrieved_at": "2026-09-26T14:03:37.970244+00:00",
+      "feed_url": "https://techcrunch.com/feed/",
+      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+      "isAI": true,
+      "category": "tech",
+      "relevance": "AI",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://techcrunch.com/feed/",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "d9d76d0b714ba353dfd1f25e"
+    },
     {
       "title": "Old-School Credit Card Scams Are Far From Dead",
       "url": "https://wired.com/story/kernel-panic-old-timey-credit-card-scams",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://openai.com/news/rss.xml",
       "source_type": "PRIMARY",
       "story_fingerprint": "772c6a90d95275b5bf48c3e9"
-    },
-    {
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "url": "https://technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered",
-      "source": "MIT Tech Review",
-      "published": "2026-09-18T11:29:22+00:00",
-      "retrieved_at": "2026-09-18T13:45:54.860984+00:00",
-      "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and…",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6fb76d297af9d048c581f928"
     }
   ],
   "unverified_history": [
