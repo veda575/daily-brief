@@ -1,6 +1,23 @@
 {
-  "updated": "2026-09-26T05:27:51.682976+00:00",
+  "updated": "2026-09-26T10:07:51.412432+00:00",
   "items": [
+    {
+      "title": "This Browser Extension Lets You Snooze Open Tabs Until Later",
+      "url": "https://wired.com/story/tuck-browser-extension-lets-you-snooze-open-tabs-until-later",
+      "source": "Wired",
+      "published": "2026-09-26T10:00:00+00:00",
+      "retrieved_at": "2026-09-26T10:07:48.466913+00:00",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "summary": "The free add-on Tuck brings one of the best features of modern email—the ability to hide something for a bit—to that tangle of tabs in your browser.",
+      "isAI": false,
+      "category": "tech",
+      "relevance": "tech",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://www.wired.com/feed/rss",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "4b86d9d6de39f51cea2df0ce"
+    },
     {
       "title": "At Meta Connect, the company’s smart glasses were everywhere",
       "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere",
@@ -4233,23 +4250,6 @@
       "evidence_url": "https://www.wired.com/feed/rss",
       "source_type": "PUBLISHER",
       "story_fingerprint": "584b80c42943af1ee3fd89fe"
-    },
-    {
-      "title": "The Leftist Split Over AI Doom",
-      "url": "https://wired.com/story/inside-the-surprising-leftist-split-over-ai-doom",
-      "source": "Wired",
-      "published": "2026-09-18T10:15:00+00:00",
-      "retrieved_at": "2026-09-19T00:11:05.777915+00:00",
-      "feed_url": "https://www.wired.com/feed/rss",
-      "summary": "The left wants AI regulation. They just can’t agree on what it should look like or how concerned they should be.",
-      "isAI": true,
-      "category": "tech",
-      "relevance": "AI",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://www.wired.com/feed/rss",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "bb2204be0343538ec1ead1e9"
     }
   ],
   "unverified_history": [
