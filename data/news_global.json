@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-26T15:49:36.410807+00:00",
+  "updated": "2026-09-26T16:19:34.280519+00:00",
   "items": [
+    {
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "url": "https://bbc.co.uk/news/articles/cqgmrr9ekr7ko",
+      "source": "BBC World",
+      "published": "2026-09-26T16:16:29+00:00",
+      "retrieved_at": "2026-09-26T16:19:29.434494+00:00",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "summary": "The US president says Tehran had only put forward the proposal because it is losing the war.",
+      "category": "global",
+      "relevance": "global",
+      "verification_status": "SOURCE_CONFIRMED",
+      "verification_method": "Publisher feed headline and attributed summary",
+      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_type": "PUBLISHER",
+      "story_fingerprint": "d082d0e8e9d8122fdc386a67"
+    },
     {
       "title": "Russia expected to intensify hybrid war on Europe",
       "url": "https://dw.com/en/russia-expected-to-intensify-hybrid-war-on-europe/a-79444596",
@@ -416,22 +432,6 @@
       "evidence_url": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_type": "PUBLISHER",
       "story_fingerprint": "072178471768cb322fa7c48a"
-    },
-    {
-      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "url": "https://bbc.co.uk/news/articles/cqgmrr9ekr7ko",
-      "source": "BBC World",
-      "published": "2026-09-26T04:14:30+00:00",
-      "retrieved_at": "2026-09-26T04:26:58.288654+00:00",
-      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
-      "category": "global",
-      "relevance": "global",
-      "verification_status": "SOURCE_CONFIRMED",
-      "verification_method": "Publisher feed headline and attributed summary",
-      "evidence_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_type": "PUBLISHER",
-      "story_fingerprint": "6ba3180e5962dc762eedddf1"
     },
     {
       "title": "Yemen’s government offers amnesty to Houthi defectors",
